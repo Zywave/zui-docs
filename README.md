@@ -1,4 +1,4 @@
-# [zui-docs
+# zui-docs
 
 https://zui.zywave.com
 
