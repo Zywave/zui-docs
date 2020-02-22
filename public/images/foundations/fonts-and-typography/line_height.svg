@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="350" height="113" viewBox="0 0 350 113">
+  <defs>
+    <clipPath id="clip-Line_Height">
+      <rect width="350" height="113"/>
+    </clipPath>
+  </defs>
+  <g id="Line_Height" data-name="Line Height" clip-path="url(#clip-Line_Height)">
+    <rect width="350" height="113" fill="#fff"/>
+    <g id="Group_1" data-name="Group 1" transform="translate(0 -15)">
+      <text id="Zywave" transform="translate(200 80)" fill="#2f2f2f" font-size="26" font-family="SegoeUI-Semilight, Segoe UI" font-weight="300"><tspan x="0" y="0">Zywave</tspan></text>
+      <line id="Line_1" data-name="Line 1" x2="153" transform="translate(159.5 61.5)" fill="none" stroke="#4dd1c8" stroke-width="1" opacity="0.5"/>
+      <line id="Line_2" data-name="Line 2" x2="153" transform="translate(159.5 87.5)" fill="none" stroke="#4dd1c8" stroke-width="1" opacity="0.5"/>
+      <line id="Line_3" data-name="Line 3" x2="215.3" transform="translate(97.2 95.1)" fill="none" stroke="#c6318c" stroke-width="1" opacity="0.5"/>
+      <line id="Line_4" data-name="Line 4" x2="215.3" transform="translate(97.2 53.5)" fill="none" stroke="#c6318c" stroke-width="1" opacity="0.5"/>
+      <path id="Path_1" data-name="Path 1" d="M3146.267,244.5h-8.533v26h8.533" transform="translate(-2978 -183)" fill="none" stroke="#30bbb1" stroke-width="1"/>
+      <path id="Path_2" data-name="Path 2" d="M3146.267,244.5h-8.533v41.6h8.533" transform="translate(-3049 -191)" fill="none" stroke="#c6318c" stroke-width="1"/>
+      <text id="Font_Size" data-name="Font Size" transform="translate(100 79)" fill="#30bbb1" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Font Size</tspan></text>
+      <text id="Line-height" transform="translate(13 79)" fill="#c6318c" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Line-height</tspan></text>
+    </g>
+  </g>
+</svg>

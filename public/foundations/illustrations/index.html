@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html><head>
+    <title>Illustrations | Zywave User Interface</title>
+    <link href="http://zui.zywave.com/css/ie-sucks.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://unpkg.com/@zywave/zui-bundle@next/dist/css/zui-bundle.fouc.css" />
+    <link rel="stylesheet" href="https://unpkg.com/@zywave/zui-bundle@next/dist/css/zui-bundle.app.css" />
+    <link href="http://zui.zywave.com/css/base.css" rel="stylesheet" />
+    <link href="http://zui.zywave.com/css/shortcodes.css" rel="stylesheet" />
+    <link href="http://zui.zywave.com/css/syntax-highlighting-monokai.css" rel="stylesheet" />
+    <link rel='shortcut icon' type='image/x-icon' href='http://zui.zywave.com/static/favicon.ico' />
+    <script src="http://zui.zywave.com/js/ie-sucks.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.3.0/fuse.min.js"></script>
+    <style>
+        :root {
+            --zui-shell-primary-theme: var(--zui-green);
+            --zui-shell-primary-theme-dark: var(--zui-green-600);
+            --zui-tabs-color: var(--zui-green);
+        }
+    </style>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const externalLinks = document.querySelectorAll('a[href^="http://"], a[href^="https://"]');
+            for (const l of externalLinks) {
+                if (l.href.indexOf("http://zui.zywave.com/") < 0) {
+                    l.target = '_blank';
+                }
+            }
+        });
+
+        
+        
+    </script>
+</head>
+<body>
+        <ie-sucks>
+            No. Stop it. Use a real browser.
+        </ie-sucks>
+        <zui-shell app-name="ZUI Documentation"><zui-shell-topbar>
+    <zui-logo slot="logo"></zui-logo>
+</zui-shell-topbar>
+
+
+
+<zui-shell-nav>
+    <zui-shell-nav-item>
+        <zui-icon icon="zui-nav-home" slot="icon"></zui-icon>
+        <a href="http://zui.zywave.com/" active>Home</a>
+    </zui-shell-nav-item>
+    
+    
+    <zui-shell-nav-item subnav>
+        <zui-icon icon="zui-nav-developers" slot="icon"></zui-icon>
+        
+            <span>Developers</span>
+            
+            
+            
+            
+            <a href="http://zui.zywave.com/developers/contribution-guide/" >Contribution guide</a>
+            
+            <a href="http://zui.zywave.com/developers/developing-zui/" >Developing ZUI</a>
+            
+            <a href="http://zui.zywave.com/developers/installation/" >Installation</a>
+            
+            <a href="http://zui.zywave.com/developers/lit/" >Lit 🔥</a>
+            
+            <a href="http://zui.zywave.com/developers/polyfills/" >Polyfills</a>
+            
+            <a href="http://zui.zywave.com/developers/responsive-design/" >Responsive design</a>
+            
+            <a href="http://zui.zywave.com/developers/tooling/" >Tooling</a>
+            
+            <a href="http://zui.zywave.com/developers/webcomponents/" >Web components</a>
+            
+        
+    </zui-shell-nav-item>
+    
+    
+    <zui-shell-nav-item subnav>
+        <zui-icon icon="zui-nav-foundations" slot="icon"></zui-icon>
+        
+            <span>Foundations</span>
+            
+            
+                
+            
+            
+            
+            <a href="http://zui.zywave.com/foundations/colors/" >Colors</a>
+            
+            <a href="http://zui.zywave.com/foundations/content-area/" >Content area</a>
+            
+            <a href="http://zui.zywave.com/foundations/fonts-typography/" >Fonts &amp; typography</a>
+            
+            <a href="http://zui.zywave.com/foundations/footer/" >Footer</a>
+            
+            <a href="http://zui.zywave.com/foundations/icons/" >Icons</a>
+            
+            <a href="http://zui.zywave.com/foundations/illustrations/" active>Illustrations</a>
+            
+            <a href="http://zui.zywave.com/foundations/product-branding/" >Product branding</a>
+            
+            <a href="http://zui.zywave.com/foundations/shell/" >Shell</a>
+            
+            <a href="http://zui.zywave.com/foundations/sidenav/" >Sidenav</a>
+            
+            <a href="http://zui.zywave.com/foundations/topbar/" >Topbar</a>
+            
+        
+    </zui-shell-nav-item>
+    
+    
+    <zui-shell-nav-item subnav>
+        <zui-icon icon="zui-nav-components" slot="icon"></zui-icon>
+        
+            <span>Components</span>
+            
+            
+                
+            
+            
+            
+            <a href="http://zui.zywave.com/components/breadcrumbs/" >Breadcrumbs</a>
+            
+            <a href="http://zui.zywave.com/components/buttons-dropdown/" >Button dropdowns</a>
+            
+            <a href="http://zui.zywave.com/components/buttons/" >Buttons</a>
+            
+            <a href="http://zui.zywave.com/components/checkboxes/" >Checkboxes</a>
+            
+            <a href="http://zui.zywave.com/components/dialogs/" >Dialogs</a>
+            
+            <a href="http://zui.zywave.com/components/dropdown-multi-select/" >Dropdown multi-select</a>
+            
+            <a href="http://zui.zywave.com/components/dropdown-select/" >Dropdown select</a>
+            
+            <a href="http://zui.zywave.com/components/expanders/" >Expanders</a>
+            
+            <a href="http://zui.zywave.com/components/file-selector/" >File Selector</a>
+            
+            <a href="http://zui.zywave.com/components/notifiers/" >Notifiers</a>
+            
+            <a href="http://zui.zywave.com/components/radio-buttons/" >Radio buttons</a>
+            
+            <a href="http://zui.zywave.com/components/tabs/" >Tabs</a>
+            
+            <a href="http://zui.zywave.com/components/text-input/" >Text Input</a>
+            
+            <a href="http://zui.zywave.com/components/toggles/" >Toggles</a>
+            
+            <a href="http://zui.zywave.com/components/tooltips/" >Tooltips</a>
+            
+            <a href="http://zui.zywave.com/components/wells/" >Well</a>
+            
+        
+    </zui-shell-nav-item>
+    
+    
+    <zui-shell-nav-item subnav>
+        <zui-icon icon="zui-nav-patterns" slot="icon"></zui-icon>
+        
+            <span>Patterns</span>
+            
+            
+                
+            
+            
+            
+            <a href="http://zui.zywave.com/patterns/forms/" >Forms</a>
+            
+            <a href="http://zui.zywave.com/patterns/step-flow/" >Step flow</a>
+            
+            <a href="http://zui.zywave.com/patterns/typeahead/" >Typeahead</a>
+            
+        
+    </zui-shell-nav-item>
+    
+    
+    <zui-shell-nav-item subnav>
+        <zui-icon icon="zui-nav-help" slot="icon"></zui-icon>
+        
+            <span>Communications</span>
+            
+            
+                
+            
+            
+            
+            <a href="http://zui.zywave.com/communications/messages/" >Messages</a>
+            
+            <a href="http://zui.zywave.com/communications/voice-tone/" >Voice &amp; tone</a>
+            
+            <a href="http://zui.zywave.com/communications/writing-style-guide/" >Writing style guide</a>
+            
+        
+    </zui-shell-nav-item>
+    
+    
+    <zui-shell-nav-item >
+        <zui-icon icon="zui-nav-accounts" slot="icon"></zui-icon>
+        
+            <a href="http://zui.zywave.com/personas/" >Personas</a>
+        
+    </zui-shell-nav-item>
+    
+    <script>
+        
+        const activeLinks = document.querySelectorAll('zui-shell-nav-item a[active]');
+            for (let activeLink of activeLinks) {
+                activeLink.closest('zui-shell-nav-item').expanded = true;
+            }
+    </script>
+</zui-shell-nav>
+<zui-shell-content id="content">
+                <section class="zui-layout zui-layout--slim">
+                    <div class="page-heading">
+                        <h1>Illustrations</h1>
+                        
+                    </div>
+                    <div class="content-container">
+                        <p><center>
+<img src="http://zui.zywave.com/images/foundations/illustrations/loading.svg" alt="hero illustration example" />
+</center></p>
+
+<p>Our illustrations are broken into two main categories, hero illustrations and spot illustrations.
+Regardless of the type, the answer to these 3 questions should always be yes.</p>
+
+<p><br/>
+<strong>Is it thoughtful?</strong></p>
+
+<p>The purpose of our illustrations is to draw attention to a specific portion of the UI. They should be informative and add clarity to the content they were designed for.</p>
+
+<p><br/>
+<strong>Is it focused?</strong></p>
+
+<p>Our illustrations contain a single subject. Each design should have one focal point and have a clear visual hierarchy of supporting elements that support one main topic.</p>
+
+<p><br/>
+<strong>Is it professional and fun?</strong></p>
+
+<p>Our illustrations are relatable and add a human element to our otherwise very clean and professional UI. Characters in our illustrations add an element of fun and convey emotion.</p>
+
+<div class="spacer "></div>
+
+
+
+
+<dom-bind>
+    <template>
+        <zui-tabs selected="{{page}}">
+            
+            <zui-tab>Hero illustrations</zui-tab>
+            
+            <zui-tab>Spot illustrations</zui-tab>
+            
+        </zui-tabs>
+        <zui-pages selected="[[page]]">
+            
+            <div>
+                
+                <h2 id="hero-illustrations">Hero illustrations</h2>
+
+<p>Hero illustrations are our most complex visual. The main purpose of these illustrations is to add weight to an element on the page and support the content they are related to. These large-scale images should be reserved for when you need to guide a user through a UI, prevent frustration, complete an experience, or reward/delight a user. They are not only larger than our spot illustrations, but also more saturated with color.</p>
+
+<p>More details about hero illustrations and instructions on how to make them can be found on our <a href="https://confluence.zywave.com/x/jgDJPg">hero illustration confluence page.</a>
+<br/>
+<br/></p>
+
+<h3 id="hero-illustration-anatomy">Hero illustration anatomy</h3>
+
+<ul>
+<li>Organic gray background shape</li>
+<li><strong>Must</strong> contain the following: Human illustration and some sort of accompanying background element: ie. a computer or bookshelf</li>
+<li><strong>May</strong> contain the following: animals, decorative flair, stylized imagery</li>
+</ul>
+
+<p>These illustrations can vary in size depending on the location they are designed for, but a good rule of thumb is to never make them smaller than 200x200px and generally no larger than 600x400px for full page landscape illustrations.</p>
+
+<p>We are continually building a library of pieces that can be combined to create hero illustrations. Whether you start from scratch or build an illustration using this library, you should be creating them in a way that the final output can inherit agency branding if applicable. To do so, use one base color for the primary elements in the illustration and apply opaque black and white layers on top to create the necessary shades.
+<br/>
+<br/></p>
+
+<h3 id="hero-illustration-example">Hero illustration example</h3>
+
+<p>This example shows what it looks like when the base color is changed on the pieces that make up the illustration.</p>
+
+<div class="grid">
+    <div class='grid-col span-6'>
+    <p><img src="http://zui.zywave.com/images/foundations/illustrations/hero-blue.svg" alt="hero illustration blue" /></p>
+
+</div>
+<div class='grid-col span-6'>
+    <p><img src="http://zui.zywave.com/images/foundations/illustrations/hero-orange.svg" alt="hero illustration orange" /></p>
+
+</div>
+
+<p></div></p>
+
+                
+            </div>
+            
+            <div>
+                
+                <h2 id="spot-illustrations">Spot illustrations</h2>
+
+<p>Spot illustrations are a simplified version of our hero illustrations that can be used anywhere that needs more visual interest than our system icons can provide. These illustrations fall between the hero illustrations and system icons in our visual hierarchy. Spot illustrations can greatly improve the user experience by visually explaining a complex feature, introducing new concepts, and delighting our users.</p>
+
+<p>Spot illustrations are typically found within empty states, introduction screens, dashboard modules, confirmation screens, and error pages. They are used to fill empty space and quickly convey a message to the user that could otherwise be easily overlooked.</p>
+
+<p>More details about spot illustrations and how to create them can be found on our <a href="https://confluence.zywave.com/x/SIA_O">spot illustrations confluence page.</a>
+<br/>
+<br/></p>
+
+<h3 id="spot-illustration-anatomy">Spot illustration anatomy</h3>
+
+<ul>
+<li>Organic gray background shape</li>
+<li>Grayscale core illustration</li>
+<li>Colored supplementary illustration</li>
+</ul>
+
+<p>The core illustration is primarily line art, but uses 3 values (dark, midtone and white) to convey depth.<br />
+The supplementary illustration is always located in the lower right corner. While these illustrations are colored the different shades are created by using opaque black and white on top of one solid color shape. This allows the final illustrations in our products inherit agency branding where applicable.
+<br/>
+<br/></p>
+
+<h3 id="spot-illustration-examples">Spot illustration examples</h3>
+
+<div class="grid">
+    <div class='grid-col span-4'>
+    <p><img src="http://zui.zywave.com/images/foundations/illustrations/spot-calendar.svg" alt="spot illustration compliance calendar" /></p>
+
+</div>
+<div class='grid-col span-4'>
+    <p><img src="http://zui.zywave.com/images/foundations/illustrations/spot-fmla.svg" alt="spot illustration fmla tool" /></p>
+
+</div>
+<div class='grid-col span-4'>
+    <p><img src="http://zui.zywave.com/images/foundations/illustrations/spot-phone.svg" alt="spot illustration phone interview question builder" /></p>
+
+</div>
+
+<p></div></p>
+
+                
+            </div>
+            
+        </zui-pages>
+    </template>
+</dom-bind>
+
+
+
+                    </div>
+                </section>
+            </zui-shell-content><zui-shell-footer>
+    <div>
+        &copy; 1995 - 2020 Zywave, Inc. All rights reserved.
+    </div>
+    <a class="zui-link" target="_blank" href="http://www.zywave.com/terms-conditions/">Terms and Conditions</a>
+    <a class="zui-link" target="_blank" href="http://www.zywave.com/privacy-statement/">Privacy Statement</a>
+    <a class="zui-link" target="_blank" href="http://www.zywave.com/dmca-notice/">DMCA</a></div>
+    <a class="zui-link" target="_blank" href="http://www.zywave.com/cookie-usage/">Cookie Usage</a>
+    <a class="zui-link" href="mailto:support@zywave.com">Contact</a>
+</zui-shell-footer>
+<script src="https://unpkg.com/@zywave/zui-bundle@next/dist/zui-loader.js"></script>
+</zui-shell>
+    </body>
+</html>

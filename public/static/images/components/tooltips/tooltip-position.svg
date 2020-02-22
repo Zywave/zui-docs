@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="627" height="193" viewBox="0 0 627 193">
+  <defs>
+    <filter id="Union_9" x="153.5" y="63.5" width="126" height="50.656" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1.5" result="blur"/>
+      <feFlood flood-opacity="0.2"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Union_11" x="445.5" y="69.5" width="131.314" height="45" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1.5" result="blur-2"/>
+      <feFlood flood-opacity="0.2"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Union_10" x="307.5" y="69.5" width="131" height="45" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1.5" result="blur-3"/>
+      <feFlood flood-opacity="0.2"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Union_8" x="34.5" y="69.5" width="112" height="50.656" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1.5" result="blur-4"/>
+      <feFlood flood-opacity="0.2"/>
+      <feComposite operator="in" in2="blur-4"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-Artboard_1">
+      <rect width="627" height="193"/>
+    </clipPath>
+  </defs>
+  <g id="Artboard_1" data-name="Artboard – 1" clip-path="url(#clip-Artboard_1)">
+    <rect width="627" height="193" fill="#fff"/>
+    <g id="Group_13692" data-name="Group 13692" transform="translate(-22 16.657)">
+      <g transform="matrix(1, 0, 0, 1, 22, -16.66)" filter="url(#Union_9)">
+        <path id="Union_9-2" data-name="Union 9" d="M-1372-2856.344a5,5,0,0,1-5-5v-26a5,5,0,0,1,5-5h47l5.656-5.656,5.657,5.656H-1265a5,5,0,0,1,5,5v26a5,5,0,0,1-5,5Z" transform="translate(1535 2963)" fill="#31313a"/>
+      </g>
+      <text id="Tooltip_bottom" data-name="Tooltip bottom" transform="translate(239 77)" fill="#fff" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="-46.074" y="0">Tooltip bottom</tspan></text>
+    </g>
+    <g id="Group_13690" data-name="Group 13690" transform="translate(-24 18)">
+      <g transform="matrix(1, 0, 0, 1, 24, -18)" filter="url(#Union_11)">
+        <path id="Union_11-2" data-name="Union 11" d="M-1367-2862a5,5,0,0,1-5-5v-26a5,5,0,0,1,5-5h107a5,5,0,0,1,5,5v7.687l5.314,5.313-5.314,5.313V-2867a5,5,0,0,1-5,5Z" transform="translate(1822 2969)" fill="#31313a"/>
+      </g>
+      <text id="Tooltip_left" data-name="Tooltip left" transform="translate(532 75)" fill="#fff" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="-32.901" y="0">Tooltip left</tspan></text>
+    </g>
+    <g id="Group_13689" data-name="Group 13689" transform="translate(-14 18)">
+      <g transform="matrix(1, 0, 0, 1, 14, -18)" filter="url(#Union_10)">
+        <path id="Union_10-2" data-name="Union 10" d="M-1367-2862a5,5,0,0,1-5-5v-8l-5-5,5-5v-8a5,5,0,0,1,5-5h107a5,5,0,0,1,5,5v26a5,5,0,0,1-5,5Z" transform="translate(1689 2969)" fill="#31313a"/>
+      </g>
+      <text id="Tooltip_right" data-name="Tooltip right" transform="translate(387 75)" fill="#fff" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="-37.567" y="0">Tooltip right</tspan></text>
+    </g>
+    <g id="Group_13693" data-name="Group 13693" transform="translate(-6 14)">
+      <g id="Group_9118" data-name="Group 9118" transform="translate(-10 3)">
+        <g transform="matrix(1, 0, 0, 1, 16, -17)" filter="url(#Union_8)">
+          <path id="Union_8-2" data-name="Union 8" d="M-1331.172-2862H-1372a5,5,0,0,1-5-5v-26a5,5,0,0,1,5-5h93a5,5,0,0,1,5,5v26a5,5,0,0,1-5,5h-40.858l-5.656,5.656Z" transform="translate(1416 2969)" fill="#31313a"/>
+        </g>
+        <text id="Tooltip_top" data-name="Tooltip top" transform="translate(73 76)" fill="#fff" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Tooltip top</tspan></text>
+      </g>
+    </g>
+    <g id="Group_13686" data-name="Group 13686" transform="translate(-330 -1074)">
+      <circle id="Ellipse_365" data-name="Ellipse 365" cx="8" cy="8" r="8" transform="translate(412 1192)" fill="#1f5ea8"/>
+      <text id="_" data-name="?" transform="translate(417.786 1203.5)" fill="#fff" font-size="9" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">?</tspan></text>
+    </g>
+    <g id="Group_13707" data-name="Group 13707" transform="translate(-205 -1148)">
+      <circle id="Ellipse_365-2" data-name="Ellipse 365" cx="8" cy="8" r="8" transform="translate(412 1192)" fill="#1f5ea8"/>
+      <text id="_2" data-name="?" transform="translate(417.786 1203.5)" fill="#fff" font-size="9" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">?</tspan></text>
+    </g>
+    <g id="Group_13708" data-name="Group 13708" transform="translate(-121 -1111)">
+      <circle id="Ellipse_365-3" data-name="Ellipse 365" cx="8" cy="8" r="8" transform="translate(412 1192)" fill="#1f5ea8"/>
+      <text id="_3" data-name="?" transform="translate(417.786 1203.5)" fill="#fff" font-size="9" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">?</tspan></text>
+    </g>
+    <g id="Group_13709" data-name="Group 13709" transform="translate(165 -1111)">
+      <circle id="Ellipse_365-4" data-name="Ellipse 365" cx="8" cy="8" r="8" transform="translate(412 1192)" fill="#1f5ea8"/>
+      <text id="_4" data-name="?" transform="translate(417.786 1203.5)" fill="#fff" font-size="9" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">?</tspan></text>
+    </g>
+  </g>
+</svg>

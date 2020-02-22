@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html><head>
+    <title>Step flow | Zywave User Interface</title>
+    <link href="http://zui.zywave.com/css/ie-sucks.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://unpkg.com/@zywave/zui-bundle@next/dist/css/zui-bundle.fouc.css" />
+    <link rel="stylesheet" href="https://unpkg.com/@zywave/zui-bundle@next/dist/css/zui-bundle.app.css" />
+    <link href="http://zui.zywave.com/css/base.css" rel="stylesheet" />
+    <link href="http://zui.zywave.com/css/shortcodes.css" rel="stylesheet" />
+    <link href="http://zui.zywave.com/css/syntax-highlighting-monokai.css" rel="stylesheet" />
+    <link rel='shortcut icon' type='image/x-icon' href='http://zui.zywave.com/static/favicon.ico' />
+    <script src="http://zui.zywave.com/js/ie-sucks.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.3.0/fuse.min.js"></script>
+    <style>
+        :root {
+            --zui-shell-primary-theme: var(--zui-green);
+            --zui-shell-primary-theme-dark: var(--zui-green-600);
+            --zui-tabs-color: var(--zui-green);
+        }
+    </style>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const externalLinks = document.querySelectorAll('a[href^="http://"], a[href^="https://"]');
+            for (const l of externalLinks) {
+                if (l.href.indexOf("http://zui.zywave.com/") < 0) {
+                    l.target = '_blank';
+                }
+            }
+        });
+
+        
+        
+    </script>
+</head>
+<body>
+        <ie-sucks>
+            No. Stop it. Use a real browser.
+        </ie-sucks>
+        <zui-shell app-name="ZUI Documentation"><zui-shell-topbar>
+    <zui-logo slot="logo"></zui-logo>
+</zui-shell-topbar>
+
+
+
+<zui-shell-nav>
+    <zui-shell-nav-item>
+        <zui-icon icon="zui-nav-home" slot="icon"></zui-icon>
+        <a href="http://zui.zywave.com/" active>Home</a>
+    </zui-shell-nav-item>
+    
+    
+    <zui-shell-nav-item subnav>
+        <zui-icon icon="zui-nav-developers" slot="icon"></zui-icon>
+        
+            <span>Developers</span>
+            
+            
+            
+            
+            <a href="http://zui.zywave.com/developers/contribution-guide/" >Contribution guide</a>
+            
+            <a href="http://zui.zywave.com/developers/developing-zui/" >Developing ZUI</a>
+            
+            <a href="http://zui.zywave.com/developers/installation/" >Installation</a>
+            
+            <a href="http://zui.zywave.com/developers/lit/" >Lit 🔥</a>
+            
+            <a href="http://zui.zywave.com/developers/polyfills/" >Polyfills</a>
+            
+            <a href="http://zui.zywave.com/developers/responsive-design/" >Responsive design</a>
+            
+            <a href="http://zui.zywave.com/developers/tooling/" >Tooling</a>
+            
+            <a href="http://zui.zywave.com/developers/webcomponents/" >Web components</a>
+            
+        
+    </zui-shell-nav-item>
+    
+    
+    <zui-shell-nav-item subnav>
+        <zui-icon icon="zui-nav-foundations" slot="icon"></zui-icon>
+        
+            <span>Foundations</span>
+            
+            
+                
+            
+            
+            
+            <a href="http://zui.zywave.com/foundations/colors/" >Colors</a>
+            
+            <a href="http://zui.zywave.com/foundations/content-area/" >Content area</a>
+            
+            <a href="http://zui.zywave.com/foundations/fonts-typography/" >Fonts &amp; typography</a>
+            
+            <a href="http://zui.zywave.com/foundations/footer/" >Footer</a>
+            
+            <a href="http://zui.zywave.com/foundations/icons/" >Icons</a>
+            
+            <a href="http://zui.zywave.com/foundations/illustrations/" >Illustrations</a>
+            
+            <a href="http://zui.zywave.com/foundations/product-branding/" >Product branding</a>
+            
+            <a href="http://zui.zywave.com/foundations/shell/" >Shell</a>
+            
+            <a href="http://zui.zywave.com/foundations/sidenav/" >Sidenav</a>
+            
+            <a href="http://zui.zywave.com/foundations/topbar/" >Topbar</a>
+            
+        
+    </zui-shell-nav-item>
+    
+    
+    <zui-shell-nav-item subnav>
+        <zui-icon icon="zui-nav-components" slot="icon"></zui-icon>
+        
+            <span>Components</span>
+            
+            
+                
+            
+            
+            
+            <a href="http://zui.zywave.com/components/breadcrumbs/" >Breadcrumbs</a>
+            
+            <a href="http://zui.zywave.com/components/buttons-dropdown/" >Button dropdowns</a>
+            
+            <a href="http://zui.zywave.com/components/buttons/" >Buttons</a>
+            
+            <a href="http://zui.zywave.com/components/checkboxes/" >Checkboxes</a>
+            
+            <a href="http://zui.zywave.com/components/dialogs/" >Dialogs</a>
+            
+            <a href="http://zui.zywave.com/components/dropdown-multi-select/" >Dropdown multi-select</a>
+            
+            <a href="http://zui.zywave.com/components/dropdown-select/" >Dropdown select</a>
+            
+            <a href="http://zui.zywave.com/components/expanders/" >Expanders</a>
+            
+            <a href="http://zui.zywave.com/components/file-selector/" >File Selector</a>
+            
+            <a href="http://zui.zywave.com/components/notifiers/" >Notifiers</a>
+            
+            <a href="http://zui.zywave.com/components/radio-buttons/" >Radio buttons</a>
+            
+            <a href="http://zui.zywave.com/components/tabs/" >Tabs</a>
+            
+            <a href="http://zui.zywave.com/components/text-input/" >Text Input</a>
+            
+            <a href="http://zui.zywave.com/components/toggles/" >Toggles</a>
+            
+            <a href="http://zui.zywave.com/components/tooltips/" >Tooltips</a>
+            
+            <a href="http://zui.zywave.com/components/wells/" >Well</a>
+            
+        
+    </zui-shell-nav-item>
+    
+    
+    <zui-shell-nav-item subnav>
+        <zui-icon icon="zui-nav-patterns" slot="icon"></zui-icon>
+        
+            <span>Patterns</span>
+            
+            
+                
+            
+            
+            
+            <a href="http://zui.zywave.com/patterns/forms/" >Forms</a>
+            
+            <a href="http://zui.zywave.com/patterns/step-flow/" active>Step flow</a>
+            
+            <a href="http://zui.zywave.com/patterns/typeahead/" >Typeahead</a>
+            
+        
+    </zui-shell-nav-item>
+    
+    
+    <zui-shell-nav-item subnav>
+        <zui-icon icon="zui-nav-help" slot="icon"></zui-icon>
+        
+            <span>Communications</span>
+            
+            
+                
+            
+            
+            
+            <a href="http://zui.zywave.com/communications/messages/" >Messages</a>
+            
+            <a href="http://zui.zywave.com/communications/voice-tone/" >Voice &amp; tone</a>
+            
+            <a href="http://zui.zywave.com/communications/writing-style-guide/" >Writing style guide</a>
+            
+        
+    </zui-shell-nav-item>
+    
+    
+    <zui-shell-nav-item >
+        <zui-icon icon="zui-nav-accounts" slot="icon"></zui-icon>
+        
+            <a href="http://zui.zywave.com/personas/" >Personas</a>
+        
+    </zui-shell-nav-item>
+    
+    <script>
+        
+        const activeLinks = document.querySelectorAll('zui-shell-nav-item a[active]');
+            for (let activeLink of activeLinks) {
+                activeLink.closest('zui-shell-nav-item').expanded = true;
+            }
+    </script>
+</zui-shell-nav>
+<zui-shell-content id="content">
+                <section class="zui-layout zui-layout--slim">
+                    <div class="page-heading">
+                        <h1>Step flow</h1>
+                        
+                    </div>
+                    <div class="content-container">
+                        
+
+<h2 id="what-is-a-step-flow">What is a step flow?</h2>
+
+<p>A step flow is a series of pages designed to walk the user through a defined workflow with a specific end.</p>
+
+<h2 id="when-to-use">When to use</h2>
+
+<p>Use step flows to focus the user on a single task and reduce the cognitive load of complex tasks in a single, related workflow.</p>
+
+<h4 id="alternate-considerations">Alternate considerations</h4>
+
+<ul>
+<li>Use <a href="http://zui.zywave.com/components/zui-expanders">expanders</a> to break long blocks of content into separate sections with independent workflows.</li>
+<li>Use <a href="http://zui.zywave.com/components/zui-tabs">tabs</a> to break content into distinct workflows that can be completed independently, or to offer alternative views of the same information.</li>
+</ul>
+
+<!-- <a class="scroll-to-top u-semi-bold">Back to top</a> -->
+
+<hr>
+
+<!-- ###### External Links
+
+* [Design specs](https://xd.adobe.com/spec/a470f91a-f0f7-4a18-475c-6557e480b3e7-d241/)
+* <span class="u-semi-bold" href="" target="_blank">Live example (coming soon)</span>
+* <span class="u-semi-bold" href="" target="_blank">ZUI toolkit (coming soon)</span>
+* <span class="u-semi-bold" href="" target="_blank">GitLab repo (coming soon)</span> -->
+
+<h3 id="pattern-basics">Pattern basics</h3>
+
+<div class="grid">
+    <div class='grid-col span-4'>
+    <h5 id="launching-a-step-flow">Launching a step flow</h5>
+
+<p>Step flows may appear in a number of different places in our products, and may be launched from a number of different components (e.g., buttons, links, etc.).</p>
+
+<h5 id="full-page-overlay">Full-page overlay</h5>
+
+<p>To focus user attention, we recommend a full-page overlay that animates in and covers the entire screen, including the top bar and side navigation. For different size considerations, see <a href="http://zui.zywave.com/components/zui-dialog">dialog</a>.</p>
+
+<h5 id="navigation">Navigation</h5>
+
+<p>Basic navigation controls include &ldquo;next&rdquo; and &ldquo;back&rdquo; buttons in the lower right corner of the dialog, as well as an &ldquo;exit&rdquo; action in the upper right corner of the dialog.</p>
+
+<h5 id="number-of-steps">Number of steps</h5>
+
+<p>While there&rsquo;s no fixed number, try to limit step flows to between 3 and 10 steps. Fewer than 3 can probably be combined onto a single screen, and more than 10 might better be served by breaking up the workflow differently (e.g., using tabs, multiple step flows, etc.).</p>
+
+<p><a href="https://xd.adobe.com/spec/a470f91a-f0f7-4a18-475c-6557e480b3e7-d241/screen/581f31c0-629a-4404-859c-211032f6610c/">See basic step flow anatomy specs</a></p>
+
+</div>
+
+<div class='grid-col span-8'>
+    <p><img src="http://zui.zywave.com/images/components/step-flow/step-flow-anatomy.svg" alt="Basic step flow anatomy." /></p>
+
+</div>
+
+</div>
+
+<!-- <a class="scroll-to-top u-semi-bold">Back to top</a> -->
+
+<hr>
+
+<h3 id="context">Context</h3>
+
+<div class="grid">
+    <div class='grid-col span-4'>
+    <h5 id="intro-screen">Intro screen</h5>
+
+<ul>
+<li>When possible and not redundant, it&rsquo;s a good idea to include an intro page.</li>
+<li>The intro should reiterate the basic scope and purpose of the step flow.</li>
+<li>If completing a step flow will become impossible based upon the user&rsquo;s answer to certain questions, it&rsquo;s a best practice to include those questions on this intro page. That way, the user doesn&rsquo;t enter a flow that&rsquo;s impossible to finish.</li>
+</ul>
+
+<p><a href="https://xd.adobe.com/spec/a470f91a-f0f7-4a18-475c-6557e480b3e7-d241/screen/630107ae-33a0-4ee8-b6c4-157c50d42034/">See intro screen specs</a></p>
+
+</div>
+
+<div class='grid-col span-8'>
+    <p><img src="http://zui.zywave.com/images/components/step-flow/step-flow-intro-screen.svg" alt="Intro screen of a step flow process." /></p>
+
+</div>
+
+<div class='grid-col span-4'>
+    <h5 id="completion-screen">Completion screen</h5>
+
+<ul>
+<li>In order to signal the end of the step flow, include a completion screen, which validates that the action has been completed.</li>
+<li>The completion screen can be dismissed by a single action button, and should indicate where the user will land upon clicking it.</li>
+</ul>
+
+<p><a href="https://xd.adobe.com/spec/a470f91a-f0f7-4a18-475c-6557e480b3e7-d241/screen/ae18feb7-90a5-4445-9e2b-35d414c824fa/">See completion screen specs</a></p>
+
+</div>
+
+<div class='grid-col span-8'>
+    <p><img src="http://zui.zywave.com/images/components/step-flow/step-flow-completion-screen.svg" alt="Completion screen of a step flow process." /></p>
+
+</div>
+
+</div>
+
+<!-- <a class="scroll-to-top u-semi-bold">Back to top</a> -->
+
+<hr>
+
+<h3 id="exiting-and-returning">Exiting and returning</h3>
+
+<ul>
+<li>Ideally, a user would complete a step flow in a single, uninterrupted session. However, sometimes, the user may want or need to leave before completing the step flow.
+
+<ul>
+<li>Designers and developers should decide whether or not the progress of an incomplete flow will be saved if exiting before complete.</li>
+<li>When the user clicks the exit button, a dialog will pop up to alert the user of the consequences of leaving (saving or not saving data) and asking for confirmation of the action.</li>
+</ul></li>
+<li>A deep link into a step flow should take the user to the intro screen or, if there is no intro, the first step of the flow.</li>
+<li>The action on the completion screen always saves the user&rsquo;s work.</li>
+<li>If returning to a saved step flow to edit or review information, you may want to include a text link that allows the user to skip straight to the end, or to the step flow&rsquo;s review page. This link would appear after reaching the end and returning to a previous step or exiting and returning.</li>
+</ul>
+
+<!-- <a class="scroll-to-top u-semi-bold">Back to top</a> -->
+
+<hr>
+
+<h3 id="step-flow-with-a-progress-indicator">Step flow with a progress indicator</h3>
+
+<div class="grid">
+    <div class='grid-col span-4'>
+    <ul>
+<li>Only use a progress indicator if you know exactly how many steps are in the process.</li>
+<li>Both horizontal and vertical progress indicators are available.</li>
+</ul>
+
+<p>For more information about the component itself, see the <a href="#">step progress indicator page</a>.</p>
+
+</div>
+
+<div class='grid-col span-8'>
+    <p><img src="http://zui.zywave.com/images/components/step-flow/progress-indicator-horizontal.svg" alt="Step flow with a horizontal progress indicator." /></p>
+
+<p><a href="https://xd.adobe.com/spec/a470f91a-f0f7-4a18-475c-6557e480b3e7-d241/screen/052b219a-3df1-462e-bd03-1c186af4e0a6/">See step flow with a horizontal progress indicator specs</a></p>
+
+<p><img src="http://zui.zywave.com/images/components/step-flow/progress-indicator-vertical.svg" alt="Step flow with a vertical progress indicator." /></p>
+
+<p><a href="https://xd.adobe.com/spec/a470f91a-f0f7-4a18-475c-6557e480b3e7-d241/screen/6007b49b-4774-4895-9edb-ff6dadefd9bb/">See step flow with a vertical progress indicator specs</a></p>
+
+</div>
+
+</div>
+
+<!-- <a class="scroll-to-top u-semi-bold">Back to top</a> -->
+
+<hr>
+
+<h3 id="step-flow-without-a-progress-indicator">Step flow without a progress indicator</h3>
+
+<div class="grid">
+    <div class='grid-col span-4'>
+    <ul>
+<li>Don&rsquo;t use a step progress indicator if a step flow allows for a user to pursue multiple paths, or if the user may be able to skip certain later steps based upon their work in earlier steps.</li>
+<li>If it&rsquo;s a longer step flow and the indicator would look too cluttered, omit the step flow indicator.</li>
+</ul>
+
+<p><a href="https://xd.adobe.com/spec/a470f91a-f0f7-4a18-475c-6557e480b3e7-d241/screen/6844d752-1b8d-419e-b817-ada898a88250/">See step flow without a progress indicator specs</a></p>
+
+</div>
+
+<div class='grid-col span-8'>
+    <p><img src="http://zui.zywave.com/images/components/step-flow/step-flow-without-progress-indicator-desktop.svg" alt="Step flow without a progress indicator." /></p>
+
+</div>
+
+</div>
+
+<!-- <a class="scroll-to-top u-semi-bold">Back to top</a> -->
+
+<hr>
+
+<h3 id="mobile-considerations">Mobile considerations</h3>
+
+<div class="grid">
+    <div class='grid-col span-4'>
+    <p>A mobile step flow resembles the desktop versions with a few notable differences:</p>
+
+<ul>
+<li>The progress indicator becomes slimmer and eliminates labels to save screen space; only a horizontal version of this step progress indicator is recommended.</li>
+<li>The exit action moves to the lower left corner of the screen.</li>
+<li>A sticky footer containing all navigation actions may be employed for easier, quick navigation.</li>
+</ul>
+
+<p><a href="https://xd.adobe.com/spec/a470f91a-f0f7-4a18-475c-6557e480b3e7-d241/screen/0583b568-d67b-4341-a024-8a0400ef8824/">See mobile view with a progress indicator specs</a></p>
+
+<p><a href="https://xd.adobe.com/spec/a470f91a-f0f7-4a18-475c-6557e480b3e7-d241/screen/78eec458-ee6c-457a-a413-9831140f84d9/">See mobile view without a progress indicator specs</a></p>
+
+</div>
+
+<div class='grid-col span-4'>
+    <p><img src="http://zui.zywave.com/images/components/step-flow/step-flow-with-progress-indicator-mobile.svg" alt="Mobile view of the step flow with a progress indicator." /></p>
+
+</div>
+
+<div class='grid-col span-4'>
+    <p><img src="http://zui.zywave.com/images/components/step-flow/step-flow-without-progress-indicator-mobile.svg" alt="Mobiel view of the step flow without a progress indicator." /></p>
+
+</div>
+
+</div>
+
+<!-- <a class="scroll-to-top u-semi-bold">Back to top</a> -->
+
+                    </div>
+                </section>
+            </zui-shell-content><zui-shell-footer>
+    <div>
+        &copy; 1995 - 2020 Zywave, Inc. All rights reserved.
+    </div>
+    <a class="zui-link" target="_blank" href="http://www.zywave.com/terms-conditions/">Terms and Conditions</a>
+    <a class="zui-link" target="_blank" href="http://www.zywave.com/privacy-statement/">Privacy Statement</a>
+    <a class="zui-link" target="_blank" href="http://www.zywave.com/dmca-notice/">DMCA</a></div>
+    <a class="zui-link" target="_blank" href="http://www.zywave.com/cookie-usage/">Cookie Usage</a>
+    <a class="zui-link" href="mailto:support@zywave.com">Contact</a>
+</zui-shell-footer>
+<script src="https://unpkg.com/@zywave/zui-bundle@next/dist/zui-loader.js"></script>
+</zui-shell>
+    </body>
+</html>

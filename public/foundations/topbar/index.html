@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html><head>
+    <title>Topbar | Zywave User Interface</title>
+    <link href="http://zui.zywave.com/css/ie-sucks.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://unpkg.com/@zywave/zui-bundle@next/dist/css/zui-bundle.fouc.css" />
+    <link rel="stylesheet" href="https://unpkg.com/@zywave/zui-bundle@next/dist/css/zui-bundle.app.css" />
+    <link href="http://zui.zywave.com/css/base.css" rel="stylesheet" />
+    <link href="http://zui.zywave.com/css/shortcodes.css" rel="stylesheet" />
+    <link href="http://zui.zywave.com/css/syntax-highlighting-monokai.css" rel="stylesheet" />
+    <link rel='shortcut icon' type='image/x-icon' href='http://zui.zywave.com/static/favicon.ico' />
+    <script src="http://zui.zywave.com/js/ie-sucks.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.3.0/fuse.min.js"></script>
+    <style>
+        :root {
+            --zui-shell-primary-theme: var(--zui-green);
+            --zui-shell-primary-theme-dark: var(--zui-green-600);
+            --zui-tabs-color: var(--zui-green);
+        }
+    </style>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const externalLinks = document.querySelectorAll('a[href^="http://"], a[href^="https://"]');
+            for (const l of externalLinks) {
+                if (l.href.indexOf("http://zui.zywave.com/") < 0) {
+                    l.target = '_blank';
+                }
+            }
+        });
+
+        
+        
+    </script>
+</head>
+<body>
+        <ie-sucks>
+            No. Stop it. Use a real browser.
+        </ie-sucks>
+        <zui-shell app-name="ZUI Documentation"><zui-shell-topbar>
+    <zui-logo slot="logo"></zui-logo>
+</zui-shell-topbar>
+
+
+
+<zui-shell-nav>
+    <zui-shell-nav-item>
+        <zui-icon icon="zui-nav-home" slot="icon"></zui-icon>
+        <a href="http://zui.zywave.com/" active>Home</a>
+    </zui-shell-nav-item>
+    
+    
+    <zui-shell-nav-item subnav>
+        <zui-icon icon="zui-nav-developers" slot="icon"></zui-icon>
+        
+            <span>Developers</span>
+            
+            
+            
+            
+            <a href="http://zui.zywave.com/developers/contribution-guide/" >Contribution guide</a>
+            
+            <a href="http://zui.zywave.com/developers/developing-zui/" >Developing ZUI</a>
+            
+            <a href="http://zui.zywave.com/developers/installation/" >Installation</a>
+            
+            <a href="http://zui.zywave.com/developers/lit/" >Lit 🔥</a>
+            
+            <a href="http://zui.zywave.com/developers/polyfills/" >Polyfills</a>
+            
+            <a href="http://zui.zywave.com/developers/responsive-design/" >Responsive design</a>
+            
+            <a href="http://zui.zywave.com/developers/tooling/" >Tooling</a>
+            
+            <a href="http://zui.zywave.com/developers/webcomponents/" >Web components</a>
+            
+        
+    </zui-shell-nav-item>
+    
+    
+    <zui-shell-nav-item subnav>
+        <zui-icon icon="zui-nav-foundations" slot="icon"></zui-icon>
+        
+            <span>Foundations</span>
+            
+            
+                
+            
+            
+            
+            <a href="http://zui.zywave.com/foundations/colors/" >Colors</a>
+            
+            <a href="http://zui.zywave.com/foundations/content-area/" >Content area</a>
+            
+            <a href="http://zui.zywave.com/foundations/fonts-typography/" >Fonts &amp; typography</a>
+            
+            <a href="http://zui.zywave.com/foundations/footer/" >Footer</a>
+            
+            <a href="http://zui.zywave.com/foundations/icons/" >Icons</a>
+            
+            <a href="http://zui.zywave.com/foundations/illustrations/" >Illustrations</a>
+            
+            <a href="http://zui.zywave.com/foundations/product-branding/" >Product branding</a>
+            
+            <a href="http://zui.zywave.com/foundations/shell/" >Shell</a>
+            
+            <a href="http://zui.zywave.com/foundations/sidenav/" >Sidenav</a>
+            
+            <a href="http://zui.zywave.com/foundations/topbar/" active>Topbar</a>
+            
+        
+    </zui-shell-nav-item>
+    
+    
+    <zui-shell-nav-item subnav>
+        <zui-icon icon="zui-nav-components" slot="icon"></zui-icon>
+        
+            <span>Components</span>
+            
+            
+                
+            
+            
+            
+            <a href="http://zui.zywave.com/components/breadcrumbs/" >Breadcrumbs</a>
+            
+            <a href="http://zui.zywave.com/components/buttons-dropdown/" >Button dropdowns</a>
+            
+            <a href="http://zui.zywave.com/components/buttons/" >Buttons</a>
+            
+            <a href="http://zui.zywave.com/components/checkboxes/" >Checkboxes</a>
+            
+            <a href="http://zui.zywave.com/components/dialogs/" >Dialogs</a>
+            
+            <a href="http://zui.zywave.com/components/dropdown-multi-select/" >Dropdown multi-select</a>
+            
+            <a href="http://zui.zywave.com/components/dropdown-select/" >Dropdown select</a>
+            
+            <a href="http://zui.zywave.com/components/expanders/" >Expanders</a>
+            
+            <a href="http://zui.zywave.com/components/file-selector/" >File Selector</a>
+            
+            <a href="http://zui.zywave.com/components/notifiers/" >Notifiers</a>
+            
+            <a href="http://zui.zywave.com/components/radio-buttons/" >Radio buttons</a>
+            
+            <a href="http://zui.zywave.com/components/tabs/" >Tabs</a>
+            
+            <a href="http://zui.zywave.com/components/text-input/" >Text Input</a>
+            
+            <a href="http://zui.zywave.com/components/toggles/" >Toggles</a>
+            
+            <a href="http://zui.zywave.com/components/tooltips/" >Tooltips</a>
+            
+            <a href="http://zui.zywave.com/components/wells/" >Well</a>
+            
+        
+    </zui-shell-nav-item>
+    
+    
+    <zui-shell-nav-item subnav>
+        <zui-icon icon="zui-nav-patterns" slot="icon"></zui-icon>
+        
+            <span>Patterns</span>
+            
+            
+                
+            
+            
+            
+            <a href="http://zui.zywave.com/patterns/forms/" >Forms</a>
+            
+            <a href="http://zui.zywave.com/patterns/step-flow/" >Step flow</a>
+            
+            <a href="http://zui.zywave.com/patterns/typeahead/" >Typeahead</a>
+            
+        
+    </zui-shell-nav-item>
+    
+    
+    <zui-shell-nav-item subnav>
+        <zui-icon icon="zui-nav-help" slot="icon"></zui-icon>
+        
+            <span>Communications</span>
+            
+            
+                
+            
+            
+            
+            <a href="http://zui.zywave.com/communications/messages/" >Messages</a>
+            
+            <a href="http://zui.zywave.com/communications/voice-tone/" >Voice &amp; tone</a>
+            
+            <a href="http://zui.zywave.com/communications/writing-style-guide/" >Writing style guide</a>
+            
+        
+    </zui-shell-nav-item>
+    
+    
+    <zui-shell-nav-item >
+        <zui-icon icon="zui-nav-accounts" slot="icon"></zui-icon>
+        
+            <a href="http://zui.zywave.com/personas/" >Personas</a>
+        
+    </zui-shell-nav-item>
+    
+    <script>
+        
+        const activeLinks = document.querySelectorAll('zui-shell-nav-item a[active]');
+            for (let activeLink of activeLinks) {
+                activeLink.closest('zui-shell-nav-item').expanded = true;
+            }
+    </script>
+</zui-shell-nav>
+<zui-shell-content id="content">
+                <section class="zui-layout zui-layout--slim">
+                    <div class="page-heading">
+                        <h1>Topbar</h1>
+                        
+                    </div>
+                    <div class="content-container">
+                        
+
+<h2 id="what-is-the-topbar">What is the Topbar</h2>
+
+<p>The top gives the user easy access to suite and account-level actions, as well as some important actions specific to the application or tool. The top bar also provides a space for product branding.</p>
+
+<h2 id="when-to-use">When to use</h2>
+
+<p>The Topbar is a base component of the suite and should be used for every product unless there is a spceifc reason not to.</p>
+
+<hr />
+
+<h2 id="variations-of-topbar">Variations of Topbar</h2>
+
+<p>Althought there is not much difference in layout and componentry, depending on the application we have three different varitations of the Topbar:</p>
+
+<ol>
+<li><strong>Zywave Topbar</strong> - Use when the primary user is a user client. This Topbar has a number of different branding features depending on if the product is singluar in focus or crosses multiple workflows.</li>
+<li><strong>Client Topbar</strong> - Use when the primary user is a Brokers client. i.e. Employer Admin or Employee.</li>
+</ol>
+
+<p><em>see more details below</em></p>
+
+<hr />
+
+<h2 id="anatomy">Anatomy</h2>
+
+<h3 id="zywave-topbar">Zywave Topbar</h3>
+
+<p>The suite Topbar contains a number of different components which aid in branding, navigation, and other user actions. The components include:</p>
+
+<ol>
+<li><strong>Zywave logo</strong></li>
+<li><strong>Branding bar</strong></li>
+<li><strong>Search bar</strong></li>
+<li><strong>Application switcher</strong></li>
+<li><strong>Profile manager</strong></li>
+</ol>
+
+<p><img src="http://zui.zywave.com/images/foundations/topbar/topbar--anatomy--suite.svg" alt="Topbar - anatomy - suite level" /></p>
+
+<h4 id="adding-product-specific-branding">Adding product specific branding</h4>
+
+<p>When nessesary,you can also includes specific product branding to the Zywave Topbar:</p>
+
+<ol>
+<li><strong>Product name</strong> - The name of the product.</li>
+<li><strong>Prodcut Specific Branding bar</strong> - A taller branding bar.</li>
+</ol>
+
+<p><img src="http://zui.zywave.com/images/foundations/topbar/topbar--anatomy--singleproduct.svg" alt="Topbar - anatomy - suite level" /></p>
+
+<div class="spacer "></div>
+
+<h3 id="client-topbar">Client Topbar</h3>
+
+<p>more to come &hellip;</p>
+
+<hr />
+
+<h2 id="sizing-spacing">Sizing &amp; Spacing</h2>
+
+<ul>
+<li><a href="https://xd.adobe.com/spec/41e8cdc3-6df1-4a55-73e3-41b3ea68ac16-37d9/">Zywave Topbar sizing and spacing specs</a></li>
+<li><a href="https://xd.adobe.com/spec/4b0ad3da-0bc2-429c-5eca-6edee1c1df44-3d3b/">Mobile Topbar and spacing specs</a></li>
+</ul>
+
+<hr />
+
+<h2 id="behavior">Behavior</h2>
+
+<h3 id="actions-in-the-topbar">Actions in the Topbar</h3>
+
+<ul>
+<li><strong>Zywave Logo</strong> - Clicking the Zywave logo will bring the user back to the homepage of the application they are in.</li>
+<li><strong>Application switcher</strong> - When clicked a modal dialog will show the other applicaions available to the user so they easily switch between other applications they own.</li>
+<li><strong>Profile manager</strong> - When clicked a modal dialog will show user imformation such as principle and profile.</li>
+</ul>
+
+<h3 id="searching">Searching</h3>
+
+<p>Search is an optional features dependent on the application and users&rsquo; needs. Depending on importance or need of searching, this component may or may not be included in the top bar. The search bar will default to the category that&rsquo;s searchable for the product. For example, content in Broker Briefcase.</p>
+
+<h3 id="scrolling">Scrolling</h3>
+
+<p>The Topbar is the highest section of the shell, meaning everything in the Sidenav, content area and footer can slide underneath it when scrolling. When the user starts scolling down the page the Topbar will shrink down to 10px high, allowing for more vertical space in the content area. Once the user scrolls up 1px the entire Topbar reappears.</p>
+
+<h3 id="responsive-design">Responsive Design</h3>
+
+<p>On smaller screens <strong>Breakpoint: &lt;720</strong>, the top bar responds to allow for a better mobile experience.</p>
+
+<ol>
+<li>The Zywave logo moves to the middle of the Topbar</li>
+<li>A hamburger menu is located in the upper left. When pushed the Sidenav slides in from the left.</li>
+<li>Right side of top bar should only be used for prime actions per product. Example: Most partners search BB so in mobile, it would make sense for the search icon to be present in the mobile top nav bar</li>
+</ol>
+
+<p><img src="http://zui.zywave.com/images/foundations/topbar/topbar--anatomy--mobile.svg" alt="Topbar - anatomy - suite level" /></p>
+
+<ul>
+<li>The App switcher and Profile manager go into the side nav.</li>
+<li>When in a single point product the product branding shrinks to a single colored line and is revealed when in the Sidenav.</li>
+</ul>
+
+<div class="spacer "></div>
+
+                    </div>
+                </section>
+            </zui-shell-content><zui-shell-footer>
+    <div>
+        &copy; 1995 - 2020 Zywave, Inc. All rights reserved.
+    </div>
+    <a class="zui-link" target="_blank" href="http://www.zywave.com/terms-conditions/">Terms and Conditions</a>
+    <a class="zui-link" target="_blank" href="http://www.zywave.com/privacy-statement/">Privacy Statement</a>
+    <a class="zui-link" target="_blank" href="http://www.zywave.com/dmca-notice/">DMCA</a></div>
+    <a class="zui-link" target="_blank" href="http://www.zywave.com/cookie-usage/">Cookie Usage</a>
+    <a class="zui-link" href="mailto:support@zywave.com">Contact</a>
+</zui-shell-footer>
+<script src="https://unpkg.com/@zywave/zui-bundle@next/dist/zui-loader.js"></script>
+</zui-shell>
+    </body>
+</html>

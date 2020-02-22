@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="583" height="146" viewBox="0 0 583 146">
+  <defs>
+    <filter id="Rectangle_5232" x="74" y="30" width="430" height="113" filterUnits="userSpaceOnUse">
+      <feOffset dy="6" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feFlood flood-opacity="0.2"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_3830" x="74" y="30" width="430" height="116" filterUnits="userSpaceOnUse">
+      <feOffset dy="6" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-2"/>
+      <feFlood flood-opacity="0.302"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-path">
+      <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Rectangle_5232)">
+        <rect id="Rectangle_5232-2" data-name="Rectangle 5232" width="400" height="83" rx="4" transform="translate(0)" fill="#fff" opacity="0.9"/>
+      </g>
+    </clipPath>
+  </defs>
+  <g id="Anatomy" transform="translate(-34 -392)">
+    <g id="Group_11898" data-name="Group 11898" transform="translate(83 87)">
+      <g id="Group_11892" data-name="Group 11892" transform="translate(-75 246)">
+        <g transform="matrix(1, 0, 0, 1, 26, 59)" filter="url(#Rectangle_3830)">
+          <rect id="Rectangle_3830-2" data-name="Rectangle 3830" width="400" height="86" rx="4" transform="translate(89 39)" fill="#fff"/>
+        </g>
+        <text id="Success_" data-name="Success! " transform="translate(169 135)" fill="#3d3d3d" font-size="16" font-family="OpenSans-Bold, Open Sans" font-weight="700"><tspan x="0" y="0">Success! </tspan></text>
+        <text id="The_data_from_your_file_has_been_imported._" data-name="The data from your file has been imported. " transform="translate(169 160)" fill="#3d3d3d" font-size="14" font-family="OpenSans, Open Sans"><tspan x="0" y="0">The data from your file has been imported. </tspan></text>
+        <g id="Group_7654" data-name="Group 7654" transform="translate(481 118)">
+          <rect id="Rectangle_170" data-name="Rectangle 170" width="24" height="24" fill="none"/>
+        </g>
+        <g id="Group_11926" data-name="Group 11926">
+          <circle id="Ellipse_6" data-name="Ellipse 6" cx="12" cy="12" r="12" transform="translate(125 118)" fill="#5fb53b"/>
+          <g id="Group_11924" data-name="Group 11924" transform="translate(129 122.8)">
+            <path id="Path_6639" data-name="Path 6639" d="M7.547,15.8a.2.2,0,0,1-.286,0l-4.2-4.2a.2.2,0,0,1,0-.286L4.2,10.17a.2.2,0,0,1,.286,0L7.4,13.083l7.464-7.465a.2.2,0,0,1,.287,0L16.3,6.764a.2.2,0,0,1,0,.286Z" transform="translate(-1.785 -3.308)" fill="#fff"/>
+            <rect id="Rectangle_5235" data-name="Rectangle 5235" width="16.2" height="16.2" transform="translate(0)" fill="none"/>
+          </g>
+        </g>
+        <g id="Remove" transform="translate(501 138)">
+          <g id="Group_11940" data-name="Group 11940" transform="translate(-20 -20)">
+            <rect id="Rectangle_5239" data-name="Rectangle 5239" width="24" height="24" fill="none"/>
+            <path id="Path_6644" data-name="Path 6644" d="M13.905,12l4.673-4.673a.227.227,0,0,0,0-.318L16.99,5.422a.227.227,0,0,0-.318,0L12,10.095,7.327,5.422a.227.227,0,0,0-.318,0L5.422,7.01a.227.227,0,0,0,0,.318L10.095,12,5.422,16.673a.227.227,0,0,0,0,.318L7.01,18.578a.227.227,0,0,0,.318,0L12,13.905l4.673,4.673a.227.227,0,0,0,.318,0l1.588-1.588a.227.227,0,0,0,0-.318Z" transform="translate(0 0)" fill="#31313a"/>
+          </g>
+        </g>
+        <path id="Rectangle_5241" data-name="Rectangle 5241" d="M4,0H396a4,4,0,0,1,4,4v6a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V4A4,4,0,0,1,4,0Z" transform="translate(115 98)" fill="#5fb53b"/>
+      </g>
+    </g>
+    <text id="Icon" transform="translate(129 407)" fill="#d454a3" font-size="14" font-family="OpenSans, Open Sans"><tspan x="0" y="0">Icon</tspan></text>
+    <text id="Message" transform="translate(34 500)" fill="#d454a3" font-size="14" font-family="OpenSans, Open Sans"><tspan x="0" y="0">Message</tspan></text>
+    <text id="Dismiss" transform="translate(539 468)" fill="#d454a3" font-size="14" font-family="OpenSans, Open Sans"><tspan x="0" y="0">Dismiss</tspan></text>
+    <text id="Colored_bar" data-name="Colored bar" transform="translate(539 442)" fill="#d454a3" font-size="14" font-family="OpenSans, Open Sans"><tspan x="0" y="0">Colored bar</tspan></text>
+    <text id="Title" transform="translate(193 407)" fill="#d454a3" font-size="14" font-family="OpenSans, Open Sans"><tspan x="0" y="0">Title</tspan></text>
+    <path id="Path_6632" data-name="Path 6632" d="M334-933.8v29.6" transform="translate(-191 1349)" fill="none" stroke="#9494a4" stroke-width="2"/>
+    <path id="Path_6633" data-name="Path 6633" d="M380-936.8v33.4" transform="translate(-173 1352)" fill="none" stroke="#9494a4" stroke-width="2"/>
+    <path id="Path_6634" data-name="Path 6634" d="M293.2-860.5H362" transform="translate(-193 1348)" fill="none" stroke="#9494a4" stroke-width="2"/>
+    <path id="Path_6636" data-name="Path 6636" d="M707.6-892.5H726" transform="translate(-193 1355)" fill="none" stroke="#9494a4" stroke-width="2"/>
+    <path id="Path_6637" data-name="Path 6637" d="M707.6-892.5H726" transform="translate(-193 1329)" fill="none" stroke="#9494a4" stroke-width="2"/>
+  </g>
+</svg>

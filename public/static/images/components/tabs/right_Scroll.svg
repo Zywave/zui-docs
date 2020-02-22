@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="480" height="292" viewBox="0 0 480 292">
+  <defs>
+    <clipPath id="clip-right_Scroll">
+      <rect width="480" height="292"/>
+    </clipPath>
+  </defs>
+  <g id="right_Scroll" clip-path="url(#clip-right_Scroll)">
+    <rect width="480" height="292" fill="#f4f4f6"/>
+    <g id="Group_7683" data-name="Group 7683" transform="translate(521 25) rotate(180)">
+      <path id="Path_379" data-name="Path 379" d="M201.8,15.2,206,11l4.2,4.2a.967.967,0,0,0,1.4,0h0a.967.967,0,0,0,0-1.4l-4.2-4.2-.7-.7a.967.967,0,0,0-1.4,0l-.7.7-4.2,4.2a.967.967,0,0,0,0,1.4h0A.965.965,0,0,0,201.8,15.2Z" transform="translate(16 13)" fill="#fff"/>
+      <rect id="Rectangle_171" data-name="Rectangle 171" width="24" height="24" transform="translate(210 13)" fill="none"/>
+    </g>
+    <g id="Group_8093" data-name="Group 8093">
+      <rect id="Rectangle_1" data-name="Rectangle 1" width="480" height="60" fill="#fff"/>
+      <g id="Group_72" data-name="Group 72" transform="translate(183 20)">
+        <g id="Group_6" data-name="Group 6">
+          <path id="Path_467" data-name="Path 467" d="M440.678,0l-6.233,13.788L428.193,0H425.7l8.745,19.322L443.19,0Z" transform="translate(-345.294)" fill="#8b8d8e"/>
+          <path id="Path_468" data-name="Path 468" d="M343.6,19.322h2.512L337.39,0h-.963L327.7,19.322h2.512l1.908-4.269H341.7ZM333.14,12.787,336.9,4.5l3.759,8.292Z" transform="translate(-265.804)" fill="#8b8d8e"/>
+          <path id="Path_469" data-name="Path 469" d="M543.685,10.426h6.951V8.16h-6.951V2.267h7.555L552.45,0H541.4V19.322h9.859L552.468,17h-8.783Z" transform="translate(-439.14)" fill="#8b8d8e"/>
+          <path id="Path_470" data-name="Path 470" d="M186.078,0l-6.2,13.788L174.348,1.681l-5.5,12.107L162.864,0h-3.721L155.8,7.385l1.247,2.758,3.834-8.462,7.971,17.641,5.5-12.126,5.534,12.126L188.571,0Z" transform="translate(-126.372)" fill="#8b8d8e"/>
+          <path id="Path_471" data-name="Path 471" d="M4.193,17.018,15.262,0H1.851L.812,2.267H11.068L0,19.285H15.243l1.02-2.267Z" fill="#8b8d8e"/>
+        </g>
+        <path id="Path_472" data-name="Path 472" d="M103.468,0H98.5l5.591,12.409L98.5,24.8h4.968L109.1,12.409Z" transform="translate(-79.895)" fill="#5FB53B"/>
+      </g>
+      <g id="Group_8092" data-name="Group 8092">
+        <ellipse id="Ellipse_1" data-name="Ellipse 1" cx="18" cy="17.5" rx="18" ry="17.5" transform="translate(434 13)" fill="none"/>
+        <path id="Path_5694" data-name="Path 5694" d="M302.715,257.318l-4.678-4.678a5.945,5.945,0,0,0,1.029-4.584,6.054,6.054,0,0,0-5.239-4.959,6.109,6.109,0,0,0-1.871,12.069,6.469,6.469,0,0,0,4.585-1.029l4.678,4.678a1.018,1.018,0,0,0,1.4,0A1.143,1.143,0,0,0,302.715,257.318Zm-13.753-8.888a4.171,4.171,0,0,1,3.462-3.462,4.275,4.275,0,0,1,4.865,4.865,4.171,4.171,0,0,1-3.462,3.462A4.313,4.313,0,0,1,288.962,248.43Z" transform="translate(157.046 -221.052)" fill="#5786bd"/>
+      </g>
+      <g id="Group_8091" data-name="Group 8091" transform="translate(-12)">
+        <ellipse id="Ellipse_2" data-name="Ellipse 2" cx="18" cy="17.5" rx="18" ry="17.5" transform="translate(22 12)" fill="none"/>
+        <g id="Group_7747" data-name="Group 7747" transform="translate(16 6)">
+          <rect id="Rectangle_4038" data-name="Rectangle 4038" width="16" height="2" transform="translate(16 18)" fill="#5786bd"/>
+          <rect id="Rectangle_4039" data-name="Rectangle 4039" width="16" height="2" transform="translate(16 23)" fill="#5786bd"/>
+          <rect id="Rectangle_4040" data-name="Rectangle 4040" width="16" height="2" transform="translate(16 28)" fill="#5786bd"/>
+        </g>
+      </g>
+      <path id="Path_5695" data-name="Path 5695" d="M0,0H480V10H0Z" transform="translate(0 60)" fill="#5FB53B"/>
+    </g>
+    <g id="Group_8095" data-name="Group 8095" transform="translate(-253 -56)">
+      <rect id="Rectangle_4038-2" data-name="Rectangle 4038" width="439" height="1" transform="translate(274 296)" fill="#cbcbd2"/>
+      <text id="Tab_one" data-name="Tab one" transform="translate(295 272)" fill="#1f5ea8" font-size="14" font-family="OpenSans-Bold, Open Sans" font-weight="700"><tspan x="0" y="0">Tab one</tspan></text>
+      <text id="Tab_two" data-name="Tab two" transform="translate(390 272)" fill="#5b5b5b" font-size="14" font-family="OpenSans, Open Sans"><tspan x="0" y="0">Tab two</tspan></text>
+      <text id="Tab_three" data-name="Tab three" transform="translate(482 272)" fill="#5b5b5b" font-size="14" font-family="OpenSans, Open Sans"><tspan x="0" y="0">Tab three</tspan></text>
+      <text id="Tab_three-2" data-name="Tab three" transform="translate(585 272)" fill="#5b5b5b" font-size="14" font-family="OpenSans, Open Sans"><tspan x="0" y="0">Tab three</tspan></text>
+      <rect id="Rectangle_4039-2" data-name="Rectangle 4039" width="96" height="4" transform="translate(274 292)" fill="#1f5ea8"/>
+      <text id="Page_Header" data-name="Page Header" transform="translate(273 177)" fill="#3d3d3d" font-size="20" font-family="OpenSans-Semibold, Open Sans" font-weight="600"><tspan x="0" y="0">Page Header</tspan></text>
+      <text id="Page_subheading_clarifying_sentence" data-name="Page subheading clarifying sentence" transform="translate(273 210)" fill="#3d3d3d" font-size="16" font-family="OpenSans, Open Sans"><tspan x="0" y="0">Page subheading clarifying sentence</tspan></text>
+    </g>
+    <g id="Group_8415" data-name="Group 8415" transform="translate(9137 1854)">
+      <circle id="Ellipse_3" data-name="Ellipse 3" cx="18" cy="18" r="18" transform="translate(-8712 -1659)" fill="none"/>
+      <g id="Artwork_8" data-name="Artwork 8" transform="translate(-8693 -1641)">
+        <g id="Group_8413" data-name="Group 8413" transform="translate(-12 -12)">
+          <path id="Path_6665" data-name="Path 6665" d="M9.421,8.964,12.457,12,9.421,15.036a1,1,0,0,0,0,1.414h0a1,1,0,0,0,1.414,0l3.743-3.743a1,1,0,0,0,0-1.414L10.835,7.55a1,1,0,0,0-1.414,0h0A1,1,0,0,0,9.421,8.964Z" fill="#1f5ea8"/>
+          <rect id="Rectangle_5285" data-name="Rectangle 5285" width="24" height="24" fill="none"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

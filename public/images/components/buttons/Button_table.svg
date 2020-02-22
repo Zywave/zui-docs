@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="933" height="393" viewBox="0 0 933 393">
+  <defs>
+    <filter id="Rectangle_3801" x="26.5" y="43.5" width="881" height="310" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1.5" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-path">
+      <rect width="36" height="36" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-Buttons_in_a_table">
+      <rect width="933" height="393"/>
+    </clipPath>
+  </defs>
+  <g id="Buttons_in_a_table" data-name="Buttons in a table" clip-path="url(#clip-Buttons_in_a_table)">
+    <rect width="933" height="393" fill="#f4f4f6"/>
+    <g id="Group_8484" data-name="Group 8484" transform="translate(-314 -477)">
+      <g transform="matrix(1, 0, 0, 1, 314, 477)" filter="url(#Rectangle_3801)">
+        <rect id="Rectangle_3801-2" data-name="Rectangle 3801" width="872" height="301" rx="2" transform="translate(31 47)" fill="#fff"/>
+      </g>
+      <text id="NO" transform="translate(1164 611)" fill="#d93911" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">NO</tspan></text>
+      <text id="NO-2" data-name="NO" transform="translate(1164 660)" fill="#d93911" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">NO</tspan></text>
+      <text id="YES" transform="translate(1164 709)" fill="#5fb53b" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">YES</tspan></text>
+      <text id="YES-2" data-name="YES" transform="translate(1164 758)" fill="#5fb53b" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">YES</tspan></text>
+      <text id="MAYBE" transform="translate(1153 807)" fill="#5fb53b" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">MAYBE</tspan></text>
+      <path id="Rectangle_3802" data-name="Rectangle 3802" d="M2,0H870a2,2,0,0,1,2,2V56a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V2A2,2,0,0,1,2,0Z" transform="translate(345 524)" fill="#fafafa"/>
+      <rect id="Rectangle_3804" data-name="Rectangle 3804" width="872" height="1" transform="translate(345 629)" fill="#dbdbdb"/>
+      <rect id="Rectangle_5328" data-name="Rectangle 5328" width="872" height="1" transform="translate(345 776)" fill="#dbdbdb"/>
+      <rect id="Rectangle_3805" data-name="Rectangle 3805" width="872" height="1" transform="translate(345 678)" fill="#dbdbdb"/>
+      <rect id="Rectangle_3806" data-name="Rectangle 3806" width="872" height="1" transform="translate(345 727)" fill="#dbdbdb"/>
+      <text id="Animal" transform="translate(365 558)" fill="#3d3d3d" font-size="14" font-family="OpenSans-Semibold, Open Sans" font-weight="600"><tspan x="0" y="0">Animal</tspan></text>
+      <text id="Baboon" transform="translate(365 610)" fill="#3d3d3d" font-size="14" font-family="OpenSans, Open Sans"><tspan x="0" y="0">Baboon</tspan></text>
+      <text id="Crab" transform="translate(365 659)" fill="#3d3d3d" font-size="14" font-family="OpenSans, Open Sans"><tspan x="0" y="0">Crab</tspan></text>
+      <text id="Crab-2" data-name="Crab" transform="translate(365 806)" fill="#3d3d3d" font-size="14" font-family="OpenSans, Open Sans"><tspan x="0" y="0">Crab</tspan></text>
+      <text id="Great_White_Shark" data-name="Great White Shark" transform="translate(365 708)" fill="#3d3d3d" font-size="14" font-family="OpenSans, Open Sans"><tspan x="0" y="0">Great White Shark</tspan></text>
+      <text id="Skunk" transform="translate(365 757)" fill="#3d3d3d" font-size="14" font-family="OpenSans, Open Sans"><tspan x="0" y="0">Skunk</tspan></text>
+      <text id="Scientific_Name" data-name="Scientific Name" transform="translate(617 558)" fill="#3d3d3d" font-size="14" font-family="OpenSans-Semibold, Open Sans" font-weight="600"><tspan x="0" y="0">Scientific Name</tspan></text>
+      <text id="Papio" transform="translate(617 610)" fill="#3d3d3d" font-size="14" font-family="OpenSans, Open Sans"><tspan x="0" y="0">Papio</tspan></text>
+      <text id="Brachyura" transform="translate(617 659)" fill="#3d3d3d" font-size="14" font-family="OpenSans, Open Sans"><tspan x="0" y="0">Brachyura</tspan></text>
+      <text id="Brachyura-2" data-name="Brachyura" transform="translate(617 806)" fill="#3d3d3d" font-size="14" font-family="OpenSans, Open Sans"><tspan x="0" y="0">Brachyura</tspan></text>
+      <text id="Carcharodon" transform="translate(617 708)" fill="#3d3d3d" font-size="14" font-family="OpenSans, Open Sans"><tspan x="0" y="0">Carcharodon</tspan></text>
+      <text id="Mephitis" transform="translate(617 757)" fill="#3d3d3d" font-size="14" font-family="OpenSans, Open Sans"><tspan x="0" y="0">Mephitis</tspan></text>
+      <text id="Actions" transform="translate(1040 558)" fill="#3d3d3d" font-size="14" font-family="OpenSans-Semibold, Open Sans" font-weight="600"><tspan x="0" y="0">Actions</tspan></text>
+      <rect id="Rectangle_3807" data-name="Rectangle 3807" width="1" height="244" transform="translate(596 581)" fill="#dbdbdb"/>
+      <rect id="Rectangle_3808" data-name="Rectangle 3808" width="1" height="244" transform="translate(1019 581)" fill="#dbdbdb"/>
+      <rect id="Rectangle_3803" data-name="Rectangle 3803" width="872" height="1" transform="translate(345 580)" fill="#dbdbdb"/>
+      <g id="Primary_Button_-_Normal" data-name="Primary Button - Normal" transform="translate(1040 587)">
+        <rect id="Rectangle_3990" data-name="Rectangle 3990" width="73.934" height="36" rx="18" fill="#2777d3"/>
+        <text id="Action" transform="translate(37 23)" fill="#fff" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="-20.614" y="0">Action</tspan></text>
+      </g>
+      <g id="Icon_Primary_-_Normal" data-name="Icon Primary - Normal" transform="translate(1040 636)" clip-path="url(#clip-path)">
+        <rect id="Rectangle_3993" data-name="Rectangle 3993" width="36" height="36" rx="18" fill="#2777d3"/>
+        <path id="Path_6618" data-name="Path 6618" d="M18.142,3.975a3.131,3.131,0,0,0-4.429,0L4.2,13.486a1.342,1.342,0,0,0-.373.716l-.764,4.331a.447.447,0,0,0,.518.518l4.331-.764a1.342,1.342,0,0,0,.716-.373L18.141,8.4a3.131,3.131,0,0,0,0-4.428ZM5.527,14.846a.224.224,0,0,0,0,.317l2.068,2.069a.224.224,0,0,1-.115.377l-2.159.381a.895.895,0,0,1-1.037-1.037l.431-2.443a.447.447,0,0,1,.124-.239L14.346,4.76a2.227,2.227,0,0,1,1.89-.626Z" transform="translate(6.941 6.942)" fill="#fff"/>
+      </g>
+      <g id="Link_Button_-_Normal" data-name="Link Button - Normal" transform="translate(1040 685)">
+        <path id="Path_6651" data-name="Path 6651" d="M18,0H55.934a18,18,0,0,1,0,36H18A18,18,0,0,1,18,0Z" fill="none"/>
+        <text id="Action-2" data-name="Action" transform="translate(37 23)" fill="#2777d3" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="-20.614" y="0">Action</tspan></text>
+        <rect id="Rectangle_6075" data-name="Rectangle 6075" width="73.934" height="36" rx="18" fill="none"/>
+      </g>
+      <g id="Icon_Link_-_Normal" data-name="Icon Link - Normal" transform="translate(1040 734)">
+        <path id="Path_6634" data-name="Path 6634" d="M18.142,3.975a3.131,3.131,0,0,0-4.429,0L4.2,13.486a1.342,1.342,0,0,0-.373.716l-.764,4.331a.447.447,0,0,0,.518.518l4.331-.764a1.342,1.342,0,0,0,.716-.373L18.141,8.4a3.131,3.131,0,0,0,0-4.428ZM5.527,14.846a.224.224,0,0,0,0,.317l2.068,2.069a.224.224,0,0,1-.115.377l-2.159.381a.895.895,0,0,1-1.037-1.037l.431-2.443a.447.447,0,0,1,.124-.239L14.346,4.76a2.227,2.227,0,0,1,1.89-.626Z" transform="translate(6.941 6.942)" fill="#2777d3"/>
+        <rect id="Rectangle_5240" data-name="Rectangle 5240" width="36" height="36" rx="18" fill="none"/>
+      </g>
+      <g id="Secondary_Button_-_Normal" data-name="Secondary Button - Normal" transform="translate(1040 783)">
+        <g id="Rectangle_3991" data-name="Rectangle 3991" fill="none" stroke="#cbcbd2" stroke-width="1">
+          <rect width="73.934" height="36" rx="18" stroke="none"/>
+          <rect x="0.5" y="0.5" width="72.934" height="35" rx="17.5" fill="none"/>
+        </g>
+        <text id="Action-3" data-name="Action" transform="translate(37 23)" fill="#2777d3" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="-20.614" y="0">Action</tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>

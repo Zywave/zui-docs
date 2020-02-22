@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html><head>
+    <title>Breadcrumbs | Zywave User Interface</title>
+    <link href="http://zui.zywave.com/css/ie-sucks.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://unpkg.com/@zywave/zui-bundle@next/dist/css/zui-bundle.fouc.css" />
+    <link rel="stylesheet" href="https://unpkg.com/@zywave/zui-bundle@next/dist/css/zui-bundle.app.css" />
+    <link href="http://zui.zywave.com/css/base.css" rel="stylesheet" />
+    <link href="http://zui.zywave.com/css/shortcodes.css" rel="stylesheet" />
+    <link href="http://zui.zywave.com/css/syntax-highlighting-monokai.css" rel="stylesheet" />
+    <link rel='shortcut icon' type='image/x-icon' href='http://zui.zywave.com/static/favicon.ico' />
+    <script src="http://zui.zywave.com/js/ie-sucks.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.3.0/fuse.min.js"></script>
+    <style>
+        :root {
+            --zui-shell-primary-theme: var(--zui-green);
+            --zui-shell-primary-theme-dark: var(--zui-green-600);
+            --zui-tabs-color: var(--zui-green);
+        }
+    </style>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const externalLinks = document.querySelectorAll('a[href^="http://"], a[href^="https://"]');
+            for (const l of externalLinks) {
+                if (l.href.indexOf("http://zui.zywave.com/") < 0) {
+                    l.target = '_blank';
+                }
+            }
+        });
+
+        
+        
+    </script>
+</head>
+<body>
+        <ie-sucks>
+            No. Stop it. Use a real browser.
+        </ie-sucks>
+        <zui-shell app-name="ZUI Documentation"><zui-shell-topbar>
+    <zui-logo slot="logo"></zui-logo>
+</zui-shell-topbar>
+
+
+
+<zui-shell-nav>
+    <zui-shell-nav-item>
+        <zui-icon icon="zui-nav-home" slot="icon"></zui-icon>
+        <a href="http://zui.zywave.com/" active>Home</a>
+    </zui-shell-nav-item>
+    
+    
+    <zui-shell-nav-item subnav>
+        <zui-icon icon="zui-nav-developers" slot="icon"></zui-icon>
+        
+            <span>Developers</span>
+            
+            
+            
+            
+            <a href="http://zui.zywave.com/developers/contribution-guide/" >Contribution guide</a>
+            
+            <a href="http://zui.zywave.com/developers/developing-zui/" >Developing ZUI</a>
+            
+            <a href="http://zui.zywave.com/developers/installation/" >Installation</a>
+            
+            <a href="http://zui.zywave.com/developers/lit/" >Lit 🔥</a>
+            
+            <a href="http://zui.zywave.com/developers/polyfills/" >Polyfills</a>
+            
+            <a href="http://zui.zywave.com/developers/responsive-design/" >Responsive design</a>
+            
+            <a href="http://zui.zywave.com/developers/tooling/" >Tooling</a>
+            
+            <a href="http://zui.zywave.com/developers/webcomponents/" >Web components</a>
+            
+        
+    </zui-shell-nav-item>
+    
+    
+    <zui-shell-nav-item subnav>
+        <zui-icon icon="zui-nav-foundations" slot="icon"></zui-icon>
+        
+            <span>Foundations</span>
+            
+            
+                
+            
+            
+            
+            <a href="http://zui.zywave.com/foundations/colors/" >Colors</a>
+            
+            <a href="http://zui.zywave.com/foundations/content-area/" >Content area</a>
+            
+            <a href="http://zui.zywave.com/foundations/fonts-typography/" >Fonts &amp; typography</a>
+            
+            <a href="http://zui.zywave.com/foundations/footer/" >Footer</a>
+            
+            <a href="http://zui.zywave.com/foundations/icons/" >Icons</a>
+            
+            <a href="http://zui.zywave.com/foundations/illustrations/" >Illustrations</a>
+            
+            <a href="http://zui.zywave.com/foundations/product-branding/" >Product branding</a>
+            
+            <a href="http://zui.zywave.com/foundations/shell/" >Shell</a>
+            
+            <a href="http://zui.zywave.com/foundations/sidenav/" >Sidenav</a>
+            
+            <a href="http://zui.zywave.com/foundations/topbar/" >Topbar</a>
+            
+        
+    </zui-shell-nav-item>
+    
+    
+    <zui-shell-nav-item subnav>
+        <zui-icon icon="zui-nav-components" slot="icon"></zui-icon>
+        
+            <span>Components</span>
+            
+            
+                
+            
+            
+            
+            <a href="http://zui.zywave.com/components/breadcrumbs/" active>Breadcrumbs</a>
+            
+            <a href="http://zui.zywave.com/components/buttons-dropdown/" >Button dropdowns</a>
+            
+            <a href="http://zui.zywave.com/components/buttons/" >Buttons</a>
+            
+            <a href="http://zui.zywave.com/components/checkboxes/" >Checkboxes</a>
+            
+            <a href="http://zui.zywave.com/components/dialogs/" >Dialogs</a>
+            
+            <a href="http://zui.zywave.com/components/dropdown-multi-select/" >Dropdown multi-select</a>
+            
+            <a href="http://zui.zywave.com/components/dropdown-select/" >Dropdown select</a>
+            
+            <a href="http://zui.zywave.com/components/expanders/" >Expanders</a>
+            
+            <a href="http://zui.zywave.com/components/file-selector/" >File Selector</a>
+            
+            <a href="http://zui.zywave.com/components/notifiers/" >Notifiers</a>
+            
+            <a href="http://zui.zywave.com/components/radio-buttons/" >Radio buttons</a>
+            
+            <a href="http://zui.zywave.com/components/tabs/" >Tabs</a>
+            
+            <a href="http://zui.zywave.com/components/text-input/" >Text Input</a>
+            
+            <a href="http://zui.zywave.com/components/toggles/" >Toggles</a>
+            
+            <a href="http://zui.zywave.com/components/tooltips/" >Tooltips</a>
+            
+            <a href="http://zui.zywave.com/components/wells/" >Well</a>
+            
+        
+    </zui-shell-nav-item>
+    
+    
+    <zui-shell-nav-item subnav>
+        <zui-icon icon="zui-nav-patterns" slot="icon"></zui-icon>
+        
+            <span>Patterns</span>
+            
+            
+                
+            
+            
+            
+            <a href="http://zui.zywave.com/patterns/forms/" >Forms</a>
+            
+            <a href="http://zui.zywave.com/patterns/step-flow/" >Step flow</a>
+            
+            <a href="http://zui.zywave.com/patterns/typeahead/" >Typeahead</a>
+            
+        
+    </zui-shell-nav-item>
+    
+    
+    <zui-shell-nav-item subnav>
+        <zui-icon icon="zui-nav-help" slot="icon"></zui-icon>
+        
+            <span>Communications</span>
+            
+            
+                
+            
+            
+            
+            <a href="http://zui.zywave.com/communications/messages/" >Messages</a>
+            
+            <a href="http://zui.zywave.com/communications/voice-tone/" >Voice &amp; tone</a>
+            
+            <a href="http://zui.zywave.com/communications/writing-style-guide/" >Writing style guide</a>
+            
+        
+    </zui-shell-nav-item>
+    
+    
+    <zui-shell-nav-item >
+        <zui-icon icon="zui-nav-accounts" slot="icon"></zui-icon>
+        
+            <a href="http://zui.zywave.com/personas/" >Personas</a>
+        
+    </zui-shell-nav-item>
+    
+    <script>
+        
+        const activeLinks = document.querySelectorAll('zui-shell-nav-item a[active]');
+            for (let activeLink of activeLinks) {
+                activeLink.closest('zui-shell-nav-item').expanded = true;
+            }
+    </script>
+</zui-shell-nav>
+<zui-shell-content id="content">
+                <section class="zui-layout zui-layout--slim">
+                    <div class="page-heading">
+                        <h1>Breadcrumbs</h1>
+                         <h2>Hansel and Gretel would be proud</h2> 
+                    </div>
+                    <div class="content-container">
+                        
+
+
+<dom-bind>
+    <template>
+        <zui-tabs selected="{{page}}">
+            
+            <zui-tab>Design</zui-tab>
+            
+            <zui-tab>Toolkit</zui-tab>
+            
+        </zui-tabs>
+        <zui-pages selected="[[page]]">
+            
+            <div>
+                
+                <h2 id="what-are-breadcrumbs">What are breadcrumbs</h2>
+
+<p>Use breadcrumbs as a form of secondary navigation, to aid the primary navigation, when sites hierarchies get 3 or more levels deep. Breadcrumbs give users context so they don’t feel lost, even when they are deep inside large, nested content. The breadcrumb links also allow users to backtrack through a deep navigation as far as they need to without having to start over.</p>
+
+<p><img src="http://zui.zywave.com/images/components/breadcrumbs/Breadcrumb-full-page.svg" alt="Breadcrumb example" />
+<div class="spacer small"></div></p>
+
+<h2 id="why-use-breadcrumbs">Why use breadcrumbs</h2>
+
+<ul>
+<li>Simple, efficient, easy navigation within the application</li>
+<li>Fast navigation, one-click access to get to a higher-level page which helps users quickly get where they need to, even when they make mistakes</li>
+<li>Tells the user their location, helping them understand where they are in relation to the rest of the site</li>
+</ul>
+
+<p><img src="http://zui.zywave.com/images/components/breadcrumbs/Breadcrumb-normal.svg" alt="normal breadcrumbs" /></p>
+
+<div class="spacer small"></div>
+
+<h2 id="using-breadcrumbs">Using breadcrumbs</h2>
+
+<p><strong>For technical specs, see <a href="https://xd.adobe.com/view/d1d7482c-a03d-4c53-7ab5-ceba1750b3aa-a7e6/" title="Breadcrumbs specs page">the specs page</a></strong></p>
+
+<ul>
+<li>Breadcrumbs are always left-aligned and appear 30px below the page header and 20px above the page title</li>
+<li>Breadcrumbs should be styled like text links, but without the underline: 14px font size</li>
+<li>Use left arrows — not slashes or vertical lines — to imply movement between pages or point back home</li>
+<li>The current page should be included and clickable, but styled to look disabled</li>
+<li>When there are many pages in a breadcrumb trail, you may need to use an ellipsis to hide some of the crumbs. We recommend considering an ellipsis with 5 or more links in the breadcrumb trail. The ellipsis is clickable and will expand to reveal the hidden pages when clicked. In long breadcrumb trails, the breadcrumbs will stack when fully expanded, and that&rsquo;s ok.</li>
+</ul>
+
+<p><img src="http://zui.zywave.com/images/components/breadcrumbs/Breadcrumb-ellipsis.svg" alt="breadcrumbs with ellipsis" />
+<img src="http://zui.zywave.com/images/components/breadcrumbs/Breadcrumb-ellipsis-expanded.svg" alt="breadcrumb expanded" /></p>
+
+<div class="spacer small"></div>
+
+<h3 id="naming">Naming</h3>
+
+<ul>
+<li>Breadcrumb titles will truncate after 30 characters</li>
+<li>We recommend keeping breadcrumb titles to 30 characters or less, especially in longer trails, but leave the length up to the consumer.</li>
+</ul>
+
+<p><img src="http://zui.zywave.com/images/components/breadcrumbs/Breadcrumb-truncated.svg" alt="truncated title breadcrumb" /></p>
+
+<div class="spacer small"></div>
+
+<h3 id="mobile">Mobile</h3>
+
+<p>On mobile devices space is at a premium, use a single breadcrumb, pointing back one level. Since space is at such a premium on mobile applicatons, the cost of using breadcrumbs can quickly overwhelm the benefits. Keeping it simple, by using a single breadcrumb, avoids potential issues with wrapping multiple breadcrumbs or using breadcrumbs that are too small or crowded.</p>
+
+<p><img src="http://zui.zywave.com/images/components/breadcrumbs/Mobile-breadcrumb.svg" alt="Breadcrumb mobile" /></p>
+
+                
+            </div>
+            
+            <div>
+                
+                <!-- Generated by documentation.js. Update this documentation by updating the source code. -->
+
+<h3 id="table-of-contents">Table of Contents</h3>
+
+<ul>
+<li><a href="#zuibreadcrumbs">ZuiBreadcrumbs</a></li>
+<li><a href="#zuibreadcrumb">ZuiBreadcrumb</a></li>
+</ul>
+
+<h2 id="zuibreadcrumbs">ZuiBreadcrumbs</h2>
+
+<p><strong>Extends ZuiBaseElement</strong></p>
+
+<p>Pass <zui-breadcrumb>&hellip;</zui-breadcrumb> into <zui-breadcrumbs></zui-breadcrumbs>. Rely on default slot but not applying a slot name. Do not use a slot name, zui-breadcrumbs logic will apply the appropriate slot=&ldquo;first&rdquo; to the first element (zui-breadcrumb) slotted in.</p>
+
+<h2 id="zuibreadcrumb">ZuiBreadcrumb</h2>
+
+<p><strong>Extends ZuiBaseElement</strong></p>
+
+<p><zui-breadcrumb></zui-breadcrumb>&rsquo;s are passed as a direct descendant into a <zui-breadcrumbs></zui-breadcrumbs> wrapper. <zui-breadcrumb></zui-breadcrumb> will accept and format correct styling for <a>&rsquo;s, <button>&rsquo;s and other slotted in elements. Choose your slotted in element based upon your use case needs. Typically if items can be opened in a new tab we suggest using an <a>.</p>
+
+                
+            </div>
+            
+        </zui-pages>
+    </template>
+</dom-bind>
+
+
+
+                    </div>
+                </section>
+            </zui-shell-content><zui-shell-footer>
+    <div>
+        &copy; 1995 - 2020 Zywave, Inc. All rights reserved.
+    </div>
+    <a class="zui-link" target="_blank" href="http://www.zywave.com/terms-conditions/">Terms and Conditions</a>
+    <a class="zui-link" target="_blank" href="http://www.zywave.com/privacy-statement/">Privacy Statement</a>
+    <a class="zui-link" target="_blank" href="http://www.zywave.com/dmca-notice/">DMCA</a></div>
+    <a class="zui-link" target="_blank" href="http://www.zywave.com/cookie-usage/">Cookie Usage</a>
+    <a class="zui-link" href="mailto:support@zywave.com">Contact</a>
+</zui-shell-footer>
+<script src="https://unpkg.com/@zywave/zui-bundle@next/dist/zui-loader.js"></script>
+</zui-shell>
+    </body>
+</html>

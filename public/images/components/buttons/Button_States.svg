@@ -1,0 +1,128 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="900" height="398" viewBox="0 0 900 398">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="73.934" height="36" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <rect width="78" height="40" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-Button_states">
+      <rect width="900" height="398"/>
+    </clipPath>
+  </defs>
+  <g id="Button_states" clip-path="url(#clip-Button_states)">
+    <rect width="900" height="398" fill="#f4f4f6"/>
+    <text id="Normal" transform="translate(216 104)" fill="#c6318c" font-size="8" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Normal</tspan></text>
+    <text id="Primary" transform="translate(337 59)" fill="#c6318c" font-size="8" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Primary</tspan></text>
+    <text id="Secondary" transform="translate(431 59)" fill="#c6318c" font-size="8" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Secondary</tspan></text>
+    <text id="Link_Button" data-name="Link Button" transform="translate(532 59)" fill="#c6318c" font-size="8" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Link Button</tspan></text>
+    <text id="Hover" transform="translate(219 160)" fill="#c6318c" font-size="8" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Hover</tspan></text>
+    <text id="Focused" transform="translate(215 216)" fill="#c6318c" font-size="8" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Focused</tspan></text>
+    <text id="Pressed" transform="translate(215 272)" fill="#c6318c" font-size="8" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Pressed</tspan></text>
+    <text id="Disabled" transform="translate(214 327)" fill="#c6318c" font-size="8" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Disabled</tspan></text>
+    <g id="Primary_Button_-_Normal" data-name="Primary Button - Normal" transform="translate(313 82)">
+      <rect id="Rectangle_3990" data-name="Rectangle 3990" width="73.934" height="36" rx="18" fill="#2777d3"/>
+      <text id="Action" transform="translate(37 23)" fill="#fff" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="-20.614" y="0">Action</tspan></text>
+    </g>
+    <g id="Primary_Button_-_Hover" data-name="Primary Button - Hover" transform="translate(313 138)" clip-path="url(#clip-path)">
+      <rect id="Rectangle_3990-2" data-name="Rectangle 3990" width="73.934" height="36" rx="18" fill="#4e92df"/>
+      <text id="Action-2" data-name="Action" transform="translate(37 23)" fill="#fff" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="-20.614" y="0">Action</tspan></text>
+    </g>
+    <g id="Primary_Button_-_Focus" data-name="Primary Button - Focus" transform="translate(311 192)" clip-path="url(#clip-path-2)">
+      <rect id="Rectangle_3990-3" data-name="Rectangle 3990" width="74" height="36" rx="18" transform="translate(2 2)" fill="#2777d3"/>
+      <text id="Action-3" data-name="Action" transform="translate(39 25)" fill="#fff" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="-20.614" y="0">Action</tspan></text>
+      <g id="Rectangle_5326" data-name="Rectangle 5326" transform="translate(1 1)" fill="none" stroke="#2777d3" stroke-width="1" stroke-dasharray="2 0">
+        <rect width="76" height="38" rx="19" stroke="none"/>
+        <rect x="-0.5" y="-0.5" width="77" height="39" rx="19.5" fill="none"/>
+      </g>
+    </g>
+    <g id="Primary_Button_-_Selected" data-name="Primary Button - Selected" transform="translate(313 250)" clip-path="url(#clip-path)">
+      <rect id="Rectangle_5241" data-name="Rectangle 5241" width="73.934" height="36" rx="18" fill="#1f5ea8"/>
+      <text id="Action-4" data-name="Action" transform="translate(37 23)" fill="#fff" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="-20.614" y="0">Action</tspan></text>
+    </g>
+    <g id="Primary_Button_-_Disabled" data-name="Primary Button - Disabled" transform="translate(313 306)" clip-path="url(#clip-path)">
+      <rect id="Rectangle_6220" data-name="Rectangle 6220" width="74" height="36" rx="18" fill="#e6e6ea"/>
+      <text id="Action-5" data-name="Action" transform="translate(37 23)" fill="#afafbb" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="-20.614" y="0">Action</tspan></text>
+    </g>
+    <g id="Secondary_Button_-_Normal" data-name="Secondary Button - Normal" transform="translate(412 82)">
+      <g id="Rectangle_3991" data-name="Rectangle 3991" fill="none" stroke="#cbcbd2" stroke-width="1">
+        <rect width="73.934" height="36" rx="18" stroke="none"/>
+        <rect x="0.5" y="0.5" width="72.934" height="35" rx="17.5" fill="none"/>
+      </g>
+      <text id="Action-6" data-name="Action" transform="translate(37 23)" fill="#2777d3" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="-20.614" y="0">Action</tspan></text>
+    </g>
+    <g id="Secondary_Button_-_Hover" data-name="Secondary Button - Hover" transform="translate(412 138)" clip-path="url(#clip-path)">
+      <g id="Rectangle_3991-2" data-name="Rectangle 3991" fill="none" stroke="#4e92df" stroke-width="1">
+        <rect width="73.934" height="36" rx="18" stroke="none"/>
+        <rect x="0.5" y="0.5" width="72.934" height="35" rx="17.5" fill="none"/>
+      </g>
+      <text id="Action-7" data-name="Action" transform="translate(37 23)" fill="#2777d3" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="-20.614" y="0">Action</tspan></text>
+    </g>
+    <g id="Secondary_Button_-_Focus" data-name="Secondary Button - Focus" transform="translate(410 192)" clip-path="url(#clip-path-2)">
+      <g id="Rectangle_5299" data-name="Rectangle 5299" transform="translate(2 2)" fill="none" stroke="#cbcbd2" stroke-width="1">
+        <rect width="74" height="36" rx="18" stroke="none"/>
+        <rect x="0.5" y="0.5" width="73" height="35" rx="17.5" fill="none"/>
+      </g>
+      <text id="Action-8" data-name="Action" transform="translate(39 25)" fill="#2777d3" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="-20.614" y="0">Action</tspan></text>
+      <g id="Rectangle_5327" data-name="Rectangle 5327" transform="translate(1 1)" fill="none" stroke="#2777d3" stroke-width="1">
+        <rect width="76" height="38" rx="19" stroke="none"/>
+        <rect x="-0.5" y="-0.5" width="77" height="39" rx="19.5" fill="none"/>
+      </g>
+    </g>
+    <g id="Secondary_Button_-_Selected" data-name="Secondary Button - Selected" transform="translate(412 250)" clip-path="url(#clip-path)">
+      <g id="Rectangle_5242" data-name="Rectangle 5242" fill="none" stroke="#1f5ea8" stroke-width="1">
+        <rect width="73.934" height="36" rx="18" stroke="none"/>
+        <rect x="0.5" y="0.5" width="72.934" height="35" rx="17.5" fill="none"/>
+      </g>
+      <text id="Action-9" data-name="Action" transform="translate(37 23)" fill="#2777d3" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="-20.614" y="0">Action</tspan></text>
+    </g>
+    <g id="Secondary_Button_-_Disabled" data-name="Secondary Button - Disabled" transform="translate(412 306)" clip-path="url(#clip-path)">
+      <g id="Rectangle_5248" data-name="Rectangle 5248" fill="none" stroke="#e6e6ea" stroke-width="1">
+        <rect width="73.934" height="36" rx="18" stroke="none"/>
+        <rect x="0.5" y="0.5" width="72.934" height="35" rx="17.5" fill="none"/>
+      </g>
+      <text id="Action-10" data-name="Action" transform="translate(37 23)" fill="#afafbb" font-size="14" font-family="OpenSans-Semibold, Open Sans" font-weight="600"><tspan x="-21.516" y="0">Action</tspan></text>
+    </g>
+    <g id="Link_Button_-_Normal" data-name="Link Button - Normal" transform="translate(515 82)">
+      <path id="Path_6651" data-name="Path 6651" d="M18,0H55.934a18,18,0,0,1,0,36H18A18,18,0,0,1,18,0Z" fill="none"/>
+      <text id="Action-11" data-name="Action" transform="translate(37 23)" fill="#2777d3" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="-20.614" y="0">Action</tspan></text>
+      <rect id="Rectangle_6075" data-name="Rectangle 6075" width="73.934" height="36" rx="18" fill="none"/>
+    </g>
+    <g id="Link_Button_-_Hover" data-name="Link Button - Hover" transform="translate(515 138)" clip-path="url(#clip-path)">
+      <rect id="Rectangle_3992" data-name="Rectangle 3992" width="73.934" height="36" rx="18" fill="#e6e6ea"/>
+      <text id="Action-12" data-name="Action" transform="translate(37 23)" fill="#2777d3" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="-20.614" y="0">Action</tspan></text>
+    </g>
+    <g id="Link_Button_-_Focus" data-name="Link Button - Focus" transform="translate(513 192)" clip-path="url(#clip-path-2)">
+      <rect id="Rectangle_5299-2" data-name="Rectangle 5299" width="74" height="36" rx="18" transform="translate(2 2)" fill="none"/>
+      <text id="Action-13" data-name="Action" transform="translate(39 25)" fill="#2777d3" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="-20.614" y="0">Action</tspan></text>
+      <g id="Rectangle_5327-2" data-name="Rectangle 5327" transform="translate(1 1)" fill="none" stroke="#2777d3" stroke-width="1">
+        <rect width="76" height="38" rx="19" stroke="none"/>
+        <rect x="-0.5" y="-0.5" width="77" height="39" rx="19.5" fill="none"/>
+      </g>
+    </g>
+    <g id="Link_Button_-_Selected" data-name="Link Button - Selected" transform="translate(515 250)" clip-path="url(#clip-path)">
+      <rect id="Rectangle_5243" data-name="Rectangle 5243" width="73.934" height="36" rx="18" fill="#cbcbd2"/>
+      <text id="Action-14" data-name="Action" transform="translate(37 23)" fill="#2777d3" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="-20.614" y="0">Action</tspan></text>
+    </g>
+    <g id="Link_Button_-_Disabled" data-name="Link Button - Disabled" transform="translate(515 306)" clip-path="url(#clip-path)">
+      <rect id="Rectangle_5249" data-name="Rectangle 5249" width="73.934" height="36" rx="18" fill="none"/>
+      <text id="Action-15" data-name="Action" transform="translate(37 23)" fill="#afafbb" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="-20.614" y="0">Action</tspan></text>
+    </g>
+    <g id="Primary_Button_-_Normal-2" data-name="Primary Button - Normal" transform="translate(313 82)">
+      <rect id="Rectangle_3990-4" data-name="Rectangle 3990" width="73.934" height="36" rx="18" fill="#2777d3"/>
+      <text id="Action-16" data-name="Action" transform="translate(37 23)" fill="#fff" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="-20.614" y="0">Action</tspan></text>
+    </g>
+    <g id="Secondary_Button_-_Normal-2" data-name="Secondary Button - Normal" transform="translate(412 82)">
+      <g id="Rectangle_3991-3" data-name="Rectangle 3991" fill="none" stroke="#cbcbd2" stroke-width="1">
+        <rect width="73.934" height="36" rx="18" stroke="none"/>
+        <rect x="0.5" y="0.5" width="72.934" height="35" rx="17.5" fill="none"/>
+      </g>
+      <text id="Action-17" data-name="Action" transform="translate(37 23)" fill="#2777d3" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="-20.614" y="0">Action</tspan></text>
+    </g>
+    <g id="Link_Button_-_Normal-2" data-name="Link Button - Normal" transform="translate(515 82)">
+      <path id="Path_6651-2" data-name="Path 6651" d="M18,0H55.934a18,18,0,0,1,0,36H18A18,18,0,0,1,18,0Z" fill="none"/>
+      <text id="Action-18" data-name="Action" transform="translate(37 23)" fill="#2777d3" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="-20.614" y="0">Action</tspan></text>
+      <rect id="Rectangle_6075-2" data-name="Rectangle 6075" width="73.934" height="36" rx="18" fill="none"/>
+    </g>
+  </g>
+</svg>

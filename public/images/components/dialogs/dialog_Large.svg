@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="964" height="664" viewBox="0 0 964 664">
+  <defs>
+    <filter id="Rectangle_3883" x="14" y="111" width="905" height="530" filterUnits="userSpaceOnUse">
+      <feOffset dy="8" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feFlood flood-opacity="0.4"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_3882" x="-16" y="79" width="965" height="590" filterUnits="userSpaceOnUse">
+      <feOffset dy="6" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="15" result="blur-2"/>
+      <feFlood flood-opacity="0.122"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_3880" x="23" y="118" width="887" height="522" filterUnits="userSpaceOnUse">
+      <feOffset dy="16" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="2" result="blur-3"/>
+      <feFlood flood-opacity="0.141"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-dialog_Large">
+      <rect width="964" height="664"/>
+    </clipPath>
+  </defs>
+  <g id="dialog_Large" clip-path="url(#clip-dialog_Large)">
+    <rect width="964" height="664" fill="#fff"/>
+    <g id="Group_7694" data-name="Group 7694" transform="translate(-174 -17)">
+      <g id="Group_7691" data-name="Group 7691" transform="translate(-123 -550)">
+        <g transform="matrix(1, 0, 0, 1, 297, 567)" filter="url(#Rectangle_3883)">
+          <rect id="Rectangle_3883-2" data-name="Rectangle 3883" width="875" height="500" transform="translate(29 118)" fill="#f7b6e6"/>
+        </g>
+        <g transform="matrix(1, 0, 0, 1, 297, 567)" filter="url(#Rectangle_3882)">
+          <rect id="Rectangle_3882-2" data-name="Rectangle 3882" width="875" height="500" transform="translate(29 118)" fill="#f7b6e6"/>
+        </g>
+        <g transform="matrix(1, 0, 0, 1, 297, 567)" filter="url(#Rectangle_3880)">
+          <rect id="Rectangle_3880-2" data-name="Rectangle 3880" width="875" height="500" transform="translate(29 118)" fill="#f7b6e6"/>
+        </g>
+      </g>
+      <circle id="Ellipse_1" data-name="Ellipse 1" cx="21" cy="21" r="21" transform="translate(1073 100)" fill="#dfdfdf" opacity="0.34"/>
+      <path id="Path_5553" data-name="Path 5553" d="M752.445,29.521a2,2,0,0,1-2.823,2.824l-4.572-4.571-4.571,4.571a2,2,0,0,1-2.824-2.824l4.572-4.571-4.572-4.571a2,2,0,0,1,2.824-2.824l4.571,4.571,4.572-4.571a2,2,0,0,1,2.823,2.824l-4.571,4.571Z" transform="translate(348.95 96.05)" fill="#fff"/>
+      <rect id="Rectangle_3856" data-name="Rectangle 3856" width="450" height="37.5" transform="translate(302 163)" fill="none"/>
+      <rect id="Rectangle_3864" data-name="Rectangle 3864" width="815" height="440" transform="translate(233 165)" fill="#fff"/>
+      <rect id="Rectangle_3874" data-name="Rectangle 3874" width="815" height="323" transform="translate(233 216)" fill="#fcf8e5"/>
+      <rect id="Rectangle_3875" data-name="Rectangle 3875" width="815" height="66" transform="translate(233 539)" fill="#f9eeb9"/>
+      <text id="Headline_Title" data-name="Headline Title" transform="translate(233 193)" fill="#3d3d3d" font-size="26" font-family="OpenSans-Semibold, Open Sans" font-weight="600"><tspan x="0" y="0">Headline Title</tspan></text>
+      <text id="Lorem_ipsum_dolor_sit_amet_consectetuer_adipiscing_elit._Aenean_commodo_ligula_eget_dolor._" data-name="Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.  " transform="translate(233 216)" fill="#707070" font-size="14" font-family="OpenSans, Open Sans"><tspan x="0" y="15" xml:space="preserve">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.  </tspan></text>
+      <g id="Group_7687" data-name="Group 7687" transform="translate(100.7 1)">
+        <rect id="Rectangle_3866" data-name="Rectangle 3866" width="1" height="30" transform="translate(862.3 538)" fill="#ff00bc"/>
+        <rect id="Rectangle_3867" data-name="Rectangle 3867" width="5" height="1" transform="translate(860.3 538)" fill="#ff00bc"/>
+        <rect id="Rectangle_3868" data-name="Rectangle 3868" width="5" height="1" transform="translate(860.3 567)" fill="#ff00bc"/>
+        <text id="_30px" data-name="30px" transform="translate(822.3 558)" fill="#ff00bc" font-size="14" font-family="OpenSans, Open Sans"><tspan x="0" y="0">30px</tspan></text>
+      </g>
+      <g id="Group_7709" data-name="Group 7709" transform="translate(-127 5)">
+        <rect id="Rectangle_3865" data-name="Rectangle 3865" width="1" height="15" transform="translate(491.3 196)" fill="#ff00bc"/>
+        <rect id="Rectangle_3869" data-name="Rectangle 3869" width="5" height="1" transform="translate(489.3 196)" fill="#ff00bc"/>
+        <rect id="Rectangle_3870" data-name="Rectangle 3870" width="5" height="1" transform="translate(489.3 210)" fill="#ff00bc"/>
+        <text id="_15px" data-name="15px" transform="translate(496.3 209)" fill="#ff00bc" font-size="14" font-family="OpenSans, Open Sans"><tspan x="0" y="0">15px</tspan></text>
+      </g>
+      <g id="Group_7676" data-name="Group 7676" transform="translate(-206.7)">
+        <rect id="Rectangle_3872" data-name="Rectangle 3872" width="1" height="30" transform="translate(548 135)" fill="#ff00bc"/>
+        <rect id="Rectangle_3873" data-name="Rectangle 3873" width="5" height="1" transform="translate(546 135)" fill="#ff00bc"/>
+        <rect id="Rectangle_3871" data-name="Rectangle 3871" width="5" height="1" transform="translate(546 164)" fill="#ff00bc"/>
+        <text id="_30px-2" data-name="30px" transform="translate(553 156)" fill="#ff00bc" font-size="14" font-family="OpenSans, Open Sans"><tspan x="0" y="0">30px</tspan></text>
+      </g>
+      <g id="Group_7688" data-name="Group 7688" transform="translate(-99.3)">
+        <g id="Group_7677" data-name="Group 7677" transform="translate(517.3 -154) rotate(90)">
+          <rect id="Rectangle_3872-2" data-name="Rectangle 3872" width="1" height="30" transform="translate(331 185)" fill="#ff00bc"/>
+          <rect id="Rectangle_3873-2" data-name="Rectangle 3873" width="5" height="1" transform="translate(329 185)" fill="#ff00bc"/>
+          <rect id="Rectangle_3871-2" data-name="Rectangle 3871" width="5" height="1" transform="translate(329 214)" fill="#ff00bc"/>
+        </g>
+        <text id="_30px-3" data-name="30px" transform="translate(301.3 199)" fill="#ff00bc" font-size="14" font-family="OpenSans, Open Sans"><tspan x="0" y="0">30px</tspan></text>
+      </g>
+      <g id="Group_7708" data-name="Group 7708" transform="translate(211 90)">
+        <g id="Group_7681" data-name="Group 7681" transform="translate(78.3 -85)">
+          <g id="Group_7675" data-name="Group 7675" transform="translate(80.2 164.4)">
+            <rect id="Rectangle_3897" data-name="Rectangle 3897" width="60" height="36" rx="18" transform="translate(618.5 399.6)" fill="#1f5ea8"/>
+            <text id="Save" transform="translate(633.831 423.574)" fill="#fff" font-size="14" font-family="OpenSans, Open Sans"><tspan x="0" y="0">Save</tspan></text>
+          </g>
+        </g>
+        <g id="Group_7707" data-name="Group 7707" transform="translate(-6.7 -85)">
+          <g id="Group_7675-2" data-name="Group 7675" transform="translate(80.2 164.4)">
+            <rect id="Rectangle_3897-2" data-name="Rectangle 3897" width="73" height="36" rx="18" transform="translate(618.5 399.6)" fill="none"/>
+            <text id="Cancel" transform="translate(633.831 423.574)" fill="#1f5ea8" font-size="14" font-family="OpenSans, Open Sans"><tspan x="0" y="0">Cancel</tspan></text>
+          </g>
+        </g>
+      </g>
+    </g>
+    <g id="Group_7705" data-name="Group 7705" transform="translate(-174 -88)">
+      <rect id="Rectangle_3896" data-name="Rectangle 3896" width="5" height="1" transform="translate(1078 118) rotate(90)" fill="#ff00bc"/>
+      <rect id="Rectangle_3894" data-name="Rectangle 3894" width="5" height="1" transform="translate(204 118) rotate(90)" fill="#ff00bc"/>
+      <text id="_875px" data-name="875px" transform="translate(620 143)" fill="#ff00bc" font-size="14" font-family="OpenSans, Open Sans"><tspan x="0" y="0">875px</tspan></text>
+      <rect id="Rectangle_3895" data-name="Rectangle 3895" width="875" height="1" transform="translate(203 120)" fill="#ff00bc"/>
+    </g>
+  </g>
+</svg>

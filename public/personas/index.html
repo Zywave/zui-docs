@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html><head>
+    <title>Personas | Zywave User Interface</title>
+    <link href="http://zui.zywave.com/css/ie-sucks.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://unpkg.com/@zywave/zui-bundle@next/dist/css/zui-bundle.fouc.css" />
+    <link rel="stylesheet" href="https://unpkg.com/@zywave/zui-bundle@next/dist/css/zui-bundle.app.css" />
+    <link href="http://zui.zywave.com/css/base.css" rel="stylesheet" />
+    <link href="http://zui.zywave.com/css/shortcodes.css" rel="stylesheet" />
+    <link href="http://zui.zywave.com/css/syntax-highlighting-monokai.css" rel="stylesheet" />
+    <link rel='shortcut icon' type='image/x-icon' href='http://zui.zywave.com/static/favicon.ico' />
+    <script src="http://zui.zywave.com/js/ie-sucks.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.3.0/fuse.min.js"></script>
+    <style>
+        :root {
+            --zui-shell-primary-theme: var(--zui-green);
+            --zui-shell-primary-theme-dark: var(--zui-green-600);
+            --zui-tabs-color: var(--zui-green);
+        }
+    </style>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const externalLinks = document.querySelectorAll('a[href^="http://"], a[href^="https://"]');
+            for (const l of externalLinks) {
+                if (l.href.indexOf("http://zui.zywave.com/") < 0) {
+                    l.target = '_blank';
+                }
+            }
+        });
+
+        
+        
+    </script>
+</head>
+<body>
+        <ie-sucks>
+            No. Stop it. Use a real browser.
+        </ie-sucks>
+        <zui-shell app-name="ZUI Documentation"><zui-shell-topbar>
+    <zui-logo slot="logo"></zui-logo>
+</zui-shell-topbar>
+
+
+
+<zui-shell-nav>
+    <zui-shell-nav-item>
+        <zui-icon icon="zui-nav-home" slot="icon"></zui-icon>
+        <a href="http://zui.zywave.com/" active>Home</a>
+    </zui-shell-nav-item>
+    
+    
+    <zui-shell-nav-item subnav>
+        <zui-icon icon="zui-nav-developers" slot="icon"></zui-icon>
+        
+            <span>Developers</span>
+            
+            
+            
+            
+            <a href="http://zui.zywave.com/developers/contribution-guide/" >Contribution guide</a>
+            
+            <a href="http://zui.zywave.com/developers/developing-zui/" >Developing ZUI</a>
+            
+            <a href="http://zui.zywave.com/developers/installation/" >Installation</a>
+            
+            <a href="http://zui.zywave.com/developers/lit/" >Lit 🔥</a>
+            
+            <a href="http://zui.zywave.com/developers/polyfills/" >Polyfills</a>
+            
+            <a href="http://zui.zywave.com/developers/responsive-design/" >Responsive design</a>
+            
+            <a href="http://zui.zywave.com/developers/tooling/" >Tooling</a>
+            
+            <a href="http://zui.zywave.com/developers/webcomponents/" >Web components</a>
+            
+        
+    </zui-shell-nav-item>
+    
+    
+    <zui-shell-nav-item subnav>
+        <zui-icon icon="zui-nav-foundations" slot="icon"></zui-icon>
+        
+            <span>Foundations</span>
+            
+            
+                
+            
+            
+            
+            <a href="http://zui.zywave.com/foundations/colors/" >Colors</a>
+            
+            <a href="http://zui.zywave.com/foundations/content-area/" >Content area</a>
+            
+            <a href="http://zui.zywave.com/foundations/fonts-typography/" >Fonts &amp; typography</a>
+            
+            <a href="http://zui.zywave.com/foundations/footer/" >Footer</a>
+            
+            <a href="http://zui.zywave.com/foundations/icons/" >Icons</a>
+            
+            <a href="http://zui.zywave.com/foundations/illustrations/" >Illustrations</a>
+            
+            <a href="http://zui.zywave.com/foundations/product-branding/" >Product branding</a>
+            
+            <a href="http://zui.zywave.com/foundations/shell/" >Shell</a>
+            
+            <a href="http://zui.zywave.com/foundations/sidenav/" >Sidenav</a>
+            
+            <a href="http://zui.zywave.com/foundations/topbar/" >Topbar</a>
+            
+        
+    </zui-shell-nav-item>
+    
+    
+    <zui-shell-nav-item subnav>
+        <zui-icon icon="zui-nav-components" slot="icon"></zui-icon>
+        
+            <span>Components</span>
+            
+            
+                
+            
+            
+            
+            <a href="http://zui.zywave.com/components/breadcrumbs/" >Breadcrumbs</a>
+            
+            <a href="http://zui.zywave.com/components/buttons-dropdown/" >Button dropdowns</a>
+            
+            <a href="http://zui.zywave.com/components/buttons/" >Buttons</a>
+            
+            <a href="http://zui.zywave.com/components/checkboxes/" >Checkboxes</a>
+            
+            <a href="http://zui.zywave.com/components/dialogs/" >Dialogs</a>
+            
+            <a href="http://zui.zywave.com/components/dropdown-multi-select/" >Dropdown multi-select</a>
+            
+            <a href="http://zui.zywave.com/components/dropdown-select/" >Dropdown select</a>
+            
+            <a href="http://zui.zywave.com/components/expanders/" >Expanders</a>
+            
+            <a href="http://zui.zywave.com/components/file-selector/" >File Selector</a>
+            
+            <a href="http://zui.zywave.com/components/notifiers/" >Notifiers</a>
+            
+            <a href="http://zui.zywave.com/components/radio-buttons/" >Radio buttons</a>
+            
+            <a href="http://zui.zywave.com/components/tabs/" >Tabs</a>
+            
+            <a href="http://zui.zywave.com/components/text-input/" >Text Input</a>
+            
+            <a href="http://zui.zywave.com/components/toggles/" >Toggles</a>
+            
+            <a href="http://zui.zywave.com/components/tooltips/" >Tooltips</a>
+            
+            <a href="http://zui.zywave.com/components/wells/" >Well</a>
+            
+        
+    </zui-shell-nav-item>
+    
+    
+    <zui-shell-nav-item subnav>
+        <zui-icon icon="zui-nav-patterns" slot="icon"></zui-icon>
+        
+            <span>Patterns</span>
+            
+            
+                
+            
+            
+            
+            <a href="http://zui.zywave.com/patterns/forms/" >Forms</a>
+            
+            <a href="http://zui.zywave.com/patterns/step-flow/" >Step flow</a>
+            
+            <a href="http://zui.zywave.com/patterns/typeahead/" >Typeahead</a>
+            
+        
+    </zui-shell-nav-item>
+    
+    
+    <zui-shell-nav-item subnav>
+        <zui-icon icon="zui-nav-help" slot="icon"></zui-icon>
+        
+            <span>Communications</span>
+            
+            
+                
+            
+            
+            
+            <a href="http://zui.zywave.com/communications/messages/" >Messages</a>
+            
+            <a href="http://zui.zywave.com/communications/voice-tone/" >Voice &amp; tone</a>
+            
+            <a href="http://zui.zywave.com/communications/writing-style-guide/" >Writing style guide</a>
+            
+        
+    </zui-shell-nav-item>
+    
+    
+    <zui-shell-nav-item >
+        <zui-icon icon="zui-nav-accounts" slot="icon"></zui-icon>
+        
+            <a href="http://zui.zywave.com/personas/" active>Personas</a>
+        
+    </zui-shell-nav-item>
+    
+    <script>
+        
+        const activeLinks = document.querySelectorAll('zui-shell-nav-item a[active]');
+            for (let activeLink of activeLinks) {
+                activeLink.closest('zui-shell-nav-item').expanded = true;
+            }
+    </script>
+</zui-shell-nav>
+<zui-shell-content id="content">
+                <section class="zui-layout zui-layout--slim">
+                    <div class="page-heading">
+                        <h1>Personas</h1>
+                         <h2>Perso-na-na, what's my name</h2> 
+                    </div>
+                    <div class="content-container">
+                        
+
+<p>When designing our software, it is important to know who uses our products and what motivates them. Below you will find personas we created based on research and conversations we had with our Partners.</p>
+
+<hr>
+
+<h2 id="alice">Alice</h2>
+
+<h3 id="account-relationship-manager">Account relationship manager</h3>
+
+<p><img src="http://zui.zywave.com/images/personas/alice-banner.png" alt="&quot;I am a passionate worker, dedicated to making my clients happy.&quot; - Alice" /></p>
+
+<div class="grid">
+    <div class='grid-col span-4'>
+    <h4 id="background">Background</h4>
+
+<p>Hi, I&rsquo;m Alice. I had no insurance background or knowledge when I first started working in the insurance industry. Once I got started, I found that I love serving our clients. I deepened my knowledge by attending a series of classes and earning a certification. Even though I may change agencies at some point, I can&rsquo;t see myself ever switching careers.</p>
+
+</div>
+
+<div class='grid-col span-8'>
+    <p><img src="http://zui.zywave.com/images/personas/alice-icons.png" alt="Alice's bio" /></p>
+
+</div>
+
+<div class='grid-col span-4'>
+    <h4 id="common-roles">Common roles</h4>
+
+<ul>
+<li>CSR</li>
+<li>Intern</li>
+<li>Administrative assistant/marketing</li>
+<li>Relationship building</li>
+<li>Support</li>
+<li>Communication</li>
+<li>Retention
+<br /></li>
+</ul>
+
+</div>
+
+<p><div class='grid-col span-8'>
+    <p><img src="http://zui.zywave.com/images/personas/alice-graph.png" alt="Pie chart of Alice's responsibilities" /></p></p>
+
+<p></div></p>
+
+<p><div class='grid-col span-6'>
+    <h4 id="goals">Goals</h4></p>
+
+<ul>
+<li>Retain and satisfy</li>
+<li>Please clients and coworkers</li>
+<li>Improve methods to provide better service for clients</li>
+<li>Learn how to give and take criticism
+<br /></li>
+</ul>
+
+<p></div></p>
+
+<p><div class='grid-col span-6'>
+    <h4 id="worries">Worries</h4></p>
+
+<ul>
+<li>Managing time</li>
+<li>Dealing with difficult clients</li>
+<li>Keeping up with policy and form changes</li>
+<li>Balancing work and home
+<br /></li>
+</ul>
+
+<p></div></p>
+
+</div>
+
+<hr>
+
+<h2 id="brad">Brad</h2>
+
+<h3 id="business-generator">Business generator</h3>
+
+<p><img src="http://zui.zywave.com/images/personas/brad-banner.png" alt="&quot;I need to build relationships and bring in new revenue.&quot; - Brad" /></p>
+
+<div class="grid">
+    <div class='grid-col span-4'>
+    <h4 id="background">Background</h4>
+
+<p>Hey, I&rsquo;m Brad. I&rsquo;m working to establish myself in the insurance industry. At this point, I&rsquo;m making as many connections as I can in my community looking for opportunities to bring new business to the agency.</p>
+
+</div>
+
+<div class='grid-col span-8'>
+    <p><img src="http://zui.zywave.com/images/personas/brad-icons.png" alt="Brad's bio" /></p>
+
+</div>
+
+<div class='grid-col span-4'>
+    <h4 id="common-roles">Common roles</h4>
+
+<ul>
+<li>Producer</li>
+<li>Assistant
+<br /></li>
+</ul>
+
+</div>
+
+<p><div class='grid-col span-8'>
+    <p><img src="http://zui.zywave.com/images/personas/brad-graph.png" alt="Brad's responsibilities" /></p></p>
+
+<p></div></p>
+
+<p><div class='grid-col span-6'>
+    <h4 id="goals">Goals</h4></p>
+
+<ul>
+<li>Establish a book of business</li>
+<li>Take over an agency someday</li>
+<li>Look professional to clients</li>
+<li>Be a resource, not just a sales person
+<br /></li>
+</ul>
+
+<p></div></p>
+
+<p><div class='grid-col span-6'>
+    <h4 id="worries">Worries</h4></p>
+
+<ul>
+<li>Uncertainty</li>
+<li>Losing clients</li>
+<li>Missing opportunities</li>
+<li>Being prepared for what&rsquo;s coming next
+<br /></li>
+</ul>
+
+<p></div></p>
+
+</div>
+
+<hr>
+
+<h2 id="owen">Owen</h2>
+
+<h3 id="one-man-team">One-man team</h3>
+
+<p><img src="http://zui.zywave.com/images/personas/owen-banner.png" alt="&quot;I work hard and do everything for my business because it's just me.&quot; - Owen" /></p>
+
+<div class="grid">
+    <div class='grid-col span-4'>
+    <h4 id="background">Background</h4>
+
+<p>Hello, I&rsquo;m Owen. I&rsquo;ve learned everything I know about insurance through my 10 years of broker experience. My business is my top priority; I work all hours of the day to gain as many clients as possible. I recently hired someone to help out because my workload is so heavy, but I have no problem taking on the challenge.</p>
+
+</div>
+
+<div class='grid-col span-8'>
+    <p><img src="http://zui.zywave.com/images/personas/owen-icons.png" alt="Owen's bio" /></p>
+
+</div>
+
+<div class='grid-col span-4'>
+    <h4 id="common-roles">Common roles</h4>
+
+<ul>
+<li>Business owner</li>
+<li>Broker</li>
+<li>Entrepreneur
+<br /></li>
+</ul>
+
+</div>
+
+<p><div class='grid-col span-8'>
+    <p><img src="http://zui.zywave.com/images/personas/owen-graph.png" alt="Owen's responsibilities" /></p></p>
+
+<p></div></p>
+
+<p><div class='grid-col span-6'>
+    <h4 id="goals">Goals</h4></p>
+
+<ul>
+<li>Be my own boss</li>
+<li>Stay profitable and afloat</li>
+<li>Have more time for new business development</li>
+<li>Grow enough to hire more employees when the time comes</li>
+<li>Compete with the big agencies
+<br /></li>
+</ul>
+
+<p></div></p>
+
+<p><div class='grid-col span-6'>
+    <h4 id="worries">Worries</h4></p>
+
+<ul>
+<li>Losing a client</li>
+<li>Having to compete with larger agencies with more resources</li>
+<li>Finding the next sale/client</li>
+<li>No time to develop a plan</li>
+<li>Compliance
+<br /></li>
+</ul>
+
+<p></div></p>
+
+</div>
+
+                    </div>
+                </section>
+            </zui-shell-content><zui-shell-footer>
+    <div>
+        &copy; 1995 - 2020 Zywave, Inc. All rights reserved.
+    </div>
+    <a class="zui-link" target="_blank" href="http://www.zywave.com/terms-conditions/">Terms and Conditions</a>
+    <a class="zui-link" target="_blank" href="http://www.zywave.com/privacy-statement/">Privacy Statement</a>
+    <a class="zui-link" target="_blank" href="http://www.zywave.com/dmca-notice/">DMCA</a></div>
+    <a class="zui-link" target="_blank" href="http://www.zywave.com/cookie-usage/">Cookie Usage</a>
+    <a class="zui-link" href="mailto:support@zywave.com">Contact</a>
+</zui-shell-footer>
+<script src="https://unpkg.com/@zywave/zui-bundle@next/dist/zui-loader.js"></script>
+</zui-shell>
+    </body>
+</html>

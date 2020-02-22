@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="480" height="104" viewBox="0 0 480 104">
+  <defs>
+    <clipPath id="clip-tab_States">
+      <rect width="480" height="104"/>
+    </clipPath>
+  </defs>
+  <g id="tab_States" clip-path="url(#clip-tab_States)">
+    <rect width="480" height="104" fill="#f4f4f6"/>
+    <g id="Group_8095" data-name="Group 8095" transform="translate(-253 -224)">
+      <rect id="Rectangle_4038" data-name="Rectangle 4038" width="439" height="1" transform="translate(274 296)" fill="#cbcbd2"/>
+      <text id="Tab_one" data-name="Tab one" transform="translate(295 272)" fill="#1f5ea8" font-size="14" font-family="OpenSans-Bold, Open Sans" font-weight="700"><tspan x="0" y="0">Tab one</tspan></text>
+      <text id="Tab_two" data-name="Tab two" transform="translate(390 272)" fill="#5b5b5b" font-size="14" font-family="OpenSans, Open Sans"><tspan x="0" y="0">Tab two</tspan></text>
+      <text id="Tab_three" data-name="Tab three" transform="translate(482 272)" fill="#5b5b5b" font-size="14" font-family="OpenSans, Open Sans"><tspan x="0" y="0">Tab three</tspan></text>
+      <text id="Tab_three-2" data-name="Tab three" transform="translate(585 272)" fill="#5b5b5b" font-size="14" font-family="OpenSans, Open Sans"><tspan x="0" y="0">Tab three</tspan></text>
+      <rect id="Rectangle_4039" data-name="Rectangle 4039" width="96" height="4" transform="translate(274 292)" fill="#1f5ea8"/>
+      <rect id="Rectangle_5291" data-name="Rectangle 5291" width="103" height="4" transform="translate(462 292)" fill="#cbcbd2"/>
+    </g>
+  </g>
+</svg>

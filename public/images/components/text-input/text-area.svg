@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="300" height="84" viewBox="0 0 300 84">
+  <defs>
+    <clipPath id="clip-text-area">
+      <rect width="300" height="84"/>
+    </clipPath>
+  </defs>
+  <g id="text-area" clip-path="url(#clip-text-area)">
+    <rect width="300" height="84" fill="#fff"/>
+    <g id="Rectangle_6675" data-name="Rectangle 6675" fill="#fff" stroke="#cbcbd2" stroke-width="1">
+      <rect width="300" height="84" rx="4" stroke="none"/>
+      <rect x="0.5" y="0.5" width="299" height="83" rx="3.5" fill="none"/>
+    </g>
+  </g>
+</svg>

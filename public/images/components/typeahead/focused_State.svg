@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="370" height="224" viewBox="0 0 370 224">
+  <defs>
+    <filter id="Rectangle_3954" x="15.5" y="53.5" width="339" height="156" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1.5" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-focused_State">
+      <rect width="370" height="224"/>
+    </clipPath>
+  </defs>
+  <g id="focused_State" clip-path="url(#clip-focused_State)">
+    <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Rectangle_3954)">
+      <g id="Rectangle_3954-2" data-name="Rectangle 3954" transform="translate(20 57)" fill="#fff" stroke="#dbdbdb" stroke-width="1">
+        <rect width="330" height="147" rx="2" stroke="none"/>
+        <rect x="0.5" y="0.5" width="329" height="146" rx="1.5" fill="none"/>
+      </g>
+    </g>
+    <rect id="Rectangle_3955" data-name="Rectangle 3955" width="330" height="42" transform="translate(20 20)" fill="#fff" stroke="#79ace6" stroke-width="2"/>
+    <text id="osha" transform="translate(36 47)" fill="#31313a" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">osha</tspan></text>
+    <line id="Line_9" data-name="Line 9" y2="20" transform="translate(69.5 31.5)" fill="none" stroke="#79ace6" stroke-width="1"/>
+    <rect id="Rectangle_3956" data-name="Rectangle 3956" width="328" height="31" transform="translate(20.882 63)" fill="#e6e6ea" opacity="0.52"/>
+    <text id="osha_osha_reporting_osha_300_osha_recordkeeping_2017_osha_compliance" data-name="osha
+osha reporting
+osha 300
+osha recordkeeping
+2017 osha compliance" transform="translate(36 85)" fill="#31313a" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">os</tspan><tspan y="0" font-family="SegoeUI-Bold, Segoe UI" font-weight="700">ha</tspan><tspan x="0" y="26">os</tspan><tspan y="26" font-family="SegoeUI-Bold, Segoe UI" font-weight="700">ha reporting</tspan><tspan x="0" y="52">os</tspan><tspan y="52" font-family="SegoeUI-Bold, Segoe UI" font-weight="700">ha 300</tspan><tspan x="0" y="78">os</tspan><tspan y="78" font-family="SegoeUI-Bold, Segoe UI" font-weight="700">ha recordkeeping</tspan><tspan font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="104">2017 </tspan><tspan y="104" font-family="SegoeUI, Segoe UI" font-weight="400">os</tspan><tspan y="104">ha compliance</tspan></tspan></text>
+  </g>
+</svg>

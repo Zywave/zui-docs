@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="300" height="42" viewBox="0 0 300 42">
+  <defs>
+    <clipPath id="clip-text-input--success">
+      <rect width="300" height="42"/>
+    </clipPath>
+  </defs>
+  <g id="text-input--success" clip-path="url(#clip-text-input--success)">
+    <rect width="300" height="42" fill="#fff"/>
+    <g id="Group_7427" data-name="Group 7427" transform="translate(-151 -422)">
+      <g id="Input_Success" data-name="Input Success" transform="translate(151 422)">
+        <g id="Rectangle_294" data-name="Rectangle 294" fill="#fff" stroke="#7bc959" stroke-width="2">
+          <rect width="300" height="42" rx="4" stroke="none"/>
+          <rect x="1" y="1" width="298" height="40" rx="3" fill="none"/>
+        </g>
+        <text id="Input_text" data-name="Input text" transform="translate(15 27)" fill="#494955" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Input text</tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>

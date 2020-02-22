@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="590" height="200" viewBox="0 0 590 200">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="590" height="200" fill="none"/>
+    </clipPath>
+    <filter id="Rectangle_6369" x="0" y="0" width="590" height="200" filterUnits="userSpaceOnUse">
+      <feOffset dy="15" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="15" result="blur"/>
+      <feFlood flood-opacity="0.02"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_6370" x="40.5" y="26.5" width="509" height="119" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1.5" result="blur-2"/>
+      <feFlood flood-color="#17477d" flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Component_103_1" data-name="Component 103 – 1" clip-path="url(#clip-path)">
+    <g id="Group_12687" data-name="Group 12687" transform="translate(-22 -138)">
+      <g transform="matrix(1, 0, 0, 1, 22, 138)" filter="url(#Rectangle_6369)">
+        <rect id="Rectangle_6369-2" data-name="Rectangle 6369" width="500" height="110" rx="4" transform="translate(45 30)" fill="none"/>
+      </g>
+      <g transform="matrix(1, 0, 0, 1, 22, 138)" filter="url(#Rectangle_6370)">
+        <rect id="Rectangle_6370-2" data-name="Rectangle 6370" width="500" height="110" rx="4" transform="translate(45 30)" fill="#fff"/>
+      </g>
+      <path id="Rectangle_6371" data-name="Rectangle 6371" d="M4,0H496a4,4,0,0,1,4,4v6a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V4A4,4,0,0,1,4,0Z" transform="translate(67 168)" fill="#2777d3"/>
+    </g>
+    <g id="Group_12685" data-name="Group 12685" transform="translate(-70 -68)">
+      <g id="Group_11913" data-name="Group 11913">
+        <circle id="Ellipse_6" data-name="Ellipse 6" cx="12" cy="12" r="12" transform="translate(125 118)" fill="#2777d3"/>
+      </g>
+      <path id="Path_6649" data-name="Path 6649" d="M153,35.709V25.291a.29.29,0,0,1,.29-.291h1.919a.29.29,0,0,1,.29.291V35.709a.29.29,0,0,1-.29.291H153.29A.29.29,0,0,1,153,35.709Zm.29-13.209h1.919a.29.29,0,0,0,.29-.291V20.291a.29.29,0,0,0-.29-.291H153.29a.29.29,0,0,0-.29.291v1.919A.29.29,0,0,0,153.29,22.5Z" transform="translate(-17 102)" fill="#fff"/>
+    </g>
+    <text id="REMIND_EMPLOYEES" data-name="REMIND EMPLOYEES" transform="translate(99 117)" fill="#2777d3" font-size="14" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="0">REMIND EMPLOYEES</tspan></text>
+    <text id="Employees_must_sign_their_own_enrollment_forms." data-name="Employees must sign their own enrollment forms." transform="translate(99 53)" fill="#31313a" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="15">Employees must sign their own enrollment forms.</tspan></text>
+  </g>
+</svg>

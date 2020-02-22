@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="266" height="36" viewBox="0 0 266 36">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="82" height="36" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Group_13275" data-name="Group 13275" transform="translate(-821 -82)">
+    <g id="Secondary_Icon_-_Normal" data-name="Secondary + Icon - Normal" transform="translate(913 82)" clip-path="url(#clip-path)">
+      <g id="Rectangle_5274" data-name="Rectangle 5274" fill="none" stroke="#cbcbd2" stroke-width="1" stroke-dasharray="2 0">
+        <rect width="82" height="36" rx="18" stroke="none"/>
+        <rect x="0.5" y="0.5" width="81" height="35" rx="17.5" fill="none"/>
+      </g>
+      <g id="Group_12530" data-name="Group 12530">
+        <text id="Edit" transform="translate(53.768 23)" fill="#2777d3" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="-12.199" y="0">Edit</tspan></text>
+        <path id="Path_6636" data-name="Path 6636" d="M18.142,3.975a3.131,3.131,0,0,0-4.429,0L4.2,13.486a1.342,1.342,0,0,0-.373.716l-.764,4.331a.447.447,0,0,0,.518.518l4.331-.764a1.342,1.342,0,0,0,.716-.373L18.141,8.4a3.131,3.131,0,0,0,0-4.428ZM5.527,14.846a.224.224,0,0,0,0,.317l2.068,2.069a.224.224,0,0,1-.115.377l-2.159.381a.895.895,0,0,1-1.037-1.037l.431-2.443a.447.447,0,0,1,.124-.239L14.346,4.76a2.227,2.227,0,0,1,1.89-.626Z" transform="translate(11.941 5.942)" fill="#2777d3"/>
+      </g>
+    </g>
+    <g id="Link_Icon_-_Normal_" data-name="Link + Icon - Normal " transform="translate(1005 82)" clip-path="url(#clip-path)">
+      <rect id="Rectangle_5275" data-name="Rectangle 5275" width="82" height="36" rx="18" fill="none"/>
+      <g id="Group_12534" data-name="Group 12534">
+        <text id="Edit-2" data-name="Edit" transform="translate(53.768 23)" fill="#2777d3" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="-12.199" y="0">Edit</tspan></text>
+        <path id="Path_6637" data-name="Path 6637" d="M18.142,3.975a3.131,3.131,0,0,0-4.429,0L4.2,13.486a1.342,1.342,0,0,0-.373.716l-.764,4.331a.447.447,0,0,0,.518.518l4.331-.764a1.342,1.342,0,0,0,.716-.373L18.141,8.4a3.131,3.131,0,0,0,0-4.428ZM5.527,14.846a.224.224,0,0,0,0,.317l2.068,2.069a.224.224,0,0,1-.115.377l-2.159.381a.895.895,0,0,1-1.037-1.037l.431-2.443a.447.447,0,0,1,.124-.239L14.346,4.76a2.227,2.227,0,0,1,1.89-.626Z" transform="translate(11.941 5.942)" fill="#2777d3"/>
+      </g>
+    </g>
+    <g id="Primary_Icon_-_Normal" data-name="Primary + Icon - Normal" transform="translate(821 82)" clip-path="url(#clip-path)">
+      <rect id="Rectangle_3990" data-name="Rectangle 3990" width="82" height="36" rx="18" fill="#2777d3"/>
+      <g id="Group_12529" data-name="Group 12529">
+        <text id="Edit-3" data-name="Edit" transform="translate(53.768 23)" fill="#fff" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="-12.199" y="0">Edit</tspan></text>
+        <path id="Path_6635" data-name="Path 6635" d="M18.142,3.975a3.131,3.131,0,0,0-4.429,0L4.2,13.486a1.342,1.342,0,0,0-.373.716l-.764,4.331a.447.447,0,0,0,.518.518l4.331-.764a1.342,1.342,0,0,0,.716-.373L18.141,8.4a3.131,3.131,0,0,0,0-4.428ZM5.527,14.846a.224.224,0,0,0,0,.317l2.068,2.069a.224.224,0,0,1-.115.377l-2.159.381a.895.895,0,0,1-1.037-1.037l.431-2.443a.447.447,0,0,1,.124-.239L14.346,4.76a2.227,2.227,0,0,1,1.89-.626Z" transform="translate(11.941 5.942)" fill="#fff"/>
+      </g>
+    </g>
+  </g>
+</svg>

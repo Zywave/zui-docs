@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="375" height="67" viewBox="0 0 375 67">
+  <defs>
+    <clipPath id="clip-Artboard_1">
+      <rect width="375" height="67"/>
+    </clipPath>
+  </defs>
+  <g id="Artboard_1" data-name="Artboard – 1" clip-path="url(#clip-Artboard_1)">
+    <rect width="375" height="67" fill="#fff"/>
+    <g id="Group_8821" data-name="Group 8821" transform="translate(-838 -102)">
+      <text id="Normal" transform="translate(889 142)" fill="#2777d3" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600" text-decoration="underline"><tspan x="-23.823" y="0">Normal</tspan></text>
+    </g>
+    <g id="Group_8822" data-name="Group 8822" transform="translate(-769 -210)">
+      <text id="Hover" transform="translate(906 250)" fill="#4e92df" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600" text-decoration="underline"><tspan x="-19.134" y="0">Hover</tspan></text>
+    </g>
+    <g id="Group_8823" data-name="Group 8823" transform="translate(-687 -210)">
+      <text id="Focus" transform="translate(906 250)" fill="#2777d3" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="-18.091" y="0">Focus</tspan></text>
+      <g id="Rectangle_5329" data-name="Rectangle 5329" transform="translate(885 233)" fill="none" stroke="#2777d3" stroke-width="1">
+        <rect width="42" height="23" stroke="none"/>
+        <rect x="-0.5" y="-0.5" width="43" height="24" fill="none"/>
+      </g>
+    </g>
+    <g id="Group_8483" data-name="Group 8483" transform="translate(-603 -210)">
+      <text id="Visited" transform="translate(909 250)" fill="#6f48b0" font-size="14" font-family="OpenSans-Semibold, Open Sans" font-weight="600"><tspan x="-22.812" y="0">Visited</tspan></text>
+      <line id="Line_1" data-name="Line 1" x2="46" transform="translate(886.5 252.5)" fill="none" stroke="#6f48b0" stroke-width="1"/>
+    </g>
+  </g>
+</svg>

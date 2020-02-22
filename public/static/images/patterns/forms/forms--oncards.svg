@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="900" height="806" viewBox="0 0 900 806">
+  <defs>
+    <filter id="Card" x="120.5" y="101.5" width="659" height="655" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1.5" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-forms--oncards">
+      <rect width="900" height="806"/>
+    </clipPath>
+  </defs>
+  <g id="forms--oncards" clip-path="url(#clip-forms--oncards)">
+    <rect width="900" height="806" fill="#f4f4f6"/>
+    <g id="Group_13270" data-name="Group 13270" transform="translate(12 -45)">
+      <g id="Card-2" data-name="Card" transform="translate(113 150)">
+        <g transform="matrix(1, 0, 0, 1, -125, -105)" filter="url(#Card)">
+          <rect id="Card-3" data-name="Card" width="650" height="646" rx="2" transform="translate(125 105)" fill="#fff"/>
+        </g>
+      </g>
+      <g id="Group_13022" data-name="Group 13022" transform="translate(0 117)">
+        <g id="Input-_no_label" data-name="Input- no label" transform="translate(133 207)">
+          <g id="Rectangle_288" data-name="Rectangle 288" fill="#fff" stroke="#cbcbd2" stroke-width="1">
+            <rect width="413" height="42" rx="4" stroke="none"/>
+            <rect x="0.5" y="0.5" width="412" height="41" rx="3.5" fill="none"/>
+          </g>
+        </g>
+        <g id="Input-_no_label-2" data-name="Input- no label" transform="translate(133 289)">
+          <g id="Rectangle_288-2" data-name="Rectangle 288" fill="#fff" stroke="#cbcbd2" stroke-width="1">
+            <rect width="196" height="42" rx="4" stroke="none"/>
+            <rect x="0.5" y="0.5" width="195" height="41" rx="3.5" fill="none"/>
+          </g>
+        </g>
+        <g id="Input-_no_label-3" data-name="Input- no label" transform="translate(133 371)">
+          <g id="Rectangle_288-3" data-name="Rectangle 288" fill="#fff" stroke="#cbcbd2" stroke-width="1">
+            <rect width="196" height="42" rx="4" stroke="none"/>
+            <rect x="0.5" y="0.5" width="195" height="41" rx="3.5" fill="none"/>
+          </g>
+        </g>
+        <text id="Address" transform="translate(133 115)" fill="#31313a" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Address</tspan></text>
+        <text id="City" transform="translate(133 197)" fill="#31313a" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">City</tspan></text>
+        <text id="Zip_code" data-name="Zip code" transform="translate(133 279)" fill="#31313a" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Zip code</tspan></text>
+        <text id="State" transform="translate(133 361)" fill="#31313a" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">State</tspan></text>
+        <g id="Dropdown_Input_-_Unselected" data-name="Dropdown Input - Unselected" transform="translate(133 125)">
+          <g id="Rectangle_288-4" data-name="Rectangle 288" fill="#fff" stroke="#cbcbd2" stroke-width="1">
+            <rect width="610" height="42" rx="4" stroke="none"/>
+            <rect x="0.5" y="0.5" width="609" height="41" rx="3.5" fill="none"/>
+          </g>
+        </g>
+        <g id="Input-_no_label-4" data-name="Input- no label" transform="translate(133 535)">
+          <g id="Rectangle_288-5" data-name="Rectangle 288" fill="#fff" stroke="#cbcbd2" stroke-width="1">
+            <rect width="239" height="42" rx="4" stroke="none"/>
+            <rect x="0.5" y="0.5" width="238" height="41" rx="3.5" fill="none"/>
+          </g>
+        </g>
+        <g id="Input-_no_label-5" data-name="Input- no label" transform="translate(133 617)">
+          <g id="Rectangle_288-6" data-name="Rectangle 288" fill="#fff" stroke="#cbcbd2" stroke-width="1">
+            <rect width="239" height="42" rx="4" stroke="none"/>
+            <rect x="0.5" y="0.5" width="238" height="41" rx="3.5" fill="none"/>
+          </g>
+        </g>
+        <text id="Country" transform="translate(133 443)" fill="#31313a" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Country</tspan></text>
+        <text id="Phone_number" data-name="Phone number" transform="translate(133 525)" fill="#31313a" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Phone number</tspan></text>
+        <text id="Fax_number" data-name="Fax number" transform="translate(133 607)" fill="#31313a" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Fax number</tspan></text>
+        <g id="Dropdown_Input_-_Unselected-2" data-name="Dropdown Input - Unselected" transform="translate(133 453)">
+          <g id="Rectangle_288-7" data-name="Rectangle 288" fill="#fff" stroke="#cbcbd2" stroke-width="1">
+            <rect width="413" height="42" rx="4" stroke="none"/>
+            <rect x="0.5" y="0.5" width="412" height="41" rx="3.5" fill="none"/>
+          </g>
+        </g>
+        <g id="Group_7793" data-name="Group 7793" transform="translate(-519 -1327)">
+          <rect id="Rectangle_3867" data-name="Rectangle 3867" width="24" height="24" transform="translate(816 1707)" fill="none"/>
+          <path id="Path_5558" data-name="Path 5558" d="M56,9.4l-3,3-3-3a.967.967,0,0,0-1.4,0h0a.967.967,0,0,0,0,1.4l3.7,3.7a.967.967,0,0,0,1.4,0l3.7-3.7a.967.967,0,0,0,0-1.4h0A.965.965,0,0,0,56,9.4Z" transform="translate(775 1707)" fill="#9494a4"/>
+        </g>
+      </g>
+      <text id="ABC_Insurance_Agency" data-name="ABC Insurance Agency" transform="translate(114 113)" fill="#31313a" font-size="26" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">ABC Insurance Agency</tspan></text>
+      <text id="Agency_address" data-name="Agency address" transform="translate(134 192)" fill="#31313a" font-size="20" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Agency address</tspan></text>
+    </g>
+  </g>
+</svg>

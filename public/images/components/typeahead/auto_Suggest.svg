@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="445" height="251" viewBox="0 0 445 251">
+  <defs>
+    <filter id="Rectangle_3966" x="30.5" y="58.5" width="384" height="177" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1.5" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-auto_Suggest">
+      <rect width="445" height="251"/>
+    </clipPath>
+  </defs>
+  <g id="auto_Suggest" clip-path="url(#clip-auto_Suggest)">
+    <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Rectangle_3966)">
+      <g id="Rectangle_3966-2" data-name="Rectangle 3966" transform="translate(35 62)" fill="#fff" stroke="#dbdbdb" stroke-width="1">
+        <rect width="375" height="168" rx="2" stroke="none"/>
+        <rect x="0.5" y="0.5" width="374" height="167" rx="1.5" fill="none"/>
+      </g>
+    </g>
+    <rect id="Rectangle_3967" data-name="Rectangle 3967" width="375" height="42" transform="translate(35 20)" fill="#fff" stroke="#79ace6" stroke-width="2"/>
+    <text id="ad" transform="translate(51 47)" fill="#31313a" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">ad</tspan></text>
+    <line id="Line_12" data-name="Line 12" y2="20" transform="translate(67.5 31.5)" fill="none" stroke="#50a7ed" stroke-width="1"/>
+    <rect id="Rectangle_3965" data-name="Rectangle 3965" width="375" height="53" transform="translate(36 93)" fill="rgba(198,49,140,0.4)"/>
+    <text id="adam_gilson_bryan_adams_brad_hoeksema_adam_karl_adam_kloskey_adam_sisson" data-name="adam gilson
+bryan adams
+brad hoeksema
+adam karl
+adam kloskey
+adam sisson" transform="translate(51 85)" fill="#31313a" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">ad</tspan><tspan y="0" font-family="SegoeUI-Bold, Segoe UI" font-weight="700">am gilson</tspan><tspan font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="26">bryan </tspan><tspan y="26" font-family="SegoeUI, Segoe UI" font-weight="400">ad</tspan><tspan y="26">ams</tspan><tspan x="0" y="52">br</tspan><tspan y="52" font-family="SegoeUI, Segoe UI" font-weight="400">ad</tspan><tspan y="52" xml:space="preserve"> hoeksema</tspan></tspan><tspan x="0" y="78">ad</tspan><tspan y="78" font-family="SegoeUI-Bold, Segoe UI" font-weight="700">am karl</tspan><tspan x="0" y="104">ad</tspan><tspan y="104" font-family="SegoeUI-Bold, Segoe UI" font-weight="700">am kloskey</tspan><tspan x="0" y="130">ad</tspan><tspan y="130" font-family="SegoeUI-Bold, Segoe UI" font-weight="700">am sisson</tspan></text>
+  </g>
+</svg>

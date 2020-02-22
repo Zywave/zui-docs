@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html><head>
+    <title>Content area | Zywave User Interface</title>
+    <link href="http://zui.zywave.com/css/ie-sucks.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://unpkg.com/@zywave/zui-bundle@next/dist/css/zui-bundle.fouc.css" />
+    <link rel="stylesheet" href="https://unpkg.com/@zywave/zui-bundle@next/dist/css/zui-bundle.app.css" />
+    <link href="http://zui.zywave.com/css/base.css" rel="stylesheet" />
+    <link href="http://zui.zywave.com/css/shortcodes.css" rel="stylesheet" />
+    <link href="http://zui.zywave.com/css/syntax-highlighting-monokai.css" rel="stylesheet" />
+    <link rel='shortcut icon' type='image/x-icon' href='http://zui.zywave.com/static/favicon.ico' />
+    <script src="http://zui.zywave.com/js/ie-sucks.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.3.0/fuse.min.js"></script>
+    <style>
+        :root {
+            --zui-shell-primary-theme: var(--zui-green);
+            --zui-shell-primary-theme-dark: var(--zui-green-600);
+            --zui-tabs-color: var(--zui-green);
+        }
+    </style>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const externalLinks = document.querySelectorAll('a[href^="http://"], a[href^="https://"]');
+            for (const l of externalLinks) {
+                if (l.href.indexOf("http://zui.zywave.com/") < 0) {
+                    l.target = '_blank';
+                }
+            }
+        });
+
+        
+        
+    </script>
+</head>
+<body>
+        <ie-sucks>
+            No. Stop it. Use a real browser.
+        </ie-sucks>
+        <zui-shell app-name="ZUI Documentation"><zui-shell-topbar>
+    <zui-logo slot="logo"></zui-logo>
+</zui-shell-topbar>
+
+
+
+<zui-shell-nav>
+    <zui-shell-nav-item>
+        <zui-icon icon="zui-nav-home" slot="icon"></zui-icon>
+        <a href="http://zui.zywave.com/" active>Home</a>
+    </zui-shell-nav-item>
+    
+    
+    <zui-shell-nav-item subnav>
+        <zui-icon icon="zui-nav-developers" slot="icon"></zui-icon>
+        
+            <span>Developers</span>
+            
+            
+            
+            
+            <a href="http://zui.zywave.com/developers/contribution-guide/" >Contribution guide</a>
+            
+            <a href="http://zui.zywave.com/developers/developing-zui/" >Developing ZUI</a>
+            
+            <a href="http://zui.zywave.com/developers/installation/" >Installation</a>
+            
+            <a href="http://zui.zywave.com/developers/lit/" >Lit 🔥</a>
+            
+            <a href="http://zui.zywave.com/developers/polyfills/" >Polyfills</a>
+            
+            <a href="http://zui.zywave.com/developers/responsive-design/" >Responsive design</a>
+            
+            <a href="http://zui.zywave.com/developers/tooling/" >Tooling</a>
+            
+            <a href="http://zui.zywave.com/developers/webcomponents/" >Web components</a>
+            
+        
+    </zui-shell-nav-item>
+    
+    
+    <zui-shell-nav-item subnav>
+        <zui-icon icon="zui-nav-foundations" slot="icon"></zui-icon>
+        
+            <span>Foundations</span>
+            
+            
+                
+            
+            
+            
+            <a href="http://zui.zywave.com/foundations/colors/" >Colors</a>
+            
+            <a href="http://zui.zywave.com/foundations/content-area/" active>Content area</a>
+            
+            <a href="http://zui.zywave.com/foundations/fonts-typography/" >Fonts &amp; typography</a>
+            
+            <a href="http://zui.zywave.com/foundations/footer/" >Footer</a>
+            
+            <a href="http://zui.zywave.com/foundations/icons/" >Icons</a>
+            
+            <a href="http://zui.zywave.com/foundations/illustrations/" >Illustrations</a>
+            
+            <a href="http://zui.zywave.com/foundations/product-branding/" >Product branding</a>
+            
+            <a href="http://zui.zywave.com/foundations/shell/" >Shell</a>
+            
+            <a href="http://zui.zywave.com/foundations/sidenav/" >Sidenav</a>
+            
+            <a href="http://zui.zywave.com/foundations/topbar/" >Topbar</a>
+            
+        
+    </zui-shell-nav-item>
+    
+    
+    <zui-shell-nav-item subnav>
+        <zui-icon icon="zui-nav-components" slot="icon"></zui-icon>
+        
+            <span>Components</span>
+            
+            
+                
+            
+            
+            
+            <a href="http://zui.zywave.com/components/breadcrumbs/" >Breadcrumbs</a>
+            
+            <a href="http://zui.zywave.com/components/buttons-dropdown/" >Button dropdowns</a>
+            
+            <a href="http://zui.zywave.com/components/buttons/" >Buttons</a>
+            
+            <a href="http://zui.zywave.com/components/checkboxes/" >Checkboxes</a>
+            
+            <a href="http://zui.zywave.com/components/dialogs/" >Dialogs</a>
+            
+            <a href="http://zui.zywave.com/components/dropdown-multi-select/" >Dropdown multi-select</a>
+            
+            <a href="http://zui.zywave.com/components/dropdown-select/" >Dropdown select</a>
+            
+            <a href="http://zui.zywave.com/components/expanders/" >Expanders</a>
+            
+            <a href="http://zui.zywave.com/components/file-selector/" >File Selector</a>
+            
+            <a href="http://zui.zywave.com/components/notifiers/" >Notifiers</a>
+            
+            <a href="http://zui.zywave.com/components/radio-buttons/" >Radio buttons</a>
+            
+            <a href="http://zui.zywave.com/components/tabs/" >Tabs</a>
+            
+            <a href="http://zui.zywave.com/components/text-input/" >Text Input</a>
+            
+            <a href="http://zui.zywave.com/components/toggles/" >Toggles</a>
+            
+            <a href="http://zui.zywave.com/components/tooltips/" >Tooltips</a>
+            
+            <a href="http://zui.zywave.com/components/wells/" >Well</a>
+            
+        
+    </zui-shell-nav-item>
+    
+    
+    <zui-shell-nav-item subnav>
+        <zui-icon icon="zui-nav-patterns" slot="icon"></zui-icon>
+        
+            <span>Patterns</span>
+            
+            
+                
+            
+            
+            
+            <a href="http://zui.zywave.com/patterns/forms/" >Forms</a>
+            
+            <a href="http://zui.zywave.com/patterns/step-flow/" >Step flow</a>
+            
+            <a href="http://zui.zywave.com/patterns/typeahead/" >Typeahead</a>
+            
+        
+    </zui-shell-nav-item>
+    
+    
+    <zui-shell-nav-item subnav>
+        <zui-icon icon="zui-nav-help" slot="icon"></zui-icon>
+        
+            <span>Communications</span>
+            
+            
+                
+            
+            
+            
+            <a href="http://zui.zywave.com/communications/messages/" >Messages</a>
+            
+            <a href="http://zui.zywave.com/communications/voice-tone/" >Voice &amp; tone</a>
+            
+            <a href="http://zui.zywave.com/communications/writing-style-guide/" >Writing style guide</a>
+            
+        
+    </zui-shell-nav-item>
+    
+    
+    <zui-shell-nav-item >
+        <zui-icon icon="zui-nav-accounts" slot="icon"></zui-icon>
+        
+            <a href="http://zui.zywave.com/personas/" >Personas</a>
+        
+    </zui-shell-nav-item>
+    
+    <script>
+        
+        const activeLinks = document.querySelectorAll('zui-shell-nav-item a[active]');
+            for (let activeLink of activeLinks) {
+                activeLink.closest('zui-shell-nav-item').expanded = true;
+            }
+    </script>
+</zui-shell-nav>
+<zui-shell-content id="content">
+                <section class="zui-layout zui-layout--slim">
+                    <div class="page-heading">
+                        <h1>Content area</h1>
+                        
+                    </div>
+                    <div class="content-container">
+                        
+
+<h2 id="basics">Basics</h2>
+
+<p>The standard content area is the the body of our applications where all the the features and funcionality gets placed. When building features in our applications it&rsquo;s important to understand the size of the canvas you&rsquo;ll be building on. A user should always understand the boundaries of our application, so the standard content area should not change from page to page.</p>
+
+<p><img src="http://zui.zywave.com/static/images/foundations/standard-content-area/content-area_basics.svg" alt="Basics of the content area" /></p>
+
+<hr />
+
+<h2 id="standard-padding">Standard padding</h2>
+
+<p>Common page padding is important to keep the content in one place and give it some breathing room. Padding is automatically added to our standard content area. Depending on the size of the viewport, there may be more or less padding. The amount of padding added is dependant on breakpoints. Here is a list of padding that is applied at each breakpoint.</p>
+
+<p><a href="https://xd.adobe.com/view/927bdb91-0983-4101-4d30-b4705d927192-e44a/grid">View padding specs</a></p>
+
+<table>
+<thead>
+<tr>
+<th align="left">Breakpoints*</th>
+<th align="left">Padding</th>
+<th align="left">Notes</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td align="left">≤30em or ≤480px</td>
+<td align="left">20px</td>
+<td align="left">Side navigation hides; mobile menu becomes available</td>
+</tr>
+
+<tr>
+<td align="left">≤45em or ≤720px</td>
+<td align="left">20px</td>
+<td align="left">Collapsed side navigation appears</td>
+</tr>
+
+<tr>
+<td align="left">≤60em or ≤960px</td>
+<td align="left">20px</td>
+<td align="left"></td>
+</tr>
+
+<tr>
+<td align="left">≤64em or ≤1024px</td>
+<td align="left">20px</td>
+<td align="left">Side navigation collapses</td>
+</tr>
+
+<tr>
+<td align="left">≤80em or ≤1280px</td>
+<td align="left">30px</td>
+<td align="left"></td>
+</tr>
+
+<tr>
+<td align="left">≤90em or ≤1440px</td>
+<td align="left">30px</td>
+<td align="left"></td>
+</tr>
+
+<tr>
+<td align="left">≤120em or ≤1920px</td>
+<td align="left">30px</td>
+<td align="left"></td>
+</tr>
+
+<tr>
+<td align="left">≤160em or ≤2560px</td>
+<td align="left">30px</td>
+<td align="left"></td>
+</tr>
+</tbody>
+</table>
+
+<p><small>*<code>em</code> units are based off the browser&rsquo;s default font size of 16px</small></p>
+
+<hr />
+
+<h2 id="content-area-max-width">Content area max-width</h2>
+
+<h3 id="standard-max-width">Standard max-width</h3>
+
+<p>In most cases the content on the page should fill the full width of the content area, stretching end to end of the available screen real estate leaving room for only standard padding. However, enforce a max-width of 1600px as the viewport gets larger. For good user experience, it is typically not helpful to continue stretching past our recommended max-width. In cases where the content doesn&rsquo;t need to be stretched or would be more appealing at a smaller size, use the max-width of 900px.</p>
+
+<p>Our standard content area max-width is: <strong>1600px</strong> or <strong>100em</strong></p>
+
+<p><a href="https://xd.adobe.com/view/01cb99e4-9c91-4a72-7ff9-08f865c98c89-77fa/grid">View standard max-width specs</a></p>
+
+<h3 id="component-specific-max-width">Component specific max-width</h3>
+
+<p>In special cases, a component should not fill the full width of the content area, instead it should stop at a specific width to ensure good user experience. Enforcing these max-widths will allow the user to read and understand information easier than if the component was stretched.</p>
+
+<p>Components with an enforced max-width should remain the same size when the content area grows wider to suit a larger viewport. However, once a component&rsquo;s max-width reaches the limit of the content area max-width, it should stop growing to not overflow.</p>
+
+<p><a href="https://xd.adobe.com/view/1da35ebb-d8fd-40ae-76db-cd4d77144a78-6b92/grid">View component specific max-width specs</a></p>
+
+<h4 id="cards">Cards</h4>
+
+<p>Depending on content within Cards, and the rest of the components on the page, Cards can have two different max-widths; either 900px or 1600px (regarded as full-width). 900px width means that the Cards and all components on the page extend to a max-width of only 900px and then stop growing. 1600px width means that the page components are full-width, padding still in effect, on the page until they hit 1600px then stop growing.</p>
+
+<p>Because Cards can hold a variety of different components and content, all specific max-widths still apply. For example, because a Text Input has a max-width of 730px, this will remain in effect in larger card sizes even though there may be empty space.</p>
+
+<p><a href="https://xd.adobe.com/view/2f5a2586-b842-455b-5880-5b127dea1ba8-596b/grid">View card max-width specs</a></p>
+
+<table>
+<thead>
+<tr>
+<th align="left">Breakpoints*</th>
+<th align="left">Content width</th>
+<th align="left">Notes</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td align="left">≤30em or ≤480px</td>
+<td align="left">full-width 440px</td>
+<td align="left">Side navigation hides; mobile menu becomes available</td>
+</tr>
+
+<tr>
+<td align="left">≤45em or ≤720px</td>
+<td align="left">full-width 430px</td>
+<td align="left">Collapsed side navigation appears</td>
+</tr>
+
+<tr>
+<td align="left">≤60em or ≤960px</td>
+<td align="left">full-width 670px</td>
+<td align="left"></td>
+</tr>
+
+<tr>
+<td align="left">≤64em or ≤1024px</td>
+<td align="left">full-width 734px</td>
+<td align="left">Side navigation collapses</td>
+</tr>
+
+<tr>
+<td align="left">≤80em or ≤1280px</td>
+<td align="left">900px/full-width 970px</td>
+<td align="left"></td>
+</tr>
+
+<tr>
+<td align="left">≤90em or ≤1440px</td>
+<td align="left">900px/full-width 1130px</td>
+<td align="left"></td>
+</tr>
+
+<tr>
+<td align="left">≤120em or ≤1920px</td>
+<td align="left">900px/1600px</td>
+<td align="left"></td>
+</tr>
+
+<tr>
+<td align="left">≤160em or ≤2560px</td>
+<td align="left">900px/1600px</td>
+<td align="left"></td>
+</tr>
+</tbody>
+</table>
+
+<p><small>*<code>em</code> units are based off the browser&rsquo;s default font size of 16px</small></p>
+
+<h4 id="text-areas">Text areas</h4>
+
+<p>Studies have shown that between 45 to 75 characters per single line of text is the optimal length for reading. Anything shorter than this can cause the readers&rsquo; eyes to bounce around too much. Anything longer and the reader can become fatigued and lose their place when moving to the beginning of the next line. Depending on font type and size, this character length equates to about 700 pixels in width. Meaning that when there is a Text Area on the page or within a card, the max-width of that area should be 700px. Regardless of card size, ranging from 900px to full-width (up to 1600px), the Text Area should never be larger than 700px and be left-aligned with the card.</p>
+
+<h4 id="text-inputs">Text inputs</h4>
+
+<p>Using the same studies and conclusion as Text Areas, Text Inputs should also have a max-width of 700px for a single line of text. There is also 15px of interior left and right padding within Text Inputs, therefore the max-width of a text input should overall equal 730px. Meaning that when there is a Text Input on the page or within a card, the max-width of that input should be 730px. Regardless of card size, ranging from 900px to full-width (up to 1600px), the Text Input should never be larger than 730px.</p>
+
+<p><a href="http://zui.zywave.com/foundations/fonts-typography/">View text standards</a></p>
+
+<p><a href="http://zui.zywave.com/patterns/forms/">View form standards</a></p>
+
+<h4 id="tables">Tables</h4>
+
+<p>Tables can have a large amount of information, options, and details within them; because of this, it is acceptable that they expand to the full 1600px width of the page where applicable.</p>
+
+<hr />
+
+<h2 id="content-area-best-practices">Content area best practices</h2>
+
+<p>Even though there may be empty space within components such as cards, all components on a page or in a workflow should always follow these rules. This will allow the user to move between pages easily visually because the components and pages are not jumping sizes to react to the content within.</p>
+
+<div class="grid">
+    <div class='grid-col span-6'>
+    <p><img src="http://zui.zywave.com/images/foundations/standard-content-area/cardwidth_do.svg" alt="Card Width Do" /></p>
+
+<div class="do-dont--text">
+  <div class="do-dont--title do">DO</div>
+</div>
+
+<p>When adding a form, make sure that it meets our max-width standards. When the content area is 900px and below, the form must always be full-width. When the content area is between 900px and 1600px, the form must be either 900px or full-width. When the content area is larger than 1600px, the form must be either 900px or 1600px.</p>
+
+<p></div></p>
+
+<div class='grid-col span-6'>
+    <p><img src="http://zui.zywave.com/images/foundations/standard-content-area/cardwidth_dont.svg" alt="Card Width Don't" /></p>
+
+<div class="do-dont--text">
+  <div class="do-dont--title do-not">DO NOT</div>
+</div>
+
+<p>There should never be a situation where the form is smaller than 900px or full-width when the content area is larger than 900px.</p>
+
+<p></div></p>
+
+</div>
+
+<div class="grid">
+    <div class='grid-col span-6'>
+    <p><img src="http://zui.zywave.com/images/foundations/standard-content-area/pagecomponent_do.svg" alt="Page Components Do" /></p>
+
+<div class="do-dont--text">
+  <div class="do-dont--title do">DO</div>
+</div>
+
+<p>When adding multiple components to a page or within the same workflow, all elements should have the same width.</p>
+
+<p></div></p>
+
+<div class='grid-col span-6'>
+    <p><img src="http://zui.zywave.com/images/foundations/standard-content-area/pagecomponent_dont.svg" alt="Page Components Don't" /></p>
+
+<div class="do-dont--text">
+  <div class="do-dont--title do-not">DO NOT</div>
+</div>
+
+<p>There should never be a situation where a form has a max-width of 900px, and a table below it is full-width.</p>
+
+<p></div></p>
+
+</div>
+
+<hr />
+
+<h2 id="background-coloring">Background coloring</h2>
+
+<p>Grey and white background colors are available, depending on the situation.</p>
+
+<p><strong>When to use a grey Background</strong></p>
+
+<p>For most applications, our standard is to use a grey background. We use grey because it creates a base layer we can build off of and highlight, allowing the user to to focus on the task at hand. Most of our components and containers are specifically built to help draw the users attention and a grey background helps with that.</p>
+
+<p><strong>When to use a white Background</strong></p>
+
+<p>Use a white background when the content is mainly text based to enhance readability.</p>
+
+<div class="spacer "></div>
+
+                    </div>
+                </section>
+            </zui-shell-content><zui-shell-footer>
+    <div>
+        &copy; 1995 - 2020 Zywave, Inc. All rights reserved.
+    </div>
+    <a class="zui-link" target="_blank" href="http://www.zywave.com/terms-conditions/">Terms and Conditions</a>
+    <a class="zui-link" target="_blank" href="http://www.zywave.com/privacy-statement/">Privacy Statement</a>
+    <a class="zui-link" target="_blank" href="http://www.zywave.com/dmca-notice/">DMCA</a></div>
+    <a class="zui-link" target="_blank" href="http://www.zywave.com/cookie-usage/">Cookie Usage</a>
+    <a class="zui-link" href="mailto:support@zywave.com">Contact</a>
+</zui-shell-footer>
+<script src="https://unpkg.com/@zywave/zui-bundle@next/dist/zui-loader.js"></script>
+</zui-shell>
+    </body>
+</html>

@@ -1,0 +1,1142 @@
+<!DOCTYPE html>
+<html><head>
+    <title>Icons | Zywave User Interface</title>
+    <link href="http://zui.zywave.com/css/ie-sucks.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://unpkg.com/@zywave/zui-bundle@next/dist/css/zui-bundle.fouc.css" />
+    <link rel="stylesheet" href="https://unpkg.com/@zywave/zui-bundle@next/dist/css/zui-bundle.app.css" />
+    <link href="http://zui.zywave.com/css/base.css" rel="stylesheet" />
+    <link href="http://zui.zywave.com/css/shortcodes.css" rel="stylesheet" />
+    <link href="http://zui.zywave.com/css/syntax-highlighting-monokai.css" rel="stylesheet" />
+    <link rel='shortcut icon' type='image/x-icon' href='http://zui.zywave.com/static/favicon.ico' />
+    <script src="http://zui.zywave.com/js/ie-sucks.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.3.0/fuse.min.js"></script>
+    <style>
+        :root {
+            --zui-shell-primary-theme: var(--zui-green);
+            --zui-shell-primary-theme-dark: var(--zui-green-600);
+            --zui-tabs-color: var(--zui-green);
+        }
+    </style>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const externalLinks = document.querySelectorAll('a[href^="http://"], a[href^="https://"]');
+            for (const l of externalLinks) {
+                if (l.href.indexOf("http://zui.zywave.com/") < 0) {
+                    l.target = '_blank';
+                }
+            }
+        });
+
+        
+        
+    </script>
+</head>
+<body>
+        <ie-sucks>
+            No. Stop it. Use a real browser.
+        </ie-sucks>
+        <zui-shell app-name="ZUI Documentation"><zui-shell-topbar>
+    <zui-logo slot="logo"></zui-logo>
+</zui-shell-topbar>
+
+
+
+<zui-shell-nav>
+    <zui-shell-nav-item>
+        <zui-icon icon="zui-nav-home" slot="icon"></zui-icon>
+        <a href="http://zui.zywave.com/" active>Home</a>
+    </zui-shell-nav-item>
+    
+    
+    <zui-shell-nav-item subnav>
+        <zui-icon icon="zui-nav-developers" slot="icon"></zui-icon>
+        
+            <span>Developers</span>
+            
+            
+            
+            
+            <a href="http://zui.zywave.com/developers/contribution-guide/" >Contribution guide</a>
+            
+            <a href="http://zui.zywave.com/developers/developing-zui/" >Developing ZUI</a>
+            
+            <a href="http://zui.zywave.com/developers/installation/" >Installation</a>
+            
+            <a href="http://zui.zywave.com/developers/lit/" >Lit 🔥</a>
+            
+            <a href="http://zui.zywave.com/developers/polyfills/" >Polyfills</a>
+            
+            <a href="http://zui.zywave.com/developers/responsive-design/" >Responsive design</a>
+            
+            <a href="http://zui.zywave.com/developers/tooling/" >Tooling</a>
+            
+            <a href="http://zui.zywave.com/developers/webcomponents/" >Web components</a>
+            
+        
+    </zui-shell-nav-item>
+    
+    
+    <zui-shell-nav-item subnav>
+        <zui-icon icon="zui-nav-foundations" slot="icon"></zui-icon>
+        
+            <span>Foundations</span>
+            
+            
+                
+            
+            
+            
+            <a href="http://zui.zywave.com/foundations/colors/" >Colors</a>
+            
+            <a href="http://zui.zywave.com/foundations/content-area/" >Content area</a>
+            
+            <a href="http://zui.zywave.com/foundations/fonts-typography/" >Fonts &amp; typography</a>
+            
+            <a href="http://zui.zywave.com/foundations/footer/" >Footer</a>
+            
+            <a href="http://zui.zywave.com/foundations/icons/" active>Icons</a>
+            
+            <a href="http://zui.zywave.com/foundations/illustrations/" >Illustrations</a>
+            
+            <a href="http://zui.zywave.com/foundations/product-branding/" >Product branding</a>
+            
+            <a href="http://zui.zywave.com/foundations/shell/" >Shell</a>
+            
+            <a href="http://zui.zywave.com/foundations/sidenav/" >Sidenav</a>
+            
+            <a href="http://zui.zywave.com/foundations/topbar/" >Topbar</a>
+            
+        
+    </zui-shell-nav-item>
+    
+    
+    <zui-shell-nav-item subnav>
+        <zui-icon icon="zui-nav-components" slot="icon"></zui-icon>
+        
+            <span>Components</span>
+            
+            
+                
+            
+            
+            
+            <a href="http://zui.zywave.com/components/breadcrumbs/" >Breadcrumbs</a>
+            
+            <a href="http://zui.zywave.com/components/buttons-dropdown/" >Button dropdowns</a>
+            
+            <a href="http://zui.zywave.com/components/buttons/" >Buttons</a>
+            
+            <a href="http://zui.zywave.com/components/checkboxes/" >Checkboxes</a>
+            
+            <a href="http://zui.zywave.com/components/dialogs/" >Dialogs</a>
+            
+            <a href="http://zui.zywave.com/components/dropdown-multi-select/" >Dropdown multi-select</a>
+            
+            <a href="http://zui.zywave.com/components/dropdown-select/" >Dropdown select</a>
+            
+            <a href="http://zui.zywave.com/components/expanders/" >Expanders</a>
+            
+            <a href="http://zui.zywave.com/components/file-selector/" >File Selector</a>
+            
+            <a href="http://zui.zywave.com/components/notifiers/" >Notifiers</a>
+            
+            <a href="http://zui.zywave.com/components/radio-buttons/" >Radio buttons</a>
+            
+            <a href="http://zui.zywave.com/components/tabs/" >Tabs</a>
+            
+            <a href="http://zui.zywave.com/components/text-input/" >Text Input</a>
+            
+            <a href="http://zui.zywave.com/components/toggles/" >Toggles</a>
+            
+            <a href="http://zui.zywave.com/components/tooltips/" >Tooltips</a>
+            
+            <a href="http://zui.zywave.com/components/wells/" >Well</a>
+            
+        
+    </zui-shell-nav-item>
+    
+    
+    <zui-shell-nav-item subnav>
+        <zui-icon icon="zui-nav-patterns" slot="icon"></zui-icon>
+        
+            <span>Patterns</span>
+            
+            
+                
+            
+            
+            
+            <a href="http://zui.zywave.com/patterns/forms/" >Forms</a>
+            
+            <a href="http://zui.zywave.com/patterns/step-flow/" >Step flow</a>
+            
+            <a href="http://zui.zywave.com/patterns/typeahead/" >Typeahead</a>
+            
+        
+    </zui-shell-nav-item>
+    
+    
+    <zui-shell-nav-item subnav>
+        <zui-icon icon="zui-nav-help" slot="icon"></zui-icon>
+        
+            <span>Communications</span>
+            
+            
+                
+            
+            
+            
+            <a href="http://zui.zywave.com/communications/messages/" >Messages</a>
+            
+            <a href="http://zui.zywave.com/communications/voice-tone/" >Voice &amp; tone</a>
+            
+            <a href="http://zui.zywave.com/communications/writing-style-guide/" >Writing style guide</a>
+            
+        
+    </zui-shell-nav-item>
+    
+    
+    <zui-shell-nav-item >
+        <zui-icon icon="zui-nav-accounts" slot="icon"></zui-icon>
+        
+            <a href="http://zui.zywave.com/personas/" >Personas</a>
+        
+    </zui-shell-nav-item>
+    
+    <script>
+        
+        const activeLinks = document.querySelectorAll('zui-shell-nav-item a[active]');
+            for (let activeLink of activeLinks) {
+                activeLink.closest('zui-shell-nav-item').expanded = true;
+            }
+    </script>
+</zui-shell-nav>
+<zui-shell-content id="content">
+                <section class="zui-layout zui-layout--slim">
+                    <div class="page-heading">
+                        <h1>Icons</h1>
+                        
+                    </div>
+                    <div class="content-container">
+                        
+
+<h2 id="icon-overview">Icon Overview</h2>
+
+<p>Icons are one half of our visual library within ZUI. Icons can be broken up into two main categories: Navigation and System.</p>
+
+<div class="spacer "></div>
+
+<h2 id="navigation-icons">Navigation Icons</h2>
+
+<p>Our navigation icons add a visual component to the links within our side nav. Combined with their text labels they will speed up recognition and processing of the link text. They become especially important when the user has collapsed the sidenav. They should be easily recognizable images that will allow the user to naivigate throughout the site without needing to expand the navigation.
+<br/>
+<br/></p>
+
+<h3 id="navigation-icon-style">Navigation Icon Style</h3>
+
+<p>Our navigation icons are solid/filled to add more weight to the sidenav.
+For more information on how to create navigation icons view our <a href="https://confluence.zywave.com/x/agC-Pg">process documentation</a>
+<br/>
+<br/></p>
+
+<h3 id="current-icons">Current icons</h3>
+
+<p>Below is a list of our current navigation icons. If you can&rsquo;t find the icon you are looking for, be sure to check out <a href="https://confluence.zywave.com/x/aAC-Pg">navigation icon backlog</a> and ask a designer to complete a design for you.
+<br/>
+<br/>
+<div class="grid">
+    <div class='grid-col span-2'>
+    <p><center><zui-icon icon="zui-nav-accounts"></zui-icon>
+<br/>
+<br/>
+Accounts
+</center></p>
+
+</div>
+<div class='grid-col span-2'>
+    <p><center> <zui-icon icon="zui-nav-activities"></zui-icon>
+<br/>
+<br/>
+Activities
+</center></p>
+
+</div>
+<div class='grid-col span-2'>
+    <p><center><zui-icon icon="zui-nav-admin"></zui-icon>
+<br/>
+<br/>
+Admin
+</center></p>
+
+</div>
+<div class='grid-col span-2'>
+    <p><center><zui-icon icon="zui-nav-administrators"></zui-icon>
+<br/>
+<br/>
+Administrators
+</center></p>
+
+</div>
+<div class='grid-col span-2'>
+    <p><center><zui-icon icon="zui-nav-book"></zui-icon>
+<br/>
+<br/>
+Book
+</center></p>
+
+</div>
+<div class='grid-col span-2'>
+    <p><center><zui-icon icon="zui-nav-carrier"></zui-icon>
+<br/>
+<br/>
+Carriers
+</center></p>
+
+</div>
+<div class='grid-col span-2'>
+    <p><center><zui-icon icon="zui-nav-client-portal"></zui-icon>
+<br/>
+<br/>
+Client Portal
+</center></p>
+
+</div>
+<div class='grid-col span-2'>
+    <p><center><zui-icon icon="zui-nav-color-themes"></zui-icon>
+<br/>
+<br/>
+Color Themes
+</center></p>
+
+</div>
+<div class='grid-col span-2'>
+    <p><center><zui-icon icon="zui-nav-content"></zui-icon>
+<br/>
+<br/>
+Content
+</center></p>
+
+</div>
+<div class='grid-col span-2'>
+    <p><center><zui-icon icon="zui-nav-communications"></zui-icon>
+<br/>
+<br/>
+Communications
+</center></p>
+
+</div>
+<div class='grid-col span-2'>
+    <p><center> <zui-icon icon="zui-nav-community"></zui-icon>
+<br/>
+<br/>
+Community
+</center></p>
+
+</div>
+<div class='grid-col span-2'>
+    <p><center><zui-icon icon="zui-nav-components"></zui-icon>
+<br/>
+<br/>
+Components
+</center></p>
+
+</div>
+<div class='grid-col span-2'>
+    <p><center><zui-icon icon="zui-nav-course-catalog"></zui-icon>
+<br/>
+<br/>
+Course Catalog
+</center></p>
+
+</div>
+<div class='grid-col span-2'>
+    <p><center><zui-icon icon="zui-nav-course-packages"></zui-icon>
+<br/>
+<br/>
+Course Packages
+</center></p>
+
+</div>
+<div class='grid-col span-2'>
+    <p><center><zui-icon icon="zui-nav-credentials"></zui-icon>
+<br/>
+<br/>
+Credentials
+</center></p>
+
+</div>
+<div class='grid-col span-2'>
+    <p><center><zui-icon icon="zui-nav-disease-profiles"></zui-icon>
+<br/>
+<br/>
+Disease Profiles
+</center></p>
+
+</div>
+<div class='grid-col span-2'>
+    <p><center><zui-icon icon="zui-nav-developers"></zui-icon>
+<br/>
+<br/>
+Developers
+</center></p>
+
+</div>
+<div class='grid-col span-2'>
+    <p><center> <zui-icon icon="zui-nav-domains"></zui-icon>
+<br/>
+<br/>
+Domains
+</center></p>
+
+</div>
+<div class='grid-col span-2'>
+    <p><center><zui-icon icon="zui-nav-files"></zui-icon>
+<br/>
+<br/>
+Files
+</center></p>
+
+</div>
+<div class='grid-col span-2'>
+    <p><center><zui-icon icon="zui-nav-foundations"></zui-icon>
+<br/>
+<br/>
+Foundations
+</center></p>
+
+</div>
+<div class='grid-col span-2'>
+    <p><center><zui-icon icon="zui-nav-get-started"></zui-icon>
+<br/>
+<br/>
+Get Started
+</center></p>
+
+</div>
+<div class='grid-col span-2'>
+    <p><center><zui-icon icon="zui-nav-group-management"></zui-icon>
+<br/>
+<br/>
+Group Management
+</center></p>
+
+</div>
+<div class='grid-col span-2'>
+    <p><center><zui-icon icon="zui-nav-help"></zui-icon>
+<br/>
+<br/>
+Help
+</center></p>
+
+</div>
+<div class='grid-col span-2'>
+    <p><center><zui-icon icon="zui-nav-home"></zui-icon>
+<br/>
+<br/>
+Home
+</center></p>
+
+</div>
+<div class='grid-col span-2'>
+    <p><center><zui-icon icon="zui-nav-hr-hotline"></zui-icon>
+<br/>
+<br/>
+HR Hotline
+</center></p>
+
+</div>
+<div class='grid-col span-2'>
+    <p><center><zui-icon icon="zui-nav-lists"></zui-icon>
+<br/>
+<br/>
+Lists
+</center></p>
+
+</div>
+<div class='grid-col span-2'>
+    <p><center><zui-icon icon="zui-nav-manage-user"></zui-icon>
+<br/>
+<br/>
+Manage Users
+</center></p>
+
+</div>
+<div class='grid-col span-2'>
+    <p><center><zui-icon icon="zui-nav-menu"></zui-icon>
+<br/>
+<br/>
+Menu
+</center></p>
+
+</div>
+<div class='grid-col span-2'>
+    <p><center><zui-icon icon="zui-nav-mods"></zui-icon>
+<br/>
+<br/>
+Mods
+</center></p>
+
+</div>
+<div class='grid-col span-2'>
+    <p><center><zui-icon icon="zui-nav-notifications"></zui-icon>
+<br/>
+<br/>
+Notifications
+</center></p>
+
+</div>
+<div class='grid-col span-2'>
+    <p><center><zui-icon icon="zui-nav-organization"></zui-icon>
+<br/>
+<br/>
+Organization
+</center></p>
+
+</div>
+<div class='grid-col span-2'>
+    <p><center><zui-icon icon="zui-nav-org-overview"></zui-icon>
+<br/>
+<br/>
+Organization Overview
+</center></p>
+
+</div>
+<div class='grid-col span-2'>
+    <p><center><zui-icon icon="zui-nav-patterns"></zui-icon>
+<br/>
+<br/>
+Patterns
+</center></p>
+
+</div>
+<div class='grid-col span-2'>
+    <p><center><zui-icon icon="zui-nav-portal-admin"></zui-icon>
+<br/>
+<br/>
+Portal Admin
+</center></p>
+
+</div>
+<div class='grid-col span-2'>
+    <p><center><zui-icon icon="zui-nav-presentations"></zui-icon>
+<br/>
+<br/>
+Presentations
+</center></p>
+
+</div>
+<div class='grid-col span-2'>
+    <p><center><zui-icon icon="zui-nav-proposals"></zui-icon>
+<br/>
+<br/>
+Proposal
+</center></p>
+
+</div>
+<div class='grid-col span-2'>
+    <p><center><zui-icon icon="zui-nav-prospecting"></zui-icon>
+<br/>
+<br/>
+Prospecting
+</center></p>
+
+</div>
+<div class='grid-col span-2'>
+    <p><center><zui-icon icon="zui-nav-registered-apps"></zui-icon>
+<br/>
+<br/>
+Registered Apps
+</center></p>
+
+</div>
+<div class='grid-col span-2'>
+    <p><center><zui-icon icon="zui-nav-reports"></zui-icon>
+<br/>
+<br/>
+Reporting
+</center></p>
+
+</div>
+<div class='grid-col span-2'>
+    <p><center><zui-icon icon="zui-nav-resources"></zui-icon>
+<br/>
+<br/>
+Resources
+</center></p>
+
+</div>
+<div class='grid-col span-2'>
+    <p><center><zui-icon icon="zui-nav-rfp"></zui-icon>
+<br/>
+<br/>
+RFPs
+</center></p>
+
+</div>
+<div class='grid-col span-2'>
+    <p><center><zui-icon icon="zui-nav-settings"></zui-icon>
+<br/>
+<br/>
+Settings
+</center></p>
+
+</div>
+<div class='grid-col span-2'>
+    <p><center><zui-icon icon="zui-nav-setup"></zui-icon>
+<br/>
+<br/>
+Setup
+</center></p>
+
+</div>
+<div class='grid-col span-2'>
+    <p><center><zui-icon icon="zui-nav-single-sign-on"></zui-icon>
+<br/>
+<br/>
+Single Sign-on
+</center></p>
+
+</div>
+<div class='grid-col span-2'>
+    <p><center><zui-icon icon="zui-nav-solutions"></zui-icon>
+<br/>
+<br/>
+Solutions
+</center></p>
+
+</div>
+<div class='grid-col span-2'>
+    <p><center><zui-icon icon="zui-nav-toolbox"></zui-icon>
+<br/>
+<br/>
+Toolbox
+</center></p>
+
+</div>
+<div class='grid-col span-2'>
+    <p><center><zui-icon icon="zui-nav-users"></zui-icon>
+<br/>
+<br/>
+Users
+</center></p>
+
+</div>
+<div class='grid-col span-2'>
+    <p><center><zui-icon icon="zui-nav-zywave-sidebar"></zui-icon>
+<br/>
+<br/>
+Zywave Sidebar
+</center></p>
+
+</div>
+<div class='grid-col span-2'>
+    <p><center><zui-icon icon="zui-nav-zywave-university"></zui-icon>
+<br/>
+<br/>
+Zywave University
+</center></p>
+
+</div>
+
+</div>
+<div class="spacer small"></div></p>
+
+<hr />
+
+<div class="spacer small"></div>
+
+<h2 id="system-icons">System Icons</h2>
+
+<p>Our system icons are used throughout the UI to draw more attention to a specific element or action. Typically our system icons are used within buttons to the left of text labels to draw more attention to them. Or, if the icon is easily identifiable, the icon can be used alone within a button in order to save space.
+<br/>
+<br/></p>
+
+<h3 id="system-icon-style">System Icon Style</h3>
+
+<p>Our system icons are outlined/stroked and take on the color of the element they are supporting.
+For more information on how to create navigation icons view our <a href="https://confluence.zywave.com/x/cwC-Pg">process documentation</a>
+<br/>
+<br/></p>
+
+<h3 id="current-icons-1">Current icons</h3>
+
+<p>Below is a list of our current system icons. If you can&rsquo;t find the icon you are looking for, be sure to check out <a href="https://confluence.zywave.com/x/cQC-Pg">system icon backlog</a> and ask a designer to complete a design for you.
+<br/>
+<br/>
+<div class="grid">
+    <div class='grid-col span-2'>
+    <p><center><zui-icon unresolved icon="zui-check"></zui-icon>
+<br/>
+<br/>
+Check
+</center></p>
+
+</div>
+<div class='grid-col span-2'>
+    <p><center><zui-icon unresolved icon="zui-remove"></zui-icon>
+<br/>
+<br/>
+Remove
+</center></p>
+
+</div>
+<div class='grid-col span-2'>
+    <p><center><zui-icon unresolved icon="zui-close"></zui-icon>
+<br/>
+<br/>
+Close
+</center></p>
+
+</div>
+<div class='grid-col span-2'>
+    <p><center><zui-icon unresolved icon="zui-add"></zui-icon>
+<br/>
+<br/>
+Add
+</center></p>
+
+</div>
+<div class='grid-col span-2'>
+    <p><center><zui-icon unresolved icon="zui-edit"></zui-icon>
+<br/>
+<br/>
+Edit
+</center></p>
+
+</div>
+<div class='grid-col span-2'>
+    <p><center><zui-icon unresolved icon="zui-search"></zui-icon>
+<br/>
+<br/>
+Search
+</center></p>
+
+</div>
+<div class='grid-col span-2'>
+    <p><center><zui-icon unresolved icon="zui-download"></zui-icon>
+<br/>
+<br/>
+Download
+</center></p>
+
+</div>
+<div class='grid-col span-2'>
+    <p><center><zui-icon unresolved icon="zui-upload"></zui-icon>
+<br/>
+<br/>
+Upload
+</center></p>
+
+</div>
+<div class='grid-col span-2'>
+    <p><center><zui-icon unresolved icon="zui-external"></zui-icon>
+<br/>
+<br/>
+External
+</center></p>
+
+</div>
+<div class='grid-col span-2'>
+    <p><center><zui-icon unresolved icon="zui-link"></zui-icon>
+<br/>
+<br/>
+Link
+</center></p>
+
+</div>
+<div class='grid-col span-2'>
+    <p><center><zui-icon unresolved icon="zui-link"></zui-icon>
+<br/>
+<br/>
+Share
+</center></p>
+
+</div>
+<div class='grid-col span-2'>
+    <p><center> <zui-icon unresolved icon="zui-delete"></zui-icon>
+<br/>
+<br/>
+delete
+</center></p>
+
+</div>
+<div class='grid-col span-2'>
+    <p><center><zui-icon unresolved icon="zui-apps"></zui-icon>
+<br/>
+<br/>
+Apps
+</center></p>
+
+</div>
+<div class='grid-col span-2'>
+    <p><center><zui-icon unresolved icon="zui-refresh"></zui-icon>
+<br/>
+<br/>
+Refresh
+</center></p>
+
+</div>
+<div class='grid-col span-2'>
+    <p><center><zui-icon unresolved icon="zui-help"></zui-icon>
+<br/>
+<br/>
+Help
+</center></p>
+
+</div>
+<div class='grid-col span-2'>
+    <p><center> <zui-icon unresolved icon="zui-warning"></zui-icon>
+<br/>
+<br/>
+Warning
+</center></p>
+
+</div>
+<div class='grid-col span-2'>
+    <p><center><zui-icon unresolved icon="zui-info"></zui-icon>
+<br/>
+<br/>
+Info Circle
+</center></p>
+
+</div>
+<div class='grid-col span-2'>
+    <p><center> <zui-icon unresolved icon="zui-error"></zui-icon>
+<br/>
+<br/>
+Error
+</center></p>
+
+</div>
+<div class='grid-col span-2'>
+    <p><center> <zui-icon unresolved icon="zui-grip"></zui-icon>
+<br/>
+<br/>
+Grips
+</center></p>
+
+</div>
+<div class='grid-col span-2'>
+    <p><center><zui-icon unresolved icon="zui-more"></zui-icon>
+<br/>
+<br/>
+More
+</center></p>
+
+</div>
+<div class='grid-col span-2'>
+    <p><center><zui-icon unresolved icon="zui-sort"></zui-icon>
+<br/>
+<br/>
+Sort
+</center></p>
+
+</div>
+<div class='grid-col span-2'>
+    <p><center><zui-icon unresolved icon="zui-doc"></zui-icon>
+<br/>
+<br/>
+Document
+</center></p>
+
+</div>
+<div class='grid-col span-2'>
+    <p><center><zui-icon unresolved icon="zui-ppt"></zui-icon>
+<br/>
+<br/>
+PowerPoint
+</center></p>
+
+</div>
+<div class='grid-col span-2'>
+    <p><center><zui-icon unresolved icon="zui-word"></zui-icon>
+<br/>
+<br/>
+Word Document
+</center></p>
+
+</div>
+<div class='grid-col span-2'>
+    <p><center><zui-icon unresolved icon="zui-excel"></zui-icon>
+<br/>
+<br/>
+Excel File
+</center></p>
+
+</div>
+<div class='grid-col span-2'>
+    <p><center><zui-icon unresolved icon="zui-pdf"></zui-icon>
+<br/>
+<br/>
+PDF
+</center></p>
+
+</div>
+<div class='grid-col span-2'>
+    <p><center><zui-icon unresolved icon="zui-print"></zui-icon>
+<br/>
+<br/>
+Print
+</center></p>
+
+</div>
+<div class='grid-col span-2'>
+    <p><center><zui-icon unresolved icon="zui-folder"></zui-icon>
+<br/>
+<br/>
+Folder
+</center></p>
+
+</div>
+<div class='grid-col span-2'>
+    <p><center><zui-icon unresolved icon="zui-left"></zui-icon>
+<br/>
+<br/>
+Left
+</center></p>
+
+</div>
+<div class='grid-col span-2'>
+    <p><center><zui-icon unresolved icon="zui-up"></zui-icon>
+<br/>
+<br/>
+Up
+</center></p>
+
+</div>
+<div class='grid-col span-2'>
+    <p><center><zui-icon unresolved icon="zui-down"></zui-icon>
+<br/>
+<br/>
+Down
+</center></p>
+
+</div>
+<div class='grid-col span-2'>
+    <p><center><zui-icon unresolved icon="zui-right"></zui-icon>
+<br/>
+<br/>
+Right
+</center></p>
+
+</div>
+<div class='grid-col span-2'>
+    <p><center><zui-icon unresolved icon="zui-chevron-left"></zui-icon>
+<br/>
+<br/>
+Chevron Left
+</center></p>
+
+</div>
+<div class='grid-col span-2'>
+    <p><center><zui-icon unresolved icon="zui-chevron-up"></zui-icon>
+<br/>
+<br/>
+Chevron Up
+</center></p>
+
+</div>
+<div class='grid-col span-2'>
+    <p><center><zui-icon unresolved icon="zui-chevron-down"></zui-icon>
+<br/>
+<br/>
+Chevron Down
+</center></p>
+
+</div>
+<div class='grid-col span-2'>
+    <p><center><zui-icon unresolved icon="zui-chevron-right"></zui-icon>
+<br/>
+<br/>
+Chevron Right
+</center></p>
+
+</div>
+<div class='grid-col span-2'>
+    <p><center><zui-icon unresolved icon="zui-double-chevron-left"></zui-icon>
+<br/>
+<br/>
+Double Chevron Left
+</center></p>
+
+</div>
+<div class='grid-col span-2'>
+    <p><center><zui-icon unresolved icon="zui-double-chevron-right"></zui-icon>
+<br/>
+<br/>
+Double Chevron Right
+</center></p>
+
+</div>
+<div class='grid-col span-2'>
+    <p><center><zui-icon unresolved icon="zui-caret-left"></zui-icon>
+<br/>
+<br/>
+Caret Left
+</center></p>
+
+</div>
+<div class='grid-col span-2'>
+    <p><center><zui-icon unresolved icon="zui-caret-up"></zui-icon>
+<br/>
+<br/>
+Caret Up
+</center></p>
+
+</div>
+<div class='grid-col span-2'>
+    <p><center><zui-icon unresolved icon="zui-caret-down"></zui-icon>
+<br/>
+<br/>
+Caret Down
+</center></p>
+
+</div>
+<div class='grid-col span-2'>
+    <p><center><zui-icon unresolved icon="zui-caret-right"></zui-icon>
+<br/>
+<br/>
+Caret Right
+</center></p>
+
+</div>
+<div class='grid-col span-2'>
+    <p><center><zui-icon unresolved icon="zui-align"></zui-icon>
+<br/>
+<br/>
+Building
+</center></p>
+
+</div>
+<div class='grid-col span-2'>
+    <p><center><zui-icon unresolved icon="zui-dynamic-list"></zui-icon>
+<br/>
+<br/>
+Dynamic List
+</center></p>
+
+</div>
+<div class='grid-col span-2'>
+    <p><center><zui-icon unresolved icon="zui-list"></zui-icon>
+<br/>
+<br/>
+List
+</center></p>
+
+</div>
+<div class='grid-col span-2'>
+    <p><center><zui-icon unresolved icon="zui-lock"></zui-icon>
+<br/>
+<br/>
+Locked
+</center></p>
+
+</div>
+<div class='grid-col span-2'>
+    <p><center><zui-icon unresolved icon="zui-unlock"></zui-icon>
+<br/>
+<br/>
+Unlocked
+</center></p>
+
+</div>
+<div class='grid-col span-2'>
+    <p><center><zui-icon unresolved icon="zui-mail"></zui-icon>
+<br/>
+<br/>
+Mail
+</center></p>
+
+</div>
+<div class='grid-col span-2'>
+    <p><center><zui-icon unresolved icon="zui-switch-profile"></zui-icon>
+<br/>
+<br/>
+Switch Profile
+</center></p>
+
+</div>
+<div class='grid-col span-2'>
+    <p><center><zui-icon unresolved icon="zui-rocket"></zui-icon>
+<br/>
+<br/>
+Rocket
+</center></p>
+
+</div>
+<div class='grid-col span-2'>
+    <p><center><zui-icon unresolved icon="zui-user"></zui-icon>
+<br/>
+<br/>
+User
+</center></p>
+
+</div>
+<div class='grid-col span-2'>
+    <p><center><zui-icon unresolved icon="zui-filter"></zui-icon>
+<br/>
+<br/>
+Filter
+</center></p>
+
+</div>
+<div class='grid-col span-2'>
+    <p><center><zui-icon unresolved icon="zui-add-circle"></zui-icon>
+<br/>
+<br/>
+Add Circle
+</center></p>
+
+</div>
+<div class='grid-col span-2'>
+    <p><center><zui-icon unresolved icon="zui-remove-circle"></zui-icon>
+<br/>
+<br/>
+Remove Cirlce
+</center></p>
+
+</div>
+<div class='grid-col span-2'>
+    <p><center><zui-icon unresolved icon="zui-check-circle"></zui-icon>
+<br/>
+<br/>
+Check Circle
+</center></p>
+
+</div>
+<div class='grid-col span-2'>
+    <p><center><zui-icon unresolved icon="zui-calendar"></zui-icon>
+<br/>
+<br/>
+Calendar
+</center></p>
+
+</div>
+<div class='grid-col span-2'>
+    <p><center><zui-icon unresolved icon="zui-wrench"></zui-icon>
+<br/>
+<br/>
+Wrench
+</center></p>
+
+</div>
+
+</div>
+<div class="spacer small"></div></p>
+
+                    </div>
+                </section>
+            </zui-shell-content><zui-shell-footer>
+    <div>
+        &copy; 1995 - 2020 Zywave, Inc. All rights reserved.
+    </div>
+    <a class="zui-link" target="_blank" href="http://www.zywave.com/terms-conditions/">Terms and Conditions</a>
+    <a class="zui-link" target="_blank" href="http://www.zywave.com/privacy-statement/">Privacy Statement</a>
+    <a class="zui-link" target="_blank" href="http://www.zywave.com/dmca-notice/">DMCA</a></div>
+    <a class="zui-link" target="_blank" href="http://www.zywave.com/cookie-usage/">Cookie Usage</a>
+    <a class="zui-link" href="mailto:support@zywave.com">Contact</a>
+</zui-shell-footer>
+<script src="https://unpkg.com/@zywave/zui-bundle@next/dist/zui-loader.js"></script>
+</zui-shell>
+    </body>
+</html>

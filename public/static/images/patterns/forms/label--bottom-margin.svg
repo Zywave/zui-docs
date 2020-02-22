@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="300" height="67" viewBox="0 0 300 67">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="300" height="42" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-label--bottom-margin">
+      <rect width="300" height="67"/>
+    </clipPath>
+  </defs>
+  <g id="label--bottom-margin" clip-path="url(#clip-label--bottom-margin)">
+    <line id="Line_4" data-name="Line 4" y1="10" transform="translate(39.5 15.5)" fill="none" stroke="#c6318c" stroke-width="1" stroke-dasharray="2 2"/>
+    <line id="Line_6" data-name="Line 6" x1="4" transform="translate(37.5 15.5)" fill="none" stroke="#c6318c" stroke-width="1"/>
+    <line id="Line_7" data-name="Line 7" x1="4" transform="translate(37.5 24.5)" fill="none" stroke="#c6318c" stroke-width="1"/>
+    <g id="Input-_no_label" data-name="Input- no label" transform="translate(0 25)" clip-path="url(#clip-path)">
+      <g id="Rectangle_288" data-name="Rectangle 288" fill="#fff" stroke="#cbcbd2" stroke-width="1">
+        <rect width="300" height="42" rx="4" stroke="none"/>
+        <rect x="0.5" y="0.5" width="299" height="41" rx="3.5" fill="none"/>
+      </g>
+    </g>
+    <text id="Label" transform="translate(0 15)" fill="#31313a" font-size="14" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="0">Label</tspan></text>
+  </g>
+</svg>

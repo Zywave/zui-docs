@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="900" height="568" viewBox="0 0 900 568">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="300" height="42" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-4">
+      <rect width="384" height="42" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-forms--spacing-long-form">
+      <rect width="900" height="568"/>
+    </clipPath>
+  </defs>
+  <g id="forms--spacing-long-form" clip-path="url(#clip-forms--spacing-long-form)">
+    <rect width="900" height="568" fill="#f4f4f6"/>
+    <g id="Group_13018" data-name="Group 13018" transform="translate(-8)">
+      <g id="Input-_no_label" data-name="Input- no label" transform="translate(322 292)" clip-path="url(#clip-path)">
+        <g id="Rectangle_288" data-name="Rectangle 288" fill="#fff" stroke="#cbcbd2" stroke-width="1">
+          <rect width="300" height="42" rx="4" stroke="none"/>
+          <rect x="0.5" y="0.5" width="299" height="41" rx="3.5" fill="none"/>
+        </g>
+      </g>
+      <text id="City" transform="translate(282 319)" fill="#31313a" font-size="14" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="-25.696" y="0">City</tspan></text>
+      <g id="Input-_no_label-2" data-name="Input- no label" transform="translate(322 44)" clip-path="url(#clip-path)">
+        <g id="Rectangle_288-2" data-name="Rectangle 288" fill="#fff" stroke="#cbcbd2" stroke-width="1">
+          <rect width="300" height="42" rx="4" stroke="none"/>
+          <rect x="0.5" y="0.5" width="299" height="41" rx="3.5" fill="none"/>
+        </g>
+      </g>
+      <text id="First_Name" data-name="First Name" transform="translate(282 71)" fill="#31313a" font-size="14" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="-71.374" y="0">First Name</tspan></text>
+      <g id="Input-_no_label-3" data-name="Input- no label" transform="translate(322 106)" clip-path="url(#clip-path)">
+        <g id="Rectangle_288-3" data-name="Rectangle 288" fill="#fff" stroke="#cbcbd2" stroke-width="1">
+          <rect width="300" height="42" rx="4" stroke="none"/>
+          <rect x="0.5" y="0.5" width="299" height="41" rx="3.5" fill="none"/>
+        </g>
+      </g>
+      <text id="Last_Name" data-name="Last Name" transform="translate(282 133)" fill="#31313a" font-size="14" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="-69.152" y="0">Last Name</tspan></text>
+      <g id="Input-_no_label-4" data-name="Input- no label" transform="translate(322 168)" clip-path="url(#clip-path-4)">
+        <g id="Rectangle_288-4" data-name="Rectangle 288" fill="#fff" stroke="#cbcbd2" stroke-width="1">
+          <rect width="384" height="42" rx="4" stroke="none"/>
+          <rect x="0.5" y="0.5" width="383" height="41" rx="3.5" fill="none"/>
+        </g>
+      </g>
+      <text id="Address_1" data-name="Address 1" transform="translate(282 195)" fill="#31313a" font-size="14" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="-64.504" y="0">Address 1</tspan></text>
+      <g id="Input-_no_label-5" data-name="Input- no label" transform="translate(322 230)" clip-path="url(#clip-path-4)">
+        <g id="Rectangle_288-5" data-name="Rectangle 288" fill="#fff" stroke="#cbcbd2" stroke-width="1">
+          <rect width="384" height="42" rx="4" stroke="none"/>
+          <rect x="0.5" y="0.5" width="383" height="41" rx="3.5" fill="none"/>
+        </g>
+      </g>
+      <text id="Address_2" data-name="Address 2" transform="translate(282 257)" fill="#31313a" font-size="14" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="-64.504" y="0">Address 2</tspan></text>
+      <g id="Input-_no_label-6" data-name="Input- no label" transform="translate(322 416)">
+        <g id="Rectangle_288-6" data-name="Rectangle 288" fill="#fff" stroke="#cbcbd2" stroke-width="1">
+          <rect width="189" height="42" rx="4" stroke="none"/>
+          <rect x="0.5" y="0.5" width="188" height="41" rx="3.5" fill="none"/>
+        </g>
+      </g>
+      <text id="Zip" transform="translate(282 443)" fill="#31313a" font-size="14" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="-21.157" y="0">Zip</tspan></text>
+      <g id="Primary_Button_-_Normal" data-name="Primary Button - Normal" transform="translate(322 488)">
+        <rect id="Rectangle_3990" data-name="Rectangle 3990" width="73.934" height="36" rx="18" fill="#2777d3"/>
+        <text id="Save" transform="translate(37 23)" fill="#fff" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="-14.68" y="0">Save</tspan></text>
+      </g>
+      <g id="Secondary_Button_-_Normal" data-name="Secondary Button - Normal" transform="translate(406 488)">
+        <g id="Rectangle_3991" data-name="Rectangle 3991" fill="none" stroke="#cbcbd2" stroke-width="1">
+          <rect width="73.934" height="36" rx="18" stroke="none"/>
+          <rect x="0.5" y="0.5" width="72.934" height="35" rx="17.5" fill="none"/>
+        </g>
+        <text id="Cancel" transform="translate(37 23)" fill="#2777d3" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="-20.925" y="0">Cancel</tspan></text>
+      </g>
+      <text id="State" transform="translate(282 381)" fill="#31313a" font-size="14" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="-33.448" y="0">State</tspan></text>
+      <g id="Dropdown_Input_-_Unselected" data-name="Dropdown Input - Unselected" transform="translate(322 354)">
+        <g id="Rectangle_288-7" data-name="Rectangle 288" fill="#fff" stroke="#cbcbd2" stroke-width="1">
+          <rect width="213" height="42" rx="4" stroke="none"/>
+          <rect x="0.5" y="0.5" width="212" height="41" rx="3.5" fill="none"/>
+        </g>
+        <g id="Group_7793" data-name="Group 7793" transform="translate(-637 -1698)">
+          <rect id="Rectangle_3867" data-name="Rectangle 3867" width="24" height="24" transform="translate(816 1707)" fill="none"/>
+          <path id="Path_5558" data-name="Path 5558" d="M56,9.4l-3,3-3-3a.967.967,0,0,0-1.4,0h0a.967.967,0,0,0,0,1.4l3.7,3.7a.967.967,0,0,0,1.4,0l3.7-3.7a.967.967,0,0,0,0-1.4h0A.965.965,0,0,0,56,9.4Z" transform="translate(775 1707)" fill="#9494a4"/>
+        </g>
+      </g>
+      <g id="Group_13015" data-name="Group 13015" transform="translate(308 34)">
+        <rect id="Rectangle_6842" data-name="Rectangle 6842" width="3" height="1" transform="translate(305 52)" fill="#c6318c"/>
+        <rect id="Rectangle_6843" data-name="Rectangle 6843" width="3" height="1" transform="translate(305 71)" fill="#c6318c"/>
+        <rect id="Rectangle_6844" data-name="Rectangle 6844" width="1" height="20" transform="translate(306 52)" fill="#c6318c"/>
+      </g>
+      <rect id="Rectangle_6842-2" data-name="Rectangle 6842" width="3" height="1" transform="translate(347 458)" fill="#c6318c"/>
+      <rect id="Rectangle_6843-2" data-name="Rectangle 6843" width="3" height="1" transform="translate(347 487)" fill="#c6318c"/>
+      <rect id="Rectangle_6844-2" data-name="Rectangle 6844" width="1" height="30" transform="translate(348 458)" fill="#c6318c"/>
+      <rect id="Rectangle_6846" data-name="Rectangle 6846" width="25" height="1" transform="translate(615 96)" fill="#c6318c"/>
+      <rect id="Rectangle_6847" data-name="Rectangle 6847" width="178" height="1" transform="translate(349 473)" fill="#c6318c"/>
+      <circle id="Ellipse_2016" data-name="Ellipse 2016" cx="12" cy="12" r="12" transform="translate(640 84)" fill="#c6318c"/>
+      <circle id="Ellipse_2018" data-name="Ellipse 2018" cx="12" cy="12" r="12" transform="translate(527 462)" fill="#c6318c"/>
+      <circle id="Ellipse_2019" data-name="Ellipse 2019" cx="12" cy="12" r="12" transform="translate(290 464)" fill="#c6318c"/>
+      <text id="_1" data-name="1" transform="translate(648 101)" fill="#fff" stroke="rgba(0,0,0,0)" stroke-width="1" font-size="14" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="0">1</tspan></text>
+      <text id="_3" data-name="3" transform="translate(535 479)" fill="#fff" stroke="rgba(0,0,0,0)" stroke-width="1" font-size="14" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="0">3</tspan></text>
+      <text id="_4" data-name="4" transform="translate(298 481)" fill="#fff" stroke="rgba(0,0,0,0)" stroke-width="1" font-size="14" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="0">4</tspan></text>
+      <rect id="Rectangle_6848" data-name="Rectangle 6848" width="40" height="1" transform="translate(282 438)" fill="#c6318c"/>
+      <rect id="Rectangle_6849" data-name="Rectangle 6849" width="1" height="3" transform="translate(321 437)" fill="#c6318c"/>
+      <rect id="Rectangle_6851" data-name="Rectangle 6851" width="1" height="26" transform="translate(302 439)" fill="#c6318c"/>
+      <rect id="Rectangle_6850" data-name="Rectangle 6850" width="1" height="3" transform="translate(282 437)" fill="#c6318c"/>
+    </g>
+  </g>
+</svg>

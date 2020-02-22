@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="415" height="200" viewBox="0 0 415 200">
+  <defs>
+    <filter id="Rectangle_3961" x="15.5" y="46.5" width="384" height="138" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1.5" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-recent_Searches">
+      <rect width="415" height="200"/>
+    </clipPath>
+  </defs>
+  <g id="recent_Searches" clip-path="url(#clip-recent_Searches)">
+    <g id="Group_14" data-name="Group 14" transform="translate(-15)">
+      <g transform="matrix(1, 0, 0, 1, 15, 0)" filter="url(#Rectangle_3961)">
+        <g id="Rectangle_3961-2" data-name="Rectangle 3961" transform="translate(20 50)" fill="#fff" stroke="#dbdbdb" stroke-width="1">
+          <rect width="375" height="129" rx="1" stroke="none"/>
+          <rect x="0.5" y="0.5" width="374" height="128" rx="0.5" fill="none"/>
+        </g>
+      </g>
+      <rect id="Rectangle_3962" data-name="Rectangle 3962" width="375" height="42" transform="translate(35 20)" fill="#fff" stroke="#79ace6" stroke-width="2"/>
+      <text id="osha_return_to_work_program_slips_trips_falls" data-name="osha
+return to work program
+slips trips falls" transform="translate(50 110)" fill="#31313a" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">osha</tspan><tspan x="0" y="26">return to work program</tspan><tspan x="0" y="52">slips trips falls</tspan></text>
+      <line id="Line_11" data-name="Line 11" y2="20" transform="translate(51.5 31.5)" fill="none" stroke="#79ace6" stroke-width="1"/>
+      <text id="RECENT_SEARCHES-2" data-name="RECENT SEARCHES" transform="translate(50 85)" fill="#afafbb" font-size="12" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="0">RECENT SEARCHES</tspan></text>
+      <g id="Symbol_9" data-name="Symbol 9" transform="translate(-131 -205)">
+        <rect id="Rectangle_3937" data-name="Rectangle 3937" width="12" height="12" transform="translate(513 305)" fill="none"/>
+        <path id="Path_5631" data-name="Path 5631" d="M254,129.3l-3.15-3.15a.495.495,0,0,0-.7.7L253.3,130l-3.15,3.15a.495.495,0,0,0,.7.7L254,130.7l3.15,3.15a.495.495,0,0,0,.7-.7L254.7,130l3.15-3.15a.495.495,0,0,0-.7-.7Z" transform="translate(265 181)" fill="#afafbb"/>
+      </g>
+      <g id="Symbol_10" data-name="Symbol 10" transform="translate(-131 -179)">
+        <rect id="Rectangle_3937-2" data-name="Rectangle 3937" width="12" height="12" transform="translate(513 305)" fill="none"/>
+        <path id="Path_5631-2" data-name="Path 5631" d="M254,129.3l-3.15-3.15a.495.495,0,0,0-.7.7L253.3,130l-3.15,3.15a.495.495,0,0,0,.7.7L254,130.7l3.15,3.15a.495.495,0,0,0,.7-.7L254.7,130l3.15-3.15a.495.495,0,0,0-.7-.7Z" transform="translate(265 181)" fill="#afafbb"/>
+      </g>
+      <g id="Symbol_11" data-name="Symbol 11" transform="translate(-131 -153)">
+        <rect id="Rectangle_3937-3" data-name="Rectangle 3937" width="12" height="12" transform="translate(513 305)" fill="none"/>
+        <path id="Path_5631-3" data-name="Path 5631" d="M254,129.3l-3.15-3.15a.495.495,0,0,0-.7.7L253.3,130l-3.15,3.15a.495.495,0,0,0,.7.7L254,130.7l3.15,3.15a.495.495,0,0,0,.7-.7L254.7,130l3.15-3.15a.495.495,0,0,0-.7-.7Z" transform="translate(265 181)" fill="#afafbb"/>
+      </g>
+    </g>
+  </g>
+</svg>

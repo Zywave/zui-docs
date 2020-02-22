@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html><head>
+    <title>Tooling | Zywave User Interface</title>
+    <link href="http://zui.zywave.com/css/ie-sucks.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://unpkg.com/@zywave/zui-bundle@next/dist/css/zui-bundle.fouc.css" />
+    <link rel="stylesheet" href="https://unpkg.com/@zywave/zui-bundle@next/dist/css/zui-bundle.app.css" />
+    <link href="http://zui.zywave.com/css/base.css" rel="stylesheet" />
+    <link href="http://zui.zywave.com/css/shortcodes.css" rel="stylesheet" />
+    <link href="http://zui.zywave.com/css/syntax-highlighting-monokai.css" rel="stylesheet" />
+    <link rel='shortcut icon' type='image/x-icon' href='http://zui.zywave.com/static/favicon.ico' />
+    <script src="http://zui.zywave.com/js/ie-sucks.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.3.0/fuse.min.js"></script>
+    <style>
+        :root {
+            --zui-shell-primary-theme: var(--zui-green);
+            --zui-shell-primary-theme-dark: var(--zui-green-600);
+            --zui-tabs-color: var(--zui-green);
+        }
+    </style>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const externalLinks = document.querySelectorAll('a[href^="http://"], a[href^="https://"]');
+            for (const l of externalLinks) {
+                if (l.href.indexOf("http://zui.zywave.com/") < 0) {
+                    l.target = '_blank';
+                }
+            }
+        });
+
+        
+        
+    </script>
+</head>
+<body>
+        <ie-sucks>
+            No. Stop it. Use a real browser.
+        </ie-sucks>
+        <zui-shell app-name="ZUI Documentation"><zui-shell-topbar>
+    <zui-logo slot="logo"></zui-logo>
+</zui-shell-topbar>
+
+
+
+<zui-shell-nav>
+    <zui-shell-nav-item>
+        <zui-icon icon="zui-nav-home" slot="icon"></zui-icon>
+        <a href="http://zui.zywave.com/" active>Home</a>
+    </zui-shell-nav-item>
+    
+    
+    <zui-shell-nav-item subnav>
+        <zui-icon icon="zui-nav-developers" slot="icon"></zui-icon>
+        
+            <span>Developers</span>
+            
+            
+            
+            
+            <a href="http://zui.zywave.com/developers/contribution-guide/" >Contribution guide</a>
+            
+            <a href="http://zui.zywave.com/developers/developing-zui/" >Developing ZUI</a>
+            
+            <a href="http://zui.zywave.com/developers/installation/" >Installation</a>
+            
+            <a href="http://zui.zywave.com/developers/lit/" >Lit 🔥</a>
+            
+            <a href="http://zui.zywave.com/developers/polyfills/" >Polyfills</a>
+            
+            <a href="http://zui.zywave.com/developers/responsive-design/" >Responsive design</a>
+            
+            <a href="http://zui.zywave.com/developers/tooling/" active>Tooling</a>
+            
+            <a href="http://zui.zywave.com/developers/webcomponents/" >Web components</a>
+            
+        
+    </zui-shell-nav-item>
+    
+    
+    <zui-shell-nav-item subnav>
+        <zui-icon icon="zui-nav-foundations" slot="icon"></zui-icon>
+        
+            <span>Foundations</span>
+            
+            
+                
+            
+            
+            
+            <a href="http://zui.zywave.com/foundations/colors/" >Colors</a>
+            
+            <a href="http://zui.zywave.com/foundations/content-area/" >Content area</a>
+            
+            <a href="http://zui.zywave.com/foundations/fonts-typography/" >Fonts &amp; typography</a>
+            
+            <a href="http://zui.zywave.com/foundations/footer/" >Footer</a>
+            
+            <a href="http://zui.zywave.com/foundations/icons/" >Icons</a>
+            
+            <a href="http://zui.zywave.com/foundations/illustrations/" >Illustrations</a>
+            
+            <a href="http://zui.zywave.com/foundations/product-branding/" >Product branding</a>
+            
+            <a href="http://zui.zywave.com/foundations/shell/" >Shell</a>
+            
+            <a href="http://zui.zywave.com/foundations/sidenav/" >Sidenav</a>
+            
+            <a href="http://zui.zywave.com/foundations/topbar/" >Topbar</a>
+            
+        
+    </zui-shell-nav-item>
+    
+    
+    <zui-shell-nav-item subnav>
+        <zui-icon icon="zui-nav-components" slot="icon"></zui-icon>
+        
+            <span>Components</span>
+            
+            
+                
+            
+            
+            
+            <a href="http://zui.zywave.com/components/breadcrumbs/" >Breadcrumbs</a>
+            
+            <a href="http://zui.zywave.com/components/buttons-dropdown/" >Button dropdowns</a>
+            
+            <a href="http://zui.zywave.com/components/buttons/" >Buttons</a>
+            
+            <a href="http://zui.zywave.com/components/checkboxes/" >Checkboxes</a>
+            
+            <a href="http://zui.zywave.com/components/dialogs/" >Dialogs</a>
+            
+            <a href="http://zui.zywave.com/components/dropdown-multi-select/" >Dropdown multi-select</a>
+            
+            <a href="http://zui.zywave.com/components/dropdown-select/" >Dropdown select</a>
+            
+            <a href="http://zui.zywave.com/components/expanders/" >Expanders</a>
+            
+            <a href="http://zui.zywave.com/components/file-selector/" >File Selector</a>
+            
+            <a href="http://zui.zywave.com/components/notifiers/" >Notifiers</a>
+            
+            <a href="http://zui.zywave.com/components/radio-buttons/" >Radio buttons</a>
+            
+            <a href="http://zui.zywave.com/components/tabs/" >Tabs</a>
+            
+            <a href="http://zui.zywave.com/components/text-input/" >Text Input</a>
+            
+            <a href="http://zui.zywave.com/components/toggles/" >Toggles</a>
+            
+            <a href="http://zui.zywave.com/components/tooltips/" >Tooltips</a>
+            
+            <a href="http://zui.zywave.com/components/wells/" >Well</a>
+            
+        
+    </zui-shell-nav-item>
+    
+    
+    <zui-shell-nav-item subnav>
+        <zui-icon icon="zui-nav-patterns" slot="icon"></zui-icon>
+        
+            <span>Patterns</span>
+            
+            
+                
+            
+            
+            
+            <a href="http://zui.zywave.com/patterns/forms/" >Forms</a>
+            
+            <a href="http://zui.zywave.com/patterns/step-flow/" >Step flow</a>
+            
+            <a href="http://zui.zywave.com/patterns/typeahead/" >Typeahead</a>
+            
+        
+    </zui-shell-nav-item>
+    
+    
+    <zui-shell-nav-item subnav>
+        <zui-icon icon="zui-nav-help" slot="icon"></zui-icon>
+        
+            <span>Communications</span>
+            
+            
+                
+            
+            
+            
+            <a href="http://zui.zywave.com/communications/messages/" >Messages</a>
+            
+            <a href="http://zui.zywave.com/communications/voice-tone/" >Voice &amp; tone</a>
+            
+            <a href="http://zui.zywave.com/communications/writing-style-guide/" >Writing style guide</a>
+            
+        
+    </zui-shell-nav-item>
+    
+    
+    <zui-shell-nav-item >
+        <zui-icon icon="zui-nav-accounts" slot="icon"></zui-icon>
+        
+            <a href="http://zui.zywave.com/personas/" >Personas</a>
+        
+    </zui-shell-nav-item>
+    
+    <script>
+        
+        const activeLinks = document.querySelectorAll('zui-shell-nav-item a[active]');
+            for (let activeLink of activeLinks) {
+                activeLink.closest('zui-shell-nav-item').expanded = true;
+            }
+    </script>
+</zui-shell-nav>
+<zui-shell-content id="content">
+                <section class="zui-layout zui-layout--slim">
+                    <div class="page-heading">
+                        <h1>Tooling</h1>
+                        
+                    </div>
+                    <div class="content-container">
+                        
+
+<p>The ZUI monorepo uses a large number of tools, from building distributable packages to hosting the ZUI documentation website. Here&rsquo;s a brief overview of everything you need to know. This is not an exhaustive list, but should get you the essentials.</p>
+
+<h2 id="cli-tools">CLI Tools</h2>
+
+<p>This project uses a lot of CLI tools, some you may or may not be familiar with. With the exception of a small handful, all CLI tools are installed and managed as devDependencies of the workspace. This means that you should try to use <a href="./getting-started/about-tech/#npx">npx</a> with those tools.</p>
+
+<h3 id="yarn">Yarn</h3>
+
+<p>Package manager of choice. Has its own support for workspaces and has some caching/efficiencies that make it more appealing over npm.</p>
+
+<h4 id="useful-commands">Useful commands:</h4>
+<div class="highlight"><pre class="chroma"><code class="language-shell" data-lang="shell">&gt; yarn add <span class="si">${</span><span class="nv">package</span><span class="si">}</span> <span class="c1">### adds ${package} as a dependency</span>
+&gt; yarn add <span class="si">${</span><span class="nv">package</span><span class="si">}</span> -D <span class="c1">### add ${package} as a devDependency</span>
+&gt; yarn install <span class="c1">### installs all dependencies of a yarn project (or will create a yarn.lock file if not already existing)</span>
+&gt; yarn -W add <span class="si">${</span><span class="nv">package</span><span class="si">}</span> <span class="c1">### adds ${package} as a dependency to a workspace&#39;s root package.json</span></code></pre></div>
+<p><strong>Pro tip</strong>: Can&rsquo;t tell if the project you&rsquo;re working on is using yarn or npm? If there&rsquo;s a yarn.lock file, it uses yarn.</p>
+
+<p><a href="https://www.yarnpkg.com/">Documentation</a></p>
+
+<h3 id="lerna">Lerna</h3>
+
+<p>The glue that holds the entire monorepo together.</p>
+
+<p>You may have noticed at this point that ALL of ZUI is in this single repository. Well, lerna is the tool we use that helps facilitate:</p>
+
+<ol>
+<li>building all the packages</li>
+<li>publishing all the packages</li>
+<li>using unpublished dependencies while in development
+
+<ul>
+<li>It uses some cool symlinking to simulate a proper node dependency tree. If you&rsquo;re ever curious, check out the root&rsquo;s `node_modules/@zywave/ folder</li>
+</ul></li>
+</ol>
+
+<h4 id="useful-commands-1">Useful commands:</h4>
+<div class="highlight"><pre class="chroma"><code class="language-shell" data-lang="shell">&gt; lerna bootstrap <span class="c1">### runs yarn install and links all monorepo packages that have dependencies</span>
+&gt; lerna add <span class="si">${</span><span class="nv">package</span><span class="si">}</span> --scope<span class="o">=</span>@zywave/* <span class="c1">### adds ${package} to all packages in the monorepo that match the scope pattern (so all packages that start with @zywave/*)</span></code></pre></div>
+<p><a href="https://lernajs.io/">Documentation</a></p>
+
+<h3 id="gulp">Gulp</h3>
+
+<p>Task library that is similar to grunt, but build aroudn filestream pipelines.</p>
+
+<p><a href="https://gulpjs.com/">Documentation</a></p>
+
+<h3 id="hugo">Hugo</h3>
+
+<p>Static website generator. Not really all that much to say on this one. It&rsquo;s built using Go, and shows fast build times.</p>
+
+<p><a href="https://gohugo.io/">Documentation</a></p>
+
+<h3 id="yeoman">Yeoman</h3>
+
+<p>JavaScript template generation. Only needed if you want to create a package based off of the provided templates.</p>
+
+<p><a href="http://yeoman.io/">Documentation</a></p>
+
+<h3 id="npx">npx</h3>
+
+<p>Allows you to run another CLI tool from either a node/yarn project&rsquo;s dependencies, or your global space if not available. Very useful for ensuring that the build tooling you use for a project is the way the author(s) intended.</p>
+
+<p>This tool has been a part of Node since Node 8.2.0 (it actually gets installed with npm after npm 5.2.0).</p>
+
+<p><a href="https://github.com/zkat/npx">Documentation</a></p>
+
+<h2 id="supplemental-tooling">Supplemental tooling</h2>
+
+<h3 id="prettier">Prettier</h3>
+
+<p><em>Tabs vs spaces? Who really cares?</em></p>
+
+<p>Prettier is a file formatting tool that keeps us using similar file syntaxes (e.g. using spaces instead of tabs, single quotes instead of double, etc.)</p>
+
+<p>This is configured in the monorepo&rsquo;s .prettierrc file, and requires an additional plugin to play nicely with ESLint.</p>
+
+<p><a href="https://prettier.io/docs/en/index.html">Documentation</a></p>
+
+<h3 id="eslint">ESLint</h3>
+
+<p><em>No, you shouldn&rsquo;t litter <code>console.log</code> everywhere. Stop that.</em></p>
+
+<p>ESLint ensures that we code using similar design patterns and helps us catch potential problems early.</p>
+
+<p>This is configured in the repo&rsquo;s .eslintrc.json and .eslintignore.</p>
+
+<p><a href="https://eslint.org/">Documentation</a></p>
+
+<h3 id="node-sass">Node-sass</h3>
+
+<p>Sass compiler wrapping Libsass (a C++ alternative to the Ruby Sass compiler).</p>
+
+<p><a href="https://github.com/sass/node-sass">Documentation</a></p>
+
+<h3 id="browsersync">Browsersync</h3>
+
+<p><em>Hitting F5 is so 2017.</em></p>
+
+<p>A really cool server that will watch files for changes and refresh the browser if anything changes. Used in a lot of our <code>gulp watch</code> pipelines.</p>
+
+<p><a href="https://www.browsersync.io/">Documentation</a></p>
+
+<h3 id="polyserve">Polyserve</h3>
+
+<p>Server maintained by the Polymer team that handles on-the-fly ES module resolution and other niceties.</p>
+
+<p><a href="https://github.com/Polymer/tools/tree/master/packages/polyserve">Documentation</a></p>
+
+<h3 id="husky-lint-staged">Husky / Lint-staged</h3>
+
+<p><em>No, you can&rsquo;t commit your ugly code.</em></p>
+
+<p>The build server will lint our code (using a variety of linting tools); these two together help you maintain sanity by running the linting prior to commit. They&rsquo;ll even fix your code and stage that for you so that you hardly have to lift a finger!</p>
+
+<p><a href="https://github.com/typicode/husky">Husky documentation</a></p>
+
+<p><a href="https://github.com/okonet/lint-staged">Lint-staged documentation</a></p>
+
+                    </div>
+                </section>
+            </zui-shell-content><zui-shell-footer>
+    <div>
+        &copy; 1995 - 2020 Zywave, Inc. All rights reserved.
+    </div>
+    <a class="zui-link" target="_blank" href="http://www.zywave.com/terms-conditions/">Terms and Conditions</a>
+    <a class="zui-link" target="_blank" href="http://www.zywave.com/privacy-statement/">Privacy Statement</a>
+    <a class="zui-link" target="_blank" href="http://www.zywave.com/dmca-notice/">DMCA</a></div>
+    <a class="zui-link" target="_blank" href="http://www.zywave.com/cookie-usage/">Cookie Usage</a>
+    <a class="zui-link" href="mailto:support@zywave.com">Contact</a>
+</zui-shell-footer>
+<script src="https://unpkg.com/@zywave/zui-bundle@next/dist/zui-loader.js"></script>
+</zui-shell>
+    </body>
+</html>

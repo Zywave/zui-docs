@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="590" height="217" viewBox="0 0 590 217">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="590" height="217" fill="none"/>
+    </clipPath>
+    <filter id="Rectangle_6368" x="0" y="0" width="590" height="217" filterUnits="userSpaceOnUse">
+      <feOffset dy="15" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="15" result="blur"/>
+      <feFlood flood-opacity="0.02"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_6365" x="40.5" y="26.5" width="509" height="136" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1.5" result="blur-2"/>
+      <feFlood flood-color="#aa2d0e" flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Component_108_1" data-name="Component 108 – 1" clip-path="url(#clip-path)">
+    <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Rectangle_6368)">
+      <rect id="Rectangle_6368-2" data-name="Rectangle 6368" width="500" height="127" rx="4" transform="translate(45 30)" fill="none"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Rectangle_6365)">
+      <rect id="Rectangle_6365-2" data-name="Rectangle 6365" width="500" height="127" rx="4" transform="translate(45 30)" fill="#fff"/>
+    </g>
+    <path id="Rectangle_6366" data-name="Rectangle 6366" d="M4,0H496a4,4,0,0,1,4,4v6a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V4A4,4,0,0,1,4,0Z" transform="translate(45 30)" fill="#ee562f"/>
+    <text id="Can_t_confirm_elections" data-name="Can&apos;t confirm elections" transform="translate(99 53)" fill="#31313a" font-size="16" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="17">Can&apos;t confirm elections</tspan></text>
+    <path id="Path_8228" data-name="Path 8228" d="M10.717,3.4h2.717a.455.455,0,0,1,.455.455h0L12.98,14.679a.444.444,0,0,1-.444.444h-.909a.445.445,0,0,1-.455-.433v-.011l-.9-10.825a.445.445,0,0,1,.433-.455ZM13.965,18.89a1.84,1.84,0,0,1-1.851,1.829h-.26a1.873,1.873,0,0,1-1.5-1.321,1.84,1.84,0,0,1,1.765-2.349h0a1.851,1.851,0,0,1,1.83,1.83ZM16.974,0H7.026L0,7.026v9.949L7.026,24h9.949L24,16.974V7.026Z" transform="translate(55 50)" fill="#d83d26"/>
+    <text id="The_following_information_is_required_to_confirm_your_elections:_Enrollment_form_signature_Date_of_birth" data-name="The following information is required to confirm your elections:
+     •  Enrollment form signature
+     •  Date of birth" transform="translate(99 79)" fill="#31313a" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="15">The following information is required to confirm your elections:</tspan><tspan x="0" y="37.4" xml:space="preserve">     •  Enrollment form signature</tspan><tspan x="0" y="59.8" xml:space="preserve">     •  Date of birth</tspan></text>
+  </g>
+</svg>

@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="275" height="84" viewBox="0 0 275 84">
+  <defs>
+    <clipPath id="clip-file-selector--upload_drag-medium">
+      <rect width="275" height="84"/>
+    </clipPath>
+  </defs>
+  <g id="file-selector--upload_drag-medium" data-name="file-selector--upload+drag-medium" clip-path="url(#clip-file-selector--upload_drag-medium)">
+    <rect width="275" height="84" fill="#fff"/>
+    <g id="Input-_no_label" data-name="Input- no label">
+      <g id="Rectangle_288" data-name="Rectangle 288" fill="#fff" stroke="#cbcbd2" stroke-width="1" stroke-dasharray="2 2">
+        <rect width="275" height="84" stroke="none"/>
+        <rect x="0.5" y="0.5" width="274" height="83" fill="none"/>
+      </g>
+    </g>
+    <g id="Group_13280" data-name="Group 13280" transform="translate(-999 -1300)">
+      <g id="Group_13275" data-name="Group 13275" transform="translate(1046 1333)">
+        <text id="click_to_upload" data-name="click to upload" transform="translate(157 15)" fill="#4e92df" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="-45.203" y="0">click to upload</tspan></text>
+        <text id="Drop_files_here_or_" data-name="Drop files here or " transform="translate(56 15)" fill="#78788c" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="-55.692" y="0">Drop files here or </tspan></text>
+      </g>
+      <g id="Group_13271" data-name="Group 13271" transform="translate(1026 1335)">
+        <g id="Group_13270" data-name="Group 13270">
+          <path id="Path_8849" data-name="Path 8849" d="M1.1,4.9H2a.2.2,0,0,0,.2-.2V1.3H13.8V4.7a.2.2,0,0,0,.2.2h.9a.2.2,0,0,0,.2-.2V.7a.7.7,0,0,0-.7-.7H1.6A.7.7,0,0,0,.9.7v4A.2.2,0,0,0,1.1,4.9Z" fill="#78788c"/>
+          <path id="Path_8850" data-name="Path 8850" d="M8.2,4.1H7.8L4.3,7.8a.2.2,0,0,0,0,.3l.9,1h.3L7.1,7.5v8.3a.2.2,0,0,0,.2.2H8.7a.2.2,0,0,0,.2-.2V7.5l1.6,1.7h.3l.9-1a.2.2,0,0,0,0-.3Z" fill="#78788c"/>
+        </g>
+        <rect id="Rectangle_6837" data-name="Rectangle 6837" width="16" height="16" fill="none"/>
+      </g>
+    </g>
+  </g>
+</svg>

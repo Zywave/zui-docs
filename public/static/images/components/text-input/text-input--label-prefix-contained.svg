@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="200" height="42" viewBox="0 0 200 42">
+  <defs>
+    <clipPath id="clip-text-input--label-prefix-contained">
+      <rect width="200" height="42"/>
+    </clipPath>
+  </defs>
+  <g id="text-input--label-prefix-contained" clip-path="url(#clip-text-input--label-prefix-contained)">
+    <rect width="200" height="42" fill="#fff"/>
+    <g id="Group_13004" data-name="Group 13004" transform="translate(-1)">
+      <g id="Group_13001" data-name="Group 13001" transform="translate(1)">
+        <g id="Input-_no_label" data-name="Input- no label" transform="translate(41)">
+          <g id="Rectangle_288" data-name="Rectangle 288" fill="#fff" stroke="#cbcbd2" stroke-width="1">
+            <path d="M0,0H155a4,4,0,0,1,4,4V38a4,4,0,0,1-4,4H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" stroke="none"/>
+            <path d="M1,.5H155A3.5,3.5,0,0,1,158.5,4V38a3.5,3.5,0,0,1-3.5,3.5H1A.5.5,0,0,1,.5,41V1A.5.5,0,0,1,1,.5Z" fill="none"/>
+          </g>
+        </g>
+        <g id="Primary_Button_-_Normal" data-name="Primary Button - Normal">
+          <g id="Path_8229" data-name="Path 8229" transform="translate(42 42) rotate(180)" fill="#f4f4f6" stroke-linejoin="round">
+            <path d="M 39.72769165039063 41.5 L 0.5 41.5 L 0.5 0.5 L 39.72769165039063 0.5 C 40.14091110229492 0.5 40.56808853149414 0.8348000049591064 40.89971160888672 1.418540000915527 C 41.28681182861328 2.099970102310181 41.5 3.01675009727478 41.5 4 L 41.5 38 C 41.5 38.98324966430664 41.28681182861328 39.90002822875977 40.89971160888672 40.58145904541016 C 40.56808853149414 41.16519927978516 40.14091110229492 41.5 39.72769165039063 41.5 Z" stroke="none"/>
+            <path d="M 1 1 L 1 41 L 39.72769165039063 41 C 39.94926071166992 41 40.23175811767578 40.74499130249023 40.46495819091797 40.33449172973633 C 40.80498886108398 39.73593139648438 41 38.88504028320313 41 38 L 41 4 C 41 3.114959716796875 40.80498886108398 2.264068603515625 40.46495819091797 1.665508270263672 C 40.23175811767578 1.255008697509766 39.94926071166992 1 39.72769165039063 1 L 1 1 M 0 0 L 39.72769165039063 0 C 40.98265075683594 0 42 1.790859222412109 42 4 L 42 38 C 42 40.20914077758789 40.98265075683594 42 39.72769165039063 42 L 0 42 L 0 0 Z" stroke="none" fill="#cbcbd2"/>
+          </g>
+        </g>
+        <text id="_" data-name="$" transform="translate(17 27)" fill="#78788c" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">$</tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>

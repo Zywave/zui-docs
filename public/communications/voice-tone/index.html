@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html><head>
+    <title>Voice & tone | Zywave User Interface</title>
+    <link href="http://zui.zywave.com/css/ie-sucks.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://unpkg.com/@zywave/zui-bundle@next/dist/css/zui-bundle.fouc.css" />
+    <link rel="stylesheet" href="https://unpkg.com/@zywave/zui-bundle@next/dist/css/zui-bundle.app.css" />
+    <link href="http://zui.zywave.com/css/base.css" rel="stylesheet" />
+    <link href="http://zui.zywave.com/css/shortcodes.css" rel="stylesheet" />
+    <link href="http://zui.zywave.com/css/syntax-highlighting-monokai.css" rel="stylesheet" />
+    <link rel='shortcut icon' type='image/x-icon' href='http://zui.zywave.com/static/favicon.ico' />
+    <script src="http://zui.zywave.com/js/ie-sucks.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.3.0/fuse.min.js"></script>
+    <style>
+        :root {
+            --zui-shell-primary-theme: var(--zui-green);
+            --zui-shell-primary-theme-dark: var(--zui-green-600);
+            --zui-tabs-color: var(--zui-green);
+        }
+    </style>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const externalLinks = document.querySelectorAll('a[href^="http://"], a[href^="https://"]');
+            for (const l of externalLinks) {
+                if (l.href.indexOf("http://zui.zywave.com/") < 0) {
+                    l.target = '_blank';
+                }
+            }
+        });
+
+        
+        
+    </script>
+</head>
+<body>
+        <ie-sucks>
+            No. Stop it. Use a real browser.
+        </ie-sucks>
+        <zui-shell app-name="ZUI Documentation"><zui-shell-topbar>
+    <zui-logo slot="logo"></zui-logo>
+</zui-shell-topbar>
+
+
+
+<zui-shell-nav>
+    <zui-shell-nav-item>
+        <zui-icon icon="zui-nav-home" slot="icon"></zui-icon>
+        <a href="http://zui.zywave.com/" active>Home</a>
+    </zui-shell-nav-item>
+    
+    
+    <zui-shell-nav-item subnav>
+        <zui-icon icon="zui-nav-developers" slot="icon"></zui-icon>
+        
+            <span>Developers</span>
+            
+            
+            
+            
+            <a href="http://zui.zywave.com/developers/contribution-guide/" >Contribution guide</a>
+            
+            <a href="http://zui.zywave.com/developers/developing-zui/" >Developing ZUI</a>
+            
+            <a href="http://zui.zywave.com/developers/installation/" >Installation</a>
+            
+            <a href="http://zui.zywave.com/developers/lit/" >Lit 🔥</a>
+            
+            <a href="http://zui.zywave.com/developers/polyfills/" >Polyfills</a>
+            
+            <a href="http://zui.zywave.com/developers/responsive-design/" >Responsive design</a>
+            
+            <a href="http://zui.zywave.com/developers/tooling/" >Tooling</a>
+            
+            <a href="http://zui.zywave.com/developers/webcomponents/" >Web components</a>
+            
+        
+    </zui-shell-nav-item>
+    
+    
+    <zui-shell-nav-item subnav>
+        <zui-icon icon="zui-nav-foundations" slot="icon"></zui-icon>
+        
+            <span>Foundations</span>
+            
+            
+                
+            
+            
+            
+            <a href="http://zui.zywave.com/foundations/colors/" >Colors</a>
+            
+            <a href="http://zui.zywave.com/foundations/content-area/" >Content area</a>
+            
+            <a href="http://zui.zywave.com/foundations/fonts-typography/" >Fonts &amp; typography</a>
+            
+            <a href="http://zui.zywave.com/foundations/footer/" >Footer</a>
+            
+            <a href="http://zui.zywave.com/foundations/icons/" >Icons</a>
+            
+            <a href="http://zui.zywave.com/foundations/illustrations/" >Illustrations</a>
+            
+            <a href="http://zui.zywave.com/foundations/product-branding/" >Product branding</a>
+            
+            <a href="http://zui.zywave.com/foundations/shell/" >Shell</a>
+            
+            <a href="http://zui.zywave.com/foundations/sidenav/" >Sidenav</a>
+            
+            <a href="http://zui.zywave.com/foundations/topbar/" >Topbar</a>
+            
+        
+    </zui-shell-nav-item>
+    
+    
+    <zui-shell-nav-item subnav>
+        <zui-icon icon="zui-nav-components" slot="icon"></zui-icon>
+        
+            <span>Components</span>
+            
+            
+                
+            
+            
+            
+            <a href="http://zui.zywave.com/components/breadcrumbs/" >Breadcrumbs</a>
+            
+            <a href="http://zui.zywave.com/components/buttons-dropdown/" >Button dropdowns</a>
+            
+            <a href="http://zui.zywave.com/components/buttons/" >Buttons</a>
+            
+            <a href="http://zui.zywave.com/components/checkboxes/" >Checkboxes</a>
+            
+            <a href="http://zui.zywave.com/components/dialogs/" >Dialogs</a>
+            
+            <a href="http://zui.zywave.com/components/dropdown-multi-select/" >Dropdown multi-select</a>
+            
+            <a href="http://zui.zywave.com/components/dropdown-select/" >Dropdown select</a>
+            
+            <a href="http://zui.zywave.com/components/expanders/" >Expanders</a>
+            
+            <a href="http://zui.zywave.com/components/file-selector/" >File Selector</a>
+            
+            <a href="http://zui.zywave.com/components/notifiers/" >Notifiers</a>
+            
+            <a href="http://zui.zywave.com/components/radio-buttons/" >Radio buttons</a>
+            
+            <a href="http://zui.zywave.com/components/tabs/" >Tabs</a>
+            
+            <a href="http://zui.zywave.com/components/text-input/" >Text Input</a>
+            
+            <a href="http://zui.zywave.com/components/toggles/" >Toggles</a>
+            
+            <a href="http://zui.zywave.com/components/tooltips/" >Tooltips</a>
+            
+            <a href="http://zui.zywave.com/components/wells/" >Well</a>
+            
+        
+    </zui-shell-nav-item>
+    
+    
+    <zui-shell-nav-item subnav>
+        <zui-icon icon="zui-nav-patterns" slot="icon"></zui-icon>
+        
+            <span>Patterns</span>
+            
+            
+                
+            
+            
+            
+            <a href="http://zui.zywave.com/patterns/forms/" >Forms</a>
+            
+            <a href="http://zui.zywave.com/patterns/step-flow/" >Step flow</a>
+            
+            <a href="http://zui.zywave.com/patterns/typeahead/" >Typeahead</a>
+            
+        
+    </zui-shell-nav-item>
+    
+    
+    <zui-shell-nav-item subnav>
+        <zui-icon icon="zui-nav-help" slot="icon"></zui-icon>
+        
+            <span>Communications</span>
+            
+            
+                
+            
+            
+            
+            <a href="http://zui.zywave.com/communications/messages/" >Messages</a>
+            
+            <a href="http://zui.zywave.com/communications/voice-tone/" active>Voice &amp; tone</a>
+            
+            <a href="http://zui.zywave.com/communications/writing-style-guide/" >Writing style guide</a>
+            
+        
+    </zui-shell-nav-item>
+    
+    
+    <zui-shell-nav-item >
+        <zui-icon icon="zui-nav-accounts" slot="icon"></zui-icon>
+        
+            <a href="http://zui.zywave.com/personas/" >Personas</a>
+        
+    </zui-shell-nav-item>
+    
+    <script>
+        
+        const activeLinks = document.querySelectorAll('zui-shell-nav-item a[active]');
+            for (let activeLink of activeLinks) {
+                activeLink.closest('zui-shell-nav-item').expanded = true;
+            }
+    </script>
+</zui-shell-nav>
+<zui-shell-content id="content">
+                <section class="zui-layout zui-layout--slim">
+                    <div class="page-heading">
+                        <h1>Voice & tone</h1>
+                        
+                    </div>
+                    <div class="content-container">
+                        
+
+<p>If you&rsquo;re writing in one of our products, odds are you may have heard something about voice and tone. And, if you&rsquo;re like most people, you may have come out of your high school English class with only a fuzzy sense of what those terms mean.</p>
+
+<p>Don&rsquo;t worry; most English teachers struggle with the terms as well.</p>
+
+<hr>
+
+<h2 id="what-are-voice-and-tone">What are voice and tone?</h2>
+
+<p>Voice and tone can be confusing because they refer to the way that we use specific language to deliver a message. Just as our <a href="http://zui.zywave.com/communications/messages">messages</a> can use different delivery systems composed of design elements to convey different emotions, degrees of importance or other information, the language used to convey a message may also vary. Depending on how that language varies, the reader may interpret the exact same core information as meaning different things.</p>
+
+<h3 id="what-is-voice">What is voice?</h3>
+
+<p>Voice is the persona who&rsquo;s &ldquo;speaking&rdquo; when you write. You can think of the Zywave product voice as the core personality of the speaker who is talking to the user.</p>
+
+<p>For instance, consider the differences between companies like MailChimp and LifeLock. Each voice suits its company&rsquo;s respective brand. MailChimp wants its customers to feel excitement and fun when they generate emails, so they speak with energy, enthusiasm and playfulness, even cracking a few jokes. LifeLock wants its customers to feel safe and secure, so they speak with a straightforward, no-nonsense voice, often using short, clear sentences conveying hard data.</p>
+
+<p><img src="http://zui.zywave.com/images/communications/voice-and-tone/tone_infographic.svg" alt="Voice + Audience + Context = Tone" /></p>
+
+<h3 id="what-is-tone">What is tone?</h3>
+
+<p>Tone is simply voice applied to a specific context. That context includes both the circumstances of the communication, as well as the audience.</p>
+
+<p>The core personality of your voice should still shine through in any communication, but it should do so in a way that makes sense given the exact situation. A fun, playful voice isn&rsquo;t going to crack jokes when it&rsquo;s trying to deliver bad news, but it&rsquo;s not going to turn into a boring or stern voice, either.</p>
+
+<hr>
+
+<h2 id="zywave-s-voice">Zywave&rsquo;s Voice</h2>
+
+<p>Our users vary in terms of personality, geographical area, educational background, occupation, and many other factors. However, all of our users come to Zywave for products they trust to make their lives easier or better.</p>
+
+<p>We compiled this list of adjectives to describe how the voice that speaks to those users should sound:</p>
+
+<ul>
+<li>Approachable</li>
+<li>Genuine</li>
+<li>Empathetic</li>
+<li>Clear</li>
+<li>Conversational</li>
+<li>Knowledgeable</li>
+</ul>
+
+<p>We like to think of our voice as the voice of a teacher—a cool teacher, who knows you, understands your goals and needs, and wants to help you succeed.</p>
+
+<h3 id="what-is-conversational">What is &ldquo;conversational&rdquo;?</h3>
+
+<p>Our voice should sound natural, like the sort of thing an actual human being might say aloud to another human being. This is one of the best guides for making sure that our language is clear, approachable, and meets our user&rsquo;s needs.</p>
+
+<p>Practically speaking, this means:</p>
+
+<ul>
+<li>Don&rsquo;t overload the user with too much information at once. Shorter sentences and shorter paragraphs are easier to process and understand.</li>
+<li>When possible and appropriate, use plain language.</li>
+<li>Contractions, especially common contractions (don&rsquo;t, can&rsquo;t, we&rsquo;re, you&rsquo;re, etc.), are a natural feature of conversational language and should be used in our writing.</li>
+</ul>
+
+<h4 id="formal-vs-informal-language">Formal vs. informal language</h4>
+
+<p>Many of the characteristics of conversational language tend to fall on the &ldquo;informal&rdquo; end of the formal-informal spectrum, but we still want to convey that we&rsquo;re knowledgeable and can be trusted. So, while our writing should always be conversational, we should be careful with some features of informal language.</p>
+
+<div class="grid">
+    <div class='grid-col span-6'>
+    <h4 id="slang">Slang</h4>
+
+<p>Slang is very informal and tends to spread among younger speakers before older speakers adopt it. It can also be very region-specific, which is a problem if you&rsquo;re writing for an international audience. Slang terms may also go out of style as quickly as they come in, lending to language that doesn&rsquo;t age well. So, if you do want to use slang, try to test it with a wide cross-section of users.</p>
+
+</div>
+
+<div class='grid-col span-6'>
+    <h4 id="humor">Humor</h4>
+
+<p>Some brands—like MailChimp—are really good with humor. However, what’s considered funny can be quite subjective, and what might draw a laugh from one user might offend another. It&rsquo;s also difficult to convey some of the subtleties essential to humor—like sarcasm—in text. That&rsquo;s why, in general, we don&rsquo;t joke around with our users very often.</p>
+
+</div>
+
+</div>
+
+<hr>
+
+<h2 id="in-product-copy">In-product copy</h2>
+
+<p>When writing in-product copy, consider both the idea you&rsquo;re trying to convey and the delivery vehicle containing the message. If the two seem incompatible, talk to the BA and/or the designer. They might offer helpful suggestions for revising your text, or you might discover a more fundamental design problem to work through.</p>
+
+<p>For an overview on messages as a UI element, see <a href="http://zui.zywave.com/communications/messages">messages</a>.</p>
+
+<h3 id="general-instruction">General instruction</h3>
+
+<p>General instruction offers the user information that they may need—in addition to the header or other design elements—to understand where they are or what they need to do.</p>
+
+<p>A user reading general instructions primarily wants information, so your tone should be straightforward, helpful, and minimalistic. Use the principles of WIIFM (What&rsquo;s in it for me?):</p>
+
+<ul>
+<li>Put the most important information first, so it&rsquo;s easy to find.</li>
+<li>Load action verbs at the beginning of the sentence so the user can easily understand what they can do.</li>
+<li>Connect those actions to specific user goals.</li>
+</ul>
+
+<div class="grid">
+    <div class='grid-col span-6'>
+    <p><img src="http://zui.zywave.com/images/communications/voice-and-tone/general-instruction_do.svg" alt="General Instruction Do" /></p>
+
+<div class="do-dont--text">
+  <div class="do-dont--title do">DO</div>
+</div>
+
+<ul>
+<li>Contextualizes page immediately with important info first.</li>
+<li>Gives the reader actionable items by using action verbs.</li>
+<li>Ties those actions to a specific user goal—starting client communications.</li>
+<li>Avoids unnecessary fluff in favor of a clean, information-heavy message.
+<br /></li>
+</ul>
+
+<p></div></p>
+
+<p><div class='grid-col span-6'>
+    <p><img src="http://zui.zywave.com/images/communications/voice-and-tone/general-instruction_dont.svg" alt="General Instruction Don't" /></p></p>
+
+<div class="do-dont--text">
+  <div class="do-dont--title do-not">DO NOT</div>
+</div>
+
+<ul>
+<li>First two sentences do little more than express personality and restate the user&rsquo;s problem.</li>
+<li>Mentions &ldquo;we&rdquo; rather than putting the user first with action verbs.</li>
+<li>Provides no link between resources and a user benefit.
+<br /></li>
+</ul>
+
+<p></div></p>
+
+</div>
+
+<h3 id="guidance">Guidance</h3>
+
+<p>When writing a guidance message, you want to convey recommendations without making the user feel like you&rsquo;re stepping on their toes.</p>
+
+<p>Remain friendly, helpful, and direct. Frame the guidance as a suggested course of action. Build the message around action verbs, but use words like &ldquo;may&rdquo; or &ldquo;might&rdquo; or &ldquo;often&rdquo; to soften your tone and convey that this is a suggestion, not a command. Finally, tie the suggestion to a reason, so the user understands why you’re making the recommendation.</p>
+
+<div class="grid">
+    <div class='grid-col span-6'>
+    <p><img src="http://zui.zywave.com/images/communications/voice-and-tone/guidance_do.svg" alt="Guidance Do" /></p>
+
+<div class="do-dont--text">
+  <div class="do-dont--title do">DO</div>
+</div>
+
+<ul>
+<li>Loads the first sentence with the relevant action.</li>
+<li>Softens the tone with &ldquo;try to.&rdquo; Even though it&rsquo;s wordier, it immediately signals that you&rsquo;re offering the user an option, not a requirement.</li>
+<li>Explains the &ldquo;why&rdquo; of this best practice, i.e., saving the user time in the future.
+<br /></li>
+</ul>
+
+<p></div></p>
+
+<p><div class='grid-col span-6'>
+    <p><img src="http://zui.zywave.com/images/communications/voice-and-tone/guidance_dont.svg" alt="Guidance Don't" /></p></p>
+
+<div class="do-dont--text">
+  <div class="do-dont--title do-not">DO NOT</div>
+</div>
+
+<ul>
+<li>Sounds like a command</li>
+<li>Doesn&rsquo;t offer any reason.</li>
+<li>Unclear whether the message refers to all information, even the parts that aren’t marked as required.
+<br /></li>
+</ul>
+
+<p></div></p>
+
+</div>
+
+<h3 id="empty-states">Empty states</h3>
+
+<p>Empty states can be an opportunity to capture the user’s imagination and get them excited about the possibilities of working with our products.</p>
+
+<p>Given that this is empty real estate, take the opportunity to delight the user and have a little fun. Still, be cautious about making the user feel frustrated or defeated because of that empty state.</p>
+
+<div class="grid">
+    <div class='grid-col span-6'>
+    <p><img src="http://zui.zywave.com/images/communications/voice-and-tone/empty-state_do.svg" alt="Empty State Do" /></p>
+
+<div class="do-dont--text">
+  <div class="do-dont--title do">DO</div>
+</div>
+
+<ul>
+<li>Expresses exactly what the section is for.</li>
+<li>Shows the benefit.</li>
+<li>Offers a solution.
+<br /></li>
+</ul>
+
+<p></div></p>
+
+<p><div class='grid-col span-6'>
+    <p><img src="http://zui.zywave.com/images/communications/voice-and-tone/empty-state_dont.svg" alt="Empty State Don't" /></p></p>
+
+<div class="do-dont--text">
+  <div class="do-dont--title do-not">DO NOT</div>
+</div>
+
+<ul>
+<li>Implies that having no campaigns is bad; that the user has failed.</li>
+<li>Tries to tease the user into setting up a campaign, which is exactly the kind of humor that can be hard to put into text without offending some users.</li>
+<li>Doesn&rsquo;t even try to show a benefit to the feature.
+<br /></li>
+</ul>
+
+<p></div></p>
+
+</div>
+
+<h3 id="alerts">Alerts</h3>
+
+<div class="grid">
+    <div class='grid-col span-8'>
+    <p>Alerts require you to be as firm as possible while still expressing concern for the user.</p>
+
+<p>Conveying the necessary information while still being sympathetic is essential. Tonally, alerts will likely vary more than other message types, since the emotion conveyed by an error alert is far different than that conveyed by a success alert.</p>
+
+<p>That&rsquo;s why we often tag the very beginning of the message with an interjection or brief sentence that immediately signals the tone. Such a tag can also, in the event of a fail alert, soften the impact of bad news by signaling that we understand the emotional impact of that bad news.</p>
+
+</div>
+
+<div class='grid-col span-4'>
+    <h4 id="success">Success:</h4>
+
+<ul>
+<li>Yes!</li>
+<li>Success!</li>
+<li>Awesome!</li>
+<li>You did it!</li>
+</ul>
+
+<h4 id="warning">Warning:</h4>
+
+<ul>
+<li>Be careful!</li>
+<li>Are you sure you want to <strong>_</strong>?</li>
+</ul>
+
+<h4 id="fail">Fail:</h4>
+
+<ul>
+<li>Oops!</li>
+<li>Uh-oh!</li>
+<li>Whoops!
+<br /></li>
+</ul>
+
+</div>
+
+</div>
+
+<hr>
+
+<h2 id="help-documentation-and-release-notes">Help documentation and release notes</h2>
+
+<h3 id="who-s-reading-help">Who&rsquo;s reading help?</h3>
+
+<p>Users who read our help materials generally fall into two categories:</p>
+
+<ul>
+<li>Those who like to read the directions before trying something new.</li>
+<li>Those who don&rsquo;t bother with the directions until something has gone wrong.</li>
+</ul>
+
+<p>As a general rule, the in-product copy and design should be all that a user needs to navigate through the product. If it&rsquo;s not, take it as a sign that there&rsquo;s a more fundamental design flaw somewhere in the product.</p>
+
+<p>That&rsquo;s why, generally speaking, it&rsquo;s best to approach help materials as a resource our users turn to when our product has left them feeling confused, impatient, or frustrated.</p>
+
+<h3 id="helping-our-confused-impatient-and-or-frustrated-users">Helping our confused, impatient, and/or frustrated users</h3>
+
+<p>When inside of help, our users want clear answers, they want to be able to find those answers quickly, and they want actionable solutions to their problems.</p>
+
+<p>There are several best practices that we employ in our writing to help our users achieve those goals.</p>
+
+<h5 id="headlines-subheads-and-other-markers-of-hierarchy">Headlines, subheads and other markers of hierarchy</h5>
+
+<p>Outlining is generally a good practice in writing, and it&rsquo;s one that can translate directly into the final product. Clear subheads arranged in a logical and intuitive hierarchy allow the user to skim the contents of a page and quickly find the information they want.</p>
+
+<h5 id="ordered-lists">Ordered lists</h5>
+
+<p>When talking a user through a workflow with a specific sequence of steps, use concise language and emphasize key actions with bold in an ordered (numbered) list.</p>
+
+<h5 id="cut-the-fluff">Cut the fluff</h5>
+
+<p>Clear, concise, and actionable language are the best tools for giving the user what they want. Save flourishes of language that convey more personality for other communications.</p>
+
+<h3 id="release-notes">Release Notes</h3>
+
+<p>Release notes are the one section of help that most users will read before they encounter problems. In fact, release notes might be a user&rsquo;s first encounter with a product or feature.</p>
+
+<p>That&rsquo;s why we approach release notes with two slightly different goals in mind:</p>
+
+<ul>
+<li>To inform the user about what a product&rsquo;s new features are and how they work.</li>
+<li>To intrigue the user and entice them to check out new features by highlighting their benefits.</li>
+</ul>
+
+<p>Here are a few best practices for writing release notes:</p>
+
+<h5 id="coordinate-with-other-teams-talking-about-this-release">Coordinate with other teams talking about this release</h5>
+
+<p>Marketing and instructional design are also usually producing collateral to announce or explain a release. Make sure you coordinate with those departments to ensure you&rsquo;re using the same or similar language.</p>
+
+<h5 id="be-a-little-salesy">Be a little salesy</h5>
+
+<p>When we release a great new feature, don&rsquo;t be afraid to channel your inner salesperson and describe the benefits to our user. Don&rsquo;t go overboard—this isn&rsquo;t marketing copy—but you can definitely write with a little well-deserved enthusiasm.</p>
+
+<hr>
+
+<h2 id="good-ux-writing-checklist">Good UX writing checklist</h2>
+
+<p>UX as a field—let alone UX writing as a subspecialty—is still relatively young, which means that there&rsquo;s not much definition to what should distinguish UX writing. But based on some of the guiding principles of UX, as well as our own experience, we’ve come up with the following checklist. Use it as a reference to make sure you’re producing the most effective writing.</p>
+
+<ul>
+<li>Accurate</li>
+<li>Clear</li>
+<li>Concise</li>
+<li>Actionable</li>
+<li>Human</li>
+<li>Delightful</li>
+</ul>
+
+<p>When revising writing, we often find ourselves checking off boxes further down the line the more we revise and iterate. If pressed because of time or other constraints, you may find yourself unable to hit every point every time.</p>
+
+<p>As a rule, make sure you have earlier items on the list (accurate, clear, concise) covered. Also, never sacrifice earlier elements for later ones. Our users won&rsquo;t care how funny or clever your writing is if it doesn&rsquo;t give them clear, accurate information.</p>
+
+                    </div>
+                </section>
+            </zui-shell-content><zui-shell-footer>
+    <div>
+        &copy; 1995 - 2020 Zywave, Inc. All rights reserved.
+    </div>
+    <a class="zui-link" target="_blank" href="http://www.zywave.com/terms-conditions/">Terms and Conditions</a>
+    <a class="zui-link" target="_blank" href="http://www.zywave.com/privacy-statement/">Privacy Statement</a>
+    <a class="zui-link" target="_blank" href="http://www.zywave.com/dmca-notice/">DMCA</a></div>
+    <a class="zui-link" target="_blank" href="http://www.zywave.com/cookie-usage/">Cookie Usage</a>
+    <a class="zui-link" href="mailto:support@zywave.com">Contact</a>
+</zui-shell-footer>
+<script src="https://unpkg.com/@zywave/zui-bundle@next/dist/zui-loader.js"></script>
+</zui-shell>
+    </body>
+</html>

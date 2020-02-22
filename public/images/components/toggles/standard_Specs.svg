@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="153" height="85" viewBox="0 0 153 85">
+  <defs>
+    <filter id="Path_7609" x="86" y="30" width="42" height="42" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur"/>
+      <feFlood flood-opacity="0.078"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-standard_Specs">
+      <rect width="153" height="85"/>
+    </clipPath>
+  </defs>
+  <g id="standard_Specs" clip-path="url(#clip-standard_Specs)">
+    <rect width="153" height="85" fill="#fff"/>
+    <g id="Group_7824" data-name="Group 7824" transform="translate(-11 -10)">
+      <g id="Group_124" data-name="Group 124" transform="translate(-350 -123.5)">
+        <rect id="Rectangle_281" data-name="Rectangle 281" width="80" height="35" rx="17.5" transform="translate(406 164)" fill="#5fb53b"/>
+        <g transform="matrix(1, 0, 0, 1, 361, 133.5)" filter="url(#Path_7609)">
+          <g id="Path_7609-2" data-name="Path 7609" transform="translate(89 30)" fill="#fff">
+            <path d="M 18 35.5 C 13.32557964324951 35.5 8.930950164794922 33.67967987060547 5.625629901885986 30.37437057495117 C 2.320319890975952 27.06905937194824 0.5 22.67441940307617 0.5 18 C 0.5 13.32557964324951 2.320319890975952 8.930950164794922 5.625629901885986 5.625629901885986 C 8.930950164794922 2.320319890975952 13.32557964324951 0.5 18 0.5 C 22.67441940307617 0.5 27.06905937194824 2.320319890975952 30.37437057495117 5.625629901885986 C 33.67967987060547 8.930950164794922 35.5 13.32557964324951 35.5 18 C 35.5 22.67441940307617 33.67967987060547 27.06905937194824 30.37437057495117 30.37437057495117 C 27.06905937194824 33.67967987060547 22.67441940307617 35.5 18 35.5 Z" stroke="none"/>
+            <path d="M 18 1 C 13.45914077758789 1 9.190059661865234 2.768310546875 5.979190826416016 5.979190826416016 C 2.768310546875 9.190059661865234 1 13.45914077758789 1 18 C 1 22.54087066650391 2.768310546875 26.80994033813477 5.979190826416016 30.02082061767578 C 9.190059661865234 33.231689453125 13.45914077758789 35 18 35 C 22.54087066650391 35 26.80994033813477 33.231689453125 30.02082061767578 30.02082061767578 C 33.231689453125 26.80994033813477 35 22.54087066650391 35 18 C 35 13.45914077758789 33.231689453125 9.190059661865234 30.02082061767578 5.979190826416016 C 26.80994033813477 2.768310546875 22.54087066650391 1 18 1 M 18 0 C 27.94112968444824 0 36 8.058879852294922 36 18 C 36 27.94112968444824 27.94112968444824 36 18 36 C 8.058879852294922 36 0 27.94112968444824 0 18 C 0 8.058879852294922 8.058879852294922 0 18 0 Z" stroke="none" fill="#e6e6ea"/>
+          </g>
+        </g>
+      </g>
+      <g id="Group_7821" data-name="Group 7821" transform="translate(175.81 -79.19) rotate(90)">
+        <line id="Line_1" data-name="Line 1" y2="5.62" transform="translate(119.5 54.5)" fill="none" stroke="#d454a3" stroke-width="1"/>
+        <line id="Line_2" data-name="Line 2" y2="5.62" transform="translate(155.5 54.5)" fill="none" stroke="#d454a3" stroke-width="1"/>
+        <line id="Line_3" data-name="Line 3" x2="36" transform="translate(119.5 57.5)" fill="none" stroke="#d454a3" stroke-width="1"/>
+      </g>
+      <g id="Group_7822" data-name="Group 7822" transform="translate(-63 -20)">
+        <line id="Line_1-2" data-name="Line 1" y2="5.62" transform="translate(119.5 54.5)" fill="none" stroke="#d454a3" stroke-width="1"/>
+        <line id="Line_2-2" data-name="Line 2" y2="5.62" transform="translate(199.5 54.5)" fill="none" stroke="#d454a3" stroke-width="1"/>
+        <line id="Line_3-2" data-name="Line 3" x2="80" transform="translate(119.5 57.5)" fill="none" stroke="#d454a3" stroke-width="1"/>
+      </g>
+      <g id="Group_7823" data-name="Group 7823" transform="translate(108.81 -79.19) rotate(90)">
+        <line id="Line_1-3" data-name="Line 1" y2="5.62" transform="translate(119.5 54.5)" fill="none" stroke="#d454a3" stroke-width="1"/>
+        <line id="Line_2-3" data-name="Line 2" y2="5.62" transform="translate(155.5 54.5)" fill="none" stroke="#d454a3" stroke-width="1"/>
+        <line id="Line_3-3" data-name="Line 3" x2="36" transform="translate(119.5 57.5)" fill="none" stroke="#d454a3" stroke-width="1"/>
+      </g>
+      <text id="_80px" data-name="80px" transform="translate(97 31)" fill="#d454a3" font-size="12" font-family="OpenSans, Open Sans"><tspan x="-13.682" y="0">80px</tspan></text>
+      <text id="_36px" data-name="36px" transform="translate(137 63)" fill="#d454a3" font-size="12" font-family="OpenSans, Open Sans"><tspan x="-13.682" y="0">36px</tspan></text>
+      <text id="_36px-2" data-name="36px" transform="translate(35 61)" fill="#d454a3" font-size="12" font-family="OpenSans, Open Sans"><tspan x="-13.682" y="0">36px</tspan></text>
+    </g>
+  </g>
+</svg>

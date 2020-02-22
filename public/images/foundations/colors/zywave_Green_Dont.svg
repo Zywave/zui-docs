@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="450" height="500" viewBox="0 0 450 500">
+  <defs>
+    <filter id="Rectangle_5234" x="67" y="66" width="317" height="196.8" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-zywave_Green_Dont">
+      <rect width="450" height="500"/>
+    </clipPath>
+  </defs>
+  <g id="zywave_Green_Dont" clip-path="url(#clip-zywave_Green_Dont)">
+    <rect width="450" height="500" fill="#f8f8f9"/>
+    <g id="Group_12027" data-name="Group 12027" transform="translate(-319 -158)">
+      <g id="Group_12004" data-name="Group 12004" transform="translate(369)">
+        <g transform="matrix(1, 0, 0, 1, -50, 158)" filter="url(#Rectangle_5234)">
+          <rect id="Rectangle_5234-2" data-name="Rectangle 5234" width="299" height="178.8" transform="translate(76 72)" fill="#5FB53B"/>
+        </g>
+      </g>
+      <text id="Avoid_making_the_card_green" data-name="Avoid making the card green" transform="translate(419 248)" fill="#fff" font-size="18" font-family="OpenSans-Semibold, Open Sans" font-weight="600"><tspan x="0" y="19">Avoid making the card green</tspan></text>
+      <text id="This_much_color_can_be_overwhelming_and_makes_the_UI_much_darker._Plus_body_text_18pt_or_smaller_does_not_meet_WCAG_AA_standards" data-name="This much color can be overwhelming and makes the UI much darker. Plus, body text 18pt or smaller does not meet WCAG AA standards" transform="translate(419 279)" fill="#fff" font-size="16" font-family="OpenSans, Open Sans"><tspan x="0" y="17">This much color can be </tspan><tspan x="0" y="39">overwhelming and makes the UI </tspan><tspan x="0" y="61">much darker. Plus, body text 18pt </tspan><tspan x="0" y="83">or smaller does not meet WCAG AA </tspan><tspan x="0" y="105">standards</tspan></text>
+      <text id="Smaller_text_does_not_meet_accessibility_guidelines_and_should_be_avoided_if_possible_" data-name="Smaller text does not meet accessibility guidelines and should be avoided if possible! " transform="translate(484 505)" fill="#252526" font-size="16" font-family="OpenSans, Open Sans"><tspan x="0" y="17">Smaller text does not </tspan><tspan x="0" y="39">meet accessibility </tspan><tspan x="0" y="61">guidelines and should be </tspan><tspan x="0" y="83">avoided if possible! </tspan></text>
+      <g id="Group_7747" data-name="Group 7747" transform="translate(-371 -1033)">
+        <rect id="Rectangle_1" data-name="Rectangle 1" width="72" height="36" rx="18" transform="translate(766 1538)" fill="#5FB53B"/>
+        <text id="Small" transform="translate(802 1560)" fill="#fff" font-size="12" font-family="OpenSans-Semibold, Open Sans" font-weight="600"><tspan x="-15.861" y="0">Small</tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>

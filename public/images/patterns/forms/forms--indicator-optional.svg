@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="900" height="247" viewBox="0 0 900 247">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="300" height="42" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-forms--indicator-optional">
+      <rect width="900" height="247"/>
+    </clipPath>
+  </defs>
+  <g id="forms--indicator-optional" clip-path="url(#clip-forms--indicator-optional)">
+    <g id="Group_13272" data-name="Group 13272" transform="translate(0 -9)">
+      <g id="Group_13271" data-name="Group 13271" transform="translate(258 167)">
+        <g id="Group_13270" data-name="Group 13270" transform="translate(0 -8)">
+          <g id="Input-_no_label" data-name="Input- no label" transform="translate(84 8)" clip-path="url(#clip-path)">
+            <g id="Rectangle_288" data-name="Rectangle 288" fill="#fff" stroke="#cbcbd2" stroke-width="1">
+              <rect width="300" height="42" rx="4" stroke="none"/>
+              <rect x="0.5" y="0.5" width="299" height="41" rx="3.5" fill="none"/>
+            </g>
+          </g>
+          <text id="County" transform="translate(5 35)" fill="#31313a" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">County</tspan></text>
+          <text id="_optional_" data-name="(optional)" transform="translate(0 52)" fill="#78788c" font-size="12" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">(optional)</tspan></text>
+        </g>
+      </g>
+      <g id="Input-_no_label-2" data-name="Input- no label" transform="translate(342 76)" clip-path="url(#clip-path)">
+        <g id="Rectangle_288-2" data-name="Rectangle 288" fill="#fff" stroke="#cbcbd2" stroke-width="1">
+          <rect width="300" height="42" rx="4" stroke="none"/>
+          <rect x="0.5" y="0.5" width="299" height="41" rx="3.5" fill="none"/>
+        </g>
+      </g>
+      <text id="County-2" data-name="County" transform="translate(342 66)" fill="#31313a" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">County</tspan></text>
+      <text id="_optional_2" data-name="(optional)" transform="translate(390 66)" fill="#78788c" font-size="12" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">(optional)</tspan></text>
+    </g>
+  </g>
+</svg>

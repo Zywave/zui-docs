@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Components on ZUI</title>
+    <link>http://zui.zywave.com/components/</link>
+    <description>Recent content in Components on ZUI</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="http://zui.zywave.com/components/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>File Selector</title>
+      <link>http://zui.zywave.com/components/file-selector/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://zui.zywave.com/components/file-selector/</guid>
+      <description>The File Selector component allows the user to select one or many f from a user’s file system. Either natively using an file input or drag and drop.</description>
+    </item>
+    
+  </channel>
+</rss>

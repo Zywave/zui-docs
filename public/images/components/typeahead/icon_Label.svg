@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="335" height="270" viewBox="0 0 335 270">
+  <defs>
+    <filter id="Rectangle_3948" x="5.5" y="48.5" width="314" height="139" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1.5" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-icon_Label">
+      <rect width="335" height="270"/>
+    </clipPath>
+  </defs>
+  <g id="icon_Label" clip-path="url(#clip-icon_Label)">
+    <g id="Group_13" data-name="Group 13" transform="translate(-39 -39)">
+      <g transform="matrix(1, 0, 0, 1, 39, 39)" filter="url(#Rectangle_3948)">
+        <g id="Rectangle_3948-2" data-name="Rectangle 3948" transform="translate(10 52)" fill="#fff" stroke="#dbdbdb" stroke-width="1">
+          <rect width="305" height="130" rx="2" stroke="none"/>
+          <rect x="0.5" y="0.5" width="304" height="129" rx="1.5" fill="none"/>
+        </g>
+      </g>
+      <rect id="Rectangle_3949" data-name="Rectangle 3949" width="305" height="42" transform="translate(49 49)" fill="#fff" stroke="#79ace6" stroke-width="2"/>
+      <text id="ad" transform="translate(65 76)" fill="#31313a" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">ad</tspan></text>
+      <g id="Group_6" data-name="Group 6" transform="translate(763.05 436.2) rotate(180)">
+        <path id="Path_25" data-name="Path 25" d="M0,0H10.15V.9H0Z" transform="translate(682.1 206) rotate(90)" fill="#c6318c"/>
+        <path id="Path_30" data-name="Path 30" d="M0,0H10.15V.9H0Z" transform="translate(667.9 206) rotate(90)" fill="#c6318c"/>
+        <rect id="Rectangle_68" data-name="Rectangle 68" width="14.1" height="1" transform="translate(681.1 211.575) rotate(180)" fill="#c6318c"/>
+      </g>
+      <text id="_15px" data-name="15px" transform="translate(77 245)" fill="#c6318c" font-size="11" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">15px</tspan></text>
+      <text id="adam_gilson_adam_karl_bryan_adams_PJ_Adams_Insurnace_Agency" data-name="adam gilson
+adam karl
+bryan adams
+PJ Adams Insurnace Agency" transform="translate(96 116)" fill="#31313a" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">ad</tspan><tspan y="0" font-family="SegoeUI-Bold, Segoe UI" font-weight="700">am gilson</tspan><tspan x="0" y="28">ad</tspan><tspan y="28" font-family="SegoeUI-Bold, Segoe UI" font-weight="700">am karl</tspan><tspan font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="56">bryan</tspan><tspan y="56" xml:space="preserve" font-family="SegoeUI, Segoe UI" font-weight="400"> ad</tspan><tspan y="56">ams</tspan><tspan x="0" y="84">PJ </tspan><tspan y="84" font-family="SegoeUI, Segoe UI" font-weight="400">Ad</tspan><tspan y="84">ams Insurnace Agency</tspan></tspan></text>
+      <line id="Line_7" data-name="Line 7" y2="20" transform="translate(83.5 60.5)" fill="none" stroke="#79ace6" stroke-width="1"/>
+      <rect id="Rectangle_3950" data-name="Rectangle 3950" width="15" height="127.867" transform="translate(81 92.133)" fill="rgba(77,209,200,0.4)"/>
+      <rect id="Rectangle_3960" data-name="Rectangle 3960" width="15" height="127.867" transform="translate(50 92.133)" fill="rgba(77,209,200,0.4)"/>
+      <g id="User" transform="translate(80.002 121)">
+        <g id="User-2" data-name="User" transform="translate(-13.002 -18)">
+          <path id="Path_5648" data-name="Path 5648" d="M7.738,1.246A2.492,2.492,0,1,1,5.246,3.738,2.492,2.492,0,0,1,7.738,1.246M7.738,0a3.738,3.738,0,1,0,3.738,3.738A3.738,3.738,0,0,0,7.738,0Z" transform="translate(-2.338)" fill="#afafbb"/>
+          <path id="Path_5649" data-name="Path 5649" d="M5.4,21.246c2.865,0,3.821.706,4.111,1.038a.208.208,0,0,1,.042.125v2.782a.208.208,0,0,1-.208.208H1.452a.208.208,0,0,1-.208-.208V22.409a.208.208,0,0,1,.042-.125c.291-.332,1.246-1.038,4.111-1.038M5.4,20C1.244,20,.247,21.453.04,21.91A.664.664,0,0,0,0,22.159V25.9a.706.706,0,0,0,.706.747H10.09a.706.706,0,0,0,.706-.706V22.2a.664.664,0,0,0-.042-.249C10.546,21.453,9.55,20,5.4,20Z" transform="translate(0.003 -11.694)" fill="#afafbb"/>
+        </g>
+      </g>
+      <g id="User-3" data-name="User" transform="translate(80.002 150)">
+        <g id="User-4" data-name="User" transform="translate(-13.002 -18)">
+          <path id="Path_5648-2" data-name="Path 5648" d="M7.738,1.246A2.492,2.492,0,1,1,5.246,3.738,2.492,2.492,0,0,1,7.738,1.246M7.738,0a3.738,3.738,0,1,0,3.738,3.738A3.738,3.738,0,0,0,7.738,0Z" transform="translate(-2.338)" fill="#afafbb"/>
+          <path id="Path_5649-2" data-name="Path 5649" d="M5.4,21.246c2.865,0,3.821.706,4.111,1.038a.208.208,0,0,1,.042.125v2.782a.208.208,0,0,1-.208.208H1.452a.208.208,0,0,1-.208-.208V22.409a.208.208,0,0,1,.042-.125c.291-.332,1.246-1.038,4.111-1.038M5.4,20C1.244,20,.247,21.453.04,21.91A.664.664,0,0,0,0,22.159V25.9a.706.706,0,0,0,.706.747H10.09a.706.706,0,0,0,.706-.706V22.2a.664.664,0,0,0-.042-.249C10.546,21.453,9.55,20,5.4,20Z" transform="translate(0.003 -11.694)" fill="#afafbb"/>
+        </g>
+      </g>
+      <g id="User-5" data-name="User" transform="translate(80.002 177)">
+        <g id="User-6" data-name="User" transform="translate(-13.002 -18)">
+          <path id="Path_5648-3" data-name="Path 5648" d="M7.738,1.246A2.492,2.492,0,1,1,5.246,3.738,2.492,2.492,0,0,1,7.738,1.246M7.738,0a3.738,3.738,0,1,0,3.738,3.738A3.738,3.738,0,0,0,7.738,0Z" transform="translate(-2.338)" fill="#afafbb"/>
+          <path id="Path_5649-3" data-name="Path 5649" d="M5.4,21.246c2.865,0,3.821.706,4.111,1.038a.208.208,0,0,1,.042.125v2.782a.208.208,0,0,1-.208.208H1.452a.208.208,0,0,1-.208-.208V22.409a.208.208,0,0,1,.042-.125c.291-.332,1.246-1.038,4.111-1.038M5.4,20C1.244,20,.247,21.453.04,21.91A.664.664,0,0,0,0,22.159V25.9a.706.706,0,0,0,.706.747H10.09a.706.706,0,0,0,.706-.706V22.2a.664.664,0,0,0-.042-.249C10.546,21.453,9.55,20,5.4,20Z" transform="translate(0.003 -11.694)" fill="#afafbb"/>
+        </g>
+      </g>
+      <g id="Building" transform="translate(80 209)">
+        <g id="Building-2" data-name="Building" transform="translate(-12 -20)">
+          <path id="Path_5652" data-name="Path 5652" d="M7.662,13.829H6.541a.187.187,0,0,1-.187-.187v-2.99a.187.187,0,0,0-.187-.187H2.8a.187.187,0,0,0-.187.187v2.99a.187.187,0,0,1-.187.187H1.308a.187.187,0,0,1-.187-.187V1.308a.187.187,0,0,1,.187-.187H7.662a.187.187,0,0,1,.187.187V13.642A.187.187,0,0,1,7.662,13.829ZM8.335,0H.635A.635.635,0,0,0,0,.635V14.315a.635.635,0,0,0,.635.635H3.551a.187.187,0,0,0,.187-.187v-2.99a.187.187,0,0,1,.187-.187H5.046a.187.187,0,0,1,.187.187v2.99a.187.187,0,0,0,.187.187H8.335a.635.635,0,0,0,.635-.635V.635A.635.635,0,0,0,8.335,0Z" transform="translate(0)" fill="#afafbb"/>
+          <rect id="Rectangle_3968" data-name="Rectangle 3968" width="1.869" height="1.495" rx="0.5" transform="translate(1.869 2.243)" fill="#afafbb"/>
+          <rect id="Rectangle_3969" data-name="Rectangle 3969" width="1.869" height="1.495" rx="0.5" transform="translate(5.233 2.243)" fill="#afafbb"/>
+          <rect id="Rectangle_3970" data-name="Rectangle 3970" width="1.869" height="1.495" rx="0.5" transform="translate(1.869 4.859)" fill="#afafbb"/>
+          <rect id="Rectangle_3971" data-name="Rectangle 3971" width="1.869" height="1.495" rx="0.5" transform="translate(5.233 4.859)" fill="#afafbb"/>
+          <rect id="Rectangle_3972" data-name="Rectangle 3972" width="1.869" height="1.495" rx="0.5" transform="translate(1.869 7.475)" fill="#afafbb"/>
+          <rect id="Rectangle_3973" data-name="Rectangle 3973" width="1.869" height="1.495" rx="0.5" transform="translate(5.233 7.475)" fill="#afafbb"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

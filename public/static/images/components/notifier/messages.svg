@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="550" height="170" viewBox="0 0 550 170">
+  <defs>
+    <filter id="Rectangle_3830" x="0" y="0" width="430" height="156" filterUnits="userSpaceOnUse">
+      <feOffset dy="6" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feFlood flood-opacity="0.302"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Messages" transform="translate(-1321 -422)">
+    <g id="Group_11903" data-name="Group 11903" transform="translate(1295 87)">
+      <g id="Group_11892" data-name="Group 11892" transform="translate(-75 246)">
+        <g transform="matrix(1, 0, 0, 1, 101, 89)" filter="url(#Rectangle_3830)">
+          <rect id="Rectangle_3830-2" data-name="Rectangle 3830" width="400" height="126" rx="4" transform="translate(15 9)" fill="#fff"/>
+        </g>
+        <text id="Success_" data-name="Success! " transform="translate(169 135)" fill="#3d3d3d" font-size="16" font-family="OpenSans-Bold, Open Sans" font-weight="700"><tspan x="0" y="0">Success! </tspan></text>
+        <text id="Lorem_ipsum_dolor_sit_amet_consectetur_adipiscing_elit._Vivamus_quis_purus_a_nunc_lobortis_euismod_sed_vel_metus." data-name="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus quis purus a nunc lobortis euismod sed vel metus." transform="translate(169 145)" fill="#3d3d3d" font-size="14" font-family="OpenSans, Open Sans"><tspan x="0" y="15">Lorem ipsum dolor sit amet, consectetur </tspan><tspan x="0" y="34">adipiscing elit. Vivamus quis purus a nunc </tspan><tspan x="0" y="53">lobortis euismod sed vel metus.</tspan></text>
+        <g id="Group_11928" data-name="Group 11928" transform="translate(1)">
+          <circle id="Ellipse_6" data-name="Ellipse 6" cx="12" cy="12" r="12" transform="translate(125 118)" fill="#5fb53b"/>
+          <g id="Group_11924" data-name="Group 11924" transform="translate(129 122.8)">
+            <path id="Path_6639" data-name="Path 6639" d="M7.547,15.8a.2.2,0,0,1-.286,0l-4.2-4.2a.2.2,0,0,1,0-.286L4.2,10.17a.2.2,0,0,1,.286,0L7.4,13.083l7.464-7.465a.2.2,0,0,1,.287,0L16.3,6.764a.2.2,0,0,1,0,.286Z" transform="translate(-1.785 -3.308)" fill="#fff"/>
+            <rect id="Rectangle_5235" data-name="Rectangle 5235" width="16.2" height="16.2" transform="translate(0)" fill="none"/>
+          </g>
+        </g>
+        <g id="Remove" transform="translate(502 138)">
+          <g id="Group_11940" data-name="Group 11940" transform="translate(-20 -20)">
+            <rect id="Rectangle_5239" data-name="Rectangle 5239" width="24" height="24" fill="none"/>
+            <path id="Path_6644" data-name="Path 6644" d="M13.905,12l4.673-4.673a.227.227,0,0,0,0-.318L16.99,5.422a.227.227,0,0,0-.318,0L12,10.095,7.327,5.422a.227.227,0,0,0-.318,0L5.422,7.01a.227.227,0,0,0,0,.318L10.095,12,5.422,16.673a.227.227,0,0,0,0,.318L7.01,18.578a.227.227,0,0,0,.318,0L12,13.905l4.673,4.673a.227.227,0,0,0,.318,0l1.588-1.588a.227.227,0,0,0,0-.318Z" transform="translate(0 0)" fill="#31313a"/>
+          </g>
+        </g>
+        <path id="Rectangle_5243" data-name="Rectangle 5243" d="M4,0H396a4,4,0,0,1,4,4v6a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V4A4,4,0,0,1,4,0Z" transform="translate(116 98)" fill="#5fb53b"/>
+      </g>
+    </g>
+    <text id="Max_Height:_126px" data-name="Max Height: 126px" transform="translate(1749 514)" fill="#d454a3" font-size="14" font-family="OpenSans, Open Sans"><tspan x="0" y="0">Max Height: 126px</tspan></text>
+    <text id="Message_should_not_exceed_3_lines._" data-name="Message should not exceed 3 lines. " transform="translate(1420 588)" fill="#d454a3" font-size="14" font-family="OpenSans, Open Sans"><tspan x="0" y="0">Message should not exceed 3 lines. </tspan></text>
+    <g id="Group_11901" data-name="Group 11901" transform="translate(1434 -158)">
+      <line id="Line_1" data-name="Line 1" y2="126.5" transform="translate(309.333 589.5)" fill="none" stroke="#d454a3" stroke-width="1"/>
+      <line id="Line_2" data-name="Line 2" x2="2.933" transform="translate(307.867 589.5)" fill="none" stroke="#d454a3" stroke-width="1"/>
+      <line id="Line_3" data-name="Line 3" x2="2.933" transform="translate(307.867 716)" fill="none" stroke="#d454a3" stroke-width="1"/>
+    </g>
+  </g>
+</svg>

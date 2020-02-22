@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="900" height="299" viewBox="0 0 900 299">
+  <defs>
+    <clipPath id="clip-forms--actions-hierarchy-with-secondary-action">
+      <rect width="900" height="299"/>
+    </clipPath>
+  </defs>
+  <g id="forms--actions-hierarchy-with-secondary-action" clip-path="url(#clip-forms--actions-hierarchy-with-secondary-action)">
+    <g id="Input-_no_label" data-name="Input- no label" transform="translate(300 144)">
+      <g id="Rectangle_288" data-name="Rectangle 288" fill="#fff" stroke="#cbcbd2" stroke-width="1">
+        <rect width="253" height="42" rx="4" stroke="none"/>
+        <rect x="0.5" y="0.5" width="252" height="41" rx="3.5" fill="none"/>
+      </g>
+    </g>
+    <text id="First_Name" data-name="First Name" transform="translate(300 52)" fill="#31313a" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">First Name</tspan></text>
+    <text id="Last_Name" data-name="Last Name" transform="translate(300 134)" fill="#31313a" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Last Name</tspan></text>
+    <g id="Primary_Button_-_Normal" data-name="Primary Button - Normal" transform="translate(300 216)">
+      <path id="Path_5559" data-name="Path 5559" d="M18,0H66.934a18,18,0,0,1,0,36H18A18,18,0,0,1,18,0Z" fill="#2777d3"/>
+      <text id="Continue" transform="translate(42 23)" fill="#fff" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="-28.858" y="0">Continue</tspan></text>
+    </g>
+    <g id="Secondary_Button_-_Normal" data-name="Secondary Button - Normal" transform="translate(395 216)">
+      <g id="Rectangle_3991" data-name="Rectangle 3991" fill="none" stroke="#cbcbd2" stroke-width="1">
+        <rect width="73.934" height="36" rx="18" stroke="none"/>
+        <rect x="0.5" y="0.5" width="72.934" height="35" rx="17.5" fill="none"/>
+      </g>
+      <text id="Save" transform="translate(37 23)" fill="#2777d3" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="-14.68" y="0">Save</tspan></text>
+    </g>
+    <g id="Dropdown_Input_-_Unselected" data-name="Dropdown Input - Unselected" transform="translate(300 62)">
+      <g id="Rectangle_288-2" data-name="Rectangle 288" fill="#fff" stroke="#cbcbd2" stroke-width="1">
+        <rect width="253" height="42" rx="4" stroke="none"/>
+        <rect x="0.5" y="0.5" width="252" height="41" rx="3.5" fill="none"/>
+      </g>
+    </g>
+    <g id="Secondary_Button_-_Normal-2" data-name="Secondary Button - Normal" transform="translate(479 216)">
+      <path id="Path_8849" data-name="Path 8849" d="M18,0H55.934a18,18,0,0,1,0,36H18A18,18,0,0,1,18,0Z" fill="none"/>
+      <text id="Cancel" transform="translate(37 23)" fill="#2777d3" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="-20.925" y="0">Cancel</tspan></text>
+    </g>
+  </g>
+</svg>

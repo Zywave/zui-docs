@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="300" height="42" viewBox="0 0 300 42">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="227" height="42" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-text-input--secondary-action">
+      <rect width="300" height="42"/>
+    </clipPath>
+  </defs>
+  <g id="text-input--secondary-action" clip-path="url(#clip-text-input--secondary-action)">
+    <rect width="300" height="42" fill="#fff"/>
+    <g id="Group_13019" data-name="Group 13019" transform="translate(-2432 -495)">
+      <g id="Group_13009" data-name="Group 13009" transform="translate(2432 495)">
+        <g id="Input-_no_label" data-name="Input- no label" clip-path="url(#clip-path)">
+          <g id="Rectangle_288" data-name="Rectangle 288" fill="#fff" stroke="#cbcbd2" stroke-width="1">
+            <path d="M4,0H227a0,0,0,0,1,0,0V42a0,0,0,0,1,0,0H4a4,4,0,0,1-4-4V4A4,4,0,0,1,4,0Z" stroke="none"/>
+            <path d="M4,.5H226a.5.5,0,0,1,.5.5V41a.5.5,0,0,1-.5.5H4A3.5,3.5,0,0,1,.5,38V4A3.5,3.5,0,0,1,4,.5Z" fill="none"/>
+          </g>
+        </g>
+        <g id="Group_13016" data-name="Group 13016" transform="translate(1)">
+          <g id="Path_8229" data-name="Path 8229" transform="translate(225)" fill="#f4f4f6">
+            <path d="M 69.93359375 41.5 L 0.4999968707561493 41.5 L 0.4999968707561493 0.5 L 69.93359375 0.5 C 71.86351013183594 0.5 73.43359375 2.070090055465698 73.43359375 4 L 73.43359375 38 C 73.43359375 39.92990875244141 71.86351013183594 41.5 69.93359375 41.5 Z" stroke="none"/>
+            <path d="M 1 1 L 1 41 L 69.93359375 41 C 71.58780670166016 41 72.93359375 39.65420913696289 72.93359375 38 L 72.93359375 4 C 72.93359375 2.345790863037109 71.58780670166016 1 69.93359375 1 L 1 1 M 0 0 L 69.93359375 0 C 72.14273071289063 0 73.93359375 1.790859222412109 73.93359375 4 L 73.93359375 38 C 73.93359375 40.20914077758789 72.14273071289063 42 69.93359375 42 L 0 42 L 0 0 Z" stroke="none" fill="#cbcbd2"/>
+          </g>
+          <text id="Copy" transform="translate(262 27)" fill="#494955" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="-16.304" y="0">Copy</tspan></text>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="300" height="42" viewBox="0 0 300 42">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="300" height="42" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-text-input--focused">
+      <rect width="300" height="42"/>
+    </clipPath>
+  </defs>
+  <g id="text-input--focused" clip-path="url(#clip-text-input--focused)">
+    <rect width="300" height="42" fill="#fff"/>
+    <g id="Input_Focus" data-name="Input Focus" clip-path="url(#clip-path)">
+      <g id="Rectangle_290" data-name="Rectangle 290" fill="#fff" stroke="#4e92df" stroke-width="2">
+        <rect width="300" height="42" rx="4" stroke="none"/>
+        <rect x="1" y="1" width="298" height="40" rx="3" fill="none"/>
+      </g>
+      <g id="Group_154" data-name="Group 154" transform="translate(1 -252.5)">
+        <line id="Line_3" data-name="Line 3" y2="19" transform="translate(13.3 264.5)" fill="none" stroke="#494955" stroke-miterlimit="10" stroke-width="1"/>
+      </g>
+    </g>
+  </g>
+</svg>

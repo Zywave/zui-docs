@@ -1,0 +1,666 @@
+<!DOCTYPE html>
+<html><head>
+    <title>Expanders | Zywave User Interface</title>
+    <link href="http://zui.zywave.com/css/ie-sucks.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://unpkg.com/@zywave/zui-bundle@next/dist/css/zui-bundle.fouc.css" />
+    <link rel="stylesheet" href="https://unpkg.com/@zywave/zui-bundle@next/dist/css/zui-bundle.app.css" />
+    <link href="http://zui.zywave.com/css/base.css" rel="stylesheet" />
+    <link href="http://zui.zywave.com/css/shortcodes.css" rel="stylesheet" />
+    <link href="http://zui.zywave.com/css/syntax-highlighting-monokai.css" rel="stylesheet" />
+    <link rel='shortcut icon' type='image/x-icon' href='http://zui.zywave.com/static/favicon.ico' />
+    <script src="http://zui.zywave.com/js/ie-sucks.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.3.0/fuse.min.js"></script>
+    <style>
+        :root {
+            --zui-shell-primary-theme: var(--zui-green);
+            --zui-shell-primary-theme-dark: var(--zui-green-600);
+            --zui-tabs-color: var(--zui-green);
+        }
+    </style>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const externalLinks = document.querySelectorAll('a[href^="http://"], a[href^="https://"]');
+            for (const l of externalLinks) {
+                if (l.href.indexOf("http://zui.zywave.com/") < 0) {
+                    l.target = '_blank';
+                }
+            }
+        });
+
+        
+        
+    </script>
+</head>
+<body>
+        <ie-sucks>
+            No. Stop it. Use a real browser.
+        </ie-sucks>
+        <zui-shell app-name="ZUI Documentation"><zui-shell-topbar>
+    <zui-logo slot="logo"></zui-logo>
+</zui-shell-topbar>
+
+
+
+<zui-shell-nav>
+    <zui-shell-nav-item>
+        <zui-icon icon="zui-nav-home" slot="icon"></zui-icon>
+        <a href="http://zui.zywave.com/" active>Home</a>
+    </zui-shell-nav-item>
+    
+    
+    <zui-shell-nav-item subnav>
+        <zui-icon icon="zui-nav-developers" slot="icon"></zui-icon>
+        
+            <span>Developers</span>
+            
+            
+            
+            
+            <a href="http://zui.zywave.com/developers/contribution-guide/" >Contribution guide</a>
+            
+            <a href="http://zui.zywave.com/developers/developing-zui/" >Developing ZUI</a>
+            
+            <a href="http://zui.zywave.com/developers/installation/" >Installation</a>
+            
+            <a href="http://zui.zywave.com/developers/lit/" >Lit 🔥</a>
+            
+            <a href="http://zui.zywave.com/developers/polyfills/" >Polyfills</a>
+            
+            <a href="http://zui.zywave.com/developers/responsive-design/" >Responsive design</a>
+            
+            <a href="http://zui.zywave.com/developers/tooling/" >Tooling</a>
+            
+            <a href="http://zui.zywave.com/developers/webcomponents/" >Web components</a>
+            
+        
+    </zui-shell-nav-item>
+    
+    
+    <zui-shell-nav-item subnav>
+        <zui-icon icon="zui-nav-foundations" slot="icon"></zui-icon>
+        
+            <span>Foundations</span>
+            
+            
+                
+            
+            
+            
+            <a href="http://zui.zywave.com/foundations/colors/" >Colors</a>
+            
+            <a href="http://zui.zywave.com/foundations/content-area/" >Content area</a>
+            
+            <a href="http://zui.zywave.com/foundations/fonts-typography/" >Fonts &amp; typography</a>
+            
+            <a href="http://zui.zywave.com/foundations/footer/" >Footer</a>
+            
+            <a href="http://zui.zywave.com/foundations/icons/" >Icons</a>
+            
+            <a href="http://zui.zywave.com/foundations/illustrations/" >Illustrations</a>
+            
+            <a href="http://zui.zywave.com/foundations/product-branding/" >Product branding</a>
+            
+            <a href="http://zui.zywave.com/foundations/shell/" >Shell</a>
+            
+            <a href="http://zui.zywave.com/foundations/sidenav/" >Sidenav</a>
+            
+            <a href="http://zui.zywave.com/foundations/topbar/" >Topbar</a>
+            
+        
+    </zui-shell-nav-item>
+    
+    
+    <zui-shell-nav-item subnav>
+        <zui-icon icon="zui-nav-components" slot="icon"></zui-icon>
+        
+            <span>Components</span>
+            
+            
+                
+            
+            
+            
+            <a href="http://zui.zywave.com/components/breadcrumbs/" >Breadcrumbs</a>
+            
+            <a href="http://zui.zywave.com/components/buttons-dropdown/" >Button dropdowns</a>
+            
+            <a href="http://zui.zywave.com/components/buttons/" >Buttons</a>
+            
+            <a href="http://zui.zywave.com/components/checkboxes/" >Checkboxes</a>
+            
+            <a href="http://zui.zywave.com/components/dialogs/" >Dialogs</a>
+            
+            <a href="http://zui.zywave.com/components/dropdown-multi-select/" >Dropdown multi-select</a>
+            
+            <a href="http://zui.zywave.com/components/dropdown-select/" >Dropdown select</a>
+            
+            <a href="http://zui.zywave.com/components/expanders/" active>Expanders</a>
+            
+            <a href="http://zui.zywave.com/components/file-selector/" >File Selector</a>
+            
+            <a href="http://zui.zywave.com/components/notifiers/" >Notifiers</a>
+            
+            <a href="http://zui.zywave.com/components/radio-buttons/" >Radio buttons</a>
+            
+            <a href="http://zui.zywave.com/components/tabs/" >Tabs</a>
+            
+            <a href="http://zui.zywave.com/components/text-input/" >Text Input</a>
+            
+            <a href="http://zui.zywave.com/components/toggles/" >Toggles</a>
+            
+            <a href="http://zui.zywave.com/components/tooltips/" >Tooltips</a>
+            
+            <a href="http://zui.zywave.com/components/wells/" >Well</a>
+            
+        
+    </zui-shell-nav-item>
+    
+    
+    <zui-shell-nav-item subnav>
+        <zui-icon icon="zui-nav-patterns" slot="icon"></zui-icon>
+        
+            <span>Patterns</span>
+            
+            
+                
+            
+            
+            
+            <a href="http://zui.zywave.com/patterns/forms/" >Forms</a>
+            
+            <a href="http://zui.zywave.com/patterns/step-flow/" >Step flow</a>
+            
+            <a href="http://zui.zywave.com/patterns/typeahead/" >Typeahead</a>
+            
+        
+    </zui-shell-nav-item>
+    
+    
+    <zui-shell-nav-item subnav>
+        <zui-icon icon="zui-nav-help" slot="icon"></zui-icon>
+        
+            <span>Communications</span>
+            
+            
+                
+            
+            
+            
+            <a href="http://zui.zywave.com/communications/messages/" >Messages</a>
+            
+            <a href="http://zui.zywave.com/communications/voice-tone/" >Voice &amp; tone</a>
+            
+            <a href="http://zui.zywave.com/communications/writing-style-guide/" >Writing style guide</a>
+            
+        
+    </zui-shell-nav-item>
+    
+    
+    <zui-shell-nav-item >
+        <zui-icon icon="zui-nav-accounts" slot="icon"></zui-icon>
+        
+            <a href="http://zui.zywave.com/personas/" >Personas</a>
+        
+    </zui-shell-nav-item>
+    
+    <script>
+        
+        const activeLinks = document.querySelectorAll('zui-shell-nav-item a[active]');
+            for (let activeLink of activeLinks) {
+                activeLink.closest('zui-shell-nav-item').expanded = true;
+            }
+    </script>
+</zui-shell-nav>
+<zui-shell-content id="content">
+                <section class="zui-layout zui-layout--slim">
+                    <div class="page-heading">
+                        <h1>Expanders</h1>
+                         <h2>Did you mean <em>accordions</em>?</h2> 
+                    </div>
+                    <div class="content-container">
+                        
+
+
+<dom-bind>
+    <template>
+        <zui-tabs selected="{{page}}">
+            
+            <zui-tab>Design</zui-tab>
+            
+            <zui-tab>Toolkit</zui-tab>
+            
+        </zui-tabs>
+        <zui-pages selected="[[page]]">
+            
+            <div>
+                
+                <h2 id="what-are-expanders">What are expanders?</h2>
+
+<p>An expander is an expandable UI component that reveals and hides the content contained within as the result of a click action.</p>
+
+<p>Expanders give the user a sense of what content they contain without necessarily forcing the user to actually view all of the expander&rsquo;s content. Because they conserve vertical space, expanders can be especially good for mobile.</p>
+
+<p>Expanders generally work best when they ask the user to focus on a single task or a very small number of closely related tasks. That&rsquo;s why it&rsquo;s not a good practice to nest a table, tabs, or another expander inside of an expander.</p>
+
+<hr>
+
+<!-- ###### Developer Documentation
+
+*   [Live Examples](http://zui.zywave.com-expander/)
+*   [View in Gitlab](https://gitlab.zywave.com/zui/zui-expander/)
+
+###### Alternative Considerations
+
+*   [Jump Links](/#components/jump-links)
+*   [Step Flow](/#patterns/step-flow)
+*   [Tabs](/#components/tabs) -->
+
+<h2 id="terminology">Terminology</h2>
+
+<p>We define four types of expanders&mdash;standard, lightweight, pop-out, and peek-a-boo&mdash;which we define in more detail below. In order to better understand their similarities and differences, we use the following terminology to refer to the parts of an expander:</p>
+
+<p><img src="http://zui.zywave.com/images/components/expanders/terminology.svg" alt="Terminology" /></p>
+
+<div class="grid">
+    <div class='grid-col span-6'>
+    <p><strong>Expander</strong>: an expandable UI element composed of multiple sections.</p>
+
+<p><strong>Section</strong>: an element, consisting of a header and a content area, that makes up an expander. All expanders (except for peek-a-boos) consist of at least two sections.</p>
+
+<p><strong>Header</strong>: the element that contains a label and additional elements&mdash;an icon, an action, and/or content details&mdash;that give the user the information they need to determine how and whether to expand a section.</p>
+
+<p><strong>Action icon</strong>: an icon appearing in the header that indicates the section can be expanded and collapsed.</p>
+
+</div>
+
+<div class='grid-col span-6'>
+    <p><strong>Content details:</strong> Read-only information visible in the header even when the section is collapsed.</p>
+
+<p><strong>Content area:</strong> the area that appears when a header is expanded.</p>
+
+<p><strong>Label:</strong> the name of an expander section.</p>
+
+<p><strong>Content:</strong> information inside of the content area.</p>
+
+</div>
+
+<p></div></p>
+
+<hr>
+
+<h2 id="types-of-expanders">Types of expanders</h2>
+
+<p>Each of the four types of expanders has some distinct features, which means that some expanders are a better fit for some situations than others.</p>
+
+<div class="grid">
+    <div class='grid-col span-6'>
+    <h3 id="standard-expander">Standard expander</h3>
+
+<p>The most common expander.<br />
+<a href="#standard">More details</a></p>
+
+<p><img src="http://zui.zywave.com/images/components/expanders/plain__standard.svg" alt="Plain Standard Expander" /></p>
+
+</div>
+
+<div class='grid-col span-6'>
+    <h3 id="pop-out-expander">Pop-out expander</h3>
+
+<p>Focuses the user&rsquo;s attention on one section at a time.<br />
+<a href="#popout">More details</a></p>
+
+<p><img src="http://zui.zywave.com/images/components/expanders/plain__popout.svg" alt="Plain Popout Expander" /></p>
+
+</div>
+
+<div class='grid-col span-6'>
+    <h3 id="lightweight-expander">Lightweight expander</h3>
+
+<p>Draws less attention to itself, often used for filters.<br />
+<a href="#lightweight">More details</a></p>
+
+<p><img src="http://zui.zywave.com/images/components/expanders/plain__lightweight.svg" alt="Plain Lightweight Expander" /></p>
+
+</div>
+
+<div class='grid-col span-6'>
+    <h3 id="peek-a-boo-expander">Peek-a-boo expander</h3>
+
+<p>A single-section expander that hides some of its content.<br />
+<a href="#peekaboo">More details</a></p>
+
+<p><img src="http://zui.zywave.com/images/components/expanders/plain__peekaboo.svg" alt="Plain Peekaboo Expander" /></p>
+
+</div>
+
+<p></div></p>
+
+<hr>
+
+<h2 id="standard-expander">Standard expander</h2>
+
+<h3 id="overview">Overview</h3>
+
+<ul>
+<li>Has a container</li>
+<li>Opens/closes by clicking anywhere in the header</li>
+<li>Can be one of multiple sections open at a time</li>
+<li>The most widely applicable expander type</li>
+</ul>
+
+<p><img src="http://zui.zywave.com/images/components/expanders/specs__standard.svg" alt="Standard Expander Specs" /></p>
+
+<p>All values are in pixels. X represents the height of the content area, which will vary based upon the height of the content inside of the section.</p>
+
+<h3 id="states">States</h3>
+
+<div class="grid">
+    <div class='grid-col span-6'>
+    <p><img src="http://zui.zywave.com/images/components/expanders/gray__standard.svg" alt="Gray Standard Expander" /></p>
+
+<p>Standard expanders on a gray background</p>
+
+<h5 id="collapsed">Collapsed:</h5>
+
+<ul>
+<li>Header background: #FFFFFF</li>
+<li>Header label: #7A7A7A</li>
+</ul>
+
+<h5 id="hover">Hover:</h5>
+
+<ul>
+<li>Header background: #FAFAFA</li>
+<li>Header label: #3D3D3D</li>
+</ul>
+
+<h5 id="expanded">Expanded:</h5>
+
+<ul>
+<li>Header background: #FFFFFF</li>
+<li>Content area background: #FFFFFF</li>
+<li>Header label: #3D3D3D</li>
+<li>Action icon: Rotated 180 degrees
+<br /></li>
+</ul>
+
+</div>
+
+<p><div class='grid-col span-6'>
+    <p><img src="http://zui.zywave.com/images/components/expanders/white__standard.svg" alt="White Standard Expander" /></p></p>
+
+<p>Standard expanders on a white background</p>
+
+<h5 id="collapsed">Collapsed:</h5>
+
+<ul>
+<li>Header background: #FAFAFA</li>
+<li>Header label: #7A7A7A</li>
+</ul>
+
+<h5 id="hover">Hover:</h5>
+
+<ul>
+<li>Header background: #F4F4F4</li>
+<li>Header label: #3D3D3D</li>
+</ul>
+
+<h5 id="expanded">Expanded:</h5>
+
+<ul>
+<li>Header background: #FFFFFF</li>
+<li>Content area background: #FFFFFF</li>
+<li>Header label: #3D3D3D</li>
+<li>Action icon: Rotated 180 degrees
+<br /></li>
+</ul>
+
+<p></div></p>
+
+<p></div></p>
+
+<h3 id="variations">Variations</h3>
+
+<ul>
+<li>By default all sections are closed, but you can customize to defaulting a section open.</li>
+<li>Defaults to one section to open at a time, but can customize to have multiple open at a time.</li>
+</ul>
+
+<hr>
+
+<h2 id="pop-out-expander">Pop-out expander</h2>
+
+<h3 id="overview-1">Overview</h3>
+
+<ul>
+<li>Has a container</li>
+<li>Only one section can be opened at a time</li>
+<li>Opens/closes when clicking the the action only</li>
+<li>Often contains read-only details in the header</li>
+<li>Forces the user to focus on one section at a time</li>
+</ul>
+
+<h3 id="sizing-and-spacing">Sizing and spacing</h3>
+
+<p><img src="http://zui.zywave.com/images/components/expanders/specs__popout.svg" alt="Popout Expander Specs" /></p>
+
+<p>All values are in pixels. X represents the height of the content area, which will vary based upon the height of the content inside of the section.</p>
+
+<h3 id="mobile">Mobile</h3>
+
+<div class="grid">
+    <div class='grid-col span-6'>
+    <p>Because of limited space, the mobile pop-out expander doesn&rsquo;t get any wider when expanded.</p>
+
+</div>
+
+<div class='grid-col span-6'>
+    <p><img src="http://zui.zywave.com/images/components/expanders/mobile__popout.svg" alt="Popout Expander Mobile" /></p>
+
+</div>
+
+<p></div></p>
+
+<h3 id="states-1">States</h3>
+
+<div class="grid">
+    <div class='grid-col span-6'>
+    <p><img src="http://zui.zywave.com/images/components/expanders/gray__popout.svg" alt="Gray Popout Expander" /></p>
+
+<p>Popout expanders on a gray background</p>
+
+<h5 id="collapsed">Collapsed:</h5>
+
+<ul>
+<li>Header background: #FFFFFF</li>
+<li>Header label: #7A7A7A</li>
+</ul>
+
+<h5 id="hover">Hover:</h5>
+
+<ul>
+<li>Header background: no change</li>
+<li>Header label: no change</li>
+<li>Header action: uses button hover</li>
+</ul>
+
+<h5 id="expanded">Expanded:</h5>
+
+<ul>
+<li>Header background: #FFFFFF</li>
+<li>Content area background: #FFFFFF</li>
+<li>Header label: #3D3D3D
+<br /></li>
+</ul>
+
+</div>
+
+<p><div class='grid-col span-6'>
+    <p><img src="http://zui.zywave.com/images/components/expanders/white__popout.svg" alt="White Pop-out Expander" /></p></p>
+
+<p>Popout expanders on a white background</p>
+
+<h5 id="collapsed">Collapsed:</h5>
+
+<ul>
+<li>Header background: #FAFAFA</li>
+<li>Header label: #7A7A7A</li>
+</ul>
+
+<h5 id="hover">Hover:</h5>
+
+<ul>
+<li>Header background: no change</li>
+<li>Header label: no change</li>
+<li>Header action: uses button hover</li>
+</ul>
+
+<h5 id="expanded">Expanded:</h5>
+
+<ul>
+<li>Header background: #FFFFFF</li>
+<li>Content area background: #FFFFFF</li>
+<li>Header label: #3D3D3D
+<br /></li>
+</ul>
+
+<p></div></p>
+
+<p></div></p>
+
+<hr>
+
+<h2 id="lightweight-expander">Lightweight expander</h2>
+
+<h3 id="overview-2">Overview</h3>
+
+<ul>
+<li>No container</li>
+<li>Can be one or multiple sections open at a time</li>
+<li>Opens/closes by clicking the label or action</li>
+<li>Doesn&rsquo;t draw attention to itself</li>
+</ul>
+
+<h3 id="sizing-and-spacing-1">Sizing and spacing</h3>
+
+<p><img src="http://zui.zywave.com/images/components/expanders/specs__lightweight.svg" alt="Lightweight Expander Specs" /></p>
+
+<p>All values are in pixels. X represents the height of the content area, which will vary based upon the height of the content inside of the section.</p>
+
+<h3 id="states-2">States</h3>
+
+<div class="grid">
+    <div class='grid-col span-6'>
+    <p><img src="http://zui.zywave.com/images/components/expanders/white__lightweight.svg" alt="White Lightweight Expander" /></p>
+
+<p>Lightweight expanders on a white background</p>
+
+<h5 id="collapsed">Collapsed:</h5>
+
+<ul>
+<li>Header label: #7A7A7A</li>
+</ul>
+
+<h5 id="hover">Hover:</h5>
+
+<ul>
+<li>Header label: #3D3D3D</li>
+</ul>
+
+<h5 id="expanded">Expanded:</h5>
+
+<ul>
+<li>Header label: #3D3D3D</li>
+<li>Action icon: Rotated 90 degrees
+<br /></li>
+</ul>
+
+</div>
+
+<p></div></p>
+
+<hr>
+
+<h2 id="peek-a-boo-expander">Peek-a-boo expander</h2>
+
+<h3 id="overview-3">Overview</h3>
+
+<ul>
+<li>Only one section</li>
+<li>Appears in the middle of content; only hides some</li>
+<li>Opens/closes by clicking the header or action</li>
+<li>Header slides below to reveal content</li>
+<li>Doesn&rsquo;t draw attention to itself</li>
+</ul>
+
+<h3 id="sizing-and-spacing-2">Sizing and spacing</h3>
+
+<p><img src="http://zui.zywave.com/images/components/expanders/specs__peekaboo.svg" alt="" /></p>
+
+<p>All values are in pixels. X represents the height of the content area, which will vary based upon the height of the content inside of the section.</p>
+
+<h3 id="states-3">States</h3>
+
+<div class="grid">
+    <div class='grid-col span-6'>
+    <p><img src="http://zui.zywave.com/images/components/expanders/specs__peekaboo-collapsed.svg" alt="Peek-a-boo Collapsed" /></p>
+
+<p>Peek-a-boo: collapsed state</p>
+
+</div>
+
+<div class='grid-col span-6'>
+    <p><img src="http://zui.zywave.com/images/components/expanders/specs__peekaboo-expanded.svg" alt="Peek-a-boo Expanded" /></p>
+
+<p>Peek-a-boo: expanded state</p>
+
+</div>
+
+<p></div></p>
+
+<hr>
+
+<h2 id="rare-situations">Rare situations</h2>
+
+<h3 id="icon-placement">Icon placement</h3>
+
+<p>The best practices for icon placement for each type of expander are outlined above. Sometimes, though, other design considerations (e.g., content details in a standard expander) might justify placing the icon elsewhere, if the designer believes doing so will make things clearer for the user.</p>
+
+<h3 id="content-details">Content details</h3>
+
+<p>Usually, content details will appear in a pop-out expander. However, they may also be used in a standard expander.</p>
+
+                
+            </div>
+            
+            <div>
+                
+                <!-- Generated by documentation.js. Update this documentation by updating the source code. -->
+
+<h3 id="table-of-contents">Table of Contents</h3>
+
+                
+            </div>
+            
+        </zui-pages>
+    </template>
+</dom-bind>
+
+
+
+                    </div>
+                </section>
+            </zui-shell-content><zui-shell-footer>
+    <div>
+        &copy; 1995 - 2020 Zywave, Inc. All rights reserved.
+    </div>
+    <a class="zui-link" target="_blank" href="http://www.zywave.com/terms-conditions/">Terms and Conditions</a>
+    <a class="zui-link" target="_blank" href="http://www.zywave.com/privacy-statement/">Privacy Statement</a>
+    <a class="zui-link" target="_blank" href="http://www.zywave.com/dmca-notice/">DMCA</a></div>
+    <a class="zui-link" target="_blank" href="http://www.zywave.com/cookie-usage/">Cookie Usage</a>
+    <a class="zui-link" href="mailto:support@zywave.com">Contact</a>
+</zui-shell-footer>
+<script src="https://unpkg.com/@zywave/zui-bundle@next/dist/zui-loader.js"></script>
+</zui-shell>
+    </body>
+</html>

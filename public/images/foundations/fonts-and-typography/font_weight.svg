@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="350" height="296" viewBox="0 0 350 296">
+  <defs>
+    <clipPath id="clip-Font_weight">
+      <rect width="350" height="296"/>
+    </clipPath>
+  </defs>
+  <g id="Font_weight" data-name="Font weight" clip-path="url(#clip-Font_weight)">
+    <rect width="350" height="296" fill="#fff"/>
+    <text id="Bold_Semibold_Regular_Light" data-name="Bold
+Semibold
+Regular
+Light" transform="translate(164 52)" fill="#2f2f2f" font-size="26" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="28">Bold</tspan><tspan font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="78.4">Semibold</tspan></tspan><tspan font-family="SegoeUI-Semilight, Segoe UI" font-weight="300"><tspan x="0" y="128.8">Regular</tspan></tspan><tspan font-family="SegoeUI-Light, Segoe UI" font-weight="300"><tspan x="0" y="179.2">Light</tspan></tspan></text>
+    <text id="_700_600_400_300" data-name="700
+600
+400
+300" transform="translate(-170 63)" fill="#30bbb1" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="276.087" y="15">700</tspan><tspan x="275.78" y="65.4">600</tspan><tspan x="275.527" y="115.8">400</tspan><tspan x="275.821" y="166.2">300</tspan></text>
+  </g>
+</svg>

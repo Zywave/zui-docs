@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="450" height="150" viewBox="0 0 450 150">
+  <defs>
+    <clipPath id="clip-text-area--withscroll">
+      <rect width="450" height="150"/>
+    </clipPath>
+  </defs>
+  <g id="text-area--withscroll" clip-path="url(#clip-text-area--withscroll)">
+    <rect width="450" height="150" fill="#fff"/>
+    <g id="Rectangle_6675" data-name="Rectangle 6675" fill="#fff" stroke="#cbcbd2" stroke-width="1">
+      <rect width="450" height="150" rx="4" stroke="none"/>
+      <rect x="0.5" y="0.5" width="449" height="149" rx="3.5" fill="none"/>
+    </g>
+    <g id="Input-_no_label" data-name="Input- no label" transform="translate(15 7)">
+      <text id="Spicy_jalapeno_bacon_ipsum_dolor_amet_ea_voluptate_dolore_esse_kielbasa_pig_strip_steak_cillum_turducken_adipisicing_nisi_tempor._Veniam_kielbasa_ham_occaecat_corned_beef_pork_chop_esse_pig_consectetur_burgdoggen_dolore_swine_velit._Mollit_exercitation_" data-name="Spicy jalapeno bacon ipsum dolor amet ea voluptate dolore,
+esse kielbasa pig strip steak cillum turducken adipisicing nisi
+tempor. Veniam kielbasa ham occaecat, corned beef pork chop
+esse pig consectetur burgdoggen dolore swine velit. 
+Mollit exercitation " transform="translate(0 15)" fill="#78788c" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Spicy jalapeno bacon ipsum dolor amet ea voluptate dolore,</tspan><tspan x="0" y="19">esse kielbasa pig strip steak cillum turducken adipisicing nisi</tspan><tspan x="0" y="38">tempor. Veniam kielbasa ham occaecat, corned beef pork chop</tspan><tspan x="0" y="57">esse pig consectetur burgdoggen dolore swine velit. </tspan><tspan x="0" y="76">Mollit exercitation corned beef, consequat tenderloin voluptate</tspan><tspan x="0" y="95">drumstick enim shank chuck officia. Culpa brisket ham hock</tspan><tspan x="0" y="114">pastrami. Meatloaf consectetur jerky in reprehenderit swine cupim.</tspan></text>
+    </g>
+    <rect id="Rectangle_6683" data-name="Rectangle 6683" width="5" height="68" rx="2" transform="translate(441 15)" fill="#78788c"/>
+  </g>
+</svg>

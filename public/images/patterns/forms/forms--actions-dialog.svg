@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="900" height="538" viewBox="0 0 900 538">
+  <defs>
+    <filter id="Rectangle_3883" x="192" y="112" width="505" height="353" filterUnits="userSpaceOnUse">
+      <feOffset dy="8" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feFlood flood-opacity="0.4"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_3882" x="162" y="80" width="565" height="413" filterUnits="userSpaceOnUse">
+      <feOffset dy="6" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="15" result="blur-2"/>
+      <feFlood flood-opacity="0.122"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_3880" x="201" y="119" width="487" height="345" filterUnits="userSpaceOnUse">
+      <feOffset dy="16" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="2" result="blur-3"/>
+      <feFlood flood-opacity="0.141"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-forms--actions-dialog">
+      <rect width="900" height="538"/>
+    </clipPath>
+  </defs>
+  <g id="forms--actions-dialog" clip-path="url(#clip-forms--actions-dialog)">
+    <rect width="900" height="538" fill="#5b5b5b"/>
+    <g id="Group_13859" data-name="Group 13859" transform="translate(-1988 46)">
+      <path id="Path_8850" data-name="Path 8850" d="M752.445,29.521a2,2,0,0,1-2.823,2.824l-4.572-4.571-4.571,4.571a2,2,0,0,1-2.824-2.824l4.572-4.571-4.572-4.571a2,2,0,0,1,2.824-2.824l4.571,4.571,4.572-4.571a2,2,0,0,1,2.823,2.824l-4.571,4.571Z" transform="translate(1940.95 34.05)" fill="#fff"/>
+      <rect id="Rectangle_6844" data-name="Rectangle 6844" width="5" height="1" transform="translate(2658 372)" fill="#ff00bc"/>
+      <g id="Group_13856" data-name="Group 13856" transform="translate(2195 73)">
+        <g transform="matrix(1, 0, 0, 1, -207, -119)" filter="url(#Rectangle_3883)">
+          <rect id="Rectangle_3883-2" data-name="Rectangle 3883" width="475" height="323" transform="translate(207 119)" fill="#fff"/>
+        </g>
+        <g transform="matrix(1, 0, 0, 1, -207, -119)" filter="url(#Rectangle_3882)">
+          <rect id="Rectangle_3882-2" data-name="Rectangle 3882" width="475" height="323" transform="translate(207 119)" fill="#fff"/>
+        </g>
+        <g transform="matrix(1, 0, 0, 1, -207, -119)" filter="url(#Rectangle_3880)">
+          <rect id="Rectangle_3880-2" data-name="Rectangle 3880" width="475" height="323" transform="translate(207 119)" fill="#fff"/>
+        </g>
+      </g>
+      <text id="Add_a_Carrier" data-name="Add a Carrier" transform="translate(2225.3 131)" fill="#3d3d3d" font-size="26" font-family="OpenSans-Semibold, Open Sans" font-weight="600"><tspan x="0" y="0">Add a Carrier</tspan></text>
+      <g id="Group_13858" data-name="Group 13858" transform="translate(2483 330.3)">
+        <g id="Primary_Button_-_Normal" data-name="Primary Button - Normal" transform="translate(83 1)">
+          <rect id="Rectangle_3990" data-name="Rectangle 3990" width="73.934" height="36" rx="18" fill="#2777d3"/>
+          <text id="Save" transform="translate(37 22.7)" fill="#fff" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="-14.68" y="0">Save</tspan></text>
+        </g>
+        <g id="Secondary_Button_-_Normal" data-name="Secondary Button - Normal">
+          <rect id="Rectangle_3991" data-name="Rectangle 3991" width="73.934" height="36" rx="18" fill="none"/>
+          <text id="Cancel" transform="translate(37 22.7)" fill="#2777d3" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="-20.925" y="0">Cancel</tspan></text>
+        </g>
+      </g>
+      <g id="Input-_no_label" data-name="Input- no label" transform="translate(2225 261)">
+        <g id="Rectangle_288" data-name="Rectangle 288" fill="#fff" stroke="#cbcbd2" stroke-width="1">
+          <rect width="189" height="42" rx="4" stroke="none"/>
+          <rect x="0.5" y="0.5" width="188" height="41" rx="3.5" fill="none"/>
+        </g>
+      </g>
+      <text id="Carrier_Name" data-name="Carrier Name" transform="translate(2225 169)" fill="#31313a" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Carrier Name</tspan></text>
+      <text id="Account_Zip" data-name="Account Zip" transform="translate(2225 251)" fill="#31313a" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Account Zip</tspan></text>
+      <g id="Dropdown_Input_-_Unselected" data-name="Dropdown Input - Unselected" transform="translate(2225 179)">
+        <g id="Rectangle_288-2" data-name="Rectangle 288" fill="#fff" stroke="#cbcbd2" stroke-width="1">
+          <rect width="213" height="42" rx="4" stroke="none"/>
+          <rect x="0.5" y="0.5" width="212" height="41" rx="3.5" fill="none"/>
+        </g>
+        <g id="Group_7793" data-name="Group 7793" transform="translate(-637 -1698)">
+          <rect id="Rectangle_3867" data-name="Rectangle 3867" width="24" height="24" transform="translate(816 1707)" fill="none"/>
+          <path id="Path_5558" data-name="Path 5558" d="M56,9.4l-3,3-3-3a.967.967,0,0,0-1.4,0h0a.967.967,0,0,0,0,1.4l3.7,3.7a.967.967,0,0,0,1.4,0l3.7-3.7a.967.967,0,0,0,0-1.4h0A.965.965,0,0,0,56,9.4Z" transform="translate(775 1707)" fill="#9494a4"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

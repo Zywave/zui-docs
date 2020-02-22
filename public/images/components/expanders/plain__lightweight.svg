@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="5488 144 564 373">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clip-plain_lightweight_1);
+      }
+
+      .cls-2 {
+        fill: rgba(61,61,61,0.56);
+      }
+
+      .cls-3, .cls-4, .cls-5 {
+        fill: none;
+      }
+
+      .cls-4, .cls-5 {
+        stroke: #d4d4d4;
+      }
+
+      .cls-4 {
+        stroke-width: 10px;
+      }
+
+      .cls-5 {
+        stroke-width: 4px;
+      }
+    </style>
+    <clipPath id="clip-plain_lightweight_1">
+      <rect x="5488" y="144" width="564" height="373"/>
+    </clipPath>
+  </defs>
+  <g id="plain_lightweight_1" data-name="plain lightweight – 1" class="cls-1">
+    <g id="Symbol_16" data-name="Symbol 16" transform="translate(5345 1431) rotate(-90)">
+      <path id="Path_23" data-name="Path 23" class="cls-2" d="M1.821.321,6,4.5,10.179.321a1.036,1.036,0,0,1,1.5,0h0a1.036,1.036,0,0,1,0,1.5L6.536,6.964a.716.716,0,0,1-1.071,0L.321,1.821a1.036,1.036,0,0,1,0-1.5h0A1.036,1.036,0,0,1,1.821.321Z" transform="translate(1229 188)"/>
+      <rect id="Rectangle_52" data-name="Rectangle 52" class="cls-3" width="24" height="24" transform="translate(1223 180)"/>
+    </g>
+    <g id="Symbol_17" data-name="Symbol 17" transform="translate(6681 466) rotate(180)">
+      <path id="Path_23-2" data-name="Path 23" class="cls-2" d="M1.821.321,6,4.5,10.179.321a1.036,1.036,0,0,1,1.5,0h0a1.036,1.036,0,0,1,0,1.5L6.536,6.964a.716.716,0,0,1-1.071,0L.321,1.821a1.036,1.036,0,0,1,0-1.5h0A1.036,1.036,0,0,1,1.821.321Z" transform="translate(1150 211.205) rotate(180)"/>
+      <rect id="Rectangle_52-2" data-name="Rectangle 52" class="cls-3" width="24" height="24" transform="translate(1132 196)"/>
+    </g>
+    <g id="Symbol_18" data-name="Symbol 18" transform="translate(5345 1662) rotate(-90)">
+      <path id="Path_23-3" data-name="Path 23" class="cls-2" d="M1.821.321,6,4.5,10.179.321a1.036,1.036,0,0,1,1.5,0h0a1.036,1.036,0,0,1,0,1.5L6.536,6.964a.716.716,0,0,1-1.071,0L.321,1.821a1.036,1.036,0,0,1,0-1.5h0A1.036,1.036,0,0,1,1.821.321Z" transform="translate(1229 188)"/>
+      <rect id="Rectangle_52-3" data-name="Rectangle 52" class="cls-3" width="24" height="24" transform="translate(1223 180)"/>
+    </g>
+    <line id="Line_30" data-name="Line 30" class="cls-4" x2="143" transform="translate(5568.5 195.5)"/>
+    <line id="Line_31" data-name="Line 31" class="cls-4" x2="143" transform="translate(5568.5 427.5)"/>
+    <line id="Line_32" data-name="Line 32" class="cls-4" x2="143" transform="translate(5568.5 259.5)"/>
+    <line id="Line_33" data-name="Line 33" class="cls-5" x2="416" transform="translate(5568.5 305.5)"/>
+    <line id="Line_34" data-name="Line 34" class="cls-5" x2="380" transform="translate(5568.5 331.5)"/>
+    <line id="Line_35" data-name="Line 35" class="cls-5" x2="402" transform="translate(5568.5 356.5)"/>
+  </g>
+</svg>

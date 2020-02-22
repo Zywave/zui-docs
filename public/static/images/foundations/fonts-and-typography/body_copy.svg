@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="350" height="184" viewBox="0 0 350 184">
+  <defs>
+    <clipPath id="clip-Body_copy">
+      <rect width="350" height="184"/>
+    </clipPath>
+  </defs>
+  <g id="Body_copy" data-name="Body copy" clip-path="url(#clip-Body_copy)">
+    <rect width="350" height="184" fill="#fff"/>
+    <text id="_14px_-_400_12px_-_400_11px_-_400" data-name="14px - 400
+12px - 400
+11px - 400" transform="translate(-163 31)" fill="#30bbb1" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="233.274" y="15">14px - 400</tspan><tspan x="233.568" y="66.4">12px - 400</tspan><tspan x="235.707" y="117.8">11px - 400</tspan></text>
+    <text id="Default_body_text_Small_body_text_X-Small_body_text" data-name="Default body text
+Small body text
+X-Small body text" transform="translate(175 31)" fill="#2f2f2f" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="15">Default body text</tspan><tspan font-size="12"><tspan x="0" y="65">Small body text</tspan></tspan><tspan font-size="11"><tspan x="0" y="115">X-Small body text</tspan></tspan></text>
+  </g>
+</svg>

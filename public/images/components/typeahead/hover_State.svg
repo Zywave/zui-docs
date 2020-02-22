@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="370" height="224" viewBox="0 0 370 224">
+  <defs>
+    <filter id="Rectangle_3957" x="15.5" y="53.5" width="339" height="156" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1.5" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-hover_State">
+      <rect width="370" height="224"/>
+    </clipPath>
+  </defs>
+  <g id="hover_State" clip-path="url(#clip-hover_State)">
+    <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Rectangle_3957)">
+      <g id="Rectangle_3957-2" data-name="Rectangle 3957" transform="translate(20 57)" fill="#fff" stroke="#dbdbdb" stroke-width="1">
+        <rect width="330" height="147" rx="2" stroke="none"/>
+        <rect x="0.5" y="0.5" width="329" height="146" rx="1.5" fill="none"/>
+      </g>
+    </g>
+    <rect id="Rectangle_3959" data-name="Rectangle 3959" width="330" height="42" transform="translate(20 20)" fill="#fff" stroke="#79ace6" stroke-width="2"/>
+    <text id="os" transform="translate(36 47)" fill="#31313a" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">os</tspan></text>
+    <line id="Line_10" data-name="Line 10" y2="20" transform="translate(52.5 31.5)" fill="none" stroke="#79ace6" stroke-width="1"/>
+    <rect id="Rectangle_3958" data-name="Rectangle 3958" width="329" height="32" transform="translate(20.877 63)" fill="#e6e6ea" opacity="0.28"/>
+    <text id="osha_osha_reporting_osha_300_osha_recordkeeping_2017_osha_compliance" data-name="osha
+osha reporting
+osha 300
+osha recordkeeping
+2017 osha compliance" transform="translate(36 85)" fill="#31313a" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">os</tspan><tspan y="0" font-family="SegoeUI-Bold, Segoe UI" font-weight="700">ha</tspan><tspan x="0" y="26">os</tspan><tspan y="26" font-family="SegoeUI-Bold, Segoe UI" font-weight="700">ha reporting</tspan><tspan x="0" y="52">os</tspan><tspan y="52" font-family="SegoeUI-Bold, Segoe UI" font-weight="700">ha 300</tspan><tspan x="0" y="78">os</tspan><tspan y="78" font-family="SegoeUI-Bold, Segoe UI" font-weight="700">ha recordkeeping</tspan><tspan font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="104">2017 </tspan><tspan y="104" font-family="SegoeUI, Segoe UI" font-weight="400">os</tspan><tspan y="104">ha compliance</tspan></tspan></text>
+    <g id="Group_8" data-name="Group 8" transform="translate(188 81)">
+      <g id="Group_6" data-name="Group 6">
+        <path id="Path_24" data-name="Path 24" d="M8.8,5.3h2.7v.9h1.8v.9h.9V8h.9v6.2h-.8v2.5c0,.1,0,.1-.1.1h-.8V14.1h.9v-6c0-.1,0-.1-.1-.1h-.8V7.2a.1.1,0,0,0-.1-.1h-.8V9.8h-.9V6.3H9.8V8.9H8.9V5.5a.31.31,0,0,1-.1-.2Z"/>
+        <path id="Path_25" data-name="Path 25" d="M13.2,16.7v2.6H4.4V16.7H3.5V14.9h.9v1.7h.9v1.8h7.1V16.7Z"/>
+        <path id="Path_26" data-name="Path 26" d="M2.7,8.8h.8V.9h.9v9.7H3.5V9.7H2.6a2.769,2.769,0,0,0,.1-.9Z"/>
+        <path id="Path_27" data-name="Path 27" d="M8.8,5.3H7V8.8H6.1V.9H7V4.4H8.8v.9Z"/>
+        <path id="Path_28" data-name="Path 28" d="M.9,11.5v-.9h.9v.9h.9v1.8h.9v1.6c0,.1,0,.1-.1.1H2.7V13.2H1.8V11.4A3.085,3.085,0,0,1,.9,11.5Z"/>
+        <path id="Path_29" data-name="Path 29" d="M2.7,8.8H.9v1.8H0V8H2.7v.8Z"/>
+        <path id="Path_30" data-name="Path 30" d="M4.4.9V0H6.2V.9H4.4Z"/>
+      </g>
+      <g id="Group_7" data-name="Group 7">
+        <rect id="Rectangle_54" data-name="Rectangle 54" width="1.8" height="15.9" transform="translate(4.4 0.9)" fill="#fff"/>
+        <rect id="Rectangle_55" data-name="Rectangle 55" width="1.8" height="1.8" transform="translate(0.9 8.8)" fill="#fff"/>
+        <rect id="Rectangle_56" data-name="Rectangle 56" width="1.8" height="1.8" transform="translate(1.8 9.7)" fill="#fff"/>
+        <rect id="Rectangle_57" data-name="Rectangle 57" width="1.8" height="13.2" transform="translate(7.1 5.3)" fill="#fff"/>
+        <rect id="Rectangle_58" data-name="Rectangle 58" width="1.8" height="12.3" transform="translate(9.7 6.2)" fill="#fff"/>
+        <rect id="Rectangle_59" data-name="Rectangle 59" width="1.8" height="2.6" transform="translate(2.7 10.6)" fill="#fff"/>
+        <rect id="Rectangle_60" data-name="Rectangle 60" width="1.8" height="4.4" transform="translate(3.5 10.6)" fill="#fff"/>
+        <rect id="Rectangle_61" data-name="Rectangle 61" width="1.8" height="9.7" transform="translate(5.7 8.8)" fill="#fff"/>
+        <rect id="Rectangle_62" data-name="Rectangle 62" width="1.8" height="9.7" transform="translate(8.4 8.8)" fill="#fff"/>
+        <rect id="Rectangle_63" data-name="Rectangle 63" width="1.8" height="7" transform="translate(11.4 9.7)" fill="#fff"/>
+        <rect id="Rectangle_64" data-name="Rectangle 64" width="1.8" height="7.3" transform="translate(10.6 11.2)" fill="#fff"/>
+        <rect id="Rectangle_65" data-name="Rectangle 65" width="1.8" height="6.2" transform="translate(12.3 7.9)" fill="#fff"/>
+        <rect id="Rectangle_66" data-name="Rectangle 66" width="0.9" height="7.2" transform="translate(12.3 7)" fill="#fff"/>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html><head>
+    <title>Typeahead | Zywave User Interface</title>
+    <link href="http://zui.zywave.com/css/ie-sucks.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://unpkg.com/@zywave/zui-bundle@next/dist/css/zui-bundle.fouc.css" />
+    <link rel="stylesheet" href="https://unpkg.com/@zywave/zui-bundle@next/dist/css/zui-bundle.app.css" />
+    <link href="http://zui.zywave.com/css/base.css" rel="stylesheet" />
+    <link href="http://zui.zywave.com/css/shortcodes.css" rel="stylesheet" />
+    <link href="http://zui.zywave.com/css/syntax-highlighting-monokai.css" rel="stylesheet" />
+    <link rel='shortcut icon' type='image/x-icon' href='http://zui.zywave.com/static/favicon.ico' />
+    <script src="http://zui.zywave.com/js/ie-sucks.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.3.0/fuse.min.js"></script>
+    <style>
+        :root {
+            --zui-shell-primary-theme: var(--zui-green);
+            --zui-shell-primary-theme-dark: var(--zui-green-600);
+            --zui-tabs-color: var(--zui-green);
+        }
+    </style>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const externalLinks = document.querySelectorAll('a[href^="http://"], a[href^="https://"]');
+            for (const l of externalLinks) {
+                if (l.href.indexOf("http://zui.zywave.com/") < 0) {
+                    l.target = '_blank';
+                }
+            }
+        });
+
+        
+        
+    </script>
+</head>
+<body>
+        <ie-sucks>
+            No. Stop it. Use a real browser.
+        </ie-sucks>
+        <zui-shell app-name="ZUI Documentation"><zui-shell-topbar>
+    <zui-logo slot="logo"></zui-logo>
+</zui-shell-topbar>
+
+
+
+<zui-shell-nav>
+    <zui-shell-nav-item>
+        <zui-icon icon="zui-nav-home" slot="icon"></zui-icon>
+        <a href="http://zui.zywave.com/" active>Home</a>
+    </zui-shell-nav-item>
+    
+    
+    <zui-shell-nav-item subnav>
+        <zui-icon icon="zui-nav-developers" slot="icon"></zui-icon>
+        
+            <span>Developers</span>
+            
+            
+            
+            
+            <a href="http://zui.zywave.com/developers/contribution-guide/" >Contribution guide</a>
+            
+            <a href="http://zui.zywave.com/developers/developing-zui/" >Developing ZUI</a>
+            
+            <a href="http://zui.zywave.com/developers/installation/" >Installation</a>
+            
+            <a href="http://zui.zywave.com/developers/lit/" >Lit 🔥</a>
+            
+            <a href="http://zui.zywave.com/developers/polyfills/" >Polyfills</a>
+            
+            <a href="http://zui.zywave.com/developers/responsive-design/" >Responsive design</a>
+            
+            <a href="http://zui.zywave.com/developers/tooling/" >Tooling</a>
+            
+            <a href="http://zui.zywave.com/developers/webcomponents/" >Web components</a>
+            
+        
+    </zui-shell-nav-item>
+    
+    
+    <zui-shell-nav-item subnav>
+        <zui-icon icon="zui-nav-foundations" slot="icon"></zui-icon>
+        
+            <span>Foundations</span>
+            
+            
+                
+            
+            
+            
+            <a href="http://zui.zywave.com/foundations/colors/" >Colors</a>
+            
+            <a href="http://zui.zywave.com/foundations/content-area/" >Content area</a>
+            
+            <a href="http://zui.zywave.com/foundations/fonts-typography/" >Fonts &amp; typography</a>
+            
+            <a href="http://zui.zywave.com/foundations/footer/" >Footer</a>
+            
+            <a href="http://zui.zywave.com/foundations/icons/" >Icons</a>
+            
+            <a href="http://zui.zywave.com/foundations/illustrations/" >Illustrations</a>
+            
+            <a href="http://zui.zywave.com/foundations/product-branding/" >Product branding</a>
+            
+            <a href="http://zui.zywave.com/foundations/shell/" >Shell</a>
+            
+            <a href="http://zui.zywave.com/foundations/sidenav/" >Sidenav</a>
+            
+            <a href="http://zui.zywave.com/foundations/topbar/" >Topbar</a>
+            
+        
+    </zui-shell-nav-item>
+    
+    
+    <zui-shell-nav-item subnav>
+        <zui-icon icon="zui-nav-components" slot="icon"></zui-icon>
+        
+            <span>Components</span>
+            
+            
+                
+            
+            
+            
+            <a href="http://zui.zywave.com/components/breadcrumbs/" >Breadcrumbs</a>
+            
+            <a href="http://zui.zywave.com/components/buttons-dropdown/" >Button dropdowns</a>
+            
+            <a href="http://zui.zywave.com/components/buttons/" >Buttons</a>
+            
+            <a href="http://zui.zywave.com/components/checkboxes/" >Checkboxes</a>
+            
+            <a href="http://zui.zywave.com/components/dialogs/" >Dialogs</a>
+            
+            <a href="http://zui.zywave.com/components/dropdown-multi-select/" >Dropdown multi-select</a>
+            
+            <a href="http://zui.zywave.com/components/dropdown-select/" >Dropdown select</a>
+            
+            <a href="http://zui.zywave.com/components/expanders/" >Expanders</a>
+            
+            <a href="http://zui.zywave.com/components/file-selector/" >File Selector</a>
+            
+            <a href="http://zui.zywave.com/components/notifiers/" >Notifiers</a>
+            
+            <a href="http://zui.zywave.com/components/radio-buttons/" >Radio buttons</a>
+            
+            <a href="http://zui.zywave.com/components/tabs/" >Tabs</a>
+            
+            <a href="http://zui.zywave.com/components/text-input/" >Text Input</a>
+            
+            <a href="http://zui.zywave.com/components/toggles/" >Toggles</a>
+            
+            <a href="http://zui.zywave.com/components/tooltips/" >Tooltips</a>
+            
+            <a href="http://zui.zywave.com/components/wells/" >Well</a>
+            
+        
+    </zui-shell-nav-item>
+    
+    
+    <zui-shell-nav-item subnav>
+        <zui-icon icon="zui-nav-patterns" slot="icon"></zui-icon>
+        
+            <span>Patterns</span>
+            
+            
+                
+            
+            
+            
+            <a href="http://zui.zywave.com/patterns/forms/" >Forms</a>
+            
+            <a href="http://zui.zywave.com/patterns/step-flow/" >Step flow</a>
+            
+            <a href="http://zui.zywave.com/patterns/typeahead/" active>Typeahead</a>
+            
+        
+    </zui-shell-nav-item>
+    
+    
+    <zui-shell-nav-item subnav>
+        <zui-icon icon="zui-nav-help" slot="icon"></zui-icon>
+        
+            <span>Communications</span>
+            
+            
+                
+            
+            
+            
+            <a href="http://zui.zywave.com/communications/messages/" >Messages</a>
+            
+            <a href="http://zui.zywave.com/communications/voice-tone/" >Voice &amp; tone</a>
+            
+            <a href="http://zui.zywave.com/communications/writing-style-guide/" >Writing style guide</a>
+            
+        
+    </zui-shell-nav-item>
+    
+    
+    <zui-shell-nav-item >
+        <zui-icon icon="zui-nav-accounts" slot="icon"></zui-icon>
+        
+            <a href="http://zui.zywave.com/personas/" >Personas</a>
+        
+    </zui-shell-nav-item>
+    
+    <script>
+        
+        const activeLinks = document.querySelectorAll('zui-shell-nav-item a[active]');
+            for (let activeLink of activeLinks) {
+                activeLink.closest('zui-shell-nav-item').expanded = true;
+            }
+    </script>
+</zui-shell-nav>
+<zui-shell-content id="content">
+                <section class="zui-layout zui-layout--slim">
+                    <div class="page-heading">
+                        <h1>Typeahead</h1>
+                         <h2>Pickles are d<strong>estroying my life</strong></h2> 
+                    </div>
+                    <div class="content-container">
+                        
+
+
+<dom-bind>
+    <template>
+        <zui-tabs selected="{{page}}">
+            
+            <zui-tab>Design</zui-tab>
+            
+            <zui-tab>Toolkit</zui-tab>
+            
+        </zui-tabs>
+        <zui-pages selected="[[page]]">
+            
+            <div>
+                
+                <h2 id="what-is-typeahead">What is typeahead?</h2>
+
+<p>Typeahead is a method of translating intention between user and software, by prompting suggestions for an input field. It&rsquo;s such a common feature, it&rsquo;s easy to overlook how often we use this in our own day-to-day interactions with technology. Most commonly used for searching, there are two basic forms of typeahead—auto-complete and auto-suggest.</p>
+
+<!-- ###### Developer Documentation
+
+* [Live Examples](http://zui.zywave.com-knockout-typeahead/)
+* [View in GitLab](https://gitlab.zywave.com/zui/zui-knockout-typeahead) -->
+
+<div class="spacer small"></div>
+
+<div class="grid">
+    <div class='grid-col span-6'>
+    <h3 id="auto-complete">Auto-complete</h3>
+
+<p>Returns exact query results that start with the characters typed. Dropdown options are pulled from a controlled, finite list.</p>
+
+<p><em>Example: a list of states that begin with &lsquo;al.&rsquo;</em>
+<br><br></p>
+
+<p><img src="http://zui.zywave.com/images/components/typeahead/auto_Complete.svg" alt="Image example of what auto-complete looks like" /></p>
+
+</div>
+
+<div class='grid-col span-6'>
+    <h3 id="auto-suggest">Auto-suggest</h3>
+
+<p>Guides a user by returning a list of related keywords or phrases based on the characters typed, but that don&rsquo;t necessarily match an exact query string.</p>
+
+<p><em>Example: a list of names that include the letters combination &lsquo;ad.&rsquo;</em></p>
+
+<p><img src="http://zui.zywave.com/images/components/typeahead/auto_Suggest.svg" alt="Image example of what auto-suggest looks like" /></p>
+
+</div>
+
+<p></div></p>
+
+<hr />
+
+<h2 id="best-practices">Best practices</h2>
+
+<p>To ensure the best user experience possible, keep in mind the following best practices when adding typeahead to a product feature:</p>
+
+<ul>
+<li>Keep the dropdown manageable and useful by trying to show seven or fewer results at once and avoiding scroll bars.</li>
+<li>Bold the unique text of each dropdown item.</li>
+<li>Provide suggestions when the second or third character is entered, and continue narrowing suggestions as more characters are typed.</li>
+<li>Keep the dropdown and text box design clean and organized.</li>
+</ul>
+
+<hr />
+
+<h2 id="styling-specs">Styling &amp; specs</h2>
+
+<div class="grid">
+    <div class='grid-col span-4'>
+    <h4 id="dropdown">Dropdown</h4>
+
+<ul>
+<li>Unique text font weight: 700</li>
+<li>Hover color: ZUI Gray 50</li>
+<li>Dropshadow
+
+<ul>
+<li>Color: Black at 16%</li>
+<li>X-Axis: 0px</li>
+<li>Y-Axis: 1px</li>
+<li>Blur radius: 3px</li>
+<li>Spread radius: 1px</li>
+</ul></li>
+</ul>
+
+</div>
+
+<div class='grid-col span-8'>
+    <p><img src="http://zui.zywave.com/images/components/typeahead/styling_Specs.svg" alt="Typeahead styling specs" /></p>
+
+<p><em>All values are in pixels.</em></p>
+
+</div>
+
+<p></div></p>
+
+<hr>
+
+<h2 id="additional-display-options">Additional display options</h2>
+
+<p>Depending on the context of the typeahead feature and what&rsquo;s technically feasible, you may want to consider using search categories or displaying a user&rsquo;s previous entries/searches.
+<div class="spacer small"></div></p>
+
+<h4 id="recent-entries">Recent entries</h4>
+
+<p>Recently typed searches or entries are shown in a dropdown the moment the cursor is put into the search field, and disappear as the first character is typed.</p>
+
+<p><img src="http://zui.zywave.com/images/components/typeahead/recent_Searches.svg" alt="Image example of what auto-complete looks like" /></p>
+
+<div class="spacer small"></div>
+
+<h4 id="search-categories">Search categories</h4>
+
+<p>Using category headers, labels, or icons can help narrow down search suggestions by organizing items in the dropdown. If you decide to use search categories, remember that they are meant to consolidate results and make the list of suggestions easier to read. Labels should be concise, and icons must be clear and distinct.</p>
+
+<div class="spacer small"></div>
+
+<h4 id="header-label">Header label</h4>
+
+<ul>
+<li>Color: ZUI Gray 300</li>
+<li>Font size: 12px</li>
+<li>Font weight: 700</li>
+<li>Text case: uppercase</li>
+</ul>
+
+<p><img src="http://zui.zywave.com/images/components/typeahead/header_Label.svg" alt="header label" /></p>
+
+<div class="spacer small"></div>
+
+<h4 id="inline-label">Inline label</h4>
+
+<ul>
+<li>Color: ZUI Gray 300</li>
+<li>Font size: 12px</li>
+</ul>
+
+<p><img src="http://zui.zywave.com/images/components/typeahead/inline_Label.svg" alt="inline label" /></p>
+
+<h4 id="icons">Icons</h4>
+
+<ul>
+<li>Color: ZUI Gray 300</li>
+<li>Size: 16px</li>
+</ul>
+
+<p><img src="http://zui.zywave.com/images/components/typeahead/icon_Label.svg" alt="icon label" /></p>
+
+<hr />
+
+<h2 id="behavior-interaction">Behavior &amp; interaction</h2>
+
+<div class="grid">
+    <div class='grid-col span-4'>
+    <p>Typeahead suggestions will display in a dropdown, typically after the third character is typed into the text box. Users may hover over a typeahead suggestion with their mouse, or arrow down to highlight a suggestion. To select a specific suggestion, uses may either click the suggestion with their mouse, or choose Enter when the suggestion is highlighted.</p>
+
+<p><a href="http://zui.zywave.com-knockout-typeahead/">View a live example</a></p>
+
+</div>
+
+<div class='grid-col span-4'>
+    <p><strong>Focused state</strong></p>
+
+<p><img src="http://zui.zywave.com/images/components/typeahead/focused_State.svg" alt="focused state" /></p>
+
+</div>
+
+<div class='grid-col span-4'>
+    <p><strong>Hover state</strong></p>
+
+<p><img src="http://zui.zywave.com/images/components/typeahead/hover_State.svg" alt="hover state" /></p>
+
+</div>
+
+<p></div></p>
+
+<hr />
+
+<h2 id="rare-situations">Rare situations</h2>
+
+<p>In rare situations, you may want to consider adding additional identifying information to typeahead suggestions. For example, AMC typeahead brings back results under the traditional categories of <em>Account</em> and <em>Contact</em>, but includes the account location and contact account for each suggestion. This extra bit of information helps a user recognize and identify a suggestion more quickly and accurately.</p>
+
+                
+            </div>
+            
+            <div>
+                
+                <p><zui-well type="info">
+To be implemented
+</zui-well></p>
+
+                
+            </div>
+            
+        </zui-pages>
+    </template>
+</dom-bind>
+
+
+
+                    </div>
+                </section>
+            </zui-shell-content><zui-shell-footer>
+    <div>
+        &copy; 1995 - 2020 Zywave, Inc. All rights reserved.
+    </div>
+    <a class="zui-link" target="_blank" href="http://www.zywave.com/terms-conditions/">Terms and Conditions</a>
+    <a class="zui-link" target="_blank" href="http://www.zywave.com/privacy-statement/">Privacy Statement</a>
+    <a class="zui-link" target="_blank" href="http://www.zywave.com/dmca-notice/">DMCA</a></div>
+    <a class="zui-link" target="_blank" href="http://www.zywave.com/cookie-usage/">Cookie Usage</a>
+    <a class="zui-link" href="mailto:support@zywave.com">Contact</a>
+</zui-shell-footer>
+<script src="https://unpkg.com/@zywave/zui-bundle@next/dist/zui-loader.js"></script>
+</zui-shell>
+    </body>
+</html>

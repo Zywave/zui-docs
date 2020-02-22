@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="350" height="387" viewBox="0 0 350 387">
+  <defs>
+    <clipPath id="clip-Headline_fonts">
+      <rect width="350" height="387"/>
+    </clipPath>
+  </defs>
+  <g id="Headline_fonts" data-name="Headline fonts" clip-path="url(#clip-Headline_fonts)">
+    <rect width="350" height="387" fill="#fff"/>
+    <text id="Hero_Heading_1_Heading_2_Heading_3_Heading_4_Heading_5" data-name="Hero
+Heading 1
+Heading 2
+Heading 3
+Heading 4
+Heading 5" transform="translate(171 48)" fill="#2f2f2f" font-size="32" font-family="SegoeUI-Light, Segoe UI" font-weight="300"><tspan x="0" y="35">Hero</tspan><tspan font-size="26" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="85.4">Heading 1</tspan></tspan><tspan font-size="20" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="135.8">Heading 2</tspan></tspan><tspan font-size="16" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="186.2">Heading 3</tspan></tspan><tspan font-size="14" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="236.6">Heading 4</tspan></tspan><tspan font-size="12" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="287">Heading 5</tspan></tspan></text>
+    <text id="_32px_-_300_26px_-_600_20px_-_600_16px_-_600_14px_-_700_12px_-_700" data-name="32px - 300
+26px - 600
+20px - 600
+16px - 600
+14px - 700
+12px - 700" transform="translate(-163 63)" fill="#30bbb1" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="231.722" y="15">32px - 300</tspan><tspan x="231.64" y="66.4">26px - 600</tspan><tspan x="231.681" y="117.8">20px - 600</tspan><tspan x="233.78" y="169.2">16px - 600</tspan><tspan x="233.834" y="220.6">14px - 700</tspan><tspan x="234.128" y="272">12px - 700</tspan></text>
+  </g>
+</svg>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Zywave User Interface on ZUI</title>
+    <link>http://zui.zywave.com/</link>
+    <description>Recent content in Zywave User Interface on ZUI</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="http://zui.zywave.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Contribution guide</title>
+      <link>http://zui.zywave.com/developers/contribution-guide/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://zui.zywave.com/developers/contribution-guide/</guid>
+      <description>ZUI has a series of automated systems that ensure we are able to easily release packages whenever we need to, and properly communicate the impact of those changes to developers. For this to work properly, we have some rules around how to help.
+ Branching ZUI operates with two main branches in mind:
+ dev:  This branch should always be in a state where it can reasonably be merged into master and ready to go at any time.</description>
+    </item>
+    
+    <item>
+      <title>Developing ZUI</title>
+      <link>http://zui.zywave.com/developers/developing-zui/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://zui.zywave.com/developers/developing-zui/</guid>
+      <description>Initialization  cd ${insert path to root of ZUI here} yarn install  This one takes awhile. Sorry.  yarn run bootstrap  Using a tool called lerna, we do some really cool stuff to get the monorepo to play nicely with ZUI-to-ZUI dependencies.  yarn run build  Runs through every package defined in the monorepo and executes their &amp;quot;build&amp;quot; script as defined in their respective package.json file.   Creating a component If you&amp;rsquo;re creating a new web component (e.</description>
+    </item>
+    
+    <item>
+      <title>File Selector</title>
+      <link>http://zui.zywave.com/components/file-selector/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://zui.zywave.com/components/file-selector/</guid>
+      <description>The File Selector component allows the user to select one or many f from a user’s file system. Either natively using an file input or drag and drop.</description>
+    </item>
+    
+    <item>
+      <title>Installation</title>
+      <link>http://zui.zywave.com/developers/installation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://zui.zywave.com/developers/installation/</guid>
+      <description>There are two ways you can use ZUI 4 in your application: install the packages via Yarn or NPM; or slap our bad boy ZUI loader CDN script and stylesheets into your application.
+ Install ZUI packages If you want an à la carte experience, you can install individual ZUI 4 component packages via Yarn or NPM.
+Since most Zywave packages are private, include a .yarnrc or .npmrc file in your parent directory and point it to the registry:</description>
+    </item>
+    
+    <item>
+      <title>Lit 🔥</title>
+      <link>http://zui.zywave.com/developers/lit/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://zui.zywave.com/developers/lit/</guid>
+      <description>About lit-html is a very lightweight library whose sole purpose is to make updates to the DOM as cheap as possible. It uses a feature of JavaScript called tagged template literals to be able to efficiently rerender only the portion of the DOM that actually needs to be updated (unlike other libraries, such as React, that use a technique called the &amp;ldquo;Virtual DOM&amp;rdquo;, or &amp;ldquo;VDOM&amp;rdquo;). I won&amp;rsquo;t bore you with all of the extra details, but if you&amp;rsquo;re interested, it&amp;rsquo;s worth reading their documentation.</description>
+    </item>
+    
+    <item>
+      <title>Polyfills</title>
+      <link>http://zui.zywave.com/developers/polyfills/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://zui.zywave.com/developers/polyfills/</guid>
+      <description>First, if you&amp;rsquo;re using @zywave/bundle (and more importantly, the zui-loader.js provider), you most likely DON&amp;rsquo;T have to worry about everything on this page except for polyfilling CSS custom properties. But, if you&amp;rsquo;re curious, here&amp;rsquo;s everything that needs to exist for ZUI to work in the browser that shall not be named.
+ Required polyfills @webcomponents/webcomponentjs Until this chart shows all green for browsers we support, you&amp;rsquo;ll need this library. Don&amp;rsquo;t worry, it does feature detection, so as browsers start supporting more and more, the polyfill will get lighter and lighter.</description>
+    </item>
+    
+    <item>
+      <title>Responsive design</title>
+      <link>http://zui.zywave.com/developers/responsive-design/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://zui.zywave.com/developers/responsive-design/</guid>
+      <description>Mobile first approach We aim to provide the best user experience possible by taking a mobile-first approach. This means we design for the smallest screen size first (30em or 480px), then progressively enhance the experience as more screen real estate becomes available.
+Breakpoints Breakpoints are defined points or widths for your site&amp;rsquo;s content to respond to in order to provide the best possible layout for users to consume information.</description>
+    </item>
+    
+    <item>
+      <title>Tooling</title>
+      <link>http://zui.zywave.com/developers/tooling/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://zui.zywave.com/developers/tooling/</guid>
+      <description>The ZUI monorepo uses a large number of tools, from building distributable packages to hosting the ZUI documentation website. Here&amp;rsquo;s a brief overview of everything you need to know. This is not an exhaustive list, but should get you the essentials.
+CLI Tools This project uses a lot of CLI tools, some you may or may not be familiar with. With the exception of a small handful, all CLI tools are installed and managed as devDependencies of the workspace.</description>
+    </item>
+    
+    <item>
+      <title>Web components</title>
+      <link>http://zui.zywave.com/developers/webcomponents/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://zui.zywave.com/developers/webcomponents/</guid>
+      <description>Web Components are here, and they are only going to get better. ZUI is embracing this new web feature to make UI rich and simple components, while supporting as many applications as we can. For everything about Web Components, check out https://www.webcomponents.org/.
+Why web components? Before we dive into the &amp;ldquo;what are web components&amp;rdquo; section, I just want to detour into the &amp;ldquo;why.&amp;rdquo; Why not just choose a framework? Or simpler yet, why not just continue ZUI 3.</description>
+    </item>
+    
+  </channel>
+</rss>

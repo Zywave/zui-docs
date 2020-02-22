@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="900" height="144" viewBox="0 0 900 144">
+  <defs>
+    <clipPath id="clip-forms--validation-success">
+      <rect width="900" height="144"/>
+    </clipPath>
+  </defs>
+  <g id="forms--validation-success" clip-path="url(#clip-forms--validation-success)">
+    <rect width="900" height="144" fill="#fff"/>
+    <g id="Group_2" data-name="Group 2" transform="translate(300 29)">
+      <text id="Password" transform="translate(0 15)" fill="#31313a" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Password</tspan></text>
+      <g id="Input_Success" data-name="Input Success" transform="translate(0 24)">
+        <g id="Rectangle_294" data-name="Rectangle 294" fill="#fff" stroke="#7bc959" stroke-width="2">
+          <rect width="300" height="42" rx="4" stroke="none"/>
+          <rect x="1" y="1" width="298" height="40" rx="3" fill="none"/>
+        </g>
+        <text id="_" data-name="***********" transform="translate(15 27)" fill="#494955" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">***********</tspan></text>
+        <text id="This_password_is_STRONG" data-name="This password is STRONG" transform="translate(0 59)" fill="#7bc959" font-size="12" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">This password is </tspan><tspan y="0" font-family="SegoeUI-Bold, Segoe UI" font-weight="700">STRONG</tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>

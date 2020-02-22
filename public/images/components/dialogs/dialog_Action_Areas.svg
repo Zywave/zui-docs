@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="770" height="616" viewBox="0 0 770 616">
+  <defs>
+    <filter id="Rectangle_3883" x="31" y="50" width="705" height="530" filterUnits="userSpaceOnUse">
+      <feOffset dy="8" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feFlood flood-opacity="0.4"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_3882" x="1" y="18" width="765" height="590" filterUnits="userSpaceOnUse">
+      <feOffset dy="6" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="15" result="blur-2"/>
+      <feFlood flood-opacity="0.122"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_3880" x="40" y="57" width="687" height="522" filterUnits="userSpaceOnUse">
+      <feOffset dy="16" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="2" result="blur-3"/>
+      <feFlood flood-opacity="0.141"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-dialog_-_action_areas">
+      <rect width="770" height="616"/>
+    </clipPath>
+  </defs>
+  <g id="dialog_-_action_areas" data-name="dialog - action areas" clip-path="url(#clip-dialog_-_action_areas)">
+    <rect width="770" height="616" fill="rgba(0,0,0,0.6)"/>
+    <g id="Group_7711" data-name="Group 7711" transform="translate(-256 -111)">
+      <g id="Rectangle_3890" data-name="Rectangle 3890" transform="translate(881 594)" fill="none" stroke="#ff00bc" stroke-width="2">
+        <rect width="73" height="50" stroke="none"/>
+        <rect x="1" y="1" width="71" height="48" fill="none"/>
+      </g>
+      <g id="Group_7693" data-name="Group 7693" transform="translate(0 33)">
+        <g id="Group_7689" data-name="Group 7689" transform="translate(-24 -550)">
+          <g transform="matrix(1, 0, 0, 1, 280, 628)" filter="url(#Rectangle_3883)">
+            <rect id="Rectangle_3883-2" data-name="Rectangle 3883" width="675" height="500" transform="translate(46 57)" fill="#fff"/>
+          </g>
+          <g transform="matrix(1, 0, 0, 1, 280, 628)" filter="url(#Rectangle_3882)">
+            <rect id="Rectangle_3882-2" data-name="Rectangle 3882" width="675" height="500" transform="translate(46 57)" fill="#fff"/>
+          </g>
+          <g transform="matrix(1, 0, 0, 1, 280, 628)" filter="url(#Rectangle_3880)">
+            <rect id="Rectangle_3880-2" data-name="Rectangle 3880" width="675" height="500" transform="translate(46 57)" fill="#fff"/>
+          </g>
+          <text id="Learn_more_on_our_help_site." data-name="Learn more on our help site." transform="translate(358 1143)" fill="#1f5ea8" font-size="14" font-family="SegoeUI, Segoe UI" text-decoration="underline"><tspan x="0" y="0">Learn more on our help site.</tspan></text>
+        </g>
+        <path id="Path_5553" data-name="Path 5553" d="M752.445,29.521a2,2,0,0,1-2.823,2.824l-4.572-4.571-4.571,4.571a2,2,0,0,1-2.824-2.824l4.572-4.571-4.572-4.571a2,2,0,0,1,2.824-2.824l4.571,4.571,4.572-4.571a2,2,0,0,1,2.823,2.824l-4.571,4.571Z" transform="translate(248.95 95.05)" fill="#fff"/>
+        <rect id="Rectangle_3856" data-name="Rectangle 3856" width="450" height="37.5" transform="translate(302 163)" fill="none"/>
+        <text id="Headline_Title" data-name="Headline Title" transform="translate(332.3 193)" fill="#3d3d3d" font-size="26" font-family="OpenSans-Semibold, Open Sans" font-weight="600"><tspan x="0" y="0">Headline Title</tspan></text>
+        <text id="Lorem_ipsum_dolor_sit_amet_consectetur_adipiscing_elit._Etiam_egestas_justo_scelerisque_nisl_porta_ultricies._Aenean_eget_magna_non_risus_sagittis_feugiat_sed_a_libero._Ut_eu_magna_bibendum_tincidunt_neque_vel_consequat_nibh._Ut_euismod_nec_ante_eu_comm" data-name="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam egestas justo scelerisque nisl porta ultricies. Aenean eget magna non risus sagittis feugiat sed a libero. Ut eu magna bibendum, tincidunt neque vel, consequat nibh. Ut euismod nec ante eu comm" transform="translate(332.3 216)" fill="#707070" font-size="14" font-family="OpenSans, Open Sans"><tspan x="0" y="15">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam egestas justo scelerisque nisl </tspan><tspan x="0" y="34">porta ultricies. Aenean eget magna non risus sagittis feugiat sed a libero. Ut eu magna </tspan><tspan x="0" y="53">bibendum, tincidunt neque vel, consequat nibh. Ut euismod nec ante eu commodo. </tspan><tspan x="0" y="72">Vestibulum cursus, est quis tincidunt elementum, lacus erat hendrerit justo, in tincidunt nulla </tspan><tspan x="0" y="91">dui vel lectus. Aliquam eleifend tincidunt lacus ut condimentum. Phasellus ultrices sed dolor </tspan><tspan x="0" y="110">ac hendrerit. Integer a porttitor magna. Vestibulum placerat felis elit, nec sollicitudin eros </tspan><tspan x="0" y="129">semper ac. Nulla ac nisl cursus, scelerisque ex porta, lobortis enim. Quisque tincidunt ex a </tspan><tspan x="0" y="148">sem sollicitudin venenatis. Quisque vel mi efficitur velit tincidunt volutpat. Integer iaculis vitae </tspan><tspan x="0" y="167">felis in bibendum. Donec pellentesque iaculis sollicitudin.</tspan><tspan x="0" y="186"></tspan><tspan x="0" y="205">Pellentesque ullamcorper hendrerit gravida. Sed quis felis vitae justo dapibus dignissim nec in </tspan><tspan x="0" y="224">augue. Sed hendrerit sodales erat, at malesuada sapien consequat vel. Nunc accumsan sapien </tspan><tspan x="0" y="243">quis porttitor vestibulum. Curabitur congue lorem nec auctor maximus. Nulla urna augue, </tspan><tspan x="0" y="262">eleifend nec pulvinar pulvinar, dignissim dictum justo. Nullam in metus pellentesque eros </tspan><tspan x="0" y="281">blandit blandit. Fusce non scelerisque nisi. Curabitur laoreet mi turpis, eu rutrum magna porta </tspan><tspan x="0" y="300">nec. Suspendisse eget faucibus ante. Fusce quis nibh ac ligula convallis consequat. Phasellus </tspan><tspan x="0" y="319">congue sapien vitae cursus consectetur. Suspendisse lectus est, pulvinar quis tortor ut.</tspan></text>
+        <g id="Group_7708" data-name="Group 7708" transform="translate(110 90)">
+          <g id="Group_7681" data-name="Group 7681" transform="translate(78.3 -85)">
+            <g id="Group_7675" data-name="Group 7675" transform="translate(80.2 164.4)">
+              <rect id="Rectangle_3897" data-name="Rectangle 3897" width="60" height="36" rx="18" transform="translate(618.5 399.6)" fill="#1f5ea8"/>
+              <text id="Save" transform="translate(633.831 423.574)" fill="#fff" font-size="14" font-family="OpenSans, Open Sans"><tspan x="0" y="0">Save</tspan></text>
+            </g>
+          </g>
+          <g id="Group_7707" data-name="Group 7707" transform="translate(-6.7 -85)">
+            <g id="Group_7675-2" data-name="Group 7675" transform="translate(80.2 164.4)">
+              <rect id="Rectangle_3897-2" data-name="Rectangle 3897" width="73" height="36" rx="18" transform="translate(618.5 399.6)" fill="none"/>
+              <text id="Cancel" transform="translate(633.831 423.574)" fill="#1f5ea8" font-size="14" font-family="OpenSans, Open Sans"><tspan x="0" y="0">Cancel</tspan></text>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g id="Rectangle_3899" data-name="Rectangle 3899" transform="translate(324 594)" fill="none" stroke="#ff00bc" stroke-width="2">
+        <rect width="197" height="50" stroke="none"/>
+        <rect x="1" y="1" width="195" height="48" fill="none"/>
+      </g>
+      <text id="_3" data-name="3" transform="translate(427 661)" fill="#ff00bc" font-size="16" font-family="OpenSans-Bold, Open Sans" font-weight="700"><tspan x="-9.133" y="0">3</tspan></text>
+      <g id="Rectangle_3898" data-name="Rectangle 3898" transform="translate(803 594)" fill="none" stroke="#ff00bc" stroke-width="2">
+        <rect width="73" height="50" stroke="none"/>
+        <rect x="1" y="1" width="71" height="48" fill="none"/>
+      </g>
+      <text id="_1" data-name="1" transform="translate(922 661)" fill="#ff00bc" font-size="16" font-family="OpenSans-Bold, Open Sans" font-weight="700"><tspan x="-9.133" y="0">1</tspan></text>
+      <text id="_2" data-name="2" transform="translate(844 661)" fill="#ff00bc" font-size="16" font-family="OpenSans-Bold, Open Sans" font-weight="700"><tspan x="-9.133" y="0">2</tspan></text>
+    </g>
+  </g>
+</svg>

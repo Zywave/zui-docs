@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="900" height="612" viewBox="0 0 900 612">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="300" height="42" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-forms--indicators">
+      <rect width="900" height="612"/>
+    </clipPath>
+  </defs>
+  <g id="forms--indicators" clip-path="url(#clip-forms--indicators)">
+    <text id="Account_Type" data-name="Account Type" transform="translate(301 266)" fill="#31313a" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Account Type</tspan></text>
+    <text id="_" data-name="*" transform="translate(399 179)" fill="#d93911" font-size="14" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="0">*</tspan></text>
+    <text id="_2" data-name="*" transform="translate(392 266)" fill="#d93911" font-size="14" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="0">*</tspan></text>
+    <g id="Dropdown_Input_-_Unselected" data-name="Dropdown Input - Unselected" transform="translate(300 275)">
+      <g id="Rectangle_288" data-name="Rectangle 288" fill="#fff" stroke="#cbcbd2" stroke-width="1">
+        <rect width="300" height="42" rx="4" stroke="none"/>
+        <rect x="0.5" y="0.5" width="299" height="41" rx="3.5" fill="none"/>
+      </g>
+      <text id="Select" transform="translate(15 27)" fill="#afafbb" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Select</tspan></text>
+      <g id="Group_7793" data-name="Group 7793" transform="translate(-550 -1698)">
+        <rect id="Rectangle_3867" data-name="Rectangle 3867" width="24" height="24" transform="translate(816 1707)" fill="none"/>
+        <path id="Path_5558" data-name="Path 5558" d="M56,9.4l-3,3-3-3a.967.967,0,0,0-1.4,0h0a.967.967,0,0,0,0,1.4l3.7,3.7a.967.967,0,0,0,1.4,0l3.7-3.7a.967.967,0,0,0,0-1.4h0A.965.965,0,0,0,56,9.4Z" transform="translate(775 1707)" fill="#9494a4"/>
+      </g>
+    </g>
+    <g id="Input-_no_label" data-name="Input- no label" transform="translate(300 362)" clip-path="url(#clip-path)">
+      <g id="Rectangle_288-2" data-name="Rectangle 288" fill="#fff" stroke="#cbcbd2" stroke-width="1">
+        <rect width="300" height="42" rx="4" stroke="none"/>
+        <rect x="0.5" y="0.5" width="299" height="41" rx="3.5" fill="none"/>
+      </g>
+    </g>
+    <g id="Input-_no_label-2" data-name="Input- no label" transform="translate(300 189)" clip-path="url(#clip-path)">
+      <g id="Rectangle_288-3" data-name="Rectangle 288" fill="#fff" stroke="#cbcbd2" stroke-width="1">
+        <rect width="300" height="42" rx="4" stroke="none"/>
+        <rect x="0.5" y="0.5" width="299" height="41" rx="3.5" fill="none"/>
+      </g>
+    </g>
+    <text id="City" transform="translate(300 352)" fill="#31313a" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">City</tspan></text>
+    <text id="Account_Name" data-name="Account Name" transform="translate(300 179)" fill="#31313a" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Account Name</tspan></text>
+    <text id="State" transform="translate(300 434)" fill="#31313a" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">State</tspan></text>
+    <g id="Primary_Button_-_Normal" data-name="Primary Button - Normal" transform="translate(300 516)">
+      <rect id="Rectangle_3990" data-name="Rectangle 3990" width="73.934" height="36" rx="18" fill="#2777d3"/>
+      <text id="Save" transform="translate(37 23)" fill="#fff" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="-14.68" y="0">Save</tspan></text>
+    </g>
+    <g id="Secondary_Button_-_Normal" data-name="Secondary Button - Normal" transform="translate(384 516)">
+      <path id="Path_8849" data-name="Path 8849" d="M18,0H55.934a18,18,0,0,1,0,36H18A18,18,0,0,1,18,0Z" fill="none"/>
+      <text id="Cancel" transform="translate(37 23)" fill="#2777d3" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="-20.925" y="0">Cancel</tspan></text>
+    </g>
+    <g id="Dropdown_Input_-_Unselected-2" data-name="Dropdown Input - Unselected" transform="translate(300 444)">
+      <g id="Rectangle_288-4" data-name="Rectangle 288" fill="#fff" stroke="#cbcbd2" stroke-width="1">
+        <rect width="213" height="42" rx="4" stroke="none"/>
+        <rect x="0.5" y="0.5" width="212" height="41" rx="3.5" fill="none"/>
+      </g>
+      <g id="Group_7793-2" data-name="Group 7793" transform="translate(-637 -1698)">
+        <rect id="Rectangle_3867-2" data-name="Rectangle 3867" width="24" height="24" transform="translate(816 1707)" fill="none"/>
+        <path id="Path_5558-2" data-name="Path 5558" d="M56,9.4l-3,3-3-3a.967.967,0,0,0-1.4,0h0a.967.967,0,0,0,0,1.4l3.7,3.7a.967.967,0,0,0,1.4,0l3.7-3.7a.967.967,0,0,0,0-1.4h0A.965.965,0,0,0,56,9.4Z" transform="translate(775 1707)" fill="#9494a4"/>
+      </g>
+    </g>
+    <text id="Fields_that_must_be_answered_are_marked_with_a_red_asterisk_" data-name="Fields that must be answered are marked with a red asterisk (  )" transform="translate(300 130)" fill="#31313a" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0" xml:space="preserve">Fields that must be answered are marked with a red asterisk (  )</tspan></text>
+    <text id="Add_Account" data-name="Add Account" transform="translate(300 98)" fill="#31313a" font-size="26" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Add Account</tspan></text>
+    <text id="_3" data-name="*" transform="translate(678 130)" fill="#d93911" font-size="14" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="0">*</tspan></text>
+  </g>
+</svg>

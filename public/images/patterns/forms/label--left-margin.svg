@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="900" height="218" viewBox="0 0 900 218">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="300" height="42" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-label--left-margin">
+      <rect width="900" height="218"/>
+    </clipPath>
+  </defs>
+  <g id="label--left-margin" clip-path="url(#clip-label--left-margin)">
+    <g id="Group_13271" data-name="Group 13271" transform="translate(216 30.5)">
+      <g id="Input-_no_label" data-name="Input- no label" transform="translate(163 15)" clip-path="url(#clip-path)">
+        <g id="Rectangle_288" data-name="Rectangle 288" fill="#fff" stroke="#cbcbd2" stroke-width="1">
+          <rect width="300" height="42" rx="4" stroke="none"/>
+          <rect x="0.5" y="0.5" width="299" height="41" rx="3.5" fill="none"/>
+        </g>
+      </g>
+      <g id="Input-_no_label-2" data-name="Input- no label" transform="translate(163 75)" clip-path="url(#clip-path)">
+        <g id="Rectangle_288-2" data-name="Rectangle 288" fill="#fff" stroke="#cbcbd2" stroke-width="1">
+          <rect width="300" height="42" rx="4" stroke="none"/>
+          <rect x="0.5" y="0.5" width="299" height="41" rx="3.5" fill="none"/>
+        </g>
+      </g>
+      <text id="Really_Long_Left_Aligned_Label" data-name="Really Long Left
+Aligned Label" transform="translate(120 102)" fill="#31313a" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="-101.452" y="0">Really Long Left</tspan><tspan x="-86.721" y="19">Aligned Label</tspan></text>
+      <text id="Left_Aligned_Label" data-name="Left Aligned Label" transform="translate(120 46)" fill="#31313a" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="-114.994" y="0">Left Aligned Label</tspan></text>
+      <line id="Line_2" data-name="Line 2" x1="40" transform="translate(122.5 137.5)" fill="none" stroke="#c6318c" stroke-width="1" stroke-dasharray="2 2"/>
+      <line id="Line_3" data-name="Line 3" y1="12" transform="translate(162.5 130.5)" fill="none" stroke="#c6318c" stroke-width="1" stroke-dasharray="2 2"/>
+      <line id="Line_1" data-name="Line 1" y2="138" transform="translate(122.5 -0.5)" fill="none" stroke="#c6318c" stroke-width="1" stroke-dasharray="2 2"/>
+    </g>
+  </g>
+</svg>

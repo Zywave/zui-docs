@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="445" height="248" viewBox="0 0 445 248">
+  <defs>
+    <filter id="Rectangle_3961" x="30.5" y="54.5" width="384" height="75" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1.5" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-auto_Complete">
+      <rect width="445" height="248"/>
+    </clipPath>
+  </defs>
+  <g id="auto_Complete" clip-path="url(#clip-auto_Complete)">
+    <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Rectangle_3961)">
+      <g id="Rectangle_3961-2" data-name="Rectangle 3961" transform="translate(35 58)" fill="#fff" stroke="#dbdbdb" stroke-width="1">
+        <rect width="375" height="66" rx="2" stroke="none"/>
+        <rect x="0.5" y="0.5" width="374" height="65" rx="1.5" fill="none"/>
+      </g>
+    </g>
+    <rect id="Rectangle_3962" data-name="Rectangle 3962" width="375" height="42" transform="translate(35 20)" fill="#fff" stroke="#79ace6" stroke-width="2"/>
+    <text id="al" transform="translate(51 47)" fill="#31313a" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">al</tspan></text>
+    <text id="Alabama_Alaska_" data-name="Alabama
+Alaska
+" transform="translate(51 85)" fill="#31313a" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Al</tspan><tspan y="0" font-family="SegoeUI-Bold, Segoe UI" font-weight="700">abama</tspan><tspan x="0" y="26">Al</tspan><tspan y="26" font-family="SegoeUI-Bold, Segoe UI" font-weight="700">aska</tspan><tspan font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="52"></tspan></tspan></text>
+    <line id="Line_11" data-name="Line 11" y2="20" transform="translate(62.5 31.5)" fill="none" stroke="#50a7ed" stroke-width="1"/>
+  </g>
+</svg>

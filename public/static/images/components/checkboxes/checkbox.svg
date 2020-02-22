@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100" height="72" viewBox="0 0 100 72">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="24" height="24" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-checkbox">
+      <rect width="100" height="72"/>
+    </clipPath>
+  </defs>
+  <g id="checkbox" clip-path="url(#clip-checkbox)">
+    <g id="Group_1" data-name="Group 1" transform="translate(-5)">
+      <circle id="Ellipse_2014" data-name="Ellipse 2014" cx="18" cy="18" r="18" transform="translate(5)" fill="none"/>
+      <circle id="Ellipse_2015" data-name="Ellipse 2015" cx="18" cy="18" r="18" transform="translate(5 36)" fill="none"/>
+      <g id="Unchecked" transform="translate(11 6)" clip-path="url(#clip-path)">
+        <path id="Unchecked-2" data-name="Unchecked" d="M21,2.4a.567.567,0,0,1,.6.6V21a.567.567,0,0,1-.6.6H3a.567.567,0,0,1-.6-.6V3A.567.567,0,0,1,3,2.4H21M21,0H3A2.971,2.971,0,0,0,0,3V21a2.971,2.971,0,0,0,3,3H21a2.971,2.971,0,0,0,3-3V3a2.971,2.971,0,0,0-3-3Z" fill="#9494a4"/>
+      </g>
+      <g id="Checked" transform="translate(11 42)" clip-path="url(#clip-path)">
+        <path id="Path_5845" data-name="Path 5845" d="M46.2,0h-18a2.971,2.971,0,0,0-3,3V21a2.971,2.971,0,0,0,3,3h18a2.971,2.971,0,0,0,3-3V3A2.971,2.971,0,0,0,46.2,0ZM44.64,8.52l-8.76,8.76a1.16,1.16,0,0,1-1.68,0l-4.32-4.32a1.188,1.188,0,0,1,1.68-1.68l3.48,3.48,7.92-7.92a1.16,1.16,0,0,1,1.68,0A1.442,1.442,0,0,1,44.64,8.52Z" transform="translate(-25.2)" fill="#2777d3"/>
+      </g>
+      <text id="Porsche" transform="translate(41 24)" fill="#1a1a1e" stroke="rgba(0,0,0,0)" stroke-width="1" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Porsche</tspan></text>
+      <text id="Corvette" transform="translate(41 60)" fill="#1a1a1e" stroke="rgba(0,0,0,0)" stroke-width="1" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Corvette</tspan></text>
+    </g>
+  </g>
+</svg>

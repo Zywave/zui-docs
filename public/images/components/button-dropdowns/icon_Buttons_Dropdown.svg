@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="262" height="175" viewBox="0 0 262 175">
+  <defs>
+    <filter id="Path_5689" x="3" y="41" width="257.3" height="136" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-icon_Buttons_Dropdown">
+      <rect width="262" height="175"/>
+    </clipPath>
+  </defs>
+  <g id="icon_Buttons_Dropdown" clip-path="url(#clip-icon_Buttons_Dropdown)">
+    <g id="Group_7869" data-name="Group 7869">
+      <g id="Group_7798" data-name="Group 7798" transform="translate(-1451 -1865)">
+        <rect id="Rectangle_4868" data-name="Rectangle 4868" width="37" height="37" rx="18.5" transform="translate(1461 1875)" fill="#1f5ea8"/>
+        <g id="Artwork_40" data-name="Artwork 40" transform="translate(1482 1896)">
+          <g id="Group_7784" data-name="Group 7784" transform="translate(-12 -12)">
+            <rect id="Rectangle_4838" data-name="Rectangle 4838" width="20" height="20" fill="none"/>
+            <path id="Path_5652" data-name="Path 5652" d="M16.4,7.324H3.6A1.566,1.566,0,0,0,2,8.853v4.588a.783.783,0,0,0,.8.765H5.209V12.248a1.174,1.174,0,0,1,1.2-1.147h7.2a1.174,1.174,0,0,1,1.2,1.147L14.8,14.206h2.4a.783.783,0,0,0,.8-.765V8.853A1.566,1.566,0,0,0,16.4,7.324ZM4.009,9.572a.383.383,0,1,1,.4-.382A.391.391,0,0,1,4.009,9.572ZM14.8,6.559H5.2V5.029A1.566,1.566,0,0,1,6.8,3.5h6.4a1.566,1.566,0,0,1,1.6,1.529ZM14,12.294v3.441a.783.783,0,0,1-.8.765H6.8a.783.783,0,0,1-.8-.765V12.294a.391.391,0,0,1,.4-.382h7.2A.391.391,0,0,1,14,12.294Z" transform="translate(0 0)" fill="#fff"/>
+          </g>
+        </g>
+      </g>
+      <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Path_5689)">
+        <path id="Path_5689-2" data-name="Path 5689" d="M4,0H235.3a4,4,0,0,1,4,4V114a4,4,0,0,1-4,4H4a4,4,0,0,1-4-4V4A4,4,0,0,1,4,0Z" transform="translate(12 47)" fill="#fff"/>
+      </g>
+      <path id="Path_5690" data-name="Path 5690" d="M0,0H239.3V36H0Z" transform="translate(12 52)" fill="#fff"/>
+      <path id="Path_5694" data-name="Path 5694" d="M0,0H239.3V36H0Z" transform="translate(12 124)" fill="#fff"/>
+      <text id="Print_as_portrait" data-name="Print as portrait" transform="translate(28 74)" fill="#5b5b5b" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Print as portrait</tspan></text>
+      <text id="Print_as_landscape" data-name="Print as landscape" transform="translate(28 112)" fill="#5b5b5b" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Print as landscape</tspan></text>
+      <text id="Change_print_settings" data-name="Change print settings" transform="translate(28 148)" fill="#5b5b5b" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Change print settings</tspan></text>
+    </g>
+  </g>
+</svg>

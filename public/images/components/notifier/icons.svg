@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="304" height="84" viewBox="0 0 304 84">
+  <g id="Icons" transform="translate(-739 -108)">
+    <g id="Group_11933" data-name="Group 11933" transform="translate(885 108)">
+      <path id="Path_6639" data-name="Path 6639" d="M16.472,35.913a.6.6,0,0,1-.848,0L3.175,23.463a.6.6,0,0,1,0-.848l3.394-3.394a.6.6,0,0,1,.848,0l8.632,8.63L38.165,5.734a.6.6,0,0,1,.85,0l3.394,3.395a.6.6,0,0,1,0,.848Z" transform="translate(0.6 1.112)" fill="#494955"/>
+      <rect id="Rectangle_5235" data-name="Rectangle 5235" width="48" height="48" transform="translate(0)" fill="none"/>
+    </g>
+    <rect id="Rectangle_5238" data-name="Rectangle 5238" width="48" height="48" transform="translate(825 108)" fill="none"/>
+    <path id="Path_6642" data-name="Path 6642" d="M153,56.328V32.234a.672.672,0,0,1,.672-.672h4.438a.672.672,0,0,1,.672.672V56.328a.672.672,0,0,1-.672.672h-4.438A.672.672,0,0,1,153,56.328Zm.672-30.547h4.438a.672.672,0,0,0,.672-.672V20.672a.672.672,0,0,0-.672-.672h-4.438a.672.672,0,0,0-.672.672v4.438A.672.672,0,0,0,153.672,25.781Z" transform="translate(632 93)" fill="#494955"/>
+    <text id="Informative" transform="translate(790 187)" fill="#707070" font-size="20" font-family="SegoeUI, Segoe UI"><tspan x="-50.317" y="0">Informative</tspan></text>
+    <text id="Success" transform="translate(907 187)" fill="#707070" font-size="20" font-family="SegoeUI, Segoe UI"><tspan x="-33.926" y="0">Success</tspan></text>
+    <text id="Error_Fail" data-name="Error/Fail" transform="translate(1003 187)" fill="#707070" font-size="20" font-family="SegoeUI, Segoe UI"><tspan x="-39.717" y="0">Error/Fail</tspan></text>
+    <g id="Group_11942" data-name="Group 11942" transform="translate(983 110)">
+      <path id="Path_6647" data-name="Path 6647" d="M22.212,26.087,24.3,1.043A1.043,1.043,0,0,0,23.256,0H17a1.044,1.044,0,0,0-1.044,1.043l2.087,25.044a1.044,1.044,0,0,0,1.044,1.044h2.087A1.043,1.043,0,0,0,22.212,26.087Z" fill="#494955"/>
+      <path id="Path_6648" data-name="Path 6648" d="M20.1,31.488a4.259,4.259,0,1,0,4.284,4.285v-.058A4.266,4.266,0,0,0,20.1,31.488Z" fill="#494955"/>
+      <rect id="Rectangle_5240" data-name="Rectangle 5240" width="40" height="40" fill="none"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,783 @@
+<!DOCTYPE html>
+<html><head>
+    <title>Shell | Zywave User Interface</title>
+    <link href="http://zui.zywave.com/css/ie-sucks.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://unpkg.com/@zywave/zui-bundle@next/dist/css/zui-bundle.fouc.css" />
+    <link rel="stylesheet" href="https://unpkg.com/@zywave/zui-bundle@next/dist/css/zui-bundle.app.css" />
+    <link href="http://zui.zywave.com/css/base.css" rel="stylesheet" />
+    <link href="http://zui.zywave.com/css/shortcodes.css" rel="stylesheet" />
+    <link href="http://zui.zywave.com/css/syntax-highlighting-monokai.css" rel="stylesheet" />
+    <link rel='shortcut icon' type='image/x-icon' href='http://zui.zywave.com/static/favicon.ico' />
+    <script src="http://zui.zywave.com/js/ie-sucks.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.3.0/fuse.min.js"></script>
+    <style>
+        :root {
+            --zui-shell-primary-theme: var(--zui-green);
+            --zui-shell-primary-theme-dark: var(--zui-green-600);
+            --zui-tabs-color: var(--zui-green);
+        }
+    </style>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const externalLinks = document.querySelectorAll('a[href^="http://"], a[href^="https://"]');
+            for (const l of externalLinks) {
+                if (l.href.indexOf("http://zui.zywave.com/") < 0) {
+                    l.target = '_blank';
+                }
+            }
+        });
+
+        
+        
+    </script>
+</head>
+<body>
+        <ie-sucks>
+            No. Stop it. Use a real browser.
+        </ie-sucks>
+        <zui-shell app-name="ZUI Documentation"><zui-shell-topbar>
+    <zui-logo slot="logo"></zui-logo>
+</zui-shell-topbar>
+
+
+
+<zui-shell-nav>
+    <zui-shell-nav-item>
+        <zui-icon icon="zui-nav-home" slot="icon"></zui-icon>
+        <a href="http://zui.zywave.com/" active>Home</a>
+    </zui-shell-nav-item>
+    
+    
+    <zui-shell-nav-item subnav>
+        <zui-icon icon="zui-nav-developers" slot="icon"></zui-icon>
+        
+            <span>Developers</span>
+            
+            
+            
+            
+            <a href="http://zui.zywave.com/developers/contribution-guide/" >Contribution guide</a>
+            
+            <a href="http://zui.zywave.com/developers/developing-zui/" >Developing ZUI</a>
+            
+            <a href="http://zui.zywave.com/developers/installation/" >Installation</a>
+            
+            <a href="http://zui.zywave.com/developers/lit/" >Lit 🔥</a>
+            
+            <a href="http://zui.zywave.com/developers/polyfills/" >Polyfills</a>
+            
+            <a href="http://zui.zywave.com/developers/responsive-design/" >Responsive design</a>
+            
+            <a href="http://zui.zywave.com/developers/tooling/" >Tooling</a>
+            
+            <a href="http://zui.zywave.com/developers/webcomponents/" >Web components</a>
+            
+        
+    </zui-shell-nav-item>
+    
+    
+    <zui-shell-nav-item subnav>
+        <zui-icon icon="zui-nav-foundations" slot="icon"></zui-icon>
+        
+            <span>Foundations</span>
+            
+            
+                
+            
+            
+            
+            <a href="http://zui.zywave.com/foundations/colors/" >Colors</a>
+            
+            <a href="http://zui.zywave.com/foundations/content-area/" >Content area</a>
+            
+            <a href="http://zui.zywave.com/foundations/fonts-typography/" >Fonts &amp; typography</a>
+            
+            <a href="http://zui.zywave.com/foundations/footer/" >Footer</a>
+            
+            <a href="http://zui.zywave.com/foundations/icons/" >Icons</a>
+            
+            <a href="http://zui.zywave.com/foundations/illustrations/" >Illustrations</a>
+            
+            <a href="http://zui.zywave.com/foundations/product-branding/" >Product branding</a>
+            
+            <a href="http://zui.zywave.com/foundations/shell/" active>Shell</a>
+            
+            <a href="http://zui.zywave.com/foundations/sidenav/" >Sidenav</a>
+            
+            <a href="http://zui.zywave.com/foundations/topbar/" >Topbar</a>
+            
+        
+    </zui-shell-nav-item>
+    
+    
+    <zui-shell-nav-item subnav>
+        <zui-icon icon="zui-nav-components" slot="icon"></zui-icon>
+        
+            <span>Components</span>
+            
+            
+                
+            
+            
+            
+            <a href="http://zui.zywave.com/components/breadcrumbs/" >Breadcrumbs</a>
+            
+            <a href="http://zui.zywave.com/components/buttons-dropdown/" >Button dropdowns</a>
+            
+            <a href="http://zui.zywave.com/components/buttons/" >Buttons</a>
+            
+            <a href="http://zui.zywave.com/components/checkboxes/" >Checkboxes</a>
+            
+            <a href="http://zui.zywave.com/components/dialogs/" >Dialogs</a>
+            
+            <a href="http://zui.zywave.com/components/dropdown-multi-select/" >Dropdown multi-select</a>
+            
+            <a href="http://zui.zywave.com/components/dropdown-select/" >Dropdown select</a>
+            
+            <a href="http://zui.zywave.com/components/expanders/" >Expanders</a>
+            
+            <a href="http://zui.zywave.com/components/file-selector/" >File Selector</a>
+            
+            <a href="http://zui.zywave.com/components/notifiers/" >Notifiers</a>
+            
+            <a href="http://zui.zywave.com/components/radio-buttons/" >Radio buttons</a>
+            
+            <a href="http://zui.zywave.com/components/tabs/" >Tabs</a>
+            
+            <a href="http://zui.zywave.com/components/text-input/" >Text Input</a>
+            
+            <a href="http://zui.zywave.com/components/toggles/" >Toggles</a>
+            
+            <a href="http://zui.zywave.com/components/tooltips/" >Tooltips</a>
+            
+            <a href="http://zui.zywave.com/components/wells/" >Well</a>
+            
+        
+    </zui-shell-nav-item>
+    
+    
+    <zui-shell-nav-item subnav>
+        <zui-icon icon="zui-nav-patterns" slot="icon"></zui-icon>
+        
+            <span>Patterns</span>
+            
+            
+                
+            
+            
+            
+            <a href="http://zui.zywave.com/patterns/forms/" >Forms</a>
+            
+            <a href="http://zui.zywave.com/patterns/step-flow/" >Step flow</a>
+            
+            <a href="http://zui.zywave.com/patterns/typeahead/" >Typeahead</a>
+            
+        
+    </zui-shell-nav-item>
+    
+    
+    <zui-shell-nav-item subnav>
+        <zui-icon icon="zui-nav-help" slot="icon"></zui-icon>
+        
+            <span>Communications</span>
+            
+            
+                
+            
+            
+            
+            <a href="http://zui.zywave.com/communications/messages/" >Messages</a>
+            
+            <a href="http://zui.zywave.com/communications/voice-tone/" >Voice &amp; tone</a>
+            
+            <a href="http://zui.zywave.com/communications/writing-style-guide/" >Writing style guide</a>
+            
+        
+    </zui-shell-nav-item>
+    
+    
+    <zui-shell-nav-item >
+        <zui-icon icon="zui-nav-accounts" slot="icon"></zui-icon>
+        
+            <a href="http://zui.zywave.com/personas/" >Personas</a>
+        
+    </zui-shell-nav-item>
+    
+    <script>
+        
+        const activeLinks = document.querySelectorAll('zui-shell-nav-item a[active]');
+            for (let activeLink of activeLinks) {
+                activeLink.closest('zui-shell-nav-item').expanded = true;
+            }
+    </script>
+</zui-shell-nav>
+<zui-shell-content id="content">
+                <section class="zui-layout zui-layout--slim">
+                    <div class="page-heading">
+                        <h1>Shell</h1>
+                        
+                    </div>
+                    <div class="content-container">
+                        
+
+
+<dom-bind>
+    <template>
+        <zui-tabs selected="{{page}}">
+            
+            <zui-tab>Design</zui-tab>
+            
+            <zui-tab>Toolkit</zui-tab>
+            
+        </zui-tabs>
+        <zui-pages selected="[[page]]">
+            
+            <div>
+                
+                <h2 id="what-is-shell">What is Shell?</h2>
+
+<p>The Shell wraps around all of our applications and provides suite level consistencies, branding, and common functionality. It helps the user in understand and naviagate the core of the Zywave suite.</p>
+
+<!--
+##### Links
+[View shell specs](https://xd.adobe.com/spec/e5a044ff-f756-4d8a-433b-62c78587509b-9391/)
+-->
+
+<hr />
+
+<h2 id="anatomy">Anatomy</h2>
+
+<p>The shell includes 4 core sections which surround the content standard content area, Topbar, Side nav, and footer. For a consistent user experience, use all 3 core shell components when building applications.</p>
+
+<h4 id="1-topbar">1. - Topbar</h4>
+
+<p>The Top bar is the section reserved at the top of the page that provides applicatino branding, suite-level navigation, and high priorty fucntionality such as search. For more detailed information, <a href="http://zui.zywave.com/foundations/topbar">view Topbar guidelines</a>.</p>
+
+<h4 id="2-sidenav">2. - Sidenav</h4>
+
+<p>The Side nav provides a standard place for navigation within a product. Placed on the left-hand side of the site, it lists out the application-specific site features you can click on and access, as well as features like settings, notifications, and help. For more detailed information, <a href="http://zui.zywave.com/foundations/sidenav">view Sidenav guidelines</a>.</p>
+
+<h4 id="3-footer">3. - Footer</h4>
+
+<p>The section at the bottom of the page which contains information that needs to be there, but doesn&rsquo;t necessarily demand the user&rsquo;s primary focus. The footer includes trademark, terms &amp; conditions, privacy statement, DMCA, cookie usage, and contact information. For more detailed information, <a href="http://zui.zywave.com/foundations/footer">view Footer guidelines</a>.</p>
+
+<h4 id="4-content-area">4. - Content area</h4>
+
+<p>The Content area is the the body of our applications where all the the features and funcionality gets placed. For more detailed information,<a href="http://zui.zywave.com/foundations/content_area">view Content area guidelines</a></p>
+
+<p><img src="http://zui.zywave.com/images/foundations/shell/shell-basics.svg" alt="Shell screenshot" /></p>
+
+<hr />
+
+<h2 id="suite-vs-individual-products">Suite vs individual products</h2>
+
+<p>Depending on if you are building a single point solution that will be sold individually, or a feature that fits into our suite with other feature of the same nature, the shell can change to accomdate an ideal user experience.</p>
+
+<p><img src="http://zui.zywave.com/images/foundations/shell/shell--suite.svg" alt="Shell suite screenshot" /><br />
+<em>Example: Shell for the Zywave suite.</em></p>
+
+<div class="spacer "></div>
+
+<p><img src="http://zui.zywave.com/images/foundations/shell/shell--individual-mm.svg" alt="Shell Modmaster screenshot" />
+<em>Example: Shell for a single point solution (ModMaster). The application bar becomes slightly larger to accomidate the application name.</em></p>
+
+<hr />
+
+<h2 id="responsive-design">Responsive design</h2>
+
+<div class="grid">
+    <div class='grid-col span-6'>
+    <p>The shell has been designed to tranisition itself for a better expereince on mobile devices. At our mobile breakpoint (≥720px), the side nav becomes heeden off screen and slides in when the menu button his pushed. For a detailed list of what happens in each 4 core sections, please visit those sections.</p>
+
+</div>
+<div class='grid-col span-6'>
+    <p><img src="http://zui.zywave.com/images/foundations/shell/shell--mobile-basics.svg" alt="Shell mobile screenshot" /></p>
+
+</div>
+
+<p></div></p>
+
+                
+            </div>
+            
+            <div>
+                
+                <!-- Generated by documentation.js. Update this documentation by updating the source code. -->
+
+<h3 id="table-of-contents">Table of Contents</h3>
+
+<ul>
+<li><a href="#zuishell">ZuiShell</a>
+
+<ul>
+<li><a href="#example">Example</a></li>
+<li><a href="#appname">appName</a></li>
+</ul></li>
+<li><a href="#zuishelltopbar">ZuiShellTopBar</a>
+
+<ul>
+<li><a href="#example-1">Example</a></li>
+<li><a href="#noappbar">noAppBar</a></li>
+<li><a href="#noscrollanimation">noScrollAnimation</a></li>
+<li><a href="#searchopen">searchOpen</a></li>
+<li><a href="#_topbarwrapper">_topbarWrapper</a></li>
+<li><a href="#_slotsearch">_slotSearch</a></li>
+<li><a href="#_slotdefault">_slotDefault</a></li>
+</ul></li>
+<li><a href="#zuishellapps">ZuiShellApps</a>
+
+<ul>
+<li><a href="#examples">Examples</a></li>
+<li><a href="#appheader">appHeader</a></li>
+<li><a href="#allappsurl">allAppsUrl</a></li>
+<li><a href="#allappstext">allAppsText</a></li>
+<li><a href="#open">open</a></li>
+<li><a href="#_getappslisthtml">_getAppsListHtml</a>
+
+<ul>
+<li><a href="#parameters">Parameters</a></li>
+</ul></li>
+</ul></li>
+<li><a href="#zuishellappsitem">ZuiShellAppsItem</a>
+
+<ul>
+<li><a href="#examples-1">Examples</a></li>
+<li><a href="#name">name</a></li>
+<li><a href="#description">description</a></li>
+<li><a href="#url">url</a></li>
+<li><a href="#target">target</a></li>
+</ul></li>
+<li><a href="#zuishellnav">ZuiShellNav</a>
+
+<ul>
+<li><a href="#open-1">open</a></li>
+<li><a href="#collapsed">collapsed</a></li>
+<li><a href="#collapselabel">collapseLabel</a></li>
+</ul></li>
+<li><a href="#zuishellnavitem">ZuiShellNavItem</a>
+
+<ul>
+<li><a href="#examples-2">Examples</a></li>
+<li><a href="#expanded">expanded</a></li>
+<li><a href="#subnav">subnav</a></li>
+</ul></li>
+<li><a href="#zuishellfooter">ZuiShellFooter</a>
+
+<ul>
+<li><a href="#example-2">Example</a></li>
+</ul></li>
+<li><a href="#zuishellcontent">ZuiShellContent</a>
+
+<ul>
+<li><a href="#example-3">Example</a></li>
+</ul></li>
+<li><a href="#zuishelluser">ZuiShellUser</a>
+
+<ul>
+<li><a href="#givenname">givenName</a></li>
+<li><a href="#familyname">familyName</a></li>
+<li><a href="#profilename">profileName</a></li>
+<li><a href="#profiledetail">profileDetail</a></li>
+<li><a href="#username">username</a></li>
+<li><a href="#manageuserurl">manageUserUrl</a></li>
+<li><a href="#logoutuserurl">logoutUserUrl</a></li>
+<li><a href="#manageprofileurl">manageProfileUrl</a></li>
+<li><a href="#switchprofileurl">switchProfileUrl</a></li>
+<li><a href="#avatar">avatar</a></li>
+<li><a href="#userheader">userHeader</a></li>
+<li><a href="#profileheader">profileHeader</a></li>
+<li><a href="#manageusertext">manageUserText</a></li>
+<li><a href="#logoutusertext">logoutUserText</a></li>
+<li><a href="#manageprofiletext">manageProfileText</a></li>
+<li><a href="#switchprofiletext">switchProfileText</a></li>
+<li><a href="#open-2">open</a></li>
+<li><a href="#notificationcount">notificationCount</a></li>
+<li><a href="#notificationheader">notificationHeader</a></li>
+<li><a href="#viewnotificationtitle">viewNotificationTitle</a></li>
+<li><a href="#nonotificationtitle">noNotificationTitle</a></li>
+<li><a href="#viewnotificationtext">viewNotificationText</a></li>
+<li><a href="#viewnotificationurl">viewNotificationUrl</a></li>
+<li><a href="#impersonating">impersonating</a></li>
+<li><a href="#impersonatingaction">impersonatingAction</a></li>
+<li><a href="#impersonatingprofilename">impersonatingProfileName</a></li>
+<li><a href="#impersonatinggivenname">impersonatingGivenName</a></li>
+<li><a href="#impersonatingfamilyname">impersonatingFamilyName</a></li>
+<li><a href="#unauthenticated">unauthenticated</a></li>
+<li><a href="#loginusertext">loginUserText</a></li>
+<li><a href="#loginuserurl">loginUserUrl</a></li>
+</ul></li>
+</ul>
+
+<h2 id="zuishell">ZuiShell</h2>
+
+<p><strong>Extends ZuiShellBaseMixin(ZuiBaseElement)</strong></p>
+
+<p>The Shell must wrap all <code>zui-shell</code> components in order for applications to render styles and functions correctly.</p>
+
+<h3 id="example">Example</h3>
+<div class="highlight"><pre class="chroma"><code class="language-html" data-lang="html"><span class="p">&lt;</span><span class="nt">zui-shell</span> <span class="na">app-name</span><span class="o">=</span><span class="s">&#34;ZUI Documentation&#34;</span> <span class="na">unresolved</span><span class="p">&gt;</span>
+  <span class="p">&lt;</span><span class="nt">zui-shell-topbar</span> <span class="na">unresolved</span><span class="p">&gt;&lt;/</span><span class="nt">zui-shell-topbar</span><span class="p">&gt;</span>
+  <span class="p">&lt;</span><span class="nt">zui-shell-nav</span> <span class="na">unresolved</span><span class="p">&gt;&lt;/</span><span class="nt">zui-shell-nav</span><span class="p">&gt;</span>
+  <span class="p">&lt;</span><span class="nt">zui-shell-content</span> <span class="na">unresolved</span><span class="p">&gt;&lt;/</span><span class="nt">zui-shell-content</span><span class="p">&gt;</span>
+  <span class="p">&lt;</span><span class="nt">zui-shell-footer</span> <span class="na">unresolved</span><span class="p">&gt;&lt;/</span><span class="nt">zui-shell-footer</span><span class="p">&gt;</span>
+<span class="p">&lt;/</span><span class="nt">zui-shell</span><span class="p">&gt;</span></code></pre></div>
+<h3 id="appname">appName</h3>
+
+<p>The user-friendly name for this application.</p>
+
+<h2 id="zuishelltopbar">ZuiShellTopBar</h2>
+
+<p><strong>Extends ZuiShellBaseMixin(ZuiBaseElement)</strong></p>
+
+<p>There are two parts to the topbar: global and app. The top white bar is our global topbar, which has Zywave branding and includes global functionality. The bottom colored bar is our app bar, which is tailored to the application or Cloud the user is in. Sometimes it is branded with the product name if not part of a Cloud.</p>
+
+<h3 id="example-1">Example</h3>
+<div class="highlight"><pre class="chroma"><code class="language-html" data-lang="html"><span class="p">&lt;</span><span class="nt">zui-shell-topbar</span> <span class="na">no-appbar</span> <span class="na">no-scroll-animation</span> <span class="na">unresolved</span><span class="p">&gt;</span>
+  <span class="p">&lt;</span><span class="nt">zui-logo</span> <span class="na">unresolved</span><span class="p">&gt;&lt;/</span><span class="nt">zui-logo</span><span class="p">&gt;</span>
+  <span class="p">&lt;</span><span class="nt">zui-search</span> <span class="na">unresolved</span><span class="p">&gt;&lt;/</span><span class="nt">zui-search</span><span class="p">&gt;</span>
+<span class="p">&lt;/</span><span class="nt">zui-shell-topbar</span><span class="p">&gt;</span></code></pre></div>
+<h3 id="noappbar">noAppBar</h3>
+
+<p>To only want to include the global topbar and not the app bar (Optional)</p>
+
+<h3 id="noscrollanimation">noScrollAnimation</h3>
+
+<p>To opt out of the topbar&rsquo;s off-screen scrolling animation. (Optional)
+Internet Explorer 11 does not include this animation.</p>
+
+<h3 id="searchopen">searchOpen</h3>
+
+<p>Only to detect if search is open on mobile</p>
+
+<h3 id="topbarwrapper">_topbarWrapper</h3>
+
+<p>Query topbar wrapper to show and hide based on window scroll</p>
+
+<h3 id="slotsearch">_slotSearch</h3>
+
+<p>Query elements assigned to the search slot
+For search components only</p>
+
+<h3 id="slotdefault">_slotDefault</h3>
+
+<p>Query elements assigned to the default slot
+Backwards compatibility for search components only</p>
+
+<h2 id="zuishellapps">ZuiShellApps</h2>
+
+<p><strong>Extends ZuiShellBaseMixin(ZuiBaseElement)</strong></p>
+
+<p><code>zui-shell-apps</code> is our product launchpad and is a topbar feature. This is the primary method of jumping from application to application. Consumers should set this up to only list products the user has access to.</p>
+
+<h3 id="examples">Examples</h3>
+
+<p>Default</p>
+<div class="highlight"><pre class="chroma"><code class="language-html" data-lang="html"><span class="p">&lt;</span><span class="nt">zui-shell-apps</span> <span class="na">unresolved</span><span class="p">&gt;</span>
+  <span class="p">&lt;</span><span class="nt">zui-shell-apps-item</span> <span class="na">unresolved</span>
+    <span class="na">slot</span><span class="o">=</span><span class="s">&#34;apps&#34;</span>
+    <span class="na">name</span><span class="o">=</span><span class="s">&#34;Broker Briefcase&#34;</span>
+    <span class="na">description</span><span class="o">=</span><span class="s">&#34;Growth &amp; marketing platform&#34;</span>
+    <span class="na">url</span><span class="o">=</span><span class="s">&#34;#&#34;</span><span class="p">&gt;</span>
+  <span class="p">&lt;/</span><span class="nt">zui-shell-apps-item</span><span class="p">&gt;</span>
+<span class="p">&lt;/</span><span class="nt">zui-shell-apps</span><span class="p">&gt;</span></code></pre></div>
+<p>With an optional &ldquo;view all apps&rdquo; link</p>
+<div class="highlight"><pre class="chroma"><code class="language-html" data-lang="html"><span class="p">&lt;</span><span class="nt">zui-shell-apps</span> <span class="na">all-apps-url</span><span class="o">=</span><span class="s">&#34;http://www.zywave.com&#34;</span> <span class="na">all-apps-text</span><span class="o">=</span><span class="s">&#34;See all products&#34;</span> <span class="na">unresolved</span><span class="p">&gt;</span>
+  <span class="p">&lt;</span><span class="nt">zui-shell-apps-item</span> <span class="na">unresolved</span>
+    <span class="na">slot</span><span class="o">=</span><span class="s">&#34;apps&#34;</span>
+    <span class="na">name</span><span class="o">=</span><span class="s">&#34;Broker Briefcase&#34;</span>
+    <span class="na">description</span><span class="o">=</span><span class="s">&#34;Growth &amp; marketing platform&#34;</span>
+    <span class="na">url</span><span class="o">=</span><span class="s">&#34;#&#34;</span><span class="p">&gt;</span>
+  <span class="p">&lt;/</span><span class="nt">zui-shell-apps-item</span><span class="p">&gt;</span>
+<span class="p">&lt;/</span><span class="nt">zui-shell-apps</span><span class="p">&gt;</span></code></pre></div>
+<h3 id="appheader">appHeader</h3>
+
+<p>Header for the apps dropdown. (Default: Apps)</p>
+
+<h3 id="allappsurl">allAppsUrl</h3>
+
+<p>Link to view all apps in a separate location.
+Set this property if you want the &ldquo;See all&rdquo; links
+to appear at the bottom of your apps list. (Optional)</p>
+
+<h3 id="allappstext">allAppsText</h3>
+
+<p>Text for the link to view all apps in a separate location.
+Will not show up if <code>all-apps-url</code> is not set. (Optional)</p>
+
+<h3 id="open">open</h3>
+
+<p>Opens the dropdown menu when <code>open</code> is set to true.</p>
+
+<h3 id="getappslisthtml">_getAppsListHtml</h3>
+
+<h4 id="parameters">Parameters</h4>
+
+<ul>
+<li><code>allAppsUrl</code> <strong><a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String">string</a></strong> Shows the link to view all apps at the very bottom of the apps list when set.</li>
+</ul>
+
+<h2 id="zuishellappsitem">ZuiShellAppsItem</h2>
+
+<p><strong>Extends ZuiShellBaseMixin(ZuiBaseElement)</strong></p>
+
+<p>Child element of <code>zui-shell-apps</code> that renders into a link for each product the user has access to.</p>
+
+<h3 id="examples-1">Examples</h3>
+
+<p>Default</p>
+<div class="highlight"><pre class="chroma"><code class="language-html" data-lang="html"><span class="p">&lt;</span><span class="nt">zui-shell-apps-item</span> <span class="na">unresolved</span>
+  <span class="na">slot</span><span class="o">=</span><span class="s">&#34;apps&#34;</span>
+  <span class="na">name</span><span class="o">=</span><span class="s">&#34;Broker Briefcase&#34;</span>
+  <span class="na">description</span><span class="o">=</span><span class="s">&#34;Growth &amp; marketing platform&#34;</span>
+  <span class="na">url</span><span class="o">=</span><span class="s">&#34;#&#34;</span><span class="p">&gt;</span>
+<span class="p">&lt;/</span><span class="nt">zui-shell-apps-item</span><span class="p">&gt;</span></code></pre></div>
+<p>With an optional target</p>
+<div class="highlight"><pre class="chroma"><code class="language-html" data-lang="html"><span class="p">&lt;</span><span class="nt">zui-shell-apps-item</span> <span class="na">unresolved</span>
+  <span class="na">slot</span><span class="o">=</span><span class="s">&#34;apps&#34;</span>
+  <span class="na">name</span><span class="o">=</span><span class="s">&#34;Broker Briefcase&#34;</span>
+  <span class="na">description</span><span class="o">=</span><span class="s">&#34;Growth &amp; marketing platform&#34;</span>
+  <span class="na">url</span><span class="o">=</span><span class="s">&#34;#&#34;</span>
+  <span class="na">target</span><span class="o">=</span><span class="s">&#34;_self&#34;</span><span class="p">&gt;</span>
+<span class="p">&lt;/</span><span class="nt">zui-shell-apps-item</span><span class="p">&gt;</span></code></pre></div>
+<h3 id="name">name</h3>
+
+<p>Name of the application.</p>
+
+<h3 id="description">description</h3>
+
+<p>Description of the application.</p>
+
+<h3 id="url">url</h3>
+
+<p>URL to the application.</p>
+
+<h3 id="target">target</h3>
+
+<p>Specify where to open the link. Default opens in a new tab. (Optional)</p>
+
+<h2 id="zuishellnav">ZuiShellNav</h2>
+
+<p><strong>Extends ZuiShellBaseMixin(ZuiBaseElement)</strong></p>
+
+<p>The Shell collapsible side nav that houses the application&rsquo;s primary navigation. On medium screen sizes, the side nav automatically collapses to give users more screen real estate. Users can choose to expand it if they prefer.</p>
+
+<h3 id="open-1">open</h3>
+
+<p>Indicates whether the side nav is open or not. (MOBILE ONLY)</p>
+
+<h3 id="collapsed">collapsed</h3>
+
+<p>Indicates when the side nav is collapsed.</p>
+
+<h3 id="collapselabel">collapseLabel</h3>
+
+<p>For customizing the text for the collapse button at the bottom of the side nav. The default value is &ldquo;Collapse.&rdquo;</p>
+
+<h2 id="zuishellnavitem">ZuiShellNavItem</h2>
+
+<p><strong>Extends ZuiShellBaseMixin(ZuiBaseElement)</strong></p>
+
+<p>Child element of <code>zui-shell-nav</code> that renders into a link. Top-level menu items must be accompanied by an icon. Children menu-items do not need an icon.</p>
+
+<h3 id="examples-2">Examples</h3>
+
+<p>For a top-level menu item with no children items</p>
+<div class="highlight"><pre class="chroma"><code class="language-html" data-lang="html"><span class="p">&lt;</span><span class="nt">zui-shell-nav-item</span> <span class="na">unresolved</span><span class="p">&gt;</span>
+  <span class="p">&lt;</span><span class="nt">zui-icon</span> <span class="na">icon</span><span class="o">=</span><span class="s">&#34;zui-nav-home&#34;</span> <span class="na">slot</span><span class="o">=</span><span class="s">&#34;icon&#34;</span> <span class="na">unresolved</span><span class="p">&gt;&lt;/</span><span class="nt">zui-icon</span><span class="p">&gt;</span>
+ Home
+<span class="p">&lt;/</span><span class="nt">zui-shell-nav-item</span><span class="p">&gt;</span></code></pre></div>
+<p>For a top-level menu item with children items</p>
+<div class="highlight"><pre class="chroma"><code class="language-html" data-lang="html"><span class="p">&lt;</span><span class="nt">zui-shell-nav-item</span> <span class="na">unresolved</span><span class="p">&gt;</span>
+  <span class="p">&lt;</span><span class="nt">zui-icon</span> <span class="na">icon</span><span class="o">=</span><span class="s">&#34;zui-nav-activities&#34;</span> <span class="na">slot</span><span class="o">=</span><span class="s">&#34;icon&#34;</span> <span class="na">unresolved</span><span class="p">&gt;&lt;/</span><span class="nt">zui-icon</span><span class="p">&gt;</span>
+  Activities
+  <span class="p">&lt;</span><span class="nt">a</span> <span class="na">href</span><span class="o">=</span><span class="s">&#34;#&#34;</span><span class="p">&gt;</span>Basic<span class="p">&lt;/</span><span class="nt">a</span><span class="p">&gt;</span>
+  <span class="p">&lt;</span><span class="nt">a</span> <span class="na">href</span><span class="o">=</span><span class="s">&#34;#&#34;</span><span class="p">&gt;</span>Account<span class="p">&lt;/</span><span class="nt">a</span><span class="p">&gt;</span>
+  <span class="p">&lt;</span><span class="nt">a</span> <span class="na">href</span><span class="o">=</span><span class="s">&#34;#&#34;</span> <span class="na">active</span><span class="p">&gt;</span>Carrier<span class="p">&lt;/</span><span class="nt">a</span><span class="p">&gt;</span>
+  <span class="p">&lt;</span><span class="nt">a</span> <span class="na">href</span><span class="o">=</span><span class="s">&#34;#&#34;</span><span class="p">&gt;</span>Mass add<span class="p">&lt;/</span><span class="nt">a</span><span class="p">&gt;</span>
+<span class="p">&lt;</span><span class="nt">zui-shell-nav-item</span><span class="p">&gt;</span></code></pre></div>
+<h3 id="expanded">expanded</h3>
+
+<p>This property becomes <code>true</code> when <code>&lt;zui-shell-nav-item&gt;</code> has children items and is expanded. All parent menu items are collapsed by default.</p>
+
+<h3 id="subnav">subnav</h3>
+
+<p>This property becomes <code>true</code> when there are more than one anchor tag in <code>&lt;zui-shell-nav-item&gt;</code>.</p>
+
+<h2 id="zuishellfooter">ZuiShellFooter</h2>
+
+<p><strong>Extends ZuiShellBaseMixin(ZuiBaseElement)</strong></p>
+
+<h3 id="example-2">Example</h3>
+<div class="highlight"><pre class="chroma"><code class="language-html" data-lang="html"><span class="p">&lt;</span><span class="nt">zui-shell-footer</span> <span class="na">unresolved</span><span class="p">&gt;</span>
+  <span class="p">&lt;</span><span class="nt">div</span><span class="p">&gt;</span><span class="ni">&amp;copy;</span> 1995 - 2019 Zywave, Inc. All rights reserved.<span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+    <span class="p">&lt;</span><span class="nt">a</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;zui-link&#34;</span> <span class="na">target</span><span class="o">=</span><span class="s">&#34;_blank&#34;</span> <span class="na">href</span><span class="o">=</span><span class="s">&#34;#&#34;</span><span class="p">&gt;</span>Terms and Conditions<span class="p">&lt;/</span><span class="nt">a</span><span class="p">&gt;</span>
+    <span class="p">&lt;</span><span class="nt">a</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;zui-link&#34;</span> <span class="na">target</span><span class="o">=</span><span class="s">&#34;_blank&#34;</span> <span class="na">href</span><span class="o">=</span><span class="s">&#34;#&#34;</span><span class="p">&gt;</span>Privacy Statement<span class="p">&lt;/</span><span class="nt">a</span><span class="p">&gt;</span>
+    <span class="p">&lt;</span><span class="nt">a</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;zui-link&#34;</span> <span class="na">target</span><span class="o">=</span><span class="s">&#34;_blank&#34;</span> <span class="na">href</span><span class="o">=</span><span class="s">&#34;#&#34;</span><span class="p">&gt;</span>DMCA<span class="p">&lt;/</span><span class="nt">a</span><span class="p">&gt;&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+    <span class="p">&lt;</span><span class="nt">a</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;zui-link&#34;</span> <span class="na">target</span><span class="o">=</span><span class="s">&#34;_blank&#34;</span> <span class="na">href</span><span class="o">=</span><span class="s">&#34;#&#34;</span><span class="p">&gt;</span>Cookie Usage<span class="p">&lt;/</span><span class="nt">a</span><span class="p">&gt;</span>
+    <span class="p">&lt;</span><span class="nt">a</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;zui-link&#34;</span> <span class="na">href</span><span class="o">=</span><span class="s">&#34;#&#34;</span><span class="p">&gt;</span>Contact<span class="p">&lt;/</span><span class="nt">a</span><span class="p">&gt;</span>
+<span class="p">&lt;/</span><span class="nt">zui-shell-footer</span><span class="p">&gt;</span></code></pre></div>
+<h2 id="zuishellcontent">ZuiShellContent</h2>
+
+<p><strong>Extends ZuiShellBaseMixin(ZuiBaseElement)</strong></p>
+
+<h3 id="example-3">Example</h3>
+<div class="highlight"><pre class="chroma"><code class="language-html" data-lang="html"><span class="p">&lt;</span><span class="nt">zui-shell-content</span> <span class="na">unresolved</span><span class="p">&gt;</span>
+  <span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;zui-layout&#34;</span><span class="p">&gt;</span>
+    <span class="p">&lt;</span><span class="nt">h1</span><span class="p">&gt;</span>Hello world!<span class="p">&lt;/</span><span class="nt">h1</span><span class="p">&gt;</span>
+  <span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+<span class="p">&lt;/</span><span class="nt">zui-shell-content</span><span class="p">&gt;</span></code></pre></div>
+<h2 id="zuishelluser">ZuiShellUser</h2>
+
+<p><strong>Extends ZuiShellBaseMixin(ZuiBaseElement)</strong></p>
+
+<p>Topbar feature that encompasses information about the User Principle, User Profile, impersonation, and notifications.</p>
+
+<h3 id="givenname">givenName</h3>
+
+<p>The first name of the user. It should be set to the <code>given_name</code> claim of the user principal. This may not yet be available on some principals, but will be back filled with profile information by an upcoming auth release. This component gracefully falls back to username.</p>
+
+<h3 id="familyname">familyName</h3>
+
+<p>The last name of the user. It should be set to the <code>family_name</code> claim of the user principal. This may not yet be available on some principals, but will be back filled with profile information by an upcoming auth release. This component gracefully falls back to username.</p>
+
+<h3 id="profilename">profileName</h3>
+
+<p>This is the display name of the profile in context and will vary from profile type to profile type.</p>
+
+<h3 id="profiledetail">profileDetail</h3>
+
+<p>This is additional profile information displayed as subtext. It should generally represent the location and/or profile name. You may want to make this a function to ensure a clean rendering with the assumption of missing claims.</p>
+
+<h3 id="username">username</h3>
+
+<p>This is the username of the user. It should be set to the <code>preferred_username</code> claim of the user principal.</p>
+
+<h3 id="manageuserurl">manageUserUrl</h3>
+
+<p>This is a URL to user self service tool. It should be set to <code>https://profiles.zywave.com</code> per environment.</p>
+
+<h3 id="logoutuserurl">logoutUserUrl</h3>
+
+<p>This is a URL to the logout page of the application.</p>
+
+<h3 id="manageprofileurl">manageProfileUrl</h3>
+
+<p>This is a URL to the proper edit page for the profile in context.</p>
+
+<h3 id="switchprofileurl">switchProfileUrl</h3>
+
+<p>This is a URL to the local switch profile path. <strong>This should only be set if the user has multiple contextual profiles available.</strong></p>
+
+<h3 id="avatar">avatar</h3>
+
+<p>This is a URI of the avatar of the user. It should be set to the &ldquo;picture&rdquo; claim of the user principal.</p>
+
+<h3 id="userheader">userHeader</h3>
+
+<p>This is the text that appears above the user section. Should be set to localized &ldquo;User&rdquo;.</p>
+
+<h3 id="profileheader">profileHeader</h3>
+
+<p>This is the text that appears above the profile section. Should be set to localized phrase representing the profile type such as &ldquo;Agency Profile&rdquo;, &ldquo;Employer Profile&rdquo; or just simply &ldquo;Profile&rdquo;.</p>
+
+<h3 id="manageusertext">manageUserText</h3>
+
+<p>This is the text that appears as the manage user link. Should be set to localized &ldquo;Manage User&rdquo;.</p>
+
+<h3 id="logoutusertext">logoutUserText</h3>
+
+<p>This is the text that appears as the logout user link. Should be set to localized &ldquo;Logout&rdquo;.</p>
+
+<h3 id="manageprofiletext">manageProfileText</h3>
+
+<p>This is the text that appears as the manage profile link. Should be set to localized &ldquo;Manage Profile&rdquo;.</p>
+
+<h3 id="switchprofiletext">switchProfileText</h3>
+
+<p>This is the text that appears as the switch profile link. Should be set to localized &ldquo;Switch&rdquo;.</p>
+
+<h3 id="open-2">open</h3>
+
+<p>Boolean for when the user dropdown is open.</p>
+
+<h3 id="notificationcount">notificationCount</h3>
+
+<p>This is the how many unread notifications the user/profile has. Get by calling Shared.Notifications Service.</p>
+
+<h3 id="notificationheader">notificationHeader</h3>
+
+<p>This is the text that appears above the notification section.</p>
+
+<h3 id="viewnotificationtitle">viewNotificationTitle</h3>
+
+<p>This is the text that appears after the notification count in profile section.</p>
+
+<h3 id="nonotificationtitle">noNotificationTitle</h3>
+
+<p>This is the text that appears when there are no new notifications in the notifications section of the user dropdown.</p>
+
+<h3 id="viewnotificationtext">viewNotificationText</h3>
+
+<p>This is the text that appears as the notification inbox link.</p>
+
+<h3 id="viewnotificationurl">viewNotificationUrl</h3>
+
+<p>This is a URL to the notification inbox (ex: <code>dev-zh.zywave.com/notifications/inbox</code>).</p>
+
+<h3 id="impersonating">impersonating</h3>
+
+<p>This property is required for all the impersonation properties to work and show.</p>
+
+<h3 id="impersonatingaction">impersonatingAction</h3>
+
+<p>Text for the current user impersonating another profile.</p>
+
+<h3 id="impersonatingprofilename">impersonatingProfileName</h3>
+
+<p>Name of the profile the current user is impersonating.</p>
+
+<h3 id="impersonatinggivenname">impersonatingGivenName</h3>
+
+<p>First name of the user associated with the profile the current user is impersonating.</p>
+
+<h3 id="impersonatingfamilyname">impersonatingFamilyName</h3>
+
+<p>Last name of the user associated with the profile the current user is impersonating.</p>
+
+<h3 id="unauthenticated">unauthenticated</h3>
+
+<p>Indicates that the user is currently unauthenticated, and should be given access to login.</p>
+
+<h3 id="loginusertext">loginUserText</h3>
+
+<p>This is the text that displays to unauthenticated users to login.</p>
+
+<h3 id="loginuserurl">loginUserUrl</h3>
+
+<p>The url where unauthenticated users can be redirected to login.</p>
+
+                
+            </div>
+            
+        </zui-pages>
+    </template>
+</dom-bind>
+
+
+
+                    </div>
+                </section>
+            </zui-shell-content><zui-shell-footer>
+    <div>
+        &copy; 1995 - 2020 Zywave, Inc. All rights reserved.
+    </div>
+    <a class="zui-link" target="_blank" href="http://www.zywave.com/terms-conditions/">Terms and Conditions</a>
+    <a class="zui-link" target="_blank" href="http://www.zywave.com/privacy-statement/">Privacy Statement</a>
+    <a class="zui-link" target="_blank" href="http://www.zywave.com/dmca-notice/">DMCA</a></div>
+    <a class="zui-link" target="_blank" href="http://www.zywave.com/cookie-usage/">Cookie Usage</a>
+    <a class="zui-link" href="mailto:support@zywave.com">Contact</a>
+</zui-shell-footer>
+<script src="https://unpkg.com/@zywave/zui-bundle@next/dist/zui-loader.js"></script>
+</zui-shell>
+    </body>
+</html>

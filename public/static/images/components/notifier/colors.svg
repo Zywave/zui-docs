@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="321" height="117" viewBox="0 0 321 117">
+  <g id="Colors" transform="translate(-29 -97)">
+    <g id="Group_11897" data-name="Group 11897">
+      <path id="Path_6643" data-name="Path 6643" d="M40,0A40,40,0,1,1,0,40,40,40,0,0,1,40,0Z" transform="translate(40 97)" fill="#2777d3"/>
+      <text id="Informative" transform="translate(80 209)" fill="#707070" font-size="20" font-family="SegoeUI, Segoe UI"><tspan x="-50.317" y="0">Informative</tspan></text>
+    </g>
+    <g id="Group_11896" data-name="Group 11896" transform="translate(20)">
+      <circle id="Ellipse_3" data-name="Ellipse 3" cx="40" cy="40" r="40" transform="translate(140 97)" fill="#5fb53b"/>
+      <text id="Success" transform="translate(180 209)" fill="#707070" font-size="20" font-family="SegoeUI, Segoe UI"><tspan x="-33.926" y="0">Success</tspan></text>
+    </g>
+    <g id="Group_11941" data-name="Group 11941" transform="translate(130)">
+      <circle id="Ellipse_3-2" data-name="Ellipse 3" cx="40" cy="40" r="40" transform="translate(140 97)" fill="#ee562f"/>
+      <text id="Error_Fail" data-name="Error/Fail" transform="translate(180 209)" fill="#707070" font-size="20" font-family="SegoeUI, Segoe UI"><tspan x="-39.717" y="0">Error/Fail</tspan></text>
+    </g>
+  </g>
+</svg>

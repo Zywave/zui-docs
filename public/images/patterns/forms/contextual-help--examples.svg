@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="900" height="286" viewBox="0 0 900 286">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="300" height="42" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-contextual-help--examples">
+      <rect width="900" height="286"/>
+    </clipPath>
+  </defs>
+  <g id="contextual-help--examples" clip-path="url(#clip-contextual-help--examples)">
+    <g id="Group_13275" data-name="Group 13275" transform="translate(-1 -17)">
+      <g id="Group_13270" data-name="Group 13270" transform="translate(193 143)">
+        <g id="Group_12986" data-name="Group 12986">
+          <g id="Input-_no_label" data-name="Input- no label" clip-path="url(#clip-path)">
+            <g id="Rectangle_288" data-name="Rectangle 288" fill="#fff" stroke="#cbcbd2" stroke-width="1">
+              <rect width="300" height="42" rx="4" stroke="none"/>
+              <rect x="0.5" y="0.5" width="299" height="41" rx="3.5" fill="none"/>
+            </g>
+          </g>
+          <text id="Helper_text_next_to_the_input_field" data-name="Helper text next to the input field" transform="translate(310 27)" fill="#606071" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Helper text next to the input field</tspan></text>
+        </g>
+      </g>
+      <g id="Group_13273" data-name="Group 13273" transform="translate(-107 25)">
+        <g id="Group_13271" data-name="Group 13271" transform="translate(300 12)">
+          <g id="Input-_no_label-2" data-name="Input- no label" clip-path="url(#clip-path)">
+            <g id="Rectangle_288-2" data-name="Rectangle 288" fill="#fff" stroke="#cbcbd2" stroke-width="1">
+              <rect width="300" height="42" rx="4" stroke="none"/>
+              <rect x="0.5" y="0.5" width="299" height="41" rx="3.5" fill="none"/>
+            </g>
+          </g>
+          <text id="Helper_text_under_the_input_field" data-name="Helper text under the input field" transform="translate(0 62)" fill="#78788c" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Helper text under the input field</tspan></text>
+        </g>
+      </g>
+      <g id="Group_13274" data-name="Group 13274" transform="translate(-90 225)">
+        <g id="Group_13272" data-name="Group 13272" transform="translate(283 10)">
+          <g id="Info_Circle" data-name="Info Circle" transform="translate(322 21)">
+            <g id="Info_Circle-2" data-name="Info Circle" transform="translate(-12 -12)">
+              <rect id="Rectangle_6677" data-name="Rectangle 6677" width="24" height="24" fill="none"/>
+              <g id="Group_12985" data-name="Group 12985">
+                <rect id="Rectangle_6678" data-name="Rectangle 6678" width="2.4" height="8.4" rx="0.3" transform="translate(10.8 9.6)" fill="#2777d3"/>
+                <rect id="Rectangle_6679" data-name="Rectangle 6679" width="2.4" height="2.4" rx="0.3" transform="translate(10.8 5.4)" fill="#2777d3"/>
+                <path id="Path_8232" data-name="Path 8232" d="M12,0A12,12,0,1,0,24,12,12,12,0,0,0,12,0Zm0,21.9A9.9,9.9,0,1,1,21.9,12,9.9,9.9,0,0,1,12,21.9Z" fill="#2777d3"/>
+              </g>
+            </g>
+          </g>
+          <g id="Input-_no_label-3" data-name="Input- no label" clip-path="url(#clip-path)">
+            <g id="Rectangle_288-3" data-name="Rectangle 288" fill="#fff" stroke="#cbcbd2" stroke-width="1">
+              <rect width="300" height="42" rx="4" stroke="none"/>
+              <rect x="0.5" y="0.5" width="299" height="41" rx="3.5" fill="none"/>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

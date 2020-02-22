@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="335" height="270" viewBox="0 0 335 270">
+  <defs>
+    <filter id="Rectangle_3951" x="5.5" y="45.5" width="283" height="215" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1.5" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-header_Label">
+      <rect width="335" height="270"/>
+    </clipPath>
+  </defs>
+  <g id="header_Label" clip-path="url(#clip-header_Label)">
+    <g id="Group_11" data-name="Group 11" transform="translate(-47 -39)">
+      <g transform="matrix(1, 0, 0, 1, 47, 39)" filter="url(#Rectangle_3951)">
+        <g id="Rectangle_3951-2" data-name="Rectangle 3951" transform="translate(10 49)" fill="#fff" stroke="#dbdbdb" stroke-width="1">
+          <rect width="274" height="206" rx="2" stroke="none"/>
+          <rect x="0.5" y="0.5" width="273" height="205" rx="1.5" fill="none"/>
+        </g>
+      </g>
+      <rect id="Rectangle_3952" data-name="Rectangle 3952" width="274" height="42" transform="translate(57 49)" fill="#fff" stroke="#79ace6" stroke-width="2"/>
+      <g id="Group_7" data-name="Group 7" transform="translate(546.8 -499) rotate(90)">
+        <path id="Path_25" data-name="Path 25" d="M0,0H9.8V.9H0Z" transform="translate(686.1 206) rotate(90)" fill="#c6318c"/>
+        <path id="Path_30" data-name="Path 30" d="M0,0H9.8V.9H0Z" transform="translate(666.9 206) rotate(90)" fill="#c6318c"/>
+        <rect id="Rectangle_68" data-name="Rectangle 68" width="20.1" height="1" transform="translate(686.1 211.4) rotate(180)" fill="#c6318c"/>
+      </g>
+      <text id="osha_osha_reporting" data-name="osha
+osha reporting" transform="translate(73 138)" fill="#31313a" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">os</tspan><tspan y="0" font-family="SegoeUI-Bold, Segoe UI" font-weight="700">ha</tspan><tspan x="0" y="26">os</tspan><tspan y="26" font-family="SegoeUI-Bold, Segoe UI" font-weight="700">ha reporting</tspan></text>
+      <text id="osha_osha_compliance_2017_osha_complaince" data-name="osha
+osha compliance
+2017 osha complaince" transform="translate(73 223)" fill="#31313a" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">os</tspan><tspan y="0" font-family="SegoeUI-Bold, Segoe UI" font-weight="700">ha</tspan><tspan x="0" y="26">os</tspan><tspan y="26" font-family="SegoeUI-Bold, Segoe UI" font-weight="700">ha compliance</tspan><tspan font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="52">2017</tspan><tspan y="52" xml:space="preserve" font-family="SegoeUI, Segoe UI" font-weight="400"> os</tspan><tspan y="52">ha complaince</tspan></tspan></text>
+      <text id="CONTENT" transform="translate(73 115)" fill="#afafbb" font-size="12" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="0">CONTENT</tspan></text>
+      <text id="CONTENT_GROUPS" data-name="CONTENT GROUPS" transform="translate(73 200)" fill="#afafbb" font-size="12" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="0">CONTENT GROUPS</tspan></text>
+      <rect id="Rectangle_3953" data-name="Rectangle 3953" width="272.539" height="20" transform="translate(57.731 167)" fill="rgba(77,209,200,0.4)"/>
+      <text id="os" transform="translate(73 76)" fill="#31313a" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">os</tspan></text>
+      <line id="Line_8" data-name="Line 8" y2="20" transform="translate(90.5 60.5)" fill="none" stroke="#79ace6" stroke-width="1"/>
+      <text id="_20px" data-name="20px" transform="translate(344 181)" fill="#c6318c" font-size="11" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">20px</tspan></text>
+    </g>
+  </g>
+</svg>

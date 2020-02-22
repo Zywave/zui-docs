@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html><head>
+    <title>Polyfills | Zywave User Interface</title>
+    <link href="http://zui.zywave.com/css/ie-sucks.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://unpkg.com/@zywave/zui-bundle@next/dist/css/zui-bundle.fouc.css" />
+    <link rel="stylesheet" href="https://unpkg.com/@zywave/zui-bundle@next/dist/css/zui-bundle.app.css" />
+    <link href="http://zui.zywave.com/css/base.css" rel="stylesheet" />
+    <link href="http://zui.zywave.com/css/shortcodes.css" rel="stylesheet" />
+    <link href="http://zui.zywave.com/css/syntax-highlighting-monokai.css" rel="stylesheet" />
+    <link rel='shortcut icon' type='image/x-icon' href='http://zui.zywave.com/static/favicon.ico' />
+    <script src="http://zui.zywave.com/js/ie-sucks.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.3.0/fuse.min.js"></script>
+    <style>
+        :root {
+            --zui-shell-primary-theme: var(--zui-green);
+            --zui-shell-primary-theme-dark: var(--zui-green-600);
+            --zui-tabs-color: var(--zui-green);
+        }
+    </style>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const externalLinks = document.querySelectorAll('a[href^="http://"], a[href^="https://"]');
+            for (const l of externalLinks) {
+                if (l.href.indexOf("http://zui.zywave.com/") < 0) {
+                    l.target = '_blank';
+                }
+            }
+        });
+
+        
+        
+    </script>
+</head>
+<body>
+        <ie-sucks>
+            No. Stop it. Use a real browser.
+        </ie-sucks>
+        <zui-shell app-name="ZUI Documentation"><zui-shell-topbar>
+    <zui-logo slot="logo"></zui-logo>
+</zui-shell-topbar>
+
+
+
+<zui-shell-nav>
+    <zui-shell-nav-item>
+        <zui-icon icon="zui-nav-home" slot="icon"></zui-icon>
+        <a href="http://zui.zywave.com/" active>Home</a>
+    </zui-shell-nav-item>
+    
+    
+    <zui-shell-nav-item subnav>
+        <zui-icon icon="zui-nav-developers" slot="icon"></zui-icon>
+        
+            <span>Developers</span>
+            
+            
+            
+            
+            <a href="http://zui.zywave.com/developers/contribution-guide/" >Contribution guide</a>
+            
+            <a href="http://zui.zywave.com/developers/developing-zui/" >Developing ZUI</a>
+            
+            <a href="http://zui.zywave.com/developers/installation/" >Installation</a>
+            
+            <a href="http://zui.zywave.com/developers/lit/" >Lit 🔥</a>
+            
+            <a href="http://zui.zywave.com/developers/polyfills/" active>Polyfills</a>
+            
+            <a href="http://zui.zywave.com/developers/responsive-design/" >Responsive design</a>
+            
+            <a href="http://zui.zywave.com/developers/tooling/" >Tooling</a>
+            
+            <a href="http://zui.zywave.com/developers/webcomponents/" >Web components</a>
+            
+        
+    </zui-shell-nav-item>
+    
+    
+    <zui-shell-nav-item subnav>
+        <zui-icon icon="zui-nav-foundations" slot="icon"></zui-icon>
+        
+            <span>Foundations</span>
+            
+            
+                
+            
+            
+            
+            <a href="http://zui.zywave.com/foundations/colors/" >Colors</a>
+            
+            <a href="http://zui.zywave.com/foundations/content-area/" >Content area</a>
+            
+            <a href="http://zui.zywave.com/foundations/fonts-typography/" >Fonts &amp; typography</a>
+            
+            <a href="http://zui.zywave.com/foundations/footer/" >Footer</a>
+            
+            <a href="http://zui.zywave.com/foundations/icons/" >Icons</a>
+            
+            <a href="http://zui.zywave.com/foundations/illustrations/" >Illustrations</a>
+            
+            <a href="http://zui.zywave.com/foundations/product-branding/" >Product branding</a>
+            
+            <a href="http://zui.zywave.com/foundations/shell/" >Shell</a>
+            
+            <a href="http://zui.zywave.com/foundations/sidenav/" >Sidenav</a>
+            
+            <a href="http://zui.zywave.com/foundations/topbar/" >Topbar</a>
+            
+        
+    </zui-shell-nav-item>
+    
+    
+    <zui-shell-nav-item subnav>
+        <zui-icon icon="zui-nav-components" slot="icon"></zui-icon>
+        
+            <span>Components</span>
+            
+            
+                
+            
+            
+            
+            <a href="http://zui.zywave.com/components/breadcrumbs/" >Breadcrumbs</a>
+            
+            <a href="http://zui.zywave.com/components/buttons-dropdown/" >Button dropdowns</a>
+            
+            <a href="http://zui.zywave.com/components/buttons/" >Buttons</a>
+            
+            <a href="http://zui.zywave.com/components/checkboxes/" >Checkboxes</a>
+            
+            <a href="http://zui.zywave.com/components/dialogs/" >Dialogs</a>
+            
+            <a href="http://zui.zywave.com/components/dropdown-multi-select/" >Dropdown multi-select</a>
+            
+            <a href="http://zui.zywave.com/components/dropdown-select/" >Dropdown select</a>
+            
+            <a href="http://zui.zywave.com/components/expanders/" >Expanders</a>
+            
+            <a href="http://zui.zywave.com/components/file-selector/" >File Selector</a>
+            
+            <a href="http://zui.zywave.com/components/notifiers/" >Notifiers</a>
+            
+            <a href="http://zui.zywave.com/components/radio-buttons/" >Radio buttons</a>
+            
+            <a href="http://zui.zywave.com/components/tabs/" >Tabs</a>
+            
+            <a href="http://zui.zywave.com/components/text-input/" >Text Input</a>
+            
+            <a href="http://zui.zywave.com/components/toggles/" >Toggles</a>
+            
+            <a href="http://zui.zywave.com/components/tooltips/" >Tooltips</a>
+            
+            <a href="http://zui.zywave.com/components/wells/" >Well</a>
+            
+        
+    </zui-shell-nav-item>
+    
+    
+    <zui-shell-nav-item subnav>
+        <zui-icon icon="zui-nav-patterns" slot="icon"></zui-icon>
+        
+            <span>Patterns</span>
+            
+            
+                
+            
+            
+            
+            <a href="http://zui.zywave.com/patterns/forms/" >Forms</a>
+            
+            <a href="http://zui.zywave.com/patterns/step-flow/" >Step flow</a>
+            
+            <a href="http://zui.zywave.com/patterns/typeahead/" >Typeahead</a>
+            
+        
+    </zui-shell-nav-item>
+    
+    
+    <zui-shell-nav-item subnav>
+        <zui-icon icon="zui-nav-help" slot="icon"></zui-icon>
+        
+            <span>Communications</span>
+            
+            
+                
+            
+            
+            
+            <a href="http://zui.zywave.com/communications/messages/" >Messages</a>
+            
+            <a href="http://zui.zywave.com/communications/voice-tone/" >Voice &amp; tone</a>
+            
+            <a href="http://zui.zywave.com/communications/writing-style-guide/" >Writing style guide</a>
+            
+        
+    </zui-shell-nav-item>
+    
+    
+    <zui-shell-nav-item >
+        <zui-icon icon="zui-nav-accounts" slot="icon"></zui-icon>
+        
+            <a href="http://zui.zywave.com/personas/" >Personas</a>
+        
+    </zui-shell-nav-item>
+    
+    <script>
+        
+        const activeLinks = document.querySelectorAll('zui-shell-nav-item a[active]');
+            for (let activeLink of activeLinks) {
+                activeLink.closest('zui-shell-nav-item').expanded = true;
+            }
+    </script>
+</zui-shell-nav>
+<zui-shell-content id="content">
+                <section class="zui-layout zui-layout--slim">
+                    <div class="page-heading">
+                        <h1>Polyfills</h1>
+                        
+                    </div>
+                    <div class="content-container">
+                        
+
+<p>First, if you&rsquo;re using <code>@zywave/bundle</code> (and more importantly, the <code>zui-loader.js</code> provider), you most likely DON&rsquo;T have to worry about everything on this page except for polyfilling CSS custom properties. But, if you&rsquo;re curious, here&rsquo;s everything that needs to exist for ZUI to work in the browser that shall not be named.</p>
+
+<div class="spacer "></div>
+
+<h2 id="required-polyfills">Required polyfills</h2>
+
+<h3 id="webcomponents-webcomponentjs-https-github-com-webcomponents-webcomponentsjs"><a href="https://github.com/webcomponents/webcomponentsjs">@webcomponents/webcomponentjs</a></h3>
+
+<p>Until <a href="https://caniuse.com/#feat=custom-elementsv1">this chart</a> shows all green for browsers we support, you&rsquo;ll need this library. Don&rsquo;t worry, it does feature detection, so as browsers start supporting more and more, the polyfill will get lighter and lighter.</p>
+
+<p>99% of the time, you can just pull in <code>webcomponents-loader.js</code> and you&rsquo;re good to go. However, if you&rsquo;re using Babel (or some comparable transpiler) to get ZUI to be consumable by <a href="https://caniuse.com/#feat=es6-class">a browser that doesn&rsquo;t recognize ES6 classes</a>, you&rsquo;ll ALSO need to pull in <code>custom-elements-es5-adapter.js</code>, and ONLY pull it in browsers that understand what a custom element is (so for most of you, that&rsquo;s all browsers except Internet Explorer 11 and Edge).</p>
+
+<p>It&rsquo;s highly recommended that you deliver ES6 class transpiled ZUI to Internet Explorer 11 and Edge, and native ES6 classes to everyone else. But, that&rsquo;s on you.</p>
+
+<div class="spacer small"></div>
+
+<h3 id="promise-polyfill">Promise polyfill</h3>
+
+<p>If targeting Internet Explorer 11, you&rsquo;ll need a promise polyfill. There&rsquo;s no shortage of options on this front; if you don&rsquo;t explicitly load your own promise polyfill, <code>@webcomponents/webcomponentsjs</code> will give you <a href="https://www.npmjs.com/package/promise-polyfill">promise-polyfill</a>.</p>
+
+<div class="spacer small"></div>
+
+<h3 id="webcomponents-shadycss-https-github-com-webcomponents-polyfills-tree-master-packages-shadycss"><a href="https://github.com/webcomponents/polyfills/tree/master/packages/shadycss">@webcomponents/shadycss</a></h3>
+
+<p>For Internet Explorer 11 and Edge, you&rsquo;ll need to do the following:</p>
+
+<ul>
+<li>Install <a href="https://packages.zywave.com/feeds/private-npm/@zywave/zui-custom-style/">@zywave/zui-custom-style</a></li>
+<li>Install <a href="https://github.com/webcomponents/polyfills/tree/master/packages/shadycss">@webcomponents/shadycss</a>
+
+<ul>
+<li>You&rsquo;ll get this for free, but you&rsquo;ll need to include <code>custom-style-interface.min.js</code> in your index file. This is where the magic happens.</li>
+</ul></li>
+<li><strong>Preferred method</strong>: Wrap your important CSS custom properties in the document like in the example below.</li>
+<li>Your stylesheet imports (<code>&lt;link rel=&quot;stylesheet&quot; href=&quot;application.css&quot; /&gt;</code>) will need to be switched to <code>&lt;zui-custom-stylesheet href=&quot;application.css&quot;&gt;&lt;/zui-custom-stylesheet&gt;</code> if they contain CSS custom properties (e.g. <code>--zui-button-color: green;</code>).
+
+<ul>
+<li><strong>Note:</strong> Please, only use this if the browser is Internet Explorer 11 or Edge; we can&rsquo;t guarantee that any performance enhancements the browsers provide for <code>rel=&quot;stylesheet&quot;</code> is properly replicated. For starters, you&rsquo;re blocked by the main thread so that JavaScript can be loaded and executed before your styles can even be loaded. Not cool.</li>
+<li>There are some really weird race conditions with this one. If you see issues, log it to ZUI&rsquo;s issue here: <a href="https://gitlab.zywave.com/zui/zui/issues/201">https://gitlab.zywave.com/zui/zui/issues/201</a></li>
+</ul></li>
+</ul>
+<div class="highlight"><pre class="chroma"><code class="language-html" data-lang="html"><span class="p">&lt;</span><span class="nt">zui-custom-style</span><span class="p">&gt;</span>
+  <span class="p">&lt;</span><span class="nt">style</span><span class="p">&gt;</span>
+    <span class="nt">html</span> <span class="p">{</span>
+      <span class="nv">--zui-shell-primary-theme</span><span class="p">:</span> <span class="mh">#2e2e2e</span><span class="p">;</span>
+      <span class="nv">--zui-shell-primary-theme-dark</span><span class="p">:</span> <span class="mh">#2e2e2e</span><span class="p">;</span>
+      <span class="nv">--zui-shell-profile-avatar-background</span><span class="p">:</span> <span class="mh">#51515a</span><span class="p">;</span>
+    <span class="p">}</span>
+  <span class="p">&lt;/</span><span class="nt">style</span><span class="p">&gt;</span>
+<span class="p">&lt;/</span><span class="nt">zui-custom-style</span><span class="p">&gt;</span></code></pre></div>
+<p><zui-well type="info" no-animation>Even if you use the <code>zui-loader.js</code>, you still need to wrap all CSS custom properties in <code>&lt;zui-custom-style&gt;</code> in your applications if you want them to work in Internet Explorer 11.</zui-well></p>
+
+<hr />
+
+<h2 id="polyfilling-zui-colors-and-other-css-custom-properties">Polyfilling ZUI Colors and other CSS custom properties</h2>
+
+<p>CSS custom properties, also known as CSS variables, are not supported in Internet Explorer 11 and never will be. If you want to use static CSS custom properties&mdash;such as our ZUI Colors&mdash;in your applications and cannot wrap them in <code>&lt;zui-custom-style&gt;</code>, consider installing <a href="https://github.com/postcss/postcss-custom-properties">@postcss/postcss-custom-properties</a>. This polyfill will provide fallback values for style properties in Internet Explorer 11.</p>
+<div class="highlight"><pre class="chroma"><code class="language-css" data-lang="css"><span class="p">:</span><span class="nd">root</span> <span class="p">{</span>
+  <span class="nv">--zui-red-400</span><span class="p">:</span> <span class="mh">#ee562f</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="p">.</span><span class="nc">error-text</span> <span class="p">{</span>
+  <span class="k">color</span><span class="p">:</span> <span class="nf">var</span><span class="p">(</span><span class="o">--</span><span class="n">zui</span><span class="o">-</span><span class="kc">red</span><span class="mi">-400</span><span class="p">);</span>
+<span class="p">}</span>
+
+<span class="c">/* becomes */</span>
+
+<span class="p">:</span><span class="nd">root</span> <span class="p">{</span>
+  <span class="nv">--zui-red-400</span><span class="p">:</span> <span class="mh">#ee562f</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="p">.</span><span class="nc">error-text</span> <span class="p">{</span>
+  <span class="k">color</span><span class="p">:</span> <span class="mh">#ee562f</span><span class="p">;</span>
+  <span class="k">color</span><span class="p">:</span> <span class="nf">var</span><span class="p">(</span><span class="o">--</span><span class="n">zui</span><span class="o">-</span><span class="kc">red</span><span class="mi">-400</span><span class="p">);</span>
+<span class="p">}</span></code></pre></div>
+<p><zui-well type="warning" no-animation><code>postcss-custom-properties</code> doesn&rsquo;t support dynamic CSS variables. Whatever value is defined at the root level will be the final output.</zui-well></p>
+
+                    </div>
+                </section>
+            </zui-shell-content><zui-shell-footer>
+    <div>
+        &copy; 1995 - 2020 Zywave, Inc. All rights reserved.
+    </div>
+    <a class="zui-link" target="_blank" href="http://www.zywave.com/terms-conditions/">Terms and Conditions</a>
+    <a class="zui-link" target="_blank" href="http://www.zywave.com/privacy-statement/">Privacy Statement</a>
+    <a class="zui-link" target="_blank" href="http://www.zywave.com/dmca-notice/">DMCA</a></div>
+    <a class="zui-link" target="_blank" href="http://www.zywave.com/cookie-usage/">Cookie Usage</a>
+    <a class="zui-link" href="mailto:support@zywave.com">Contact</a>
+</zui-shell-footer>
+<script src="https://unpkg.com/@zywave/zui-bundle@next/dist/zui-loader.js"></script>
+</zui-shell>
+    </body>
+</html>

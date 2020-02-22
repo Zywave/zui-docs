@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html><head>
+    <title>Writing style guide | Zywave User Interface</title>
+    <link href="http://zui.zywave.com/css/ie-sucks.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://unpkg.com/@zywave/zui-bundle@next/dist/css/zui-bundle.fouc.css" />
+    <link rel="stylesheet" href="https://unpkg.com/@zywave/zui-bundle@next/dist/css/zui-bundle.app.css" />
+    <link href="http://zui.zywave.com/css/base.css" rel="stylesheet" />
+    <link href="http://zui.zywave.com/css/shortcodes.css" rel="stylesheet" />
+    <link href="http://zui.zywave.com/css/syntax-highlighting-monokai.css" rel="stylesheet" />
+    <link rel='shortcut icon' type='image/x-icon' href='http://zui.zywave.com/static/favicon.ico' />
+    <script src="http://zui.zywave.com/js/ie-sucks.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.3.0/fuse.min.js"></script>
+    <style>
+        :root {
+            --zui-shell-primary-theme: var(--zui-green);
+            --zui-shell-primary-theme-dark: var(--zui-green-600);
+            --zui-tabs-color: var(--zui-green);
+        }
+    </style>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const externalLinks = document.querySelectorAll('a[href^="http://"], a[href^="https://"]');
+            for (const l of externalLinks) {
+                if (l.href.indexOf("http://zui.zywave.com/") < 0) {
+                    l.target = '_blank';
+                }
+            }
+        });
+
+        
+        
+    </script>
+</head>
+<body>
+        <ie-sucks>
+            No. Stop it. Use a real browser.
+        </ie-sucks>
+        <zui-shell app-name="ZUI Documentation"><zui-shell-topbar>
+    <zui-logo slot="logo"></zui-logo>
+</zui-shell-topbar>
+
+
+
+<zui-shell-nav>
+    <zui-shell-nav-item>
+        <zui-icon icon="zui-nav-home" slot="icon"></zui-icon>
+        <a href="http://zui.zywave.com/" active>Home</a>
+    </zui-shell-nav-item>
+    
+    
+    <zui-shell-nav-item subnav>
+        <zui-icon icon="zui-nav-developers" slot="icon"></zui-icon>
+        
+            <span>Developers</span>
+            
+            
+            
+            
+            <a href="http://zui.zywave.com/developers/contribution-guide/" >Contribution guide</a>
+            
+            <a href="http://zui.zywave.com/developers/developing-zui/" >Developing ZUI</a>
+            
+            <a href="http://zui.zywave.com/developers/installation/" >Installation</a>
+            
+            <a href="http://zui.zywave.com/developers/lit/" >Lit 🔥</a>
+            
+            <a href="http://zui.zywave.com/developers/polyfills/" >Polyfills</a>
+            
+            <a href="http://zui.zywave.com/developers/responsive-design/" >Responsive design</a>
+            
+            <a href="http://zui.zywave.com/developers/tooling/" >Tooling</a>
+            
+            <a href="http://zui.zywave.com/developers/webcomponents/" >Web components</a>
+            
+        
+    </zui-shell-nav-item>
+    
+    
+    <zui-shell-nav-item subnav>
+        <zui-icon icon="zui-nav-foundations" slot="icon"></zui-icon>
+        
+            <span>Foundations</span>
+            
+            
+                
+            
+            
+            
+            <a href="http://zui.zywave.com/foundations/colors/" >Colors</a>
+            
+            <a href="http://zui.zywave.com/foundations/content-area/" >Content area</a>
+            
+            <a href="http://zui.zywave.com/foundations/fonts-typography/" >Fonts &amp; typography</a>
+            
+            <a href="http://zui.zywave.com/foundations/footer/" >Footer</a>
+            
+            <a href="http://zui.zywave.com/foundations/icons/" >Icons</a>
+            
+            <a href="http://zui.zywave.com/foundations/illustrations/" >Illustrations</a>
+            
+            <a href="http://zui.zywave.com/foundations/product-branding/" >Product branding</a>
+            
+            <a href="http://zui.zywave.com/foundations/shell/" >Shell</a>
+            
+            <a href="http://zui.zywave.com/foundations/sidenav/" >Sidenav</a>
+            
+            <a href="http://zui.zywave.com/foundations/topbar/" >Topbar</a>
+            
+        
+    </zui-shell-nav-item>
+    
+    
+    <zui-shell-nav-item subnav>
+        <zui-icon icon="zui-nav-components" slot="icon"></zui-icon>
+        
+            <span>Components</span>
+            
+            
+                
+            
+            
+            
+            <a href="http://zui.zywave.com/components/breadcrumbs/" >Breadcrumbs</a>
+            
+            <a href="http://zui.zywave.com/components/buttons-dropdown/" >Button dropdowns</a>
+            
+            <a href="http://zui.zywave.com/components/buttons/" >Buttons</a>
+            
+            <a href="http://zui.zywave.com/components/checkboxes/" >Checkboxes</a>
+            
+            <a href="http://zui.zywave.com/components/dialogs/" >Dialogs</a>
+            
+            <a href="http://zui.zywave.com/components/dropdown-multi-select/" >Dropdown multi-select</a>
+            
+            <a href="http://zui.zywave.com/components/dropdown-select/" >Dropdown select</a>
+            
+            <a href="http://zui.zywave.com/components/expanders/" >Expanders</a>
+            
+            <a href="http://zui.zywave.com/components/file-selector/" >File Selector</a>
+            
+            <a href="http://zui.zywave.com/components/notifiers/" >Notifiers</a>
+            
+            <a href="http://zui.zywave.com/components/radio-buttons/" >Radio buttons</a>
+            
+            <a href="http://zui.zywave.com/components/tabs/" >Tabs</a>
+            
+            <a href="http://zui.zywave.com/components/text-input/" >Text Input</a>
+            
+            <a href="http://zui.zywave.com/components/toggles/" >Toggles</a>
+            
+            <a href="http://zui.zywave.com/components/tooltips/" >Tooltips</a>
+            
+            <a href="http://zui.zywave.com/components/wells/" >Well</a>
+            
+        
+    </zui-shell-nav-item>
+    
+    
+    <zui-shell-nav-item subnav>
+        <zui-icon icon="zui-nav-patterns" slot="icon"></zui-icon>
+        
+            <span>Patterns</span>
+            
+            
+                
+            
+            
+            
+            <a href="http://zui.zywave.com/patterns/forms/" >Forms</a>
+            
+            <a href="http://zui.zywave.com/patterns/step-flow/" >Step flow</a>
+            
+            <a href="http://zui.zywave.com/patterns/typeahead/" >Typeahead</a>
+            
+        
+    </zui-shell-nav-item>
+    
+    
+    <zui-shell-nav-item subnav>
+        <zui-icon icon="zui-nav-help" slot="icon"></zui-icon>
+        
+            <span>Communications</span>
+            
+            
+                
+            
+            
+            
+            <a href="http://zui.zywave.com/communications/messages/" >Messages</a>
+            
+            <a href="http://zui.zywave.com/communications/voice-tone/" >Voice &amp; tone</a>
+            
+            <a href="http://zui.zywave.com/communications/writing-style-guide/" active>Writing style guide</a>
+            
+        
+    </zui-shell-nav-item>
+    
+    
+    <zui-shell-nav-item >
+        <zui-icon icon="zui-nav-accounts" slot="icon"></zui-icon>
+        
+            <a href="http://zui.zywave.com/personas/" >Personas</a>
+        
+    </zui-shell-nav-item>
+    
+    <script>
+        
+        const activeLinks = document.querySelectorAll('zui-shell-nav-item a[active]');
+            for (let activeLink of activeLinks) {
+                activeLink.closest('zui-shell-nav-item').expanded = true;
+            }
+    </script>
+</zui-shell-nav>
+<zui-shell-content id="content">
+                <section class="zui-layout zui-layout--slim">
+                    <div class="page-heading">
+                        <h1>Writing style guide</h1>
+                         <h2>Version 1.1</h2> 
+                    </div>
+                    <div class="content-container">
+                        
+
+<h2 id="principles">Principles</h2>
+
+<p>This a living document, meaning that is always growing and changing, just like ZUI, just like language itself. Writing in Zywave products should be:</p>
+
+<ul>
+<li>Clear and Concise</li>
+<li>Easily understandable</li>
+<li>Useful/helpful</li>
+<li>Actionable, whenever possible</li>
+<li>Motivating or persuasive, when necessary</li>
+</ul>
+
+<hr />
+
+<h2 id="voice-tone">Voice &amp; Tone</h2>
+
+<p>Tone is simply voice applied to a specific context. That context includes both the
+circumstances of the communication, as well as the audience. The core personality of your
+voice should still shine through in any communication, but it should do so in a way that
+makes sense given the exact situation. Voice is the persona who&rsquo;s &ldquo;speaking&rdquo; when you
+write. You can think of the Zywave product voice as the core personality of the speaker
+who is talking to the user. Zywave’s voice can be described as:</p>
+
+<ul>
+<li>Approachable</li>
+<li>Genuine</li>
+<li>Empathetic</li>
+<li>Clear</li>
+<li>Conversational</li>
+<li>Knowledgeable</li>
+</ul>
+
+<hr />
+
+<h2 id="audience">Audience</h2>
+
+<p>It is important to note we have a different audience than the marketing or content teams
+because this is a style guide specific to writing in our products</p>
+
+<ul>
+<li>Our audience is product users</li>
+<li>Our audience will vary from product to product, and potentially will vary
+inside products depending on who is using it (HRc potentially has 3-4
+different audiences using it: broker, broker admins, clients, etc.)</li>
+<li>Our audience could be viewed as a combination of both marketing and
+content’s audiences, but a little more relaxed</li>
+</ul>
+
+<hr />
+
+<h2 id="grammar-and-mechanics">Grammar and Mechanics</h2>
+
+<p>This is the meat and potatoes of the style guide. It covers the usual topics and how they
+impact both copy and microcopy/web elements. If you&rsquo;re unsure about any on-screen-text,
+especially if it isn’t address in this style guide, ask a UX Writer. We’re nice and don’t mind
+answering questions.</p>
+
+<h4 id="capitalization">Capitalization</h4>
+
+<ul>
+<li>Use sentence case for everything. Sentence case is capitalizing the first letter of the first word and none of the others.</li>
+<li>Always capitalize the following words: Partners, Zywave positions such as Partner Support (Zywave Consultant, Project Manager, etc), Help (when referring to the Help section), and the first word after a colon</li>
+</ul>
+
+<h4 id="punctuation">Punctuation</h4>
+
+<ul>
+<li><strong>Periods</strong>: Skip periods and unnecessary punctuation on single sentences. This help readers scan text at a glance. Avoid using periods in single sentences in these: Labels, Hover text, Bulleted lists, dialog body text. Periods should be used on: Multiple sentences, any sentence before a link</li>
+<li><strong>Oxford/serial comma</strong>: Use to the comma to avoid potential confusion</li>
+<li><strong>Exclamation points</strong>: Use them sparingly, don’t use more than 1, even if you’re really, really excited about something</li>
+<li><strong>Ampersands</strong>: Only use ampersands when conserving space is important, ideally only on buttons, or if it is part of a company or brand name</li>
+<li><strong>Semicolons</strong>: They usually support long, complicated sentences that could be simplified, shortened, or split in to 2 sentences</li>
+<li><strong>Quesion marks</strong>: Don’t use punctuation in a page title/heading unless the title/heading is a question</li>
+</ul>
+
+<h4 id="lists">Lists</h4>
+
+<ul>
+<li>Use lists to clearly and simply present steps, groups, or sets of information</li>
+<li>When writing a list, use the serial/Oxford comma</li>
+<li>Use numbers when the order of the list is important, otherwise avoid them</li>
+<li>Only use punctuation if there are multiple sentences in a list item</li>
+</ul>
+
+<h4 id="numbers">Numbers</h4>
+
+<ul>
+<li>Spell out a number when it begins a sentence, otherwise, use the numeral.
+This includes ordinals (-st, -nd, etc), too. Using the numeral saves a bit of
+space, which is usually important. If it feels weird to use &lsquo;1&rsquo; instead of &lsquo;one,&rsquo;
+just go with your gut.</li>
+</ul>
+
+<h4 id="bolding-and-italicizing">Bolding and Italicizing</h4>
+
+<ul>
+<li>Using bolding to emphasize an action, link, or button you are referencing</li>
+<li>Avoid italicizing. Italic fonts don’t appear as clearly as bold fonts. The
+exception being normally italicized things, like titles of books or movies.</li>
+</ul>
+
+<h4 id="active-passive-voice">Active/passive voice</h4>
+
+<ul>
+<li>Use active voice</li>
+<li>Avoid passive voice</li>
+<li>Write positively whenever possible, avoid ‘not’ when possible</li>
+</ul>
+
+<h4 id="contractions">Contractions</h4>
+
+<ul>
+<li>Use them, especially to save space in web elements, like buttons. However, sometimes &ldquo;do not&rdquo; can give more emphasis than &ldquo;don&rsquo;t&rdquo; when needed.</li>
+</ul>
+
+<hr />
+
+<h2 id="new-vs-old">New vs. Old</h2>
+
+<p>Always try to use what is defined in this style guide. If what is in the style guide obviously does not
+match what is live in product, consider the following:</p>
+
+<ul>
+<li>How noticeable is the difference? Use what is laid out in the style guide,
+unless it will be distracting or obviously different from what is in product.</li>
+<li>Can the text in product be updated or changed to match the style guide? If
+it cannot be changed at the same time as the text you are adding or
+updating, when can it be updated or changed?</li>
+<li>How often will the product be updated? Will it be a long time before the text
+in that product is updated again? You may want to use this opportunity to
+get the text up to speed, even if it doesn’t perfectly match the rest of the
+product.</li>
+<li>Is there a middle ground between what is in the style guide and what is in
+the product that makes sense to use?</li>
+</ul>
+
+<hr />
+
+<h2 id="additional-resources">Additional resources</h2>
+
+<ul>
+<li><a href="https://styleguide.mailchimp.com/">Mailchimp Content Style Guide</a></li>
+<li><a href="https://material.io/design/communication/writing.html">Material Design</a></li>
+<li><a href="https://content-guide.18f.gov/">18F Content Guide</a></li>
+<li><a href="https://atlassian.design/guidelines/brand/writing-style-1">Atlassian writing style guide</a></li>
+<li><a href="https://plainlanguage.gov/">Plain Language</a></li>
+</ul>
+
+<p><a href="http://zui.zywave.com/downloads/communications/writing-style-guide/ZUI-Writing-Style-Guide-ver1.pdf">Click here to download a pdf version of the Style Guide</a></p>
+
+<hr />
+
+<h2 id="zywave-product-trademarks">Zywave product trademarks</h2>
+
+<div class="grid">
+    <div class='grid-col span-7'>
+    <p>Always enter product names with their appropriate trademark, which should be superscript. Products and their appropriate trademarks are listed below.</p>
+
+</div>
+
+</div>
+
+<div class="grid">
+    <div class='grid-col span-4'>
+    <table>
+<thead>
+<tr>
+<th>Registered<sup>®</sup> tools</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>AgencyFuel<sup>®</sup></td>
+</tr>
+
+<tr>
+<td>Broker Briefcase<sup>®</sup></td>
+</tr>
+
+<tr>
+<td>Decision Master<sup>®</sup> Warehouse</td>
+</tr>
+
+<tr>
+<td>HRconnection<sup>®</sup></td>
+</tr>
+
+<tr>
+<td>ModMaster<sup>®</sup></td>
+</tr>
+
+<tr>
+<td>MyWave<sup>®</sup></td>
+</tr>
+
+<tr>
+<td>Mywave Connect<sup>®</sup></td>
+</tr>
+
+<tr>
+<td>MyWave<sup>®</sup> Portal</td>
+</tr>
+
+<tr>
+<td>MyWave Elements<sup>®</sup></td>
+</tr>
+
+<tr>
+<td>PlanAdvisor<sup>®</sup></td>
+</tr>
+
+<tr>
+<td>Plan Doc Builder<sup>®</sup></td>
+</tr>
+
+<tr>
+<td>RALLE<sup>®</sup> Warehouse</td>
+</tr>
+
+<tr>
+<td>SalesPulse<sup>®</sup></td>
+</tr>
+
+<tr>
+<td>Zywave<sup>®</sup> Sidebar</td>
+</tr>
+</tbody>
+</table>
+
+</div>
+
+<div class='grid-col span-4'>
+    <table>
+<thead>
+<tr>
+<th>Trademarked<sup>™</sup> tools</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>BrokerageBuilder<sup>™</sup></td>
+</tr>
+
+<tr>
+<td>Zywave Home<sup>™</sup></td>
+</tr>
+
+<tr>
+<td>ZywaveRx<sup>™</sup></td>
+</tr>
+</tbody>
+</table>
+
+</div>
+
+<div class='grid-col span-4'>
+    <table>
+<thead>
+<tr>
+<th>No trademark or registered symbols</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>Account Management Center</td>
+</tr>
+
+<tr>
+<td>ReportCenter</td>
+</tr>
+</tbody>
+</table>
+
+</div>
+
+</div>
+
+                    </div>
+                </section>
+            </zui-shell-content><zui-shell-footer>
+    <div>
+        &copy; 1995 - 2020 Zywave, Inc. All rights reserved.
+    </div>
+    <a class="zui-link" target="_blank" href="http://www.zywave.com/terms-conditions/">Terms and Conditions</a>
+    <a class="zui-link" target="_blank" href="http://www.zywave.com/privacy-statement/">Privacy Statement</a>
+    <a class="zui-link" target="_blank" href="http://www.zywave.com/dmca-notice/">DMCA</a></div>
+    <a class="zui-link" target="_blank" href="http://www.zywave.com/cookie-usage/">Cookie Usage</a>
+    <a class="zui-link" href="mailto:support@zywave.com">Contact</a>
+</zui-shell-footer>
+<script src="https://unpkg.com/@zywave/zui-bundle@next/dist/zui-loader.js"></script>
+</zui-shell>
+    </body>
+</html>

@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="538" height="368" viewBox="0 0 538 368">
+  <defs>
+    <filter id="Rectangle_3883" x="4" y="32" width="505" height="327" filterUnits="userSpaceOnUse">
+      <feOffset dy="8" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feFlood flood-opacity="0.4"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_3882" x="-26" y="0" width="565" height="387" filterUnits="userSpaceOnUse">
+      <feOffset dy="6" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="15" result="blur-2"/>
+      <feFlood flood-opacity="0.122"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_3880" x="13" y="39" width="487" height="319" filterUnits="userSpaceOnUse">
+      <feOffset dy="16" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="2" result="blur-3"/>
+      <feFlood flood-opacity="0.141"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-dialog_Minimum_Height">
+      <rect width="538" height="368"/>
+    </clipPath>
+  </defs>
+  <g id="dialog_Minimum_Height" clip-path="url(#clip-dialog_Minimum_Height)">
+    <rect width="538" height="368" fill="rgba(0,0,0,0.6)"/>
+    <path id="Path_5553" data-name="Path 5553" d="M752.445,29.521a2,2,0,0,1-2.823,2.824l-4.572-4.571-4.571,4.571a2,2,0,0,1-2.824-2.824l4.572-4.571-4.572-4.571a2,2,0,0,1,2.824-2.824l4.571,4.571,4.572-4.571a2,2,0,0,1,2.823,2.824l-4.571,4.571Z" transform="translate(-235.05 0.05)" fill="#fff"/>
+    <g id="Group_7690" data-name="Group 7690" transform="translate(-383 -96)">
+      <g transform="matrix(1, 0, 0, 1, 383, 96)" filter="url(#Rectangle_3883)">
+        <rect id="Rectangle_3883-2" data-name="Rectangle 3883" width="475" height="297" transform="translate(19 39)" fill="#fff"/>
+      </g>
+      <g transform="matrix(1, 0, 0, 1, 383, 96)" filter="url(#Rectangle_3882)">
+        <rect id="Rectangle_3882-2" data-name="Rectangle 3882" width="475" height="297" transform="translate(19 39)" fill="#fff"/>
+      </g>
+      <g transform="matrix(1, 0, 0, 1, 383, 96)" filter="url(#Rectangle_3880)">
+        <rect id="Rectangle_3880-2" data-name="Rectangle 3880" width="475" height="297" transform="translate(19 39)" fill="#fff"/>
+      </g>
+    </g>
+    <rect id="Rectangle_3864" data-name="Rectangle 3864" width="415" height="240" transform="translate(49 69)" fill="#fff"/>
+    <text id="Headline_Title" data-name="Headline Title" transform="translate(49.3 97)" fill="#3d3d3d" font-size="26" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Headline Title</tspan></text>
+    <rect id="Rectangle_3878" data-name="Rectangle 3878" width="415" height="120" transform="translate(49 120)" fill="#fcf8e5"/>
+    <g id="Group_7708" data-name="Group 7708" transform="translate(-373 -209)">
+      <g id="Group_7681" data-name="Group 7681" transform="translate(78.3 -85)">
+        <g id="Group_7675" data-name="Group 7675" transform="translate(80.2 164.4)">
+          <rect id="Rectangle_3897" data-name="Rectangle 3897" width="60" height="36" rx="18" transform="translate(618.5 399.6)" fill="#1f5ea8"/>
+          <text id="Save" transform="translate(633.831 423.574)" fill="#fff" font-size="14" font-family="OpenSans, Open Sans"><tspan x="0" y="0">Save</tspan></text>
+        </g>
+      </g>
+      <g id="Group_7707" data-name="Group 7707" transform="translate(-6.7 -85)">
+        <g id="Group_7675-2" data-name="Group 7675" transform="translate(80.2 164.4)">
+          <rect id="Rectangle_3897-2" data-name="Rectangle 3897" width="73" height="36" rx="18" transform="translate(618.5 399.6)" fill="#fff"/>
+          <text id="Cancel" transform="translate(633.831 423.574)" fill="#1f5ea8" font-size="14" font-family="OpenSans, Open Sans"><tspan x="0" y="0">Cancel</tspan></text>
+        </g>
+      </g>
+    </g>
+    <rect id="Rectangle_3872" data-name="Rectangle 3872" width="1" height="120" transform="translate(181 120)" fill="#ff00bc"/>
+    <rect id="Rectangle_3873" data-name="Rectangle 3873" width="5" height="1" transform="translate(179 120)" fill="#ff00bc"/>
+    <rect id="Rectangle_3871" data-name="Rectangle 3871" width="5" height="1" transform="translate(179 239)" fill="#ff00bc"/>
+    <text id="dialog_minimum_content_area_height_120px" data-name="dialog minimum
+content area height
+= 120px" transform="translate(171 192)" fill="#ff00bc" font-size="10" font-family="OpenSans, Open Sans"><tspan x="-76.104" y="0">dialog minimum</tspan><tspan x="-91.182" y="14">content area height</tspan><tspan x="-36.836" y="28">= 120px</tspan></text>
+  </g>
+</svg>

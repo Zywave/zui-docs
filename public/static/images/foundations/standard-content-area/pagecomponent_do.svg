@@ -1,0 +1,125 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1230" height="934" viewBox="0 0 1230 934">
+  <defs>
+    <filter id="Rectangle_8210" x="45.5" y="410.5" width="1139" height="478" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1.5" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Card" x="45.5" y="46.5" width="1139" height="343" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1.5" result="blur-2"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-pagecomponents_do">
+      <rect width="1230" height="934"/>
+    </clipPath>
+  </defs>
+  <g id="pagecomponents_do" clip-path="url(#clip-pagecomponents_do)">
+    <rect width="1230" height="934" fill="#f4f4f6"/>
+    <g id="Group_15129" data-name="Group 15129" transform="translate(10871 759)">
+      <g transform="matrix(1, 0, 0, 1, -10871, -759)" filter="url(#Rectangle_8210)">
+        <rect id="Rectangle_8210-2" data-name="Rectangle 8210" width="1130" height="469" rx="2" transform="translate(50 414)" fill="#fff"/>
+      </g>
+      <path id="Rectangle_8213" data-name="Rectangle 8213" d="M2,0H1128a2,2,0,0,1,2,2V56a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V2A2,2,0,0,1,2,0Z" transform="translate(-10821 -345)" fill="#f9f9fa"/>
+      <text id="Animal" transform="translate(-10801 -311)" fill="#3d3d3d" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Animal</tspan></text>
+      <text id="Scientific_Name" data-name="Scientific Name" transform="translate(-10527 -311)" fill="#31313a" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Scientific Name</tspan></text>
+      <rect id="Rectangle_8212" data-name="Rectangle 8212" width="1" height="415" transform="translate(-10548.469 -290)" fill="#cbcbd2"/>
+      <rect id="Rectangle_3803" data-name="Rectangle 3803" width="1130" height="1" transform="translate(-10821 -290)" fill="#cbcbd2"/>
+      <rect id="Rectangle_3803-2" data-name="Rectangle 3803" width="1129.544" height="1" transform="translate(-10821 -241.221)" fill="#cbcbd2"/>
+      <rect id="Rectangle_3803-3" data-name="Rectangle 3803" width="1129.544" height="1" transform="translate(-10821 -186.338)" fill="#cbcbd2"/>
+      <rect id="Rectangle_3803-4" data-name="Rectangle 3803" width="1129.544" height="1" transform="translate(-10821 -133.451)" fill="#cbcbd2"/>
+      <rect id="Rectangle_3803-5" data-name="Rectangle 3803" width="1129.544" height="1" transform="translate(-10821 -80.564)" fill="#cbcbd2"/>
+      <rect id="Rectangle_3803-6" data-name="Rectangle 3803" width="1129.544" height="1" transform="translate(-10821 -28.674)" fill="#cbcbd2"/>
+      <rect id="Rectangle_3803-7" data-name="Rectangle 3803" width="1129.544" height="1" transform="translate(-10821 24.213)" fill="#cbcbd2"/>
+      <rect id="Rectangle_3803-8" data-name="Rectangle 3803" width="1130" height="1" transform="translate(-10821 79)" fill="#cbcbd2"/>
+      <text id="Baboon" transform="translate(-10801 -260)" fill="#31313a" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Baboon</tspan></text>
+      <text id="Crab" transform="translate(-10801 -212.261)" fill="#31313a" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Crab</tspan></text>
+      <text id="Great_White_Shark" data-name="Great White Shark" transform="translate(-10801 -156.385)" fill="#31313a" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Great White Shark</tspan></text>
+      <text id="Skunk" transform="translate(-10801 -105.498)" fill="#31313a" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Skunk</tspan></text>
+      <text id="Baboon-2" data-name="Baboon" transform="translate(-10801 -53.613)" fill="#31313a" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Baboon</tspan></text>
+      <text id="Crab-2" data-name="Crab" transform="translate(-10801 -1.728)" fill="#31313a" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Crab</tspan></text>
+      <text id="Great_White_Shark-2" data-name="Great White Shark" transform="translate(-10801 54)" fill="#31313a" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Great White Shark</tspan></text>
+      <text id="Skunk-2" data-name="Skunk" transform="translate(-10801 102)" fill="#31313a" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Skunk</tspan></text>
+      <text id="Papio" transform="translate(-10527 -260)" fill="#31313a" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Papio</tspan></text>
+      <text id="Brachyura" transform="translate(-10527 -212.261)" fill="#31313a" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Brachyura</tspan></text>
+      <text id="Carcharodon" transform="translate(-10527 -156.697)" fill="#31313a" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Carcharodon</tspan></text>
+      <text id="Mephitis" transform="translate(-10527 -105.007)" fill="#31313a" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Mephitis</tspan></text>
+      <text id="Papio-2" data-name="Papio" transform="translate(-10527 -53.317)" fill="#31313a" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Papio</tspan></text>
+      <text id="Brachyura-2" data-name="Brachyura" transform="translate(-10527 -1.628)" fill="#31313a" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Brachyura</tspan></text>
+      <text id="Carcharodon-2" data-name="Carcharodon" transform="translate(-10527 53.709)" fill="#31313a" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Carcharodon</tspan></text>
+      <text id="Mephitis-2" data-name="Mephitis" transform="translate(-10527 101.709)" fill="#31313a" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Mephitis</tspan></text>
+      <rect id="Rectangle_8211" data-name="Rectangle 8211" width="1" height="415" transform="translate(-10262 -291)" fill="#cbcbd2"/>
+      <text id="Habitat" transform="translate(-10241 -311)" fill="#31313a" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Habitat</tspan></text>
+      <text id="Grassland" transform="translate(-10241 -261)" fill="#31313a" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Grassland</tspan></text>
+      <text id="Coastline" transform="translate(-10241 -213.259)" fill="#31313a" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Coastline</tspan></text>
+      <text id="Coastal_Water" data-name="Coastal Water" transform="translate(-10241 -157.383)" fill="#31313a" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Coastal Water</tspan></text>
+      <text id="Woodland" transform="translate(-10241 -106.496)" fill="#31313a" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Woodland</tspan></text>
+      <text id="Grassland-2" data-name="Grassland" transform="translate(-10241 -54.611)" fill="#31313a" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Grassland</tspan></text>
+      <text id="Coastline-2" data-name="Coastline" transform="translate(-10241 -2.726)" fill="#31313a" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Coastline</tspan></text>
+      <text id="Coastal_Water-2" data-name="Coastal Water" transform="translate(-10241 53)" fill="#31313a" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Coastal Water</tspan></text>
+      <text id="Woodland-2" data-name="Woodland" transform="translate(-10241 101)" fill="#31313a" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Woodland</tspan></text>
+      <text id="Animal-2" data-name="Animal" transform="translate(-9951 -311)" fill="#3d3d3d" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Animal</tspan></text>
+      <text id="Baboon-3" data-name="Baboon" transform="translate(-9951 -260)" fill="#31313a" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Baboon</tspan></text>
+      <text id="Crab-3" data-name="Crab" transform="translate(-9951 -212.261)" fill="#31313a" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Crab</tspan></text>
+      <text id="Great_White_Shark-3" data-name="Great White Shark" transform="translate(-9951 -156.385)" fill="#31313a" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Great White Shark</tspan></text>
+      <text id="Skunk-3" data-name="Skunk" transform="translate(-9951 -105.498)" fill="#31313a" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Skunk</tspan></text>
+      <text id="Baboon-4" data-name="Baboon" transform="translate(-9951 -53.613)" fill="#31313a" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Baboon</tspan></text>
+      <text id="Crab-4" data-name="Crab" transform="translate(-9951 -1.728)" fill="#31313a" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Crab</tspan></text>
+      <text id="Great_White_Shark-4" data-name="Great White Shark" transform="translate(-9951 54)" fill="#31313a" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Great White Shark</tspan></text>
+      <text id="Skunk-4" data-name="Skunk" transform="translate(-9951 102)" fill="#31313a" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Skunk</tspan></text>
+      <rect id="Rectangle_8214" data-name="Rectangle 8214" width="1" height="415" transform="translate(-9972 -291)" fill="#cbcbd2"/>
+    </g>
+    <g id="Group_15341" data-name="Group 15341" transform="translate(5160 -2077)">
+      <g id="Card-2" data-name="Card" transform="translate(-5110 2127)">
+        <g transform="matrix(1, 0, 0, 1, -50, -50)" filter="url(#Card)">
+          <rect id="Card-3" data-name="Card" width="1130" height="334" rx="2" transform="translate(50 50)" fill="#fff"/>
+        </g>
+      </g>
+      <text id="Form_entry" data-name="Form entry" transform="translate(-5080 2179)" fill="#31313a" font-size="20" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Form entry</tspan></text>
+      <g id="Component_1" data-name="Component 1" transform="translate(-5080 2199)">
+        <g id="Secondary_Button_-_Normal" data-name="Secondary Button - Normal" transform="translate(166.698 196)">
+          <rect id="Rectangle_3991" data-name="Rectangle 3991" width="72" height="36" rx="18" fill="none"/>
+          <text id="Cancel" transform="translate(15 23)" fill="#2777d3" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Cancel</tspan></text>
+        </g>
+        <g id="Primary_Button" data-name="Primary Button" transform="translate(98 196)">
+          <rect id="Rectangle_3990" data-name="Rectangle 3990" width="59" height="36" rx="18" fill="#2777d3"/>
+          <text id="Save" transform="translate(15 23)" fill="#fff" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Save</tspan></text>
+        </g>
+        <g id="Input_-_top_label" data-name="Input - top label" transform="translate(5)">
+          <g id="Rectangle_288" data-name="Rectangle 288" transform="translate(92)" fill="#fff" stroke="#cbcbd2" stroke-width="1">
+            <rect width="403" height="42" rx="4" stroke="none"/>
+            <rect x="0.5" y="0.5" width="402" height="41" rx="3.5" fill="none"/>
+          </g>
+          <text id="Hint_text" data-name="Hint text" transform="translate(107 27)" fill="#cbcbd2" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Hint text</tspan></text>
+          <text id="Full_width" data-name="Full width" transform="translate(0 26)" fill="#31313a" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Full width</tspan></text>
+        </g>
+        <g id="Input_-_top_label-2" data-name="Input - top label" transform="translate(33 124)">
+          <g id="Rectangle_288-2" data-name="Rectangle 288" transform="translate(65)" fill="#fff" stroke="#cbcbd2" stroke-width="1">
+            <rect width="153" height="42" rx="4" stroke="none"/>
+            <rect x="0.5" y="0.5" width="152" height="41" rx="3.5" fill="none"/>
+          </g>
+          <text id="Hint_text-2" data-name="Hint text" transform="translate(80 27)" fill="#cbcbd2" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Hint text</tspan></text>
+          <text id="Small" transform="translate(0 24)" fill="#31313a" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Small</tspan></text>
+        </g>
+        <g id="Dropdown_input_-_top_label" data-name="Dropdown input - top label" transform="translate(0 62)">
+          <g id="Group_14579" data-name="Group 14579" transform="translate(97)">
+            <g id="Rectangle_288-3" data-name="Rectangle 288" fill="#fff" stroke="#cbcbd2" stroke-width="1">
+              <rect width="295" height="42" rx="4" stroke="none"/>
+              <rect x="0.5" y="0.5" width="294" height="41" rx="3.5" fill="none"/>
+            </g>
+            <text id="Hint_text-3" data-name="Hint text" transform="translate(15 27)" fill="#cbcbd2" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Hint text</tspan></text>
+            <g id="Group_7793" data-name="Group 7793" transform="translate(261 9)">
+              <rect id="Rectangle_3867" data-name="Rectangle 3867" width="24" height="24" fill="none"/>
+              <path id="Path_5558" data-name="Path 5558" d="M56,9.4l-3,3-3-3a.967.967,0,0,0-1.4,0h0a.967.967,0,0,0,0,1.4l3.7,3.7a.967.967,0,0,0,1.4,0l3.7-3.7a.967.967,0,0,0,0-1.4h0A.965.965,0,0,0,56,9.4Z" transform="translate(-40.8)" fill="#9494a4"/>
+            </g>
+          </g>
+          <text id="Dropdown" transform="translate(0 24)" fill="#31313a" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Dropdown</tspan></text>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

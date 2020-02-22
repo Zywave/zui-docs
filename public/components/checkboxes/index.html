@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html><head>
+    <title>Checkboxes | Zywave User Interface</title>
+    <link href="http://zui.zywave.com/css/ie-sucks.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://unpkg.com/@zywave/zui-bundle@next/dist/css/zui-bundle.fouc.css" />
+    <link rel="stylesheet" href="https://unpkg.com/@zywave/zui-bundle@next/dist/css/zui-bundle.app.css" />
+    <link href="http://zui.zywave.com/css/base.css" rel="stylesheet" />
+    <link href="http://zui.zywave.com/css/shortcodes.css" rel="stylesheet" />
+    <link href="http://zui.zywave.com/css/syntax-highlighting-monokai.css" rel="stylesheet" />
+    <link rel='shortcut icon' type='image/x-icon' href='http://zui.zywave.com/static/favicon.ico' />
+    <script src="http://zui.zywave.com/js/ie-sucks.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.3.0/fuse.min.js"></script>
+    <style>
+        :root {
+            --zui-shell-primary-theme: var(--zui-green);
+            --zui-shell-primary-theme-dark: var(--zui-green-600);
+            --zui-tabs-color: var(--zui-green);
+        }
+    </style>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const externalLinks = document.querySelectorAll('a[href^="http://"], a[href^="https://"]');
+            for (const l of externalLinks) {
+                if (l.href.indexOf("http://zui.zywave.com/") < 0) {
+                    l.target = '_blank';
+                }
+            }
+        });
+
+        
+        
+    </script>
+</head>
+<body>
+        <ie-sucks>
+            No. Stop it. Use a real browser.
+        </ie-sucks>
+        <zui-shell app-name="ZUI Documentation"><zui-shell-topbar>
+    <zui-logo slot="logo"></zui-logo>
+</zui-shell-topbar>
+
+
+
+<zui-shell-nav>
+    <zui-shell-nav-item>
+        <zui-icon icon="zui-nav-home" slot="icon"></zui-icon>
+        <a href="http://zui.zywave.com/" active>Home</a>
+    </zui-shell-nav-item>
+    
+    
+    <zui-shell-nav-item subnav>
+        <zui-icon icon="zui-nav-developers" slot="icon"></zui-icon>
+        
+            <span>Developers</span>
+            
+            
+            
+            
+            <a href="http://zui.zywave.com/developers/contribution-guide/" >Contribution guide</a>
+            
+            <a href="http://zui.zywave.com/developers/developing-zui/" >Developing ZUI</a>
+            
+            <a href="http://zui.zywave.com/developers/installation/" >Installation</a>
+            
+            <a href="http://zui.zywave.com/developers/lit/" >Lit 🔥</a>
+            
+            <a href="http://zui.zywave.com/developers/polyfills/" >Polyfills</a>
+            
+            <a href="http://zui.zywave.com/developers/responsive-design/" >Responsive design</a>
+            
+            <a href="http://zui.zywave.com/developers/tooling/" >Tooling</a>
+            
+            <a href="http://zui.zywave.com/developers/webcomponents/" >Web components</a>
+            
+        
+    </zui-shell-nav-item>
+    
+    
+    <zui-shell-nav-item subnav>
+        <zui-icon icon="zui-nav-foundations" slot="icon"></zui-icon>
+        
+            <span>Foundations</span>
+            
+            
+                
+            
+            
+            
+            <a href="http://zui.zywave.com/foundations/colors/" >Colors</a>
+            
+            <a href="http://zui.zywave.com/foundations/content-area/" >Content area</a>
+            
+            <a href="http://zui.zywave.com/foundations/fonts-typography/" >Fonts &amp; typography</a>
+            
+            <a href="http://zui.zywave.com/foundations/footer/" >Footer</a>
+            
+            <a href="http://zui.zywave.com/foundations/icons/" >Icons</a>
+            
+            <a href="http://zui.zywave.com/foundations/illustrations/" >Illustrations</a>
+            
+            <a href="http://zui.zywave.com/foundations/product-branding/" >Product branding</a>
+            
+            <a href="http://zui.zywave.com/foundations/shell/" >Shell</a>
+            
+            <a href="http://zui.zywave.com/foundations/sidenav/" >Sidenav</a>
+            
+            <a href="http://zui.zywave.com/foundations/topbar/" >Topbar</a>
+            
+        
+    </zui-shell-nav-item>
+    
+    
+    <zui-shell-nav-item subnav>
+        <zui-icon icon="zui-nav-components" slot="icon"></zui-icon>
+        
+            <span>Components</span>
+            
+            
+                
+            
+            
+            
+            <a href="http://zui.zywave.com/components/breadcrumbs/" >Breadcrumbs</a>
+            
+            <a href="http://zui.zywave.com/components/buttons-dropdown/" >Button dropdowns</a>
+            
+            <a href="http://zui.zywave.com/components/buttons/" >Buttons</a>
+            
+            <a href="http://zui.zywave.com/components/checkboxes/" active>Checkboxes</a>
+            
+            <a href="http://zui.zywave.com/components/dialogs/" >Dialogs</a>
+            
+            <a href="http://zui.zywave.com/components/dropdown-multi-select/" >Dropdown multi-select</a>
+            
+            <a href="http://zui.zywave.com/components/dropdown-select/" >Dropdown select</a>
+            
+            <a href="http://zui.zywave.com/components/expanders/" >Expanders</a>
+            
+            <a href="http://zui.zywave.com/components/file-selector/" >File Selector</a>
+            
+            <a href="http://zui.zywave.com/components/notifiers/" >Notifiers</a>
+            
+            <a href="http://zui.zywave.com/components/radio-buttons/" >Radio buttons</a>
+            
+            <a href="http://zui.zywave.com/components/tabs/" >Tabs</a>
+            
+            <a href="http://zui.zywave.com/components/text-input/" >Text Input</a>
+            
+            <a href="http://zui.zywave.com/components/toggles/" >Toggles</a>
+            
+            <a href="http://zui.zywave.com/components/tooltips/" >Tooltips</a>
+            
+            <a href="http://zui.zywave.com/components/wells/" >Well</a>
+            
+        
+    </zui-shell-nav-item>
+    
+    
+    <zui-shell-nav-item subnav>
+        <zui-icon icon="zui-nav-patterns" slot="icon"></zui-icon>
+        
+            <span>Patterns</span>
+            
+            
+                
+            
+            
+            
+            <a href="http://zui.zywave.com/patterns/forms/" >Forms</a>
+            
+            <a href="http://zui.zywave.com/patterns/step-flow/" >Step flow</a>
+            
+            <a href="http://zui.zywave.com/patterns/typeahead/" >Typeahead</a>
+            
+        
+    </zui-shell-nav-item>
+    
+    
+    <zui-shell-nav-item subnav>
+        <zui-icon icon="zui-nav-help" slot="icon"></zui-icon>
+        
+            <span>Communications</span>
+            
+            
+                
+            
+            
+            
+            <a href="http://zui.zywave.com/communications/messages/" >Messages</a>
+            
+            <a href="http://zui.zywave.com/communications/voice-tone/" >Voice &amp; tone</a>
+            
+            <a href="http://zui.zywave.com/communications/writing-style-guide/" >Writing style guide</a>
+            
+        
+    </zui-shell-nav-item>
+    
+    
+    <zui-shell-nav-item >
+        <zui-icon icon="zui-nav-accounts" slot="icon"></zui-icon>
+        
+            <a href="http://zui.zywave.com/personas/" >Personas</a>
+        
+    </zui-shell-nav-item>
+    
+    <script>
+        
+        const activeLinks = document.querySelectorAll('zui-shell-nav-item a[active]');
+            for (let activeLink of activeLinks) {
+                activeLink.closest('zui-shell-nav-item').expanded = true;
+            }
+    </script>
+</zui-shell-nav>
+<zui-shell-content id="content">
+                <section class="zui-layout zui-layout--slim">
+                    <div class="page-heading">
+                        <h1>Checkboxes</h1>
+                         <h2>What-wha-what-what-what's it all about?</h2> 
+                    </div>
+                    <div class="content-container">
+                        
+
+
+<dom-bind>
+    <template>
+        <zui-tabs selected="{{page}}">
+            
+            <zui-tab>Design</zui-tab>
+            
+            <zui-tab>Toolkit</zui-tab>
+            
+        </zui-tabs>
+        <zui-pages selected="[[page]]">
+            
+            <div>
+                
+                <h2 id="what-are-checkboxes">What are checkboxes?</h2>
+
+<p>Checkboxes are selection controls that allow the user to make multiple selections from a list of options. Unlike some other selection controls, checkboxes display all of the options, so the user has a chance to see all options before and while making their selections. They most commonly appear in forms, but sometimes they appear in other places in our products.</p>
+
+<hr>
+
+<!-- ###### Developer Documentation
+
+* [GitLab wiki](https://gitlab.zywave.com/zui/zui-core/wikis/home)
+* [View in GitLab](https://gitlab.zywave.com/zui/zui-core)
+
+###### Alternative Considerations
+
+<div class="band__aside-item">
+
+* [Dropdown Select](/#components/dropdown-select)
+* [Pickers](/#components/pickers)
+* [Toggles](/#components/toggles) -->
+
+<h2 id="types-of-checkboxes">Types of checkboxes</h2>
+
+<div class="grid">
+    <div class='grid-col span-6'>
+    <h4 id="standard">Standard</h4>
+
+<p>These are the most common checkboxes. They allow the user to make selections and easily move on to the next task.</p>
+
+<p><a href="#standard-checkboxes">More details</a></p>
+
+</div>
+
+<div class='grid-col span-6'>
+    <h4 id="gallery">Gallery</h4>
+
+<p>These checkboxes often feature an icon, and are generally used when they control the only selection the user can make on that page.
+<a href="#gallery-checkboxes">More details</a></p>
+
+</div>
+
+<p></div></p>
+
+<div class="grid">
+    <div class='grid-col span-6'>
+    <p><img src="http://zui.zywave.com/images/components/checkboxes/standard-checkbox.svg" alt="Image of a standard checkbox" /></p>
+
+</div>
+
+<div class='grid-col span-6'>
+    <p><img src="http://zui.zywave.com/images/components/checkboxes/gallery-checkbox.svg" alt="Image of a gallery checkbox" /></p>
+
+</div>
+
+<p></div></p>
+
+<hr>
+
+<h2 id="standard-checkboxes">Standard checkboxes</h2>
+
+<h3 id="overview">Overview</h3>
+
+<div class="grid">
+    <div class='grid-col span-4'>
+    <p>Standard checkboxes are the most common checkboxes. They allow the user to make their selections and move on to the next task.</p>
+
+<h5 id="best-practices">Best practices:</h5>
+
+<ul>
+<li>Use when the number of options is easy for the user to process, generally fewer than 10.</li>
+<li>Unless you want to emphasize the selection, these are usually the checkboxes you should use.
+<br /></li>
+</ul>
+
+</div>
+
+<p><div class='grid-col span-8'>
+    <p><img src="http://zui.zywave.com/images/components/checkboxes/standard-checkbox-specs.svg" alt="Image of a standard checkbox's specs with all values in pixels" /></p></p>
+
+<p>All values are in pixels.</p>
+
+<p></div></p>
+
+<p></div></p>
+
+<h3 id="states">States</h3>
+
+<div class="grid">
+    <div class='grid-col span-4'>
+    <h5 id="active">Active</h5>
+
+<ul>
+<li>Selected: product color (typically 500 level)</li>
+<li>Unselected: ZUI Gray 500</li>
+</ul>
+
+<h5 id="hover">Hover</h5>
+
+<ul>
+<li>Selected: product color (typically 400 level)</li>
+<li>Unselected: ZUI Gray 600</li>
+</ul>
+
+<h5 id="disabled">Disabled</h5>
+
+<ul>
+<li>Selected: ZUI Gray 300</li>
+<li>Unselected: ZUI Gray 200
+<br /></li>
+</ul>
+
+</div>
+
+<p><div class='grid-col span-8'>
+    <p><img src="http://zui.zywave.com/images/components/checkboxes/standard-checkbox-states.svg" alt="Image of a gallery checkbox's different states: active, hover, and disabled" /></p></p>
+
+<p></div></p>
+
+<p></div></p>
+
+<hr>
+
+<h2 id="gallery-checkboxes">Gallery checkboxes</h2>
+
+<div class="grid">
+    <div class='grid-col span-4'>
+    <h3 id="overview">Overview</h3>
+
+<p>Gallery checkboxes are more prominent than standard checkboxes. They are generally used when they control the only selection the user can make on that page.</p>
+
+<h5 id="best-practices">Best practices:</h5>
+
+<ul>
+<li>Because they&rsquo;re so large, they should generally be reserved for when that selection is the only one the user can make on that page.</li>
+<li>Icons both emphasize the selection and reinforce the contrast between the options.
+<br /></li>
+</ul>
+
+</div>
+
+<p><div class='grid-col span-8'>
+    <p><img src="http://zui.zywave.com/images/components/checkboxes/gallery-checkbox-specs.svg" alt="Image of gallery checkbox's specs" /></p></p>
+
+<p>All values are in pixels.</p>
+
+<p></div></p>
+
+<p></div></p>
+
+<h3 id="states-1">States</h3>
+
+<div class="grid">
+    <div class='grid-col span-4'>
+    <h4 id="gray-background">Gray Background</h4>
+
+<h5 id="unselected">Unselected</h5>
+
+<ul>
+<li>Background color: White</li>
+<li>Font color: ZUI Gray 800</li>
+<li>Font weight: 600</li>
+<li>Dropshadow
+
+<ul>
+<li>Color: Black at 16%</li>
+<li>X-Axis: 0px</li>
+<li>Y-Axis: 1px</li>
+<li>Blur radius: 3px</li>
+<li>Spread radius: 0px</li>
+</ul></li>
+</ul>
+
+<h5 id="hover">Hover</h5>
+
+<ul>
+<li>Background color: #FAFAFA</li>
+<li>Checkbox color: ZUI Gray 300</li>
+<li>Font color: ZUI Gray 800</li>
+<li>Font weight: 600</li>
+<li>Dropshadow
+
+<ul>
+<li>Color: Black at 16%</li>
+<li>X-Axis: 0px</li>
+<li>Y-Axis: 3px</li>
+<li>Blur radius: 6px</li>
+<li>Spread radius: 0px</li>
+</ul></li>
+</ul>
+
+<h5 id="selected">Selected</h5>
+
+<ul>
+<li>Border color: product color (typically 500 level)</li>
+<li>Background color: product color (typically 50 level)</li>
+<li>Checkbox color: product color (typically 500 level)</li>
+<li>Font color: ZUI Gray 800</li>
+<li>Font weight: 600</li>
+</ul>
+
+<h5 id="disabled">Disabled</h5>
+
+<ul>
+<li>Background color: ZUI Gray 100</li>
+<li>Illustration opacity: 50%</li>
+<li>Font color: ZUI Gray 300</li>
+<li>Font weight: 600
+<br /></li>
+</ul>
+
+</div>
+
+<p><div class='grid-col span-8'>
+    <p><img src="http://zui.zywave.com/images/components/checkboxes/gallery-checkbox-states-gray.svg" alt="Image of gallery checkboxes with different states on a gray background: unselected, hover, selected, and disabled" /></p></p>
+
+<p>Gallery checkboxes on a gray background.</p>
+
+<p></div></p>
+
+<p></div></p>
+
+<div class="grid">
+    <div class='grid-col span-4'>
+    <h4 id="white-background">White Background</h4>
+
+<h5 id="unselected">Unselected</h5>
+
+<ul>
+<li>Border color: ZUI Gray 300</li>
+<li>Background color: White</li>
+<li>Font color: ZUI Gray 800</li>
+<li>Font weight: 600</li>
+</ul>
+
+<h5 id="hover">Hover</h5>
+
+<ul>
+<li>Border color: ZUI Gray 300</li>
+<li>Background color: #FAFAFA</li>
+<li>Checkbox color: ZUI Gray 300</li>
+<li>Font color: ZUI Gray 800</li>
+<li>Font weight: 600</li>
+</ul>
+
+<h5 id="selected">Selected</h5>
+
+<ul>
+<li>Border color: product color (typically 500 level)</li>
+<li>Background color: product color (typically 50 level)</li>
+<li>Checkbox color: product color (typically 500 level)</li>
+<li>Font color: ZUI Gray 800</li>
+<li>Font weight: 600</li>
+</ul>
+
+<h5 id="disabled">Disabled</h5>
+
+<ul>
+<li>Background color: ZUI Gray 100</li>
+<li>Illustration opacity: 50%</li>
+<li>Font color: ZUI Gray 300</li>
+<li>Font weight: 600
+<br /></li>
+</ul>
+
+</div>
+
+<p><div class='grid-col span-8'>
+    <p><img src="http://zui.zywave.com/images/components/checkboxes/gallery-checkbox-states-white.svg" alt="Image of gallery checkboxes with different states on a white background: unselected, hover, selected, and disabled" /></p></p>
+
+<p>Gallery checkboxes on a white background.</p>
+
+<p></div></p>
+
+<p></div></p>
+
+                
+            </div>
+            
+            <div>
+                
+                <!-- Generated by documentation.js. Update this documentation by updating the source code. -->
+
+<h3 id="table-of-contents">Table of Contents</h3>
+
+<ul>
+<li><a href="#zuicheckbox">ZuiCheckbox</a>
+
+<ul>
+<li><a href="#example">Example</a></li>
+<li><a href="#checked">checked</a></li>
+</ul></li>
+</ul>
+
+<h2 id="zuicheckbox">ZuiCheckbox</h2>
+
+<p><strong>Extends ZuiFormAssociatedElement</strong></p>
+
+<h3 id="example">Example</h3>
+<div class="highlight"><pre class="chroma"><code class="language-html" data-lang="html"><span class="p">&lt;</span><span class="nt">zui-checkbox</span> <span class="na">checked</span><span class="p">&gt;&lt;/</span><span class="nt">zui-checkbox</span><span class="p">&gt;</span></code></pre></div>
+<h3 id="checked">checked</h3>
+
+<p>Whether or not the checkbox is checked</p>
+
+                
+            </div>
+            
+        </zui-pages>
+    </template>
+</dom-bind>
+
+
+
+                    </div>
+                </section>
+            </zui-shell-content><zui-shell-footer>
+    <div>
+        &copy; 1995 - 2020 Zywave, Inc. All rights reserved.
+    </div>
+    <a class="zui-link" target="_blank" href="http://www.zywave.com/terms-conditions/">Terms and Conditions</a>
+    <a class="zui-link" target="_blank" href="http://www.zywave.com/privacy-statement/">Privacy Statement</a>
+    <a class="zui-link" target="_blank" href="http://www.zywave.com/dmca-notice/">DMCA</a></div>
+    <a class="zui-link" target="_blank" href="http://www.zywave.com/cookie-usage/">Cookie Usage</a>
+    <a class="zui-link" href="mailto:support@zywave.com">Contact</a>
+</zui-shell-footer>
+<script src="https://unpkg.com/@zywave/zui-bundle@next/dist/zui-loader.js"></script>
+</zui-shell>
+    </body>
+</html>

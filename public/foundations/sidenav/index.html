@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html><head>
+    <title>Sidenav | Zywave User Interface</title>
+    <link href="http://zui.zywave.com/css/ie-sucks.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://unpkg.com/@zywave/zui-bundle@next/dist/css/zui-bundle.fouc.css" />
+    <link rel="stylesheet" href="https://unpkg.com/@zywave/zui-bundle@next/dist/css/zui-bundle.app.css" />
+    <link href="http://zui.zywave.com/css/base.css" rel="stylesheet" />
+    <link href="http://zui.zywave.com/css/shortcodes.css" rel="stylesheet" />
+    <link href="http://zui.zywave.com/css/syntax-highlighting-monokai.css" rel="stylesheet" />
+    <link rel='shortcut icon' type='image/x-icon' href='http://zui.zywave.com/static/favicon.ico' />
+    <script src="http://zui.zywave.com/js/ie-sucks.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.3.0/fuse.min.js"></script>
+    <style>
+        :root {
+            --zui-shell-primary-theme: var(--zui-green);
+            --zui-shell-primary-theme-dark: var(--zui-green-600);
+            --zui-tabs-color: var(--zui-green);
+        }
+    </style>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const externalLinks = document.querySelectorAll('a[href^="http://"], a[href^="https://"]');
+            for (const l of externalLinks) {
+                if (l.href.indexOf("http://zui.zywave.com/") < 0) {
+                    l.target = '_blank';
+                }
+            }
+        });
+
+        
+        
+    </script>
+</head>
+<body>
+        <ie-sucks>
+            No. Stop it. Use a real browser.
+        </ie-sucks>
+        <zui-shell app-name="ZUI Documentation"><zui-shell-topbar>
+    <zui-logo slot="logo"></zui-logo>
+</zui-shell-topbar>
+
+
+
+<zui-shell-nav>
+    <zui-shell-nav-item>
+        <zui-icon icon="zui-nav-home" slot="icon"></zui-icon>
+        <a href="http://zui.zywave.com/" active>Home</a>
+    </zui-shell-nav-item>
+    
+    
+    <zui-shell-nav-item subnav>
+        <zui-icon icon="zui-nav-developers" slot="icon"></zui-icon>
+        
+            <span>Developers</span>
+            
+            
+            
+            
+            <a href="http://zui.zywave.com/developers/contribution-guide/" >Contribution guide</a>
+            
+            <a href="http://zui.zywave.com/developers/developing-zui/" >Developing ZUI</a>
+            
+            <a href="http://zui.zywave.com/developers/installation/" >Installation</a>
+            
+            <a href="http://zui.zywave.com/developers/lit/" >Lit 🔥</a>
+            
+            <a href="http://zui.zywave.com/developers/polyfills/" >Polyfills</a>
+            
+            <a href="http://zui.zywave.com/developers/responsive-design/" >Responsive design</a>
+            
+            <a href="http://zui.zywave.com/developers/tooling/" >Tooling</a>
+            
+            <a href="http://zui.zywave.com/developers/webcomponents/" >Web components</a>
+            
+        
+    </zui-shell-nav-item>
+    
+    
+    <zui-shell-nav-item subnav>
+        <zui-icon icon="zui-nav-foundations" slot="icon"></zui-icon>
+        
+            <span>Foundations</span>
+            
+            
+                
+            
+            
+            
+            <a href="http://zui.zywave.com/foundations/colors/" >Colors</a>
+            
+            <a href="http://zui.zywave.com/foundations/content-area/" >Content area</a>
+            
+            <a href="http://zui.zywave.com/foundations/fonts-typography/" >Fonts &amp; typography</a>
+            
+            <a href="http://zui.zywave.com/foundations/footer/" >Footer</a>
+            
+            <a href="http://zui.zywave.com/foundations/icons/" >Icons</a>
+            
+            <a href="http://zui.zywave.com/foundations/illustrations/" >Illustrations</a>
+            
+            <a href="http://zui.zywave.com/foundations/product-branding/" >Product branding</a>
+            
+            <a href="http://zui.zywave.com/foundations/shell/" >Shell</a>
+            
+            <a href="http://zui.zywave.com/foundations/sidenav/" active>Sidenav</a>
+            
+            <a href="http://zui.zywave.com/foundations/topbar/" >Topbar</a>
+            
+        
+    </zui-shell-nav-item>
+    
+    
+    <zui-shell-nav-item subnav>
+        <zui-icon icon="zui-nav-components" slot="icon"></zui-icon>
+        
+            <span>Components</span>
+            
+            
+                
+            
+            
+            
+            <a href="http://zui.zywave.com/components/breadcrumbs/" >Breadcrumbs</a>
+            
+            <a href="http://zui.zywave.com/components/buttons-dropdown/" >Button dropdowns</a>
+            
+            <a href="http://zui.zywave.com/components/buttons/" >Buttons</a>
+            
+            <a href="http://zui.zywave.com/components/checkboxes/" >Checkboxes</a>
+            
+            <a href="http://zui.zywave.com/components/dialogs/" >Dialogs</a>
+            
+            <a href="http://zui.zywave.com/components/dropdown-multi-select/" >Dropdown multi-select</a>
+            
+            <a href="http://zui.zywave.com/components/dropdown-select/" >Dropdown select</a>
+            
+            <a href="http://zui.zywave.com/components/expanders/" >Expanders</a>
+            
+            <a href="http://zui.zywave.com/components/file-selector/" >File Selector</a>
+            
+            <a href="http://zui.zywave.com/components/notifiers/" >Notifiers</a>
+            
+            <a href="http://zui.zywave.com/components/radio-buttons/" >Radio buttons</a>
+            
+            <a href="http://zui.zywave.com/components/tabs/" >Tabs</a>
+            
+            <a href="http://zui.zywave.com/components/text-input/" >Text Input</a>
+            
+            <a href="http://zui.zywave.com/components/toggles/" >Toggles</a>
+            
+            <a href="http://zui.zywave.com/components/tooltips/" >Tooltips</a>
+            
+            <a href="http://zui.zywave.com/components/wells/" >Well</a>
+            
+        
+    </zui-shell-nav-item>
+    
+    
+    <zui-shell-nav-item subnav>
+        <zui-icon icon="zui-nav-patterns" slot="icon"></zui-icon>
+        
+            <span>Patterns</span>
+            
+            
+                
+            
+            
+            
+            <a href="http://zui.zywave.com/patterns/forms/" >Forms</a>
+            
+            <a href="http://zui.zywave.com/patterns/step-flow/" >Step flow</a>
+            
+            <a href="http://zui.zywave.com/patterns/typeahead/" >Typeahead</a>
+            
+        
+    </zui-shell-nav-item>
+    
+    
+    <zui-shell-nav-item subnav>
+        <zui-icon icon="zui-nav-help" slot="icon"></zui-icon>
+        
+            <span>Communications</span>
+            
+            
+                
+            
+            
+            
+            <a href="http://zui.zywave.com/communications/messages/" >Messages</a>
+            
+            <a href="http://zui.zywave.com/communications/voice-tone/" >Voice &amp; tone</a>
+            
+            <a href="http://zui.zywave.com/communications/writing-style-guide/" >Writing style guide</a>
+            
+        
+    </zui-shell-nav-item>
+    
+    
+    <zui-shell-nav-item >
+        <zui-icon icon="zui-nav-accounts" slot="icon"></zui-icon>
+        
+            <a href="http://zui.zywave.com/personas/" >Personas</a>
+        
+    </zui-shell-nav-item>
+    
+    <script>
+        
+        const activeLinks = document.querySelectorAll('zui-shell-nav-item a[active]');
+            for (let activeLink of activeLinks) {
+                activeLink.closest('zui-shell-nav-item').expanded = true;
+            }
+    </script>
+</zui-shell-nav>
+<zui-shell-content id="content">
+                <section class="zui-layout zui-layout--slim">
+                    <div class="page-heading">
+                        <h1>Sidenav</h1>
+                        
+                    </div>
+                    <div class="content-container">
+                        
+
+<h2 id="what-is-a-sidenav">What is a Sidenav</h2>
+
+<p>The Side nav contains the majority of the application and suite level navigation. This includes the applications feature level nagivation as well as access to notifications, settings, and help and training.</p>
+
+<h2 id="when-to-use-sidenav">When to use Sidenav</h2>
+
+<p>The side navigation is a base component of the Shell. Having the navigation in a standard and reliable place helps grounds the user experience of all our products, so there should be a good reason if you&rsquo;re not going to use it.</p>
+
+<hr />
+
+<h2 id="what-things-go-in-the-sidenav">What things go in the Sidenav</h2>
+
+<p>The following are nav items that are recommended for every application, when applicable.</p>
+
+<ol>
+<li><strong>Home</strong>  - Every application should start with a home link at the top.  This takes you to the home page of whatever application you are in.</li>
+<li><strong>Product navigation links</strong> - These are the application links take the user to the features they have access to.</li>
+<li><strong>Notifications</strong> - Application specific notifications, when applicaable.</li>
+<li><strong>Settings</strong> - Application specific settings, when applicable.</li>
+<li><strong>Help and Training</strong> - Links to application specific help and Zywave University.</li>
+<li><strong>Collapse</strong> - Gives the user the ability to collapse the Sidenav for more working space in the <a href="http://zui.zywave.com/foundations/content_area">content area</a>.</li>
+</ol>
+
+<p><img src="http://zui.zywave.com/images/foundations/sidenav/sidenav-anatomy--desktop-standard-nav-items.svg" alt="Sidenav - suite standard items" /></p>
+
+<hr />
+
+<h2 id="sidenav-anatomy">Sidenav anatomy</h2>
+
+<p>These are the building blocks of the Sidenav.</p>
+
+<ol>
+<li><strong>Nav Item</strong></li>
+<li><strong>Nav Item Icon</strong></li>
+<li><strong>Expand Icon</strong></li>
+<li><strong>Nav Item (with children)</strong></li>
+<li><strong>Subnav Items</strong></li>
+<li><strong>Collapse action</strong></li>
+</ol>
+
+<p><img src="http://zui.zywave.com/images/foundations/sidenav/sidenav-anatomy--desktop-expanded.svg" alt="Sidenav - anatomy" /></p>
+
+<h4 id="icon-rules">Icon rules</h4>
+
+<ul>
+<li>All top level nav items should have a corresponding icon to help quickly identify the action. These icons are also used when the menu is collapsed.</li>
+<li>Child items do not have an icons associate with them.</li>
+<li>For more information <a href="http://zui.zywave.com/foundations/icons">view our icon standards</a></li>
+</ul>
+
+<hr />
+
+<h2 id="the-three-states-of-sidnav">The three states of Sidnav</h2>
+
+<ol>
+<li><strong>Expanded</strong> - At the <strong>breakpoint of ≥720</strong> the full expanded side navigation are present.</li>
+<li><strong>Collapsed</strong> - When the collapse button is pressed the menu will slim down to show only icons as main navigational items.</li>
+<li><strong>Mobile</strong> - At the <strong>breakpoint of &lt;720</strong> the Sidenav is off screen and slides in from the left when the hamburger menu is pushed.</li>
+</ol>
+
+<hr />
+
+<h2 id="behavior-expaned-state">Behavior (expaned state)</h2>
+
+<ol>
+<li><strong>Unselected Navitem</strong> - Font color: grey-700; font weight: 400; icon color: gray-800; background color: none</li>
+<li><strong>Selected Navitem</strong>  - Font color: blue-500; font weight: 700; icon color: blue-500; background color: none</li>
+<li><strong>Expand &amp; collapse action icon</strong> - When clicked the icon rotates 180 degrees.  The icon should always point the direction the action will happen.</li>
+<li><strong>Selected subnav item</strong> - Font color: blue-500; font weight: 700; icon color: blue-500; background color: none</li>
+<li><strong>Hover</strong> - background color: Gray-50</li>
+</ol>
+
+<p><img src="http://zui.zywave.com/images/foundations/sidenav/sidenav-anatomy--desktop-expanded-behavior.svg" alt="Sidenav - anatomy" /></p>
+
+<h3 id="parent-and-children">Parent and children</h3>
+
+<ul>
+<li>When anywhere on a parent item is clicked, the children will appear below that parent item.</li>
+<li>Parent items are used only for organizational purposes to reveal their child subnav items, they aren&rsquo;t linked to pages themselves.</li>
+<li>Parent items can all can be open at the same time to show all subnav item for the entire application.</li>
+<li>After a user clicks on a link, expanded navigation remains expanded. Don&rsquo;t close the navigation until the user pushes to close it.</li>
+</ul>
+
+<h3 id="scrolling">Scrolling</h3>
+
+<ul>
+<li>When the list of expanded items extends the entire height of the view port,  a small scrollbar appears, allowing the user to scroll the Sidenav.</li>
+<li>The collapse nav item remains stuck to the bottom and not part of the scrolling section.</li>
+</ul>
+
+<h3 id="collapsing-the-sidenav">Collapsing the Sidenav</h3>
+
+<ul>
+<li>The user can collapse &amp; expand the naviagtion by clicking the collapse button at the bottom of the Sidenav.</li>
+<li>When collapsed - The content area will respond and make more room for itself, taking up the area that the sidnav had been using.</li>
+<li>There is no need for the expand/collapse Sidenav function in the mobile state, so the button is hidden.</li>
+</ul>
+
+<hr />
+
+<h2 id="behavior-collapsed-state">Behavior (collapsed state)</h2>
+
+<ol>
+<li><strong>Unselected Nav item</strong> - icon color: gray-800; background color: none</li>
+<li><strong>Selected Nav item</strong>  - Slideout shows the full name of the navigation item. The user can then click the icon or the text to navigate to this page. icon color: blue-500; background color: none</li>
+<li><strong>Hover Nav item with children</strong> - Slideout shows the Nav item name and list of subnav items. The user can then select the page they wish to navigate to in the list. Background color: gray-50;</li>
+<li><strong>Hover Subnav item</strong> - background color: Gray-100</li>
+<li><strong>Selected item</strong> - Font color: blue-500; font weight: 700; background color: none</li>
+</ol>
+
+<p><img src="http://zui.zywave.com/images/foundations/sidenav/sidenav-anatomy--desktop-collapsed-behavior.svg" alt="Sidenav - anatomy" /></p>
+
+<hr />
+
+<h2 id="behavior-mobile-state">Behavior (mobile state)</h2>
+
+<ol>
+<li>The menu slides in over the content. To close the side nav the user will click off to the right of the navigation.</li>
+<li>Apps &amp; Profile navigational items that were in the topbar will now appear in the sidenav.</li>
+</ol>
+
+<p><img src="http://zui.zywave.com/images/foundations/sidenav/sidenav-anatomy--mobile-behavior.svg" alt="Sidenav - anatomy" /></p>
+
+<hr />
+
+<h2 id="sizing-spacing">Sizing &amp; Spacing</h2>
+
+<p>Use the following links to find exact pixel specs for each state of the Sidenav.</p>
+
+<ul>
+<li><a href="https://xd.adobe.com/spec/9da91ee5-e6b5-4890-58da-6f0e5d08723e-eb98/">Expanded state specs</a></li>
+<li><a href="https://xd.adobe.com/spec/9da91ee5-e6b5-4890-58da-6f0e5d08723e-eb98/">Collapsed state specs</a></li>
+<li><a href="https://xd.adobe.com/spec/9da91ee5-e6b5-4890-58da-6f0e5d08723e-eb98/">Mobile state specs</a></li>
+</ul>
+
+<div class="spacer "></div>
+
+                    </div>
+                </section>
+            </zui-shell-content><zui-shell-footer>
+    <div>
+        &copy; 1995 - 2020 Zywave, Inc. All rights reserved.
+    </div>
+    <a class="zui-link" target="_blank" href="http://www.zywave.com/terms-conditions/">Terms and Conditions</a>
+    <a class="zui-link" target="_blank" href="http://www.zywave.com/privacy-statement/">Privacy Statement</a>
+    <a class="zui-link" target="_blank" href="http://www.zywave.com/dmca-notice/">DMCA</a></div>
+    <a class="zui-link" target="_blank" href="http://www.zywave.com/cookie-usage/">Cookie Usage</a>
+    <a class="zui-link" href="mailto:support@zywave.com">Contact</a>
+</zui-shell-footer>
+<script src="https://unpkg.com/@zywave/zui-bundle@next/dist/zui-loader.js"></script>
+</zui-shell>
+    </body>
+</html>

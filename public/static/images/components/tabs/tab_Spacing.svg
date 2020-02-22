@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="480" height="104" viewBox="0 0 480 104">
+  <defs>
+    <clipPath id="clip-tab_Spacing">
+      <rect width="480" height="104"/>
+    </clipPath>
+  </defs>
+  <g id="tab_Spacing" clip-path="url(#clip-tab_Spacing)">
+    <rect width="480" height="104" fill="#f4f4f6"/>
+    <g id="Group_8095" data-name="Group 8095" transform="translate(-253 -215)">
+      <rect id="Rectangle_4038" data-name="Rectangle 4038" width="439" height="1" transform="translate(274 296)" fill="#cbcbd2"/>
+      <text id="Tab_one" data-name="Tab one" transform="translate(295 272)" fill="#1f5ea8" font-size="14" font-family="OpenSans-Bold, Open Sans" font-weight="700"><tspan x="0" y="0">Tab one</tspan></text>
+      <text id="Tab_two" data-name="Tab two" transform="translate(390 272)" fill="#5b5b5b" font-size="14" font-family="OpenSans, Open Sans"><tspan x="0" y="0">Tab two</tspan></text>
+      <text id="Tab_three" data-name="Tab three" transform="translate(482 272)" fill="#5b5b5b" font-size="14" font-family="OpenSans, Open Sans"><tspan x="0" y="0">Tab three</tspan></text>
+      <text id="Tab_three-2" data-name="Tab three" transform="translate(585 272)" fill="#5b5b5b" font-size="14" font-family="OpenSans, Open Sans"><tspan x="0" y="0">Tab three</tspan></text>
+      <rect id="Rectangle_4039" data-name="Rectangle 4039" width="96" height="4" transform="translate(274 292)" fill="#1f5ea8"/>
+    </g>
+    <rect id="Rectangle_5287" data-name="Rectangle 5287" width="96" height="20" transform="translate(21 57)" fill="rgba(117,219,213,0.5)"/>
+    <rect id="Rectangle_5288" data-name="Rectangle 5288" width="96" height="20" transform="translate(21 26)" fill="rgba(117,219,213,0.5)"/>
+    <rect id="Rectangle_5289" data-name="Rectangle 5289" width="51" height="20" transform="translate(117 26) rotate(90)" fill="rgba(117,219,213,0.5)"/>
+    <rect id="Rectangle_5290" data-name="Rectangle 5290" width="51" height="20" transform="translate(41 26) rotate(90)" fill="rgba(117,219,213,0.5)"/>
+    <g id="Group_8417" data-name="Group 8417" transform="translate(0 3)">
+      <line id="Line_16" data-name="Line 16" y2="6" transform="translate(97.5 15.5)" fill="none" stroke="#de7cb9" stroke-width="1"/>
+      <line id="Line_17" data-name="Line 17" y2="6" transform="translate(117.5 15.5)" fill="none" stroke="#de7cb9" stroke-width="1"/>
+      <line id="Line_18" data-name="Line 18" x1="20" transform="translate(97.5 18.5)" fill="none" stroke="#de7cb9" stroke-width="1"/>
+    </g>
+    <g id="Group_8418" data-name="Group 8418" transform="translate(140 -71) rotate(90)">
+      <line id="Line_16-2" data-name="Line 16" y2="6" transform="translate(97.5 15.5)" fill="none" stroke="#de7cb9" stroke-width="1"/>
+      <line id="Line_17-2" data-name="Line 17" y2="6" transform="translate(117.5 15.5)" fill="none" stroke="#de7cb9" stroke-width="1"/>
+      <line id="Line_18-2" data-name="Line 18" x1="20" transform="translate(97.5 18.5)" fill="none" stroke="#de7cb9" stroke-width="1"/>
+    </g>
+    <g id="Group_8419" data-name="Group 8419" transform="translate(140 -20) rotate(90)">
+      <line id="Line_16-3" data-name="Line 16" y2="6" transform="translate(97.5 15.5)" fill="none" stroke="#de7cb9" stroke-width="1"/>
+      <line id="Line_17-3" data-name="Line 17" y2="6" transform="translate(100.467 15.5)" fill="none" stroke="#de7cb9" stroke-width="1"/>
+      <line id="Line_18-3" data-name="Line 18" x1="2.967" transform="translate(97.5 18.5)" fill="none" stroke="#de7cb9" stroke-width="1"/>
+    </g>
+    <text id="_20" data-name="20" transform="translate(101 16)" fill="#de7cb9" font-size="12" font-family="OpenSans, Open Sans"><tspan x="0" y="0">20</tspan></text>
+    <text id="_20-2" data-name="20" transform="translate(128 40)" fill="#de7cb9" font-size="12" font-family="OpenSans, Open Sans"><tspan x="0" y="0">20</tspan></text>
+    <text id="_4" data-name="4" transform="translate(126 80)" fill="#de7cb9" font-size="12" font-family="OpenSans, Open Sans"><tspan x="0" y="0">4</tspan></text>
+  </g>
+</svg>

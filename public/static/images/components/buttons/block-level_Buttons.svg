@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="369" height="159" viewBox="0 0 369 159">
+  <defs>
+    <clipPath id="clip-Block_level_buttons">
+      <rect width="369" height="159"/>
+    </clipPath>
+  </defs>
+  <g id="Block_level_buttons" data-name="Block level buttons" clip-path="url(#clip-Block_level_buttons)">
+    <rect width="369" height="159" fill="#f4f4f6"/>
+    <text id="Lorem_ipsum_dolor_sit_amet_consectetur_adipiscing_elit._Sed_in_mi_tincidunt_dignissim_urna_at_auctor_massa._Donec_interdum_faucibus_semper._Phasellus_purus_ipsum_sodales_quis_dolor_malesuada_congue_convallis_odio._Integer_rutrum_ipsum_in_eleifend_matt" data-name="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in mi tincidunt, dignissim urna at, auctor massa. Donec interdum faucibus semper. Phasellus purus ipsum, sodales quis dolor malesuada, congue convallis odio. Integer rutrum ipsum in eleifend matt" transform="translate(20 -142)" fill="#31313a" font-size="14" font-family="OpenSans, Open Sans"><tspan x="0" y="15">Lorem ipsum dolor sit amet, consectetur </tspan><tspan x="0" y="34">adipiscing elit. Sed in mi tincidunt, dignissim urna </tspan><tspan x="0" y="53">at, auctor massa. Donec interdum faucibus </tspan><tspan x="0" y="72">semper. Phasellus purus ipsum, sodales quis </tspan><tspan x="0" y="91">dolor malesuada, congue convallis odio. Integer </tspan><tspan x="0" y="110">rutrum ipsum in eleifend mattis. Vestibulum sed </tspan><tspan x="0" y="129">eros non ipsum pharetra placerat quis a ipsum. </tspan><tspan x="0" y="148">Integer cursus a sem ut consequat. Mauris quis </tspan><tspan x="0" y="167">diam eget ipsum blandit varius. Pellentesque </tspan><tspan x="0" y="186">molestie tincidunt tellus tristique volutpat. Nam </tspan><tspan x="0" y="205">venenatis, ante id efficitur ultrices, nisi lorem </tspan><tspan x="0" y="224">elementum leo, eu cursus nunc neque.</tspan></text>
+    <g id="Group_8488" data-name="Group 8488" transform="translate(-29.066 -12)">
+      <rect id="Rectangle_3990" data-name="Rectangle 3990" width="328.066" height="36" rx="18" transform="translate(50 119)" fill="#2777d3"/>
+      <text id="Action" transform="translate(214.348 142)" fill="#fff" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="-20.614" y="0">Action</tspan></text>
+    </g>
+  </g>
+</svg>

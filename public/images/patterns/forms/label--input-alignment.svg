@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="900" height="204" viewBox="0 0 900 204">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="300" height="42" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <rect width="24" height="24" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-label--input-alignment">
+      <rect width="900" height="204"/>
+    </clipPath>
+  </defs>
+  <g id="label--input-alignment" clip-path="url(#clip-label--input-alignment)">
+    <g id="Group_13270" data-name="Group 13270" transform="translate(257 30)">
+      <text id="Label" transform="translate(0 27)" fill="#31313a" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Label</tspan></text>
+      <g id="Input-_no_label" data-name="Input- no label" transform="translate(86)" clip-path="url(#clip-path)">
+        <g id="Rectangle_288" data-name="Rectangle 288" fill="#fff" stroke="#cbcbd2" stroke-width="1">
+          <rect width="300" height="42" rx="4" stroke="none"/>
+          <rect x="0.5" y="0.5" width="299" height="41" rx="3.5" fill="none"/>
+        </g>
+        <text id="Text" transform="translate(15 27)" fill="#afafbb" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Text</tspan></text>
+      </g>
+      <line id="Line_5" data-name="Line 5" x1="94" transform="translate(26.5 28.5)" fill="none" stroke="#c6318c" stroke-width="1" stroke-dasharray="2 2"/>
+      <text id="Label-2" data-name="Label" transform="translate(0 88)" fill="#31313a" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Label</tspan></text>
+      <line id="Line_5-2" data-name="Line 5" x1="148" transform="translate(26.5 89.5)" fill="none" stroke="#c6318c" stroke-width="1" stroke-dasharray="2 2"/>
+      <g id="Group_2" data-name="Group 2" transform="translate(83 64)">
+        <circle id="Ellipse_1" data-name="Ellipse 1" cx="18" cy="18" r="18" transform="translate(3)" fill="none"/>
+        <circle id="Ellipse_2" data-name="Ellipse 2" cx="18" cy="18" r="18" transform="translate(3 36)" fill="none"/>
+        <g id="Radio_Unselected" data-name="Radio Unselected" transform="translate(9 6)" clip-path="url(#clip-path-2)">
+          <path id="Path_5843" data-name="Path 5843" d="M12,43.2a9.6,9.6,0,1,1-9.6,9.6A9.628,9.628,0,0,1,12,43.2m0-2.4a12,12,0,1,0,12,12,12.035,12.035,0,0,0-12-12Z" transform="translate(0 -40.8)" fill="#9494a4"/>
+        </g>
+        <g id="Radio_Selected" data-name="Radio Selected" transform="translate(9 42)">
+          <path id="Path_6085" data-name="Path 6085" d="M37,43.2a9.6,9.6,0,1,1-9.6,9.6A9.628,9.628,0,0,1,37,43.2m0-2.4a12,12,0,1,0,12,12,12.035,12.035,0,0,0-12-12Zm7.2,12A7.2,7.2,0,1,0,37,60,7.221,7.221,0,0,0,44.2,52.8Z" transform="translate(-25 -40.8)" fill="#2777d3"/>
+        </g>
+        <text id="Porsche" transform="translate(38 24)" fill="#1a1a1e" stroke="rgba(0,0,0,0)" stroke-width="1" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Porsche</tspan></text>
+        <text id="Corvette" transform="translate(38 60)" fill="#1a1a1e" stroke="rgba(0,0,0,0)" stroke-width="1" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Corvette</tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>

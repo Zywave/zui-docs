@@ -1,0 +1,109 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1270" height="135" viewBox="0 0 1270 135">
+  <defs>
+    <filter id="Rectangle_5232" x="840" y="0" width="430" height="110" filterUnits="userSpaceOnUse">
+      <feOffset dy="6" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feFlood flood-opacity="0.2"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_3830" x="420" y="0" width="430" height="116" filterUnits="userSpaceOnUse">
+      <feOffset dy="6" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-2"/>
+      <feFlood flood-opacity="0.302"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_3830-2" x="840" y="0" width="430" height="134" filterUnits="userSpaceOnUse">
+      <feOffset dy="6" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-3"/>
+      <feFlood flood-opacity="0.302"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-path">
+      <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Rectangle_5232)">
+        <rect id="Rectangle_5232-2" data-name="Rectangle 5232" width="400" height="80" rx="4" fill="#fff" opacity="0.9"/>
+      </g>
+    </clipPath>
+    <filter id="Rectangle_3830-3" x="0" y="0" width="430" height="135" filterUnits="userSpaceOnUse">
+      <feOffset dy="6" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-4"/>
+      <feFlood flood-opacity="0.302"/>
+      <feComposite operator="in" in2="blur-4"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Types" transform="translate(-90 -791)">
+    <g id="Types-2" data-name="Types">
+      <g id="Group_11915" data-name="Group 11915" transform="translate(485 456)">
+        <g id="Group_11892" data-name="Group 11892" transform="translate(-75 246)">
+          <g transform="matrix(1, 0, 0, 1, -320, 89)" filter="url(#Rectangle_3830)">
+            <rect id="Rectangle_3830-4" data-name="Rectangle 3830" width="400" height="86" rx="4" transform="translate(435 9)" fill="#fff"/>
+          </g>
+          <text id="Success_" data-name="Success! " transform="translate(169 135)" fill="#3d3d3d" font-size="16" font-family="OpenSans-Bold, Open Sans" font-weight="700"><tspan x="0" y="0">Success! </tspan></text>
+          <text id="The_data_from_your_file_has_been_imported._" data-name="The data from your file has been imported. " transform="translate(169 160)" fill="#3d3d3d" font-size="14" font-family="OpenSans, Open Sans"><tspan x="0" y="0">The data from your file has been imported. </tspan></text>
+          <g id="Group_11925" data-name="Group 11925">
+            <circle id="Ellipse_6" data-name="Ellipse 6" cx="12" cy="12" r="12" transform="translate(125 118)" fill="#5fb53b"/>
+            <g id="Group_11924" data-name="Group 11924" transform="translate(129 122.8)">
+              <path id="Path_6639" data-name="Path 6639" d="M7.547,15.8a.2.2,0,0,1-.286,0l-4.2-4.2a.2.2,0,0,1,0-.286L4.2,10.17a.2.2,0,0,1,.286,0L7.4,13.083l7.464-7.465a.2.2,0,0,1,.287,0L16.3,6.764a.2.2,0,0,1,0,.286Z" transform="translate(-1.785 -3.308)" fill="#fff"/>
+              <rect id="Rectangle_5235" data-name="Rectangle 5235" width="16.2" height="16.2" transform="translate(0)" fill="none"/>
+            </g>
+          </g>
+          <g id="Remove" transform="translate(501 138)">
+            <g id="Group_11940" data-name="Group 11940" transform="translate(-20 -20)">
+              <rect id="Rectangle_5239" data-name="Rectangle 5239" width="24" height="24" fill="none"/>
+              <path id="Path_6644" data-name="Path 6644" d="M13.905,12l4.673-4.673a.227.227,0,0,0,0-.318L16.99,5.422a.227.227,0,0,0-.318,0L12,10.095,7.327,5.422a.227.227,0,0,0-.318,0L5.422,7.01a.227.227,0,0,0,0,.318L10.095,12,5.422,16.673a.227.227,0,0,0,0,.318L7.01,18.578a.227.227,0,0,0,.318,0L12,13.905l4.673,4.673a.227.227,0,0,0,.318,0l1.588-1.588a.227.227,0,0,0,0-.318Z" transform="translate(0 0)" fill="#31313a"/>
+            </g>
+          </g>
+          <path id="Rectangle_5245" data-name="Rectangle 5245" d="M4,0H396a4,4,0,0,1,4,4v6a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V4A4,4,0,0,1,4,0Z" transform="translate(115 98)" fill="#5fb53b"/>
+        </g>
+      </g>
+      <g id="Group_11943" data-name="Group 11943" transform="translate(905 456)">
+        <g id="Group_11892-2" data-name="Group 11892" transform="translate(-75 246)">
+          <g transform="matrix(1, 0, 0, 1, -740, 89)" filter="url(#Rectangle_3830-2)">
+            <rect id="Rectangle_3830-5" data-name="Rectangle 3830" width="400" height="104" rx="4" transform="translate(855 9)" fill="#fff"/>
+          </g>
+          <text id="Lost_connection" data-name="Lost connection" transform="translate(169 134.302)" fill="#3d3d3d" font-size="16" font-family="OpenSans-Bold, Open Sans" font-weight="700"><tspan x="0" y="0">Lost connection</tspan></text>
+          <text id="It_looks_like_you_re_not_connected_to_the_internet._Check_your_network_connection._" data-name="It looks like you&apos;re not connected to the internet. 
+Check your network connection. " transform="translate(169 158.416)" fill="#3d3d3d" font-size="14" font-family="OpenSans, Open Sans"><tspan x="0" y="0">It looks like you&apos;re not connected to the internet. </tspan><tspan x="0" y="19">Check your network connection. </tspan></text>
+          <g id="Group_11925-2" data-name="Group 11925" transform="translate(125 117.286)">
+            <circle id="Ellipse_6-2" data-name="Ellipse 6" cx="12" cy="12" r="12" fill="#ee562f"/>
+            <g id="Group_11944" data-name="Group 11944" transform="translate(3.9 3.9)">
+              <path id="Path_6647" data-name="Path 6647" d="M18.487,10.565,19.332.422A.422.422,0,0,0,18.91,0H16.374a.423.423,0,0,0-.423.422L16.8,10.565a.423.423,0,0,0,.423.423h.845A.423.423,0,0,0,18.487,10.565Z" transform="translate(-9.592)" fill="#fff"/>
+              <path id="Path_6648" data-name="Path 6648" d="M17.581,31.488a1.725,1.725,0,1,0,1.735,1.735V33.2A1.728,1.728,0,0,0,17.581,31.488Z" transform="translate(-9.543 -18.935)" fill="#fff"/>
+              <rect id="Rectangle_5240" data-name="Rectangle 5240" width="16" height="16" fill="none"/>
+            </g>
+          </g>
+          <g id="Remove-2" data-name="Remove" transform="translate(481 117.286)">
+            <g id="Group_11940-2" data-name="Group 11940">
+              <rect id="Rectangle_5239-2" data-name="Rectangle 5239" width="24" height="24" fill="none"/>
+              <path id="Path_6644-2" data-name="Path 6644" d="M13.905,12l4.673-4.673a.227.227,0,0,0,0-.318L16.99,5.422a.227.227,0,0,0-.318,0L12,10.095,7.327,5.422a.227.227,0,0,0-.318,0L5.422,7.01a.227.227,0,0,0,0,.318L10.095,12,5.422,16.673a.227.227,0,0,0,0,.318L7.01,18.578a.227.227,0,0,0,.318,0L12,13.905l4.673,4.673a.227.227,0,0,0,.318,0l1.588-1.588a.227.227,0,0,0,0-.318Z" transform="translate(0 0)" fill="#31313a"/>
+            </g>
+          </g>
+          <path id="Rectangle_5244" data-name="Rectangle 5244" d="M4,0H396a4,4,0,0,1,4,4v6a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V4A4,4,0,0,1,4,0Z" transform="translate(115 98)" fill="#ee562f"/>
+        </g>
+      </g>
+      <g id="Group_11898" data-name="Group 11898" transform="translate(65 456)">
+        <g id="Group_11892-3" data-name="Group 11892" transform="translate(-75 246)">
+          <g transform="matrix(1, 0, 0, 1, 100, 89)" filter="url(#Rectangle_3830-3)">
+            <rect id="Rectangle_3830-6" data-name="Rectangle 3830" width="400" height="105" rx="4" transform="translate(15 9)" fill="#fff"/>
+          </g>
+          <text id="File_ready_for_review" data-name="File ready for review" transform="translate(169 135)" fill="#3d3d3d" font-size="16" font-family="OpenSans-Bold, Open Sans" font-weight="700"><tspan x="0" y="0">File ready for review</tspan></text>
+          <text id="A_new_renewal_presentation_is_complete_and_ready_for_you_to_review._" data-name="A new renewal presentation is complete and ready for you to review. " transform="translate(169 145)" fill="#3d3d3d" font-size="14" font-family="OpenSans, Open Sans"><tspan x="0" y="15">A new renewal presentation is complete and </tspan><tspan x="0" y="34">ready for you to review. </tspan></text>
+          <g id="Group_11913" data-name="Group 11913">
+            <circle id="Ellipse_6-3" data-name="Ellipse 6" cx="12" cy="12" r="12" transform="translate(125 118)" fill="#2372c0"/>
+          </g>
+          <g id="Remove-3" data-name="Remove" transform="translate(501 138)">
+            <g id="Group_11940-3" data-name="Group 11940" transform="translate(-20 -20)">
+              <rect id="Rectangle_5239-3" data-name="Rectangle 5239" width="24" height="24" fill="none"/>
+              <path id="Path_6644-3" data-name="Path 6644" d="M13.905,12l4.673-4.673a.227.227,0,0,0,0-.318L16.99,5.422a.227.227,0,0,0-.318,0L12,10.095,7.327,5.422a.227.227,0,0,0-.318,0L5.422,7.01a.227.227,0,0,0,0,.318L10.095,12,5.422,16.673a.227.227,0,0,0,0,.318L7.01,18.578a.227.227,0,0,0,.318,0L12,13.905l4.673,4.673a.227.227,0,0,0,.318,0l1.588-1.588a.227.227,0,0,0,0-.318Z" transform="translate(0 0)" fill="#31313a"/>
+            </g>
+          </g>
+          <path id="Rectangle_5246" data-name="Rectangle 5246" d="M4,0H396a4,4,0,0,1,4,4v6a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V4A4,4,0,0,1,4,0Z" transform="translate(115 98)" fill="#2372c0"/>
+        </g>
+      </g>
+    </g>
+    <path id="Path_6641" data-name="Path 6641" d="M153,35.709V25.291a.29.29,0,0,1,.29-.291h1.919a.29.29,0,0,1,.29.291V35.709a.29.29,0,0,1-.29.291H153.29A.29.29,0,0,1,153,35.709Zm.29-13.209h1.919a.29.29,0,0,0,.29-.291V20.291a.29.29,0,0,0-.29-.291H153.29a.29.29,0,0,0-.29.291v1.919A.29.29,0,0,0,153.29,22.5Z" transform="translate(-27 804)" fill="#fff"/>
+  </g>
+</svg>

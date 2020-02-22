@@ -1,0 +1,7 @@
+<svg id="Secondary_Button_-_Normal" data-name="Secondary Button - Normal" xmlns="http://www.w3.org/2000/svg" width="73.934" height="36" viewBox="0 0 73.934 36">
+  <g id="Rectangle_3991" data-name="Rectangle 3991" fill="none" stroke="#cbcbd2" stroke-width="1">
+    <rect width="73.934" height="36" rx="18" stroke="none"/>
+    <rect x="0.5" y="0.5" width="72.934" height="35" rx="17.5" fill="none"/>
+  </g>
+  <text id="Action" transform="translate(37 23)" fill="#2777d3" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="-20.614" y="0">Action</tspan></text>
+</svg>

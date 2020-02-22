@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="627" height="208" viewBox="0 0 627 208">
+  <defs>
+    <filter id="Rectangle_4108" x="9" y="29" width="988" height="303" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.251"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Union_8" x="73.5" y="19.5" width="179.734" height="50.656" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1.5" result="blur-2"/>
+      <feFlood flood-opacity="0.2"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-Artboard_4">
+      <rect width="627" height="208"/>
+    </clipPath>
+  </defs>
+  <g id="Artboard_4" data-name="Artboard – 4" clip-path="url(#clip-Artboard_4)">
+    <rect width="627" height="208" fill="#fff"/>
+    <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Rectangle_4108)">
+      <rect id="Rectangle_4108-2" data-name="Rectangle 4108" width="970" height="285" transform="translate(18 35)" fill="#fff"/>
+    </g>
+    <text id="Thumbnail" transform="translate(48 84)" fill="#303030" font-size="20" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Thumbnail</tspan></text>
+    <text id="Automatically_Generate_Thumbnail" data-name="Automatically Generate Thumbnail" transform="translate(83 138)" fill="#1a1a1e" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Automatically Generate Thumbnail</tspan></text>
+    <text id="Upload_A_Custom_Thumbnail" data-name="Upload A Custom Thumbnail" transform="translate(83 181)" fill="#1a1a1e" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Upload A Custom Thumbnail</tspan></text>
+    <g id="Rectangle_4119" data-name="Rectangle 4119" transform="translate(528 65)" fill="#fff" stroke="#d7d7d7" stroke-width="1" stroke-dasharray="4">
+      <rect width="430" height="210" stroke="none"/>
+      <rect x="0.5" y="0.5" width="429" height="209" fill="none"/>
+    </g>
+    <g id="Group_7816" data-name="Group 7816" transform="translate(-371 -118)">
+      <circle id="Ellipse_2" data-name="Ellipse 2" cx="9" cy="9" r="9" transform="translate(420 285)" fill="#fff"/>
+      <path id="Path_6085" data-name="Path 6085" d="M35,42.8a8,8,0,1,1-8,8,8.024,8.024,0,0,1,8-8m0-2a10,10,0,1,0,10,10,10.029,10.029,0,0,0-10-10Zm6,10a6,6,0,1,0-6,6A6.018,6.018,0,0,0,41,50.8Z" transform="translate(394 243.2)" fill="#1f5ea8"/>
+    </g>
+    <path id="Path_5843" data-name="Path 5843" d="M10,42.8a8,8,0,1,1-8,8,8.024,8.024,0,0,1,8-8m0-2a10,10,0,1,0,10,10,10.029,10.029,0,0,0-10-10Z" transform="translate(48 82)" fill="#999"/>
+    <g id="Group_13686" data-name="Group 13686" transform="translate(-256 -1123)">
+      <circle id="Ellipse_365" data-name="Ellipse 365" cx="8" cy="8" r="8" transform="translate(412 1192)" fill="#1f5ea8"/>
+      <text id="_" data-name="?" transform="translate(417.786 1203.5)" fill="#fff" font-size="9" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">?</tspan></text>
+    </g>
+    <g id="Group_9232" data-name="Group 9232" transform="translate(68 -36)">
+      <g id="Group_9118" data-name="Group 9118" transform="translate(-10 3)">
+        <g transform="matrix(1, 0, 0, 1, -58, 33)" filter="url(#Union_8)">
+          <path id="Union_8-2" data-name="Union 8" d="M-1297-2862h-75a5,5,0,0,1-5-5v-26a5,5,0,0,1,5-5h160.733a5,5,0,0,1,5,5v26a5,5,0,0,1-5,5h-74.419l-5.657,5.656Z" transform="translate(1455 2919)" fill="#31313a"/>
+        </g>
+        <text id="Upload_custom_images" data-name="Upload custom images" transform="translate(34 76)" fill="#fff" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Upload custom images</tspan></text>
+      </g>
+    </g>
+    <g id="Group_13711" data-name="Group 13711" transform="translate(-341 -1179)">
+      <circle id="Ellipse_365-2" data-name="Ellipse 365" cx="8" cy="8" r="8" transform="translate(412 1192)" fill="#c6318c"/>
+      <text id="_1" data-name="1" transform="translate(417.786 1203.5)" fill="#fff" font-size="9" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">1</tspan></text>
+    </g>
+    <g id="Group_13712" data-name="Group 13712" transform="translate(-182 -1168)">
+      <circle id="Ellipse_365-3" data-name="Ellipse 365" cx="8" cy="8" r="8" transform="translate(412 1192)" fill="#c6318c"/>
+      <text id="_2" data-name="2" transform="translate(417.786 1203.5)" fill="#fff" font-size="9" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">2</tspan></text>
+    </g>
+  </g>
+</svg>

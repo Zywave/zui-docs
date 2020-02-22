@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html><head>
+    <title>Dialogs | Zywave User Interface</title>
+    <link href="http://zui.zywave.com/css/ie-sucks.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://unpkg.com/@zywave/zui-bundle@next/dist/css/zui-bundle.fouc.css" />
+    <link rel="stylesheet" href="https://unpkg.com/@zywave/zui-bundle@next/dist/css/zui-bundle.app.css" />
+    <link href="http://zui.zywave.com/css/base.css" rel="stylesheet" />
+    <link href="http://zui.zywave.com/css/shortcodes.css" rel="stylesheet" />
+    <link href="http://zui.zywave.com/css/syntax-highlighting-monokai.css" rel="stylesheet" />
+    <link rel='shortcut icon' type='image/x-icon' href='http://zui.zywave.com/static/favicon.ico' />
+    <script src="http://zui.zywave.com/js/ie-sucks.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.3.0/fuse.min.js"></script>
+    <style>
+        :root {
+            --zui-shell-primary-theme: var(--zui-green);
+            --zui-shell-primary-theme-dark: var(--zui-green-600);
+            --zui-tabs-color: var(--zui-green);
+        }
+    </style>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const externalLinks = document.querySelectorAll('a[href^="http://"], a[href^="https://"]');
+            for (const l of externalLinks) {
+                if (l.href.indexOf("http://zui.zywave.com/") < 0) {
+                    l.target = '_blank';
+                }
+            }
+        });
+
+        
+        
+    </script>
+</head>
+<body>
+        <ie-sucks>
+            No. Stop it. Use a real browser.
+        </ie-sucks>
+        <zui-shell app-name="ZUI Documentation"><zui-shell-topbar>
+    <zui-logo slot="logo"></zui-logo>
+</zui-shell-topbar>
+
+
+
+<zui-shell-nav>
+    <zui-shell-nav-item>
+        <zui-icon icon="zui-nav-home" slot="icon"></zui-icon>
+        <a href="http://zui.zywave.com/" active>Home</a>
+    </zui-shell-nav-item>
+    
+    
+    <zui-shell-nav-item subnav>
+        <zui-icon icon="zui-nav-developers" slot="icon"></zui-icon>
+        
+            <span>Developers</span>
+            
+            
+            
+            
+            <a href="http://zui.zywave.com/developers/contribution-guide/" >Contribution guide</a>
+            
+            <a href="http://zui.zywave.com/developers/developing-zui/" >Developing ZUI</a>
+            
+            <a href="http://zui.zywave.com/developers/installation/" >Installation</a>
+            
+            <a href="http://zui.zywave.com/developers/lit/" >Lit 🔥</a>
+            
+            <a href="http://zui.zywave.com/developers/polyfills/" >Polyfills</a>
+            
+            <a href="http://zui.zywave.com/developers/responsive-design/" >Responsive design</a>
+            
+            <a href="http://zui.zywave.com/developers/tooling/" >Tooling</a>
+            
+            <a href="http://zui.zywave.com/developers/webcomponents/" >Web components</a>
+            
+        
+    </zui-shell-nav-item>
+    
+    
+    <zui-shell-nav-item subnav>
+        <zui-icon icon="zui-nav-foundations" slot="icon"></zui-icon>
+        
+            <span>Foundations</span>
+            
+            
+                
+            
+            
+            
+            <a href="http://zui.zywave.com/foundations/colors/" >Colors</a>
+            
+            <a href="http://zui.zywave.com/foundations/content-area/" >Content area</a>
+            
+            <a href="http://zui.zywave.com/foundations/fonts-typography/" >Fonts &amp; typography</a>
+            
+            <a href="http://zui.zywave.com/foundations/footer/" >Footer</a>
+            
+            <a href="http://zui.zywave.com/foundations/icons/" >Icons</a>
+            
+            <a href="http://zui.zywave.com/foundations/illustrations/" >Illustrations</a>
+            
+            <a href="http://zui.zywave.com/foundations/product-branding/" >Product branding</a>
+            
+            <a href="http://zui.zywave.com/foundations/shell/" >Shell</a>
+            
+            <a href="http://zui.zywave.com/foundations/sidenav/" >Sidenav</a>
+            
+            <a href="http://zui.zywave.com/foundations/topbar/" >Topbar</a>
+            
+        
+    </zui-shell-nav-item>
+    
+    
+    <zui-shell-nav-item subnav>
+        <zui-icon icon="zui-nav-components" slot="icon"></zui-icon>
+        
+            <span>Components</span>
+            
+            
+                
+            
+            
+            
+            <a href="http://zui.zywave.com/components/breadcrumbs/" >Breadcrumbs</a>
+            
+            <a href="http://zui.zywave.com/components/buttons-dropdown/" >Button dropdowns</a>
+            
+            <a href="http://zui.zywave.com/components/buttons/" >Buttons</a>
+            
+            <a href="http://zui.zywave.com/components/checkboxes/" >Checkboxes</a>
+            
+            <a href="http://zui.zywave.com/components/dialogs/" active>Dialogs</a>
+            
+            <a href="http://zui.zywave.com/components/dropdown-multi-select/" >Dropdown multi-select</a>
+            
+            <a href="http://zui.zywave.com/components/dropdown-select/" >Dropdown select</a>
+            
+            <a href="http://zui.zywave.com/components/expanders/" >Expanders</a>
+            
+            <a href="http://zui.zywave.com/components/file-selector/" >File Selector</a>
+            
+            <a href="http://zui.zywave.com/components/notifiers/" >Notifiers</a>
+            
+            <a href="http://zui.zywave.com/components/radio-buttons/" >Radio buttons</a>
+            
+            <a href="http://zui.zywave.com/components/tabs/" >Tabs</a>
+            
+            <a href="http://zui.zywave.com/components/text-input/" >Text Input</a>
+            
+            <a href="http://zui.zywave.com/components/toggles/" >Toggles</a>
+            
+            <a href="http://zui.zywave.com/components/tooltips/" >Tooltips</a>
+            
+            <a href="http://zui.zywave.com/components/wells/" >Well</a>
+            
+        
+    </zui-shell-nav-item>
+    
+    
+    <zui-shell-nav-item subnav>
+        <zui-icon icon="zui-nav-patterns" slot="icon"></zui-icon>
+        
+            <span>Patterns</span>
+            
+            
+                
+            
+            
+            
+            <a href="http://zui.zywave.com/patterns/forms/" >Forms</a>
+            
+            <a href="http://zui.zywave.com/patterns/step-flow/" >Step flow</a>
+            
+            <a href="http://zui.zywave.com/patterns/typeahead/" >Typeahead</a>
+            
+        
+    </zui-shell-nav-item>
+    
+    
+    <zui-shell-nav-item subnav>
+        <zui-icon icon="zui-nav-help" slot="icon"></zui-icon>
+        
+            <span>Communications</span>
+            
+            
+                
+            
+            
+            
+            <a href="http://zui.zywave.com/communications/messages/" >Messages</a>
+            
+            <a href="http://zui.zywave.com/communications/voice-tone/" >Voice &amp; tone</a>
+            
+            <a href="http://zui.zywave.com/communications/writing-style-guide/" >Writing style guide</a>
+            
+        
+    </zui-shell-nav-item>
+    
+    
+    <zui-shell-nav-item >
+        <zui-icon icon="zui-nav-accounts" slot="icon"></zui-icon>
+        
+            <a href="http://zui.zywave.com/personas/" >Personas</a>
+        
+    </zui-shell-nav-item>
+    
+    <script>
+        
+        const activeLinks = document.querySelectorAll('zui-shell-nav-item a[active]');
+            for (let activeLink of activeLinks) {
+                activeLink.closest('zui-shell-nav-item').expanded = true;
+            }
+    </script>
+</zui-shell-nav>
+<zui-shell-content id="content">
+                <section class="zui-layout zui-layout--slim">
+                    <div class="page-heading">
+                        <h1>Dialogs</h1>
+                        
+                    </div>
+                    <div class="content-container">
+                        
+
+
+<dom-bind>
+    <template>
+        <zui-tabs selected="{{page}}">
+            
+            <zui-tab>Design</zui-tab>
+            
+            <zui-tab>Toolkit</zui-tab>
+            
+        </zui-tabs>
+        <zui-pages selected="[[page]]">
+            
+            <div>
+                
+                <h2 id="introduction">Introduction</h2>
+
+<p>Dialogs are used to display a message or content on a layer above the current page. Content inside a dialog can vary greatly. Usually, a dialog is centered around a specific action that a user must take. Saving a setting or a permanent delete are examples of when dialogs are useful.</p>
+
+<p>Best practice is to avoid including forms within a dialog.</p>
+
+<hr />
+
+<h2 id="anatomy">Anatomy</h2>
+
+<p><br>
+<img src="http://zui.zywave.com/images/components/dialogs/dialog_Anatomy.svg" alt="Dialog Anatomy" />
+<br></p>
+
+<h3 id="title">Title</h3>
+
+<p>H1 title should not span more than 1 line.</p>
+
+<p><br><br></p>
+
+<h3 id="conent-area">Conent area</h3>
+
+<p>Content area should be a minimum of 120px tall.</p>
+
+<p>Content area width of 415 on SMALL dialogs, 615 on STANDARD dialogs, and 815 on LARGE dialogs.</p>
+
+<p><img src="http://zui.zywave.com/images/components/dialogs/dialog_Minimum_Height.svg" alt="Dialog Content Area" /></p>
+
+<p><br><br></p>
+
+<h3 id="close-x">Close X</h3>
+
+<p>The close X icon button is located in the upper-right corner outside the dialog box.</p>
+
+<p><img src="http://zui.zywave.com/images/components/dialogs/close_Specs.svg" alt="Close specs" /> <img src="http://zui.zywave.com/images/components/dialogs/close_Hover.svg" alt="Close hover" /></p>
+
+<p><br><br></p>
+
+<h3 id="actions-area">Actions area</h3>
+
+<ol>
+<li><p><strong>Primary action</strong><br />
+Primary actions are right aligned at the bottom of the dialog 30px below the content area.<br />
+The primary action should always appear on the far right.</p></li>
+
+<li><p><strong>Secondary actions</strong><br />
+Secondary actions appear to the left of the primary action, 30px below the content area</p></li>
+
+<li><p><strong>Tertiary action</strong><br />
+Tertiary actions or help text appear left aligned 30px below the content</p></li>
+</ol>
+
+<p><img src="http://zui.zywave.com/images/components/dialogs/dialog_Action_Areas.svg" alt="Dialog Actions" /></p>
+
+<hr />
+
+<h2 id="sizing-and-spacing">Sizing and Spacing</h2>
+
+<p><br></p>
+
+<p><strong>Typographic heirarchy</strong></p>
+
+<p>Title should be H1.</p>
+
+<p>Contents should follow body copy guidelines.
+<br><br></p>
+
+<h3 id="padding">Padding</h3>
+
+<ul>
+<li>36px padding around entire perimeter.</li>
+<li>15px padding between Title and main content area.</li>
+<li>30px padding between main content area and actions area.</li>
+</ul>
+
+<p><img src="http://zui.zywave.com/images/components/dialogs/dialog_Padding.svg" alt="Dialog Padding" /></p>
+
+<p>If the dialog is taller than the viewport, 36px padding will be applied between the dialog and the viewport. If the dialog is shorter than the viewport, then it will be centered vertically.<br />
+Dialogs will always be centered horizontally within the viewport.</p>
+
+<hr />
+
+<h2 id="variations">Variations</h2>
+
+<h3 id="small">Small</h3>
+
+<p>Commonly used to interrupt the user with messaging you need them to confirm, such as delete and loss of data if navigating to a different page.</p>
+
+<p><img src="http://zui.zywave.com/images/components/dialogs/dialog_Small.svg" alt="Small dialog" />
+<br><br></p>
+
+<h3 id="standard">Standard</h3>
+
+<p>Standard dialogs should be used for messages that are longer in length, such as legal jargon.</p>
+
+<p><img src="http://zui.zywave.com/images/components/dialogs/dialog_Standard.svg" alt="Standard dialog" />
+<br><br></p>
+
+<h3 id="large">Large</h3>
+
+<p>Use a large dialog when there is a more functionality, like a table.</p>
+
+<p><img src="http://zui.zywave.com/images/components/dialogs/dialog_Large.svg" alt="Large dialog" /></p>
+
+<hr />
+
+<h2 id="interaction">Interaction</h2>
+
+<h3 id="closing-a-dialog">Closing a dialog</h3>
+
+<p>There are several ways that a dialog can be closed and the one that you choose depends on the type of content that it contains. Most dialogs will have more than one way to close them.</p>
+
+<ol>
+<li><p><strong>Clicking into the darkness</strong> - Standard functionality for closing a dialog; this is best used when the user isn&rsquo;t filling out any data within the dialog. Since we prefer to avoid including forms within a dialog, this functionality will be very common and will be enabled automatically when using ZUI dialog. If your dialog includes data entry please make sure you disable this functionality.</p></li>
+
+<li><p><strong>Clicking the X</strong> - This can be used on every dialog to close the message.</p></li>
+
+<li><p><strong>Clicking a close button</strong> - Close buttons will only be included if there is no action within the dialog that we want the user to take. One example of this is a dialog that only contains legal information that the user can read, but doesn&rsquo;t need to act upon.</p></li>
+</ol>
+
+<h3 id="scrolling">Scrolling</h3>
+
+<p>Best practice is to avoid the need for a dialog to scroll. When scrolling is required, the entire dialog screen will scroll. Remember the to keep 36px padding between the viewport and the dialog when it first appears to the user.</p>
+
+<p>Background contents that are underneath the dark overlay will remain static while the dialog scrolls.</p>
+
+                
+            </div>
+            
+            <div>
+                
+                <!-- Generated by documentation.js. Update this documentation by updating the source code. -->
+
+<h3 id="table-of-contents">Table of Contents</h3>
+
+<ul>
+<li><a href="#show">show</a>
+
+<ul>
+<li><a href="#parameters">Parameters</a></li>
+</ul></li>
+</ul>
+
+<h2 id="show">show</h2>
+
+<p>Shows the dialog using specified parameters</p>
+
+<h3 id="parameters">Parameters</h3>
+
+<ul>
+<li><code>header</code> <strong><a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String">string</a></strong> This is the header slot (optional, default <code>'&lt;h1&gt;Header goes here&lt;/h1&gt;'</code>)</li>
+<li><code>content</code> <strong><a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String">string</a></strong> This is the content slot (optional, default <code>'&lt;p&gt;Content goes here&lt;/p&gt;'</code>)</li>
+<li><code>footer</code> <strong><a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String">string</a></strong> This is the footer slot (optional, default <code>'&lt;zui-button class=&quot;secondary&quot; dialog-close&gt;Close&lt;/zui-button&gt;&lt;zui-button dialog-confirm&gt;Submit&lt;/zui-button&gt;'</code>)</li>
+<li><code>size</code> <strong><a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String">string</a></strong> Sets the className for the dialog (optional, default <code>'medium'</code>)</li>
+<li><code>noCancelOutsideDialog</code> <strong><a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Boolean">Boolean</a></strong> Sets the noCancelOutsideDialog attribute on the dialog (optional, default <code>false</code>)</li>
+</ul>
+
+                
+            </div>
+            
+        </zui-pages>
+    </template>
+</dom-bind>
+
+
+
+                    </div>
+                </section>
+            </zui-shell-content><zui-shell-footer>
+    <div>
+        &copy; 1995 - 2020 Zywave, Inc. All rights reserved.
+    </div>
+    <a class="zui-link" target="_blank" href="http://www.zywave.com/terms-conditions/">Terms and Conditions</a>
+    <a class="zui-link" target="_blank" href="http://www.zywave.com/privacy-statement/">Privacy Statement</a>
+    <a class="zui-link" target="_blank" href="http://www.zywave.com/dmca-notice/">DMCA</a></div>
+    <a class="zui-link" target="_blank" href="http://www.zywave.com/cookie-usage/">Cookie Usage</a>
+    <a class="zui-link" href="mailto:support@zywave.com">Contact</a>
+</zui-shell-footer>
+<script src="https://unpkg.com/@zywave/zui-bundle@next/dist/zui-loader.js"></script>
+</zui-shell>
+    </body>
+</html>

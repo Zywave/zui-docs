@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="275" height="42" viewBox="0 0 275 42">
+  <defs>
+    <clipPath id="clip-file-selector--upload">
+      <rect width="275" height="42"/>
+    </clipPath>
+  </defs>
+  <g id="file-selector--upload" clip-path="url(#clip-file-selector--upload)">
+    <rect width="275" height="42" fill="#fff"/>
+    <g id="Group_13274" data-name="Group 13274" transform="translate(-1)">
+      <g id="Group_13272" data-name="Group 13272" transform="translate(-472 -555)">
+        <g id="Input-_no_label" data-name="Input- no label" transform="translate(591 555)">
+          <g id="Rectangle_288" data-name="Rectangle 288" fill="#fff" stroke="#cbcbd2" stroke-width="1">
+            <path d="M0,0H153a4,4,0,0,1,4,4V38a4,4,0,0,1-4,4H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" stroke="none"/>
+            <path d="M1,.5H153A3.5,3.5,0,0,1,156.5,4V38a3.5,3.5,0,0,1-3.5,3.5H1A.5.5,0,0,1,.5,41V1A.5.5,0,0,1,1,.5Z" fill="none"/>
+          </g>
+        </g>
+        <g id="Path_8229" data-name="Path 8229" transform="translate(546.934 597) rotate(180)" fill="#f4f4f6">
+          <path d="M 69.93359375 41.5 L -44.50000381469727 41.5 L -44.50000381469727 0.5 L 69.93359375 0.5 C 71.86350250244141 0.5 73.43359375 2.07009220123291 73.43359375 4 L 73.43359375 38 C 73.43359375 39.92990875244141 71.86350250244141 41.5 69.93359375 41.5 Z" stroke="none"/>
+          <path d="M -44 1 L -44 41 L 69.93359375 41 C 71.58779907226563 41 72.93359375 39.65420150756836 72.93359375 38 L 72.93359375 4 C 72.93359375 2.345798492431641 71.58779907226563 1 69.93359375 1 L -44 1 M -45 0 L 69.93359375 0 C 72.14273071289063 0 73.93359375 1.790863037109375 73.93359375 4 L 73.93359375 38 C 73.93359375 40.20913696289063 72.14273071289063 42 69.93359375 42 L -45 42 L -45 0 Z" stroke="none" fill="#cbcbd2"/>
+        </g>
+        <text id="Upload_Files" data-name="Upload Files" transform="translate(543 582)" fill="#4e92df" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="-38.773" y="0">Upload Files</tspan></text>
+        <g id="Upload" transform="translate(491 576)">
+          <g id="Group_13271" data-name="Group 13271" transform="translate(-8 -8)">
+            <g id="Group_13270" data-name="Group 13270">
+              <path id="Path_8849" data-name="Path 8849" d="M1.1,4.9H2a.2.2,0,0,0,.2-.2V1.3H13.8V4.7a.2.2,0,0,0,.2.2h.9a.2.2,0,0,0,.2-.2V.7a.7.7,0,0,0-.7-.7H1.6A.7.7,0,0,0,.9.7v4A.2.2,0,0,0,1.1,4.9Z" fill="#4e92df"/>
+              <path id="Path_8850" data-name="Path 8850" d="M8.2,4.1H7.8L4.3,7.8a.2.2,0,0,0,0,.3l.9,1h.3L7.1,7.5v8.3a.2.2,0,0,0,.2.2H8.7a.2.2,0,0,0,.2-.2V7.5l1.6,1.7h.3l.9-1a.2.2,0,0,0,0-.3Z" fill="#4e92df"/>
+            </g>
+            <rect id="Rectangle_6837" data-name="Rectangle 6837" width="16" height="16" fill="none"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

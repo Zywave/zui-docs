@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="900" height="189" viewBox="0 0 900 189">
+  <defs>
+    <filter id="Rectangle_6365" x="196" y="24.5" width="509" height="87" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1.5" result="blur"/>
+      <feFlood flood-color="#aa2d0e" flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-forms--validation-message">
+      <rect width="900" height="189"/>
+    </clipPath>
+  </defs>
+  <g id="forms--validation-message" clip-path="url(#clip-forms--validation-message)">
+    <rect width="900" height="189" fill="#fff"/>
+    <g id="Group_3" data-name="Group 3" transform="translate(34 -27.5)">
+      <g id="Error_well" data-name="Error well" transform="translate(166.5 55.5)">
+        <g transform="matrix(1, 0, 0, 1, -200.5, -28)" filter="url(#Rectangle_6365)">
+          <rect id="Rectangle_6365-2" data-name="Rectangle 6365" width="500" height="78" rx="4" transform="translate(200.5 28)" fill="#fff"/>
+        </g>
+        <path id="Rectangle_6366" data-name="Rectangle 6366" d="M4,0H496a4,4,0,0,1,4,4v6a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V4A4,4,0,0,1,4,0Z" fill="#ee562f"/>
+        <text id="Hold_on_You_ll_need_to_accept_the_Terms_Conditions_to_move_forward._Just_check_the_box_above_and_we_can_move_forward._" data-name="Hold on! You&apos;ll need to accept the Terms &amp; Conditions to move 
+forward.  Just check the box above and we can move forward. " transform="translate(54 23)" fill="#31313a" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="15">Hold on! You&apos;ll need to accept the Terms &amp; Conditions to move </tspan><tspan x="0" y="37.4" xml:space="preserve">forward.  Just check the box above and we can move forward. </tspan></text>
+        <path id="Path_8228" data-name="Path 8228" d="M10.717,3.4h2.717a.455.455,0,0,1,.455.455h0L12.98,14.679a.444.444,0,0,1-.444.444h-.909a.445.445,0,0,1-.455-.433v-.011l-.9-10.825a.445.445,0,0,1,.433-.455ZM13.965,18.89a1.84,1.84,0,0,1-1.851,1.829h-.26a1.873,1.873,0,0,1-1.5-1.321,1.84,1.84,0,0,1,1.765-2.349h0a1.851,1.851,0,0,1,1.83,1.83ZM16.974,0H7.026L0,7.026v9.949L7.026,24h9.949L24,16.974V7.026Z" transform="translate(10 20)" fill="#d83d26"/>
+      </g>
+      <g id="Primary_Button_-_Normal" data-name="Primary Button - Normal" transform="translate(165 153)">
+        <rect id="Rectangle_3990" data-name="Rectangle 3990" width="73.934" height="36" rx="18" fill="#2777d3"/>
+        <text id="Save" transform="translate(37 23)" fill="#fff" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="-14.68" y="0">Save</tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html><head>
+    <title>Product branding | Zywave User Interface</title>
+    <link href="http://zui.zywave.com/css/ie-sucks.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://unpkg.com/@zywave/zui-bundle@next/dist/css/zui-bundle.fouc.css" />
+    <link rel="stylesheet" href="https://unpkg.com/@zywave/zui-bundle@next/dist/css/zui-bundle.app.css" />
+    <link href="http://zui.zywave.com/css/base.css" rel="stylesheet" />
+    <link href="http://zui.zywave.com/css/shortcodes.css" rel="stylesheet" />
+    <link href="http://zui.zywave.com/css/syntax-highlighting-monokai.css" rel="stylesheet" />
+    <link rel='shortcut icon' type='image/x-icon' href='http://zui.zywave.com/static/favicon.ico' />
+    <script src="http://zui.zywave.com/js/ie-sucks.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.3.0/fuse.min.js"></script>
+    <style>
+        :root {
+            --zui-shell-primary-theme: var(--zui-green);
+            --zui-shell-primary-theme-dark: var(--zui-green-600);
+            --zui-tabs-color: var(--zui-green);
+        }
+    </style>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const externalLinks = document.querySelectorAll('a[href^="http://"], a[href^="https://"]');
+            for (const l of externalLinks) {
+                if (l.href.indexOf("http://zui.zywave.com/") < 0) {
+                    l.target = '_blank';
+                }
+            }
+        });
+
+        
+        
+    </script>
+</head>
+<body>
+        <ie-sucks>
+            No. Stop it. Use a real browser.
+        </ie-sucks>
+        <zui-shell app-name="ZUI Documentation"><zui-shell-topbar>
+    <zui-logo slot="logo"></zui-logo>
+</zui-shell-topbar>
+
+
+
+<zui-shell-nav>
+    <zui-shell-nav-item>
+        <zui-icon icon="zui-nav-home" slot="icon"></zui-icon>
+        <a href="http://zui.zywave.com/" active>Home</a>
+    </zui-shell-nav-item>
+    
+    
+    <zui-shell-nav-item subnav>
+        <zui-icon icon="zui-nav-developers" slot="icon"></zui-icon>
+        
+            <span>Developers</span>
+            
+            
+            
+            
+            <a href="http://zui.zywave.com/developers/contribution-guide/" >Contribution guide</a>
+            
+            <a href="http://zui.zywave.com/developers/developing-zui/" >Developing ZUI</a>
+            
+            <a href="http://zui.zywave.com/developers/installation/" >Installation</a>
+            
+            <a href="http://zui.zywave.com/developers/lit/" >Lit 🔥</a>
+            
+            <a href="http://zui.zywave.com/developers/polyfills/" >Polyfills</a>
+            
+            <a href="http://zui.zywave.com/developers/responsive-design/" >Responsive design</a>
+            
+            <a href="http://zui.zywave.com/developers/tooling/" >Tooling</a>
+            
+            <a href="http://zui.zywave.com/developers/webcomponents/" >Web components</a>
+            
+        
+    </zui-shell-nav-item>
+    
+    
+    <zui-shell-nav-item subnav>
+        <zui-icon icon="zui-nav-foundations" slot="icon"></zui-icon>
+        
+            <span>Foundations</span>
+            
+            
+                
+            
+            
+            
+            <a href="http://zui.zywave.com/foundations/colors/" >Colors</a>
+            
+            <a href="http://zui.zywave.com/foundations/content-area/" >Content area</a>
+            
+            <a href="http://zui.zywave.com/foundations/fonts-typography/" >Fonts &amp; typography</a>
+            
+            <a href="http://zui.zywave.com/foundations/footer/" >Footer</a>
+            
+            <a href="http://zui.zywave.com/foundations/icons/" >Icons</a>
+            
+            <a href="http://zui.zywave.com/foundations/illustrations/" >Illustrations</a>
+            
+            <a href="http://zui.zywave.com/foundations/product-branding/" active>Product branding</a>
+            
+            <a href="http://zui.zywave.com/foundations/shell/" >Shell</a>
+            
+            <a href="http://zui.zywave.com/foundations/sidenav/" >Sidenav</a>
+            
+            <a href="http://zui.zywave.com/foundations/topbar/" >Topbar</a>
+            
+        
+    </zui-shell-nav-item>
+    
+    
+    <zui-shell-nav-item subnav>
+        <zui-icon icon="zui-nav-components" slot="icon"></zui-icon>
+        
+            <span>Components</span>
+            
+            
+                
+            
+            
+            
+            <a href="http://zui.zywave.com/components/breadcrumbs/" >Breadcrumbs</a>
+            
+            <a href="http://zui.zywave.com/components/buttons-dropdown/" >Button dropdowns</a>
+            
+            <a href="http://zui.zywave.com/components/buttons/" >Buttons</a>
+            
+            <a href="http://zui.zywave.com/components/checkboxes/" >Checkboxes</a>
+            
+            <a href="http://zui.zywave.com/components/dialogs/" >Dialogs</a>
+            
+            <a href="http://zui.zywave.com/components/dropdown-multi-select/" >Dropdown multi-select</a>
+            
+            <a href="http://zui.zywave.com/components/dropdown-select/" >Dropdown select</a>
+            
+            <a href="http://zui.zywave.com/components/expanders/" >Expanders</a>
+            
+            <a href="http://zui.zywave.com/components/file-selector/" >File Selector</a>
+            
+            <a href="http://zui.zywave.com/components/notifiers/" >Notifiers</a>
+            
+            <a href="http://zui.zywave.com/components/radio-buttons/" >Radio buttons</a>
+            
+            <a href="http://zui.zywave.com/components/tabs/" >Tabs</a>
+            
+            <a href="http://zui.zywave.com/components/text-input/" >Text Input</a>
+            
+            <a href="http://zui.zywave.com/components/toggles/" >Toggles</a>
+            
+            <a href="http://zui.zywave.com/components/tooltips/" >Tooltips</a>
+            
+            <a href="http://zui.zywave.com/components/wells/" >Well</a>
+            
+        
+    </zui-shell-nav-item>
+    
+    
+    <zui-shell-nav-item subnav>
+        <zui-icon icon="zui-nav-patterns" slot="icon"></zui-icon>
+        
+            <span>Patterns</span>
+            
+            
+                
+            
+            
+            
+            <a href="http://zui.zywave.com/patterns/forms/" >Forms</a>
+            
+            <a href="http://zui.zywave.com/patterns/step-flow/" >Step flow</a>
+            
+            <a href="http://zui.zywave.com/patterns/typeahead/" >Typeahead</a>
+            
+        
+    </zui-shell-nav-item>
+    
+    
+    <zui-shell-nav-item subnav>
+        <zui-icon icon="zui-nav-help" slot="icon"></zui-icon>
+        
+            <span>Communications</span>
+            
+            
+                
+            
+            
+            
+            <a href="http://zui.zywave.com/communications/messages/" >Messages</a>
+            
+            <a href="http://zui.zywave.com/communications/voice-tone/" >Voice &amp; tone</a>
+            
+            <a href="http://zui.zywave.com/communications/writing-style-guide/" >Writing style guide</a>
+            
+        
+    </zui-shell-nav-item>
+    
+    
+    <zui-shell-nav-item >
+        <zui-icon icon="zui-nav-accounts" slot="icon"></zui-icon>
+        
+            <a href="http://zui.zywave.com/personas/" >Personas</a>
+        
+    </zui-shell-nav-item>
+    
+    <script>
+        
+        const activeLinks = document.querySelectorAll('zui-shell-nav-item a[active]');
+            for (let activeLink of activeLinks) {
+                activeLink.closest('zui-shell-nav-item').expanded = true;
+            }
+    </script>
+</zui-shell-nav>
+<zui-shell-content id="content">
+                <section class="zui-layout zui-layout--slim">
+                    <div class="page-heading">
+                        <h1>Product branding</h1>
+                         <h2>Proper logo use helps Zywave maintain a strong brand identity. Consistency is key and these guidelines will help you determine the best way to use our logos.</h2> 
+                    </div>
+                    <div class="content-container">
+                        
+
+<h2 id="standard-zywave-corporate-logos">Standard Zywave corporate logos</h2>
+
+<p>The standard Zywave corporate logo should be used in most cases. The logo with a tagline is preferred over the one without. The Zycon is typically used as a subtle motif that reinforces our brand and should never be used in place of the Zywave logo.</p>
+
+<div class="grid">
+    <div class='grid-col span-4'>
+    <p><img src="http://zui.zywave.com/images/foundations/product-branding/logo-zywave-tagline.png" alt="Zywave logo with tagline" />
+<small>With tagline</small></p>
+
+</div>
+
+<div class='grid-col span-4'>
+    <p><img src="http://zui.zywave.com/images/foundations/product-branding/logo-zywave.png" alt="Zywave logo without tagline" />
+<small>Without tagline</small></p>
+
+</div>
+
+<div class='grid-col span-4'>
+    <p><img src="http://zui.zywave.com/images/foundations/product-branding/zycon.png" alt="Zycon" />
+<small>Zycon</small></p>
+
+</div>
+
+</div>
+
+<div class="spacer small"></div>
+
+<h4 id="download-zywave-corporate-logos">Download Zywave corporate logos</h4>
+
+<p><a href="http://zui.zywave.com/downloads/foundations/product-branding/logos-zywave-png.zip" style="margin-right: 1rem;"><zui-button class="secondary"><zui-icon icon="zui-download"></zui-icon> Download PNG</zui-button></a> <a href="http://zui.zywave.com/downloads/foundations/product-branding/logos-zywave-eps.zip"><zui-button class="secondary"><zui-icon icon="zui-download"></zui-icon> Download EPS</zui-button></a></p>
+
+<div class="spacer "></div>
+
+<h3 id="variations">Variations</h3>
+
+<p>Grayscale and white logo variations are generally preferred. White logos should appear on a field of color. Typically this will be one of our standard grays or Zywave green.</p>
+
+<div class="grid">
+    <div class='grid-col span-4'>
+    <p><img src="http://zui.zywave.com/images/foundations/product-branding/logo-zywave-tagline-grayscale.png" alt="Grayscale Zywave logo" />
+<small>Grayscale</small></p>
+
+</div>
+
+<div class='grid-col span-4'>
+    <p><img src="http://zui.zywave.com/images/foundations/product-branding/logo-zywave-white-gray-bg.png" alt="White Zywave logo on gray background" />
+<small>White on gray background</small></p>
+
+</div>
+
+<div class='grid-col span-4'>
+    <p><img src="http://zui.zywave.com/images/foundations/product-branding/logo-zywave-white-green-bg.png" alt="White Zywave log on Zywave Green background" />
+<small>White on Zywave Green background</small></p>
+
+</div>
+
+</div>
+
+<div class="spacer "></div>
+
+<h3 id="clear-space">Clear space</h3>
+
+<p>Surround the Zywave logo with enough clear space so that it is clearly visible. This will maximize the recognition and impact of our identity. There are some instances—such as in our product headers—where including an ample amount of clear space is not necessary and can be omitted.</p>
+
+<p><img src="http://zui.zywave.com/images/foundations/product-branding/logo-zywave-clearspace.png" alt="White space around Zywave logo should be height of chevron" />
+<small>The Zywave chevron can be used to determine the appropriate amount of clearspace.</small></p>
+
+<div class="spacer "></div>
+
+<h3 id="logo-abuse">Logo abuse</h3>
+
+<p>It is extremely important to use our logo as described in these guidelines. Deviating from the prescribed usage compromizes the integrity of Zywave&rsquo;s brand. The examples shown here should be avoided at all costs.</p>
+
+<p><zui-well type="error" class="no-animation">If you alter the Zywave logo in any way or attempt to squeeze it in somewhere, then you&rsquo;re probably doing it wrong. <strong>Stop it!</strong></zui-well></p>
+
+<div class="grid">
+    <div class='grid-col span-4'>
+    <p><img src="http://zui.zywave.com/images/foundations/product-branding/logo-zywave-alterations-miscolored.png" alt="Miscovered Zywave logo" />
+<small>Miscolored—this simply doesn&rsquo;t look good!</small></p>
+
+</div>
+
+<div class='grid-col span-4'>
+    <p><img src="http://zui.zywave.com/images/foundations/product-branding/logo-zywave-alterations-skewed.png" alt="Tilted Zywave logo" />
+<small>Tilting our logo doesn&rsquo;t make it coool or fun.</small></p>
+
+</div>
+
+<div class='grid-col span-4'>
+    <p><img src="http://zui.zywave.com/images/foundations/product-branding/logo-zywave-alterations-small.png" alt="Too small Zywave logo" />
+<small>This is too small. Every part of our logo should be legible.</small></p>
+
+</div>
+
+<div class='grid-col span-4'>
+    <p><img src="http://zui.zywave.com/images/foundations/product-branding/logo-zywave-alterations-squeezed.png" alt="Squeezed Zywave logo" />
+<small>Squeezing the logo might make it fit in your powerpoint, but it doesn&rsquo;t fit with our brand.</small></p>
+
+</div>
+
+<div class='grid-col span-4'>
+    <p><img src="http://zui.zywave.com/images/foundations/product-branding/logo-zywave-alterations-zycon.png" alt="Pairing Zywave logo with Zycon" />
+<small>Pairing the Zywave logo with the Zycon is unnecessary and muddies our brand.</small></p>
+
+</div>
+
+<div class='grid-col span-4'>
+    <p><img src="http://zui.zywave.com/images/foundations/product-branding/logo-zywave-alterations-over-image.png" alt="Zywave logo overlayed on busy image" />
+<small>Putting our logo on top of an image hinders visibility and legibility. Don&rsquo;t do it!</small></p>
+
+</div>
+
+</div>
+
+                    </div>
+                </section>
+            </zui-shell-content><zui-shell-footer>
+    <div>
+        &copy; 1995 - 2020 Zywave, Inc. All rights reserved.
+    </div>
+    <a class="zui-link" target="_blank" href="http://www.zywave.com/terms-conditions/">Terms and Conditions</a>
+    <a class="zui-link" target="_blank" href="http://www.zywave.com/privacy-statement/">Privacy Statement</a>
+    <a class="zui-link" target="_blank" href="http://www.zywave.com/dmca-notice/">DMCA</a></div>
+    <a class="zui-link" target="_blank" href="http://www.zywave.com/cookie-usage/">Cookie Usage</a>
+    <a class="zui-link" href="mailto:support@zywave.com">Contact</a>
+</zui-shell-footer>
+<script src="https://unpkg.com/@zywave/zui-bundle@next/dist/zui-loader.js"></script>
+</zui-shell>
+    </body>
+</html>

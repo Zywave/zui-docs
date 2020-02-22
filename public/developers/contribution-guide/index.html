@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html><head>
+    <title>Contribution guide | Zywave User Interface</title>
+    <link href="http://zui.zywave.com/css/ie-sucks.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://unpkg.com/@zywave/zui-bundle@next/dist/css/zui-bundle.fouc.css" />
+    <link rel="stylesheet" href="https://unpkg.com/@zywave/zui-bundle@next/dist/css/zui-bundle.app.css" />
+    <link href="http://zui.zywave.com/css/base.css" rel="stylesheet" />
+    <link href="http://zui.zywave.com/css/shortcodes.css" rel="stylesheet" />
+    <link href="http://zui.zywave.com/css/syntax-highlighting-monokai.css" rel="stylesheet" />
+    <link rel='shortcut icon' type='image/x-icon' href='http://zui.zywave.com/static/favicon.ico' />
+    <script src="http://zui.zywave.com/js/ie-sucks.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.3.0/fuse.min.js"></script>
+    <style>
+        :root {
+            --zui-shell-primary-theme: var(--zui-green);
+            --zui-shell-primary-theme-dark: var(--zui-green-600);
+            --zui-tabs-color: var(--zui-green);
+        }
+    </style>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const externalLinks = document.querySelectorAll('a[href^="http://"], a[href^="https://"]');
+            for (const l of externalLinks) {
+                if (l.href.indexOf("http://zui.zywave.com/") < 0) {
+                    l.target = '_blank';
+                }
+            }
+        });
+
+        
+        
+    </script>
+</head>
+<body>
+        <ie-sucks>
+            No. Stop it. Use a real browser.
+        </ie-sucks>
+        <zui-shell app-name="ZUI Documentation"><zui-shell-topbar>
+    <zui-logo slot="logo"></zui-logo>
+</zui-shell-topbar>
+
+
+
+<zui-shell-nav>
+    <zui-shell-nav-item>
+        <zui-icon icon="zui-nav-home" slot="icon"></zui-icon>
+        <a href="http://zui.zywave.com/" active>Home</a>
+    </zui-shell-nav-item>
+    
+    
+    <zui-shell-nav-item subnav>
+        <zui-icon icon="zui-nav-developers" slot="icon"></zui-icon>
+        
+            <span>Developers</span>
+            
+            
+            
+            
+            <a href="http://zui.zywave.com/developers/contribution-guide/" active>Contribution guide</a>
+            
+            <a href="http://zui.zywave.com/developers/developing-zui/" >Developing ZUI</a>
+            
+            <a href="http://zui.zywave.com/developers/installation/" >Installation</a>
+            
+            <a href="http://zui.zywave.com/developers/lit/" >Lit 🔥</a>
+            
+            <a href="http://zui.zywave.com/developers/polyfills/" >Polyfills</a>
+            
+            <a href="http://zui.zywave.com/developers/responsive-design/" >Responsive design</a>
+            
+            <a href="http://zui.zywave.com/developers/tooling/" >Tooling</a>
+            
+            <a href="http://zui.zywave.com/developers/webcomponents/" >Web components</a>
+            
+        
+    </zui-shell-nav-item>
+    
+    
+    <zui-shell-nav-item subnav>
+        <zui-icon icon="zui-nav-foundations" slot="icon"></zui-icon>
+        
+            <span>Foundations</span>
+            
+            
+                
+            
+            
+            
+            <a href="http://zui.zywave.com/foundations/colors/" >Colors</a>
+            
+            <a href="http://zui.zywave.com/foundations/content-area/" >Content area</a>
+            
+            <a href="http://zui.zywave.com/foundations/fonts-typography/" >Fonts &amp; typography</a>
+            
+            <a href="http://zui.zywave.com/foundations/footer/" >Footer</a>
+            
+            <a href="http://zui.zywave.com/foundations/icons/" >Icons</a>
+            
+            <a href="http://zui.zywave.com/foundations/illustrations/" >Illustrations</a>
+            
+            <a href="http://zui.zywave.com/foundations/product-branding/" >Product branding</a>
+            
+            <a href="http://zui.zywave.com/foundations/shell/" >Shell</a>
+            
+            <a href="http://zui.zywave.com/foundations/sidenav/" >Sidenav</a>
+            
+            <a href="http://zui.zywave.com/foundations/topbar/" >Topbar</a>
+            
+        
+    </zui-shell-nav-item>
+    
+    
+    <zui-shell-nav-item subnav>
+        <zui-icon icon="zui-nav-components" slot="icon"></zui-icon>
+        
+            <span>Components</span>
+            
+            
+                
+            
+            
+            
+            <a href="http://zui.zywave.com/components/breadcrumbs/" >Breadcrumbs</a>
+            
+            <a href="http://zui.zywave.com/components/buttons-dropdown/" >Button dropdowns</a>
+            
+            <a href="http://zui.zywave.com/components/buttons/" >Buttons</a>
+            
+            <a href="http://zui.zywave.com/components/checkboxes/" >Checkboxes</a>
+            
+            <a href="http://zui.zywave.com/components/dialogs/" >Dialogs</a>
+            
+            <a href="http://zui.zywave.com/components/dropdown-multi-select/" >Dropdown multi-select</a>
+            
+            <a href="http://zui.zywave.com/components/dropdown-select/" >Dropdown select</a>
+            
+            <a href="http://zui.zywave.com/components/expanders/" >Expanders</a>
+            
+            <a href="http://zui.zywave.com/components/file-selector/" >File Selector</a>
+            
+            <a href="http://zui.zywave.com/components/notifiers/" >Notifiers</a>
+            
+            <a href="http://zui.zywave.com/components/radio-buttons/" >Radio buttons</a>
+            
+            <a href="http://zui.zywave.com/components/tabs/" >Tabs</a>
+            
+            <a href="http://zui.zywave.com/components/text-input/" >Text Input</a>
+            
+            <a href="http://zui.zywave.com/components/toggles/" >Toggles</a>
+            
+            <a href="http://zui.zywave.com/components/tooltips/" >Tooltips</a>
+            
+            <a href="http://zui.zywave.com/components/wells/" >Well</a>
+            
+        
+    </zui-shell-nav-item>
+    
+    
+    <zui-shell-nav-item subnav>
+        <zui-icon icon="zui-nav-patterns" slot="icon"></zui-icon>
+        
+            <span>Patterns</span>
+            
+            
+                
+            
+            
+            
+            <a href="http://zui.zywave.com/patterns/forms/" >Forms</a>
+            
+            <a href="http://zui.zywave.com/patterns/step-flow/" >Step flow</a>
+            
+            <a href="http://zui.zywave.com/patterns/typeahead/" >Typeahead</a>
+            
+        
+    </zui-shell-nav-item>
+    
+    
+    <zui-shell-nav-item subnav>
+        <zui-icon icon="zui-nav-help" slot="icon"></zui-icon>
+        
+            <span>Communications</span>
+            
+            
+                
+            
+            
+            
+            <a href="http://zui.zywave.com/communications/messages/" >Messages</a>
+            
+            <a href="http://zui.zywave.com/communications/voice-tone/" >Voice &amp; tone</a>
+            
+            <a href="http://zui.zywave.com/communications/writing-style-guide/" >Writing style guide</a>
+            
+        
+    </zui-shell-nav-item>
+    
+    
+    <zui-shell-nav-item >
+        <zui-icon icon="zui-nav-accounts" slot="icon"></zui-icon>
+        
+            <a href="http://zui.zywave.com/personas/" >Personas</a>
+        
+    </zui-shell-nav-item>
+    
+    <script>
+        
+        const activeLinks = document.querySelectorAll('zui-shell-nav-item a[active]');
+            for (let activeLink of activeLinks) {
+                activeLink.closest('zui-shell-nav-item').expanded = true;
+            }
+    </script>
+</zui-shell-nav>
+<zui-shell-content id="content">
+                <section class="zui-layout zui-layout--slim">
+                    <div class="page-heading">
+                        <h1>Contribution guide</h1>
+                        
+                    </div>
+                    <div class="content-container">
+                        
+
+<p>ZUI has a series of automated systems that ensure we are able to easily release packages whenever we need to, and properly communicate the impact of those changes to developers. For this to work properly, we have some rules around how to help.</p>
+
+<div class="spacer "></div>
+
+<h2 id="branching">Branching</h2>
+
+<p>ZUI operates with two main branches in mind:</p>
+
+<ol>
+<li>dev:
+
+<ul>
+<li>This branch should always be in a state where it can reasonably be merged into master and ready to go at any time. All active development should be done to branches made off of dev.</li>
+<li>No code push should ever be made direct to dev. Only merges.</li>
+<li>Prerelease versions (suffixed with <code>-pre</code>) are created out of this branch.</li>
+</ul></li>
+<li>master:
+
+<ul>
+<li>This branch is always the stable version of ZUI. Full stable releases are made out of this branch.</li>
+<li>Only merges from dev are allowed to get changes into master.</li>
+</ul></li>
+<li>other branches:
+
+<ul>
+<li>Call them something easy to understand (not just &ldquo;fix-stuff&rdquo;)</li>
+<li>Delete them when they are merged into dev (no need for other persistent branches)</li>
+</ul></li>
+</ol>
+
+<hr />
+
+<h2 id="commiting">Commiting</h2>
+
+<p>ZUI uses lerna for CI operations across the entire monorepo. There&rsquo;s two things to note:</p>
+
+<ol>
+<li>On commit, a precommit hook is executed that will lint (and fix if possible) all staged files about to be committed.
+
+<ul>
+<li>JS: uses eslint + prettier</li>
+<li>CSS/SCSS: uses stylelint + prettier</li>
+<li>If the linter doesn&rsquo;t run, and you have formatting or linting errors, the CI will fail</li>
+</ul></li>
+<li>On versioning, commit messages are evaluated by lerna&rsquo;s hook with conventional-changelog to autoincrement versions
+
+<ul>
+<li>This is super important, and is something you should actively follow to help keep the versions and CHANGELOGs up-to-date</li>
+</ul></li>
+</ol>
+
+<div class="spacer small"></div>
+
+<h3 id="conventional-commits">Conventional commits</h3>
+
+<p><em>Recommended links</em>:</p>
+
+<ul>
+<li><a href="https://www.conventionalcommits.org/en/v1.0.0-beta.4/">Conventional commits</a></li>
+<li><a href="https://github.com/angular/angular/blob/master/CONTRIBUTING.md#commit">Angular commit standards</a></li>
+</ul>
+
+<p>All commits should look like the following:</p>
+<div class="highlight"><pre class="chroma"><code class="language-shell" data-lang="shell">&lt;type&gt;<span class="o">(</span>&lt;scope&gt;<span class="o">)</span>: &lt;subject&gt;
+&lt;BLANK LINE&gt;
+&lt;body&gt;
+&lt;BLANK LINE&gt;
+&lt;footer&gt;</code></pre></div>
+<p>The most important part, for us, is type (which is parsed from the commit message).</p>
+
+<p>✔ Good:</p>
+<div class="highlight"><pre class="chroma"><code class="language-shell" data-lang="shell">&gt; git commit -m <span class="s2">&#34;chore: fixing some ci issues&#34;</span>
+&gt; git commit -m <span class="s2">&#34;feat: wells now support &#39;dismissible&#39; feature</span></code></pre></div>
+<p>❌ Bad:</p>
+<div class="highlight"><pre class="chroma"><code class="language-shell" data-lang="shell">&gt; git commit -m <span class="s2">&#34;pat is dumb&#34;</span>
+&gt; git commit -m <span class="s2">&#34;Updating index.js&#34;</span></code></pre></div>
+<p>If you want to have an easy template for all ZUI commit messages, you can actually execute the following to the root of the repository:</p>
+<div class="highlight"><pre class="chroma"><code class="language-shell" data-lang="shell">&gt; git config --local commit.template <span class="s2">&#34;./.gitmessage&#34;</span></code></pre></div>
+<p>Now, when you try to make a commit, you&rsquo;ll get a prompt to fill in the commit details with more information regarding your changes. This also works with git UI tools, like GitKraken.</p>
+
+<div class="spacer small"></div>
+
+<h3 id="conventional-changelog">Conventional changelog</h3>
+
+<p><em>Recommended links</em>:</p>
+
+<ul>
+<li><a href="https://github.com/conventional-changelog/conventional-changelog/">Conventional changelog</a></li>
+</ul>
+
+<p>Based off of your commit messages, lerna + conventional-changelog will do a diff between the last version of a given package and the currently releasing changes, and figure out the proper version.</p>
+
+<p>ZUI 4.x is what we&rsquo;re currently on, and we plan to keep it that way until something shinier comes along. So, ZUI uses a slight fork of <a href="https://github.com/conventional-changelog/conventional-changelog/tree/master/packages/conventional-changelog-angular">conventional-changelog-angular</a> which lets us pin down the major version, and sticks us in the minor and patch increments for all updates. You can see the source code for our version here: <a href="https://gitlab.zywave.com/zui/zui/tree/dev/scripts/packages/conventional-changelog-zui">https://gitlab.zywave.com/zui/zui/tree/dev/scripts/packages/conventional-changelog-zui</a>.</p>
+
+<div class="spacer small"></div>
+
+<h4 id="how-zui-currently-versions-itself-in-descending-priority">How ZUI currently versions itself (in descending priority):</h4>
+
+<ol>
+<li>If the commit contains <code>BREAKING CHANGE: &lt;reason&gt;</code> in the body, we will bump the minor version (4.1.6 =&gt; 4.2.0)
+<zui-well type="warning" static>
+You won&rsquo;t be able to commit using <code>git commit -m</code> because this only accepts a subject line. Instead, use <code>git commit</code>, which will prompt your Git default text editor to open so you can include a body message.
+</zui-well></li>
+<li>If the commit subject starts with <code>feat:</code>, <code>fix:</code>, or <code>perf:</code>, we&rsquo;ll do a patch (unless the body also includes <code>BREAKING CHANGE: &lt;reason&gt;</code>)</li>
+<li>If the commit subject starts with <code>chore:</code>, <code>build:</code>, <code>docs:</code>, <code>refactor:</code>, <code>ci:</code>, <code>style:</code>, or <code>test:</code> we&rsquo;ll do nothing with the version (but include the notes in the CHANGELOG)</li>
+<li>If you don&rsquo;t follow the rules, we won&rsquo;t do anything. Hopefully you didn&rsquo;t change anything meaningful.</li>
+</ol>
+
+<div class="spacer small"></div>
+
+<h5 id="how-to-commit-a-breaking-change-to-zui">How to commit a breaking change to ZUI</h5>
+
+<p>If you are not using a GUI, follow the instructions below on how to commit a breaking change via command line.</p>
+
+<ol>
+<li>In command prompt, stage all your breaking changes first and then type <code>git commit</code> and press the <code>&lt;enter&gt;</code> key:</li>
+</ol>
+<div class="highlight"><pre class="chroma"><code class="language-shell" data-lang="shell">&gt; git commit</code></pre></div>
+<ol>
+<li>Your default Git text editor will open and prompt you to provide a commit message. The first line will always be your subject and any lines following will be the body:</li>
+</ol>
+<div class="highlight"><pre class="chroma"><code class="language-shell" data-lang="shell">feat: removed app name slots from zui-shell
+
+BREAKING CHANGE: removed the slots <span class="s2">&#34;app&#34;</span> from zui-shell-topbar
+and zui-shell-nav in favor of the attribute app-name on zui-shell</code></pre></div>
+<ol>
+<li>After you have entered your message, all you need to do is save and close the file for Git to commit your changes.</li>
+</ol>
+
+<div class="spacer small"></div>
+
+<h3 id="troubleshooting">Troubleshooting</h3>
+
+<p>If you&rsquo;re curious at any time what the next release of ZUI will look like, you can execute the following command against the dev (or master) branch:</p>
+
+<p>dev:</p>
+<div class="highlight"><pre class="chroma"><code class="language-shell" data-lang="shell">&gt; npx lerna version --conventional-prerelease<span class="o">=</span>*</code></pre></div>
+<p>master:</p>
+<div class="highlight"><pre class="chroma"><code class="language-shell" data-lang="shell">&gt; npx lerna version --conventional-graduate</code></pre></div>
+<p><zui-well type="warning" static>Don&rsquo;t commit the changes generated as a result of this. You can reject the changes before the updates are saved to your repo.</zui-well></p>
+
+<hr />
+
+<h2 id="merge-requests">Merge requests</h2>
+
+<p>ZUI offers several merge request templates to help explain the intent of the changes. When you go to log a merge request, near the &ldquo;title&rdquo; section, you can select a template and we&rsquo;ll provide you some guidelines for how to better communicate the changes.</p>
+
+<p>Some quick best practices:</p>
+
+<ul>
+<li>Keep the merge request small; the monorepo structure might tempt you to make many changes all at once, but it&rsquo;s harder to review, and harder to properly associate your changes with the right packages.</li>
+<li>For &ldquo;code review&rdquo; merge requests, you can always prepend <code>WIP:</code> to the title to prevent accidental merging.</li>
+<li>Delete the source branch once it has been merged into dev.</li>
+<li>If your changes are isolated to one package, feel free to check the <code>Squash commits when merge request is accepted.</code> box. Just be sure that the title of the merge request (or the resulting commit message) follows our rules above.</li>
+<li>If your changes span many packages, don&rsquo;t squash the commits. Better to have targeted, explicit commits against the changed code than one blob commit that is hard for conventional-changelog to properly allocate to the right package(s).</li>
+</ul>
+
+                    </div>
+                </section>
+            </zui-shell-content><zui-shell-footer>
+    <div>
+        &copy; 1995 - 2020 Zywave, Inc. All rights reserved.
+    </div>
+    <a class="zui-link" target="_blank" href="http://www.zywave.com/terms-conditions/">Terms and Conditions</a>
+    <a class="zui-link" target="_blank" href="http://www.zywave.com/privacy-statement/">Privacy Statement</a>
+    <a class="zui-link" target="_blank" href="http://www.zywave.com/dmca-notice/">DMCA</a></div>
+    <a class="zui-link" target="_blank" href="http://www.zywave.com/cookie-usage/">Cookie Usage</a>
+    <a class="zui-link" href="mailto:support@zywave.com">Contact</a>
+</zui-shell-footer>
+<script src="https://unpkg.com/@zywave/zui-bundle@next/dist/zui-loader.js"></script>
+</zui-shell>
+    </body>
+</html>

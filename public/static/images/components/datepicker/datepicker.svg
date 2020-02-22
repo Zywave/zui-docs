@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="200" height="42" viewBox="0 0 200 42">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="200" height="42" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-date-picker">
+      <rect width="200" height="42"/>
+    </clipPath>
+  </defs>
+  <g id="date-picker" clip-path="url(#clip-date-picker)">
+    <rect width="200" height="42" fill="#fff"/>
+    <g id="Date_Picker_-_Input" data-name="Date Picker - Input" clip-path="url(#clip-path)">
+      <g id="Rectangle_296" data-name="Rectangle 296" fill="#fff" stroke="#cbcbd2" stroke-width="1">
+        <rect width="200" height="42" rx="2" stroke="none"/>
+        <rect x="0.5" y="0.5" width="199" height="41" rx="1.5" fill="none"/>
+      </g>
+      <text id="mm_dd_yyy" data-name="mm/dd/yyy" transform="translate(52 27)" fill="#afafbb" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">mm/dd/yyy</tspan></text>
+      <path id="Path_402" data-name="Path 402" d="M213,94h-1V93a1,1,0,0,0-2,0v1h-8V93a1,1,0,0,0-2,0v1h-1a2.006,2.006,0,0,0-2,2v13a2.006,2.006,0,0,0,2,2h14a2.006,2.006,0,0,0,2-2V96A2.006,2.006,0,0,0,213,94Zm0,14a.945.945,0,0,1-1,1H200a.945.945,0,0,1-1-1V99h14Zm-10-5h-2v-2h2Zm4,0h-2v-2h2Zm4,0h-2v-2h2Zm-8,4h-2v-2h2Zm4,0h-2v-2h2Zm4,0h-2v-2h2Z" transform="translate(-180 -80)" fill="#79ace6"/>
+    </g>
+  </g>
+</svg>
