@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html><head>
     <title>Dropdown multi-select | Zywave User Interface</title>
-    <link href="http://zui.zywave.com/css/ie-sucks.css" rel="stylesheet" />
+    <link href="../../css/ie-sucks.css" rel="stylesheet" />
     <link rel="stylesheet" href="https://unpkg.com/@zywave/zui-bundle@next/dist/css/zui-bundle.fouc.css" />
     <link rel="stylesheet" href="https://unpkg.com/@zywave/zui-bundle@next/dist/css/zui-bundle.app.css" />
-    <link href="http://zui.zywave.com/css/base.css" rel="stylesheet" />
-    <link href="http://zui.zywave.com/css/shortcodes.css" rel="stylesheet" />
-    <link href="http://zui.zywave.com/css/syntax-highlighting-monokai.css" rel="stylesheet" />
-    <link rel='shortcut icon' type='image/x-icon' href='http://zui.zywave.com/static/favicon.ico' />
-    <script src="http://zui.zywave.com/js/ie-sucks.js"></script>
+    <link href="../../css/base.css" rel="stylesheet" />
+    <link href="../../css/shortcodes.css" rel="stylesheet" />
+    <link href="../../css/syntax-highlighting-monokai.css" rel="stylesheet" />
+    <link rel='shortcut icon' type='image/x-icon' href='../../static/favicon.ico' />
+    <script src="../../js/ie-sucks.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.3.0/fuse.min.js"></script>
     <style>
         :root {
@@ -21,7 +21,7 @@
         document.addEventListener('DOMContentLoaded', () => {
             const externalLinks = document.querySelectorAll('a[href^="http://"], a[href^="https://"]');
             for (const l of externalLinks) {
-                if (l.href.indexOf("http://zui.zywave.com/") < 0) {
+                if (l.href.indexOf("") < 0) {
                     l.target = '_blank';
                 }
             }
@@ -44,7 +44,7 @@
 <zui-shell-nav>
     <zui-shell-nav-item>
         <zui-icon icon="zui-nav-home" slot="icon"></zui-icon>
-        <a href="http://zui.zywave.com/" active>Home</a>
+        <a href="../../" active>Home</a>
     </zui-shell-nav-item>
     
     
@@ -56,21 +56,21 @@
             
             
             
-            <a href="http://zui.zywave.com/developers/contribution-guide/" >Contribution guide</a>
+            <a href="../../developers/contribution-guide/" >Contribution guide</a>
             
-            <a href="http://zui.zywave.com/developers/developing-zui/" >Developing ZUI</a>
+            <a href="../../developers/developing-zui/" >Developing ZUI</a>
             
-            <a href="http://zui.zywave.com/developers/installation/" >Installation</a>
+            <a href="../../developers/installation/" >Installation</a>
             
-            <a href="http://zui.zywave.com/developers/lit/" >Lit 🔥</a>
+            <a href="../../developers/lit/" >Lit 🔥</a>
             
-            <a href="http://zui.zywave.com/developers/polyfills/" >Polyfills</a>
+            <a href="../../developers/polyfills/" >Polyfills</a>
             
-            <a href="http://zui.zywave.com/developers/responsive-design/" >Responsive design</a>
+            <a href="../../developers/responsive-design/" >Responsive design</a>
             
-            <a href="http://zui.zywave.com/developers/tooling/" >Tooling</a>
+            <a href="../../developers/tooling/" >Tooling</a>
             
-            <a href="http://zui.zywave.com/developers/webcomponents/" >Web components</a>
+            <a href="../../developers/webcomponents/" >Web components</a>
             
         
     </zui-shell-nav-item>
@@ -86,25 +86,25 @@
             
             
             
-            <a href="http://zui.zywave.com/foundations/colors/" >Colors</a>
+            <a href="../../foundations/colors/" >Colors</a>
             
-            <a href="http://zui.zywave.com/foundations/content-area/" >Content area</a>
+            <a href="../../foundations/content-area/" >Content area</a>
             
-            <a href="http://zui.zywave.com/foundations/fonts-typography/" >Fonts &amp; typography</a>
+            <a href="../../foundations/fonts-typography/" >Fonts &amp; typography</a>
             
-            <a href="http://zui.zywave.com/foundations/footer/" >Footer</a>
+            <a href="../../foundations/footer/" >Footer</a>
             
-            <a href="http://zui.zywave.com/foundations/icons/" >Icons</a>
+            <a href="../../foundations/icons/" >Icons</a>
             
-            <a href="http://zui.zywave.com/foundations/illustrations/" >Illustrations</a>
+            <a href="../../foundations/illustrations/" >Illustrations</a>
             
-            <a href="http://zui.zywave.com/foundations/product-branding/" >Product branding</a>
+            <a href="../../foundations/product-branding/" >Product branding</a>
             
-            <a href="http://zui.zywave.com/foundations/shell/" >Shell</a>
+            <a href="../../foundations/shell/" >Shell</a>
             
-            <a href="http://zui.zywave.com/foundations/sidenav/" >Sidenav</a>
+            <a href="../../foundations/sidenav/" >Sidenav</a>
             
-            <a href="http://zui.zywave.com/foundations/topbar/" >Topbar</a>
+            <a href="../../foundations/topbar/" >Topbar</a>
             
         
     </zui-shell-nav-item>
@@ -120,37 +120,37 @@
             
             
             
-            <a href="http://zui.zywave.com/components/breadcrumbs/" >Breadcrumbs</a>
+            <a href="../../components/breadcrumbs/" >Breadcrumbs</a>
             
-            <a href="http://zui.zywave.com/components/buttons-dropdown/" >Button dropdowns</a>
+            <a href="../../components/buttons-dropdown/" >Button dropdowns</a>
             
-            <a href="http://zui.zywave.com/components/buttons/" >Buttons</a>
+            <a href="../../components/buttons/" >Buttons</a>
             
-            <a href="http://zui.zywave.com/components/checkboxes/" >Checkboxes</a>
+            <a href="../../components/checkboxes/" >Checkboxes</a>
             
-            <a href="http://zui.zywave.com/components/dialogs/" >Dialogs</a>
+            <a href="../../components/dialogs/" >Dialogs</a>
             
-            <a href="http://zui.zywave.com/components/dropdown-multi-select/" active>Dropdown multi-select</a>
+            <a href="../../components/dropdown-multi-select/" active>Dropdown multi-select</a>
             
-            <a href="http://zui.zywave.com/components/dropdown-select/" >Dropdown select</a>
+            <a href="../../components/dropdown-select/" >Dropdown select</a>
             
-            <a href="http://zui.zywave.com/components/expanders/" >Expanders</a>
+            <a href="../../components/expanders/" >Expanders</a>
             
-            <a href="http://zui.zywave.com/components/file-selector/" >File Selector</a>
+            <a href="../../components/file-selector/" >File Selector</a>
             
-            <a href="http://zui.zywave.com/components/notifiers/" >Notifiers</a>
+            <a href="../../components/notifiers/" >Notifiers</a>
             
-            <a href="http://zui.zywave.com/components/radio-buttons/" >Radio buttons</a>
+            <a href="../../components/radio-buttons/" >Radio buttons</a>
             
-            <a href="http://zui.zywave.com/components/tabs/" >Tabs</a>
+            <a href="../../components/tabs/" >Tabs</a>
             
-            <a href="http://zui.zywave.com/components/text-input/" >Text Input</a>
+            <a href="../../components/text-input/" >Text Input</a>
             
-            <a href="http://zui.zywave.com/components/toggles/" >Toggles</a>
+            <a href="../../components/toggles/" >Toggles</a>
             
-            <a href="http://zui.zywave.com/components/tooltips/" >Tooltips</a>
+            <a href="../../components/tooltips/" >Tooltips</a>
             
-            <a href="http://zui.zywave.com/components/wells/" >Well</a>
+            <a href="../../components/wells/" >Well</a>
             
         
     </zui-shell-nav-item>
@@ -166,11 +166,11 @@
             
             
             
-            <a href="http://zui.zywave.com/patterns/forms/" >Forms</a>
+            <a href="../../patterns/forms/" >Forms</a>
             
-            <a href="http://zui.zywave.com/patterns/step-flow/" >Step flow</a>
+            <a href="../../patterns/step-flow/" >Step flow</a>
             
-            <a href="http://zui.zywave.com/patterns/typeahead/" >Typeahead</a>
+            <a href="../../patterns/typeahead/" >Typeahead</a>
             
         
     </zui-shell-nav-item>
@@ -186,11 +186,11 @@
             
             
             
-            <a href="http://zui.zywave.com/communications/messages/" >Messages</a>
+            <a href="../../communications/messages/" >Messages</a>
             
-            <a href="http://zui.zywave.com/communications/voice-tone/" >Voice &amp; tone</a>
+            <a href="../../communications/voice-tone/" >Voice &amp; tone</a>
             
-            <a href="http://zui.zywave.com/communications/writing-style-guide/" >Writing style guide</a>
+            <a href="../../communications/writing-style-guide/" >Writing style guide</a>
             
         
     </zui-shell-nav-item>
@@ -199,7 +199,7 @@
     <zui-shell-nav-item >
         <zui-icon icon="zui-nav-accounts" slot="icon"></zui-icon>
         
-            <a href="http://zui.zywave.com/personas/" >Personas</a>
+            <a href="../../personas/" >Personas</a>
         
     </zui-shell-nav-item>
     
@@ -247,9 +247,9 @@
 <h4 id="alternate-considerations">Alternate considerations</h4>
 
 <ul>
-<li>Use <a href="http://zui.zywave.com/components/checkboxes">checkboxes</a> for lists smaller than 3 items.</li>
-<li>Use a <a href="http://zui.zywave.com/components/dropdown-select">dropdown select</a> if users can only select 1 option.</li>
-<li>Use a <a href="http://zui.zywave.com/components/pickers">multi-picker</a> when the user needs to search for specific items and select them from a list with more than 7 – 10 items.</li>
+<li>Use <a href="../../components/checkboxes">checkboxes</a> for lists smaller than 3 items.</li>
+<li>Use a <a href="../../components/dropdown-select">dropdown select</a> if users can only select 1 option.</li>
+<li>Use a <a href="../../components/pickers">multi-picker</a> when the user needs to search for specific items and select them from a list with more than 7 – 10 items.</li>
 </ul>
 
 <hr />
@@ -262,7 +262,7 @@
 
 <p>Text that defines what type of options are in the list.</p>
 
-<p><a href="http://zui.zywave.com/patterns/forms-layout">See labeling best practices</a></p>
+<p><a href="../../patterns/forms-layout">See labeling best practices</a></p>
 
 <h4 id="input">Input</h4>
 
@@ -297,7 +297,7 @@
 </div>
 
 <div class='grid-col span-8'>
-    <p><img src="http://zui.zywave.com/images/components/dropdown-multi-select/multi_select_label.svg" alt="Anatomy of a dropdown multi-select" /></p>
+    <p><img src="../../images/components/dropdown-multi-select/multi_select_label.svg" alt="Anatomy of a dropdown multi-select" /></p>
 
 <p>The anatomy of a dropdown select.</p>
 
@@ -323,7 +323,7 @@
     <div class='grid-col span-6'>
     <h4 id="grouping">Grouping</h4>
 
-<p><img src="http://zui.zywave.com/images/components/dropdown-multi-select/multiselect_grouping_specs.svg" alt="Spatial specs for options lists with grouping" /></p>
+<p><img src="../../images/components/dropdown-multi-select/multiselect_grouping_specs.svg" alt="Spatial specs for options lists with grouping" /></p>
 
 <ul>
 <li>Sometimes you&rsquo;ll need to add grouping to a long list of options. Titles can break up options into groups to help users more easily locate them.</li>
@@ -336,7 +336,7 @@
 <div class='grid-col span-6'>
     <h4 id="icons">Icons</h4>
 
-<p><img src="http://zui.zywave.com/images/components/dropdown-multi-select/multiselect_icon_specs.svg" alt="Spatial specs for options lists with icons next to options" /></p>
+<p><img src="../../images/components/dropdown-multi-select/multiselect_icon_specs.svg" alt="Spatial specs for options lists with icons next to options" /></p>
 
 <ul>
 <li>Use icons to distinguish between options.</li>
@@ -402,7 +402,7 @@
 <p><div class='grid-col span-6'>
     <h3 id="input-states">Input states</h3></p>
 
-<p><img src="http://zui.zywave.com/images/components/dropdown-multi-select/multiselect_states.svg" alt="The various states of an input" /></p>
+<p><img src="../../images/components/dropdown-multi-select/multiselect_states.svg" alt="The various states of an input" /></p>
 
 <p><a href="https://xd.adobe.com/spec/260e69b4-55fc-4e0f-4e7a-1ddf923f8ed8-503f/screen/bec40257-7e7b-4a1f-b09a-cd9ae01d288f/Multi-select-states/">See input states design specs</a></p>
 
@@ -411,7 +411,7 @@
 <div class='grid-col span-6'>
     <h3 id="option-list-states">Option list states</h3>
 
-<p><img src="http://zui.zywave.com/images/components/dropdown-multi-select/multiselect_list_states.svg" alt="The various states of an option list" /></p>
+<p><img src="../../images/components/dropdown-multi-select/multiselect_list_states.svg" alt="The various states of an option list" /></p>
 
 <p><a href="https://xd.adobe.com/spec/260e69b4-55fc-4e0f-4e7a-1ddf923f8ed8-503f/screen/4c69708c-51b1-4436-a4e8-4f34cb39146c/Multi-select-list-states/">See option list states design specs</a></p>
 
@@ -429,7 +429,7 @@
 </div>
 
 <div class='grid-col span-6'>
-    <p><img src="http://zui.zywave.com/images/components/dropdown-multi-select/tag_specs.svg" alt="Removing a selection from an input" /></p>
+    <p><img src="../../images/components/dropdown-multi-select/tag_specs.svg" alt="Removing a selection from an input" /></p>
 
 </div>
 

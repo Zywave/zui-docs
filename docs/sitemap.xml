@@ -3,201 +3,201 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://zui.zywave.com/developers/</loc>
+    <loc>/developers/</loc>
   </url>
   
   <url>
-    <loc>http://zui.zywave.com/foundations/</loc>
+    <loc>/foundations/</loc>
   </url>
   
   <url>
-    <loc>http://zui.zywave.com/components/</loc>
+    <loc>/components/</loc>
   </url>
   
   <url>
-    <loc>http://zui.zywave.com/patterns/</loc>
+    <loc>/patterns/</loc>
   </url>
   
   <url>
-    <loc>http://zui.zywave.com/communications/</loc>
+    <loc>/communications/</loc>
   </url>
   
   <url>
-    <loc>http://zui.zywave.com/personas/</loc>
+    <loc>/personas/</loc>
   </url>
   
   <url>
-    <loc>http://zui.zywave.com/components/breadcrumbs/</loc>
+    <loc>/components/breadcrumbs/</loc>
   </url>
   
   <url>
-    <loc>http://zui.zywave.com/components/buttons-dropdown/</loc>
+    <loc>/components/buttons-dropdown/</loc>
   </url>
   
   <url>
-    <loc>http://zui.zywave.com/components/buttons/</loc>
+    <loc>/components/buttons/</loc>
   </url>
   
   <url>
-    <loc>http://zui.zywave.com/categories/</loc>
+    <loc>/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://zui.zywave.com/components/checkboxes/</loc>
+    <loc>/components/checkboxes/</loc>
   </url>
   
   <url>
-    <loc>http://zui.zywave.com/foundations/colors/</loc>
+    <loc>/foundations/colors/</loc>
   </url>
   
   <url>
-    <loc>http://zui.zywave.com/foundations/content-area/</loc>
+    <loc>/foundations/content-area/</loc>
   </url>
   
   <url>
-    <loc>http://zui.zywave.com/developers/contribution-guide/</loc>
+    <loc>/developers/contribution-guide/</loc>
   </url>
   
   <url>
-    <loc>http://zui.zywave.com/developers/developing-zui/</loc>
+    <loc>/developers/developing-zui/</loc>
   </url>
   
   <url>
-    <loc>http://zui.zywave.com/components/dialogs/</loc>
+    <loc>/components/dialogs/</loc>
   </url>
   
   <url>
-    <loc>http://zui.zywave.com/components/dropdown-multi-select/</loc>
+    <loc>/components/dropdown-multi-select/</loc>
   </url>
   
   <url>
-    <loc>http://zui.zywave.com/components/dropdown-select/</loc>
+    <loc>/components/dropdown-select/</loc>
   </url>
   
   <url>
-    <loc>http://zui.zywave.com/components/expanders/</loc>
+    <loc>/components/expanders/</loc>
   </url>
   
   <url>
-    <loc>http://zui.zywave.com/components/file-selector/</loc>
+    <loc>/components/file-selector/</loc>
   </url>
   
   <url>
-    <loc>http://zui.zywave.com/foundations/fonts-typography/</loc>
+    <loc>/foundations/fonts-typography/</loc>
   </url>
   
   <url>
-    <loc>http://zui.zywave.com/foundations/footer/</loc>
+    <loc>/foundations/footer/</loc>
   </url>
   
   <url>
-    <loc>http://zui.zywave.com/patterns/forms/</loc>
+    <loc>/patterns/forms/</loc>
   </url>
   
   <url>
-    <loc>http://zui.zywave.com/foundations/icons/</loc>
+    <loc>/foundations/icons/</loc>
   </url>
   
   <url>
-    <loc>http://zui.zywave.com/foundations/illustrations/</loc>
+    <loc>/foundations/illustrations/</loc>
   </url>
   
   <url>
-    <loc>http://zui.zywave.com/developers/installation/</loc>
+    <loc>/developers/installation/</loc>
   </url>
   
   <url>
-    <loc>http://zui.zywave.com/developers/lit/</loc>
+    <loc>/developers/lit/</loc>
   </url>
   
   <url>
-    <loc>http://zui.zywave.com/communications/messages/</loc>
+    <loc>/communications/messages/</loc>
   </url>
   
   <url>
-    <loc>http://zui.zywave.com/components/notifiers/</loc>
+    <loc>/components/notifiers/</loc>
   </url>
   
   <url>
-    <loc>http://zui.zywave.com/developers/polyfills/</loc>
+    <loc>/developers/polyfills/</loc>
   </url>
   
   <url>
-    <loc>http://zui.zywave.com/foundations/product-branding/</loc>
+    <loc>/foundations/product-branding/</loc>
   </url>
   
   <url>
-    <loc>http://zui.zywave.com/components/radio-buttons/</loc>
+    <loc>/components/radio-buttons/</loc>
   </url>
   
   <url>
-    <loc>http://zui.zywave.com/developers/responsive-design/</loc>
+    <loc>/developers/responsive-design/</loc>
   </url>
   
   <url>
-    <loc>http://zui.zywave.com/foundations/shell/</loc>
+    <loc>/foundations/shell/</loc>
   </url>
   
   <url>
-    <loc>http://zui.zywave.com/foundations/sidenav/</loc>
+    <loc>/foundations/sidenav/</loc>
   </url>
   
   <url>
-    <loc>http://zui.zywave.com/patterns/step-flow/</loc>
+    <loc>/patterns/step-flow/</loc>
   </url>
   
   <url>
-    <loc>http://zui.zywave.com/components/tabs/</loc>
+    <loc>/components/tabs/</loc>
   </url>
   
   <url>
-    <loc>http://zui.zywave.com/tags/</loc>
+    <loc>/tags/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://zui.zywave.com/components/text-input/</loc>
+    <loc>/components/text-input/</loc>
   </url>
   
   <url>
-    <loc>http://zui.zywave.com/components/toggles/</loc>
+    <loc>/components/toggles/</loc>
   </url>
   
   <url>
-    <loc>http://zui.zywave.com/developers/tooling/</loc>
+    <loc>/developers/tooling/</loc>
   </url>
   
   <url>
-    <loc>http://zui.zywave.com/components/tooltips/</loc>
+    <loc>/components/tooltips/</loc>
   </url>
   
   <url>
-    <loc>http://zui.zywave.com/foundations/topbar/</loc>
+    <loc>/foundations/topbar/</loc>
   </url>
   
   <url>
-    <loc>http://zui.zywave.com/patterns/typeahead/</loc>
+    <loc>/patterns/typeahead/</loc>
   </url>
   
   <url>
-    <loc>http://zui.zywave.com/communications/voice-tone/</loc>
+    <loc>/communications/voice-tone/</loc>
   </url>
   
   <url>
-    <loc>http://zui.zywave.com/developers/webcomponents/</loc>
+    <loc>/developers/webcomponents/</loc>
   </url>
   
   <url>
-    <loc>http://zui.zywave.com/components/wells/</loc>
+    <loc>/components/wells/</loc>
   </url>
   
   <url>
-    <loc>http://zui.zywave.com/communications/writing-style-guide/</loc>
+    <loc>/communications/writing-style-guide/</loc>
   </url>
   
   <url>
-    <loc>http://zui.zywave.com/</loc>
+    <loc>/</loc>
   </url>
   
 </urlset>
