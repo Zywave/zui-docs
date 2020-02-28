@@ -1,0 +1,52 @@
+{
+  "version": "experimental",
+  "tags": [
+    {
+      "name": "zui-checkbox",
+      "path": "./..\\src\\zui-checkbox.js",
+      "attributes": [
+        {
+          "name": "checked",
+          "description": "Whether or not the checkbox is checked",
+          "type": "boolean",
+          "default": "false"
+        },
+        {
+          "name": "value",
+          "type": "string",
+          "default": "\"on\""
+        }
+      ],
+      "properties": [
+        {
+          "name": "checked",
+          "attribute": "checked",
+          "description": "Whether or not the checkbox is checked",
+          "type": "boolean",
+          "default": "false"
+        },
+        {
+          "name": "value",
+          "attribute": "value",
+          "type": "string",
+          "default": "\"on\""
+        }
+      ],
+      "events": [
+        {
+          "name": "change"
+        }
+      ],
+      "slots": [
+        {
+          "name": "",
+          "description": "To render label text, if applicable"
+        },
+        {
+          "name": "icon",
+          "description": "Used to create \"gallery\" checkboxes"
+        }
+      ]
+    }
+  ]
+}

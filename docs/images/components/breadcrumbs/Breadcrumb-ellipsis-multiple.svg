@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="900" height="81" viewBox="0 0 900 81">
+  <defs>
+    <clipPath id="clip-Breadcrumb_ellipsis_multiple_">
+      <rect width="900" height="81"/>
+    </clipPath>
+  </defs>
+  <g id="Breadcrumb_ellipsis_multiple_" data-name="Breadcrumb ellipsis multiple " clip-path="url(#clip-Breadcrumb_ellipsis_multiple_)">
+    <g id="Image_3870" data-name="Image 3870" fill="#f4f4f4" stroke="#e3e3e3" stroke-width="1">
+      <rect width="900" height="81" stroke="none"/>
+      <rect x="0.5" y="0.5" width="899" height="80" fill="none"/>
+    </g>
+    <text id="Breadcrumb_1" data-name="Breadcrumb #1" transform="translate(41 44)" fill="#2777d3" font-size="12" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Breadcrumb #1</tspan></text>
+    <g id="Group_13853" data-name="Group 13853" transform="translate(27 33)" style="isolation: isolate">
+      <g id="Group_13856" data-name="Group 13856" transform="translate(14 14) rotate(180)">
+        <rect id="Rectangle_3875" data-name="Rectangle 3875" width="14" height="14" transform="translate(14 0) rotate(90)" fill="none"/>
+        <path id="Path_5567" data-name="Path 5567" d="M5.019,8.249,1.384,4.615,5.019.981a.558.558,0,0,0,0-.808h0a.558.558,0,0,0-.808,0L.577,3.807l-.4.4a.558.558,0,0,0,0,.808l.4.4L4.211,9.057a.558.558,0,0,0,.808,0h0A.557.557,0,0,0,5.019,8.249Z" transform="translate(9.674 11.537) rotate(180)" fill="#2777d3"/>
+      </g>
+    </g>
+    <g id="Group_13866" data-name="Group 13866" transform="translate(-75)">
+      <text id="Breadcrumb_9" data-name="Breadcrumb #9" transform="translate(241 44)" fill="#2777d3" font-size="12" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Breadcrumb #9</tspan></text>
+      <g id="Group_13853-2" data-name="Group 13853" transform="translate(227 33)" style="isolation: isolate">
+        <g id="Group_13856-2" data-name="Group 13856" transform="translate(14 14) rotate(180)">
+          <rect id="Rectangle_3875-2" data-name="Rectangle 3875" width="14" height="14" transform="translate(14 0) rotate(90)" fill="none"/>
+          <path id="Path_5567-2" data-name="Path 5567" d="M5.019,8.249,1.384,4.615,5.019.981a.558.558,0,0,0,0-.808h0a.558.558,0,0,0-.808,0L.577,3.807l-.4.4a.558.558,0,0,0,0,.808l.4.4L4.211,9.057a.558.558,0,0,0,.808,0h0A.557.557,0,0,0,5.019,8.249Z" transform="translate(9.674 11.537) rotate(180)" fill="#2777d3"/>
+        </g>
+      </g>
+    </g>
+    <g id="Group_13867" data-name="Group 13867" transform="translate(24)">
+      <text id="Breadcrumb_10" data-name="Breadcrumb #10" transform="translate(241 44)" fill="#2777d3" font-size="12" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Breadcrumb #10</tspan></text>
+      <g id="Group_13853-3" data-name="Group 13853" transform="translate(227 33)" style="isolation: isolate">
+        <g id="Group_13856-3" data-name="Group 13856" transform="translate(14 14) rotate(180)">
+          <rect id="Rectangle_3875-3" data-name="Rectangle 3875" width="14" height="14" transform="translate(14 0) rotate(90)" fill="none"/>
+          <path id="Path_5567-3" data-name="Path 5567" d="M5.019,8.249,1.384,4.615,5.019.981a.558.558,0,0,0,0-.808h0a.558.558,0,0,0-.808,0L.577,3.807l-.4.4a.558.558,0,0,0,0,.808l.4.4L4.211,9.057a.558.558,0,0,0,.808,0h0A.557.557,0,0,0,5.019,8.249Z" transform="translate(9.674 11.537) rotate(180)" fill="#2777d3"/>
+        </g>
+      </g>
+    </g>
+    <g id="Group_13865" data-name="Group 13865" transform="translate(-76)">
+      <text id="_..." data-name="..." transform="translate(216 44)" fill="#2777d3" font-size="12" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">...</tspan></text>
+      <g id="Group_13864" data-name="Group 13864" transform="translate(202 33)" style="isolation: isolate">
+        <g id="Group_13856-4" data-name="Group 13856" transform="translate(14 14) rotate(180)">
+          <rect id="Rectangle_3875-4" data-name="Rectangle 3875" width="14" height="14" transform="translate(14 0) rotate(90)" fill="none"/>
+          <path id="Path_5567-4" data-name="Path 5567" d="M5.019,8.249,1.384,4.615,5.019.981a.558.558,0,0,0,0-.808h0a.558.558,0,0,0-.808,0L.577,3.807l-.4.4a.558.558,0,0,0,0,.808l.4.4L4.211,9.057a.558.558,0,0,0,.808,0h0A.557.557,0,0,0,5.019,8.249Z" transform="translate(9.674 11.537) rotate(180)" fill="#2777d3"/>
+        </g>
+      </g>
+    </g>
+    <g id="Group_13863" data-name="Group 13863" transform="translate(80 -104)" style="isolation: isolate">
+      <text id="Page_Header" data-name="Page Header" transform="translate(291 148)" fill="#9494a4" font-size="12" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Page Header</tspan></text>
+      <g id="Group_13853-4" data-name="Group 13853" transform="translate(277 137)" style="isolation: isolate">
+        <g id="Group_13856-5" data-name="Group 13856" transform="translate(14 14) rotate(180)">
+          <rect id="Rectangle_3875-5" data-name="Rectangle 3875" width="14" height="14" transform="translate(14 0) rotate(90)" fill="none"/>
+          <path id="Path_5567-5" data-name="Path 5567" d="M5.019,8.249,1.384,4.615,5.019.981a.558.558,0,0,0,0-.808h0a.558.558,0,0,0-.808,0L.577,3.807l-.4.4a.558.558,0,0,0,0,.808l.4.4L4.211,9.057a.558.558,0,0,0,.808,0h0A.557.557,0,0,0,5.019,8.249Z" transform="translate(9.674 11.537) rotate(180)" fill="#9494a4"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

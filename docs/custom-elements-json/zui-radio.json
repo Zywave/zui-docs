@@ -1,0 +1,95 @@
+{
+  "version": "experimental",
+  "tags": [
+    {
+      "name": "zui-radio",
+      "path": "./..\\src\\zui-radio.js",
+      "description": "### Example\r\n```html\r\n<zui-radio checked></zui-radio>\r\n```",
+      "attributes": [
+        {
+          "name": "identifier",
+          "description": "Deprecated: Use \"value\" instead",
+          "type": "string"
+        },
+        {
+          "name": "value",
+          "type": "string",
+          "default": "\"on\""
+        },
+        {
+          "name": "checked",
+          "description": "Whether or not this radio is checked",
+          "type": "boolean",
+          "default": "false"
+        }
+      ],
+      "properties": [
+        {
+          "name": "identifier",
+          "attribute": "identifier",
+          "description": "Deprecated: Use \"value\" instead",
+          "type": "string"
+        },
+        {
+          "name": "value",
+          "attribute": "value",
+          "type": "string",
+          "default": "\"on\""
+        },
+        {
+          "name": "checked",
+          "attribute": "checked",
+          "description": "Whether or not this radio is checked",
+          "type": "boolean",
+          "default": "false"
+        }
+      ],
+      "events": [
+        {
+          "name": "selected"
+        },
+        {
+          "name": "keydown"
+        }
+      ]
+    },
+    {
+      "name": "zui-radio-group",
+      "path": "./..\\src\\zui-radio-group.js",
+      "description": "### Example\r\n```html\r\n<zui-radio-group select=\"1\">\r\n  <zui-radio identifier=\"1\" checked></zui-radio>\r\n  <zui-radio identifier=\"2\" checked></zui-radio>\r\n</zui-radio-group>\r\n```",
+      "attributes": [
+        {
+          "name": "selected",
+          "description": "The selected value associated with a corresponding zui-radio's identifier",
+          "type": "boolean",
+          "default": "false"
+        },
+        {
+          "name": "label",
+          "description": "The label for this radio group used only for a11y purposes",
+          "default": "\"undefined\""
+        }
+      ],
+      "properties": [
+        {
+          "name": "selected",
+          "attribute": "selected",
+          "description": "The selected value associated with a corresponding zui-radio's identifier",
+          "type": "boolean",
+          "default": "false"
+        },
+        {
+          "name": "label",
+          "attribute": "label",
+          "description": "The label for this radio group used only for a11y purposes",
+          "default": "\"undefined\""
+        }
+      ],
+      "events": [
+        {
+          "name": "change"
+        }
+      ]
+    }
+  ]
+}

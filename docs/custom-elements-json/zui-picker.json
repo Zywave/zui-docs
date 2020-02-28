@@ -1,0 +1,18 @@
+{
+  "version": "experimental",
+  "tags": [
+    {
+      "name": "zui-picker",
+      "path": "./..\\src\\zui-picker.js",
+      "events": [
+        {
+          "name": "change"
+        }
+      ]
+    },
+    {
+      "name": "zui-picker-item",
+      "path": "./..\\src\\zui-picker-item.js"
+    }
+  ]
+}

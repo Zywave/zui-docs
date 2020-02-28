@@ -1,0 +1,17 @@
+{
+  "version": "experimental",
+  "tags": [
+    {
+      "name": "zui-pages",
+      "path": "./..\\src\\zui-pages.js",
+      "description": "`<zui-pages>`is used to select one of its children to show. One use is to cycle through a list of children \"pages\"; works great with `<zui-tabs>`, where upon clicking a different tab, the corresponding page seen updates.\r\nBehind the scenes `<zui-pages>` is based on Polymer's `<iron-pages>`.",
+      "attributes": [
+        {
+          "name": "selected",
+          "description": "Defines which child element is selected, where is <code>selected=\"0\"</code> is first direct descendant, and <code>selected=\"1\"</code> would be second child etc",
+          "type": "Number"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "version": "experimental",
+  "tags": [
+    {
+      "name": "zui-button-dropdown",
+      "path": "./..\\src\\zui-button-dropdown.js",
+      "description": "A component that uses a `<zui-button>` to open a dropdown menu of options.",
+      "attributes": [
+        {
+          "name": "open",
+          "description": "This attribute will decide whether the submenu is open or not",
+          "type": "boolean",
+          "default": "false"
+        }
+      ],
+      "properties": [
+        {
+          "name": "open",
+          "attribute": "open",
+          "description": "This attribute will decide whether the submenu is open or not",
+          "type": "boolean",
+          "default": "false"
+        }
+      ],
+      "slots": [
+        {
+          "name": "",
+          "description": "Unnamed slot, for text seen within the `<zui-button>` dropdown trigger"
+        },
+        {
+          "name": "option",
+          "description": "For each dropdown menu option, apply this slot attribute to your slotted menu item"
+        }
+      ]
+    }
+  ]
+}

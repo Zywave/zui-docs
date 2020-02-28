@@ -1,0 +1,104 @@
+{
+  "version": "experimental",
+  "tags": [
+    {
+      "name": "zui-notifier",
+      "path": "./..\\src\\zui-notifier.js",
+      "description": "`<zui-notifier>` is used to inform users with information as a result of their action. Behind the scenes, this component is based on Polymer's `<paper-toast>`",
+      "attributes": [
+        {
+          "name": "header",
+          "description": "The static header of the notifier. If you don't have dynamic text, otherwise use zui-notifier-controller.",
+          "type": "String",
+          "default": "\"\""
+        },
+        {
+          "name": "message",
+          "type": "string",
+          "default": "\"\""
+        },
+        {
+          "name": "parent-selector",
+          "description": "The static parentselector to determine the parent of the notifier. If you don't have dynamic text, otherwise use zui-notifier-controller.\r\nIf this parameter is not set then the default is the display the notifer in the top right of the document body.\r\nSyntax would be standard query selector language (i.e #parentDiv would search for a div id of \"parentDiv\" and display the notifer\r\nin the top right corner of that div tag).",
+          "type": "String"
+        },
+        {
+          "name": "type",
+          "description": "The static type of notifier. If you don't have dynamic text, otherwise use zui-notifier-controller.\r\nThe types of notifier include: 'info', success', 'warning', 'error'",
+          "type": "\"info\"|\"success\"|\"warning\"|\"error\"",
+          "default": "\"success\""
+        },
+        {
+          "name": "duration",
+          "description": "The amount of time, in milliseconds, this notifier should persist",
+          "type": "Number",
+          "default": "3000"
+        }
+      ],
+      "properties": [
+        {
+          "name": "header",
+          "attribute": "header",
+          "description": "The static header of the notifier. If you don't have dynamic text, otherwise use zui-notifier-controller.",
+          "type": "String",
+          "default": "\"\""
+        },
+        {
+          "name": "message",
+          "attribute": "message",
+          "type": "string",
+          "default": "\"\""
+        },
+        {
+          "name": "parentSelector",
+          "attribute": "parent-selector",
+          "description": "The static parentselector to determine the parent of the notifier. If you don't have dynamic text, otherwise use zui-notifier-controller.\r\nIf this parameter is not set then the default is the display the notifer in the top right of the document body.\r\nSyntax would be standard query selector language (i.e #parentDiv would search for a div id of \"parentDiv\" and display the notifer\r\nin the top right corner of that div tag).",
+          "type": "String"
+        },
+        {
+          "name": "type",
+          "attribute": "type",
+          "description": "The static type of notifier. If you don't have dynamic text, otherwise use zui-notifier-controller.\r\nThe types of notifier include: 'info', success', 'warning', 'error'",
+          "type": "\"info\"|\"success\"|\"warning\"|\"error\"",
+          "default": "\"success\""
+        },
+        {
+          "name": "duration",
+          "attribute": "duration",
+          "description": "The amount of time, in milliseconds, this notifier should persist",
+          "type": "Number",
+          "default": "3000"
+        },
+        {
+          "name": "rootPath",
+          "type": "string"
+        },
+        {
+          "name": "importPath",
+          "type": "string"
+        },
+        {
+          "name": "root",
+          "type": "StampedTemplate | HTMLElement | ShadowRoot | null"
+        },
+        {
+          "name": "$",
+          "type": "{ [key: string]: Element; }"
+        },
+        {
+          "name": "PROPERTY_EFFECT_TYPES"
+        }
+      ],
+      "events": [
+        {
+          "name": "open",
+          "description": "Dispatched event when `<zui-notifier>` is opened"
+        },
+        {
+          "name": "close",
+          "description": "Dispatched event when `<zui-notifier>` is closed"
+        }
+      ]
+    }
+  ]
+}

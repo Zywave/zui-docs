@@ -1,0 +1,74 @@
+{
+  "version": "experimental",
+  "tags": [
+    {
+      "name": "zui-breadcrumbs",
+      "path": "./..\\src\\zui-breadcrumbs.js",
+      "description": "`<zui-breadcrumbs>` wrap around `<zui-breadcrumb>`, as many as needed. Please use default unnamed slot only, do not use `slot=\"first\"`. ZuiBreadcrumbs logic will apply the appropriate slot=\"first\" to the first `<zui-breadrcrumb>` slotted in. The slot=\"first\" helps create the truncated ellipsis effect, if conditions for truncation are met.",
+      "attributes": [
+        {
+          "name": "show-all",
+          "description": "Use this boolean attribute if you do not want to truncate any of your breadcrumbs, all will be visible.",
+          "type": "boolean",
+          "default": "false"
+        },
+        {
+          "name": "visible-count",
+          "description": "Value determines how many visible breadcrumbs can be seen before truncation. If not set defaults to 4.",
+          "type": "number",
+          "default": "4"
+        }
+      ],
+      "properties": [
+        {
+          "name": "showAll",
+          "attribute": "show-all",
+          "description": "Use this boolean attribute if you do not want to truncate any of your breadcrumbs, all will be visible.",
+          "type": "boolean",
+          "default": "false"
+        },
+        {
+          "name": "visibleCount",
+          "attribute": "visible-count",
+          "description": "Value determines how many visible breadcrumbs can be seen before truncation. If not set defaults to 4.",
+          "type": "number",
+          "default": "4"
+        }
+      ],
+      "slots": [
+        {
+          "name": "",
+          "description": "Unnamed slot, that the child `<zui-breadcrumb>` elements should be passed into"
+        }
+      ]
+    },
+    {
+      "name": "zui-breadcrumb",
+      "path": "./..\\src\\zui-breadcrumb.js",
+      "description": "`<zui-breadcrumb>`'s are passed as a direct descendant into a `<zui-breadcrumbs>` wrapper. `<zui-breadcrumb>` will accept and format correct styling for `<a>`'s, `<button>`'s and other slotted in elements. Choose your slotted in element based upon your use case needs. Typically if items can be opened in a new tab we suggest using an `<a>/code>.",
+      "attributes": [
+        {
+          "name": "expand-text",
+          "description": "Apply attribute if you'd like to remove max character ellipsis on a single zui-breadcrumb",
+          "type": "boolean",
+          "default": "false"
+        }
+      ],
+      "properties": [
+        {
+          "name": "expandText",
+          "attribute": "expand-text",
+          "description": "Apply attribute if you'd like to remove max character ellipsis on a single zui-breadcrumb",
+          "type": "boolean",
+          "default": "false"
+        }
+      ],
+      "slots": [
+        {
+          "name": "",
+          "description": "Unnamed slot, pass: `<div>`, `<a>` or `<button>`'s into"
+        }
+      ]
+    }
+  ]
+}

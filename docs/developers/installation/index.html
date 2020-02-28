@@ -1,322 +1,44 @@
 <!DOCTYPE html>
-<html><head>
-    <title>Installation | Zywave User Interface</title>
-    <link href="../../css/ie-sucks.css" rel="stylesheet" />
-    <link rel="stylesheet" href="https://unpkg.com/@zywave/zui-bundle@next/dist/css/zui-bundle.fouc.css" />
-    <link rel="stylesheet" href="https://unpkg.com/@zywave/zui-bundle@next/dist/css/zui-bundle.app.css" />
-    <link href="../../css/base.css" rel="stylesheet" />
-    <link href="../../css/shortcodes.css" rel="stylesheet" />
-    <link href="../../css/syntax-highlighting-monokai.css" rel="stylesheet" />
-    <link rel='shortcut icon' type='image/x-icon' href='../../static/favicon.ico' />
-    <script src="../../js/ie-sucks.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.3.0/fuse.min.js"></script>
-    <style>
-        :root {
-            --zui-shell-primary-theme: var(--zui-green);
-            --zui-shell-primary-theme-dark: var(--zui-green-600);
-            --zui-tabs-color: var(--zui-green);
-        }
-    </style>
-    <script>
-        document.addEventListener('DOMContentLoaded', () => {
-            const externalLinks = document.querySelectorAll('a[href^="http://"], a[href^="https://"]');
-            for (const l of externalLinks) {
-                if (l.href.indexOf("") < 0) {
-                    l.target = '_blank';
-                }
-            }
-        });
+<html data-html-server-rendered="true" lang="en" data-vue-tag="%7B%22lang%22:%7B%22ssr%22:%22en%22%7D%7D">
+  <head>
+    <title>Dev docs - Zywave User Interface</title><meta name="gridsome:hash" content="79262023794b34ee0496a10558670fb1970dba20"><meta data-vue-tag="ssr" charset="utf-8"><meta data-vue-tag="ssr" name="generator" content="Gridsome v0.7.13"><meta data-vue-tag="ssr" data-key="viewport" name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"><meta data-vue-tag="ssr" data-key="format-detection" name="format-detection" content="telephone=no"><link data-vue-tag="ssr" rel="stylesheet" href="https://unpkg.com/@zywave/zui-bundle@next/dist/css/zui-bundle.fouc.css"><link data-vue-tag="ssr" rel="stylesheet" href="https://unpkg.com/@zywave/zui-bundle@next/dist/css/zui-bundle.app.css"><link rel="preload" href="/assets/css/4.styles.4b6a7a4d.css" as="style"><link rel="preload" href="/assets/js/app.40fe5a75.js" as="script"><link rel="preload" href="/assets/js/page--src-templates-mark-down-vue.47bc5095.js" as="script"><link rel="preload" href="/assets/js/vue-remark--src-markdown-developers-installation-md.500ed01a.js" as="script"><link rel="prefetch" href="/assets/js/49.f57ff12f.js"><link rel="prefetch" href="/assets/js/page--node-modules-gridsome-app-pages-404-vue.f3523ce4.js"><link rel="prefetch" href="/assets/js/page--src-templates-custom-elements-json-vue.84064390.js"><link rel="prefetch" href="/assets/js/vue-remark--src-markdown-communications-index-md.3fbd35ce.js"><link rel="prefetch" href="/assets/js/vue-remark--src-markdown-communications-messages-md.07c31c87.js"><link rel="prefetch" href="/assets/js/vue-remark--src-markdown-communications-voice-tone-md.89141b1b.js"><link rel="prefetch" href="/assets/js/vue-remark--src-markdown-communications-writing-style-guide-md.7497cf4b.js"><link rel="prefetch" href="/assets/js/vue-remark--src-markdown-components-breadcrumbs-md.1623eb36.js"><link rel="prefetch" href="/assets/js/vue-remark--src-markdown-components-button-dropdowns-md.deffe659.js"><link rel="prefetch" href="/assets/js/vue-remark--src-markdown-components-buttons-md.ec368cf5.js"><link rel="prefetch" href="/assets/js/vue-remark--src-markdown-components-checkboxes-md.7bd3f313.js"><link rel="prefetch" href="/assets/js/vue-remark--src-markdown-components-dialogs-md.af2916e3.js"><link rel="prefetch" href="/assets/js/vue-remark--src-markdown-components-dropdown-multi-select-md.33ba776c.js"><link rel="prefetch" href="/assets/js/vue-remark--src-markdown-components-dropdown-select-md.d4b253b4.js"><link rel="prefetch" href="/assets/js/vue-remark--src-markdown-components-expanders-md.d4ec8286.js"><link rel="prefetch" href="/assets/js/vue-remark--src-markdown-components-file-selector-md.e76a87d9.js"><link rel="prefetch" href="/assets/js/vue-remark--src-markdown-components-index-md.f0532655.js"><link rel="prefetch" href="/assets/js/vue-remark--src-markdown-components-notifiers-md.210ee39e.js"><link rel="prefetch" href="/assets/js/vue-remark--src-markdown-components-radio-buttons-md.ae1cea47.js"><link rel="prefetch" href="/assets/js/vue-remark--src-markdown-components-tabs-md.568675e7.js"><link rel="prefetch" href="/assets/js/vue-remark--src-markdown-components-text-input-md.ab2ab2b8.js"><link rel="prefetch" href="/assets/js/vue-remark--src-markdown-components-toggles-md.ad57702a.js"><link rel="prefetch" href="/assets/js/vue-remark--src-markdown-components-tooltips-md.3c73318f.js"><link rel="prefetch" href="/assets/js/vue-remark--src-markdown-components-wells-md.092dea07.js"><link rel="prefetch" href="/assets/js/vue-remark--src-markdown-developers-contribution-md.e06a6453.js"><link rel="prefetch" href="/assets/js/vue-remark--src-markdown-developers-css-guide-md.07f8ed7f.js"><link rel="prefetch" href="/assets/js/vue-remark--src-markdown-developers-index-md.69ab8685.js"><link rel="prefetch" href="/assets/js/vue-remark--src-markdown-developers-tooling-md.c9c6190a.js"><link rel="prefetch" href="/assets/js/vue-remark--src-markdown-developers-toolkit-md.84bf3615.js"><link rel="prefetch" href="/assets/js/vue-remark--src-markdown-foundations-colors-md.30ceb5a9.js"><link rel="prefetch" href="/assets/js/vue-remark--src-markdown-foundations-content-area-md.1cf465f2.js"><link rel="prefetch" href="/assets/js/vue-remark--src-markdown-foundations-fonts-typography-md.0033473e.js"><link rel="prefetch" href="/assets/js/vue-remark--src-markdown-foundations-footer-md.7733c46f.js"><link rel="prefetch" href="/assets/js/vue-remark--src-markdown-foundations-icons-md.e295d5b3.js"><link rel="prefetch" href="/assets/js/vue-remark--src-markdown-foundations-illustrations-md.6edb72bf.js"><link rel="prefetch" href="/assets/js/vue-remark--src-markdown-foundations-index-md.4a6d2d13.js"><link rel="prefetch" href="/assets/js/vue-remark--src-markdown-foundations-product-branding-md.da165b41.js"><link rel="prefetch" href="/assets/js/vue-remark--src-markdown-foundations-shell-md.2859845e.js"><link rel="prefetch" href="/assets/js/vue-remark--src-markdown-foundations-sidenav-md.dc6ef3c4.js"><link rel="prefetch" href="/assets/js/vue-remark--src-markdown-foundations-topbar-md.94f775f8.js"><link rel="prefetch" href="/assets/js/vue-remark--src-markdown-index-md.a59c3a41.js"><link rel="prefetch" href="/assets/js/vue-remark--src-markdown-patterns-forms-md.5b2421ee.js"><link rel="prefetch" href="/assets/js/vue-remark--src-markdown-patterns-index-md.0d91738b.js"><link rel="prefetch" href="/assets/js/vue-remark--src-markdown-patterns-step-flow-md.84b87f4c.js"><link rel="prefetch" href="/assets/js/vue-remark--src-markdown-patterns-typeahead-md.ebc6c146.js"><link rel="prefetch" href="/assets/js/vue-remark--src-markdown-personas-index-md.87b1ceb6.js"><link rel="stylesheet" href="/assets/css/4.styles.4b6a7a4d.css"><script data-vue-tag="ssr" src="https://unpkg.com/@zywave/zui-bundle@next"></script><script data-vue-tag="ssr" src="/js/ie-sucks.js"></script><noscript data-vue-tag="ssr"><style>.g-image--loading{display:none;}</style></noscript>
+  </head>
+  <body >
+    <zui-shell app-name="Zywave User Interface" no-scroll-animation="" data-server-rendered="true" id="app" data-v-617a1e50 data-v-3d639dd6><zui-shell-topbar no-scroll-animation="" data-v-617a1e50><zui-logo slot="logo" data-v-617a1e50></zui-logo></zui-shell-topbar><!----><zui-shell-content id="content" data-v-617a1e50><ie-sucks data-v-617a1e50>No. Stop it. Use a real browser.</ie-sucks><section class="zui-layout zui-layout--slim" data-v-617a1e50 data-v-3d639dd6><div class="page-header" data-v-617a1e50 data-v-3d639dd6><h1 data-v-617a1e50 data-v-3d639dd6>Installation</h1><!----></div><div class="content-container" data-v-3d639dd6><p>There are two ways you can use ZUI 4 in your application: install the packages via Yarn or NPM; or slap our bad boy ZUI loader CDN script and stylesheets into your application.</p><div class="spacer" data-v-4e5b2274></div><h2>Install ZUI packages</h2><p>If you want an à la carte experience, you can install individual ZUI 4 component packages via Yarn or NPM.</p><p>Since most Zywave packages are private, include a <code>.yarnrc</code> or <code>.npmrc</code> file in your parent directory and point it to the registry:</p><pre class="language-shell"><code class="language-shell"><span class="token comment"># yarnrc</span>
+<span class="token string">&quot;@zywave:registry&quot;</span> <span class="token string">&quot;http://packages.zywave.com/npm/private-npm/&quot;</span>
 
-        
-        
-    </script>
-</head>
-<body>
-        <ie-sucks>
-            No. Stop it. Use a real browser.
-        </ie-sucks>
-        <zui-shell app-name="ZUI Documentation"><zui-shell-topbar>
-    <zui-logo slot="logo"></zui-logo>
-</zui-shell-topbar>
+<span class="token comment"># npmrc</span>
+@zywave:registry<span class="token operator">=</span>http://packages.zywave.com/npm/private-npm/</code></pre><div class="spacer small" data-v-4e5b2274></div><p>After that, you can now access all Zywave packages and install all the things, including ZUI:</p><pre class="language-shell"><code class="language-shell"><span class="token comment"># Yarn</span>
+<span class="token function">yarn</span> <span class="token function">add</span> @zywave/<span class="token punctuation">[</span>zui-package<span class="token punctuation">]</span>
 
+<span class="token comment"># NPM</span>
+<span class="token function">npm</span> <span class="token function">install</span> @zywave/<span class="token punctuation">[</span>zui-package<span class="token punctuation">]</span>
 
+<span class="token comment"># Tip: Include @next at the end of your ZUI page name to get the most recent pre-released version</span>
+<span class="token comment"># For example: yarn add @zywave/zui-shell@next</span></code></pre><zui-well type="info" static="">Don't forget to provide polyfills for our favorite browser Internet Explorer 11!</zui-well><div class="spacer small" data-v-4e5b2274></div><h3>Where do I find a list of released ZUI packages to install?</h3><ul><li>Search for <code>@zywave</code> at <a href="https://www.npmjs.com/search?q=%40zywave">npmjs.com</a></li><li>Check out our <a href="https://gitlab.zywave.com/zui/zui/tree/master/packages">monorepo</a> for all available packages</li></ul><hr><h2>ZUI loader CDN</h2><p>For a plug and chug experience, the ZUI loader is the perfect solution to quickly get started! Gain access to all of our components, most web components polyfills, and stylesheets without having to install a single package. This is a popular choice among developers when building a new application.</p><h3>Determine if your application requires stable third-party components</h3><ol><li>If yes, get the most recent <strong>stable</strong> version here: <a href="https://unpkg.com/@zywave/zui-bundle@latest/dist/">https://unpkg.com/@zywave/zui-bundle@latest/dist/</a></li><li>If no, get the most recent <strong>pre-released</strong> version here: <a href="https://unpkg.com/@zywave/zui-bundle@next/dist/">https://unpkg.com/@zywave/zui-bundle@next/dist/</a></li><li>There are three required files in order for the ZUI CDN to work properly in every application</li><li><code>zui-bundle.fouc.css</code> - required for a smooth transition while all the scripts on the page loads, especially for Internet Explorer 11</li><li><code>zui-bundle.app.css</code> - required for resetting styles for all base elements in your application</li><li><code>zui-loader.js</code> - required to load ALL ZUI components properly, including most polyfills for Internet Explorer 11</li></ol><h3>Place the script and stylesheets in your application</h3><pre class="language-html"><code class="language-html"><span class="token doctype">&lt;!doctype html&gt;</span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>html</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>head</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>title</span><span class="token punctuation">&gt;</span></span>Installation | Zywave User Interface<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>title</span><span class="token punctuation">&gt;</span></span>
 
-<zui-shell-nav>
-    <zui-shell-nav-item>
-        <zui-icon icon="zui-nav-home" slot="icon"></zui-icon>
-        <a href="../../" active>Home</a>
-    </zui-shell-nav-item>
-    
-    
-    <zui-shell-nav-item subnav>
-        <zui-icon icon="zui-nav-developers" slot="icon"></zui-icon>
-        
-            <span>Developers</span>
-            
-            
-            
-            
-            <a href="../../developers/contribution-guide/" >Contribution guide</a>
-            
-            <a href="../../developers/developing-zui/" >Developing ZUI</a>
-            
-            <a href="../../developers/installation/" active>Installation</a>
-            
-            <a href="../../developers/lit/" >Lit 🔥</a>
-            
-            <a href="../../developers/polyfills/" >Polyfills</a>
-            
-            <a href="../../developers/responsive-design/" >Responsive design</a>
-            
-            <a href="../../developers/tooling/" >Tooling</a>
-            
-            <a href="../../developers/webcomponents/" >Web components</a>
-            
-        
-    </zui-shell-nav-item>
-    
-    
-    <zui-shell-nav-item subnav>
-        <zui-icon icon="zui-nav-foundations" slot="icon"></zui-icon>
-        
-            <span>Foundations</span>
-            
-            
-                
-            
-            
-            
-            <a href="../../foundations/colors/" >Colors</a>
-            
-            <a href="../../foundations/content-area/" >Content area</a>
-            
-            <a href="../../foundations/fonts-typography/" >Fonts &amp; typography</a>
-            
-            <a href="../../foundations/footer/" >Footer</a>
-            
-            <a href="../../foundations/icons/" >Icons</a>
-            
-            <a href="../../foundations/illustrations/" >Illustrations</a>
-            
-            <a href="../../foundations/product-branding/" >Product branding</a>
-            
-            <a href="../../foundations/shell/" >Shell</a>
-            
-            <a href="../../foundations/sidenav/" >Sidenav</a>
-            
-            <a href="../../foundations/topbar/" >Topbar</a>
-            
-        
-    </zui-shell-nav-item>
-    
-    
-    <zui-shell-nav-item subnav>
-        <zui-icon icon="zui-nav-components" slot="icon"></zui-icon>
-        
-            <span>Components</span>
-            
-            
-                
-            
-            
-            
-            <a href="../../components/breadcrumbs/" >Breadcrumbs</a>
-            
-            <a href="../../components/buttons-dropdown/" >Button dropdowns</a>
-            
-            <a href="../../components/buttons/" >Buttons</a>
-            
-            <a href="../../components/checkboxes/" >Checkboxes</a>
-            
-            <a href="../../components/dialogs/" >Dialogs</a>
-            
-            <a href="../../components/dropdown-multi-select/" >Dropdown multi-select</a>
-            
-            <a href="../../components/dropdown-select/" >Dropdown select</a>
-            
-            <a href="../../components/expanders/" >Expanders</a>
-            
-            <a href="../../components/file-selector/" >File Selector</a>
-            
-            <a href="../../components/notifiers/" >Notifiers</a>
-            
-            <a href="../../components/radio-buttons/" >Radio buttons</a>
-            
-            <a href="../../components/tabs/" >Tabs</a>
-            
-            <a href="../../components/text-input/" >Text Input</a>
-            
-            <a href="../../components/toggles/" >Toggles</a>
-            
-            <a href="../../components/tooltips/" >Tooltips</a>
-            
-            <a href="../../components/wells/" >Well</a>
-            
-        
-    </zui-shell-nav-item>
-    
-    
-    <zui-shell-nav-item subnav>
-        <zui-icon icon="zui-nav-patterns" slot="icon"></zui-icon>
-        
-            <span>Patterns</span>
-            
-            
-                
-            
-            
-            
-            <a href="../../patterns/forms/" >Forms</a>
-            
-            <a href="../../patterns/step-flow/" >Step flow</a>
-            
-            <a href="../../patterns/typeahead/" >Typeahead</a>
-            
-        
-    </zui-shell-nav-item>
-    
-    
-    <zui-shell-nav-item subnav>
-        <zui-icon icon="zui-nav-help" slot="icon"></zui-icon>
-        
-            <span>Communications</span>
-            
-            
-                
-            
-            
-            
-            <a href="../../communications/messages/" >Messages</a>
-            
-            <a href="../../communications/voice-tone/" >Voice &amp; tone</a>
-            
-            <a href="../../communications/writing-style-guide/" >Writing style guide</a>
-            
-        
-    </zui-shell-nav-item>
-    
-    
-    <zui-shell-nav-item >
-        <zui-icon icon="zui-nav-accounts" slot="icon"></zui-icon>
-        
-            <a href="../../personas/" >Personas</a>
-        
-    </zui-shell-nav-item>
-    
-    <script>
-        
-        const activeLinks = document.querySelectorAll('zui-shell-nav-item a[active]');
-            for (let activeLink of activeLinks) {
-                activeLink.closest('zui-shell-nav-item').expanded = true;
-            }
-    </script>
-</zui-shell-nav>
-<zui-shell-content id="content">
-                <section class="zui-layout zui-layout--slim">
-                    <div class="page-heading">
-                        <h1>Installation</h1>
-                        
-                    </div>
-                    <div class="content-container">
-                        
+    <span class="token comment">&lt;!-- These two stylesheets should always be listed before all other application styles --&gt;</span>
+    <span class="token comment">&lt;!-- Make sure `zui-bundle.fouc.css` is always listed first to counter FOUC --&gt;</span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>link</span> <span class="token attr-name">rel</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>stylesheet<span class="token punctuation">&quot;</span></span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>https://unpkg.com/@zywave/zui-bundle@4.0.4/dist/css/zui-bundle.fouc.css<span class="token punctuation">&quot;</span></span> <span class="token punctuation">/&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>link</span> <span class="token attr-name">rel</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>stylesheet<span class="token punctuation">&quot;</span></span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>https://unpkg.com/@zywave/zui-bundle@4.0.4/dist/css/zui-bundle.app.css<span class="token punctuation">&quot;</span></span> <span class="token punctuation">/&gt;</span></span>
 
-<p>There are two ways you can use ZUI 4 in your application: install the packages via Yarn or NPM; or slap our bad boy ZUI loader CDN script and stylesheets into your application.</p>
-
-<div class="spacer "></div>
-
-<h2 id="install-zui-packages">Install ZUI packages</h2>
-
-<p>If you want an à la carte experience, you can install individual ZUI 4 component packages via Yarn or NPM.</p>
-
-<p>Since most Zywave packages are private, include a <code>.yarnrc</code> or <code>.npmrc</code> file in your parent directory and point it to the registry:</p>
-<div class="highlight"><pre class="chroma"><code class="language-shell" data-lang="shell"><span class="c1"># yarnrc</span>
-<span class="s2">&#34;@zywave:registry&#34;</span> <span class="s2">&#34;http://packages.zywave.com/npm/private-npm/&#34;</span>
-
-<span class="c1"># npmrc</span>
-@zywave:registry<span class="o">=</span>http://packages.zywave.com/npm/private-npm/</code></pre></div>
-<div class="spacer small"></div>
-
-<p>After that, you can now access all Zywave packages and install all the things, including ZUI:</p>
-<div class="highlight"><pre class="chroma"><code class="language-shell" data-lang="shell"><span class="c1"># Yarn</span>
-yarn add @zywave/<span class="o">[</span>zui-package<span class="o">]</span>
-
-<span class="c1"># NPM</span>
-npm install @zywave/<span class="o">[</span>zui-package<span class="o">]</span>
-
-<span class="c1"># Tip: Include @next at the end of your ZUI page name to get the most recent pre-released version</span>
-<span class="c1"># For example: yarn add @zywave/zui-shell@next</span></code></pre></div>
-<p><zui-well type="info" static>Don&rsquo;t forget to provide polyfills for our favorite browser Internet Explorer 11!</zui-well></p>
-
-<div class="spacer small"></div>
-
-<h3 id="where-do-i-find-a-list-of-released-zui-packages-to-install">Where do I find a list of released ZUI packages to install?</h3>
-
-<ul>
-<li>Search for <code>@zywave</code> at <a href="https://www.npmjs.com/search?q=%40zywave">npmjs.com</a></li>
-<li>Check out our <a href="https://gitlab.zywave.com/zui/zui/tree/master/packages">monorepo</a> for all available packages</li>
-</ul>
-
-<hr />
-
-<h2 id="zui-loader-cdn">ZUI loader CDN</h2>
-
-<p>For a plug and chug experience, the ZUI loader is the perfect solution to quickly get started! Gain access to all of our components, most web components polyfills, and stylesheets without having to install a single package. This is a popular choice among developers when building a new application.</p>
-
-<h3 id="determine-if-your-application-requires-stable-third-party-components">Determine if your application requires stable third-party components</h3>
-
-<ol>
-<li>If yes, get the most recent <strong>stable</strong> version here: <a href="https://unpkg.com/@zywave/zui-bundle@latest/dist/">https://unpkg.com/@zywave/zui-bundle@latest/dist/</a></li>
-<li>If no, get the most recent <strong>pre-released</strong> version here: <a href="https://unpkg.com/@zywave/zui-bundle@next/dist/">https://unpkg.com/@zywave/zui-bundle@next/dist/</a></li>
-<li>There are three required files in order for the ZUI CDN to work properly in every application</li>
-<li><code>zui-bundle.fouc.css</code> - required for a smooth transition while all the scripts on the page loads, especially for Internet Explorer 11</li>
-<li><code>zui-bundle.app.css</code> - required for resetting styles for all base elements in your application</li>
-<li><code>zui-loader.js</code> - required to load ALL ZUI components properly, including most polyfills for Internet Explorer 11</li>
-</ol>
-
-<h3 id="place-the-script-and-stylesheets-in-your-application">Place the script and stylesheets in your application</h3>
-<div class="highlight"><pre class="chroma"><code class="language-html" data-lang="html"><span class="cp">&lt;!doctype html&gt;</span>
-<span class="p">&lt;</span><span class="nt">html</span><span class="p">&gt;</span>
-  <span class="p">&lt;</span><span class="nt">head</span><span class="p">&gt;</span>
-    <span class="p">&lt;</span><span class="nt">title</span><span class="p">&gt;</span>Installation | Zywave User Interface<span class="p">&lt;/</span><span class="nt">title</span><span class="p">&gt;</span>
-
-    <span class="c">&lt;!-- These two stylesheets should always be listed before all other application styles --&gt;</span>
-    <span class="c">&lt;!-- Make sure `zui-bundle.fouc.css` is always listed first to counter FOUC --&gt;</span>
-    <span class="p">&lt;</span><span class="nt">link</span> <span class="na">rel</span><span class="o">=</span><span class="s">&#34;stylesheet&#34;</span> <span class="na">href</span><span class="o">=</span><span class="s">&#34;https://unpkg.com/@zywave/zui-bundle@4.0.4/dist/css/zui-bundle.fouc.css&#34;</span> <span class="p">/&gt;</span>
-    <span class="p">&lt;</span><span class="nt">link</span> <span class="na">rel</span><span class="o">=</span><span class="s">&#34;stylesheet&#34;</span> <span class="na">href</span><span class="o">=</span><span class="s">&#34;https://unpkg.com/@zywave/zui-bundle@4.0.4/dist/css/zui-bundle.app.css&#34;</span> <span class="p">/&gt;</span>
-
-    <span class="p">&lt;</span><span class="nt">script</span> <span class="na">type</span><span class="o">=</span><span class="s">&#34;text/javascript&#34;</span> <span class="na">src</span><span class="o">=</span><span class="s">&#34;https://unpkg.com/@zywave/zui-bundle@4.0.4/dist/zui-loader.js&#34;</span><span class="p">&gt;&lt;/</span><span class="nt">script</span><span class="p">&gt;</span>
-  <span class="p">&lt;/</span><span class="nt">head</span><span class="p">&gt;</span>
-  <span class="p">&lt;</span><span class="nt">body</span><span class="p">&gt;</span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>text/javascript<span class="token punctuation">&quot;</span></span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>https://unpkg.com/@zywave/zui-bundle@4.0.4/dist/zui-loader.js<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span><span class="token script"></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>head</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>body</span><span class="token punctuation">&gt;</span></span>
     Sometimes, the ZUI CDN loads faster than the elements in existing/legacy applications which causes rendering issues.
     This is also true for dumb Internet Explorer 11.
 
-    If this is the case for you, instead of placing `zui-loader.js` in the <span class="p">&lt;</span><span class="nt">head</span><span class="p">&gt;</span>, place it at the bottom of your page.
+    If this is the case for you, instead of placing `zui-loader.js` in the <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>head</span><span class="token punctuation">&gt;</span></span>, place it at the bottom of your page.
 
-    <span class="c">&lt;!-- If I load too fast for the application, allow me to take a chill pill down here --&gt;</span>
-    <span class="p">&lt;</span><span class="nt">script</span> <span class="na">type</span><span class="o">=</span><span class="s">&#34;text/javascript&#34;</span> <span class="na">src</span><span class="o">=</span><span class="s">&#34;https://unpkg.com/@zywave/zui-bundle@4.0.4/dist/zui-loader.js&#34;</span><span class="p">&gt;&lt;/</span><span class="nt">script</span><span class="p">&gt;</span>
-  <span class="p">&lt;</span><span class="nt">body</span><span class="p">&gt;</span>
-<span class="p">&lt;/</span><span class="nt">html</span><span class="p">&gt;</span></code></pre></div>
-<p>Note: as of writing this documentation, version 4.0.4 was the most recent stable version.</p>
-
-<div class="spacer small"></div>
-
-<h3 id="can-i-use-distribution-tags-such-as-next-for-my-zui-loader-script">Can I use distribution tags such as <code>@next</code> for my ZUI loader script?</h3>
-
-<p>We <strong>do not</strong> recommend this method since we cannot guarantee the stability of our releases in combination with your application. While it may be more convenient to use a tag, we highly recommend you to lock down your version of ZUI, especially for production environments.</p>
-
-                    </div>
-                </section>
-            </zui-shell-content><zui-shell-footer>
-    <div>
-        &copy; 1995 - 2020 Zywave, Inc. All rights reserved.
-    </div>
-    <a class="zui-link" target="_blank" href="http://www.zywave.com/terms-conditions/">Terms and Conditions</a>
-    <a class="zui-link" target="_blank" href="http://www.zywave.com/privacy-statement/">Privacy Statement</a>
-    <a class="zui-link" target="_blank" href="http://www.zywave.com/dmca-notice/">DMCA</a></div>
-    <a class="zui-link" target="_blank" href="http://www.zywave.com/cookie-usage/">Cookie Usage</a>
-    <a class="zui-link" href="mailto:support@zywave.com">Contact</a>
-</zui-shell-footer>
-<script src="https://unpkg.com/@zywave/zui-bundle@next/dist/zui-loader.js"></script>
-</zui-shell>
-    </body>
+    <span class="token comment">&lt;!-- If I load too fast for the application, allow me to take a chill pill down here --&gt;</span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>text/javascript<span class="token punctuation">&quot;</span></span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>https://unpkg.com/@zywave/zui-bundle@4.0.4/dist/zui-loader.js<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span><span class="token script"></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>body</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>html</span><span class="token punctuation">&gt;</span></span></code></pre><p>Note: as of writing this documentation, version 4.0.4 was the most recent stable version.</p><div class="spacer small" data-v-4e5b2274></div><h3>Can I use distribution tags such as <code>@next</code> for my ZUI loader script?</h3><p>We <strong>do not</strong> recommend this method since we cannot guarantee the stability of our releases in combination with your application. While it may be more convenient to use a tag, we highly recommend you to lock down your version of ZUI, especially for production environments.</p></div></section></zui-shell-content><zui-shell-footer data-v-617a1e50><div data-v-617a1e50>
+      © 1995 - 2020 Zywave, Inc. All rights reserved.
+    </div><a target="_blank" href="http://www.zywave.com/terms-conditions/" class="zui-link" data-v-617a1e50>Terms and Conditions</a><a target="_blank" href="http://www.zywave.com/privacy-statement/" class="zui-link" data-v-617a1e50>Privacy Statement</a><a target="_blank" href="http://www.zywave.com/dmca-notice/" class="zui-link" data-v-617a1e50>DMCA</a><a target="_blank" href="http://www.zywave.com/cookie-usage/" class="zui-link" data-v-617a1e50>Cookie Usage</a><a href="mailto:support@zywave.com" class="zui-link" data-v-617a1e50>Contact</a></zui-shell-footer></zui-shell>
+    <script>window.__INITIAL_STATE__={"data":{"markDown":{"id":"5fe1bd157ffb78aee31e53530ec80e48","title":"Installation","hideTitle":null,"subtitle":"","content":"\r\nThere are two ways you can use ZUI 4 in your application: install the packages via Yarn or NPM; or slap our bad boy ZUI loader CDN script and stylesheets into your application.\r\n\r\n\u003CSpacer\u002F\u003E\r\n\r\n## Install ZUI packages\r\n\r\nIf you want an à la carte experience, you can install individual ZUI 4 component packages via Yarn or NPM.\r\n\r\nSince most Zywave packages are private, include a `.yarnrc` or `.npmrc` file in your parent directory and point it to the registry:\r\n\r\n```shell\r\n# yarnrc\r\n\"@zywave:registry\" \"http:\u002F\u002Fpackages.zywave.com\u002Fnpm\u002Fprivate-npm\u002F\"\r\n\r\n# npmrc\r\n@zywave:registry=http:\u002F\u002Fpackages.zywave.com\u002Fnpm\u002Fprivate-npm\u002F\r\n```\r\n\r\n\u003CSpacer size=\"small\"\u002F\u003E\r\n\r\nAfter that, you can now access all Zywave packages and install all the things, including ZUI:\r\n\r\n```shell\r\n# Yarn\r\nyarn add @zywave\u002F[zui-package]\r\n\r\n# NPM\r\nnpm install @zywave\u002F[zui-package]\r\n\r\n# Tip: Include @next at the end of your ZUI page name to get the most recent pre-released version\r\n# For example: yarn add @zywave\u002Fzui-shell@next\r\n```\r\n\r\n\u003Czui-well type=\"info\" static\u003EDon't forget to provide polyfills for our favorite browser Internet Explorer 11!\u003C\u002Fzui-well\u003E\r\n\r\n\u003CSpacer size=\"small\"\u002F\u003E\r\n\r\n### Where do I find a list of released ZUI packages to install?\r\n\r\n- Search for `@zywave` at [npmjs.com](https:\u002F\u002Fwww.npmjs.com\u002Fsearch?q=%40zywave)\r\n- Check out our [monorepo](https:\u002F\u002Fgitlab.zywave.com\u002Fzui\u002Fzui\u002Ftree\u002Fmaster\u002Fpackages) for all available packages\r\n\r\n---\r\n\r\n## ZUI loader CDN\r\n\r\nFor a plug and chug experience, the ZUI loader is the perfect solution to quickly get started! Gain access to all of our components, most web components polyfills, and stylesheets without having to install a single package. This is a popular choice among developers when building a new application.\r\n\r\n### Determine if your application requires stable third-party components\r\n\r\n1. If yes, get the most recent **stable** version here: [https:\u002F\u002Funpkg.com\u002F@zywave\u002Fzui-bundle@latest\u002Fdist\u002F](https:\u002F\u002Funpkg.com\u002F@zywave\u002Fzui-bundle@latest\u002Fdist\u002F)\r\n1. If no, get the most recent **pre-released** version here: [https:\u002F\u002Funpkg.com\u002F@zywave\u002Fzui-bundle@next\u002Fdist\u002F](https:\u002F\u002Funpkg.com\u002F@zywave\u002Fzui-bundle@next\u002Fdist\u002F)\r\n1. There are three required files in order for the ZUI CDN to work properly in every application\r\n1. `zui-bundle.fouc.css` - required for a smooth transition while all the scripts on the page loads, especially for Internet Explorer 11\r\n1. `zui-bundle.app.css` - required for resetting styles for all base elements in your application\r\n1. `zui-loader.js` - required to load ALL ZUI components properly, including most polyfills for Internet Explorer 11\r\n\r\n### Place the script and stylesheets in your application\r\n\r\n```html\r\n\u003C!doctype html\u003E\r\n\u003Chtml\u003E\r\n  \u003Chead\u003E\r\n    \u003Ctitle\u003EInstallation | Zywave User Interface\u003C\u002Ftitle\u003E\r\n\r\n    \u003C!-- These two stylesheets should always be listed before all other application styles --\u003E\r\n    \u003C!-- Make sure `zui-bundle.fouc.css` is always listed first to counter FOUC --\u003E\r\n    \u003Clink rel=\"stylesheet\" href=\"https:\u002F\u002Funpkg.com\u002F@zywave\u002Fzui-bundle@4.0.4\u002Fdist\u002Fcss\u002Fzui-bundle.fouc.css\" \u002F\u003E\r\n    \u003Clink rel=\"stylesheet\" href=\"https:\u002F\u002Funpkg.com\u002F@zywave\u002Fzui-bundle@4.0.4\u002Fdist\u002Fcss\u002Fzui-bundle.app.css\" \u002F\u003E\r\n\r\n    \u003Cscript type=\"text\u002Fjavascript\" src=\"https:\u002F\u002Funpkg.com\u002F@zywave\u002Fzui-bundle@4.0.4\u002Fdist\u002Fzui-loader.js\"\u003E\u003C\u002Fscript\u003E\r\n  \u003C\u002Fhead\u003E\r\n  \u003Cbody\u003E\r\n    Sometimes, the ZUI CDN loads faster than the elements in existing\u002Flegacy applications which causes rendering issues.\r\n    This is also true for dumb Internet Explorer 11.\r\n\r\n    If this is the case for you, instead of placing `zui-loader.js` in the \u003Chead\u003E, place it at the bottom of your page.\r\n\r\n    \u003C!-- If I load too fast for the application, allow me to take a chill pill down here --\u003E\r\n    \u003Cscript type=\"text\u002Fjavascript\" src=\"https:\u002F\u002Funpkg.com\u002F@zywave\u002Fzui-bundle@4.0.4\u002Fdist\u002Fzui-loader.js\"\u003E\u003C\u002Fscript\u003E\r\n  \u003Cbody\u003E\r\n\u003C\u002Fhtml\u003E\r\n```\r\n\r\nNote: as of writing this documentation, version 4.0.4 was the most recent stable version.\r\n\r\n\u003CSpacer size=\"small\"\u002F\u003E\r\n\r\n### Can I use distribution tags such as `@next` for my ZUI loader script?\r\n\r\nWe **do not** recommend this method since we cannot guarantee the stability of our releases in combination with your application. While it may be more convenient to use a tag, we highly recommend you to lock down your version of ZUI, especially for production environments.\r\n","component":"","subComponent":"","zuiLayoutLargerWidth":null}},"context":{}};(function(){var s;(s=document.currentScript||document.scripts[document.scripts.length-1]).parentNode.removeChild(s);}());</script><script src="/assets/js/app.40fe5a75.js" defer></script><script src="/assets/js/page--src-templates-mark-down-vue.47bc5095.js" defer></script><script src="/assets/js/vue-remark--src-markdown-developers-installation-md.500ed01a.js" defer></script>
+  </body>
 </html>

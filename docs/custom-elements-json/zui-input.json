@@ -1,0 +1,70 @@
+{
+  "version": "experimental",
+  "tags": [
+    {
+      "name": "zui-input",
+      "path": "./..\\src\\zui-input.js",
+      "attributes": [
+        {
+          "name": "value",
+          "type": "string"
+        },
+        {
+          "name": "placeholder"
+        },
+        {
+          "name": "required",
+          "type": "boolean",
+          "default": "false"
+        },
+        {
+          "name": "maxlength",
+          "type": "number",
+          "default": "524288"
+        },
+        {
+          "name": "type",
+          "type": "string",
+          "default": "\"text\""
+        }
+      ],
+      "properties": [
+        {
+          "name": "value",
+          "attribute": "value",
+          "type": "string"
+        },
+        {
+          "name": "placeholder",
+          "attribute": "placeholder"
+        },
+        {
+          "name": "required",
+          "attribute": "required",
+          "type": "boolean",
+          "default": "false"
+        },
+        {
+          "name": "maxlength",
+          "attribute": "maxlength",
+          "type": "number",
+          "default": "524288"
+        },
+        {
+          "name": "type",
+          "attribute": "type",
+          "type": "string",
+          "default": "\"text\""
+        }
+      ],
+      "events": [
+        {
+          "name": "input"
+        },
+        {
+          "name": "change"
+        }
+      ]
+    }
+  ]
+}

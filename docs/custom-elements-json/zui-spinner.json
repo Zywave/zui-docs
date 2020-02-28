@@ -1,0 +1,100 @@
+{
+  "version": "experimental",
+  "tags": [
+    {
+      "name": "zui-spinner",
+      "path": "./..\\src\\zui-spinner.js",
+      "description": "Lightweight spinner graphic.",
+      "attributes": [
+        {
+          "name": "active",
+          "description": "Set to true to show spinner",
+          "type": "Boolean",
+          "default": "false"
+        },
+        {
+          "name": "alt",
+          "description": "Alt text for better accessibility during loading",
+          "type": "String",
+          "default": "\"active\""
+        }
+      ],
+      "properties": [
+        {
+          "name": "active",
+          "attribute": "active",
+          "description": "Set to true to show spinner",
+          "type": "Boolean",
+          "default": "false"
+        },
+        {
+          "name": "alt",
+          "attribute": "alt",
+          "description": "Alt text for better accessibility during loading",
+          "type": "String",
+          "default": "\"active\""
+        },
+        {
+          "name": "rootPath",
+          "type": "string"
+        },
+        {
+          "name": "importPath",
+          "type": "string"
+        },
+        {
+          "name": "root",
+          "type": "StampedTemplate | HTMLElement | ShadowRoot | null"
+        },
+        {
+          "name": "$",
+          "type": "{ [key: string]: Element; }"
+        },
+        {
+          "name": "PROPERTY_EFFECT_TYPES"
+        }
+      ]
+    },
+    {
+      "name": "zui-spinner-overlay",
+      "path": "./..\\src\\zui-spinner-overlay.js",
+      "description": "Use when a colored overlay with a spinner graphic is needed.",
+      "attributes": [
+        {
+          "name": "active",
+          "description": "Set to true to show spinner",
+          "type": "Boolean",
+          "default": "false"
+        }
+      ],
+      "properties": [
+        {
+          "name": "active",
+          "attribute": "active",
+          "description": "Set to true to show spinner",
+          "type": "Boolean",
+          "default": "false"
+        },
+        {
+          "name": "rootPath",
+          "type": "string"
+        },
+        {
+          "name": "importPath",
+          "type": "string"
+        },
+        {
+          "name": "root",
+          "type": "StampedTemplate | HTMLElement | ShadowRoot | null"
+        },
+        {
+          "name": "$",
+          "type": "{ [key: string]: Element; }"
+        },
+        {
+          "name": "PROPERTY_EFFECT_TYPES"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "version": "experimental",
+  "tags": [
+    {
+      "name": "zui-well",
+      "path": "./..\\src\\zui-well.js",
+      "description": "Use <code>zui-well</code>'s to attract users attention to a message. There are various types of well's depending on messaging needs. `<zui-well>` by default is delayed in appearing and then animates in, consumers can specify whether they want it static or default to animated.",
+      "attributes": [
+        {
+          "name": "type",
+          "description": "The type of well you want to display. Defaults to 'info'.\r\nThe types of zui-well include: 'info', 'warning', 'error', 'success'",
+          "type": "string",
+          "default": "\"info\""
+        },
+        {
+          "name": "no-icon",
+          "description": "Whether or not you want to display an icon in your well",
+          "type": "boolean",
+          "default": "false"
+        },
+        {
+          "name": "dismissible",
+          "description": "Whether or not you want your well to be dismissible",
+          "type": "boolean",
+          "default": "false"
+        },
+        {
+          "name": "banner",
+          "description": "Whether or not you want your well to span the entire width of its parent container",
+          "type": "boolean",
+          "default": "false"
+        },
+        {
+          "name": "no-animation",
+          "description": "DEPRECATED, will be removed in a future release; use \"static\" instead",
+          "type": "boolean",
+          "default": "false"
+        },
+        {
+          "name": "static",
+          "description": "If set, the well will not slide down and will instead just remain static on the page",
+          "type": "boolean",
+          "default": "false"
+        }
+      ],
+      "properties": [
+        {
+          "name": "type",
+          "attribute": "type",
+          "description": "The type of well you want to display. Defaults to 'info'.\r\nThe types of zui-well include: 'info', 'warning', 'error', 'success'",
+          "type": "string",
+          "default": "\"info\""
+        },
+        {
+          "name": "noIcon",
+          "attribute": "no-icon",
+          "description": "Whether or not you want to display an icon in your well",
+          "type": "boolean",
+          "default": "false"
+        },
+        {
+          "name": "dismissible",
+          "attribute": "dismissible",
+          "description": "Whether or not you want your well to be dismissible",
+          "type": "boolean",
+          "default": "false"
+        },
+        {
+          "name": "banner",
+          "attribute": "banner",
+          "description": "Whether or not you want your well to span the entire width of its parent container",
+          "type": "boolean",
+          "default": "false"
+        },
+        {
+          "name": "noAnimation",
+          "attribute": "no-animation",
+          "description": "DEPRECATED, will be removed in a future release; use \"static\" instead",
+          "type": "boolean",
+          "default": "false"
+        },
+        {
+          "name": "static",
+          "attribute": "static",
+          "description": "If set, the well will not slide down and will instead just remain static on the page",
+          "type": "boolean",
+          "default": "false"
+        }
+      ],
+      "events": [
+        {
+          "name": "dismiss"
+        }
+      ],
+      "slots": [
+        {
+          "name": "",
+          "description": "Unnamed slot, pass body text into"
+        },
+        {
+          "name": "action",
+          "description": "Slot in actionable button to dismiss the well i.e. `<button slot=\"action\">Got it</button>`"
+        }
+      ],
+      "cssProperties": [
+        {
+          "name": "--zui-well-animation-margin",
+          "description": "Determine the margin size that animates in",
+          "default": "\"20px 0\""
+        }
+      ]
+    }
+  ]
+}

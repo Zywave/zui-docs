@@ -1,0 +1,879 @@
+{
+  "version": "experimental",
+  "tags": [
+    {
+      "name": "zui-shell",
+      "path": "./..\\src\\zui-shell.js",
+      "description": "The Shell wraps around all of our applications and provides suite level consistencies, branding, and common functionality. This element, in particular, wraps all `<zui-shell>` custom sub-elements.",
+      "attributes": [
+        {
+          "name": "app-name",
+          "description": "(Optional) The user-friendly name for this application; only applicable to anchor solutions and Client Cloud",
+          "type": "string",
+          "default": "\"\""
+        }
+      ],
+      "properties": [
+        {
+          "name": "appName",
+          "attribute": "app-name",
+          "description": "(Optional) The user-friendly name for this application; only applicable to anchor solutions and Client Cloud",
+          "type": "string",
+          "default": "\"\""
+        }
+      ],
+      "slots": [
+        {
+          "name": "",
+          "description": "Default slot; all elements without a declared slot will be assigned to this slot. Recommended for slotting in `<zui-shell-topbar>`, `<zui-shell-nav>`, `<zui-shell-content>`, and `<zui-shell-footer>` only"
+        }
+      ],
+      "cssProperties": [
+        {
+          "name": "--zui-background",
+          "description": "Background color of your application `<body>`",
+          "default": "\"var(--zui-gray-50)\""
+        },
+        {
+          "name": "--zui-shell-background",
+          "description": "Background color of `<zui-shell>` and `<zui-shell-content>`",
+          "default": "\"var(--zui-background)\""
+        }
+      ]
+    },
+    {
+      "name": "zui-shell-topbar",
+      "path": "./..\\src\\zui-shell-topbar.js",
+      "description": "There are two parts to the topbar: global and app. The top white bar is our global topbar, which has Zywave branding and includes global functionality. The bottom colored bar is our app bar (aka branding bar), which is tailored to the application or Cloud the user is viewing. Sometimes it is branded with the product name if not part of a Cloud. Global search, user information `<zui-shell-user>`, and the apps launchpad `<zui-shell-apps>` are all housed in this element.",
+      "attributes": [
+        {
+          "name": "no-appbar",
+          "description": "(Optional) To hide the app bar and only show the global topbar; mainly for anchor solutions and Client Cloud",
+          "type": "boolean",
+          "default": "false"
+        },
+        {
+          "name": "no-scroll-animation",
+          "description": "(Optional) To opt out of the topbar's off-screen scrolling animation.\r\nInternet Explorer 11 does not include this animation",
+          "type": "boolean",
+          "default": "false"
+        },
+        {
+          "name": "search-open",
+          "description": "Indicates whether global search is available and open on mobile",
+          "type": "boolean",
+          "default": "false"
+        }
+      ],
+      "properties": [
+        {
+          "name": "noAppBar",
+          "attribute": "no-appbar",
+          "description": "(Optional) To hide the app bar and only show the global topbar; mainly for anchor solutions and Client Cloud",
+          "type": "boolean",
+          "default": "false"
+        },
+        {
+          "name": "noScrollAnimation",
+          "attribute": "no-scroll-animation",
+          "description": "(Optional) To opt out of the topbar's off-screen scrolling animation.\r\nInternet Explorer 11 does not include this animation",
+          "type": "boolean",
+          "default": "false"
+        },
+        {
+          "name": "searchOpen",
+          "attribute": "search-open",
+          "description": "Indicates whether global search is available and open on mobile",
+          "type": "boolean",
+          "default": "false"
+        }
+      ],
+      "slots": [
+        {
+          "name": "",
+          "description": "Default slot; not recommended for use in `<zui-shell-topbar>`. Please use one of the assigned slots for all purposes!"
+        },
+        {
+          "name": "apps",
+          "description": "For slotting in the `<zui-shell-apps>` element; should not be used with the `logo` slot"
+        },
+        {
+          "name": "logo",
+          "description": "For slotting in a logo if not slotting in `<zui-shell-apps>`; should not be used with the `apps` slot because it has its own way to handle logos"
+        },
+        {
+          "name": "search",
+          "description": "For slotting in a search component such as `<zui-search>`"
+        },
+        {
+          "name": "user",
+          "description": "For slotting in `<zui-shell-user>`"
+        }
+      ],
+      "cssProperties": [
+        {
+          "name": "--zui-shell-topbar-app-opacity",
+          "description": "App bar opacity for controlling the visiblity of the current application's name when set for anchor solutions; only applicable to anchor solutions and Client Cloud",
+          "default": "\"0\""
+        },
+        {
+          "name": "--zui-shell-topbar-app-height",
+          "description": "Height of the `<zui-shell-topbar>` app bar (colored bar) for anchor solutions; only applicable to anchor solutions and Client Cloud"
+        },
+        {
+          "name": "--zui-shell-topbar-app-height-collapsed",
+          "description": "Collapsed height of the `<zui-shell-topbar>` app bar (colored bar) for anchor solutions when topbar scrolling animation is enabled; only applicable to anchor solutions and Client Cloud",
+          "default": "\"5px\""
+        },
+        {
+          "name": "--zui-shell-topbar-global-color",
+          "description": "Background color of the `<zui-shell-topbar>` global topbar",
+          "default": "\"#fff\""
+        },
+        {
+          "name": "--zui-shell-topbar-global-height",
+          "description": "Height of the `<zui-shell-topbar>` global topbar"
+        }
+      ]
+    },
+    {
+      "name": "zui-shell-apps",
+      "path": "./..\\src\\zui-shell-apps.js",
+      "description": "`<zui-shell-apps>` is our apps launchpad and is a global topbar feature. This is the primary method for jumping from one anchor solution to another. Consumers should set this up to only list products the user has access to. When adding this element, be sure to set its assigned slot to `apps` so it appears in the proper place in `<zui-shell-topbar>`.",
+      "attributes": [
+        {
+          "name": "app-header",
+          "description": "Heading for the apps dropdown",
+          "type": "string",
+          "default": "\"Apps\""
+        },
+        {
+          "name": "all-apps-url",
+          "description": "(Optional) Link to view all apps in a separate location.\r\nSet this property if you want the \"See all\" links\r\nto appear at the bottom of your apps list.",
+          "type": "string",
+          "default": "\"\""
+        },
+        {
+          "name": "all-apps-text",
+          "description": "(Optional) Text for the link to view all apps in a separate location.\r\nWill not show up if `all-apps-url` is not set.",
+          "type": "string",
+          "default": "\"See all\""
+        },
+        {
+          "name": "open",
+          "description": "Set to true when the dropdown list of anchor solutions is visible",
+          "type": "boolean",
+          "default": "false"
+        }
+      ],
+      "properties": [
+        {
+          "name": "appHeader",
+          "attribute": "app-header",
+          "description": "Heading for the apps dropdown",
+          "type": "string",
+          "default": "\"Apps\""
+        },
+        {
+          "name": "allAppsUrl",
+          "attribute": "all-apps-url",
+          "description": "(Optional) Link to view all apps in a separate location.\r\nSet this property if you want the \"See all\" links\r\nto appear at the bottom of your apps list.",
+          "type": "string",
+          "default": "\"\""
+        },
+        {
+          "name": "allAppsText",
+          "attribute": "all-apps-text",
+          "description": "(Optional) Text for the link to view all apps in a separate location.\r\nWill not show up if `all-apps-url` is not set.",
+          "type": "string",
+          "default": "\"See all\""
+        },
+        {
+          "name": "open",
+          "attribute": "open",
+          "description": "Set to true when the dropdown list of anchor solutions is visible",
+          "type": "boolean",
+          "default": "false"
+        }
+      ],
+      "slots": [
+        {
+          "name": "",
+          "description": "Default slot; list of all anchor solutions will be placed in here"
+        },
+        {
+          "name": "logo",
+          "description": "Assign logo elements or the default Zywave logo `<zui-logo>` to this slot for proper brand placement"
+        }
+      ]
+    },
+    {
+      "name": "zui-shell-apps-item",
+      "path": "./..\\src\\zui-shell-apps-item.js",
+      "description": "Child element of `<zui-shell-apps>` that renders into a link for each product the user has access to.",
+      "attributes": [
+        {
+          "name": "name",
+          "description": "Name of the application",
+          "type": "string",
+          "default": "\"\""
+        },
+        {
+          "name": "description",
+          "description": "(Optional) Description of the application",
+          "type": "string",
+          "default": "\"\""
+        },
+        {
+          "name": "url",
+          "description": "URL to the application",
+          "type": "string",
+          "default": "\"\""
+        },
+        {
+          "name": "target",
+          "description": "(Optional) Specify where to open the link; default opens in a new tab",
+          "type": "string",
+          "default": "\"_blank\""
+        }
+      ],
+      "properties": [
+        {
+          "name": "name",
+          "attribute": "name",
+          "description": "Name of the application",
+          "type": "string",
+          "default": "\"\""
+        },
+        {
+          "name": "description",
+          "attribute": "description",
+          "description": "(Optional) Description of the application",
+          "type": "string",
+          "default": "\"\""
+        },
+        {
+          "name": "url",
+          "attribute": "url",
+          "description": "URL to the application",
+          "type": "string",
+          "default": "\"\""
+        },
+        {
+          "name": "target",
+          "attribute": "target",
+          "description": "(Optional) Specify where to open the link; default opens in a new tab",
+          "type": "string",
+          "default": "\"_blank\""
+        }
+      ]
+    },
+    {
+      "name": "zui-shell-nav",
+      "path": "./..\\src\\zui-shell-nav.js",
+      "description": "The Shell collapsible side nav that houses the application's primary navigation. On medium screen sizes, the side nav automatically collapses to give users more screen real estate. Users can choose to expand it if they prefer.",
+      "attributes": [
+        {
+          "name": "open",
+          "description": "Indicates whether the side nav is open or not on mobile",
+          "type": "boolean",
+          "default": "false"
+        },
+        {
+          "name": "collapsed",
+          "description": "Indicates when the side nav is collapsed",
+          "default": "\"_isNavCollapsed\""
+        },
+        {
+          "name": "collapse-label",
+          "description": "(Optional) For customizing the text for the collapse button at the bottom of the side nav",
+          "type": "string",
+          "default": "\"Collapse\""
+        }
+      ],
+      "properties": [
+        {
+          "name": "open",
+          "attribute": "open",
+          "description": "Indicates whether the side nav is open or not on mobile",
+          "type": "boolean",
+          "default": "false"
+        },
+        {
+          "name": "collapsed",
+          "attribute": "collapsed",
+          "description": "Indicates when the side nav is collapsed",
+          "default": "\"_isNavCollapsed\""
+        },
+        {
+          "name": "collapseLabel",
+          "attribute": "collapse-label",
+          "description": "(Optional) For customizing the text for the collapse button at the bottom of the side nav",
+          "type": "string",
+          "default": "\"Collapse\""
+        }
+      ],
+      "slots": [
+        {
+          "name": "",
+          "description": "Default slot; recommended for slotting in `<zui-shell-nav-item>`"
+        }
+      ],
+      "cssProperties": [
+        {
+          "name": "--zui-shell-nav-width",
+          "description": "Width of `<zui-shell-nav>` when expanded"
+        },
+        {
+          "name": "--zui-shell-nav-width-collapsed",
+          "description": "Width of `<zui-shell-nav>` when collapsed",
+          "default": "\"3.75rem\""
+        }
+      ]
+    },
+    {
+      "name": "zui-shell-nav-item",
+      "path": "./..\\src\\zui-shell-nav-item.js",
+      "description": "Child element of `<zui-shell-nav>` that renders into a link. Top-level menu items must be accompanied by an icon. Children menu items do not need an icon.",
+      "attributes": [
+        {
+          "name": "expanded",
+          "description": "This property becomes `true` when `<zui-shell-nav-item>` has children items and is expanded. All parent menu items are collapsed by default",
+          "type": "boolean",
+          "default": "false"
+        },
+        {
+          "name": "subnav",
+          "description": "This property becomes `true` when there are more than one anchor tag in `<zui-shell-nav-item>`",
+          "type": "boolean",
+          "default": "false"
+        }
+      ],
+      "properties": [
+        {
+          "name": "expanded",
+          "attribute": "expanded",
+          "description": "This property becomes `true` when `<zui-shell-nav-item>` has children items and is expanded. All parent menu items are collapsed by default",
+          "type": "boolean",
+          "default": "false"
+        },
+        {
+          "name": "subnav",
+          "attribute": "subnav",
+          "description": "This property becomes `true` when there are more than one anchor tag in `<zui-shell-nav-item>`",
+          "type": "boolean",
+          "default": "false"
+        }
+      ],
+      "events": [
+        {
+          "name": "navitemclick",
+          "description": "Custom event fired when `<zui-shell-nav-item>` is clicked"
+        }
+      ],
+      "slots": [
+        {
+          "name": "",
+          "description": "Default slot; top-level menu items will automatically be placed in this slot"
+        },
+        {
+          "name": "icon",
+          "description": "Required slot for top-level menu item's icon placement"
+        },
+        {
+          "name": "subnav",
+          "description": "Slot for children menu-items that is automatically set when there are more than one anchor tag; consumers do not have to assign elements to this slot"
+        }
+      ],
+      "cssProperties": [
+        {
+          "name": "--zui-shell-nav-active-color",
+          "description": "Text color of an active `<zui-shell-nav-item>` when you are currently in that section or page",
+          "default": "\"var(--zui-shell-primary-theme, var(--zui-blue))\""
+        },
+        {
+          "name": "--zui-shell-nav-item-hover-color",
+          "description": "Hover color for `<zui-shell-nav-item>`",
+          "default": "\"#f7f7f7\""
+        }
+      ]
+    },
+    {
+      "name": "zui-shell-footer",
+      "path": "./..\\src\\zui-shell-footer.js",
+      "description": "The footer is the small section at the bottom of each page that contains things like the privacy and cookie policies, and other legal and trademark information.",
+      "slots": [
+        {
+          "name": "",
+          "description": "Default slot; all privacy and cookie policies, and other legal and trademark information will be placed in here"
+        }
+      ],
+      "cssProperties": [
+        {
+          "name": "--zui-shell-footer-height",
+          "description": "Height of `<zui-shell-footer>`"
+        }
+      ]
+    },
+    {
+      "name": "zui-shell-content",
+      "path": "./..\\src\\zui-shell-content.js",
+      "description": "Content area that wraps all information for applications.",
+      "slots": [
+        {
+          "name": "",
+          "description": "Default slot; all application content will be placed in here"
+        }
+      ]
+    },
+    {
+      "name": "zui-shell-user",
+      "path": "./..\\src\\zui-shell-user.js",
+      "description": "Topbar feature that encompasses information about the User Principle, User Profile, impersonation, and notifications.",
+      "attributes": [
+        {
+          "name": "given-name",
+          "description": "The first name of the user. It should be set to the `given_name` claim of the user principal. This may not yet be available on some principals, but will be back filled with profile information by an upcoming auth release. This component gracefully falls back to username.",
+          "type": "string",
+          "default": "\"\""
+        },
+        {
+          "name": "family-name",
+          "description": "The last name of the user. It should be set to the `family_name` claim of the user principal. This may not yet be available on some principals, but will be back filled with profile information by an upcoming auth release. This component gracefully falls back to username.",
+          "type": "string",
+          "default": "\"\""
+        },
+        {
+          "name": "profile-name",
+          "description": "This is the display name of the profile in context and will vary from profile type to profile type.",
+          "type": "string",
+          "default": "\"\""
+        },
+        {
+          "name": "profile-detail",
+          "description": "This is additional profile information displayed as subtext. It should generally represent the location and/or profile name. You may want to make this a function to ensure a clean rendering with the assumption of missing claims.",
+          "type": "string",
+          "default": "\"\""
+        },
+        {
+          "name": "username",
+          "description": "This is the username of the user. It should be set to the `preferred_username` claim of the user principal.",
+          "type": "string",
+          "default": "\"\""
+        },
+        {
+          "name": "manage-user-url",
+          "description": "This is a URL to user self service tool. It should be set to `https://profiles.zywave.com` per environment.",
+          "type": "string",
+          "default": "\"\""
+        },
+        {
+          "name": "logout-user-url",
+          "description": "This is a URL to the logout page of the application.",
+          "type": "string",
+          "default": "\"\""
+        },
+        {
+          "name": "manage-profile-url",
+          "description": "This is a URL to the proper edit page for the profile in context.",
+          "type": "string",
+          "default": "\"\""
+        },
+        {
+          "name": "switch-profile-url",
+          "description": "This is a URL to the local switch profile path. **This should only be set if the user has multiple contextual profiles available.**",
+          "type": "string",
+          "default": "\"\""
+        },
+        {
+          "name": "avatar",
+          "description": "This is a URI of the avatar of the user. It should be set to the \"picture\" claim of the user principal.",
+          "type": "string",
+          "default": "\"\""
+        },
+        {
+          "name": "user-header",
+          "description": "This is the text that appears above the user section. Should be set to localized \"User\".",
+          "type": "string",
+          "default": "\"User\""
+        },
+        {
+          "name": "profile-header",
+          "description": "This is the text that appears above the profile section. Should be set to localized phrase representing the profile type such as \"Agency Profile\", \"Employer Profile\" or just simply \"Profile\".",
+          "type": "string",
+          "default": "\"Profile\""
+        },
+        {
+          "name": "manage-user-text",
+          "description": "This is the text that appears as the manage user link. Should be set to localized \"Manage User\".",
+          "type": "string",
+          "default": "\"Manage user\""
+        },
+        {
+          "name": "logout-user-text",
+          "description": "This is the text that appears as the logout user link. Should be set to localized \"Logout\".",
+          "type": "string",
+          "default": "\"Log out\""
+        },
+        {
+          "name": "manage-profile-text",
+          "description": "This is the text that appears as the manage profile link. Should be set to localized \"Manage Profile\".",
+          "type": "string",
+          "default": "\"Manage profile\""
+        },
+        {
+          "name": "switch-profile-text",
+          "description": "This is the text that appears as the switch profile link. Should be set to localized \"Switch\".",
+          "type": "string",
+          "default": "\"Switch\""
+        },
+        {
+          "name": "open",
+          "description": "Boolean for when the user dropdown is open.",
+          "type": "boolean",
+          "default": "false"
+        },
+        {
+          "name": "notification-count",
+          "description": "This is the how many unread notifications the user/profile has. Get by calling Shared.Notifications Service.",
+          "type": "number",
+          "default": "0"
+        },
+        {
+          "name": "notification-header",
+          "description": "This is the text that appears above the notification section.",
+          "type": "string",
+          "default": "\"Notifications\""
+        },
+        {
+          "name": "notification-title",
+          "description": "This is the text that appears after the notification count in profile section.",
+          "type": "string",
+          "default": "\"New notifications\""
+        },
+        {
+          "name": "no-notification-title",
+          "description": "This is the text that appears when there are no new notifications in the notifications section of the user dropdown.",
+          "type": "string",
+          "default": "\"No new notifications\""
+        },
+        {
+          "name": "view-notifications-text",
+          "description": "This is the text that appears as the notification inbox link.",
+          "type": "string",
+          "default": "\"View all\""
+        },
+        {
+          "name": "view-notifications-url",
+          "description": "This is a URL to the notification inbox (ex: `dev-zh.zywave.com/notifications/inbox`).",
+          "type": "string",
+          "default": "\"\""
+        },
+        {
+          "name": "impersonating",
+          "description": "This property is required for all the impersonation properties to work and show.",
+          "type": "boolean",
+          "default": "false"
+        },
+        {
+          "name": "impersonating-action",
+          "description": "Text for the current user impersonating another profile.",
+          "type": "string",
+          "default": "\"acting as\""
+        },
+        {
+          "name": "impersonating-profile-name",
+          "description": "Name of the profile the current user is impersonating.",
+          "type": "string",
+          "default": "\"\""
+        },
+        {
+          "name": "impersonating-given-name",
+          "description": "First name of the user associated with the profile the current user is impersonating.",
+          "type": "string",
+          "default": "\"\""
+        },
+        {
+          "name": "impersonating-family-name",
+          "description": "Last name of the user associated with the profile the current user is impersonating.",
+          "type": "string",
+          "default": "\"\""
+        },
+        {
+          "name": "unauthenticated",
+          "description": "Indicates that the user is currently unauthenticated, and should be given access to login.",
+          "type": "boolean",
+          "default": "false"
+        },
+        {
+          "name": "login-user-text",
+          "description": "This is the text that displays to unauthenticated users to login.",
+          "type": "string",
+          "default": "\"Log in\""
+        },
+        {
+          "name": "login-user-url",
+          "description": "The url where unauthenticated users can be redirected to login.",
+          "type": "string",
+          "default": "\"https://auth.zywave.com/\""
+        }
+      ],
+      "properties": [
+        {
+          "name": "givenName",
+          "attribute": "given-name",
+          "description": "The first name of the user. It should be set to the `given_name` claim of the user principal. This may not yet be available on some principals, but will be back filled with profile information by an upcoming auth release. This component gracefully falls back to username.",
+          "type": "string",
+          "default": "\"\""
+        },
+        {
+          "name": "familyName",
+          "attribute": "family-name",
+          "description": "The last name of the user. It should be set to the `family_name` claim of the user principal. This may not yet be available on some principals, but will be back filled with profile information by an upcoming auth release. This component gracefully falls back to username.",
+          "type": "string",
+          "default": "\"\""
+        },
+        {
+          "name": "profileName",
+          "attribute": "profile-name",
+          "description": "This is the display name of the profile in context and will vary from profile type to profile type.",
+          "type": "string",
+          "default": "\"\""
+        },
+        {
+          "name": "profileDetail",
+          "attribute": "profile-detail",
+          "description": "This is additional profile information displayed as subtext. It should generally represent the location and/or profile name. You may want to make this a function to ensure a clean rendering with the assumption of missing claims.",
+          "type": "string",
+          "default": "\"\""
+        },
+        {
+          "name": "username",
+          "attribute": "username",
+          "description": "This is the username of the user. It should be set to the `preferred_username` claim of the user principal.",
+          "type": "string",
+          "default": "\"\""
+        },
+        {
+          "name": "manageUserUrl",
+          "attribute": "manage-user-url",
+          "description": "This is a URL to user self service tool. It should be set to `https://profiles.zywave.com` per environment.",
+          "type": "string",
+          "default": "\"\""
+        },
+        {
+          "name": "logoutUserUrl",
+          "attribute": "logout-user-url",
+          "description": "This is a URL to the logout page of the application.",
+          "type": "string",
+          "default": "\"\""
+        },
+        {
+          "name": "manageProfileUrl",
+          "attribute": "manage-profile-url",
+          "description": "This is a URL to the proper edit page for the profile in context.",
+          "type": "string",
+          "default": "\"\""
+        },
+        {
+          "name": "switchProfileUrl",
+          "attribute": "switch-profile-url",
+          "description": "This is a URL to the local switch profile path. **This should only be set if the user has multiple contextual profiles available.**",
+          "type": "string",
+          "default": "\"\""
+        },
+        {
+          "name": "avatar",
+          "attribute": "avatar",
+          "description": "This is a URI of the avatar of the user. It should be set to the \"picture\" claim of the user principal.",
+          "type": "string",
+          "default": "\"\""
+        },
+        {
+          "name": "userHeader",
+          "attribute": "user-header",
+          "description": "This is the text that appears above the user section. Should be set to localized \"User\".",
+          "type": "string",
+          "default": "\"User\""
+        },
+        {
+          "name": "profileHeader",
+          "attribute": "profile-header",
+          "description": "This is the text that appears above the profile section. Should be set to localized phrase representing the profile type such as \"Agency Profile\", \"Employer Profile\" or just simply \"Profile\".",
+          "type": "string",
+          "default": "\"Profile\""
+        },
+        {
+          "name": "manageUserText",
+          "attribute": "manage-user-text",
+          "description": "This is the text that appears as the manage user link. Should be set to localized \"Manage User\".",
+          "type": "string",
+          "default": "\"Manage user\""
+        },
+        {
+          "name": "logoutUserText",
+          "attribute": "logout-user-text",
+          "description": "This is the text that appears as the logout user link. Should be set to localized \"Logout\".",
+          "type": "string",
+          "default": "\"Log out\""
+        },
+        {
+          "name": "manageProfileText",
+          "attribute": "manage-profile-text",
+          "description": "This is the text that appears as the manage profile link. Should be set to localized \"Manage Profile\".",
+          "type": "string",
+          "default": "\"Manage profile\""
+        },
+        {
+          "name": "switchProfileText",
+          "attribute": "switch-profile-text",
+          "description": "This is the text that appears as the switch profile link. Should be set to localized \"Switch\".",
+          "type": "string",
+          "default": "\"Switch\""
+        },
+        {
+          "name": "open",
+          "attribute": "open",
+          "description": "Boolean for when the user dropdown is open.",
+          "type": "boolean",
+          "default": "false"
+        },
+        {
+          "name": "notificationCount",
+          "attribute": "notification-count",
+          "description": "This is the how many unread notifications the user/profile has. Get by calling Shared.Notifications Service.",
+          "type": "number",
+          "default": "0"
+        },
+        {
+          "name": "notificationHeader",
+          "attribute": "notification-header",
+          "description": "This is the text that appears above the notification section.",
+          "type": "string",
+          "default": "\"Notifications\""
+        },
+        {
+          "name": "viewNotificationTitle",
+          "attribute": "notification-title",
+          "description": "This is the text that appears after the notification count in profile section.",
+          "type": "string",
+          "default": "\"New notifications\""
+        },
+        {
+          "name": "noNotificationTitle",
+          "attribute": "no-notification-title",
+          "description": "This is the text that appears when there are no new notifications in the notifications section of the user dropdown.",
+          "type": "string",
+          "default": "\"No new notifications\""
+        },
+        {
+          "name": "viewNotificationText",
+          "attribute": "view-notifications-text",
+          "description": "This is the text that appears as the notification inbox link.",
+          "type": "string",
+          "default": "\"View all\""
+        },
+        {
+          "name": "viewNotificationUrl",
+          "attribute": "view-notifications-url",
+          "description": "This is a URL to the notification inbox (ex: `dev-zh.zywave.com/notifications/inbox`).",
+          "type": "string",
+          "default": "\"\""
+        },
+        {
+          "name": "impersonating",
+          "attribute": "impersonating",
+          "description": "This property is required for all the impersonation properties to work and show.",
+          "type": "boolean",
+          "default": "false"
+        },
+        {
+          "name": "impersonatingAction",
+          "attribute": "impersonating-action",
+          "description": "Text for the current user impersonating another profile.",
+          "type": "string",
+          "default": "\"acting as\""
+        },
+        {
+          "name": "impersonatingProfileName",
+          "attribute": "impersonating-profile-name",
+          "description": "Name of the profile the current user is impersonating.",
+          "type": "string",
+          "default": "\"\""
+        },
+        {
+          "name": "impersonatingGivenName",
+          "attribute": "impersonating-given-name",
+          "description": "First name of the user associated with the profile the current user is impersonating.",
+          "type": "string",
+          "default": "\"\""
+        },
+        {
+          "name": "impersonatingFamilyName",
+          "attribute": "impersonating-family-name",
+          "description": "Last name of the user associated with the profile the current user is impersonating.",
+          "type": "string",
+          "default": "\"\""
+        },
+        {
+          "name": "unauthenticated",
+          "attribute": "unauthenticated",
+          "description": "Indicates that the user is currently unauthenticated, and should be given access to login.",
+          "type": "boolean",
+          "default": "false"
+        },
+        {
+          "name": "loginUserText",
+          "attribute": "login-user-text",
+          "description": "This is the text that displays to unauthenticated users to login.",
+          "type": "string",
+          "default": "\"Log in\""
+        },
+        {
+          "name": "loginUserUrl",
+          "attribute": "login-user-url",
+          "description": "The url where unauthenticated users can be redirected to login.",
+          "type": "string",
+          "default": "\"https://auth.zywave.com/\""
+        },
+        {
+          "name": "displayName",
+          "description": "Display name of the current user principal",
+          "type": "string"
+        },
+        {
+          "name": "initials",
+          "description": "Initials of the current user principal",
+          "type": "string"
+        },
+        {
+          "name": "impersonatingDisplayName",
+          "description": "Display name of the user profile being impersonated",
+          "type": "string"
+        }
+      ],
+      "cssProperties": [
+        {
+          "name": "--zui-shell-user-avatar-background",
+          "description": "Background color of the avatar when user principle initials are used to represent the current logged in user",
+          "default": "\"var(--zui-gray)\""
+        },
+        {
+          "name": "--zui-shell-user-avatar",
+          "description": "Icon/text color of the principal user initials in the avatar",
+          "default": "\"#fff\""
+        },
+        {
+          "name": "--zui-shell-profile-avatar-background",
+          "description": "Background color of the icon that represents the profile in context",
+          "default": "\"var(--zui-blue)\""
+        },
+        {
+          "name": "--zui-shell-profile-avatar-color",
+          "description": "Icon/text color of the profile in context",
+          "default": "\"white\""
+        }
+      ]
+    }
+  ]
+}

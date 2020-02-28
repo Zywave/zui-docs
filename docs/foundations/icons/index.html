@@ -1,1142 +1,230 @@
 <!DOCTYPE html>
-<html><head>
-    <title>Icons | Zywave User Interface</title>
-    <link href="../../css/ie-sucks.css" rel="stylesheet" />
-    <link rel="stylesheet" href="https://unpkg.com/@zywave/zui-bundle@next/dist/css/zui-bundle.fouc.css" />
-    <link rel="stylesheet" href="https://unpkg.com/@zywave/zui-bundle@next/dist/css/zui-bundle.app.css" />
-    <link href="../../css/base.css" rel="stylesheet" />
-    <link href="../../css/shortcodes.css" rel="stylesheet" />
-    <link href="../../css/syntax-highlighting-monokai.css" rel="stylesheet" />
-    <link rel='shortcut icon' type='image/x-icon' href='../../static/favicon.ico' />
-    <script src="../../js/ie-sucks.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.3.0/fuse.min.js"></script>
-    <style>
-        :root {
-            --zui-shell-primary-theme: var(--zui-green);
-            --zui-shell-primary-theme-dark: var(--zui-green-600);
-            --zui-tabs-color: var(--zui-green);
-        }
-    </style>
-    <script>
-        document.addEventListener('DOMContentLoaded', () => {
-            const externalLinks = document.querySelectorAll('a[href^="http://"], a[href^="https://"]');
-            for (const l of externalLinks) {
-                if (l.href.indexOf("") < 0) {
-                    l.target = '_blank';
-                }
-            }
-        });
-
-        
-        
-    </script>
-</head>
-<body>
-        <ie-sucks>
-            No. Stop it. Use a real browser.
-        </ie-sucks>
-        <zui-shell app-name="ZUI Documentation"><zui-shell-topbar>
-    <zui-logo slot="logo"></zui-logo>
-</zui-shell-topbar>
-
-
-
-<zui-shell-nav>
-    <zui-shell-nav-item>
-        <zui-icon icon="zui-nav-home" slot="icon"></zui-icon>
-        <a href="../../" active>Home</a>
-    </zui-shell-nav-item>
-    
-    
-    <zui-shell-nav-item subnav>
-        <zui-icon icon="zui-nav-developers" slot="icon"></zui-icon>
-        
-            <span>Developers</span>
-            
-            
-            
-            
-            <a href="../../developers/contribution-guide/" >Contribution guide</a>
-            
-            <a href="../../developers/developing-zui/" >Developing ZUI</a>
-            
-            <a href="../../developers/installation/" >Installation</a>
-            
-            <a href="../../developers/lit/" >Lit 🔥</a>
-            
-            <a href="../../developers/polyfills/" >Polyfills</a>
-            
-            <a href="../../developers/responsive-design/" >Responsive design</a>
-            
-            <a href="../../developers/tooling/" >Tooling</a>
-            
-            <a href="../../developers/webcomponents/" >Web components</a>
-            
-        
-    </zui-shell-nav-item>
-    
-    
-    <zui-shell-nav-item subnav>
-        <zui-icon icon="zui-nav-foundations" slot="icon"></zui-icon>
-        
-            <span>Foundations</span>
-            
-            
-                
-            
-            
-            
-            <a href="../../foundations/colors/" >Colors</a>
-            
-            <a href="../../foundations/content-area/" >Content area</a>
-            
-            <a href="../../foundations/fonts-typography/" >Fonts &amp; typography</a>
-            
-            <a href="../../foundations/footer/" >Footer</a>
-            
-            <a href="../../foundations/icons/" active>Icons</a>
-            
-            <a href="../../foundations/illustrations/" >Illustrations</a>
-            
-            <a href="../../foundations/product-branding/" >Product branding</a>
-            
-            <a href="../../foundations/shell/" >Shell</a>
-            
-            <a href="../../foundations/sidenav/" >Sidenav</a>
-            
-            <a href="../../foundations/topbar/" >Topbar</a>
-            
-        
-    </zui-shell-nav-item>
-    
-    
-    <zui-shell-nav-item subnav>
-        <zui-icon icon="zui-nav-components" slot="icon"></zui-icon>
-        
-            <span>Components</span>
-            
-            
-                
-            
-            
-            
-            <a href="../../components/breadcrumbs/" >Breadcrumbs</a>
-            
-            <a href="../../components/buttons-dropdown/" >Button dropdowns</a>
-            
-            <a href="../../components/buttons/" >Buttons</a>
-            
-            <a href="../../components/checkboxes/" >Checkboxes</a>
-            
-            <a href="../../components/dialogs/" >Dialogs</a>
-            
-            <a href="../../components/dropdown-multi-select/" >Dropdown multi-select</a>
-            
-            <a href="../../components/dropdown-select/" >Dropdown select</a>
-            
-            <a href="../../components/expanders/" >Expanders</a>
-            
-            <a href="../../components/file-selector/" >File Selector</a>
-            
-            <a href="../../components/notifiers/" >Notifiers</a>
-            
-            <a href="../../components/radio-buttons/" >Radio buttons</a>
-            
-            <a href="../../components/tabs/" >Tabs</a>
-            
-            <a href="../../components/text-input/" >Text Input</a>
-            
-            <a href="../../components/toggles/" >Toggles</a>
-            
-            <a href="../../components/tooltips/" >Tooltips</a>
-            
-            <a href="../../components/wells/" >Well</a>
-            
-        
-    </zui-shell-nav-item>
-    
-    
-    <zui-shell-nav-item subnav>
-        <zui-icon icon="zui-nav-patterns" slot="icon"></zui-icon>
-        
-            <span>Patterns</span>
-            
-            
-                
-            
-            
-            
-            <a href="../../patterns/forms/" >Forms</a>
-            
-            <a href="../../patterns/step-flow/" >Step flow</a>
-            
-            <a href="../../patterns/typeahead/" >Typeahead</a>
-            
-        
-    </zui-shell-nav-item>
-    
-    
-    <zui-shell-nav-item subnav>
-        <zui-icon icon="zui-nav-help" slot="icon"></zui-icon>
-        
-            <span>Communications</span>
-            
-            
-                
-            
-            
-            
-            <a href="../../communications/messages/" >Messages</a>
-            
-            <a href="../../communications/voice-tone/" >Voice &amp; tone</a>
-            
-            <a href="../../communications/writing-style-guide/" >Writing style guide</a>
-            
-        
-    </zui-shell-nav-item>
-    
-    
-    <zui-shell-nav-item >
-        <zui-icon icon="zui-nav-accounts" slot="icon"></zui-icon>
-        
-            <a href="../../personas/" >Personas</a>
-        
-    </zui-shell-nav-item>
-    
-    <script>
-        
-        const activeLinks = document.querySelectorAll('zui-shell-nav-item a[active]');
-            for (let activeLink of activeLinks) {
-                activeLink.closest('zui-shell-nav-item').expanded = true;
-            }
-    </script>
-</zui-shell-nav>
-<zui-shell-content id="content">
-                <section class="zui-layout zui-layout--slim">
-                    <div class="page-heading">
-                        <h1>Icons</h1>
-                        
-                    </div>
-                    <div class="content-container">
-                        
-
-<h2 id="icon-overview">Icon Overview</h2>
-
-<p>Icons are one half of our visual library within ZUI. Icons can be broken up into two main categories: Navigation and System.</p>
-
-<div class="spacer "></div>
-
-<h2 id="navigation-icons">Navigation Icons</h2>
-
-<p>Our navigation icons add a visual component to the links within our side nav. Combined with their text labels they will speed up recognition and processing of the link text. They become especially important when the user has collapsed the sidenav. They should be easily recognizable images that will allow the user to naivigate throughout the site without needing to expand the navigation.
-<br/>
-<br/></p>
-
-<h3 id="navigation-icon-style">Navigation Icon Style</h3>
-
-<p>Our navigation icons are solid/filled to add more weight to the sidenav.
-For more information on how to create navigation icons view our <a href="https://confluence.zywave.com/x/agC-Pg">process documentation</a>
-<br/>
-<br/></p>
-
-<h3 id="current-icons">Current icons</h3>
-
-<p>Below is a list of our current navigation icons. If you can&rsquo;t find the icon you are looking for, be sure to check out <a href="https://confluence.zywave.com/x/aAC-Pg">navigation icon backlog</a> and ask a designer to complete a design for you.
-<br/>
-<br/>
-<div class="grid">
-    <div class='grid-col span-2'>
-    <p><center><zui-icon icon="zui-nav-accounts"></zui-icon>
-<br/>
-<br/>
+<html data-html-server-rendered="true" lang="en" data-vue-tag="%7B%22lang%22:%7B%22ssr%22:%22en%22%7D%7D">
+  <head>
+    <title>Dev docs - Zywave User Interface</title><meta name="gridsome:hash" content="79262023794b34ee0496a10558670fb1970dba20"><meta data-vue-tag="ssr" charset="utf-8"><meta data-vue-tag="ssr" name="generator" content="Gridsome v0.7.13"><meta data-vue-tag="ssr" data-key="viewport" name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"><meta data-vue-tag="ssr" data-key="format-detection" name="format-detection" content="telephone=no"><link data-vue-tag="ssr" rel="stylesheet" href="https://unpkg.com/@zywave/zui-bundle@next/dist/css/zui-bundle.fouc.css"><link data-vue-tag="ssr" rel="stylesheet" href="https://unpkg.com/@zywave/zui-bundle@next/dist/css/zui-bundle.app.css"><link rel="preload" href="/assets/css/4.styles.4b6a7a4d.css" as="style"><link rel="preload" href="/assets/js/app.40fe5a75.js" as="script"><link rel="preload" href="/assets/js/page--src-templates-mark-down-vue.47bc5095.js" as="script"><link rel="preload" href="/assets/js/vue-remark--src-markdown-foundations-icons-md.e295d5b3.js" as="script"><link rel="prefetch" href="/assets/js/49.f57ff12f.js"><link rel="prefetch" href="/assets/js/page--node-modules-gridsome-app-pages-404-vue.f3523ce4.js"><link rel="prefetch" href="/assets/js/page--src-templates-custom-elements-json-vue.84064390.js"><link rel="prefetch" href="/assets/js/vue-remark--src-markdown-communications-index-md.3fbd35ce.js"><link rel="prefetch" href="/assets/js/vue-remark--src-markdown-communications-messages-md.07c31c87.js"><link rel="prefetch" href="/assets/js/vue-remark--src-markdown-communications-voice-tone-md.89141b1b.js"><link rel="prefetch" href="/assets/js/vue-remark--src-markdown-communications-writing-style-guide-md.7497cf4b.js"><link rel="prefetch" href="/assets/js/vue-remark--src-markdown-components-breadcrumbs-md.1623eb36.js"><link rel="prefetch" href="/assets/js/vue-remark--src-markdown-components-button-dropdowns-md.deffe659.js"><link rel="prefetch" href="/assets/js/vue-remark--src-markdown-components-buttons-md.ec368cf5.js"><link rel="prefetch" href="/assets/js/vue-remark--src-markdown-components-checkboxes-md.7bd3f313.js"><link rel="prefetch" href="/assets/js/vue-remark--src-markdown-components-dialogs-md.af2916e3.js"><link rel="prefetch" href="/assets/js/vue-remark--src-markdown-components-dropdown-multi-select-md.33ba776c.js"><link rel="prefetch" href="/assets/js/vue-remark--src-markdown-components-dropdown-select-md.d4b253b4.js"><link rel="prefetch" href="/assets/js/vue-remark--src-markdown-components-expanders-md.d4ec8286.js"><link rel="prefetch" href="/assets/js/vue-remark--src-markdown-components-file-selector-md.e76a87d9.js"><link rel="prefetch" href="/assets/js/vue-remark--src-markdown-components-index-md.f0532655.js"><link rel="prefetch" href="/assets/js/vue-remark--src-markdown-components-notifiers-md.210ee39e.js"><link rel="prefetch" href="/assets/js/vue-remark--src-markdown-components-radio-buttons-md.ae1cea47.js"><link rel="prefetch" href="/assets/js/vue-remark--src-markdown-components-tabs-md.568675e7.js"><link rel="prefetch" href="/assets/js/vue-remark--src-markdown-components-text-input-md.ab2ab2b8.js"><link rel="prefetch" href="/assets/js/vue-remark--src-markdown-components-toggles-md.ad57702a.js"><link rel="prefetch" href="/assets/js/vue-remark--src-markdown-components-tooltips-md.3c73318f.js"><link rel="prefetch" href="/assets/js/vue-remark--src-markdown-components-wells-md.092dea07.js"><link rel="prefetch" href="/assets/js/vue-remark--src-markdown-developers-contribution-md.e06a6453.js"><link rel="prefetch" href="/assets/js/vue-remark--src-markdown-developers-css-guide-md.07f8ed7f.js"><link rel="prefetch" href="/assets/js/vue-remark--src-markdown-developers-index-md.69ab8685.js"><link rel="prefetch" href="/assets/js/vue-remark--src-markdown-developers-installation-md.500ed01a.js"><link rel="prefetch" href="/assets/js/vue-remark--src-markdown-developers-tooling-md.c9c6190a.js"><link rel="prefetch" href="/assets/js/vue-remark--src-markdown-developers-toolkit-md.84bf3615.js"><link rel="prefetch" href="/assets/js/vue-remark--src-markdown-foundations-colors-md.30ceb5a9.js"><link rel="prefetch" href="/assets/js/vue-remark--src-markdown-foundations-content-area-md.1cf465f2.js"><link rel="prefetch" href="/assets/js/vue-remark--src-markdown-foundations-fonts-typography-md.0033473e.js"><link rel="prefetch" href="/assets/js/vue-remark--src-markdown-foundations-footer-md.7733c46f.js"><link rel="prefetch" href="/assets/js/vue-remark--src-markdown-foundations-illustrations-md.6edb72bf.js"><link rel="prefetch" href="/assets/js/vue-remark--src-markdown-foundations-index-md.4a6d2d13.js"><link rel="prefetch" href="/assets/js/vue-remark--src-markdown-foundations-product-branding-md.da165b41.js"><link rel="prefetch" href="/assets/js/vue-remark--src-markdown-foundations-shell-md.2859845e.js"><link rel="prefetch" href="/assets/js/vue-remark--src-markdown-foundations-sidenav-md.dc6ef3c4.js"><link rel="prefetch" href="/assets/js/vue-remark--src-markdown-foundations-topbar-md.94f775f8.js"><link rel="prefetch" href="/assets/js/vue-remark--src-markdown-index-md.a59c3a41.js"><link rel="prefetch" href="/assets/js/vue-remark--src-markdown-patterns-forms-md.5b2421ee.js"><link rel="prefetch" href="/assets/js/vue-remark--src-markdown-patterns-index-md.0d91738b.js"><link rel="prefetch" href="/assets/js/vue-remark--src-markdown-patterns-step-flow-md.84b87f4c.js"><link rel="prefetch" href="/assets/js/vue-remark--src-markdown-patterns-typeahead-md.ebc6c146.js"><link rel="prefetch" href="/assets/js/vue-remark--src-markdown-personas-index-md.87b1ceb6.js"><link rel="stylesheet" href="/assets/css/4.styles.4b6a7a4d.css"><script data-vue-tag="ssr" src="https://unpkg.com/@zywave/zui-bundle@next"></script><script data-vue-tag="ssr" src="/js/ie-sucks.js"></script><noscript data-vue-tag="ssr"><style>.g-image--loading{display:none;}</style></noscript>
+  </head>
+  <body >
+    <zui-shell app-name="Zywave User Interface" no-scroll-animation="" data-server-rendered="true" id="app" data-v-617a1e50 data-v-3d639dd6><zui-shell-topbar no-scroll-animation="" data-v-617a1e50><zui-logo slot="logo" data-v-617a1e50></zui-logo></zui-shell-topbar><!----><zui-shell-content id="content" data-v-617a1e50><ie-sucks data-v-617a1e50>No. Stop it. Use a real browser.</ie-sucks><section class="zui-layout zui-layout--slim" data-v-617a1e50 data-v-3d639dd6><div class="page-header" data-v-617a1e50 data-v-3d639dd6><h1 data-v-617a1e50 data-v-3d639dd6>Icons</h1><!----></div><div data-v-617a1e50 data-v-3d639dd6><section data-v-3d639dd6><zui-tabs selected="selected"><zui-tab>Design</zui-tab><zui-tab>API</zui-tab></zui-tabs><zui-pages selected="selected" class="zui-layout"><section class="content-container" data-v-3d639dd6><div data-v-3d639dd6><h2>Icon Overview</h2><p>Icons are one half of our visual library within ZUI. Icons can be broken up into two main categories: Navigation and System.</p><div class="spacer" data-v-4e5b2274></div><h2>Navigation Icons</h2><p>Our navigation icons add a visual component to the links within our side nav. Combined with their text labels they will speed up recognition and processing of the link text. They become especially important when the user has collapsed the sidenav. They should be easily recognizable images that will allow the user to naivigate throughout the site without needing to expand the navigation.
+<br><br></p><h3>Navigation Icon Style</h3><p>Our navigation icons are solid/filled to add more weight to the sidenav.
+For more information on how to create navigation icons view our <a href="https://confluence.zywave.com/x/agC-Pg">process documentation</a><br><br></p><h3>Current icons</h3><p>Below is a list of our current navigation icons. If you can't find the icon you are looking for, be sure to check out <a href="https://confluence.zywave.com/x/aAC-Pg">navigation icon backlog</a> and ask a designer to complete a design for you.
+<br><br></p><div class="grid" data-v-644860a4><div class="grid-col span-2" data-v-376aefab><center data-v-376aefab><zui-icon icon="zui-nav-accounts" data-v-376aefab></zui-icon><br data-v-376aefab><br data-v-376aefab>
 Accounts
-</center></p>
-
-</div>
-<div class='grid-col span-2'>
-    <p><center> <zui-icon icon="zui-nav-activities"></zui-icon>
-<br/>
-<br/>
+</center></div><div class="grid-col span-2" data-v-376aefab><center data-v-376aefab><zui-icon icon="zui-nav-activities" data-v-376aefab></zui-icon><br data-v-376aefab><br data-v-376aefab>
 Activities
-</center></p>
-
-</div>
-<div class='grid-col span-2'>
-    <p><center><zui-icon icon="zui-nav-admin"></zui-icon>
-<br/>
-<br/>
+</center></div><div class="grid-col span-2" data-v-376aefab><center data-v-376aefab><zui-icon icon="zui-nav-admin" data-v-376aefab></zui-icon><br data-v-376aefab><br data-v-376aefab>
 Admin
-</center></p>
-
-</div>
-<div class='grid-col span-2'>
-    <p><center><zui-icon icon="zui-nav-administrators"></zui-icon>
-<br/>
-<br/>
+</center></div><div class="grid-col span-2" data-v-376aefab><center data-v-376aefab><zui-icon icon="zui-nav-administrators" data-v-376aefab></zui-icon><br data-v-376aefab><br data-v-376aefab>
 Administrators
-</center></p>
-
-</div>
-<div class='grid-col span-2'>
-    <p><center><zui-icon icon="zui-nav-book"></zui-icon>
-<br/>
-<br/>
+</center></div><div class="grid-col span-2" data-v-376aefab><center data-v-376aefab><zui-icon icon="zui-nav-book" data-v-376aefab></zui-icon><br data-v-376aefab><br data-v-376aefab>
 Book
-</center></p>
-
-</div>
-<div class='grid-col span-2'>
-    <p><center><zui-icon icon="zui-nav-carrier"></zui-icon>
-<br/>
-<br/>
+</center></div><div class="grid-col span-2" data-v-376aefab><center data-v-376aefab><zui-icon icon="zui-nav-carrier" data-v-376aefab></zui-icon><br data-v-376aefab><br data-v-376aefab>
 Carriers
-</center></p>
-
-</div>
-<div class='grid-col span-2'>
-    <p><center><zui-icon icon="zui-nav-client-portal"></zui-icon>
-<br/>
-<br/>
+</center></div><div class="grid-col span-2" data-v-376aefab><center data-v-376aefab><zui-icon icon="zui-nav-client-portal" data-v-376aefab></zui-icon><br data-v-376aefab><br data-v-376aefab>
 Client Portal
-</center></p>
-
-</div>
-<div class='grid-col span-2'>
-    <p><center><zui-icon icon="zui-nav-color-themes"></zui-icon>
-<br/>
-<br/>
+</center></div><div class="grid-col span-2" data-v-376aefab><center data-v-376aefab><zui-icon icon="zui-nav-color-themes" data-v-376aefab></zui-icon><br data-v-376aefab><br data-v-376aefab>
 Color Themes
-</center></p>
-
-</div>
-<div class='grid-col span-2'>
-    <p><center><zui-icon icon="zui-nav-content"></zui-icon>
-<br/>
-<br/>
+</center></div><div class="grid-col span-2" data-v-376aefab><center data-v-376aefab><zui-icon icon="zui-nav-content" data-v-376aefab></zui-icon><br data-v-376aefab><br data-v-376aefab>
 Content
-</center></p>
-
-</div>
-<div class='grid-col span-2'>
-    <p><center><zui-icon icon="zui-nav-communications"></zui-icon>
-<br/>
-<br/>
+</center></div><div class="grid-col span-2" data-v-376aefab><center data-v-376aefab><zui-icon icon="zui-nav-communications" data-v-376aefab></zui-icon><br data-v-376aefab><br data-v-376aefab>
 Communications
-</center></p>
-
-</div>
-<div class='grid-col span-2'>
-    <p><center> <zui-icon icon="zui-nav-community"></zui-icon>
-<br/>
-<br/>
+</center></div><div class="grid-col span-2" data-v-376aefab><center data-v-376aefab><zui-icon icon="zui-nav-community" data-v-376aefab></zui-icon><br data-v-376aefab><br data-v-376aefab>
 Community
-</center></p>
-
-</div>
-<div class='grid-col span-2'>
-    <p><center><zui-icon icon="zui-nav-components"></zui-icon>
-<br/>
-<br/>
+</center></div><div class="grid-col span-2" data-v-376aefab><center data-v-376aefab><zui-icon icon="zui-nav-components" data-v-376aefab></zui-icon><br data-v-376aefab><br data-v-376aefab>
 Components
-</center></p>
-
-</div>
-<div class='grid-col span-2'>
-    <p><center><zui-icon icon="zui-nav-course-catalog"></zui-icon>
-<br/>
-<br/>
+</center></div><div class="grid-col span-2" data-v-376aefab><center data-v-376aefab><zui-icon icon="zui-nav-course-catalog" data-v-376aefab></zui-icon><br data-v-376aefab><br data-v-376aefab>
 Course Catalog
-</center></p>
-
-</div>
-<div class='grid-col span-2'>
-    <p><center><zui-icon icon="zui-nav-course-packages"></zui-icon>
-<br/>
-<br/>
+</center></div><div class="grid-col span-2" data-v-376aefab><center data-v-376aefab><zui-icon icon="zui-nav-course-packages" data-v-376aefab></zui-icon><br data-v-376aefab><br data-v-376aefab>
 Course Packages
-</center></p>
-
-</div>
-<div class='grid-col span-2'>
-    <p><center><zui-icon icon="zui-nav-credentials"></zui-icon>
-<br/>
-<br/>
+</center></div><div class="grid-col span-2" data-v-376aefab><center data-v-376aefab><zui-icon icon="zui-nav-credentials" data-v-376aefab></zui-icon><br data-v-376aefab><br data-v-376aefab>
 Credentials
-</center></p>
-
-</div>
-<div class='grid-col span-2'>
-    <p><center><zui-icon icon="zui-nav-disease-profiles"></zui-icon>
-<br/>
-<br/>
+</center></div><div class="grid-col span-2" data-v-376aefab><center data-v-376aefab><zui-icon icon="zui-nav-disease-profiles" data-v-376aefab></zui-icon><br data-v-376aefab><br data-v-376aefab>
 Disease Profiles
-</center></p>
-
-</div>
-<div class='grid-col span-2'>
-    <p><center><zui-icon icon="zui-nav-developers"></zui-icon>
-<br/>
-<br/>
+</center></div><div class="grid-col span-2" data-v-376aefab><center data-v-376aefab><zui-icon icon="zui-nav-developers" data-v-376aefab></zui-icon><br data-v-376aefab><br data-v-376aefab>
 Developers
-</center></p>
-
-</div>
-<div class='grid-col span-2'>
-    <p><center> <zui-icon icon="zui-nav-domains"></zui-icon>
-<br/>
-<br/>
+</center></div><div class="grid-col span-2" data-v-376aefab><center data-v-376aefab><zui-icon icon="zui-nav-domains" data-v-376aefab></zui-icon><br data-v-376aefab><br data-v-376aefab>
 Domains
-</center></p>
-
-</div>
-<div class='grid-col span-2'>
-    <p><center><zui-icon icon="zui-nav-files"></zui-icon>
-<br/>
-<br/>
+</center></div><div class="grid-col span-2" data-v-376aefab><center data-v-376aefab><zui-icon icon="zui-nav-files" data-v-376aefab></zui-icon><br data-v-376aefab><br data-v-376aefab>
 Files
-</center></p>
-
-</div>
-<div class='grid-col span-2'>
-    <p><center><zui-icon icon="zui-nav-foundations"></zui-icon>
-<br/>
-<br/>
+</center></div><div class="grid-col span-2" data-v-376aefab><center data-v-376aefab><zui-icon icon="zui-nav-foundations" data-v-376aefab></zui-icon><br data-v-376aefab><br data-v-376aefab>
 Foundations
-</center></p>
-
-</div>
-<div class='grid-col span-2'>
-    <p><center><zui-icon icon="zui-nav-get-started"></zui-icon>
-<br/>
-<br/>
+</center></div><div class="grid-col span-2" data-v-376aefab><center data-v-376aefab><zui-icon icon="zui-nav-get-started" data-v-376aefab></zui-icon><br data-v-376aefab><br data-v-376aefab>
 Get Started
-</center></p>
-
-</div>
-<div class='grid-col span-2'>
-    <p><center><zui-icon icon="zui-nav-group-management"></zui-icon>
-<br/>
-<br/>
+</center></div><div class="grid-col span-2" data-v-376aefab><center data-v-376aefab><zui-icon icon="zui-nav-group-management" data-v-376aefab></zui-icon><br data-v-376aefab><br data-v-376aefab>
 Group Management
-</center></p>
-
-</div>
-<div class='grid-col span-2'>
-    <p><center><zui-icon icon="zui-nav-help"></zui-icon>
-<br/>
-<br/>
+</center></div><div class="grid-col span-2" data-v-376aefab><center data-v-376aefab><zui-icon icon="zui-nav-help" data-v-376aefab></zui-icon><br data-v-376aefab><br data-v-376aefab>
 Help
-</center></p>
-
-</div>
-<div class='grid-col span-2'>
-    <p><center><zui-icon icon="zui-nav-home"></zui-icon>
-<br/>
-<br/>
+</center></div><div class="grid-col span-2" data-v-376aefab><center data-v-376aefab><zui-icon icon="zui-nav-home" data-v-376aefab></zui-icon><br data-v-376aefab><br data-v-376aefab>
 Home
-</center></p>
-
-</div>
-<div class='grid-col span-2'>
-    <p><center><zui-icon icon="zui-nav-hr-hotline"></zui-icon>
-<br/>
-<br/>
+</center></div><div class="grid-col span-2" data-v-376aefab><center data-v-376aefab><zui-icon icon="zui-nav-hr-hotline" data-v-376aefab></zui-icon><br data-v-376aefab><br data-v-376aefab>
 HR Hotline
-</center></p>
-
-</div>
-<div class='grid-col span-2'>
-    <p><center><zui-icon icon="zui-nav-lists"></zui-icon>
-<br/>
-<br/>
+</center></div><div class="grid-col span-2" data-v-376aefab><center data-v-376aefab><zui-icon icon="zui-nav-lists" data-v-376aefab></zui-icon><br data-v-376aefab><br data-v-376aefab>
 Lists
-</center></p>
-
-</div>
-<div class='grid-col span-2'>
-    <p><center><zui-icon icon="zui-nav-manage-user"></zui-icon>
-<br/>
-<br/>
+</center></div><div class="grid-col span-2" data-v-376aefab><center data-v-376aefab><zui-icon icon="zui-nav-manage-user" data-v-376aefab></zui-icon><br data-v-376aefab><br data-v-376aefab>
 Manage Users
-</center></p>
-
-</div>
-<div class='grid-col span-2'>
-    <p><center><zui-icon icon="zui-nav-menu"></zui-icon>
-<br/>
-<br/>
+</center></div><div class="grid-col span-2" data-v-376aefab><center data-v-376aefab><zui-icon icon="zui-nav-menu" data-v-376aefab></zui-icon><br data-v-376aefab><br data-v-376aefab>
 Menu
-</center></p>
-
-</div>
-<div class='grid-col span-2'>
-    <p><center><zui-icon icon="zui-nav-mods"></zui-icon>
-<br/>
-<br/>
+</center></div><div class="grid-col span-2" data-v-376aefab><center data-v-376aefab><zui-icon icon="zui-nav-mods" data-v-376aefab></zui-icon><br data-v-376aefab><br data-v-376aefab>
 Mods
-</center></p>
-
-</div>
-<div class='grid-col span-2'>
-    <p><center><zui-icon icon="zui-nav-notifications"></zui-icon>
-<br/>
-<br/>
+</center></div><div class="grid-col span-2" data-v-376aefab><center data-v-376aefab><zui-icon icon="zui-nav-notifications" data-v-376aefab></zui-icon><br data-v-376aefab><br data-v-376aefab>
 Notifications
-</center></p>
-
-</div>
-<div class='grid-col span-2'>
-    <p><center><zui-icon icon="zui-nav-organization"></zui-icon>
-<br/>
-<br/>
+</center></div><div class="grid-col span-2" data-v-376aefab><center data-v-376aefab><zui-icon icon="zui-nav-organization" data-v-376aefab></zui-icon><br data-v-376aefab><br data-v-376aefab>
 Organization
-</center></p>
-
-</div>
-<div class='grid-col span-2'>
-    <p><center><zui-icon icon="zui-nav-org-overview"></zui-icon>
-<br/>
-<br/>
+</center></div><div class="grid-col span-2" data-v-376aefab><center data-v-376aefab><zui-icon icon="zui-nav-org-overview" data-v-376aefab></zui-icon><br data-v-376aefab><br data-v-376aefab>
 Organization Overview
-</center></p>
-
-</div>
-<div class='grid-col span-2'>
-    <p><center><zui-icon icon="zui-nav-patterns"></zui-icon>
-<br/>
-<br/>
+</center></div><div class="grid-col span-2" data-v-376aefab><center data-v-376aefab><zui-icon icon="zui-nav-patterns" data-v-376aefab></zui-icon><br data-v-376aefab><br data-v-376aefab>
 Patterns
-</center></p>
-
-</div>
-<div class='grid-col span-2'>
-    <p><center><zui-icon icon="zui-nav-portal-admin"></zui-icon>
-<br/>
-<br/>
+</center></div><div class="grid-col span-2" data-v-376aefab><center data-v-376aefab><zui-icon icon="zui-nav-portal-admin" data-v-376aefab></zui-icon><br data-v-376aefab><br data-v-376aefab>
 Portal Admin
-</center></p>
-
-</div>
-<div class='grid-col span-2'>
-    <p><center><zui-icon icon="zui-nav-presentations"></zui-icon>
-<br/>
-<br/>
+</center></div><div class="grid-col span-2" data-v-376aefab><center data-v-376aefab><zui-icon icon="zui-nav-presentations" data-v-376aefab></zui-icon><br data-v-376aefab><br data-v-376aefab>
 Presentations
-</center></p>
-
-</div>
-<div class='grid-col span-2'>
-    <p><center><zui-icon icon="zui-nav-proposals"></zui-icon>
-<br/>
-<br/>
+</center></div><div class="grid-col span-2" data-v-376aefab><center data-v-376aefab><zui-icon icon="zui-nav-proposals" data-v-376aefab></zui-icon><br data-v-376aefab><br data-v-376aefab>
 Proposal
-</center></p>
-
-</div>
-<div class='grid-col span-2'>
-    <p><center><zui-icon icon="zui-nav-prospecting"></zui-icon>
-<br/>
-<br/>
+</center></div><div class="grid-col span-2" data-v-376aefab><center data-v-376aefab><zui-icon icon="zui-nav-prospecting" data-v-376aefab></zui-icon><br data-v-376aefab><br data-v-376aefab>
 Prospecting
-</center></p>
-
-</div>
-<div class='grid-col span-2'>
-    <p><center><zui-icon icon="zui-nav-registered-apps"></zui-icon>
-<br/>
-<br/>
+</center></div><div class="grid-col span-2" data-v-376aefab><center data-v-376aefab><zui-icon icon="zui-nav-registered-apps" data-v-376aefab></zui-icon><br data-v-376aefab><br data-v-376aefab>
 Registered Apps
-</center></p>
-
-</div>
-<div class='grid-col span-2'>
-    <p><center><zui-icon icon="zui-nav-reports"></zui-icon>
-<br/>
-<br/>
+</center></div><div class="grid-col span-2" data-v-376aefab><center data-v-376aefab><zui-icon icon="zui-nav-reports" data-v-376aefab></zui-icon><br data-v-376aefab><br data-v-376aefab>
 Reporting
-</center></p>
-
-</div>
-<div class='grid-col span-2'>
-    <p><center><zui-icon icon="zui-nav-resources"></zui-icon>
-<br/>
-<br/>
+</center></div><div class="grid-col span-2" data-v-376aefab><center data-v-376aefab><zui-icon icon="zui-nav-resources" data-v-376aefab></zui-icon><br data-v-376aefab><br data-v-376aefab>
 Resources
-</center></p>
-
-</div>
-<div class='grid-col span-2'>
-    <p><center><zui-icon icon="zui-nav-rfp"></zui-icon>
-<br/>
-<br/>
+</center></div><div class="grid-col span-2" data-v-376aefab><center data-v-376aefab><zui-icon icon="zui-nav-rfp" data-v-376aefab></zui-icon><br data-v-376aefab><br data-v-376aefab>
 RFPs
-</center></p>
-
-</div>
-<div class='grid-col span-2'>
-    <p><center><zui-icon icon="zui-nav-settings"></zui-icon>
-<br/>
-<br/>
+</center></div><div class="grid-col span-2" data-v-376aefab><center data-v-376aefab><zui-icon icon="zui-nav-settings" data-v-376aefab></zui-icon><br data-v-376aefab><br data-v-376aefab>
 Settings
-</center></p>
-
-</div>
-<div class='grid-col span-2'>
-    <p><center><zui-icon icon="zui-nav-setup"></zui-icon>
-<br/>
-<br/>
+</center></div><div class="grid-col span-2" data-v-376aefab><center data-v-376aefab><zui-icon icon="zui-nav-setup" data-v-376aefab></zui-icon><br data-v-376aefab><br data-v-376aefab>
 Setup
-</center></p>
-
-</div>
-<div class='grid-col span-2'>
-    <p><center><zui-icon icon="zui-nav-single-sign-on"></zui-icon>
-<br/>
-<br/>
+</center></div><div class="grid-col span-2" data-v-376aefab><center data-v-376aefab><zui-icon icon="zui-nav-single-sign-on" data-v-376aefab></zui-icon><br data-v-376aefab><br data-v-376aefab>
 Single Sign-on
-</center></p>
-
-</div>
-<div class='grid-col span-2'>
-    <p><center><zui-icon icon="zui-nav-solutions"></zui-icon>
-<br/>
-<br/>
+</center></div><div class="grid-col span-2" data-v-376aefab><center data-v-376aefab><zui-icon icon="zui-nav-solutions" data-v-376aefab></zui-icon><br data-v-376aefab><br data-v-376aefab>
 Solutions
-</center></p>
-
-</div>
-<div class='grid-col span-2'>
-    <p><center><zui-icon icon="zui-nav-toolbox"></zui-icon>
-<br/>
-<br/>
+</center></div><div class="grid-col span-2" data-v-376aefab><center data-v-376aefab><zui-icon icon="zui-nav-toolbox" data-v-376aefab></zui-icon><br data-v-376aefab><br data-v-376aefab>
 Toolbox
-</center></p>
-
-</div>
-<div class='grid-col span-2'>
-    <p><center><zui-icon icon="zui-nav-users"></zui-icon>
-<br/>
-<br/>
+</center></div><div class="grid-col span-2" data-v-376aefab><center data-v-376aefab><zui-icon icon="zui-nav-users" data-v-376aefab></zui-icon><br data-v-376aefab><br data-v-376aefab>
 Users
-</center></p>
-
-</div>
-<div class='grid-col span-2'>
-    <p><center><zui-icon icon="zui-nav-zywave-sidebar"></zui-icon>
-<br/>
-<br/>
+</center></div><div class="grid-col span-2" data-v-376aefab><center data-v-376aefab><zui-icon icon="zui-nav-zywave-sidebar" data-v-376aefab></zui-icon><br data-v-376aefab><br data-v-376aefab>
 Zywave Sidebar
-</center></p>
-
-</div>
-<div class='grid-col span-2'>
-    <p><center><zui-icon icon="zui-nav-zywave-university"></zui-icon>
-<br/>
-<br/>
+</center></div><div class="grid-col span-2" data-v-376aefab><center data-v-376aefab><zui-icon icon="zui-nav-zywave-university" data-v-376aefab></zui-icon><br data-v-376aefab><br data-v-376aefab>
 Zywave University
-</center></p>
-
-</div>
-
-</div>
-<div class="spacer small"></div></p>
-
-<hr />
-
-<div class="spacer small"></div>
-
-<h2 id="system-icons">System Icons</h2>
-
-<p>Our system icons are used throughout the UI to draw more attention to a specific element or action. Typically our system icons are used within buttons to the left of text labels to draw more attention to them. Or, if the icon is easily identifiable, the icon can be used alone within a button in order to save space.
-<br/>
-<br/></p>
-
-<h3 id="system-icon-style">System Icon Style</h3>
-
-<p>Our system icons are outlined/stroked and take on the color of the element they are supporting.
-For more information on how to create navigation icons view our <a href="https://confluence.zywave.com/x/cwC-Pg">process documentation</a>
-<br/>
-<br/></p>
-
-<h3 id="current-icons-1">Current icons</h3>
-
-<p>Below is a list of our current system icons. If you can&rsquo;t find the icon you are looking for, be sure to check out <a href="https://confluence.zywave.com/x/cQC-Pg">system icon backlog</a> and ask a designer to complete a design for you.
-<br/>
-<br/>
-<div class="grid">
-    <div class='grid-col span-2'>
-    <p><center><zui-icon unresolved icon="zui-check"></zui-icon>
-<br/>
-<br/>
+</center></div></div><div class="spacer small" data-v-4e5b2274></div><hr><div class="spacer small" data-v-4e5b2274></div><h2>System Icons</h2><p>Our system icons are used throughout the UI to draw more attention to a specific element or action. Typically our system icons are used within buttons to the left of text labels to draw more attention to them. Or, if the icon is easily identifiable, the icon can be used alone within a button in order to save space.
+<br><br></p><h3>System Icon Style</h3><p>Our system icons are outlined/stroked and take on the color of the element they are supporting.
+For more information on how to create navigation icons view our <a href="https://confluence.zywave.com/x/cwC-Pg">process documentation</a><br><br></p><h3>Current icons</h3><p>Below is a list of our current system icons. If you can't find the icon you are looking for, be sure to check out <a href="https://confluence.zywave.com/x/cQC-Pg">system icon backlog</a> and ask a designer to complete a design for you.
+<br><br></p><div class="grid" data-v-644860a4><div class="grid-col span-2" data-v-376aefab><center data-v-376aefab><zui-icon unresolved="" icon="zui-check" data-v-376aefab></zui-icon><br data-v-376aefab><br data-v-376aefab>
 Check
-</center></p>
-
-</div>
-<div class='grid-col span-2'>
-    <p><center><zui-icon unresolved icon="zui-remove"></zui-icon>
-<br/>
-<br/>
+</center></div><div class="grid-col span-2" data-v-376aefab><center data-v-376aefab><zui-icon unresolved="" icon="zui-remove" data-v-376aefab></zui-icon><br data-v-376aefab><br data-v-376aefab>
 Remove
-</center></p>
-
-</div>
-<div class='grid-col span-2'>
-    <p><center><zui-icon unresolved icon="zui-close"></zui-icon>
-<br/>
-<br/>
+</center></div><div class="grid-col span-2" data-v-376aefab><center data-v-376aefab><zui-icon unresolved="" icon="zui-close" data-v-376aefab></zui-icon><br data-v-376aefab><br data-v-376aefab>
 Close
-</center></p>
-
-</div>
-<div class='grid-col span-2'>
-    <p><center><zui-icon unresolved icon="zui-add"></zui-icon>
-<br/>
-<br/>
+</center></div><div class="grid-col span-2" data-v-376aefab><center data-v-376aefab><zui-icon unresolved="" icon="zui-add" data-v-376aefab></zui-icon><br data-v-376aefab><br data-v-376aefab>
 Add
-</center></p>
-
-</div>
-<div class='grid-col span-2'>
-    <p><center><zui-icon unresolved icon="zui-edit"></zui-icon>
-<br/>
-<br/>
+</center></div><div class="grid-col span-2" data-v-376aefab><center data-v-376aefab><zui-icon unresolved="" icon="zui-edit" data-v-376aefab></zui-icon><br data-v-376aefab><br data-v-376aefab>
 Edit
-</center></p>
-
-</div>
-<div class='grid-col span-2'>
-    <p><center><zui-icon unresolved icon="zui-search"></zui-icon>
-<br/>
-<br/>
+</center></div><div class="grid-col span-2" data-v-376aefab><center data-v-376aefab><zui-icon unresolved="" icon="zui-search" data-v-376aefab></zui-icon><br data-v-376aefab><br data-v-376aefab>
 Search
-</center></p>
-
-</div>
-<div class='grid-col span-2'>
-    <p><center><zui-icon unresolved icon="zui-download"></zui-icon>
-<br/>
-<br/>
+</center></div><div class="grid-col span-2" data-v-376aefab><center data-v-376aefab><zui-icon unresolved="" icon="zui-download" data-v-376aefab></zui-icon><br data-v-376aefab><br data-v-376aefab>
 Download
-</center></p>
-
-</div>
-<div class='grid-col span-2'>
-    <p><center><zui-icon unresolved icon="zui-upload"></zui-icon>
-<br/>
-<br/>
+</center></div><div class="grid-col span-2" data-v-376aefab><center data-v-376aefab><zui-icon unresolved="" icon="zui-upload" data-v-376aefab></zui-icon><br data-v-376aefab><br data-v-376aefab>
 Upload
-</center></p>
-
-</div>
-<div class='grid-col span-2'>
-    <p><center><zui-icon unresolved icon="zui-external"></zui-icon>
-<br/>
-<br/>
+</center></div><div class="grid-col span-2" data-v-376aefab><center data-v-376aefab><zui-icon unresolved="" icon="zui-external" data-v-376aefab></zui-icon><br data-v-376aefab><br data-v-376aefab>
 External
-</center></p>
-
-</div>
-<div class='grid-col span-2'>
-    <p><center><zui-icon unresolved icon="zui-link"></zui-icon>
-<br/>
-<br/>
+</center></div><div class="grid-col span-2" data-v-376aefab><center data-v-376aefab><zui-icon unresolved="" icon="zui-link" data-v-376aefab></zui-icon><br data-v-376aefab><br data-v-376aefab>
 Link
-</center></p>
-
-</div>
-<div class='grid-col span-2'>
-    <p><center><zui-icon unresolved icon="zui-link"></zui-icon>
-<br/>
-<br/>
+</center></div><div class="grid-col span-2" data-v-376aefab><center data-v-376aefab><zui-icon unresolved="" icon="zui-link" data-v-376aefab></zui-icon><br data-v-376aefab><br data-v-376aefab>
 Share
-</center></p>
-
-</div>
-<div class='grid-col span-2'>
-    <p><center> <zui-icon unresolved icon="zui-delete"></zui-icon>
-<br/>
-<br/>
+</center></div><div class="grid-col span-2" data-v-376aefab><center data-v-376aefab><zui-icon unresolved="" icon="zui-delete" data-v-376aefab></zui-icon><br data-v-376aefab><br data-v-376aefab>
 delete
-</center></p>
-
-</div>
-<div class='grid-col span-2'>
-    <p><center><zui-icon unresolved icon="zui-apps"></zui-icon>
-<br/>
-<br/>
+</center></div><div class="grid-col span-2" data-v-376aefab><center data-v-376aefab><zui-icon unresolved="" icon="zui-apps" data-v-376aefab></zui-icon><br data-v-376aefab><br data-v-376aefab>
 Apps
-</center></p>
-
-</div>
-<div class='grid-col span-2'>
-    <p><center><zui-icon unresolved icon="zui-refresh"></zui-icon>
-<br/>
-<br/>
+</center></div><div class="grid-col span-2" data-v-376aefab><center data-v-376aefab><zui-icon unresolved="" icon="zui-refresh" data-v-376aefab></zui-icon><br data-v-376aefab><br data-v-376aefab>
 Refresh
-</center></p>
-
-</div>
-<div class='grid-col span-2'>
-    <p><center><zui-icon unresolved icon="zui-help"></zui-icon>
-<br/>
-<br/>
+</center></div><div class="grid-col span-2" data-v-376aefab><center data-v-376aefab><zui-icon unresolved="" icon="zui-help" data-v-376aefab></zui-icon><br data-v-376aefab><br data-v-376aefab>
 Help
-</center></p>
-
-</div>
-<div class='grid-col span-2'>
-    <p><center> <zui-icon unresolved icon="zui-warning"></zui-icon>
-<br/>
-<br/>
+</center></div><div class="grid-col span-2" data-v-376aefab><center data-v-376aefab><zui-icon unresolved="" icon="zui-warning" data-v-376aefab></zui-icon><br data-v-376aefab><br data-v-376aefab>
 Warning
-</center></p>
-
-</div>
-<div class='grid-col span-2'>
-    <p><center><zui-icon unresolved icon="zui-info"></zui-icon>
-<br/>
-<br/>
+</center></div><div class="grid-col span-2" data-v-376aefab><center data-v-376aefab><zui-icon unresolved="" icon="zui-info" data-v-376aefab></zui-icon><br data-v-376aefab><br data-v-376aefab>
 Info Circle
-</center></p>
-
-</div>
-<div class='grid-col span-2'>
-    <p><center> <zui-icon unresolved icon="zui-error"></zui-icon>
-<br/>
-<br/>
+</center></div><div class="grid-col span-2" data-v-376aefab><center data-v-376aefab><zui-icon unresolved="" icon="zui-error" data-v-376aefab></zui-icon><br data-v-376aefab><br data-v-376aefab>
 Error
-</center></p>
-
-</div>
-<div class='grid-col span-2'>
-    <p><center> <zui-icon unresolved icon="zui-grip"></zui-icon>
-<br/>
-<br/>
+</center></div><div class="grid-col span-2" data-v-376aefab><center data-v-376aefab><zui-icon unresolved="" icon="zui-grip" data-v-376aefab></zui-icon><br data-v-376aefab><br data-v-376aefab>
 Grips
-</center></p>
-
-</div>
-<div class='grid-col span-2'>
-    <p><center><zui-icon unresolved icon="zui-more"></zui-icon>
-<br/>
-<br/>
+</center></div><div class="grid-col span-2" data-v-376aefab><center data-v-376aefab><zui-icon unresolved="" icon="zui-more" data-v-376aefab></zui-icon><br data-v-376aefab><br data-v-376aefab>
 More
-</center></p>
-
-</div>
-<div class='grid-col span-2'>
-    <p><center><zui-icon unresolved icon="zui-sort"></zui-icon>
-<br/>
-<br/>
+</center></div><div class="grid-col span-2" data-v-376aefab><center data-v-376aefab><zui-icon unresolved="" icon="zui-sort" data-v-376aefab></zui-icon><br data-v-376aefab><br data-v-376aefab>
 Sort
-</center></p>
-
-</div>
-<div class='grid-col span-2'>
-    <p><center><zui-icon unresolved icon="zui-doc"></zui-icon>
-<br/>
-<br/>
+</center></div><div class="grid-col span-2" data-v-376aefab><center data-v-376aefab><zui-icon unresolved="" icon="zui-doc" data-v-376aefab></zui-icon><br data-v-376aefab><br data-v-376aefab>
 Document
-</center></p>
-
-</div>
-<div class='grid-col span-2'>
-    <p><center><zui-icon unresolved icon="zui-ppt"></zui-icon>
-<br/>
-<br/>
+</center></div><div class="grid-col span-2" data-v-376aefab><center data-v-376aefab><zui-icon unresolved="" icon="zui-ppt" data-v-376aefab></zui-icon><br data-v-376aefab><br data-v-376aefab>
 PowerPoint
-</center></p>
-
-</div>
-<div class='grid-col span-2'>
-    <p><center><zui-icon unresolved icon="zui-word"></zui-icon>
-<br/>
-<br/>
+</center></div><div class="grid-col span-2" data-v-376aefab><center data-v-376aefab><zui-icon unresolved="" icon="zui-word" data-v-376aefab></zui-icon><br data-v-376aefab><br data-v-376aefab>
 Word Document
-</center></p>
-
-</div>
-<div class='grid-col span-2'>
-    <p><center><zui-icon unresolved icon="zui-excel"></zui-icon>
-<br/>
-<br/>
+</center></div><div class="grid-col span-2" data-v-376aefab><center data-v-376aefab><zui-icon unresolved="" icon="zui-excel" data-v-376aefab></zui-icon><br data-v-376aefab><br data-v-376aefab>
 Excel File
-</center></p>
-
-</div>
-<div class='grid-col span-2'>
-    <p><center><zui-icon unresolved icon="zui-pdf"></zui-icon>
-<br/>
-<br/>
+</center></div><div class="grid-col span-2" data-v-376aefab><center data-v-376aefab><zui-icon unresolved="" icon="zui-pdf" data-v-376aefab></zui-icon><br data-v-376aefab><br data-v-376aefab>
 PDF
-</center></p>
-
-</div>
-<div class='grid-col span-2'>
-    <p><center><zui-icon unresolved icon="zui-print"></zui-icon>
-<br/>
-<br/>
+</center></div><div class="grid-col span-2" data-v-376aefab><center data-v-376aefab><zui-icon unresolved="" icon="zui-print" data-v-376aefab></zui-icon><br data-v-376aefab><br data-v-376aefab>
 Print
-</center></p>
-
-</div>
-<div class='grid-col span-2'>
-    <p><center><zui-icon unresolved icon="zui-folder"></zui-icon>
-<br/>
-<br/>
+</center></div><div class="grid-col span-2" data-v-376aefab><center data-v-376aefab><zui-icon unresolved="" icon="zui-folder" data-v-376aefab></zui-icon><br data-v-376aefab><br data-v-376aefab>
 Folder
-</center></p>
-
-</div>
-<div class='grid-col span-2'>
-    <p><center><zui-icon unresolved icon="zui-left"></zui-icon>
-<br/>
-<br/>
+</center></div><div class="grid-col span-2" data-v-376aefab><center data-v-376aefab><zui-icon unresolved="" icon="zui-left" data-v-376aefab></zui-icon><br data-v-376aefab><br data-v-376aefab>
 Left
-</center></p>
-
-</div>
-<div class='grid-col span-2'>
-    <p><center><zui-icon unresolved icon="zui-up"></zui-icon>
-<br/>
-<br/>
+</center></div><div class="grid-col span-2" data-v-376aefab><center data-v-376aefab><zui-icon unresolved="" icon="zui-up" data-v-376aefab></zui-icon><br data-v-376aefab><br data-v-376aefab>
 Up
-</center></p>
-
-</div>
-<div class='grid-col span-2'>
-    <p><center><zui-icon unresolved icon="zui-down"></zui-icon>
-<br/>
-<br/>
+</center></div><div class="grid-col span-2" data-v-376aefab><center data-v-376aefab><zui-icon unresolved="" icon="zui-down" data-v-376aefab></zui-icon><br data-v-376aefab><br data-v-376aefab>
 Down
-</center></p>
-
-</div>
-<div class='grid-col span-2'>
-    <p><center><zui-icon unresolved icon="zui-right"></zui-icon>
-<br/>
-<br/>
+</center></div><div class="grid-col span-2" data-v-376aefab><center data-v-376aefab><zui-icon unresolved="" icon="zui-right" data-v-376aefab></zui-icon><br data-v-376aefab><br data-v-376aefab>
 Right
-</center></p>
-
-</div>
-<div class='grid-col span-2'>
-    <p><center><zui-icon unresolved icon="zui-chevron-left"></zui-icon>
-<br/>
-<br/>
+</center></div><div class="grid-col span-2" data-v-376aefab><center data-v-376aefab><zui-icon unresolved="" icon="zui-chevron-left" data-v-376aefab></zui-icon><br data-v-376aefab><br data-v-376aefab>
 Chevron Left
-</center></p>
-
-</div>
-<div class='grid-col span-2'>
-    <p><center><zui-icon unresolved icon="zui-chevron-up"></zui-icon>
-<br/>
-<br/>
+</center></div><div class="grid-col span-2" data-v-376aefab><center data-v-376aefab><zui-icon unresolved="" icon="zui-chevron-up" data-v-376aefab></zui-icon><br data-v-376aefab><br data-v-376aefab>
 Chevron Up
-</center></p>
-
-</div>
-<div class='grid-col span-2'>
-    <p><center><zui-icon unresolved icon="zui-chevron-down"></zui-icon>
-<br/>
-<br/>
+</center></div><div class="grid-col span-2" data-v-376aefab><center data-v-376aefab><zui-icon unresolved="" icon="zui-chevron-down" data-v-376aefab></zui-icon><br data-v-376aefab><br data-v-376aefab>
 Chevron Down
-</center></p>
-
-</div>
-<div class='grid-col span-2'>
-    <p><center><zui-icon unresolved icon="zui-chevron-right"></zui-icon>
-<br/>
-<br/>
+</center></div><div class="grid-col span-2" data-v-376aefab><center data-v-376aefab><zui-icon unresolved="" icon="zui-chevron-right" data-v-376aefab></zui-icon><br data-v-376aefab><br data-v-376aefab>
 Chevron Right
-</center></p>
-
-</div>
-<div class='grid-col span-2'>
-    <p><center><zui-icon unresolved icon="zui-double-chevron-left"></zui-icon>
-<br/>
-<br/>
+</center></div><div class="grid-col span-2" data-v-376aefab><center data-v-376aefab><zui-icon unresolved="" icon="zui-double-chevron-left" data-v-376aefab></zui-icon><br data-v-376aefab><br data-v-376aefab>
 Double Chevron Left
-</center></p>
-
-</div>
-<div class='grid-col span-2'>
-    <p><center><zui-icon unresolved icon="zui-double-chevron-right"></zui-icon>
-<br/>
-<br/>
+</center></div><div class="grid-col span-2" data-v-376aefab><center data-v-376aefab><zui-icon unresolved="" icon="zui-double-chevron-right" data-v-376aefab></zui-icon><br data-v-376aefab><br data-v-376aefab>
 Double Chevron Right
-</center></p>
-
-</div>
-<div class='grid-col span-2'>
-    <p><center><zui-icon unresolved icon="zui-caret-left"></zui-icon>
-<br/>
-<br/>
+</center></div><div class="grid-col span-2" data-v-376aefab><center data-v-376aefab><zui-icon unresolved="" icon="zui-caret-left" data-v-376aefab></zui-icon><br data-v-376aefab><br data-v-376aefab>
 Caret Left
-</center></p>
-
-</div>
-<div class='grid-col span-2'>
-    <p><center><zui-icon unresolved icon="zui-caret-up"></zui-icon>
-<br/>
-<br/>
+</center></div><div class="grid-col span-2" data-v-376aefab><center data-v-376aefab><zui-icon unresolved="" icon="zui-caret-up" data-v-376aefab></zui-icon><br data-v-376aefab><br data-v-376aefab>
 Caret Up
-</center></p>
-
-</div>
-<div class='grid-col span-2'>
-    <p><center><zui-icon unresolved icon="zui-caret-down"></zui-icon>
-<br/>
-<br/>
+</center></div><div class="grid-col span-2" data-v-376aefab><center data-v-376aefab><zui-icon unresolved="" icon="zui-caret-down" data-v-376aefab></zui-icon><br data-v-376aefab><br data-v-376aefab>
 Caret Down
-</center></p>
-
-</div>
-<div class='grid-col span-2'>
-    <p><center><zui-icon unresolved icon="zui-caret-right"></zui-icon>
-<br/>
-<br/>
+</center></div><div class="grid-col span-2" data-v-376aefab><center data-v-376aefab><zui-icon unresolved="" icon="zui-caret-right" data-v-376aefab></zui-icon><br data-v-376aefab><br data-v-376aefab>
 Caret Right
-</center></p>
-
-</div>
-<div class='grid-col span-2'>
-    <p><center><zui-icon unresolved icon="zui-align"></zui-icon>
-<br/>
-<br/>
+</center></div><div class="grid-col span-2" data-v-376aefab><center data-v-376aefab><zui-icon unresolved="" icon="zui-align" data-v-376aefab></zui-icon><br data-v-376aefab><br data-v-376aefab>
 Building
-</center></p>
-
-</div>
-<div class='grid-col span-2'>
-    <p><center><zui-icon unresolved icon="zui-dynamic-list"></zui-icon>
-<br/>
-<br/>
+</center></div><div class="grid-col span-2" data-v-376aefab><center data-v-376aefab><zui-icon unresolved="" icon="zui-dynamic-list" data-v-376aefab></zui-icon><br data-v-376aefab><br data-v-376aefab>
 Dynamic List
-</center></p>
-
-</div>
-<div class='grid-col span-2'>
-    <p><center><zui-icon unresolved icon="zui-list"></zui-icon>
-<br/>
-<br/>
+</center></div><div class="grid-col span-2" data-v-376aefab><center data-v-376aefab><zui-icon unresolved="" icon="zui-list" data-v-376aefab></zui-icon><br data-v-376aefab><br data-v-376aefab>
 List
-</center></p>
-
-</div>
-<div class='grid-col span-2'>
-    <p><center><zui-icon unresolved icon="zui-lock"></zui-icon>
-<br/>
-<br/>
+</center></div><div class="grid-col span-2" data-v-376aefab><center data-v-376aefab><zui-icon unresolved="" icon="zui-lock" data-v-376aefab></zui-icon><br data-v-376aefab><br data-v-376aefab>
 Locked
-</center></p>
-
-</div>
-<div class='grid-col span-2'>
-    <p><center><zui-icon unresolved icon="zui-unlock"></zui-icon>
-<br/>
-<br/>
+</center></div><div class="grid-col span-2" data-v-376aefab><center data-v-376aefab><zui-icon unresolved="" icon="zui-unlock" data-v-376aefab></zui-icon><br data-v-376aefab><br data-v-376aefab>
 Unlocked
-</center></p>
-
-</div>
-<div class='grid-col span-2'>
-    <p><center><zui-icon unresolved icon="zui-mail"></zui-icon>
-<br/>
-<br/>
+</center></div><div class="grid-col span-2" data-v-376aefab><center data-v-376aefab><zui-icon unresolved="" icon="zui-mail" data-v-376aefab></zui-icon><br data-v-376aefab><br data-v-376aefab>
 Mail
-</center></p>
-
-</div>
-<div class='grid-col span-2'>
-    <p><center><zui-icon unresolved icon="zui-switch-profile"></zui-icon>
-<br/>
-<br/>
+</center></div><div class="grid-col span-2" data-v-376aefab><center data-v-376aefab><zui-icon unresolved="" icon="zui-switch-profile" data-v-376aefab></zui-icon><br data-v-376aefab><br data-v-376aefab>
 Switch Profile
-</center></p>
-
-</div>
-<div class='grid-col span-2'>
-    <p><center><zui-icon unresolved icon="zui-rocket"></zui-icon>
-<br/>
-<br/>
+</center></div><div class="grid-col span-2" data-v-376aefab><center data-v-376aefab><zui-icon unresolved="" icon="zui-rocket" data-v-376aefab></zui-icon><br data-v-376aefab><br data-v-376aefab>
 Rocket
-</center></p>
-
-</div>
-<div class='grid-col span-2'>
-    <p><center><zui-icon unresolved icon="zui-user"></zui-icon>
-<br/>
-<br/>
+</center></div><div class="grid-col span-2" data-v-376aefab><center data-v-376aefab><zui-icon unresolved="" icon="zui-user" data-v-376aefab></zui-icon><br data-v-376aefab><br data-v-376aefab>
 User
-</center></p>
-
-</div>
-<div class='grid-col span-2'>
-    <p><center><zui-icon unresolved icon="zui-filter"></zui-icon>
-<br/>
-<br/>
+</center></div><div class="grid-col span-2" data-v-376aefab><center data-v-376aefab><zui-icon unresolved="" icon="zui-filter" data-v-376aefab></zui-icon><br data-v-376aefab><br data-v-376aefab>
 Filter
-</center></p>
-
-</div>
-<div class='grid-col span-2'>
-    <p><center><zui-icon unresolved icon="zui-add-circle"></zui-icon>
-<br/>
-<br/>
+</center></div><div class="grid-col span-2" data-v-376aefab><center data-v-376aefab><zui-icon unresolved="" icon="zui-add-circle" data-v-376aefab></zui-icon><br data-v-376aefab><br data-v-376aefab>
 Add Circle
-</center></p>
-
-</div>
-<div class='grid-col span-2'>
-    <p><center><zui-icon unresolved icon="zui-remove-circle"></zui-icon>
-<br/>
-<br/>
+</center></div><div class="grid-col span-2" data-v-376aefab><center data-v-376aefab><zui-icon unresolved="" icon="zui-remove-circle" data-v-376aefab></zui-icon><br data-v-376aefab><br data-v-376aefab>
 Remove Cirlce
-</center></p>
-
-</div>
-<div class='grid-col span-2'>
-    <p><center><zui-icon unresolved icon="zui-check-circle"></zui-icon>
-<br/>
-<br/>
+</center></div><div class="grid-col span-2" data-v-376aefab><center data-v-376aefab><zui-icon unresolved="" icon="zui-check-circle" data-v-376aefab></zui-icon><br data-v-376aefab><br data-v-376aefab>
 Check Circle
-</center></p>
-
-</div>
-<div class='grid-col span-2'>
-    <p><center><zui-icon unresolved icon="zui-calendar"></zui-icon>
-<br/>
-<br/>
+</center></div><div class="grid-col span-2" data-v-376aefab><center data-v-376aefab><zui-icon unresolved="" icon="zui-calendar" data-v-376aefab></zui-icon><br data-v-376aefab><br data-v-376aefab>
 Calendar
-</center></p>
-
-</div>
-<div class='grid-col span-2'>
-    <p><center><zui-icon unresolved icon="zui-wrench"></zui-icon>
-<br/>
-<br/>
+</center></div><div class="grid-col span-2" data-v-376aefab><center data-v-376aefab><zui-icon unresolved="" icon="zui-wrench" data-v-376aefab></zui-icon><br data-v-376aefab><br data-v-376aefab>
 Wrench
-</center></p>
-
-</div>
-
-</div>
-<div class="spacer small"></div></p>
-
-                    </div>
-                </section>
-            </zui-shell-content><zui-shell-footer>
-    <div>
-        &copy; 1995 - 2020 Zywave, Inc. All rights reserved.
-    </div>
-    <a class="zui-link" target="_blank" href="http://www.zywave.com/terms-conditions/">Terms and Conditions</a>
-    <a class="zui-link" target="_blank" href="http://www.zywave.com/privacy-statement/">Privacy Statement</a>
-    <a class="zui-link" target="_blank" href="http://www.zywave.com/dmca-notice/">DMCA</a></div>
-    <a class="zui-link" target="_blank" href="http://www.zywave.com/cookie-usage/">Cookie Usage</a>
-    <a class="zui-link" href="mailto:support@zywave.com">Contact</a>
-</zui-shell-footer>
-<script src="https://unpkg.com/@zywave/zui-bundle@next/dist/zui-loader.js"></script>
-</zui-shell>
-    </body>
+</center></div></div><div class="spacer small" data-v-4e5b2274></div></div></section><section class="content-container" data-v-3d639dd6><!----></section></zui-pages></section></div></section></zui-shell-content><zui-shell-footer data-v-617a1e50><div data-v-617a1e50>
+      © 1995 - 2020 Zywave, Inc. All rights reserved.
+    </div><a target="_blank" href="http://www.zywave.com/terms-conditions/" class="zui-link" data-v-617a1e50>Terms and Conditions</a><a target="_blank" href="http://www.zywave.com/privacy-statement/" class="zui-link" data-v-617a1e50>Privacy Statement</a><a target="_blank" href="http://www.zywave.com/dmca-notice/" class="zui-link" data-v-617a1e50>DMCA</a><a target="_blank" href="http://www.zywave.com/cookie-usage/" class="zui-link" data-v-617a1e50>Cookie Usage</a><a href="mailto:support@zywave.com" class="zui-link" data-v-617a1e50>Contact</a></zui-shell-footer></zui-shell>
+    <script>window.__INITIAL_STATE__={"data":{"markDown":{"id":"32e07ccebce216a7d2282c920fe0e48a","title":"Icons","hideTitle":null,"subtitle":"","content":"\r\n## Icon Overview\r\n\r\nIcons are one half of our visual library within ZUI. Icons can be broken up into two main categories: Navigation and System.\r\n\r\n\u003CSpacer \u002F\u003E\r\n\r\n## Navigation Icons\r\n\r\nOur navigation icons add a visual component to the links within our side nav. Combined with their text labels they will speed up recognition and processing of the link text. They become especially important when the user has collapsed the sidenav. They should be easily recognizable images that will allow the user to naivigate throughout the site without needing to expand the navigation.\r\n\u003Cbr\u002F\u003E\r\n\u003Cbr\u002F\u003E\r\n\r\n### Navigation Icon Style\r\n\r\nOur navigation icons are solid\u002Ffilled to add more weight to the sidenav.\r\nFor more information on how to create navigation icons view our [process documentation](https:\u002F\u002Fconfluence.zywave.com\u002Fx\u002FagC-Pg)\r\n\u003Cbr\u002F\u003E\r\n\u003Cbr\u002F\u003E\r\n\r\n### Current icons\r\n\r\nBelow is a list of our current navigation icons. If you can't find the icon you are looking for, be sure to check out [navigation icon backlog](https:\u002F\u002Fconfluence.zywave.com\u002Fx\u002FaAC-Pg) and ask a designer to complete a design for you.\r\n\u003Cbr\u002F\u003E\r\n\u003Cbr\u002F\u003E\r\n\r\n\u003CGrid\u003E\r\n\u003CGridCol col=\"span-2\"\u003E\r\n\r\n\u003Ccenter\u003E\u003Czui-icon icon=\"zui-nav-accounts\"\u003E\u003C\u002Fzui-icon\u003E\r\n\u003Cbr\u002F\u003E\r\n\u003Cbr\u002F\u003E\r\nAccounts\r\n\u003C\u002Fcenter\u003E\r\n\r\n\u003C\u002FGridCol\u003E\r\n\r\n\u003CGridCol col=\"span-2\"\u003E\r\n\r\n\u003Ccenter\u003E \u003Czui-icon icon=\"zui-nav-activities\"\u003E\u003C\u002Fzui-icon\u003E\r\n\u003Cbr\u002F\u003E\r\n\u003Cbr\u002F\u003E\r\nActivities\r\n\u003C\u002Fcenter\u003E\r\n\r\n\u003C\u002FGridCol\u003E\r\n\r\n\u003CGridCol col=\"span-2\"\u003E\r\n\r\n\u003Ccenter\u003E\u003Czui-icon icon=\"zui-nav-admin\"\u003E\u003C\u002Fzui-icon\u003E\r\n\u003Cbr\u002F\u003E\r\n\u003Cbr\u002F\u003E\r\nAdmin\r\n\u003C\u002Fcenter\u003E\r\n\r\n\u003C\u002FGridCol\u003E\r\n\r\n\u003CGridCol col=\"span-2\"\u003E\r\n\r\n\u003Ccenter\u003E\u003Czui-icon icon=\"zui-nav-administrators\"\u003E\u003C\u002Fzui-icon\u003E\r\n\u003Cbr\u002F\u003E\r\n\u003Cbr\u002F\u003E\r\nAdministrators\r\n\u003C\u002Fcenter\u003E\r\n\r\n\u003C\u002FGridCol\u003E\r\n\r\n\u003CGridCol col=\"span-2\"\u003E\r\n\r\n\u003Ccenter\u003E\u003Czui-icon icon=\"zui-nav-book\"\u003E\u003C\u002Fzui-icon\u003E\r\n\u003Cbr\u002F\u003E\r\n\u003Cbr\u002F\u003E\r\nBook\r\n\u003C\u002Fcenter\u003E\r\n\r\n\u003C\u002FGridCol\u003E\r\n\r\n\u003CGridCol col=\"span-2\"\u003E\r\n\r\n\u003Ccenter\u003E\u003Czui-icon icon=\"zui-nav-carrier\"\u003E\u003C\u002Fzui-icon\u003E\r\n\u003Cbr\u002F\u003E\r\n\u003Cbr\u002F\u003E\r\nCarriers\r\n\u003C\u002Fcenter\u003E\r\n\r\n\u003C\u002FGridCol\u003E\r\n\r\n\u003CGridCol col=\"span-2\"\u003E\r\n\r\n\u003Ccenter\u003E\u003Czui-icon icon=\"zui-nav-client-portal\"\u003E\u003C\u002Fzui-icon\u003E\r\n\u003Cbr\u002F\u003E\r\n\u003Cbr\u002F\u003E\r\nClient Portal\r\n\u003C\u002Fcenter\u003E\r\n\r\n\u003C\u002FGridCol\u003E\r\n\r\n\u003CGridCol col=\"span-2\"\u003E\r\n\r\n\u003Ccenter\u003E\u003Czui-icon icon=\"zui-nav-color-themes\"\u003E\u003C\u002Fzui-icon\u003E\r\n\u003Cbr\u002F\u003E\r\n\u003Cbr\u002F\u003E\r\nColor Themes\r\n\u003C\u002Fcenter\u003E\r\n\r\n\u003C\u002FGridCol\u003E\r\n\r\n\u003CGridCol col=\"span-2\"\u003E\r\n\r\n\u003Ccenter\u003E\u003Czui-icon icon=\"zui-nav-content\"\u003E\u003C\u002Fzui-icon\u003E\r\n\u003Cbr\u002F\u003E\r\n\u003Cbr\u002F\u003E\r\nContent\r\n\u003C\u002Fcenter\u003E\r\n\r\n\u003C\u002FGridCol\u003E\r\n\r\n\u003CGridCol col=\"span-2\"\u003E\r\n\r\n\u003Ccenter\u003E\u003Czui-icon icon=\"zui-nav-communications\"\u003E\u003C\u002Fzui-icon\u003E\r\n\u003Cbr\u002F\u003E\r\n\u003Cbr\u002F\u003E\r\nCommunications\r\n\u003C\u002Fcenter\u003E\r\n\r\n\u003C\u002FGridCol\u003E\r\n\r\n\u003CGridCol col=\"span-2\"\u003E\r\n\r\n\u003Ccenter\u003E \u003Czui-icon icon=\"zui-nav-community\"\u003E\u003C\u002Fzui-icon\u003E\r\n\u003Cbr\u002F\u003E\r\n\u003Cbr\u002F\u003E\r\nCommunity\r\n\u003C\u002Fcenter\u003E\r\n\r\n\u003C\u002FGridCol\u003E\r\n\r\n\u003CGridCol col=\"span-2\"\u003E\r\n\r\n\u003Ccenter\u003E\u003Czui-icon icon=\"zui-nav-components\"\u003E\u003C\u002Fzui-icon\u003E\r\n\u003Cbr\u002F\u003E\r\n\u003Cbr\u002F\u003E\r\nComponents\r\n\u003C\u002Fcenter\u003E\r\n\r\n\u003C\u002FGridCol\u003E\r\n\r\n\u003CGridCol col=\"span-2\"\u003E\r\n\r\n\u003Ccenter\u003E\u003Czui-icon icon=\"zui-nav-course-catalog\"\u003E\u003C\u002Fzui-icon\u003E\r\n\u003Cbr\u002F\u003E\r\n\u003Cbr\u002F\u003E\r\nCourse Catalog\r\n\u003C\u002Fcenter\u003E\r\n\r\n\u003C\u002FGridCol\u003E\r\n\r\n\u003CGridCol col=\"span-2\"\u003E\r\n\r\n\u003Ccenter\u003E\u003Czui-icon icon=\"zui-nav-course-packages\"\u003E\u003C\u002Fzui-icon\u003E\r\n\u003Cbr\u002F\u003E\r\n\u003Cbr\u002F\u003E\r\nCourse Packages\r\n\u003C\u002Fcenter\u003E\r\n\r\n\u003C\u002FGridCol\u003E\r\n\r\n\u003CGridCol col=\"span-2\"\u003E\r\n\r\n\u003Ccenter\u003E\u003Czui-icon icon=\"zui-nav-credentials\"\u003E\u003C\u002Fzui-icon\u003E\r\n\u003Cbr\u002F\u003E\r\n\u003Cbr\u002F\u003E\r\nCredentials\r\n\u003C\u002Fcenter\u003E\r\n\r\n\u003C\u002FGridCol\u003E\r\n\r\n\u003CGridCol col=\"span-2\"\u003E\r\n\r\n\u003Ccenter\u003E\u003Czui-icon icon=\"zui-nav-disease-profiles\"\u003E\u003C\u002Fzui-icon\u003E\r\n\u003Cbr\u002F\u003E\r\n\u003Cbr\u002F\u003E\r\nDisease Profiles\r\n\u003C\u002Fcenter\u003E\r\n\r\n\u003C\u002FGridCol\u003E\r\n\r\n\u003CGridCol col=\"span-2\"\u003E\r\n\r\n\u003Ccenter\u003E\u003Czui-icon icon=\"zui-nav-developers\"\u003E\u003C\u002Fzui-icon\u003E\r\n\u003Cbr\u002F\u003E\r\n\u003Cbr\u002F\u003E\r\nDevelopers\r\n\u003C\u002Fcenter\u003E\r\n\r\n\u003C\u002FGridCol\u003E\r\n\r\n\u003CGridCol col=\"span-2\"\u003E\r\n\r\n\u003Ccenter\u003E \u003Czui-icon icon=\"zui-nav-domains\"\u003E\u003C\u002Fzui-icon\u003E\r\n\u003Cbr\u002F\u003E\r\n\u003Cbr\u002F\u003E\r\nDomains\r\n\u003C\u002Fcenter\u003E\r\n\r\n\u003C\u002FGridCol\u003E\r\n\r\n\u003CGridCol col=\"span-2\"\u003E\r\n\r\n\u003Ccenter\u003E\u003Czui-icon icon=\"zui-nav-files\"\u003E\u003C\u002Fzui-icon\u003E\r\n\u003Cbr\u002F\u003E\r\n\u003Cbr\u002F\u003E\r\nFiles\r\n\u003C\u002Fcenter\u003E\r\n\r\n\u003C\u002FGridCol\u003E\r\n\r\n\u003CGridCol col=\"span-2\"\u003E\r\n\r\n\u003Ccenter\u003E\u003Czui-icon icon=\"zui-nav-foundations\"\u003E\u003C\u002Fzui-icon\u003E\r\n\u003Cbr\u002F\u003E\r\n\u003Cbr\u002F\u003E\r\nFoundations\r\n\u003C\u002Fcenter\u003E\r\n\r\n\u003C\u002FGridCol\u003E\r\n\r\n\u003CGridCol col=\"span-2\"\u003E\r\n\r\n\u003Ccenter\u003E\u003Czui-icon icon=\"zui-nav-get-started\"\u003E\u003C\u002Fzui-icon\u003E\r\n\u003Cbr\u002F\u003E\r\n\u003Cbr\u002F\u003E\r\nGet Started\r\n\u003C\u002Fcenter\u003E\r\n\r\n\u003C\u002FGridCol\u003E\r\n\r\n\u003CGridCol col=\"span-2\"\u003E\r\n\r\n\u003Ccenter\u003E\u003Czui-icon icon=\"zui-nav-group-management\"\u003E\u003C\u002Fzui-icon\u003E\r\n\u003Cbr\u002F\u003E\r\n\u003Cbr\u002F\u003E\r\nGroup Management\r\n\u003C\u002Fcenter\u003E\r\n\r\n\u003C\u002FGridCol\u003E\r\n\r\n\u003CGridCol col=\"span-2\"\u003E\r\n\r\n\u003Ccenter\u003E\u003Czui-icon icon=\"zui-nav-help\"\u003E\u003C\u002Fzui-icon\u003E\r\n\u003Cbr\u002F\u003E\r\n\u003Cbr\u002F\u003E\r\nHelp\r\n\u003C\u002Fcenter\u003E\r\n\r\n\u003C\u002FGridCol\u003E\r\n\r\n\u003CGridCol col=\"span-2\"\u003E\r\n\r\n\u003Ccenter\u003E\u003Czui-icon icon=\"zui-nav-home\"\u003E\u003C\u002Fzui-icon\u003E\r\n\u003Cbr\u002F\u003E\r\n\u003Cbr\u002F\u003E\r\nHome\r\n\u003C\u002Fcenter\u003E\r\n\r\n\u003C\u002FGridCol\u003E\r\n\r\n\u003CGridCol col=\"span-2\"\u003E\r\n\r\n\u003Ccenter\u003E\u003Czui-icon icon=\"zui-nav-hr-hotline\"\u003E\u003C\u002Fzui-icon\u003E\r\n\u003Cbr\u002F\u003E\r\n\u003Cbr\u002F\u003E\r\nHR Hotline\r\n\u003C\u002Fcenter\u003E\r\n\r\n\u003C\u002FGridCol\u003E\r\n\r\n\u003CGridCol col=\"span-2\"\u003E\r\n\r\n\u003Ccenter\u003E\u003Czui-icon icon=\"zui-nav-lists\"\u003E\u003C\u002Fzui-icon\u003E\r\n\u003Cbr\u002F\u003E\r\n\u003Cbr\u002F\u003E\r\nLists\r\n\u003C\u002Fcenter\u003E\r\n\r\n\u003C\u002FGridCol\u003E\r\n\r\n\u003CGridCol col=\"span-2\"\u003E\r\n\r\n\u003Ccenter\u003E\u003Czui-icon icon=\"zui-nav-manage-user\"\u003E\u003C\u002Fzui-icon\u003E\r\n\u003Cbr\u002F\u003E\r\n\u003Cbr\u002F\u003E\r\nManage Users\r\n\u003C\u002Fcenter\u003E\r\n\r\n\u003C\u002FGridCol\u003E\r\n\r\n\u003CGridCol col=\"span-2\"\u003E\r\n\r\n\u003Ccenter\u003E\u003Czui-icon icon=\"zui-nav-menu\"\u003E\u003C\u002Fzui-icon\u003E\r\n\u003Cbr\u002F\u003E\r\n\u003Cbr\u002F\u003E\r\nMenu\r\n\u003C\u002Fcenter\u003E\r\n\r\n\u003C\u002FGridCol\u003E\r\n\r\n\u003CGridCol col=\"span-2\"\u003E\r\n\r\n\u003Ccenter\u003E\u003Czui-icon icon=\"zui-nav-mods\"\u003E\u003C\u002Fzui-icon\u003E\r\n\u003Cbr\u002F\u003E\r\n\u003Cbr\u002F\u003E\r\nMods\r\n\u003C\u002Fcenter\u003E\r\n\r\n\u003C\u002FGridCol\u003E\r\n\r\n\u003CGridCol col=\"span-2\"\u003E\r\n\r\n\u003Ccenter\u003E\u003Czui-icon icon=\"zui-nav-notifications\"\u003E\u003C\u002Fzui-icon\u003E\r\n\u003Cbr\u002F\u003E\r\n\u003Cbr\u002F\u003E\r\nNotifications\r\n\u003C\u002Fcenter\u003E\r\n\r\n\u003C\u002FGridCol\u003E\r\n\r\n\u003CGridCol col=\"span-2\"\u003E\r\n\r\n\u003Ccenter\u003E\u003Czui-icon icon=\"zui-nav-organization\"\u003E\u003C\u002Fzui-icon\u003E\r\n\u003Cbr\u002F\u003E\r\n\u003Cbr\u002F\u003E\r\nOrganization\r\n\u003C\u002Fcenter\u003E\r\n\r\n\u003C\u002FGridCol\u003E\r\n\r\n\u003CGridCol col=\"span-2\"\u003E\r\n\r\n\u003Ccenter\u003E\u003Czui-icon icon=\"zui-nav-org-overview\"\u003E\u003C\u002Fzui-icon\u003E\r\n\u003Cbr\u002F\u003E\r\n\u003Cbr\u002F\u003E\r\nOrganization Overview\r\n\u003C\u002Fcenter\u003E\r\n\r\n\u003C\u002FGridCol\u003E\r\n\r\n\u003CGridCol col=\"span-2\"\u003E\r\n\r\n\u003Ccenter\u003E\u003Czui-icon icon=\"zui-nav-patterns\"\u003E\u003C\u002Fzui-icon\u003E\r\n\u003Cbr\u002F\u003E\r\n\u003Cbr\u002F\u003E\r\nPatterns\r\n\u003C\u002Fcenter\u003E\r\n\r\n\u003C\u002FGridCol\u003E\r\n\r\n\u003CGridCol col=\"span-2\"\u003E\r\n\r\n\u003Ccenter\u003E\u003Czui-icon icon=\"zui-nav-portal-admin\"\u003E\u003C\u002Fzui-icon\u003E\r\n\u003Cbr\u002F\u003E\r\n\u003Cbr\u002F\u003E\r\nPortal Admin\r\n\u003C\u002Fcenter\u003E\r\n\r\n\u003C\u002FGridCol\u003E\r\n\r\n\u003CGridCol col=\"span-2\"\u003E\r\n\r\n\u003Ccenter\u003E\u003Czui-icon icon=\"zui-nav-presentations\"\u003E\u003C\u002Fzui-icon\u003E\r\n\u003Cbr\u002F\u003E\r\n\u003Cbr\u002F\u003E\r\nPresentations\r\n\u003C\u002Fcenter\u003E\r\n\r\n\u003C\u002FGridCol\u003E\r\n\r\n\u003CGridCol col=\"span-2\"\u003E\r\n\r\n\u003Ccenter\u003E\u003Czui-icon icon=\"zui-nav-proposals\"\u003E\u003C\u002Fzui-icon\u003E\r\n\u003Cbr\u002F\u003E\r\n\u003Cbr\u002F\u003E\r\nProposal\r\n\u003C\u002Fcenter\u003E\r\n\r\n\u003C\u002FGridCol\u003E\r\n\r\n\u003CGridCol col=\"span-2\"\u003E\r\n\r\n\u003Ccenter\u003E\u003Czui-icon icon=\"zui-nav-prospecting\"\u003E\u003C\u002Fzui-icon\u003E\r\n\u003Cbr\u002F\u003E\r\n\u003Cbr\u002F\u003E\r\nProspecting\r\n\u003C\u002Fcenter\u003E\r\n\r\n\u003C\u002FGridCol\u003E\r\n\r\n\u003CGridCol col=\"span-2\"\u003E\r\n\r\n\u003Ccenter\u003E\u003Czui-icon icon=\"zui-nav-registered-apps\"\u003E\u003C\u002Fzui-icon\u003E\r\n\u003Cbr\u002F\u003E\r\n\u003Cbr\u002F\u003E\r\nRegistered Apps\r\n\u003C\u002Fcenter\u003E\r\n\r\n\u003C\u002FGridCol\u003E\r\n\r\n\u003CGridCol col=\"span-2\"\u003E\r\n\r\n\u003Ccenter\u003E\u003Czui-icon icon=\"zui-nav-reports\"\u003E\u003C\u002Fzui-icon\u003E\r\n\u003Cbr\u002F\u003E\r\n\u003Cbr\u002F\u003E\r\nReporting\r\n\u003C\u002Fcenter\u003E\r\n\r\n\u003C\u002FGridCol\u003E\r\n\r\n\u003CGridCol col=\"span-2\"\u003E\r\n\r\n\u003Ccenter\u003E\u003Czui-icon icon=\"zui-nav-resources\"\u003E\u003C\u002Fzui-icon\u003E\r\n\u003Cbr\u002F\u003E\r\n\u003Cbr\u002F\u003E\r\nResources\r\n\u003C\u002Fcenter\u003E\r\n\r\n\u003C\u002FGridCol\u003E\r\n\r\n\u003CGridCol col=\"span-2\"\u003E\r\n\r\n\u003Ccenter\u003E\u003Czui-icon icon=\"zui-nav-rfp\"\u003E\u003C\u002Fzui-icon\u003E\r\n\u003Cbr\u002F\u003E\r\n\u003Cbr\u002F\u003E\r\nRFPs\r\n\u003C\u002Fcenter\u003E\r\n\r\n\u003C\u002FGridCol\u003E\r\n\r\n\u003CGridCol col=\"span-2\"\u003E\r\n\r\n\u003Ccenter\u003E\u003Czui-icon icon=\"zui-nav-settings\"\u003E\u003C\u002Fzui-icon\u003E\r\n\u003Cbr\u002F\u003E\r\n\u003Cbr\u002F\u003E\r\nSettings\r\n\u003C\u002Fcenter\u003E\r\n\r\n\u003C\u002FGridCol\u003E\r\n\r\n\u003CGridCol col=\"span-2\"\u003E\r\n\r\n\u003Ccenter\u003E\u003Czui-icon icon=\"zui-nav-setup\"\u003E\u003C\u002Fzui-icon\u003E\r\n\u003Cbr\u002F\u003E\r\n\u003Cbr\u002F\u003E\r\nSetup\r\n\u003C\u002Fcenter\u003E\r\n\r\n\u003C\u002FGridCol\u003E\r\n\r\n\u003CGridCol col=\"span-2\"\u003E\r\n\r\n\u003Ccenter\u003E\u003Czui-icon icon=\"zui-nav-single-sign-on\"\u003E\u003C\u002Fzui-icon\u003E\r\n\u003Cbr\u002F\u003E\r\n\u003Cbr\u002F\u003E\r\nSingle Sign-on\r\n\u003C\u002Fcenter\u003E\r\n\r\n\u003C\u002FGridCol\u003E\r\n\r\n\u003CGridCol col=\"span-2\"\u003E\r\n\r\n\u003Ccenter\u003E\u003Czui-icon icon=\"zui-nav-solutions\"\u003E\u003C\u002Fzui-icon\u003E\r\n\u003Cbr\u002F\u003E\r\n\u003Cbr\u002F\u003E\r\nSolutions\r\n\u003C\u002Fcenter\u003E\r\n\r\n\u003C\u002FGridCol\u003E\r\n\r\n\u003CGridCol col=\"span-2\"\u003E\r\n\r\n\u003Ccenter\u003E\u003Czui-icon icon=\"zui-nav-toolbox\"\u003E\u003C\u002Fzui-icon\u003E\r\n\u003Cbr\u002F\u003E\r\n\u003Cbr\u002F\u003E\r\nToolbox\r\n\u003C\u002Fcenter\u003E\r\n\r\n\u003C\u002FGridCol\u003E\r\n\r\n\u003CGridCol col=\"span-2\"\u003E\r\n\r\n\u003Ccenter\u003E\u003Czui-icon icon=\"zui-nav-users\"\u003E\u003C\u002Fzui-icon\u003E\r\n\u003Cbr\u002F\u003E\r\n\u003Cbr\u002F\u003E\r\nUsers\r\n\u003C\u002Fcenter\u003E\r\n\r\n\u003C\u002FGridCol\u003E\r\n\r\n\u003CGridCol col=\"span-2\"\u003E\r\n\r\n\u003Ccenter\u003E\u003Czui-icon icon=\"zui-nav-zywave-sidebar\"\u003E\u003C\u002Fzui-icon\u003E\r\n\u003Cbr\u002F\u003E\r\n\u003Cbr\u002F\u003E\r\nZywave Sidebar\r\n\u003C\u002Fcenter\u003E\r\n\r\n\u003C\u002FGridCol\u003E\r\n\r\n\u003CGridCol col=\"span-2\"\u003E\r\n\r\n\u003Ccenter\u003E\u003Czui-icon icon=\"zui-nav-zywave-university\"\u003E\u003C\u002Fzui-icon\u003E\r\n\u003Cbr\u002F\u003E\r\n\u003Cbr\u002F\u003E\r\nZywave University\r\n\u003C\u002Fcenter\u003E\r\n\r\n\u003C\u002FGridCol\u003E\r\n\u003C\u002FGrid\u003E\r\n\u003CSpacer size=\"small\"\u002F\u003E\r\n\r\n---\r\n\r\n\u003CSpacer size=\"small\"\u002F\u003E\r\n\r\n## System Icons\r\n\r\nOur system icons are used throughout the UI to draw more attention to a specific element or action. Typically our system icons are used within buttons to the left of text labels to draw more attention to them. Or, if the icon is easily identifiable, the icon can be used alone within a button in order to save space.\r\n\u003Cbr\u002F\u003E\r\n\u003Cbr\u002F\u003E\r\n\r\n### System Icon Style\r\n\r\nOur system icons are outlined\u002Fstroked and take on the color of the element they are supporting.\r\nFor more information on how to create navigation icons view our [process documentation](https:\u002F\u002Fconfluence.zywave.com\u002Fx\u002FcwC-Pg)\r\n\u003Cbr\u002F\u003E\r\n\u003Cbr\u002F\u003E\r\n\r\n### Current icons\r\n\r\nBelow is a list of our current system icons. If you can't find the icon you are looking for, be sure to check out [system icon backlog](https:\u002F\u002Fconfluence.zywave.com\u002Fx\u002FcQC-Pg) and ask a designer to complete a design for you.\r\n\u003Cbr\u002F\u003E\r\n\u003Cbr\u002F\u003E\r\n\r\n\u003CGrid\u003E\r\n\u003CGridCol col=\"span-2\"\u003E\r\n\r\n\u003Ccenter\u003E\u003Czui-icon unresolved icon=\"zui-check\"\u003E\u003C\u002Fzui-icon\u003E\r\n\u003Cbr\u002F\u003E\r\n\u003Cbr\u002F\u003E\r\nCheck\r\n\u003C\u002Fcenter\u003E\r\n\r\n\u003C\u002FGridCol\u003E\r\n\r\n\u003CGridCol col=\"span-2\"\u003E\r\n\r\n\u003Ccenter\u003E\u003Czui-icon unresolved icon=\"zui-remove\"\u003E\u003C\u002Fzui-icon\u003E\r\n\u003Cbr\u002F\u003E\r\n\u003Cbr\u002F\u003E\r\nRemove\r\n\u003C\u002Fcenter\u003E\r\n\r\n\u003C\u002FGridCol\u003E\r\n\r\n\u003CGridCol col=\"span-2\"\u003E\r\n\r\n\u003Ccenter\u003E\u003Czui-icon unresolved icon=\"zui-close\"\u003E\u003C\u002Fzui-icon\u003E\r\n\u003Cbr\u002F\u003E\r\n\u003Cbr\u002F\u003E\r\nClose\r\n\u003C\u002Fcenter\u003E\r\n\r\n\u003C\u002FGridCol\u003E\r\n\r\n\u003CGridCol col=\"span-2\"\u003E\r\n\r\n\u003Ccenter\u003E\u003Czui-icon unresolved icon=\"zui-add\"\u003E\u003C\u002Fzui-icon\u003E\r\n\u003Cbr\u002F\u003E\r\n\u003Cbr\u002F\u003E\r\nAdd\r\n\u003C\u002Fcenter\u003E\r\n\r\n\u003C\u002FGridCol\u003E\r\n\r\n\u003CGridCol col=\"span-2\"\u003E\r\n\r\n\u003Ccenter\u003E\u003Czui-icon unresolved icon=\"zui-edit\"\u003E\u003C\u002Fzui-icon\u003E\r\n\u003Cbr\u002F\u003E\r\n\u003Cbr\u002F\u003E\r\nEdit\r\n\u003C\u002Fcenter\u003E\r\n\r\n\u003C\u002FGridCol\u003E\r\n\r\n\u003CGridCol col=\"span-2\"\u003E\r\n\r\n\u003Ccenter\u003E\u003Czui-icon unresolved icon=\"zui-search\"\u003E\u003C\u002Fzui-icon\u003E\r\n\u003Cbr\u002F\u003E\r\n\u003Cbr\u002F\u003E\r\nSearch\r\n\u003C\u002Fcenter\u003E\r\n\r\n\u003C\u002FGridCol\u003E\r\n\r\n\u003CGridCol col=\"span-2\"\u003E\r\n\r\n\u003Ccenter\u003E\u003Czui-icon unresolved icon=\"zui-download\"\u003E\u003C\u002Fzui-icon\u003E\r\n\u003Cbr\u002F\u003E\r\n\u003Cbr\u002F\u003E\r\nDownload\r\n\u003C\u002Fcenter\u003E\r\n\r\n\u003C\u002FGridCol\u003E\r\n\r\n\u003CGridCol col=\"span-2\"\u003E\r\n\r\n\u003Ccenter\u003E\u003Czui-icon unresolved icon=\"zui-upload\"\u003E\u003C\u002Fzui-icon\u003E\r\n\u003Cbr\u002F\u003E\r\n\u003Cbr\u002F\u003E\r\nUpload\r\n\u003C\u002Fcenter\u003E\r\n\r\n\u003C\u002FGridCol\u003E\r\n\r\n\u003CGridCol col=\"span-2\"\u003E\r\n\r\n\u003Ccenter\u003E\u003Czui-icon unresolved icon=\"zui-external\"\u003E\u003C\u002Fzui-icon\u003E\r\n\u003Cbr\u002F\u003E\r\n\u003Cbr\u002F\u003E\r\nExternal\r\n\u003C\u002Fcenter\u003E\r\n\r\n\u003C\u002FGridCol\u003E\r\n\r\n\u003CGridCol col=\"span-2\"\u003E\r\n\r\n\u003Ccenter\u003E\u003Czui-icon unresolved icon=\"zui-link\"\u003E\u003C\u002Fzui-icon\u003E\r\n\u003Cbr\u002F\u003E\r\n\u003Cbr\u002F\u003E\r\nLink\r\n\u003C\u002Fcenter\u003E\r\n\r\n\u003C\u002FGridCol\u003E\r\n\r\n\u003CGridCol col=\"span-2\"\u003E\r\n\r\n\u003Ccenter\u003E\u003Czui-icon unresolved icon=\"zui-link\"\u003E\u003C\u002Fzui-icon\u003E\r\n\u003Cbr\u002F\u003E\r\n\u003Cbr\u002F\u003E\r\nShare\r\n\u003C\u002Fcenter\u003E\r\n\r\n\u003C\u002FGridCol\u003E\r\n\r\n\u003CGridCol col=\"span-2\"\u003E\r\n\r\n\u003Ccenter\u003E \u003Czui-icon unresolved icon=\"zui-delete\"\u003E\u003C\u002Fzui-icon\u003E\r\n\u003Cbr\u002F\u003E\r\n\u003Cbr\u002F\u003E\r\ndelete\r\n\u003C\u002Fcenter\u003E\r\n\r\n\u003C\u002FGridCol\u003E\r\n\r\n\u003CGridCol col=\"span-2\"\u003E\r\n\r\n\u003Ccenter\u003E\u003Czui-icon unresolved icon=\"zui-apps\"\u003E\u003C\u002Fzui-icon\u003E\r\n\u003Cbr\u002F\u003E\r\n\u003Cbr\u002F\u003E\r\nApps\r\n\u003C\u002Fcenter\u003E\r\n\r\n\u003C\u002FGridCol\u003E\r\n\r\n\u003CGridCol col=\"span-2\"\u003E\r\n\r\n\u003Ccenter\u003E\u003Czui-icon unresolved icon=\"zui-refresh\"\u003E\u003C\u002Fzui-icon\u003E\r\n\u003Cbr\u002F\u003E\r\n\u003Cbr\u002F\u003E\r\nRefresh\r\n\u003C\u002Fcenter\u003E\r\n\r\n\u003C\u002FGridCol\u003E\r\n\r\n\u003CGridCol col=\"span-2\"\u003E\r\n\r\n\u003Ccenter\u003E\u003Czui-icon unresolved icon=\"zui-help\"\u003E\u003C\u002Fzui-icon\u003E\r\n\u003Cbr\u002F\u003E\r\n\u003Cbr\u002F\u003E\r\nHelp\r\n\u003C\u002Fcenter\u003E\r\n\r\n\u003C\u002FGridCol\u003E\r\n\r\n\u003CGridCol col=\"span-2\"\u003E\r\n\r\n\u003Ccenter\u003E \u003Czui-icon unresolved icon=\"zui-warning\"\u003E\u003C\u002Fzui-icon\u003E\r\n\u003Cbr\u002F\u003E\r\n\u003Cbr\u002F\u003E\r\nWarning\r\n\u003C\u002Fcenter\u003E\r\n\r\n\u003C\u002FGridCol\u003E\r\n\r\n\u003CGridCol col=\"span-2\"\u003E\r\n\r\n\u003Ccenter\u003E\u003Czui-icon unresolved icon=\"zui-info\"\u003E\u003C\u002Fzui-icon\u003E\r\n\u003Cbr\u002F\u003E\r\n\u003Cbr\u002F\u003E\r\nInfo Circle\r\n\u003C\u002Fcenter\u003E\r\n\r\n\u003C\u002FGridCol\u003E\r\n\r\n\u003CGridCol col=\"span-2\"\u003E\r\n\r\n\u003Ccenter\u003E \u003Czui-icon unresolved icon=\"zui-error\"\u003E\u003C\u002Fzui-icon\u003E\r\n\u003Cbr\u002F\u003E\r\n\u003Cbr\u002F\u003E\r\nError\r\n\u003C\u002Fcenter\u003E\r\n\r\n\u003C\u002FGridCol\u003E\r\n\r\n\u003CGridCol col=\"span-2\"\u003E\r\n\r\n\u003Ccenter\u003E \u003Czui-icon unresolved icon=\"zui-grip\"\u003E\u003C\u002Fzui-icon\u003E\r\n\u003Cbr\u002F\u003E\r\n\u003Cbr\u002F\u003E\r\nGrips\r\n\u003C\u002Fcenter\u003E\r\n\r\n\u003C\u002FGridCol\u003E\r\n\r\n\u003CGridCol col=\"span-2\"\u003E\r\n\r\n\u003Ccenter\u003E\u003Czui-icon unresolved icon=\"zui-more\"\u003E\u003C\u002Fzui-icon\u003E\r\n\u003Cbr\u002F\u003E\r\n\u003Cbr\u002F\u003E\r\nMore\r\n\u003C\u002Fcenter\u003E\r\n\r\n\u003C\u002FGridCol\u003E\r\n\r\n\u003CGridCol col=\"span-2\"\u003E\r\n\r\n\u003Ccenter\u003E\u003Czui-icon unresolved icon=\"zui-sort\"\u003E\u003C\u002Fzui-icon\u003E\r\n\u003Cbr\u002F\u003E\r\n\u003Cbr\u002F\u003E\r\nSort\r\n\u003C\u002Fcenter\u003E\r\n\r\n\u003C\u002FGridCol\u003E\r\n\r\n\u003CGridCol col=\"span-2\"\u003E\r\n\r\n\u003Ccenter\u003E\u003Czui-icon unresolved icon=\"zui-doc\"\u003E\u003C\u002Fzui-icon\u003E\r\n\u003Cbr\u002F\u003E\r\n\u003Cbr\u002F\u003E\r\nDocument\r\n\u003C\u002Fcenter\u003E\r\n\r\n\u003C\u002FGridCol\u003E\r\n\r\n\u003CGridCol col=\"span-2\"\u003E\r\n\r\n\u003Ccenter\u003E\u003Czui-icon unresolved icon=\"zui-ppt\"\u003E\u003C\u002Fzui-icon\u003E\r\n\u003Cbr\u002F\u003E\r\n\u003Cbr\u002F\u003E\r\nPowerPoint\r\n\u003C\u002Fcenter\u003E\r\n\r\n\u003C\u002FGridCol\u003E\r\n\r\n\u003CGridCol col=\"span-2\"\u003E\r\n\r\n\u003Ccenter\u003E\u003Czui-icon unresolved icon=\"zui-word\"\u003E\u003C\u002Fzui-icon\u003E\r\n\u003Cbr\u002F\u003E\r\n\u003Cbr\u002F\u003E\r\nWord Document\r\n\u003C\u002Fcenter\u003E\r\n\r\n\u003C\u002FGridCol\u003E\r\n\r\n\u003CGridCol col=\"span-2\"\u003E\r\n\r\n\u003Ccenter\u003E\u003Czui-icon unresolved icon=\"zui-excel\"\u003E\u003C\u002Fzui-icon\u003E\r\n\u003Cbr\u002F\u003E\r\n\u003Cbr\u002F\u003E\r\nExcel File\r\n\u003C\u002Fcenter\u003E\r\n\r\n\u003C\u002FGridCol\u003E\r\n\r\n\u003CGridCol col=\"span-2\"\u003E\r\n\r\n\u003Ccenter\u003E\u003Czui-icon unresolved icon=\"zui-pdf\"\u003E\u003C\u002Fzui-icon\u003E\r\n\u003Cbr\u002F\u003E\r\n\u003Cbr\u002F\u003E\r\nPDF\r\n\u003C\u002Fcenter\u003E\r\n\r\n\u003C\u002FGridCol\u003E\r\n\r\n\u003CGridCol col=\"span-2\"\u003E\r\n\r\n\u003Ccenter\u003E\u003Czui-icon unresolved icon=\"zui-print\"\u003E\u003C\u002Fzui-icon\u003E\r\n\u003Cbr\u002F\u003E\r\n\u003Cbr\u002F\u003E\r\nPrint\r\n\u003C\u002Fcenter\u003E\r\n\r\n\u003C\u002FGridCol\u003E\r\n\r\n\u003CGridCol col=\"span-2\"\u003E\r\n\r\n\u003Ccenter\u003E\u003Czui-icon unresolved icon=\"zui-folder\"\u003E\u003C\u002Fzui-icon\u003E\r\n\u003Cbr\u002F\u003E\r\n\u003Cbr\u002F\u003E\r\nFolder\r\n\u003C\u002Fcenter\u003E\r\n\r\n\u003C\u002FGridCol\u003E\r\n\r\n\u003CGridCol col=\"span-2\"\u003E\r\n\r\n\u003Ccenter\u003E\u003Czui-icon unresolved icon=\"zui-left\"\u003E\u003C\u002Fzui-icon\u003E\r\n\u003Cbr\u002F\u003E\r\n\u003Cbr\u002F\u003E\r\nLeft\r\n\u003C\u002Fcenter\u003E\r\n\r\n\u003C\u002FGridCol\u003E\r\n\r\n\u003CGridCol col=\"span-2\"\u003E\r\n\r\n\u003Ccenter\u003E\u003Czui-icon unresolved icon=\"zui-up\"\u003E\u003C\u002Fzui-icon\u003E\r\n\u003Cbr\u002F\u003E\r\n\u003Cbr\u002F\u003E\r\nUp\r\n\u003C\u002Fcenter\u003E\r\n\r\n\u003C\u002FGridCol\u003E\r\n\r\n\u003CGridCol col=\"span-2\"\u003E\r\n\r\n\u003Ccenter\u003E\u003Czui-icon unresolved icon=\"zui-down\"\u003E\u003C\u002Fzui-icon\u003E\r\n\u003Cbr\u002F\u003E\r\n\u003Cbr\u002F\u003E\r\nDown\r\n\u003C\u002Fcenter\u003E\r\n\r\n\u003C\u002FGridCol\u003E\r\n\r\n\u003CGridCol col=\"span-2\"\u003E\r\n\r\n\u003Ccenter\u003E\u003Czui-icon unresolved icon=\"zui-right\"\u003E\u003C\u002Fzui-icon\u003E\r\n\u003Cbr\u002F\u003E\r\n\u003Cbr\u002F\u003E\r\nRight\r\n\u003C\u002Fcenter\u003E\r\n\r\n\u003C\u002FGridCol\u003E\r\n\r\n\u003CGridCol col=\"span-2\"\u003E\r\n\r\n\u003Ccenter\u003E\u003Czui-icon unresolved icon=\"zui-chevron-left\"\u003E\u003C\u002Fzui-icon\u003E\r\n\u003Cbr\u002F\u003E\r\n\u003Cbr\u002F\u003E\r\nChevron Left\r\n\u003C\u002Fcenter\u003E\r\n\r\n\u003C\u002FGridCol\u003E\r\n\r\n\u003CGridCol col=\"span-2\"\u003E\r\n\r\n\u003Ccenter\u003E\u003Czui-icon unresolved icon=\"zui-chevron-up\"\u003E\u003C\u002Fzui-icon\u003E\r\n\u003Cbr\u002F\u003E\r\n\u003Cbr\u002F\u003E\r\nChevron Up\r\n\u003C\u002Fcenter\u003E\r\n\r\n\u003C\u002FGridCol\u003E\r\n\r\n\u003CGridCol col=\"span-2\"\u003E\r\n\r\n\u003Ccenter\u003E\u003Czui-icon unresolved icon=\"zui-chevron-down\"\u003E\u003C\u002Fzui-icon\u003E\r\n\u003Cbr\u002F\u003E\r\n\u003Cbr\u002F\u003E\r\nChevron Down\r\n\u003C\u002Fcenter\u003E\r\n\r\n\u003C\u002FGridCol\u003E\r\n\r\n\u003CGridCol col=\"span-2\"\u003E\r\n\r\n\u003Ccenter\u003E\u003Czui-icon unresolved icon=\"zui-chevron-right\"\u003E\u003C\u002Fzui-icon\u003E\r\n\u003Cbr\u002F\u003E\r\n\u003Cbr\u002F\u003E\r\nChevron Right\r\n\u003C\u002Fcenter\u003E\r\n\r\n\u003C\u002FGridCol\u003E\r\n\r\n\u003CGridCol col=\"span-2\"\u003E\r\n\r\n\u003Ccenter\u003E\u003Czui-icon unresolved icon=\"zui-double-chevron-left\"\u003E\u003C\u002Fzui-icon\u003E\r\n\u003Cbr\u002F\u003E\r\n\u003Cbr\u002F\u003E\r\nDouble Chevron Left\r\n\u003C\u002Fcenter\u003E\r\n\r\n\u003C\u002FGridCol\u003E\r\n\r\n\u003CGridCol col=\"span-2\"\u003E\r\n\r\n\u003Ccenter\u003E\u003Czui-icon unresolved icon=\"zui-double-chevron-right\"\u003E\u003C\u002Fzui-icon\u003E\r\n\u003Cbr\u002F\u003E\r\n\u003Cbr\u002F\u003E\r\nDouble Chevron Right\r\n\u003C\u002Fcenter\u003E\r\n\r\n\u003C\u002FGridCol\u003E\r\n\r\n\u003CGridCol col=\"span-2\"\u003E\r\n\r\n\u003Ccenter\u003E\u003Czui-icon unresolved icon=\"zui-caret-left\"\u003E\u003C\u002Fzui-icon\u003E\r\n\u003Cbr\u002F\u003E\r\n\u003Cbr\u002F\u003E\r\nCaret Left\r\n\u003C\u002Fcenter\u003E\r\n\r\n\u003C\u002FGridCol\u003E\r\n\r\n\u003CGridCol col=\"span-2\"\u003E\r\n\r\n\u003Ccenter\u003E\u003Czui-icon unresolved icon=\"zui-caret-up\"\u003E\u003C\u002Fzui-icon\u003E\r\n\u003Cbr\u002F\u003E\r\n\u003Cbr\u002F\u003E\r\nCaret Up\r\n\u003C\u002Fcenter\u003E\r\n\r\n\u003C\u002FGridCol\u003E\r\n\r\n\u003CGridCol col=\"span-2\"\u003E\r\n\r\n\u003Ccenter\u003E\u003Czui-icon unresolved icon=\"zui-caret-down\"\u003E\u003C\u002Fzui-icon\u003E\r\n\u003Cbr\u002F\u003E\r\n\u003Cbr\u002F\u003E\r\nCaret Down\r\n\u003C\u002Fcenter\u003E\r\n\r\n\u003C\u002FGridCol\u003E\r\n\r\n\u003CGridCol col=\"span-2\"\u003E\r\n\r\n\u003Ccenter\u003E\u003Czui-icon unresolved icon=\"zui-caret-right\"\u003E\u003C\u002Fzui-icon\u003E\r\n\u003Cbr\u002F\u003E\r\n\u003Cbr\u002F\u003E\r\nCaret Right\r\n\u003C\u002Fcenter\u003E\r\n\r\n\u003C\u002FGridCol\u003E\r\n\r\n\u003CGridCol col=\"span-2\"\u003E\r\n\r\n\u003Ccenter\u003E\u003Czui-icon unresolved icon=\"zui-align\"\u003E\u003C\u002Fzui-icon\u003E\r\n\u003Cbr\u002F\u003E\r\n\u003Cbr\u002F\u003E\r\nBuilding\r\n\u003C\u002Fcenter\u003E\r\n\r\n\u003C\u002FGridCol\u003E\r\n\r\n\u003CGridCol col=\"span-2\"\u003E\r\n\r\n\u003Ccenter\u003E\u003Czui-icon unresolved icon=\"zui-dynamic-list\"\u003E\u003C\u002Fzui-icon\u003E\r\n\u003Cbr\u002F\u003E\r\n\u003Cbr\u002F\u003E\r\nDynamic List\r\n\u003C\u002Fcenter\u003E\r\n\r\n\u003C\u002FGridCol\u003E\r\n\r\n\u003CGridCol col=\"span-2\"\u003E\r\n\r\n\u003Ccenter\u003E\u003Czui-icon unresolved icon=\"zui-list\"\u003E\u003C\u002Fzui-icon\u003E\r\n\u003Cbr\u002F\u003E\r\n\u003Cbr\u002F\u003E\r\nList\r\n\u003C\u002Fcenter\u003E\r\n\r\n\u003C\u002FGridCol\u003E\r\n\r\n\u003CGridCol col=\"span-2\"\u003E\r\n\r\n\u003Ccenter\u003E\u003Czui-icon unresolved icon=\"zui-lock\"\u003E\u003C\u002Fzui-icon\u003E\r\n\u003Cbr\u002F\u003E\r\n\u003Cbr\u002F\u003E\r\nLocked\r\n\u003C\u002Fcenter\u003E\r\n\r\n\u003C\u002FGridCol\u003E\r\n\r\n\u003CGridCol col=\"span-2\"\u003E\r\n\r\n\u003Ccenter\u003E\u003Czui-icon unresolved icon=\"zui-unlock\"\u003E\u003C\u002Fzui-icon\u003E\r\n\u003Cbr\u002F\u003E\r\n\u003Cbr\u002F\u003E\r\nUnlocked\r\n\u003C\u002Fcenter\u003E\r\n\r\n\u003C\u002FGridCol\u003E\r\n\r\n\u003CGridCol col=\"span-2\"\u003E\r\n\r\n\u003Ccenter\u003E\u003Czui-icon unresolved icon=\"zui-mail\"\u003E\u003C\u002Fzui-icon\u003E\r\n\u003Cbr\u002F\u003E\r\n\u003Cbr\u002F\u003E\r\nMail\r\n\u003C\u002Fcenter\u003E\r\n\r\n\u003C\u002FGridCol\u003E\r\n\r\n\u003CGridCol col=\"span-2\"\u003E\r\n\r\n\u003Ccenter\u003E\u003Czui-icon unresolved icon=\"zui-switch-profile\"\u003E\u003C\u002Fzui-icon\u003E\r\n\u003Cbr\u002F\u003E\r\n\u003Cbr\u002F\u003E\r\nSwitch Profile\r\n\u003C\u002Fcenter\u003E\r\n\r\n\u003C\u002FGridCol\u003E\r\n\r\n\u003CGridCol col=\"span-2\"\u003E\r\n\r\n\u003Ccenter\u003E\u003Czui-icon unresolved icon=\"zui-rocket\"\u003E\u003C\u002Fzui-icon\u003E\r\n\u003Cbr\u002F\u003E\r\n\u003Cbr\u002F\u003E\r\nRocket\r\n\u003C\u002Fcenter\u003E\r\n\r\n\u003C\u002FGridCol\u003E\r\n\r\n\u003CGridCol col=\"span-2\"\u003E\r\n\r\n\u003Ccenter\u003E\u003Czui-icon unresolved icon=\"zui-user\"\u003E\u003C\u002Fzui-icon\u003E\r\n\u003Cbr\u002F\u003E\r\n\u003Cbr\u002F\u003E\r\nUser\r\n\u003C\u002Fcenter\u003E\r\n\r\n\u003C\u002FGridCol\u003E\r\n\r\n\u003CGridCol col=\"span-2\"\u003E\r\n\r\n\u003Ccenter\u003E\u003Czui-icon unresolved icon=\"zui-filter\"\u003E\u003C\u002Fzui-icon\u003E\r\n\u003Cbr\u002F\u003E\r\n\u003Cbr\u002F\u003E\r\nFilter\r\n\u003C\u002Fcenter\u003E\r\n\r\n\u003C\u002FGridCol\u003E\r\n\r\n\u003CGridCol col=\"span-2\"\u003E\r\n\r\n\u003Ccenter\u003E\u003Czui-icon unresolved icon=\"zui-add-circle\"\u003E\u003C\u002Fzui-icon\u003E\r\n\u003Cbr\u002F\u003E\r\n\u003Cbr\u002F\u003E\r\nAdd Circle\r\n\u003C\u002Fcenter\u003E\r\n\r\n\u003C\u002FGridCol\u003E\r\n\r\n\u003CGridCol col=\"span-2\"\u003E\r\n\r\n\u003Ccenter\u003E\u003Czui-icon unresolved icon=\"zui-remove-circle\"\u003E\u003C\u002Fzui-icon\u003E\r\n\u003Cbr\u002F\u003E\r\n\u003Cbr\u002F\u003E\r\nRemove Cirlce\r\n\u003C\u002Fcenter\u003E\r\n\r\n\u003C\u002FGridCol\u003E\r\n\r\n\u003CGridCol col=\"span-2\"\u003E\r\n\r\n\u003Ccenter\u003E\u003Czui-icon unresolved icon=\"zui-check-circle\"\u003E\u003C\u002Fzui-icon\u003E\r\n\u003Cbr\u002F\u003E\r\n\u003Cbr\u002F\u003E\r\nCheck Circle\r\n\u003C\u002Fcenter\u003E\r\n\r\n\u003C\u002FGridCol\u003E\r\n\r\n\u003CGridCol col=\"span-2\"\u003E\r\n\r\n\u003Ccenter\u003E\u003Czui-icon unresolved icon=\"zui-calendar\"\u003E\u003C\u002Fzui-icon\u003E\r\n\u003Cbr\u002F\u003E\r\n\u003Cbr\u002F\u003E\r\nCalendar\r\n\u003C\u002Fcenter\u003E\r\n\r\n\u003C\u002FGridCol\u003E\r\n\r\n\u003CGridCol col=\"span-2\"\u003E\r\n\r\n\u003Ccenter\u003E\u003Czui-icon unresolved icon=\"zui-wrench\"\u003E\u003C\u002Fzui-icon\u003E\r\n\u003Cbr\u002F\u003E\r\n\u003Cbr\u002F\u003E\r\nWrench\r\n\u003C\u002Fcenter\u003E\r\n\r\n\u003C\u002FGridCol\u003E\r\n\u003C\u002FGrid\u003E\r\n\u003CSpacer size=\"small\"\u002F\u003E\r\n","component":"zui-icons","subComponent":"","zuiLayoutLargerWidth":null}},"context":{}};(function(){var s;(s=document.currentScript||document.scripts[document.scripts.length-1]).parentNode.removeChild(s);}());</script><script src="/assets/js/app.40fe5a75.js" defer></script><script src="/assets/js/page--src-templates-mark-down-vue.47bc5095.js" defer></script><script src="/assets/js/vue-remark--src-markdown-foundations-icons-md.e295d5b3.js" defer></script>
+  </body>
 </html>

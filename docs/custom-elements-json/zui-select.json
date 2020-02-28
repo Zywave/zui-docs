@@ -1,0 +1,112 @@
+{
+  "version": "experimental",
+  "tags": [
+    {
+      "name": "zui-select",
+      "path": "./..\\src\\zui-select.js",
+      "attributes": [
+        {
+          "name": "multiple",
+          "type": "boolean",
+          "default": "false",
+          "deprecatedMessage": "use zui-dropdown or other similar components"
+        },
+        {
+          "name": "placeholder",
+          "default": "\"undefined\""
+        },
+        {
+          "name": "selected",
+          "type": "string",
+          "deprecatedMessage": "use \"value\" instead"
+        },
+        {
+          "name": "value",
+          "type": "string",
+          "default": "\"\""
+        },
+        {
+          "name": "required",
+          "type": "boolean",
+          "default": "false"
+        }
+      ],
+      "properties": [
+        {
+          "name": "multiple",
+          "attribute": "multiple",
+          "type": "boolean",
+          "default": "false",
+          "deprecatedMessage": "use zui-dropdown or other similar components"
+        },
+        {
+          "name": "placeholder",
+          "attribute": "placeholder",
+          "default": "\"undefined\""
+        },
+        {
+          "name": "selected",
+          "attribute": "selected",
+          "type": "string",
+          "deprecatedMessage": "use \"value\" instead"
+        },
+        {
+          "name": "value",
+          "attribute": "value",
+          "type": "string",
+          "default": "\"\""
+        },
+        {
+          "name": "required",
+          "attribute": "required",
+          "type": "boolean",
+          "default": "false"
+        }
+      ],
+      "events": [
+        {
+          "name": "change"
+        }
+      ]
+    },
+    {
+      "name": "zui-option",
+      "path": "./..\\src\\zui-option.js",
+      "attributes": [
+        {
+          "name": "value",
+          "default": "\"undefined\""
+        },
+        {
+          "name": "disabled",
+          "type": "boolean",
+          "default": "false"
+        },
+        {
+          "name": "hidden",
+          "type": "boolean",
+          "default": "false"
+        }
+      ],
+      "properties": [
+        {
+          "name": "value",
+          "attribute": "value",
+          "default": "\"undefined\""
+        },
+        {
+          "name": "disabled",
+          "attribute": "disabled",
+          "type": "boolean",
+          "default": "false"
+        },
+        {
+          "name": "hidden",
+          "attribute": "hidden",
+          "type": "boolean",
+          "default": "false"
+        }
+      ]
+    }
+  ]
+}

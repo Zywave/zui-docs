@@ -1,0 +1,149 @@
+{
+  "version": "experimental",
+  "tags": [
+    {
+      "name": "zui-step-flow",
+      "path": "./..\\src\\zui-step-flow.js",
+      "attributes": [
+        {
+          "name": "step",
+          "type": "number",
+          "default": "0"
+        },
+        {
+          "name": "orientation",
+          "type": "string",
+          "default": "\"horizontal\""
+        }
+      ],
+      "properties": [
+        {
+          "name": "step",
+          "attribute": "step",
+          "type": "number",
+          "default": "0"
+        },
+        {
+          "name": "orientation",
+          "attribute": "orientation",
+          "type": "string",
+          "default": "\"horizontal\""
+        }
+      ]
+    },
+    {
+      "name": "zui-step-flow-indicator",
+      "path": "./..\\src\\zui-step-flow-indicator.js",
+      "attributes": [
+        {
+          "name": "step",
+          "type": "number",
+          "default": "0"
+        },
+        {
+          "name": "hide",
+          "type": "boolean",
+          "default": "false"
+        },
+        {
+          "name": "orientation",
+          "type": "string",
+          "default": "\"horizontal\""
+        }
+      ],
+      "properties": [
+        {
+          "name": "step",
+          "attribute": "step",
+          "type": "number",
+          "default": "0"
+        },
+        {
+          "name": "hide",
+          "attribute": "hide",
+          "type": "boolean",
+          "default": "false"
+        },
+        {
+          "name": "orientation",
+          "attribute": "orientation",
+          "type": "string",
+          "default": "\"horizontal\""
+        }
+      ],
+      "events": [
+        {
+          "name": "setstep"
+        }
+      ]
+    },
+    {
+      "name": "zui-step-flow-indicator-item",
+      "path": "./..\\src\\zui-step-flow-indicator-item.js",
+      "attributes": [
+        {
+          "name": "active",
+          "type": "boolean",
+          "default": "false"
+        },
+        {
+          "name": "complete",
+          "type": "boolean",
+          "default": "false"
+        },
+        {
+          "name": "orientation",
+          "type": "string",
+          "default": "\"horizontal\""
+        }
+      ],
+      "properties": [
+        {
+          "name": "active",
+          "attribute": "active",
+          "type": "boolean",
+          "default": "false"
+        },
+        {
+          "name": "complete",
+          "attribute": "complete",
+          "type": "boolean",
+          "default": "false"
+        },
+        {
+          "name": "orientation",
+          "attribute": "orientation",
+          "type": "string",
+          "default": "\"horizontal\""
+        }
+      ]
+    },
+    {
+      "name": "zui-step-flow-content",
+      "path": "./..\\src\\zui-step-flow-content.js",
+      "attributes": [
+        {
+          "name": "step",
+          "type": "number",
+          "default": "0"
+        }
+      ],
+      "properties": [
+        {
+          "name": "step",
+          "attribute": "step",
+          "type": "number",
+          "default": "0"
+        }
+      ]
+    },
+    {
+      "name": "zui-step-flow-content-item",
+      "path": "./..\\src\\zui-step-flow-content-item.js"
+    },
+    {
+      "name": "zui-step-flow-footer",
+      "path": "./..\\src\\zui-step-flow-footer.js"
+    }
+  ]
+}

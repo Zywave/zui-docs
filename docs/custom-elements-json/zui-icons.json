@@ -1,0 +1,34 @@
+{
+  "version": "experimental",
+  "tags": [
+    {
+      "name": "zui-icon",
+      "path": "./..\\src\\zui-icon.js",
+      "description": "`<zui-icon>` gives consumers ability to leverage our ZUI defined stickersheet of SVG icons.",
+      "attributes": [
+        {
+          "name": "icon",
+          "description": "See http://zui.zywave.com/foundations/icons/ page for name of icons, specify a value to choose an icon",
+          "type": "string",
+          "default": "\"\""
+        }
+      ],
+      "properties": [
+        {
+          "name": "icon",
+          "attribute": "icon",
+          "description": "See http://zui.zywave.com/foundations/icons/ page for name of icons, specify a value to choose an icon",
+          "type": "string",
+          "default": "\"\""
+        }
+      ],
+      "cssProperties": [
+        {
+          "name": "--zui-icon-size",
+          "description": "To customize size of icon assign a new value to this custom property; note: rem(24) = 24px, also this property applies to both width & height therefore component assumes icon is square aspect ratio",
+          "default": "\"rem(24)\""
+        }
+      ]
+    }
+  ]
+}

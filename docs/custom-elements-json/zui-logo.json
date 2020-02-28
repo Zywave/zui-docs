@@ -1,0 +1,47 @@
+{
+  "version": "experimental",
+  "tags": [
+    {
+      "name": "zui-logo",
+      "path": "./..\\src\\zui-logo.js",
+      "description": "`<zui-logo>` allows for easy standardized use for our Zywave logos, and supports third party logos if slotted in.",
+      "attributes": [
+        {
+          "name": "type",
+          "description": "If using a Zywave logo, specify a type value e.g. <code>type=\"tagline | zycon | zycon-circle\"</code>, if no type is specified it defaults to main Zywave logo",
+          "type": "string",
+          "default": "\"\""
+        }
+      ],
+      "properties": [
+        {
+          "name": "type",
+          "attribute": "type",
+          "description": "If using a Zywave logo, specify a type value e.g. <code>type=\"tagline | zycon | zycon-circle\"</code>, if no type is specified it defaults to main Zywave logo",
+          "type": "string",
+          "default": "\"\""
+        }
+      ],
+      "slots": [
+        {
+          "name": "",
+          "description": "Unnamed slot, only use to slot in a third party logo, do not use if using a Zywave logo"
+        }
+      ],
+      "cssProperties": [
+        {
+          "name": "--zui-logo-primary-color",
+          "default": "\"var(--zui-zywave, var(--zui-green))\""
+        },
+        {
+          "name": "--zui-logo-secondary-color",
+          "default": "\"#8d8d8e\""
+        },
+        {
+          "name": "--zui-logo-tertiary-color",
+          "default": "\"#fff\""
+        }
+      ]
+    }
+  ]
+}

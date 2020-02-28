@@ -1,0 +1,16 @@
+{
+  "version": "experimental",
+  "tags": [
+    {
+      "name": "zui-card",
+      "path": "./..\\src\\zui-card.js",
+      "description": "Simple. Card-like. Pass content into <zui-card> to get the visual styling of our ZUI defined cards.",
+      "slots": [
+        {
+          "name": "",
+          "description": "Unnamed slot, pass anything you want inside the card"
+        }
+      ]
+    }
+  ]
+}

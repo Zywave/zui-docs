@@ -1,0 +1,40 @@
+{
+  "version": "experimental",
+  "tags": [
+    {
+      "name": "zui-toggle",
+      "path": "./..\\src\\zui-toggle.js",
+      "description": "### Example\r\n```html\r\n<zui-toggle checked></zui-toggle>\r\n<zui-toggle type=\"icon\"><zui-icon icon=\"zui-star\"></zui-icon></zui-toggle>\r\n```",
+      "attributes": [
+        {
+          "name": "checked",
+          "description": "Whether the toggle is \"on\" or \"off\"",
+          "type": "boolean",
+          "default": "false"
+        },
+        {
+          "name": "type",
+          "description": "The type of toggle. Supports 'standard' and 'icon'; defaults to 'standard'\r\nIf 'icon', provide an icon to the slot to be toggled",
+          "type": "string",
+          "default": "\"standard\""
+        }
+      ],
+      "properties": [
+        {
+          "name": "checked",
+          "attribute": "checked",
+          "description": "Whether the toggle is \"on\" or \"off\"",
+          "type": "boolean",
+          "default": "false"
+        },
+        {
+          "name": "type",
+          "attribute": "type",
+          "description": "The type of toggle. Supports 'standard' and 'icon'; defaults to 'standard'\r\nIf 'icon', provide an icon to the slot to be toggled",
+          "type": "string",
+          "default": "\"standard\""
+        }
+      ]
+    }
+  ]
+}

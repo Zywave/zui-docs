@@ -1,0 +1,42 @@
+{
+  "version": "experimental",
+  "tags": [
+    {
+      "name": "zui-multipicker",
+      "path": "./..\\src\\zui-multipicker.js"
+    },
+    {
+      "name": "zui-multipicker-item",
+      "path": "./..\\src\\zui-multipicker-item.js",
+      "attributes": [
+        {
+          "name": "identifier",
+          "default": "\"undefined\""
+        },
+        {
+          "name": "selected",
+          "type": "boolean",
+          "default": "false"
+        }
+      ],
+      "properties": [
+        {
+          "name": "identifier",
+          "attribute": "identifier",
+          "default": "\"undefined\""
+        },
+        {
+          "name": "selected",
+          "attribute": "selected",
+          "type": "boolean",
+          "default": "false"
+        }
+      ],
+      "events": [
+        {
+          "name": "change"
+        }
+      ]
+    }
+  ]
+}
