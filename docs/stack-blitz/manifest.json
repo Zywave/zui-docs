@@ -1,0 +1,9 @@
+{
+  "files": ["index.html", "index.ts"],
+  "title": "ZUI Sandbox",
+  "description": "ZUI Sandbox",
+  "template": "typescript",
+  "dependencies": {
+    "@zywave/zui-bundle": "latest"
+  }
+}
