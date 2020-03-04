@@ -18,14 +18,14 @@
           <rect id="Rectangle_4660-2" data-name="Rectangle 4660" width="239.3" height="118" rx="4" transform="translate(92 92)" fill="#fff"/>
         </g>
         <rect id="Rectangle_4665" data-name="Rectangle 4665" width="239.3" height="36" transform="translate(162 235)" fill="#fff"/>
-        <text id="Edit" transform="translate(177 257)" fill="#5b5b5b" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Edit</tspan></text>
+        <text id="Edit" transform="translate(177 257)" fill="#606071" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Edit</tspan></text>
         <rect id="Rectangle_4665-2" data-name="Rectangle 4665" width="239.3" height="36" transform="translate(162 271)" fill="#fff"/>
-        <text id="Delete" transform="translate(177 293)" fill="#5b5b5b" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Delete</tspan></text>
+        <text id="Delete" transform="translate(177 293)" fill="#606071" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Delete</tspan></text>
         <rect id="Rectangle_4665-3" data-name="Rectangle 4665" width="239.3" height="36" transform="translate(162 307)" fill="#fff"/>
-        <text id="Archive" transform="translate(177 329)" fill="#5b5b5b" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Archive</tspan></text>
+        <text id="Archive" transform="translate(177 329)" fill="#606071" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Archive</tspan></text>
       </g>
       <g id="Group_7797" data-name="Group 7797" transform="translate(-953 -1519)">
-        <rect id="Rectangle_4867" data-name="Rectangle 4867" width="102" height="36" rx="18" transform="translate(1105 1708)" fill="#1f5ea8"/>
+        <rect id="Rectangle_4867" data-name="Rectangle 4867" width="102" height="36" rx="18" transform="translate(1105 1708)" fill="#2777d3"/>
         <text id="More" transform="translate(1139 1731)" fill="#fff" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="-16.898" y="0">More</tspan></text>
         <g id="Group_7720" data-name="Group 7720" transform="translate(2007 3445) rotate(180)">
           <path id="Path_5558" data-name="Path 5558" d="M56,9.4l-3,3-3-3a.967.967,0,0,0-1.4,0h0a.967.967,0,0,0,0,1.4l3.7,3.7a.967.967,0,0,0,1.4,0l3.7-3.7a.967.967,0,0,0,0-1.4h0A.965.965,0,0,0,56,9.4Z" transform="translate(775 1707)" fill="#fff"/>

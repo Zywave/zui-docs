@@ -14,7 +14,7 @@
   <g id="icon_Buttons_Dropdown" clip-path="url(#clip-icon_Buttons_Dropdown)">
     <g id="Group_7869" data-name="Group 7869">
       <g id="Group_7798" data-name="Group 7798" transform="translate(-1451 -1865)">
-        <rect id="Rectangle_4868" data-name="Rectangle 4868" width="37" height="37" rx="18.5" transform="translate(1461 1875)" fill="#1f5ea8"/>
+        <rect id="Rectangle_4868" data-name="Rectangle 4868" width="37" height="37" rx="18.5" transform="translate(1461 1875)" fill="#2777d3"/>
         <g id="Artwork_40" data-name="Artwork 40" transform="translate(1482 1896)">
           <g id="Group_7784" data-name="Group 7784" transform="translate(-12 -12)">
             <rect id="Rectangle_4838" data-name="Rectangle 4838" width="20" height="20" fill="none"/>
@@ -27,9 +27,9 @@
       </g>
       <path id="Path_5690" data-name="Path 5690" d="M0,0H239.3V36H0Z" transform="translate(12 52)" fill="#fff"/>
       <path id="Path_5694" data-name="Path 5694" d="M0,0H239.3V36H0Z" transform="translate(12 124)" fill="#fff"/>
-      <text id="Print_as_portrait" data-name="Print as portrait" transform="translate(28 74)" fill="#5b5b5b" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Print as portrait</tspan></text>
-      <text id="Print_as_landscape" data-name="Print as landscape" transform="translate(28 112)" fill="#5b5b5b" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Print as landscape</tspan></text>
-      <text id="Change_print_settings" data-name="Change print settings" transform="translate(28 148)" fill="#5b5b5b" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Change print settings</tspan></text>
+      <text id="Print_as_portrait" data-name="Print as portrait" transform="translate(28 74)" fill="#606071" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Print as portrait</tspan></text>
+      <text id="Print_as_landscape" data-name="Print as landscape" transform="translate(28 112)" fill="#606071" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Print as landscape</tspan></text>
+      <text id="Change_print_settings" data-name="Change print settings" transform="translate(28 148)" fill="#606071" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Change print settings</tspan></text>
     </g>
   </g>
 </svg>

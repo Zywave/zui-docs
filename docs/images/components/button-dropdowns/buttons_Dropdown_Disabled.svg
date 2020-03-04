@@ -72,22 +72,21 @@
           <text id="Archive-2" data-name="Archive" transform="translate(177 329)" fill="#31313a" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Archive</tspan></text>
           <text id="Delete-2" data-name="Delete" transform="translate(177 293)" fill="#afafbb" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Delete</tspan></text>
         </g>
-        <g id="Group_7876" data-name="Group 7876" transform="translate(-555 -93)">
-          <rect id="Rectangle_1" data-name="Rectangle 1" width="102" height="36" rx="18" transform="translate(717 119)" fill="#1f5ea8"/>
-          <text id="More" transform="translate(751 142)" fill="#fff" font-size="14" font-family="OpenSans-Semibold, Open Sans" font-weight="600"><tspan x="-17.787" y="0">More</tspan></text>
-          <g id="Group_7751" data-name="Group 7751" transform="translate(-37 -1582)">
-            <path id="Path_5558" data-name="Path 5558" d="M56,9.4l-3,3-3-3a.967.967,0,0,0-1.4,0h0a.967.967,0,0,0,0,1.4l3.7,3.7a.967.967,0,0,0,1.4,0l3.7-3.7a.967.967,0,0,0,0-1.4h0A.965.965,0,0,0,56,9.4Z" transform="translate(775 1707)" fill="#fff"/>
-            <rect id="Rectangle_3867" data-name="Rectangle 3867" width="24" height="24" transform="translate(816 1707)" fill="none"/>
-          </g>
+        <g id="Button_Dropdown_-_normal" data-name="Button Dropdown - normal" transform="translate(163 26)">
+          <rect id="Rectangle_3990" data-name="Rectangle 3990" width="89" height="36" rx="18" fill="#2777d3"/>
+          <text id="More" transform="translate(37 23)" fill="#fff" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="-16.898" y="0">More</tspan></text>
+          <path id="Path_7189" data-name="Path 7189" d="M15.036,9.421,12,12.457,8.964,9.421a1,1,0,0,0-1.414,0h0a1,1,0,0,0,0,1.414l3.743,3.743a1,1,0,0,0,1.414,0l3.743-3.743a1,1,0,0,0,0-1.414h0A1,1,0,0,0,15.036,9.421Z" transform="translate(57 7)" fill="#fff"/>
         </g>
       </g>
-      <g id="Group_7770" data-name="Group 7770" transform="translate(-555 237)">
-        <rect id="Rectangle_1-2" data-name="Rectangle 1" width="102" height="36" rx="18" transform="translate(717 119)" fill="#1f5ea8"/>
-        <text id="More-2" data-name="More" transform="translate(751 142)" fill="#fff" font-size="14" font-family="OpenSans-Semibold, Open Sans" font-weight="600"><tspan x="-17.787" y="0">More</tspan></text>
-        <g id="Group_7751-2" data-name="Group 7751" transform="translate(-37 -1582)">
-          <path id="Path_5558-2" data-name="Path 5558" d="M56,9.4l-3,3-3-3a.967.967,0,0,0-1.4,0h0a.967.967,0,0,0,0,1.4l3.7,3.7a.967.967,0,0,0,1.4,0l3.7-3.7a.967.967,0,0,0,0-1.4h0A.965.965,0,0,0,56,9.4Z" transform="translate(775 1707)" fill="#fff"/>
-          <rect id="Rectangle_3867-2" data-name="Rectangle 3867" width="24" height="24" transform="translate(816 1707)" fill="none"/>
-        </g>
+      <g id="Button_Dropdown_-_normal-2" data-name="Button Dropdown - normal" transform="translate(163 136)">
+        <rect id="Rectangle_3990-2" data-name="Rectangle 3990" width="89" height="36" rx="18" fill="#2777d3"/>
+        <text id="More-2" data-name="More" transform="translate(37 23)" fill="#fff" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="-16.898" y="0">More</tspan></text>
+        <path id="Path_7189-2" data-name="Path 7189" d="M15.036,9.421,12,12.457,8.964,9.421a1,1,0,0,0-1.414,0h0a1,1,0,0,0,0,1.414l3.743,3.743a1,1,0,0,0,1.414,0l3.743-3.743a1,1,0,0,0,0-1.414h0A1,1,0,0,0,15.036,9.421Z" transform="translate(57 7)" fill="#fff"/>
+      </g>
+      <g id="Button_Dropdown_-_normal-3" data-name="Button Dropdown - normal" transform="translate(163 357)">
+        <rect id="Rectangle_3990-3" data-name="Rectangle 3990" width="89" height="36" rx="18" fill="#2777d3"/>
+        <text id="More-3" data-name="More" transform="translate(37 23)" fill="#fff" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="-16.898" y="0">More</tspan></text>
+        <path id="Path_7189-3" data-name="Path 7189" d="M15.036,9.421,12,12.457,8.964,9.421a1,1,0,0,0-1.414,0h0a1,1,0,0,0,0,1.414l3.743,3.743a1,1,0,0,0,1.414,0l3.743-3.743a1,1,0,0,0,0-1.414h0A1,1,0,0,0,15.036,9.421Z" transform="translate(57 7)" fill="#fff"/>
       </g>
     </g>
   </g>

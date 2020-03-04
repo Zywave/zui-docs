@@ -1,12 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="900" height="81" viewBox="0 0 900 81">
   <defs>
-    <clipPath id="clip-Breadcrumb_ellipsis">
+    <clipPath id="clip-Breadcrumb-ellipsis">
       <rect width="900" height="81"/>
     </clipPath>
   </defs>
-  <g id="Breadcrumb_ellipsis" data-name="Breadcrumb ellipsis" clip-path="url(#clip-Breadcrumb_ellipsis)">
+  <g id="Breadcrumb-ellipsis" clip-path="url(#clip-Breadcrumb-ellipsis)">
     <rect width="900" height="81" fill="#f4f4f6"/>
-    <g id="Breadcrumb_ellipses" data-name="Breadcrumb ellipses" transform="translate(30 31)">
+    <g id="Breadcrumb_ellipses" data-name="Breadcrumb ellipses" transform="translate(30 35)">
       <g id="Symbol_152_2" data-name="Symbol 152 – 2" transform="translate(-58 -110)">
         <text id="Breadcrumb_1" data-name="Breadcrumb #1" transform="translate(74 125)" fill="#2777d3" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Breadcrumb #1</tspan></text>
         <g id="Group_8413" data-name="Group 8413" transform="translate(10 4)">
