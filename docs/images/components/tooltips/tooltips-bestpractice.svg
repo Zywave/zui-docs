@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="840" height="182" viewBox="0 0 840 182">
+  <defs>
+    <clipPath id="clip-tooltips-best-practice">
+      <rect width="840" height="182"/>
+    </clipPath>
+  </defs>
+  <g id="tooltips-best-practice" clip-path="url(#clip-tooltips-best-practice)">
+    <g id="Group_13720" data-name="Group 13720">
+      <g id="Group_13686" data-name="Group 13686" transform="translate(114 -1076)">
+        <circle id="Ellipse_365" data-name="Ellipse 365" cx="8" cy="8" r="8" transform="translate(412 1192)" fill="#1f5ea8"/>
+        <text id="_" data-name="?" transform="translate(417.786 1203.5)" fill="#fff" font-size="9" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">?</tspan></text>
+      </g>
+      <g id="Tooltip-_Top_9" data-name="Tooltip- Top – 9" transform="translate(354 50)">
+        <path id="Union_8" data-name="Union 8" d="M-1203-2862h-172a2,2,0,0,1-2-2v-51a2,2,0,0,1,2-2h355a2,2,0,0,1,2,2v51a2,2,0,0,1-2,2h-171.687l-5.656,5.656Z" transform="translate(1377 2917)" fill="#494955"/>
+        <text id="To_get_more_personalized_recommendations_select_an_account_or_an_attribute_from_the_dropdowns_below" data-name="To get more personalized recommendations, select an account or an attribute from the dropdowns below" transform="translate(10 8)" fill="#fff" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="15">To get more personalized recommendations, select an </tspan><tspan x="0" y="34">account or an attribute from the dropdowns below</tspan></text>
+      </g>
+    </g>
+    <g id="Group_13719" data-name="Group 13719" transform="translate(-2 20)">
+      <g id="Group_13718" data-name="Group 13718" transform="translate(-228 -1096)">
+        <circle id="Ellipse_365-2" data-name="Ellipse 365" cx="8" cy="8" r="8" transform="translate(412 1192)" fill="#1f5ea8"/>
+        <text id="_2" data-name="?" transform="translate(417.786 1203.5)" fill="#fff" font-size="9" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">?</tspan></text>
+      </g>
+      <g id="Tooltip-_Top_10" data-name="Tooltip- Top – 10" transform="translate(128 49)">
+        <path id="Union_8-2" data-name="Union 8" d="M-1319-2862h-56a2,2,0,0,1-2-2v-32a2,2,0,0,1,2-2h124a2,2,0,0,1,2,2v32a2,2,0,0,1-2,2h-56.687l-5.656,5.656Z" transform="translate(1377 2898)" fill="#494955"/>
+        <text id="Select_an_account" data-name="Select an account" transform="translate(10 23)" fill="#fff" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Select an account</tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>

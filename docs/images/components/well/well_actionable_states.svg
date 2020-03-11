@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="840" height="745" viewBox="0 0 840 745">
+  <defs>
+    <clipPath id="clip-well_actionable_states">
+      <rect width="840" height="745"/>
+    </clipPath>
+  </defs>
+  <g id="well_actionable_states" clip-path="url(#clip-well_actionable_states)">
+    <rect width="840" height="745" fill="#f9f9fa"/>
+    <g id="Group_14610" data-name="Group 14610" transform="translate(19)">
+      <text id="flat_light" transform="translate(153 175)" fill="#d454a3" font-size="12" font-family="OpenSans, Open Sans"><tspan x="-40.857" y="0">Default</tspan></text>
+      <text id="flat_light-2" data-name="flat_light" transform="translate(478 63)" fill="#d454a3" font-size="12" font-family="OpenSans, Open Sans"><tspan x="-58.986" y="0">Actionable</tspan></text>
+      <text id="flat_light-3" data-name="flat_light" transform="translate(153 489)" fill="#d454a3" font-size="12" font-family="OpenSans, Open Sans"><tspan x="-32.244" y="0">Focus</tspan></text>
+      <text id="flat_light-4" data-name="flat_light" transform="translate(153 646)" fill="#d454a3" font-size="12" font-family="OpenSans, Open Sans"><tspan x="-44.391" y="0">Pressed</tspan></text>
+      <text id="flat_light-5" data-name="flat_light" transform="translate(153 332)" fill="#d454a3" font-size="12" font-family="OpenSans, Open Sans"><tspan x="-33.744" y="0">Hover</tspan></text>
+      <g id="Group_14600" data-name="Group 14600" transform="translate(98.2 -683)">
+        <g id="Group_11898" data-name="Group 11898" transform="translate(105 800)">
+          <g id="Group_11892" data-name="Group 11892">
+            <g id="Rectangle_3830" data-name="Rectangle 3830" transform="translate(0)" fill="#fff" stroke="#2777d3" stroke-width="1">
+              <rect width="490.8" height="107" rx="4" stroke="none"/>
+              <rect x="0.5" y="0.5" width="489.8" height="106" rx="3.5" fill="none"/>
+            </g>
+            <text id="Please_edit_the_statement_details_to_not_match_another_carrier_statement" data-name="Please edit the statement details to not match another carrier statement" transform="translate(70.4 20)" fill="#31313a" font-size="14" font-family="OpenSans, Open Sans"><tspan x="0" y="15">Please edit the statement details to not match another </tspan><tspan x="0" y="34">carrier statement</tspan></text>
+            <text id="View_details" data-name="View details" transform="translate(70.4 83)" fill="#2777d3" font-size="14" font-family="OpenSans-Semibold, Open Sans" font-weight="600" text-decoration="underline"><tspan x="0" y="0">View details</tspan></text>
+            <path id="Rectangle_5239" data-name="Rectangle 5239" d="M4,0H50a0,0,0,0,1,0,0V106.8a0,0,0,0,1,0,0H4a4,4,0,0,1-4-4V4A4,4,0,0,1,4,0Z" transform="translate(-0.2)" fill="#2777d3"/>
+            <g id="Group_12973" data-name="Group 12973" transform="translate(12.8 41)">
+              <g id="Group_11913" data-name="Group 11913">
+                <circle id="Ellipse_6" data-name="Ellipse 6" cx="12" cy="12" r="12" fill="#fff"/>
+              </g>
+              <path id="Path_6649" data-name="Path 6649" d="M153,35.709V25.291a.29.29,0,0,1,.29-.291h1.919a.29.29,0,0,1,.29.291V35.709a.29.29,0,0,1-.29.291H153.29A.29.29,0,0,1,153,35.709Zm.29-13.209h1.919a.29.29,0,0,0,.29-.291V20.291a.29.29,0,0,0-.29-.291H153.29a.29.29,0,0,0-.29.291v1.919A.29.29,0,0,0,153.29,22.5Z" transform="translate(-142 -16)" fill="#2777d3"/>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g id="Group_14602" data-name="Group 14602" transform="translate(98.2 -526)">
+        <g id="Group_11898-2" data-name="Group 11898" transform="translate(105 800)">
+          <g id="Group_11892-2" data-name="Group 11892">
+            <g id="Rectangle_3830-2" data-name="Rectangle 3830" transform="translate(0)" fill="#fff" stroke="#2777d3" stroke-width="1">
+              <rect width="490.8" height="107" rx="4" stroke="none"/>
+              <rect x="0.5" y="0.5" width="489.8" height="106" rx="3.5" fill="none"/>
+            </g>
+            <text id="Please_edit_the_statement_details_to_not_match_another_carrier_statement-2" data-name="Please edit the statement details to not match another carrier statement" transform="translate(70.4 20)" fill="#31313a" font-size="14" font-family="OpenSans, Open Sans"><tspan x="0" y="15">Please edit the statement details to not match another </tspan><tspan x="0" y="34">carrier statement</tspan></text>
+            <text id="View_details-2" data-name="View details" transform="translate(70.4 83)" fill="#4e92df" font-size="14" font-family="OpenSans-Semibold, Open Sans" font-weight="600" text-decoration="underline"><tspan x="0" y="0">View details</tspan></text>
+            <path id="Rectangle_5239-2" data-name="Rectangle 5239" d="M4,0H50a0,0,0,0,1,0,0V106.8a0,0,0,0,1,0,0H4a4,4,0,0,1-4-4V4A4,4,0,0,1,4,0Z" transform="translate(-0.2)" fill="#2777d3"/>
+            <g id="Group_12973-2" data-name="Group 12973" transform="translate(12.8 41)">
+              <g id="Group_11913-2" data-name="Group 11913">
+                <circle id="Ellipse_6-2" data-name="Ellipse 6" cx="12" cy="12" r="12" fill="#fff"/>
+              </g>
+              <path id="Path_6649-2" data-name="Path 6649" d="M153,35.709V25.291a.29.29,0,0,1,.29-.291h1.919a.29.29,0,0,1,.29.291V35.709a.29.29,0,0,1-.29.291H153.29A.29.29,0,0,1,153,35.709Zm.29-13.209h1.919a.29.29,0,0,0,.29-.291V20.291a.29.29,0,0,0-.29-.291H153.29a.29.29,0,0,0-.29.291v1.919A.29.29,0,0,0,153.29,22.5Z" transform="translate(-142 -16)" fill="#2777d3"/>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g id="Group_14604" data-name="Group 14604" transform="translate(98.2 -369)">
+        <g id="Group_11898-3" data-name="Group 11898" transform="translate(105 800)">
+          <g id="Group_11892-3" data-name="Group 11892">
+            <g id="Rectangle_3830-3" data-name="Rectangle 3830" transform="translate(0)" fill="#fff" stroke="#2777d3" stroke-width="1">
+              <rect width="490.8" height="107" rx="4" stroke="none"/>
+              <rect x="0.5" y="0.5" width="489.8" height="106" rx="3.5" fill="none"/>
+            </g>
+            <text id="Please_edit_the_statement_details_to_not_match_another_carrier_statement-3" data-name="Please edit the statement details to not match another carrier statement" transform="translate(70.4 20)" fill="#31313a" font-size="14" font-family="OpenSans, Open Sans"><tspan x="0" y="15">Please edit the statement details to not match another </tspan><tspan x="0" y="34">carrier statement</tspan></text>
+            <text id="View_details-3" data-name="View details" transform="translate(70.4 83)" fill="#2777d3" font-size="14" font-family="OpenSans-Semibold, Open Sans" font-weight="600" text-decoration="underline"><tspan x="0" y="0">View details</tspan></text>
+            <path id="Rectangle_5239-3" data-name="Rectangle 5239" d="M4,0H50a0,0,0,0,1,0,0V106.8a0,0,0,0,1,0,0H4a4,4,0,0,1-4-4V4A4,4,0,0,1,4,0Z" transform="translate(-0.2)" fill="#2777d3"/>
+            <g id="Group_12973-3" data-name="Group 12973" transform="translate(12.8 41)">
+              <g id="Group_11913-3" data-name="Group 11913">
+                <circle id="Ellipse_6-3" data-name="Ellipse 6" cx="12" cy="12" r="12" fill="#fff"/>
+              </g>
+              <path id="Path_6649-3" data-name="Path 6649" d="M153,35.709V25.291a.29.29,0,0,1,.29-.291h1.919a.29.29,0,0,1,.29.291V35.709a.29.29,0,0,1-.29.291H153.29A.29.29,0,0,1,153,35.709Zm.29-13.209h1.919a.29.29,0,0,0,.29-.291V20.291a.29.29,0,0,0-.29-.291H153.29a.29.29,0,0,0-.29.291v1.919A.29.29,0,0,0,153.29,22.5Z" transform="translate(-142 -16)" fill="#2777d3"/>
+            </g>
+            <g id="Rectangle_8081" data-name="Rectangle 8081" transform="translate(64.8 67)" fill="none" stroke="#2777d3" stroke-width="1">
+              <rect width="93" height="22" stroke="none"/>
+              <rect x="0.5" y="0.5" width="92" height="21" fill="none"/>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g id="Group_14606" data-name="Group 14606" transform="translate(98.2 -212)">
+        <g id="Group_11898-4" data-name="Group 11898" transform="translate(105 800)">
+          <g id="Group_11892-4" data-name="Group 11892">
+            <g id="Rectangle_3830-4" data-name="Rectangle 3830" transform="translate(0)" fill="#fff" stroke="#2777d3" stroke-width="1">
+              <rect width="490.8" height="107" rx="4" stroke="none"/>
+              <rect x="0.5" y="0.5" width="489.8" height="106" rx="3.5" fill="none"/>
+            </g>
+            <text id="Please_edit_the_statement_details_to_not_match_another_carrier_statement-4" data-name="Please edit the statement details to not match another carrier statement" transform="translate(70.4 20)" fill="#31313a" font-size="14" font-family="OpenSans, Open Sans"><tspan x="0" y="15">Please edit the statement details to not match another </tspan><tspan x="0" y="34">carrier statement</tspan></text>
+            <text id="View_details-4" data-name="View details" transform="translate(70.4 83)" fill="#1f5ea8" font-size="14" font-family="OpenSans-Semibold, Open Sans" font-weight="600" text-decoration="underline"><tspan x="0" y="0">View details</tspan></text>
+            <path id="Rectangle_5239-4" data-name="Rectangle 5239" d="M4,0H50a0,0,0,0,1,0,0V106.8a0,0,0,0,1,0,0H4a4,4,0,0,1-4-4V4A4,4,0,0,1,4,0Z" transform="translate(-0.2)" fill="#2777d3"/>
+            <g id="Group_12973-4" data-name="Group 12973" transform="translate(12.8 41)">
+              <g id="Group_11913-4" data-name="Group 11913">
+                <circle id="Ellipse_6-4" data-name="Ellipse 6" cx="12" cy="12" r="12" fill="#fff"/>
+              </g>
+              <path id="Path_6649-4" data-name="Path 6649" d="M153,35.709V25.291a.29.29,0,0,1,.29-.291h1.919a.29.29,0,0,1,.29.291V35.709a.29.29,0,0,1-.29.291H153.29A.29.29,0,0,1,153,35.709Zm.29-13.209h1.919a.29.29,0,0,0,.29-.291V20.291a.29.29,0,0,0-.29-.291H153.29a.29.29,0,0,0-.29.291v1.919A.29.29,0,0,0,153.29,22.5Z" transform="translate(-142 -16)" fill="#2777d3"/>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

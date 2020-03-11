@@ -11,6 +11,12 @@
           "description": "This attribute will decide whether the submenu is open or not",
           "type": "boolean",
           "default": "false"
+        },
+        {
+          "name": "disabled",
+          "description": "This attribute will decide whether you want to disable the `<zui-button>` dropdown trigger",
+          "type": "boolean",
+          "default": "false"
         }
       ],
       "properties": [
@@ -18,6 +24,13 @@
           "name": "open",
           "attribute": "open",
           "description": "This attribute will decide whether the submenu is open or not",
+          "type": "boolean",
+          "default": "false"
+        },
+        {
+          "name": "disabled",
+          "attribute": "disabled",
+          "description": "This attribute will decide whether you want to disable the `<zui-button>` dropdown trigger",
           "type": "boolean",
           "default": "false"
         }

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="491" height="143" viewBox="0 0 491 143">
+  <defs>
+    <clipPath id="clip-well_rare">
+      <rect width="491" height="143"/>
+    </clipPath>
+  </defs>
+  <g id="well_rare" clip-path="url(#clip-well_rare)">
+    <g id="Group_14598" data-name="Group 14598" transform="translate(1832 -984)">
+      <g id="Rectangle_3830" data-name="Rectangle 3830" transform="translate(-1831.8 984)" fill="#fff" stroke="#d93911" stroke-width="1">
+        <rect width="490" height="143" rx="4" stroke="none"/>
+        <rect x="0.5" y="0.5" width="489" height="142" rx="3.5" fill="none"/>
+      </g>
+      <text id="Cannot_confirm_elections" data-name="Cannot confirm elections" transform="translate(-1762 1021)" fill="#31313a" font-size="16" font-family="OpenSans-Bold, Open Sans" font-weight="700"><tspan x="0" y="0">Cannot confirm elections</tspan></text>
+      <text id="The_following_information_is_required_to_confirm_your_elections:_-_Enrollment_for_signature_-_Date_of_birth_" data-name="The following information is required to confirm your elections:
+     - Enrollment for signature
+     - Date of birth
+" transform="translate(-1762 1031)" fill="#31313a" font-size="14" font-family="OpenSans, Open Sans"><tspan x="0" y="15">The following information is required to confirm your </tspan><tspan x="0" y="34">elections:</tspan><tspan x="0" y="53" xml:space="preserve">     - Enrollment for signature</tspan><tspan x="0" y="72" xml:space="preserve">     - Date of birth</tspan></text>
+      <path id="Rectangle_5239" data-name="Rectangle 5239" d="M4,0H50a0,0,0,0,1,0,0V142.8a0,0,0,0,1,0,0H4a4,4,0,0,1-4-4V4A4,4,0,0,1,4,0Z" transform="translate(-1832 984)" fill="#d93911"/>
+      <path id="Path_8382" data-name="Path 8382" d="M10.717,3.4h2.717a.455.455,0,0,1,.455.455h0L12.98,14.679a.444.444,0,0,1-.444.444h-.909a.445.445,0,0,1-.455-.433v-.011l-.9-10.825a.445.445,0,0,1,.433-.455ZM13.965,18.89a1.84,1.84,0,0,1-1.851,1.829h-.26a1.873,1.873,0,0,1-1.5-1.321,1.84,1.84,0,0,1,1.765-2.349h0a1.851,1.851,0,0,1,1.83,1.83ZM16.974,0H7.026L0,7.026v9.949L7.026,24h9.949L24,16.974V7.026Z" transform="translate(-1819 1043)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

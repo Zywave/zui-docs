@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="490" height="105" viewBox="0 0 490 105">
+  <defs>
+    <clipPath id="clip-well_dismissible">
+      <rect width="490" height="105"/>
+    </clipPath>
+  </defs>
+  <g id="well_dismissible" clip-path="url(#clip-well_dismissible)">
+    <g id="Group_14596" data-name="Group 14596" transform="translate(-104.8 -800)">
+      <g id="Group_11898" data-name="Group 11898" transform="translate(105 800)">
+        <g id="Group_11892" data-name="Group 11892">
+          <g id="Rectangle_3830" data-name="Rectangle 3830" transform="translate(-0.2)" fill="#fff" stroke="#2777d3" stroke-width="1">
+            <rect width="490" height="105" rx="4" stroke="none"/>
+            <rect x="0.5" y="0.5" width="489" height="104" rx="3.5" fill="none"/>
+          </g>
+          <text id="This_statement_has_already_been_entered" data-name="This statement has already been entered" transform="translate(69.8 37)" fill="#31313a" font-size="16" font-family="OpenSans-Bold, Open Sans" font-weight="700"><tspan x="0" y="0">This statement has already been entered</tspan></text>
+          <text id="Please_edit_the_statement_details_to_not_match_another_carrier_statement" data-name="Please edit the statement details to not match another carrier statement" transform="translate(69.8 47)" fill="#31313a" font-size="14" font-family="OpenSans, Open Sans"><tspan x="0" y="15">Please edit the statement details to not match another </tspan><tspan x="0" y="34">carrier statement</tspan></text>
+          <path id="Rectangle_5239" data-name="Rectangle 5239" d="M4,0H50a0,0,0,0,1,0,0V104.8a0,0,0,0,1,0,0H4a4,4,0,0,1-4-4V4A4,4,0,0,1,4,0Z" transform="translate(-0.2)" fill="#2777d3"/>
+          <g id="Group_12973" data-name="Group 12973" transform="translate(12.8 40)">
+            <g id="Group_11913" data-name="Group 11913">
+              <circle id="Ellipse_6" data-name="Ellipse 6" cx="12" cy="12" r="12" fill="#fff"/>
+            </g>
+            <path id="Path_6649" data-name="Path 6649" d="M153,35.709V25.291a.29.29,0,0,1,.29-.291h1.919a.29.29,0,0,1,.29.291V35.709a.29.29,0,0,1-.29.291H153.29A.29.29,0,0,1,153,35.709Zm.29-13.209h1.919a.29.29,0,0,0,.29-.291V20.291a.29.29,0,0,0-.29-.291H153.29a.29.29,0,0,0-.29.291v1.919A.29.29,0,0,0,153.29,22.5Z" transform="translate(-142 -16)" fill="#2777d3"/>
+          </g>
+          <g id="Remove" transform="translate(475.8 30)">
+            <g id="Group_11940" data-name="Group 11940" transform="translate(-20 -20)">
+              <rect id="Rectangle_5239-2" data-name="Rectangle 5239" width="24" height="24" fill="none"/>
+              <path id="Path_6644" data-name="Path 6644" d="M13.905,12l4.673-4.673a.227.227,0,0,0,0-.318L16.99,5.422a.227.227,0,0,0-.318,0L12,10.095,7.327,5.422a.227.227,0,0,0-.318,0L5.422,7.01a.227.227,0,0,0,0,.318L10.095,12,5.422,16.673a.227.227,0,0,0,0,.318L7.01,18.578a.227.227,0,0,0,.318,0L12,13.905l4.673,4.673a.227.227,0,0,0,.318,0l1.588-1.588a.227.227,0,0,0,0-.318Z" transform="translate(0 0)" fill="#31313a"/>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

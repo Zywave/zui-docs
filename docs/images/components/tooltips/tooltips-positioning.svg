@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="840" height="190" viewBox="0 0 840 190">
+  <defs>
+    <clipPath id="clip-Artboard_1">
+      <rect width="840" height="190"/>
+    </clipPath>
+  </defs>
+  <g id="Artboard_1" data-name="Artboard – 1" clip-path="url(#clip-Artboard_1)">
+    <g id="Group_13725" data-name="Group 13725" transform="translate(-22 3)">
+      <g id="Group_13723" data-name="Group 13723" transform="translate(12)">
+        <g id="Group_13709" data-name="Group 13709" transform="translate(358 -1108)">
+          <circle id="Ellipse_365" data-name="Ellipse 365" cx="8" cy="8" r="8" transform="translate(412 1192)" fill="#1f5ea8"/>
+          <text id="_" data-name="?" transform="translate(417.786 1203.5)" fill="#fff" font-size="9" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">?</tspan></text>
+        </g>
+        <g id="Tooltip-_Right_4" data-name="Tooltip- Right – 4" transform="translate(631 74)">
+          <path id="Union_10" data-name="Union 10" d="M-1412-2862a2,2,0,0,1-2-2v-32a2,2,0,0,1,2-2h124a2,2,0,0,1,2,2v10.687l5.314,5.314-5.314,5.313V-2864a2,2,0,0,1-2,2Z" transform="translate(1414 2898)" fill="#494955"/>
+          <text id="Select_an_account" data-name="Select an account" transform="translate(118 23)" fill="#fff" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="-108.247" y="0">Select an account</tspan></text>
+        </g>
+      </g>
+      <g id="Group_13722" data-name="Group 13722" transform="translate(12)">
+        <g id="Group_13708" data-name="Group 13708" transform="translate(15 -1108)">
+          <circle id="Ellipse_365-2" data-name="Ellipse 365" cx="8" cy="8" r="8" transform="translate(412 1192)" fill="#1f5ea8"/>
+          <text id="_2" data-name="?" transform="translate(417.786 1203.5)" fill="#fff" font-size="9" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">?</tspan></text>
+        </g>
+        <g id="Tooltip-_Right_3" data-name="Tooltip- Right – 3" transform="translate(448 74)">
+          <path id="Union_10-2" data-name="Union 10" d="M-1370-2862a2,2,0,0,1-2-2v-11l-5-5,5-5v-11a2,2,0,0,1,2-2h124a2,2,0,0,1,2,2v32a2,2,0,0,1-2,2Z" transform="translate(1377 2898)" fill="#494955"/>
+          <text id="Select_an_account-2" data-name="Select an account" transform="translate(15 23)" fill="#fff" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Select an account</tspan></text>
+        </g>
+      </g>
+      <g id="Group_13724" data-name="Group 13724" transform="translate(-4 -3)">
+        <g id="Group_13707" data-name="Group 13707" transform="translate(-91 -1142)">
+          <circle id="Ellipse_365-3" data-name="Ellipse 365" cx="8" cy="8" r="8" transform="translate(412 1192)" fill="#1f5ea8"/>
+          <text id="_3" data-name="?" transform="translate(417.786 1203.5)" fill="#fff" font-size="9" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">?</tspan></text>
+        </g>
+        <g id="Tooltip-_Bottom_2" data-name="Tooltip- Bottom – 2" transform="translate(265 71)">
+          <path id="Union_9" data-name="Union 9" d="M-1375-2856.344a2,2,0,0,1-2-2v-32a2,2,0,0,1,2-2h56l5.657-5.656,5.656,5.656H-1251a2,2,0,0,1,2,2v32a2,2,0,0,1-2,2Z" transform="translate(1377 2898)" fill="#494955"/>
+          <text id="Select_an_account-3" data-name="Select an account" transform="translate(10 28.657)" fill="#fff" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Select an account</tspan></text>
+        </g>
+      </g>
+      <g id="Group_13721" data-name="Group 13721" transform="translate(-41 25)">
+        <g id="Group_13718" data-name="Group 13718" transform="translate(-228 -1096)">
+          <circle id="Ellipse_365-4" data-name="Ellipse 365" cx="8" cy="8" r="8" transform="translate(412 1192)" fill="#1f5ea8"/>
+          <text id="_4" data-name="?" transform="translate(417.786 1203.5)" fill="#fff" font-size="9" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">?</tspan></text>
+        </g>
+        <g id="Tooltip-_Top_12" data-name="Tooltip- Top – 12" transform="translate(128 49)">
+          <path id="Union_8" data-name="Union 8" d="M-1319-2862h-56a2,2,0,0,1-2-2v-32a2,2,0,0,1,2-2h124a2,2,0,0,1,2,2v32a2,2,0,0,1-2,2h-56.687l-5.656,5.656Z" transform="translate(1377 2898)" fill="#494955"/>
+          <text id="Select_an_account-4" data-name="Select an account" transform="translate(10 23)" fill="#fff" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Select an account</tspan></text>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
