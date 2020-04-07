@@ -13,6 +13,11 @@
           "default": "false"
         },
         {
+          "name": "value",
+          "type": "string",
+          "default": "\"on\""
+        },
+        {
           "name": "type",
           "description": "The type of toggle. Supports 'standard' and 'icon'; defaults to 'standard'\r\nIf 'icon', provide an icon to the slot to be toggled",
           "type": "string",
@@ -28,11 +33,22 @@
           "default": "false"
         },
         {
+          "name": "value",
+          "attribute": "value",
+          "type": "string",
+          "default": "\"on\""
+        },
+        {
           "name": "type",
           "attribute": "type",
           "description": "The type of toggle. Supports 'standard' and 'icon'; defaults to 'standard'\r\nIf 'icon', provide an icon to the slot to be toggled",
           "type": "string",
           "default": "\"standard\""
+        }
+      ],
+      "events": [
+        {
+          "name": "change"
         }
       ]
     }

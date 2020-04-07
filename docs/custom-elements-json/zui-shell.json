@@ -88,6 +88,12 @@
           "default": "false"
         }
       ],
+      "events": [
+        {
+          "name": "topbarheightchange",
+          "description": "fired when user scrolls down from the top of the page, or scrolls up when not at the top of the page"
+        }
+      ],
       "slots": [
         {
           "name": "",
@@ -311,6 +317,12 @@
           "description": "(Optional) For customizing the text for the collapse button at the bottom of the side nav",
           "type": "string",
           "default": "\"Collapse\""
+        }
+      ],
+      "events": [
+        {
+          "name": "navcollapsechange",
+          "description": "fired when nav is collapsed or expanded"
         }
       ],
       "slots": [
