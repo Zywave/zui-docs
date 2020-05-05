@@ -44,6 +44,12 @@
           "name": "option",
           "description": "For each dropdown menu option, apply this slot attribute to your slotted menu item"
         }
+      ],
+      "cssParts": [
+        {
+          "name": "menu",
+          "description": "The menu container for the dropdown menu, this is exposed as a shadow part and can be accessed with ::part(menu)"
+        }
       ]
     }
   ]
