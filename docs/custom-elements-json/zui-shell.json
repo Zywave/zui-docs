@@ -32,7 +32,7 @@
         {
           "name": "--zui-background",
           "description": "Background color of your application `<body>`",
-          "default": "\"var(--zui-gray-50)\""
+          "default": "\"var(--zui-gray-25)\""
         },
         {
           "name": "--zui-shell-background",

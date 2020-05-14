@@ -147,18 +147,12 @@
       "description": "`<zui-select-dropdown>` is an evolved `<zui-select>` that supports multiselect, typeahead, tagging, grouping, and asynchronous option retrieval. All properties are optional.",
       "attributes": [
         {
-          "name": "disabled",
-          "description": "Prevents all functionality",
-          "type": "boolean",
-          "default": "false"
-        },
-        {
           "name": "placeholder",
           "description": "Text to show within input when no options selected",
           "default": "\"undefined\""
         },
         {
-          "name": "multiselect",
+          "name": "multiple",
           "description": "Allow multiple options to be selected",
           "type": "boolean",
           "default": "false"
@@ -200,21 +194,14 @@
       ],
       "properties": [
         {
-          "name": "disabled",
-          "attribute": "disabled",
-          "description": "Prevents all functionality",
-          "type": "boolean",
-          "default": "false"
-        },
-        {
           "name": "placeholder",
           "attribute": "placeholder",
           "description": "Text to show within input when no options selected",
           "default": "\"undefined\""
         },
         {
-          "name": "multiselect",
-          "attribute": "multiselect",
+          "name": "multiple",
+          "attribute": "multiple",
           "description": "Allow multiple options to be selected",
           "type": "boolean",
           "default": "false"
