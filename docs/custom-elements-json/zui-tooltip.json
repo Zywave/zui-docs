@@ -1,0 +1,37 @@
+{
+  "version": "experimental",
+  "tags": [
+    {
+      "name": "zui-tooltip",
+      "path": "./..\\src\\zui-tooltip.js",
+      "description": "Tooltips are unobtrusive messages that provide the user with simple information when hovering over a page element",
+      "attributes": [
+        {
+          "name": "position",
+          "description": "Use this attribute to set which direction the tooltip should appear. Options are `top`, `left`, `bottom`, and `right`.",
+          "type": "string",
+          "default": "\"right\""
+        }
+      ],
+      "properties": [
+        {
+          "name": "position",
+          "attribute": "position",
+          "description": "Use this attribute to set which direction the tooltip should appear. Options are `top`, `left`, `bottom`, and `right`.",
+          "type": "string",
+          "default": "\"right\""
+        }
+      ],
+      "slots": [
+        {
+          "name": "indicator",
+          "description": "Optional slot for the tooltip to anchor itself to. If this is not set, the `zui-help` icon will be used by default"
+        },
+        {
+          "name": "message",
+          "description": "Text to appear in the tooltip when the user hovers over the anchored element"
+        }
+      ]
+    }
+  ]
+}
