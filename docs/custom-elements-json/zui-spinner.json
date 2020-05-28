@@ -53,6 +53,13 @@
         {
           "name": "PROPERTY_EFFECT_TYPES"
         }
+      ],
+      "cssProperties": [
+        {
+          "name": "--zui-spinner-size",
+          "description": "To customize size of spinner assign a new value to this custom property; note: rem(28) = 28px, also this property applies to both width & height therefore component assumes spinner is square aspect ratio",
+          "default": "\"rem(28)\""
+        }
       ]
     },
     {

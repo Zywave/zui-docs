@@ -267,7 +267,8 @@
           "description": "on new option tagged"
         },
         {
-          "name": "input-timeout"
+          "name": "query",
+          "description": "on search term typed in the input. if debounce > 0, only fires after timeout"
         }
       ],
       "slots": [
