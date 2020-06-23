@@ -42,6 +42,22 @@
           "description": "Whether or not this radio is checked",
           "type": "boolean",
           "default": "false"
+        },
+        {
+          "name": "form",
+          "type": "HTMLFormElement | null"
+        },
+        {
+          "name": "name",
+          "type": "string | null"
+        },
+        {
+          "name": "disabled",
+          "type": "boolean"
+        },
+        {
+          "name": "readOnly",
+          "type": "boolean"
         }
       ],
       "events": [

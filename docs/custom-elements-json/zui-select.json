@@ -61,6 +61,22 @@
           "attribute": "required",
           "type": "boolean",
           "default": "false"
+        },
+        {
+          "name": "form",
+          "type": "HTMLFormElement | null"
+        },
+        {
+          "name": "name",
+          "type": "string | null"
+        },
+        {
+          "name": "disabled",
+          "type": "boolean"
+        },
+        {
+          "name": "readOnly",
+          "type": "boolean"
         }
       ],
       "events": [
@@ -255,6 +271,22 @@
           "name": "queryHandler",
           "attribute": "queryHandler",
           "description": "An alternative or supplementary way to retrieve options.\r\nMust be a function that accepts a string argument and an optional array argument of `ZuiOptionObject` elements.\r\nMust return a promise that resolves to a list of primitive values or objects with a `label` property and optional `value`, `disabled`, and/or `group` properties.\r\nThe search term will be passed to the first argument and the existing options will be passed to the second argument."
+        },
+        {
+          "name": "form",
+          "type": "HTMLFormElement | null"
+        },
+        {
+          "name": "name",
+          "type": "string | null"
+        },
+        {
+          "name": "disabled",
+          "type": "boolean"
+        },
+        {
+          "name": "readOnly",
+          "type": "boolean"
         }
       ],
       "events": [

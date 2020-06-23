@@ -20,11 +20,16 @@
           "description": "Use this attribute to set which direction the tooltip should appear. Options are `top`, `left`, `bottom`, and `right`.",
           "type": "string",
           "default": "\"right\""
+        },
+        {
+          "name": "canHover",
+          "type": "boolean",
+          "default": "\"matches\""
         }
       ],
       "slots": [
         {
-          "name": "indicator",
+          "name": "trigger",
           "description": "Optional slot for the tooltip to anchor itself to. If this is not set, the `zui-help` icon will be used by default"
         },
         {

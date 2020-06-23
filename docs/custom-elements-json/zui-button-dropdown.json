@@ -17,6 +17,12 @@
           "description": "This attribute will decide whether you want to disable the `<zui-button>` dropdown trigger",
           "type": "boolean",
           "default": "false"
+        },
+        {
+          "name": "type",
+          "description": "Use this attribute to set the type of button dropdown you want. Options: `primary`, `secondary`, `link`, and `danger`; can be used in combination with `icon`. See [Buttons](https://zui.zywave.com/components/buttons/) for button style variations.",
+          "type": "string",
+          "default": "\"\""
         }
       ],
       "properties": [
@@ -33,6 +39,13 @@
           "description": "This attribute will decide whether you want to disable the `<zui-button>` dropdown trigger",
           "type": "boolean",
           "default": "false"
+        },
+        {
+          "name": "type",
+          "attribute": "type",
+          "description": "Use this attribute to set the type of button dropdown you want. Options: `primary`, `secondary`, `link`, and `danger`; can be used in combination with `icon`. See [Buttons](https://zui.zywave.com/components/buttons/) for button style variations.",
+          "type": "string",
+          "default": "\"\""
         }
       ],
       "slots": [

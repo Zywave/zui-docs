@@ -30,6 +30,22 @@
           "attribute": "value",
           "type": "string",
           "default": "\"on\""
+        },
+        {
+          "name": "form",
+          "type": "HTMLFormElement | null"
+        },
+        {
+          "name": "name",
+          "type": "string | null"
+        },
+        {
+          "name": "disabled",
+          "type": "boolean"
+        },
+        {
+          "name": "readOnly",
+          "type": "boolean"
         }
       ],
       "events": [

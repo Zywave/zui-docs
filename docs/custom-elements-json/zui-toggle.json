@@ -44,6 +44,22 @@
           "description": "The type of toggle. Supports 'standard' and 'icon'; defaults to 'standard'\r\nIf 'icon', provide an icon to the slot to be toggled",
           "type": "string",
           "default": "\"standard\""
+        },
+        {
+          "name": "form",
+          "type": "HTMLFormElement | null"
+        },
+        {
+          "name": "name",
+          "type": "string | null"
+        },
+        {
+          "name": "disabled",
+          "type": "boolean"
+        },
+        {
+          "name": "readOnly",
+          "type": "boolean"
         }
       ],
       "events": [
