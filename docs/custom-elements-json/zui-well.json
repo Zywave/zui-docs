@@ -3,13 +3,13 @@
   "tags": [
     {
       "name": "zui-well",
-      "path": "./..\\src\\zui-well.js",
+      "path": "./..\\src\\zui-well.ts",
       "description": "Use <code>zui-well</code>'s to attract users attention to a message. There are various types of well's depending on messaging needs. `<zui-well>` by default is delayed in appearing and then animates in, consumers can specify whether they want it static or default to animated.",
       "attributes": [
         {
           "name": "type",
-          "description": "The type of well you want to display. Defaults to 'info'.\r\nThe types of zui-well include: 'info', 'warning', 'error', 'success'",
-          "type": "string",
+          "description": "The type of well you want to display. Defaults to `'info'`.",
+          "type": " info | warning | error | success ",
           "default": "\"info\""
         },
         {
@@ -47,8 +47,8 @@
         {
           "name": "type",
           "attribute": "type",
-          "description": "The type of well you want to display. Defaults to 'info'.\r\nThe types of zui-well include: 'info', 'warning', 'error', 'success'",
-          "type": "string",
+          "description": "The type of well you want to display. Defaults to `'info'`.",
+          "type": " info | warning | error | success ",
           "default": "\"info\""
         },
         {

@@ -3,7 +3,7 @@
   "tags": [
     {
       "name": "zui-card",
-      "path": "./..\\src\\zui-card.js",
+      "path": "./..\\src\\zui-card.ts",
       "description": "Simple. Card-like. Pass content into <zui-card> to get the visual styling of our ZUI defined cards.",
       "slots": [
         {

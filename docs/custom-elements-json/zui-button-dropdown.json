@@ -3,7 +3,7 @@
   "tags": [
     {
       "name": "zui-button-dropdown",
-      "path": "./..\\src\\zui-button-dropdown.js",
+      "path": "./..\\src\\zui-button-dropdown.ts",
       "description": "A component that uses a `<zui-button>` to open a dropdown menu of options.",
       "attributes": [
         {
@@ -20,9 +20,9 @@
         },
         {
           "name": "type",
-          "description": "Use this attribute to set the type of button dropdown you want. Options: `primary`, `secondary`, `link`, and `danger`; can be used in combination with `icon`. See [Buttons](https://zui.zywave.com/components/buttons/) for button style variations.",
-          "type": "string",
-          "default": "\"\""
+          "description": "Use this attribute to set the type of button dropdown you want. You can combine `primary`, `secondary`, `link`, and `danger` with `icon`. See [Buttons](https://zui.zywave.com/components/buttons/) for button style variations.",
+          "type": " primary | secondary | link | danger | icon | primary  icon | secondary icon | link icon | danger icon ",
+          "default": "\"primary\""
         }
       ],
       "properties": [
@@ -43,9 +43,9 @@
         {
           "name": "type",
           "attribute": "type",
-          "description": "Use this attribute to set the type of button dropdown you want. Options: `primary`, `secondary`, `link`, and `danger`; can be used in combination with `icon`. See [Buttons](https://zui.zywave.com/components/buttons/) for button style variations.",
-          "type": "string",
-          "default": "\"\""
+          "description": "Use this attribute to set the type of button dropdown you want. You can combine `primary`, `secondary`, `link`, and `danger` with `icon`. See [Buttons](https://zui.zywave.com/components/buttons/) for button style variations.",
+          "type": " primary | secondary | link | danger | icon | primary  icon | secondary icon | link icon | danger icon ",
+          "default": "\"primary\""
         }
       ],
       "slots": [

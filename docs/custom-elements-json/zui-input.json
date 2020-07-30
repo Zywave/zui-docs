@@ -3,14 +3,16 @@
   "tags": [
     {
       "name": "zui-input",
-      "path": "./..\\src\\zui-input.js",
+      "path": "./..\\src\\zui-input.ts",
       "attributes": [
         {
           "name": "value",
           "type": "string"
         },
         {
-          "name": "placeholder"
+          "name": "placeholder",
+          "type": "string",
+          "default": "\"\""
         },
         {
           "name": "required",
@@ -36,7 +38,9 @@
         },
         {
           "name": "placeholder",
-          "attribute": "placeholder"
+          "attribute": "placeholder",
+          "type": "string",
+          "default": "\"\""
         },
         {
           "name": "required",

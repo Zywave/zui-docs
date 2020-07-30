@@ -3,14 +3,15 @@
   "tags": [
     {
       "name": "zui-multipicker",
-      "path": "./..\\src\\zui-multipicker.js"
+      "path": "./..\\src\\zui-multipicker.ts"
     },
     {
       "name": "zui-multipicker-item",
-      "path": "./..\\src\\zui-multipicker-item.js",
+      "path": "./..\\src\\zui-multipicker-item.ts",
       "attributes": [
         {
           "name": "identifier",
+          "type": "string | undefined",
           "default": "\"undefined\""
         },
         {
@@ -23,6 +24,7 @@
         {
           "name": "identifier",
           "attribute": "identifier",
+          "type": "string | undefined",
           "default": "\"undefined\""
         },
         {

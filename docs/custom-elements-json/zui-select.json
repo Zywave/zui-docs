@@ -2,8 +2,76 @@
   "version": "experimental",
   "tags": [
     {
+      "name": "zui-option",
+      "path": "./..\\src\\zui-option.ts",
+      "attributes": [
+        {
+          "name": "value",
+          "type": "string | null | undefined",
+          "default": "\"undefined\""
+        },
+        {
+          "name": "label",
+          "type": "string",
+          "default": "\"\""
+        },
+        {
+          "name": "disabled",
+          "type": "boolean",
+          "default": "false"
+        },
+        {
+          "name": "hidden",
+          "type": "boolean",
+          "default": "false"
+        },
+        {
+          "name": "selected",
+          "type": "boolean",
+          "default": "false"
+        }
+      ],
+      "properties": [
+        {
+          "name": "value",
+          "attribute": "value",
+          "type": "string | null | undefined",
+          "default": "\"undefined\""
+        },
+        {
+          "name": "label",
+          "attribute": "label",
+          "type": "string",
+          "default": "\"\""
+        },
+        {
+          "name": "disabled",
+          "attribute": "disabled",
+          "type": "boolean",
+          "default": "false"
+        },
+        {
+          "name": "hidden",
+          "attribute": "hidden",
+          "type": "boolean",
+          "default": "false"
+        },
+        {
+          "name": "selected",
+          "attribute": "selected",
+          "type": "boolean",
+          "default": "false"
+        }
+      ],
+      "events": [
+        {
+          "name": "updated"
+        }
+      ]
+    },
+    {
       "name": "zui-select",
-      "path": "./..\\src\\zui-select.js",
+      "path": "./..\\src\\zui-select.ts",
       "attributes": [
         {
           "name": "multiple",
@@ -13,6 +81,7 @@
         },
         {
           "name": "placeholder",
+          "type": "string | undefined",
           "default": "\"undefined\""
         },
         {
@@ -42,6 +111,7 @@
         {
           "name": "placeholder",
           "attribute": "placeholder",
+          "type": "string | undefined",
           "default": "\"undefined\""
         },
         {
@@ -86,85 +156,33 @@
       ]
     },
     {
-      "name": "zui-option",
-      "path": "./..\\src\\zui-option.js",
-      "attributes": [
-        {
-          "name": "value",
-          "default": "\"undefined\""
-        },
-        {
-          "name": "disabled",
-          "type": "boolean",
-          "default": "false"
-        },
-        {
-          "name": "hidden",
-          "type": "boolean",
-          "default": "false"
-        },
-        {
-          "name": "selected",
-          "type": "boolean",
-          "default": "false"
-        }
-      ],
-      "properties": [
-        {
-          "name": "value",
-          "attribute": "value",
-          "default": "\"undefined\""
-        },
-        {
-          "name": "disabled",
-          "attribute": "disabled",
-          "type": "boolean",
-          "default": "false"
-        },
-        {
-          "name": "hidden",
-          "attribute": "hidden",
-          "type": "boolean",
-          "default": "false"
-        },
-        {
-          "name": "selected",
-          "attribute": "selected",
-          "type": "boolean",
-          "default": "false"
-        }
-      ],
-      "events": [
-        {
-          "name": "updated"
-        }
-      ]
-    },
-    {
       "name": "zui-option-group",
-      "path": "./..\\src\\zui-option-group.js",
+      "path": "./..\\src\\zui-option-group.ts",
       "attributes": [
         {
           "name": "label",
-          "default": "\"undefined\""
+          "type": "string",
+          "default": "\"\""
         }
       ],
       "properties": [
         {
           "name": "label",
           "attribute": "label",
-          "default": "\"undefined\""
+          "type": "string",
+          "default": "\"\""
         }
       ]
     },
     {
       "name": "zui-select-dropdown",
-      "path": "./..\\src\\zui-select-dropdown.js",
+      "path": "./..\\src\\zui-select-dropdown.ts",
       "description": "`<zui-select-dropdown>` is an evolved `<zui-select>` that supports multiselect, typeahead, tagging, grouping, and asynchronous option retrieval. All properties are optional.",
       "attributes": [
         {
           "name": "placeholder",
           "description": "Text to show within input when no options selected",
+          "type": "string | undefined",
           "default": "\"undefined\""
         },
         {
@@ -181,7 +199,8 @@
         },
         {
           "name": "debounce",
-          "description": "Delay in milliseconds after typing before retrieving options"
+          "description": "Delay in milliseconds after typing before retrieving options",
+          "type": "number"
         },
         {
           "name": "typeahead",
@@ -197,19 +216,24 @@
         },
         {
           "name": "taggable-label",
-          "description": "Text to show on the taggable option before the search term; default \"Create\""
+          "description": "Text to show on the taggable option before the search term; default \"Create\"",
+          "type": "string | undefined"
         },
         {
           "name": "ungrouped-label",
-          "description": "The name of the group to contain options that are not contained within another group when groups are present; default \"Other\""
+          "description": "The name of the group to contain options that are not contained within another group when groups are present; default \"Other\"",
+          "type": "string | undefined"
         },
         {
           "name": "no-results-message",
-          "description": "The message to appear if a group contains no options"
+          "description": "The message to appear if a group contains no options",
+          "type": "string | undefined"
         },
         {
           "name": "queryHandler",
-          "description": "An alternative or supplementary way to retrieve options.\r\nMust be a function that accepts a string argument and an optional array argument of `ZuiOptionObject` elements.\r\nMust return a promise that resolves to a list of primitive values or objects with a `label` property and optional `value`, `disabled`, and/or `group` properties.\r\nThe search term will be passed to the first argument and the existing options will be passed to the second argument."
+          "description": "An alternative or supplementary way to retrieve options.\r\nMust be a function that accepts a string argument and an optional array argument of `ZuiOptionObject` elements.\r\nMust return a promise that resolves to a list of strings or objects with a `label` property and optional `value`, `disabled`, and/or `group` properties.\r\nThe search term will be passed to the first argument and the existing options will be passed to the second argument.",
+          "type": "((query: string, options?: ZuiOptionObject[] | undefined) => (string | IZuiOptionObject)[] | Promise<(string | IZuiOptionObject)[]>) | undefined",
+          "default": "\"undefined\""
         }
       ],
       "properties": [
@@ -217,6 +241,7 @@
           "name": "placeholder",
           "attribute": "placeholder",
           "description": "Text to show within input when no options selected",
+          "type": "string | undefined",
           "default": "\"undefined\""
         },
         {
@@ -236,7 +261,8 @@
         {
           "name": "debounce",
           "attribute": "debounce",
-          "description": "Delay in milliseconds after typing before retrieving options"
+          "description": "Delay in milliseconds after typing before retrieving options",
+          "type": "number"
         },
         {
           "name": "typeahead",
@@ -255,22 +281,27 @@
         {
           "name": "taggableLabel",
           "attribute": "taggable-label",
-          "description": "Text to show on the taggable option before the search term; default \"Create\""
+          "description": "Text to show on the taggable option before the search term; default \"Create\"",
+          "type": "string | undefined"
         },
         {
           "name": "ungroupedLabel",
           "attribute": "ungrouped-label",
-          "description": "The name of the group to contain options that are not contained within another group when groups are present; default \"Other\""
+          "description": "The name of the group to contain options that are not contained within another group when groups are present; default \"Other\"",
+          "type": "string | undefined"
         },
         {
           "name": "noResultsMessage",
           "attribute": "no-results-message",
-          "description": "The message to appear if a group contains no options"
+          "description": "The message to appear if a group contains no options",
+          "type": "string | undefined"
         },
         {
           "name": "queryHandler",
           "attribute": "queryHandler",
-          "description": "An alternative or supplementary way to retrieve options.\r\nMust be a function that accepts a string argument and an optional array argument of `ZuiOptionObject` elements.\r\nMust return a promise that resolves to a list of primitive values or objects with a `label` property and optional `value`, `disabled`, and/or `group` properties.\r\nThe search term will be passed to the first argument and the existing options will be passed to the second argument."
+          "description": "An alternative or supplementary way to retrieve options.\r\nMust be a function that accepts a string argument and an optional array argument of `ZuiOptionObject` elements.\r\nMust return a promise that resolves to a list of strings or objects with a `label` property and optional `value`, `disabled`, and/or `group` properties.\r\nThe search term will be passed to the first argument and the existing options will be passed to the second argument.",
+          "type": "((query: string, options?: ZuiOptionObject[] | undefined) => (string | IZuiOptionObject)[] | Promise<(string | IZuiOptionObject)[]>) | undefined",
+          "default": "\"undefined\""
         },
         {
           "name": "form",

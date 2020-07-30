@@ -3,7 +3,7 @@
   "tags": [
     {
       "name": "zui-checkbox",
-      "path": "./..\\src\\zui-checkbox.js",
+      "path": "./..\\src\\zui-checkbox.ts",
       "attributes": [
         {
           "name": "checked",

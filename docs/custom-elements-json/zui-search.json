@@ -3,17 +3,19 @@
   "tags": [
     {
       "name": "zui-search",
-      "path": "./..\\src\\zui-search.js",
+      "path": "./..\\src\\zui-search.ts",
       "description": "Description",
       "attributes": [
         {
           "name": "placeholder",
           "description": "Default placeholder (ghost) text",
+          "type": "string | undefined",
           "default": "\"undefined\""
         },
         {
           "name": "value",
           "description": "Apply a filled in text value",
+          "type": "string | undefined",
           "default": "\"undefined\""
         },
         {
@@ -33,12 +35,14 @@
           "name": "placeholder",
           "attribute": "placeholder",
           "description": "Default placeholder (ghost) text",
+          "type": "string | undefined",
           "default": "\"undefined\""
         },
         {
           "name": "value",
           "attribute": "value",
           "description": "Apply a filled in text value",
+          "type": "string | undefined",
           "default": "\"undefined\""
         },
         {

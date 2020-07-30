@@ -3,7 +3,7 @@
   "tags": [
     {
       "name": "zui-pager",
-      "path": "./..\\src\\zui-pager.js",
+      "path": "./..\\src\\zui-pager.ts",
       "description": "Used to standardize pagination.",
       "attributes": [
         {
@@ -20,13 +20,14 @@
         },
         {
           "name": "type",
-          "description": "The type of pager. Supported types: @type { 'standard' | 'lite' | 'select' }",
-          "type": "string",
+          "description": "The type of pager. Defaults to `'standard'`.",
+          "type": " standard | lite | select ",
           "default": "\"standard\""
         },
         {
           "name": "href-format",
           "description": "An optional property to configure where a user will be navigated when changing pages (e.g. deeplinking to pages)",
+          "type": "string | undefined",
           "default": "\"undefined\""
         },
         {
@@ -38,11 +39,13 @@
         {
           "name": "page-size",
           "description": "The size of a page of results. MUST be used with {@link totalCount}. DO NOT use this with {@link totalPages}",
+          "type": "number | undefined",
           "default": "\"undefined\""
         },
         {
           "name": "total-count",
           "description": "The total number of results. MUST be used with {@link pageSize}. DO NOT use this with {@link totalPages}",
+          "type": "number | undefined",
           "default": "\"undefined\""
         }
       ],
@@ -64,14 +67,15 @@
         {
           "name": "type",
           "attribute": "type",
-          "description": "The type of pager. Supported types: @type { 'standard' | 'lite' | 'select' }",
-          "type": "string",
+          "description": "The type of pager. Defaults to `'standard'`.",
+          "type": " standard | lite | select ",
           "default": "\"standard\""
         },
         {
           "name": "hrefFormat",
           "attribute": "href-format",
           "description": "An optional property to configure where a user will be navigated when changing pages (e.g. deeplinking to pages)",
+          "type": "string | undefined",
           "default": "\"undefined\""
         },
         {
@@ -85,12 +89,14 @@
           "name": "pageSize",
           "attribute": "page-size",
           "description": "The size of a page of results. MUST be used with {@link totalCount}. DO NOT use this with {@link totalPages}",
+          "type": "number | undefined",
           "default": "\"undefined\""
         },
         {
           "name": "totalCount",
           "attribute": "total-count",
           "description": "The total number of results. MUST be used with {@link pageSize}. DO NOT use this with {@link totalPages}",
+          "type": "number | undefined",
           "default": "\"undefined\""
         }
       ],

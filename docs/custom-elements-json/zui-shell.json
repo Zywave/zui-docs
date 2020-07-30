@@ -3,7 +3,7 @@
   "tags": [
     {
       "name": "zui-shell",
-      "path": "./..\\src\\zui-shell.js",
+      "path": "./..\\src\\zui-shell.ts",
       "description": "The Shell wraps around all of our applications and provides suite level consistencies, branding, and common functionality. This element, in particular, wraps all `<zui-shell>` custom sub-elements.",
       "attributes": [
         {
@@ -43,7 +43,7 @@
     },
     {
       "name": "zui-shell-topbar",
-      "path": "./..\\src\\zui-shell-topbar.js",
+      "path": "./..\\src\\zui-shell-topbar.ts",
       "description": "There are two parts to the topbar: global and app. The top white bar is our global topbar, which has Zywave branding and includes global functionality. The bottom colored bar is our app bar (aka branding bar), which is tailored to the application or Cloud the user is viewing. Sometimes it is branded with the product name if not part of a Cloud. Global search, user information `<zui-shell-user>`, and the apps launchpad `<zui-shell-apps>` are all housed in this element.",
       "attributes": [
         {
@@ -140,11 +140,17 @@
           "name": "--zui-shell-topbar-global-height",
           "description": "Height of the `<zui-shell-topbar>` global topbar"
         }
+      ],
+      "cssParts": [
+        {
+          "name": "app-bar",
+          "description": "Exposes the thin accent bar for styling purposes"
+        }
       ]
     },
     {
       "name": "zui-shell-apps",
-      "path": "./..\\src\\zui-shell-apps.js",
+      "path": "./..\\src\\zui-shell-apps.ts",
       "description": "`<zui-shell-apps>` is our apps launchpad and is a global topbar feature. This is the primary method for jumping from one anchor solution to another. Consumers should set this up to only list products the user has access to. When adding this element, be sure to set its assigned slot to `apps` so it appears in the proper place in `<zui-shell-topbar>`.",
       "attributes": [
         {
@@ -215,7 +221,7 @@
     },
     {
       "name": "zui-shell-apps-item",
-      "path": "./..\\src\\zui-shell-apps-item.js",
+      "path": "./..\\src\\zui-shell-apps-item.ts",
       "description": "Child element of `<zui-shell-apps>` that renders into a link for each product the user has access to.",
       "attributes": [
         {
@@ -275,77 +281,8 @@
       ]
     },
     {
-      "name": "zui-shell-nav",
-      "path": "./..\\src\\zui-shell-nav.js",
-      "description": "The Shell collapsible side nav that houses the application's primary navigation. On medium screen sizes, the side nav automatically collapses to give users more screen real estate. Users can choose to expand it if they prefer.",
-      "attributes": [
-        {
-          "name": "open",
-          "description": "Indicates whether the side nav is open or not on mobile",
-          "type": "boolean",
-          "default": "false"
-        },
-        {
-          "name": "collapsed",
-          "description": "Indicates when the side nav is collapsed",
-          "default": "\"_isNavCollapsed\""
-        },
-        {
-          "name": "collapse-label",
-          "description": "(Optional) For customizing the text for the collapse button at the bottom of the side nav",
-          "type": "string",
-          "default": "\"Collapse\""
-        }
-      ],
-      "properties": [
-        {
-          "name": "open",
-          "attribute": "open",
-          "description": "Indicates whether the side nav is open or not on mobile",
-          "type": "boolean",
-          "default": "false"
-        },
-        {
-          "name": "collapsed",
-          "attribute": "collapsed",
-          "description": "Indicates when the side nav is collapsed",
-          "default": "\"_isNavCollapsed\""
-        },
-        {
-          "name": "collapseLabel",
-          "attribute": "collapse-label",
-          "description": "(Optional) For customizing the text for the collapse button at the bottom of the side nav",
-          "type": "string",
-          "default": "\"Collapse\""
-        }
-      ],
-      "events": [
-        {
-          "name": "navcollapsechange",
-          "description": "fired when nav is collapsed or expanded"
-        }
-      ],
-      "slots": [
-        {
-          "name": "",
-          "description": "Default slot; recommended for slotting in `<zui-shell-nav-item>`"
-        }
-      ],
-      "cssProperties": [
-        {
-          "name": "--zui-shell-nav-width",
-          "description": "Width of `<zui-shell-nav>` when expanded"
-        },
-        {
-          "name": "--zui-shell-nav-width-collapsed",
-          "description": "Width of `<zui-shell-nav>` when collapsed",
-          "default": "\"3.75rem\""
-        }
-      ]
-    },
-    {
       "name": "zui-shell-nav-item",
-      "path": "./..\\src\\zui-shell-nav-item.js",
+      "path": "./..\\src\\zui-shell-nav-item.ts",
       "description": "Child element of `<zui-shell-nav>` that renders into a link. Top-level menu items must be accompanied by an icon. Children menu items do not need an icon.",
       "attributes": [
         {
@@ -373,6 +310,11 @@
           "name": "subnav",
           "attribute": "subnav",
           "description": "This property becomes `true` when there are more than one anchor tag in `<zui-shell-nav-item>`",
+          "type": "boolean",
+          "default": "false"
+        },
+        {
+          "name": "open",
           "type": "boolean",
           "default": "false"
         }
@@ -411,8 +353,79 @@
       ]
     },
     {
+      "name": "zui-shell-nav",
+      "path": "./..\\src\\zui-shell-nav.ts",
+      "description": "The Shell collapsible side nav that houses the application's primary navigation. On medium screen sizes, the side nav automatically collapses to give users more screen real estate. Users can choose to expand it if they prefer.",
+      "attributes": [
+        {
+          "name": "open",
+          "description": "Indicates whether the side nav is open or not on mobile",
+          "type": "boolean",
+          "default": "false"
+        },
+        {
+          "name": "collapsed",
+          "description": "Indicates when the side nav is collapsed",
+          "type": "boolean",
+          "default": "\"_isNavCollapsed\""
+        },
+        {
+          "name": "collapse-label",
+          "description": "(Optional) For customizing the text for the collapse button at the bottom of the side nav",
+          "type": "string",
+          "default": "\"Collapse\""
+        }
+      ],
+      "properties": [
+        {
+          "name": "open",
+          "attribute": "open",
+          "description": "Indicates whether the side nav is open or not on mobile",
+          "type": "boolean",
+          "default": "false"
+        },
+        {
+          "name": "collapsed",
+          "attribute": "collapsed",
+          "description": "Indicates when the side nav is collapsed",
+          "type": "boolean",
+          "default": "\"_isNavCollapsed\""
+        },
+        {
+          "name": "collapseLabel",
+          "attribute": "collapse-label",
+          "description": "(Optional) For customizing the text for the collapse button at the bottom of the side nav",
+          "type": "string",
+          "default": "\"Collapse\""
+        }
+      ],
+      "events": [
+        {
+          "name": "navcollapsechange",
+          "description": "fired when nav is collapsed or expanded"
+        }
+      ],
+      "slots": [
+        {
+          "name": "",
+          "description": "Default slot; recommended for slotting in `<zui-shell-nav-item>`"
+        }
+      ],
+      "cssProperties": [
+        {
+          "name": "--zui-shell-nav-width",
+          "description": "Width of `<zui-shell-nav>` when expanded"
+        },
+        {
+          "name": "--zui-shell-nav-width-collapsed",
+          "description": "Width of `<zui-shell-nav>` when collapsed",
+          "default": "\"3.75rem\""
+        }
+      ]
+    },
+    {
       "name": "zui-shell-footer",
-      "path": "./..\\src\\zui-shell-footer.js",
+      "path": "./..\\src\\zui-shell-footer.ts",
       "description": "The footer is the small section at the bottom of each page that contains things like the privacy and cookie policies, and other legal and trademark information.",
       "slots": [
         {
@@ -429,7 +442,7 @@
     },
     {
       "name": "zui-shell-content",
-      "path": "./..\\src\\zui-shell-content.js",
+      "path": "./..\\src\\zui-shell-content.ts",
       "description": "Content area that wraps all information for applications.",
       "slots": [
         {
@@ -440,7 +453,7 @@
     },
     {
       "name": "zui-shell-user",
-      "path": "./..\\src\\zui-shell-user.js",
+      "path": "./..\\src\\zui-shell-user.ts",
       "description": "Topbar feature that encompasses information about the User Principle, User Profile, impersonation, and notifications.",
       "attributes": [
         {

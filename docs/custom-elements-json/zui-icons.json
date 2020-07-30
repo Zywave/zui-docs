@@ -3,7 +3,7 @@
   "tags": [
     {
       "name": "zui-icon",
-      "path": "./..\\src\\zui-icon.js",
+      "path": "./..\\src\\zui-icon.ts",
       "description": "`<zui-icon>` gives consumers ability to leverage our ZUI defined stickersheet of SVG icons.",
       "attributes": [
         {

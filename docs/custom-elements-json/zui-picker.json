@@ -3,7 +3,7 @@
   "tags": [
     {
       "name": "zui-picker",
-      "path": "./..\\src\\zui-picker.js",
+      "path": "./..\\src\\zui-picker.ts",
       "events": [
         {
           "name": "change"
@@ -12,7 +12,7 @@
     },
     {
       "name": "zui-picker-item",
-      "path": "./..\\src\\zui-picker-item.js"
+      "path": "./..\\src\\zui-picker-item.ts"
     }
   ]
 }

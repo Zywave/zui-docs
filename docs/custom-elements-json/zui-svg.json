@@ -3,7 +3,7 @@
   "tags": [
     {
       "name": "zui-svg",
-      "path": "./..\\src\\zui-svg.js",
+      "path": "./..\\src\\zui-svg.ts",
       "description": "Standardizes external <code>*.svg</code> files across browsers, and also supports svg sprites if you supply a <code>*.svg</code> file with multiple `<symbol>` definitions for each graphic, and then corresponding <code>id=\"\"*</code> to show.",
       "attributes": [
         {
@@ -20,13 +20,15 @@
         },
         {
           "name": "viewBox",
-          "description": "<code>viewBox</code> deteremines an <code>*.svg</code> file's canvas size; this value in most situations is automatically found and set but if your graphics aren't displaying or scaling correctly, copy and supply the <code>viewBox=\"0 0 # #\"</code> from your `<svg>`"
+          "description": "<code>viewBox</code> deteremines an <code>*.svg</code> file's canvas size; this value in most situations is automatically found and set but if your graphics aren't displaying or scaling correctly, copy and supply the <code>viewBox=\"0 0 # #\"</code> from your `<svg>`",
+          "type": "string"
         }
       ],
       "properties": [
         {
           "name": "cache",
-          "type": "Map<any, any>"
+          "type": "Map<any, any>",
+          "default": "\"new Map()\""
         },
         {
           "name": "svgId",
@@ -45,7 +47,8 @@
         {
           "name": "viewBox",
           "attribute": "viewBox",
-          "description": "<code>viewBox</code> deteremines an <code>*.svg</code> file's canvas size; this value in most situations is automatically found and set but if your graphics aren't displaying or scaling correctly, copy and supply the <code>viewBox=\"0 0 # #\"</code> from your `<svg>`"
+          "description": "<code>viewBox</code> deteremines an <code>*.svg</code> file's canvas size; this value in most situations is automatically found and set but if your graphics aren't displaying or scaling correctly, copy and supply the <code>viewBox=\"0 0 # #\"</code> from your `<svg>`",
+          "type": "string"
         }
       ],
       "cssProperties": [

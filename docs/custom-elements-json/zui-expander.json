@@ -3,7 +3,7 @@
   "tags": [
     {
       "name": "zui-expander",
-      "path": "./..\\src\\zui-expander.js",
+      "path": "./..\\src\\zui-expander.ts",
       "description": "All `<zui-expander>`'s are wrapped by and passed into `<zui-expander-group>` except for the standard expander aka peekaboo expander.",
       "attributes": [
         {
@@ -14,19 +14,18 @@
         },
         {
           "name": "type",
-          "description": "For standalone standard expander aka peekaboo expander, no type value needs to be specified; for all `<zui-expander>`'s in a `<zui-expander-group>` a type attribute and value must be specified, e.g. <code>type=\"group-standard || group-popout || group-lightweight\"</code>",
-          "type": "string",
-          "default": "\"\""
+          "description": "For standalone standard expander aka peekaboo expander, no type value needs to be specified; for all `<zui-expander>`'s in a `<zui-expander-group>` a type attribute and value must be specified",
+          "type": " group  -standard | group-popout | group-lightweight | null "
         },
         {
           "name": "expand-label",
-          "description": "By default in standard aka peekaboo expanders, the closed state text says 'See more', assign a new value if necssary",
+          "description": "By default in standard aka peekaboo expanders, the closed state text says 'See more', assign a new value if necessary",
           "type": "string",
           "default": "\"See more\""
         },
         {
           "name": "collapse-label",
-          "description": "By default in standard aka peekaboo expanders, the opened state text says 'See less', assign a new value if necssary",
+          "description": "By default in standard aka peekaboo expanders, the opened state text says 'See less', assign a new value if necessary",
           "type": "string",
           "default": "\"See Less\""
         },
@@ -48,21 +47,20 @@
         {
           "name": "type",
           "attribute": "type",
-          "description": "For standalone standard expander aka peekaboo expander, no type value needs to be specified; for all `<zui-expander>`'s in a `<zui-expander-group>` a type attribute and value must be specified, e.g. <code>type=\"group-standard || group-popout || group-lightweight\"</code>",
-          "type": "string",
-          "default": "\"\""
+          "description": "For standalone standard expander aka peekaboo expander, no type value needs to be specified; for all `<zui-expander>`'s in a `<zui-expander-group>` a type attribute and value must be specified",
+          "type": " group  -standard | group-popout | group-lightweight | null "
         },
         {
           "name": "expandLabel",
           "attribute": "expand-label",
-          "description": "By default in standard aka peekaboo expanders, the closed state text says 'See more', assign a new value if necssary",
+          "description": "By default in standard aka peekaboo expanders, the closed state text says 'See more', assign a new value if necessary",
           "type": "string",
           "default": "\"See more\""
         },
         {
           "name": "collapseLabel",
           "attribute": "collapse-label",
-          "description": "By default in standard aka peekaboo expanders, the opened state text says 'See less', assign a new value if necssary",
+          "description": "By default in standard aka peekaboo expanders, the opened state text says 'See less', assign a new value if necessary",
           "type": "string",
           "default": "\"See Less\""
         }
@@ -130,7 +128,7 @@
     },
     {
       "name": "zui-expander-group",
-      "path": "./..\\src\\zui-expander-group.js",
+      "path": "./..\\src\\zui-expander-group.ts",
       "description": "All `<zui-expander>`'s are wrapped by and passed into `<zui-expander-group>` except for the standard expander aka peekaboo expander.",
       "attributes": [
         {

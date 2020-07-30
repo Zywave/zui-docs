@@ -2,13 +2,18 @@
   "version": "experimental",
   "tags": [
     {
-      "name": "zui-step-flow",
-      "path": "./..\\src\\zui-step-flow.js",
+      "name": "zui-step-flow-indicator-item",
+      "path": "./..\\src\\zui-step-flow-indicator-item.ts",
       "attributes": [
         {
-          "name": "step",
-          "type": "number",
-          "default": "0"
+          "name": "active",
+          "type": "boolean",
+          "default": "false"
+        },
+        {
+          "name": "complete",
+          "type": "boolean",
+          "default": "false"
         },
         {
           "name": "orientation",
@@ -18,22 +23,33 @@
       ],
       "properties": [
         {
-          "name": "step",
-          "attribute": "step",
-          "type": "number",
-          "default": "0"
+          "name": "active",
+          "attribute": "active",
+          "type": "boolean",
+          "default": "false"
+        },
+        {
+          "name": "complete",
+          "attribute": "complete",
+          "type": "boolean",
+          "default": "false"
         },
         {
           "name": "orientation",
           "attribute": "orientation",
           "type": "string",
           "default": "\"horizontal\""
+        },
+        {
+          "name": "index",
+          "type": "number | undefined",
+          "default": "\"undefined\""
         }
       ]
     },
     {
       "name": "zui-step-flow-indicator",
-      "path": "./..\\src\\zui-step-flow-indicator.js",
+      "path": "./..\\src\\zui-step-flow-indicator.ts",
       "attributes": [
         {
           "name": "step",
@@ -78,49 +94,8 @@
       ]
     },
     {
-      "name": "zui-step-flow-indicator-item",
-      "path": "./..\\src\\zui-step-flow-indicator-item.js",
-      "attributes": [
-        {
-          "name": "active",
-          "type": "boolean",
-          "default": "false"
-        },
-        {
-          "name": "complete",
-          "type": "boolean",
-          "default": "false"
-        },
-        {
-          "name": "orientation",
-          "type": "string",
-          "default": "\"horizontal\""
-        }
-      ],
-      "properties": [
-        {
-          "name": "active",
-          "attribute": "active",
-          "type": "boolean",
-          "default": "false"
-        },
-        {
-          "name": "complete",
-          "attribute": "complete",
-          "type": "boolean",
-          "default": "false"
-        },
-        {
-          "name": "orientation",
-          "attribute": "orientation",
-          "type": "string",
-          "default": "\"horizontal\""
-        }
-      ]
-    },
-    {
       "name": "zui-step-flow-content",
-      "path": "./..\\src\\zui-step-flow-content.js",
+      "path": "./..\\src\\zui-step-flow-content.ts",
       "attributes": [
         {
           "name": "step",
@@ -138,12 +113,52 @@
       ]
     },
     {
+      "name": "zui-step-flow",
+      "path": "./..\\src\\zui-step-flow.ts",
+      "attributes": [
+        {
+          "name": "step",
+          "type": "number",
+          "default": "0"
+        },
+        {
+          "name": "orientation",
+          "type": "string",
+          "default": "\"horizontal\""
+        }
+      ],
+      "properties": [
+        {
+          "name": "step",
+          "attribute": "step",
+          "type": "number",
+          "default": "0"
+        },
+        {
+          "name": "orientation",
+          "attribute": "orientation",
+          "type": "string",
+          "default": "\"horizontal\""
+        },
+        {
+          "name": "stepFlowIndicator",
+          "type": "ZuiStepFlowIndicator | undefined",
+          "default": "\"undefined\""
+        },
+        {
+          "name": "stepFlowContent",
+          "type": "ZuiStepFlowContent | undefined",
+          "default": "\"undefined\""
+        }
+      ]
+    },
+    {
       "name": "zui-step-flow-content-item",
-      "path": "./..\\src\\zui-step-flow-content-item.js"
+      "path": "./..\\src\\zui-step-flow-content-item.ts"
     },
     {
       "name": "zui-step-flow-footer",
-      "path": "./..\\src\\zui-step-flow-footer.js"
+      "path": "./..\\src\\zui-step-flow-footer.ts"
     }
   ]
 }

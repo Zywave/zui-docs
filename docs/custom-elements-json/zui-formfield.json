@@ -3,12 +3,13 @@
   "tags": [
     {
       "name": "zui-formfield",
-      "path": "./..\\src\\zui-formfield.js",
+      "path": "./..\\src\\zui-formfield.ts",
       "description": "### Example\r\n```html\r\n<zui-formfield label=\"A label\">\r\n   <zui-input value=\"A value\"></zui-input>\r\n</zui-formfield>\r\n```",
       "attributes": [
         {
           "name": "label",
           "description": "property to label the control. If provided, can be styled with ::part(label) (soon). (optional)",
+          "type": "string | undefined",
           "default": "\"undefined\""
         },
         {
@@ -23,6 +24,7 @@
           "name": "label",
           "attribute": "label",
           "description": "property to label the control. If provided, can be styled with ::part(label) (soon). (optional)",
+          "type": "string | undefined",
           "default": "\"undefined\""
         },
         {

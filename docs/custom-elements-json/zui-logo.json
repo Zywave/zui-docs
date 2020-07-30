@@ -3,29 +3,29 @@
   "tags": [
     {
       "name": "zui-logo",
-      "path": "./..\\src\\zui-logo.js",
+      "path": "./..\\src\\zui-logo.ts",
       "description": "`<zui-logo>` allows for easy standardized use for our Zywave logos, and supports third party logos if slotted in.",
       "attributes": [
         {
           "name": "type",
-          "description": "If using a Zywave logo, specify a type value e.g. <code>type=\"tagline | zycon | zycon-circle\"</code>, if no type is specified it defaults to main Zywave logo",
-          "type": "string",
-          "default": "\"\""
+          "description": "If using a Zywave logo, specify a type value, if no type is specified it defaults to `'logo'`.",
+          "type": " tagline | zycon | zycon  -circle | logo ",
+          "default": "\"logo\""
         }
       ],
       "properties": [
         {
           "name": "type",
           "attribute": "type",
-          "description": "If using a Zywave logo, specify a type value e.g. <code>type=\"tagline | zycon | zycon-circle\"</code>, if no type is specified it defaults to main Zywave logo",
-          "type": "string",
-          "default": "\"\""
+          "description": "If using a Zywave logo, specify a type value, if no type is specified it defaults to `'logo'`.",
+          "type": " tagline | zycon | zycon  -circle | logo ",
+          "default": "\"logo\""
         }
       ],
       "slots": [
         {
           "name": "",
-          "description": "Unnamed slot, only use to slot in a third party logo, do not use if using a Zywave logo"
+          "description": "Unnamed slot, only use to slot in a third party logo, do not use if using a Zywave logo."
         }
       ],
       "cssProperties": [

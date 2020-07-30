@@ -3,7 +3,7 @@
   "tags": [
     {
       "name": "zui-toggle",
-      "path": "./..\\src\\zui-toggle.js",
+      "path": "./..\\src\\zui-toggle.ts",
       "description": "### Example\r\n```html\r\n<zui-toggle checked></zui-toggle>\r\n<zui-toggle type=\"icon\"><zui-icon icon=\"zui-star\"></zui-icon></zui-toggle>\r\n```",
       "attributes": [
         {

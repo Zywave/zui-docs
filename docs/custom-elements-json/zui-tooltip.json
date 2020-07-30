@@ -3,13 +3,13 @@
   "tags": [
     {
       "name": "zui-tooltip",
-      "path": "./..\\src\\zui-tooltip.js",
+      "path": "./..\\src\\zui-tooltip.ts",
       "description": "Tooltips are unobtrusive messages that provide the user with simple information when hovering over a page element",
       "attributes": [
         {
           "name": "position",
-          "description": "Use this attribute to set which direction the tooltip should appear. Options are `top`, `left`, `bottom`, and `right`.",
-          "type": "string",
+          "description": "Use this attribute to set which direction the tooltip should appear. Defaults to `'right'`.",
+          "type": " top | right | bottom | left ",
           "default": "\"right\""
         }
       ],
@@ -17,14 +17,9 @@
         {
           "name": "position",
           "attribute": "position",
-          "description": "Use this attribute to set which direction the tooltip should appear. Options are `top`, `left`, `bottom`, and `right`.",
-          "type": "string",
+          "description": "Use this attribute to set which direction the tooltip should appear. Defaults to `'right'`.",
+          "type": " top | right | bottom | left ",
           "default": "\"right\""
-        },
-        {
-          "name": "canHover",
-          "type": "boolean",
-          "default": "\"matches\""
         }
       ],
       "slots": [
@@ -35,6 +30,13 @@
         {
           "name": "message",
           "description": "Text to appear in the tooltip when the user hovers over the anchored element"
+        }
+      ],
+      "cssProperties": [
+        {
+          "name": "--zui-tooltip-margin",
+          "description": "The size of the margin next to the tooltip when .margin-left or .margin-right are used",
+          "default": "\"rem(10)\""
         }
       ]
     }

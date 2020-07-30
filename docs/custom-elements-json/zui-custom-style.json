@@ -3,12 +3,12 @@
   "tags": [
     {
       "name": "zui-custom-style",
-      "path": "./..\\src\\zui-custom-style.js",
+      "path": "./..\\src\\zui-custom-style.ts",
       "description": "Internet Explorer 11 does not support CSS custom properties aka CSS variables natively, `<zui-custom-style>` attempts to support them in IE11 by parsing CSS that is passed into `<zui-custom-style>`, and converting the values assigned to the custom properties to hard coded values, therefore they lose their dynamic variable nature unless the styles are reloaded.\r\n\r\nzui-custom-style is based on ShadyCSS a web component library tries to support some legacy browsers that do not support web components and their required features."
     },
     {
       "name": "zui-custom-stylesheet",
-      "path": "./..\\src\\zui-custom-stylesheet.js",
+      "path": "./..\\src\\zui-custom-stylesheet.ts",
       "description": "Internet Explorer 11 does not support CSS custom properties aka CSS variables natively, `<zui-custom-stylesheet>` attempts to support them in IE11 by parsing CSS that is linked via `<zui-custom-stylesheet>`'s `href` attribute, and converting the values assigned to the custom properties to hard coded values, therefore they lose their dynamic variable nature unless the styles are reloaded.\r\n\r\nzui-custom-style is based on ShadyCSS a web component library tries to support some legacy browsers that do not support web components and their required features.",
       "properties": [
         {
