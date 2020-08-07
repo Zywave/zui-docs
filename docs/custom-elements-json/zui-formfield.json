@@ -8,7 +8,7 @@
       "attributes": [
         {
           "name": "label",
-          "description": "property to label the control. If provided, can be styled with ::part(label) (soon). (optional)",
+          "description": "property to label the control. If provided, can be styled with ::part(label). (optional)",
           "type": "string | undefined",
           "default": "\"undefined\""
         },
@@ -23,7 +23,7 @@
         {
           "name": "label",
           "attribute": "label",
-          "description": "property to label the control. If provided, can be styled with ::part(label) (soon). (optional)",
+          "description": "property to label the control. If provided, can be styled with ::part(label). (optional)",
           "type": "string | undefined",
           "default": "\"undefined\""
         },

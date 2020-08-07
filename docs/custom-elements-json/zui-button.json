@@ -67,6 +67,10 @@
           "default": "\"var(--zui-gray-200)\""
         }
       ]
+    },
+    {
+      "name": "zui-button-group",
+      "path": "./..\\src\\zui-button-group.ts"
     }
   ]
 }
