@@ -11,6 +11,12 @@
           "description": "See http://zui.zywave.com/foundations/icons/ page for name of icons, specify a value to choose an icon",
           "type": "string",
           "default": "\"\""
+        },
+        {
+          "name": "no-color",
+          "description": "Set to true to revert the default zui-icon-color of a colorized icon to the inherited font color, which is typically zui-gray-800. Has no effect on non-colorized icons.",
+          "type": "boolean",
+          "default": "false"
         }
       ],
       "properties": [
@@ -20,6 +26,13 @@
           "description": "See http://zui.zywave.com/foundations/icons/ page for name of icons, specify a value to choose an icon",
           "type": "string",
           "default": "\"\""
+        },
+        {
+          "name": "removeIconColor",
+          "attribute": "no-color",
+          "description": "Set to true to revert the default zui-icon-color of a colorized icon to the inherited font color, which is typically zui-gray-800. Has no effect on non-colorized icons.",
+          "type": "boolean",
+          "default": "false"
         }
       ],
       "cssProperties": [

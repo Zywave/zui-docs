@@ -71,6 +71,70 @@
     {
       "name": "zui-button-group",
       "path": "./..\\src\\zui-button-group.ts"
+    },
+    {
+      "name": "zui-button-dropdown",
+      "path": "./..\\src\\zui-button-dropdown.ts",
+      "description": "A component that uses a `<zui-button>` to open a dropdown menu of options.",
+      "attributes": [
+        {
+          "name": "open",
+          "description": "This attribute will decide whether the submenu is open or not",
+          "type": "boolean",
+          "default": "false"
+        },
+        {
+          "name": "disabled",
+          "description": "This attribute will decide whether you want to disable the `<zui-button>` dropdown trigger",
+          "type": "boolean",
+          "default": "false"
+        },
+        {
+          "name": "type",
+          "description": "Use this attribute to set the type of button dropdown you want. You can combine `primary`, `secondary`, `link`, and `danger` with `icon`. See [Buttons](https://zui.zywave.com/components/buttons/) for button style variations.",
+          "type": " primary | secondary | link | danger | icon | primary  icon | secondary icon | link icon | danger icon ",
+          "default": "\"primary\""
+        }
+      ],
+      "properties": [
+        {
+          "name": "open",
+          "attribute": "open",
+          "description": "This attribute will decide whether the submenu is open or not",
+          "type": "boolean",
+          "default": "false"
+        },
+        {
+          "name": "disabled",
+          "attribute": "disabled",
+          "description": "This attribute will decide whether you want to disable the `<zui-button>` dropdown trigger",
+          "type": "boolean",
+          "default": "false"
+        },
+        {
+          "name": "type",
+          "attribute": "type",
+          "description": "Use this attribute to set the type of button dropdown you want. You can combine `primary`, `secondary`, `link`, and `danger` with `icon`. See [Buttons](https://zui.zywave.com/components/buttons/) for button style variations.",
+          "type": " primary | secondary | link | danger | icon | primary  icon | secondary icon | link icon | danger icon ",
+          "default": "\"primary\""
+        }
+      ],
+      "slots": [
+        {
+          "name": "",
+          "description": "Unnamed slot, for text seen within the `<zui-button>` dropdown trigger"
+        },
+        {
+          "name": "option",
+          "description": "For each dropdown menu option, apply this slot attribute to your slotted menu item"
+        }
+      ],
+      "cssParts": [
+        {
+          "name": "menu",
+          "description": "The menu container for the dropdown menu, this is exposed as a shadow part and can be accessed with ::part(menu)"
+        }
+      ]
     }
   ]
 }

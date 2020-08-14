@@ -4,7 +4,7 @@
     {
       "name": "zui-well",
       "path": "./..\\src\\zui-well.ts",
-      "description": "Use <code>zui-well</code>'s to attract users attention to a message. There are various types of well's depending on messaging needs. `<zui-well>` by default is delayed in appearing and then animates in, consumers can specify whether they want it static or default to animated.",
+      "description": "Use <code>zui-well</code>'s to attract users attention to a message. There are various types of well's depending on messaging needs. `<zui-well>` can optionally be delayed in appearing and then animate in. consumers can specify whether they want it animated or default to static.",
       "attributes": [
         {
           "name": "type",
@@ -32,13 +32,19 @@
         },
         {
           "name": "no-animation",
-          "description": "DEPRECATED, will be removed in a future release; use \"static\" instead",
+          "description": "DEPRECATED, will be removed in a future release; use \"animated\" instead",
           "type": "boolean",
           "default": "false"
         },
         {
           "name": "static",
-          "description": "If set, the well will not slide down and will instead just remain static on the page",
+          "description": "DEPRECATED, will be removed in a future release; use \"animated\" instead",
+          "type": "boolean",
+          "default": "false"
+        },
+        {
+          "name": "animated",
+          "description": "If set, the well will slide down",
           "type": "boolean",
           "default": "false"
         }
@@ -75,14 +81,21 @@
         {
           "name": "noAnimation",
           "attribute": "no-animation",
-          "description": "DEPRECATED, will be removed in a future release; use \"static\" instead",
+          "description": "DEPRECATED, will be removed in a future release; use \"animated\" instead",
           "type": "boolean",
           "default": "false"
         },
         {
           "name": "static",
           "attribute": "static",
-          "description": "If set, the well will not slide down and will instead just remain static on the page",
+          "description": "DEPRECATED, will be removed in a future release; use \"animated\" instead",
+          "type": "boolean",
+          "default": "false"
+        },
+        {
+          "name": "animated",
+          "attribute": "animated",
+          "description": "If set, the well will slide down",
           "type": "boolean",
           "default": "false"
         }
