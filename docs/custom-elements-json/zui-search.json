@@ -25,6 +25,12 @@
           "default": "false"
         },
         {
+          "name": "disabled",
+          "description": "Disable the search field and submit button",
+          "type": "boolean",
+          "default": "false"
+        },
+        {
           "name": "title",
           "type": "string",
           "default": "\"Search\""
@@ -49,6 +55,13 @@
           "name": "noSubmit",
           "attribute": "no-submit",
           "description": "Hide the submit button",
+          "type": "boolean",
+          "default": "false"
+        },
+        {
+          "name": "disabled",
+          "attribute": "disabled",
+          "description": "Disable the search field and submit button",
           "type": "boolean",
           "default": "false"
         },
