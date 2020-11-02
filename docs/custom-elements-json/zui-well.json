@@ -4,11 +4,11 @@
     {
       "name": "zui-well",
       "path": "./..\\src\\zui-well.ts",
-      "description": "Use <code>zui-well</code>'s to attract users attention to a message. There are various types of well's depending on messaging needs. `<zui-well>` can optionally be delayed in appearing and then animate in. consumers can specify whether they want it animated or default to static.",
+      "description": "Use <code>zui-well</code>'s to attract users attention to a message. There are various types of well's depending on messaging needs. `<zui-well>` can optionally be delayed in appearing and then animate in. consumers can specify whether they want it `animated` or it will default to static.",
       "attributes": [
         {
           "name": "type",
-          "description": "The type of well you want to display. Defaults to `'info'`.",
+          "description": "The type of well to display. Defaults to `'info'`.",
           "type": " info | warning | error | success ",
           "default": "\"info\""
         },
@@ -47,13 +47,18 @@
           "description": "If set, the well will slide down",
           "type": "boolean",
           "default": "false"
+        },
+        {
+          "name": "well-dimiss",
+          "description": "Add this attribute to the corresponding `<* slot=\"action\" well-dimiss></*>`, when clicked it will close if attribute is present",
+          "type": "String"
         }
       ],
       "properties": [
         {
           "name": "type",
           "attribute": "type",
-          "description": "The type of well you want to display. Defaults to `'info'`.",
+          "description": "The type of well to display. Defaults to `'info'`.",
           "type": " info | warning | error | success ",
           "default": "\"info\""
         },
@@ -112,7 +117,7 @@
         },
         {
           "name": "action",
-          "description": "Slot in actionable button to dismiss the well i.e. `<button slot=\"action\">Got it</button>`"
+          "description": "Slot in `action` button or link that can also dismiss the well i.e. `<button slot=\"action\">Got it</button>`"
         }
       ],
       "cssProperties": [
