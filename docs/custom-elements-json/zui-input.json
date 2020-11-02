@@ -85,6 +85,95 @@
           "name": "change"
         }
       ]
+    },
+    {
+      "name": "zui-input-file",
+      "path": "./..\\src\\zui-input-file.ts",
+      "description": "### Example\r\n```html\r\n<zui-input-file placeholder=\"Test placeholder\" button-text=\"Browse files\" accept=\"image/png, image/jpeg\"></zui-input-file></zui-input-file>\r\n```",
+      "attributes": [
+        {
+          "name": "button-text",
+          "type": "string",
+          "default": "\"\""
+        },
+        {
+          "name": "accept",
+          "type": "string",
+          "default": "\"\""
+        },
+        {
+          "name": "placeholder",
+          "type": "string",
+          "default": "\"\""
+        },
+        {
+          "name": "required",
+          "type": "boolean",
+          "default": "false"
+        },
+        {
+          "name": "no-icon",
+          "type": "boolean",
+          "default": "false"
+        }
+      ],
+      "properties": [
+        {
+          "name": "files",
+          "type": "FileList | File[]"
+        },
+        {
+          "name": "buttonText",
+          "attribute": "button-text",
+          "type": "string",
+          "default": "\"\""
+        },
+        {
+          "name": "accept",
+          "attribute": "accept",
+          "type": "string",
+          "default": "\"\""
+        },
+        {
+          "name": "placeholder",
+          "attribute": "placeholder",
+          "type": "string",
+          "default": "\"\""
+        },
+        {
+          "name": "required",
+          "attribute": "required",
+          "type": "boolean",
+          "default": "false"
+        },
+        {
+          "name": "noIcon",
+          "attribute": "no-icon",
+          "type": "boolean",
+          "default": "false"
+        },
+        {
+          "name": "form",
+          "type": "HTMLFormElement | null"
+        },
+        {
+          "name": "name",
+          "type": "string | null"
+        },
+        {
+          "name": "disabled",
+          "type": "boolean"
+        },
+        {
+          "name": "readOnly",
+          "type": "boolean"
+        }
+      ],
+      "events": [
+        {
+          "name": "change"
+        }
+      ]
     }
   ]
 }

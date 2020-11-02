@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="220" height="76" viewBox="0 0 220 76">
+  <defs>
+    <clipPath id="clip-button_group_-_secondary">
+      <rect width="220" height="76"/>
+    </clipPath>
+  </defs>
+  <g id="button_group_-_secondary" data-name="button group - secondary" clip-path="url(#clip-button_group_-_secondary)">
+    <rect width="220" height="76" fill="#fff"/>
+    <g id="Primary_Button" data-name="Primary Button" transform="translate(20 20)">
+      <g id="Rectangle_3990" data-name="Rectangle 3990" fill="none" stroke="#cbcbd2" stroke-width="1">
+        <path d="M18,0H57a0,0,0,0,1,0,0V36a0,0,0,0,1,0,0H18A18,18,0,0,1,0,18v0A18,18,0,0,1,18,0Z" stroke="none"/>
+        <path d="M18,.5H56.027A.473.473,0,0,1,56.5.973V35.027a.473.473,0,0,1-.473.473H18A17.5,17.5,0,0,1,.5,18v0A17.5,17.5,0,0,1,18,.5Z" fill="none"/>
+      </g>
+      <text id="Post" transform="translate(15 23)" fill="#2777d3" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Post</tspan></text>
+    </g>
+    <g id="Primary_Button-2" data-name="Primary Button" transform="translate(76 20)">
+      <g id="Rectangle_3990-2" data-name="Rectangle 3990" fill="none" stroke="#cbcbd2" stroke-width="1">
+        <rect width="54" height="36" stroke="none"/>
+        <rect x="0.5" y="0.5" width="53" height="35" fill="none"/>
+      </g>
+      <text id="Edit" transform="translate(15 23)" fill="#2777d3" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Edit</tspan></text>
+    </g>
+    <g id="Primary_Button-3" data-name="Primary Button" transform="translate(129 20)">
+      <g id="Rectangle_3990-3" data-name="Rectangle 3990" fill="none" stroke="#cbcbd2" stroke-width="1">
+        <path d="M0,0H53A18,18,0,0,1,71,18v0A18,18,0,0,1,53,36H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" stroke="none"/>
+        <path d="M.973.5H53A17.5,17.5,0,0,1,70.5,18v0A17.5,17.5,0,0,1,53,35.5H.973A.473.473,0,0,1,.5,35.027V.973A.473.473,0,0,1,.973.5Z" fill="none"/>
+      </g>
+      <text id="Delete" transform="translate(15 23)" fill="#2777d3" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Delete</tspan></text>
+    </g>
+  </g>
+</svg>

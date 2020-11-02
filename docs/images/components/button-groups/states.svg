@@ -1,0 +1,261 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="730" height="398" viewBox="0 0 730 398">
+  <defs>
+    <clipPath id="clip-Button_group_-_states">
+      <rect width="730" height="398"/>
+    </clipPath>
+  </defs>
+  <g id="Button_group_-_states" data-name="Button group - states" clip-path="url(#clip-Button_group_-_states)">
+    <rect width="730" height="398" fill="#f4f4f6"/>
+    <text id="Normal" transform="translate(32 84)" fill="#c6318c" font-size="8" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Normal</tspan></text>
+    <text id="Secondary" transform="translate(153 39)" fill="#c6318c" font-size="8" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Secondary</tspan></text>
+    <text id="Primary" transform="translate(447 39)" fill="#c6318c" font-size="8" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Primary</tspan></text>
+    <text id="Hover" transform="translate(35 140)" fill="#c6318c" font-size="8" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Hover</tspan></text>
+    <text id="Focused" transform="translate(31 196)" fill="#c6318c" font-size="8" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Focused</tspan></text>
+    <text id="Pressed" transform="translate(31 252)" fill="#c6318c" font-size="8" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Pressed</tspan></text>
+    <text id="Disabled" transform="translate(30 307)" fill="#c6318c" font-size="8" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Disabled</tspan></text>
+    <text id="Single_disabled" data-name="Single disabled" transform="translate(30 362)" fill="#c6318c" font-size="8" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Single disabled</tspan></text>
+    <g id="Group_264425" data-name="Group 264425" transform="translate(318)">
+      <g id="Group_264402" data-name="Group 264402" transform="translate(-171 -56)">
+        <g id="Primary_Button" data-name="Primary Button" transform="translate(300 118)">
+          <path id="Rectangle_3990" data-name="Rectangle 3990" d="M18,0H81a0,0,0,0,1,0,0V36a0,0,0,0,1,0,0H18A18,18,0,0,1,0,18v0A18,18,0,0,1,18,0Z" fill="#2777d3"/>
+          <text id="Action_1" data-name="Action 1" transform="translate(15 23)" fill="#fff" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Action 1</tspan></text>
+        </g>
+        <g id="Primary_Button-2" data-name="Primary Button" transform="translate(382 118)">
+          <rect id="Rectangle_3990-2" data-name="Rectangle 3990" width="83" height="36" fill="#2777d3"/>
+          <text id="Action_2" data-name="Action 2" transform="translate(15 23)" fill="#fff" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Action 2</tspan></text>
+        </g>
+        <g id="Primary_Button-3" data-name="Primary Button" transform="translate(466 118)">
+          <path id="Rectangle_3990-3" data-name="Rectangle 3990" d="M0,0H65A18,18,0,0,1,83,18v0A18,18,0,0,1,65,36H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" fill="#2777d3"/>
+          <text id="Action_3" data-name="Action 3" transform="translate(15 23)" fill="#fff" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Action 3</tspan></text>
+        </g>
+      </g>
+      <g id="Group_264403" data-name="Group 264403" transform="translate(-128 -20)">
+        <g id="Primary_Button-4" data-name="Primary Button" transform="translate(257 138)">
+          <path id="Rectangle_3990-4" data-name="Rectangle 3990" d="M18,0H81a0,0,0,0,1,0,0V36a0,0,0,0,1,0,0H18A18,18,0,0,1,0,18v0A18,18,0,0,1,18,0Z" fill="#4e92df"/>
+          <text id="Action_1-2" data-name="Action 1" transform="translate(15 23)" fill="#fff" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Action 1</tspan></text>
+        </g>
+        <g id="Primary_Button-5" data-name="Primary Button" transform="translate(339 138)">
+          <rect id="Rectangle_3990-5" data-name="Rectangle 3990" width="83" height="36" fill="#4e92df"/>
+          <text id="Action_2-2" data-name="Action 2" transform="translate(15 23)" fill="#fff" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Action 2</tspan></text>
+        </g>
+        <g id="Primary_Button-6" data-name="Primary Button" transform="translate(423 138)">
+          <path id="Rectangle_3990-6" data-name="Rectangle 3990" d="M0,0H65A18,18,0,0,1,83,18v0A18,18,0,0,1,65,36H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" fill="#4e92df"/>
+          <text id="Action_3-2" data-name="Action 3" transform="translate(15 23)" fill="#fff" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Action 3</tspan></text>
+        </g>
+      </g>
+      <g id="Group_264404" data-name="Group 264404" transform="translate(-402 -951)">
+        <g id="Primary_Button-7" data-name="Primary Button" transform="translate(531 1125)">
+          <path id="Rectangle_3990-7" data-name="Rectangle 3990" d="M18,0H81a0,0,0,0,1,0,0V36a0,0,0,0,1,0,0H18A18,18,0,0,1,0,18v0A18,18,0,0,1,18,0Z" fill="#2777d3"/>
+          <text id="Action_1-3" data-name="Action 1" transform="translate(15 23)" fill="#fff" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Action 1</tspan></text>
+        </g>
+        <g id="Primary_Button-8" data-name="Primary Button" transform="translate(613 1125)">
+          <rect id="Rectangle_3990-8" data-name="Rectangle 3990" width="83" height="36" fill="#2777d3"/>
+          <text id="Action_2-3" data-name="Action 2" transform="translate(15 23)" fill="#fff" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Action 2</tspan></text>
+        </g>
+        <g id="Primary_Button-9" data-name="Primary Button" transform="translate(697 1125)">
+          <path id="Rectangle_3990-9" data-name="Rectangle 3990" d="M0,0H65A18,18,0,0,1,83,18v0A18,18,0,0,1,65,36H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" fill="#2777d3"/>
+          <text id="Action_3-3" data-name="Action 3" transform="translate(15 23)" fill="#fff" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Action 3</tspan></text>
+        </g>
+        <g id="Rectangle_10256" data-name="Rectangle 10256" transform="translate(534 1128)" fill="none" stroke="#fff" stroke-width="1" stroke-dasharray="2 0">
+          <path d="M15,0H75a0,0,0,0,1,0,0V30a0,0,0,0,1,0,0H15A15,15,0,0,1,0,15v0A15,15,0,0,1,15,0Z" stroke="none"/>
+          <path d="M15-.5H75.14a.36.36,0,0,1,.36.36V30.14a.36.36,0,0,1-.36.36H15A15.5,15.5,0,0,1-.5,15v0A15.5,15.5,0,0,1,15-.5Z" fill="none"/>
+        </g>
+      </g>
+      <g id="Group_264405" data-name="Group 264405" transform="translate(-402 -951)">
+        <g id="Primary_Button-10" data-name="Primary Button" transform="translate(531 1181)">
+          <path id="Rectangle_3990-10" data-name="Rectangle 3990" d="M18,0H81a0,0,0,0,1,0,0V36a0,0,0,0,1,0,0H18A18,18,0,0,1,0,18v0A18,18,0,0,1,18,0Z" fill="#1f5ea8"/>
+          <text id="Action_1-4" data-name="Action 1" transform="translate(15 23)" fill="#fff" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Action 1</tspan></text>
+        </g>
+        <g id="Primary_Button-11" data-name="Primary Button" transform="translate(613 1181)">
+          <rect id="Rectangle_3990-11" data-name="Rectangle 3990" width="83" height="36" fill="#1f5ea8"/>
+          <text id="Action_2-4" data-name="Action 2" transform="translate(15 23)" fill="#fff" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Action 2</tspan></text>
+        </g>
+        <g id="Primary_Button-12" data-name="Primary Button" transform="translate(697 1181)">
+          <path id="Rectangle_3990-12" data-name="Rectangle 3990" d="M0,0H65A18,18,0,0,1,83,18v0A18,18,0,0,1,65,36H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" fill="#1f5ea8"/>
+          <text id="Action_3-4" data-name="Action 3" transform="translate(15 23)" fill="#fff" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Action 3</tspan></text>
+        </g>
+      </g>
+      <g id="Group_264406" data-name="Group 264406" transform="translate(-134 -23)">
+        <g id="Primary_Button-13" data-name="Primary Button" transform="translate(263 309)">
+          <path id="Rectangle_3990-13" data-name="Rectangle 3990" d="M18,0H81a0,0,0,0,1,0,0V36a0,0,0,0,1,0,0H18A18,18,0,0,1,0,18v0A18,18,0,0,1,18,0Z" fill="#e6e6ea"/>
+          <text id="Action_1-5" data-name="Action 1" transform="translate(15 23)" fill="#afafbb" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Action 1</tspan></text>
+        </g>
+        <g id="Primary_Button-14" data-name="Primary Button" transform="translate(345 309)">
+          <rect id="Rectangle_3990-14" data-name="Rectangle 3990" width="83" height="36" fill="#e6e6ea"/>
+          <text id="Action_2-5" data-name="Action 2" transform="translate(15 23)" fill="#afafbb" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Action 2</tspan></text>
+        </g>
+        <g id="Primary_Button-15" data-name="Primary Button" transform="translate(429 309)">
+          <path id="Rectangle_3990-15" data-name="Rectangle 3990" d="M0,0H65A18,18,0,0,1,83,18v0A18,18,0,0,1,65,36H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" fill="#e6e6ea"/>
+          <text id="Action_3-5" data-name="Action 3" transform="translate(15 23)" fill="#afafbb" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Action 3</tspan></text>
+        </g>
+      </g>
+      <g id="Group_264414" data-name="Group 264414" transform="translate(-375 -719)">
+        <g id="Primary_Button-16" data-name="Primary Button" transform="translate(586 1061)">
+          <rect id="Rectangle_3990-16" data-name="Rectangle 3990" width="83" height="36" fill="#2777d3"/>
+          <text id="Action_2-6" data-name="Action 2" transform="translate(15 23)" fill="#fff" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Action 2</tspan></text>
+        </g>
+        <g id="Primary_Button-17" data-name="Primary Button" transform="translate(504 1061)">
+          <path id="Rectangle_3990-17" data-name="Rectangle 3990" d="M18,0H81a0,0,0,0,1,0,0V36a0,0,0,0,1,0,0H18A18,18,0,0,1,0,18v0A18,18,0,0,1,18,0Z" fill="#e6e6ea"/>
+          <text id="Action_1-6" data-name="Action 1" transform="translate(15 23)" fill="#afafbb" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Action 1</tspan></text>
+        </g>
+        <g id="Primary_Button-18" data-name="Primary Button" transform="translate(670 1061)">
+          <path id="Rectangle_3990-18" data-name="Rectangle 3990" d="M0,0H65A18,18,0,0,1,83,18v0A18,18,0,0,1,65,36H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" fill="#e6e6ea"/>
+          <text id="Action_3-6" data-name="Action 3" transform="translate(15 23)" fill="#afafbb" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Action 3</tspan></text>
+        </g>
+        <g id="Primary_Button-19" data-name="Primary Button" transform="translate(504 1061)">
+          <path id="Rectangle_3990-19" data-name="Rectangle 3990" d="M18,0H81a0,0,0,0,1,0,0V36a0,0,0,0,1,0,0H18A18,18,0,0,1,0,18v0A18,18,0,0,1,18,0Z" fill="#2777d3"/>
+          <text id="Action_1-7" data-name="Action 1" transform="translate(15 23)" fill="#fff" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Action 1</tspan></text>
+        </g>
+      </g>
+    </g>
+    <g id="Group_264424" data-name="Group 264424" transform="translate(-275)">
+      <g id="Primary_Button-20" data-name="Primary Button" transform="translate(508 342)">
+        <g id="Rectangle_3990-20" data-name="Rectangle 3990" fill="none" stroke="#cbcbd2" stroke-width="1">
+          <rect width="83" height="36" stroke="none"/>
+          <rect x="0.5" y="0.5" width="82" height="35" fill="none"/>
+        </g>
+        <text id="Action_2-7" data-name="Action 2" transform="translate(15 23)" fill="#2777d3" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Action 2</tspan></text>
+      </g>
+      <g id="Group_264407" data-name="Group 264407" transform="translate(-193 -20)">
+        <g id="Primary_Button-21" data-name="Primary Button" transform="translate(621 82)">
+          <g id="Rectangle_3990-21" data-name="Rectangle 3990" fill="none" stroke="#cbcbd2" stroke-width="1">
+            <path d="M18,0H81a0,0,0,0,1,0,0V36a0,0,0,0,1,0,0H18A18,18,0,0,1,0,18v0A18,18,0,0,1,18,0Z" stroke="none"/>
+            <path d="M18,.5H80.027A.473.473,0,0,1,80.5.973V35.027a.473.473,0,0,1-.473.473H18A17.5,17.5,0,0,1,.5,18v0A17.5,17.5,0,0,1,18,.5Z" fill="none"/>
+          </g>
+          <text id="Action_1-8" data-name="Action 1" transform="translate(15 23)" fill="#2777d3" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Action 1</tspan></text>
+        </g>
+        <g id="Primary_Button-22" data-name="Primary Button" transform="translate(701 82)">
+          <g id="Rectangle_3990-22" data-name="Rectangle 3990" fill="none" stroke="#cbcbd2" stroke-width="1">
+            <rect width="83" height="36" stroke="none"/>
+            <rect x="0.5" y="0.5" width="82" height="35" fill="none"/>
+          </g>
+          <text id="Action_2-8" data-name="Action 2" transform="translate(15 23)" fill="#2777d3" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Action 2</tspan></text>
+        </g>
+        <g id="Primary_Button-23" data-name="Primary Button" transform="translate(783 82)">
+          <g id="Rectangle_3990-23" data-name="Rectangle 3990" fill="none" stroke="#cbcbd2" stroke-width="1">
+            <path d="M0,0H65A18,18,0,0,1,83,18v0A18,18,0,0,1,65,36H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" stroke="none"/>
+            <path d="M.973.5H65A17.5,17.5,0,0,1,82.5,18v0A17.5,17.5,0,0,1,65,35.5H.973A.473.473,0,0,1,.5,35.027V.973A.473.473,0,0,1,.973.5Z" fill="none"/>
+          </g>
+          <text id="Action_3-7" data-name="Action 3" transform="translate(15 23)" fill="#2777d3" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Action 3</tspan></text>
+        </g>
+      </g>
+      <g id="Group_264408" data-name="Group 264408" transform="translate(-193 -20)">
+        <g id="Primary_Button-24" data-name="Primary Button" transform="translate(621 138)">
+          <g id="Rectangle_3990-24" data-name="Rectangle 3990" fill="none" stroke="#4e92df" stroke-width="1">
+            <path d="M18,0H81a0,0,0,0,1,0,0V36a0,0,0,0,1,0,0H18A18,18,0,0,1,0,18v0A18,18,0,0,1,18,0Z" stroke="none"/>
+            <path d="M18,.5H80.027A.473.473,0,0,1,80.5.973V35.027a.473.473,0,0,1-.473.473H18A17.5,17.5,0,0,1,.5,18v0A17.5,17.5,0,0,1,18,.5Z" fill="none"/>
+          </g>
+          <text id="Action_1-9" data-name="Action 1" transform="translate(15 23)" fill="#2777d3" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Action 1</tspan></text>
+        </g>
+        <g id="Primary_Button-25" data-name="Primary Button" transform="translate(701 138)">
+          <g id="Rectangle_3990-25" data-name="Rectangle 3990" fill="none" stroke="#4e92df" stroke-width="1">
+            <rect width="83" height="36" stroke="none"/>
+            <rect x="0.5" y="0.5" width="82" height="35" fill="none"/>
+          </g>
+          <text id="Action_2-9" data-name="Action 2" transform="translate(15 23)" fill="#2777d3" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Action 2</tspan></text>
+        </g>
+        <g id="Primary_Button-26" data-name="Primary Button" transform="translate(783 138)">
+          <g id="Rectangle_3990-26" data-name="Rectangle 3990" fill="none" stroke="#4e92df" stroke-width="1">
+            <path d="M0,0H65A18,18,0,0,1,83,18v0A18,18,0,0,1,65,36H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" stroke="none"/>
+            <path d="M.973.5H65A17.5,17.5,0,0,1,82.5,18v0A17.5,17.5,0,0,1,65,35.5H.973A.473.473,0,0,1,.5,35.027V.973A.473.473,0,0,1,.973.5Z" fill="none"/>
+          </g>
+          <text id="Action_3-8" data-name="Action 3" transform="translate(15 23)" fill="#2777d3" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Action 3</tspan></text>
+        </g>
+      </g>
+      <g id="Group_264410" data-name="Group 264410" transform="translate(-193 -20)">
+        <g id="Primary_Button-27" data-name="Primary Button" transform="translate(621 250)">
+          <g id="Rectangle_3990-27" data-name="Rectangle 3990" fill="none" stroke="#1f5ea8" stroke-width="1">
+            <path d="M18,0H81a0,0,0,0,1,0,0V36a0,0,0,0,1,0,0H18A18,18,0,0,1,0,18v0A18,18,0,0,1,18,0Z" stroke="none"/>
+            <path d="M18,.5H80.027A.473.473,0,0,1,80.5.973V35.027a.473.473,0,0,1-.473.473H18A17.5,17.5,0,0,1,.5,18v0A17.5,17.5,0,0,1,18,.5Z" fill="none"/>
+          </g>
+          <text id="Action_1-10" data-name="Action 1" transform="translate(15 23)" fill="#2777d3" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Action 1</tspan></text>
+        </g>
+        <g id="Primary_Button-28" data-name="Primary Button" transform="translate(701 250)">
+          <g id="Rectangle_3990-28" data-name="Rectangle 3990" fill="none" stroke="#1f5ea8" stroke-width="1">
+            <rect width="83" height="36" stroke="none"/>
+            <rect x="0.5" y="0.5" width="82" height="35" fill="none"/>
+          </g>
+          <text id="Action_2-10" data-name="Action 2" transform="translate(15 23)" fill="#2777d3" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Action 2</tspan></text>
+        </g>
+        <g id="Primary_Button-29" data-name="Primary Button" transform="translate(783 250)">
+          <g id="Rectangle_3990-29" data-name="Rectangle 3990" fill="none" stroke="#1f5ea8" stroke-width="1">
+            <path d="M0,0H65A18,18,0,0,1,83,18v0A18,18,0,0,1,65,36H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" stroke="none"/>
+            <path d="M.973.5H65A17.5,17.5,0,0,1,82.5,18v0A17.5,17.5,0,0,1,65,35.5H.973A.473.473,0,0,1,.5,35.027V.973A.473.473,0,0,1,.973.5Z" fill="none"/>
+          </g>
+          <text id="Action_3-9" data-name="Action 3" transform="translate(15 23)" fill="#2777d3" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Action 3</tspan></text>
+        </g>
+      </g>
+      <g id="Group_264411" data-name="Group 264411" transform="translate(-193 -20)">
+        <g id="Primary_Button-30" data-name="Primary Button" transform="translate(621 306)">
+          <g id="Rectangle_3990-30" data-name="Rectangle 3990" fill="none" stroke="#e6e6ea" stroke-width="1">
+            <path d="M18,0H81a0,0,0,0,1,0,0V36a0,0,0,0,1,0,0H18A18,18,0,0,1,0,18v0A18,18,0,0,1,18,0Z" stroke="none"/>
+            <path d="M18,.5H80.027A.473.473,0,0,1,80.5.973V35.027a.473.473,0,0,1-.473.473H18A17.5,17.5,0,0,1,.5,18v0A17.5,17.5,0,0,1,18,.5Z" fill="none"/>
+          </g>
+          <text id="Action_1-11" data-name="Action 1" transform="translate(15 23)" fill="#afafbb" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Action 1</tspan></text>
+        </g>
+        <g id="Primary_Button-31" data-name="Primary Button" transform="translate(701 306)">
+          <g id="Rectangle_3990-31" data-name="Rectangle 3990" fill="none" stroke="#e6e6ea" stroke-width="1">
+            <rect width="83" height="36" stroke="none"/>
+            <rect x="0.5" y="0.5" width="82" height="35" fill="none"/>
+          </g>
+          <text id="Action_2-11" data-name="Action 2" transform="translate(15 23)" fill="#afafbb" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Action 2</tspan></text>
+        </g>
+        <g id="Primary_Button-32" data-name="Primary Button" transform="translate(783 306)">
+          <g id="Rectangle_3990-32" data-name="Rectangle 3990" fill="none" stroke="#e6e6ea" stroke-width="1">
+            <path d="M0,0H65A18,18,0,0,1,83,18v0A18,18,0,0,1,65,36H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" stroke="none"/>
+            <path d="M.973.5H65A17.5,17.5,0,0,1,82.5,18v0A17.5,17.5,0,0,1,65,35.5H.973A.473.473,0,0,1,.5,35.027V.973A.473.473,0,0,1,.973.5Z" fill="none"/>
+          </g>
+          <text id="Action_3-10" data-name="Action 3" transform="translate(15 23)" fill="#afafbb" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Action 3</tspan></text>
+        </g>
+      </g>
+      <g id="Group_264409" data-name="Group 264409" transform="translate(-189 -20)">
+        <g id="Primary_Button-33" data-name="Primary Button" transform="translate(617 194)">
+          <g id="Rectangle_3990-33" data-name="Rectangle 3990" fill="none" stroke="#cbcbd2" stroke-width="1">
+            <path d="M18,0H81a0,0,0,0,1,0,0V36a0,0,0,0,1,0,0H18A18,18,0,0,1,0,18v0A18,18,0,0,1,18,0Z" stroke="none"/>
+            <path d="M18,.5H80.027A.473.473,0,0,1,80.5.973V35.027a.473.473,0,0,1-.473.473H18A17.5,17.5,0,0,1,.5,18v0A17.5,17.5,0,0,1,18,.5Z" fill="none"/>
+          </g>
+          <text id="Action_1-12" data-name="Action 1" transform="translate(15 23)" fill="#2777d3" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Action 1</tspan></text>
+        </g>
+        <g id="Primary_Button-34" data-name="Primary Button" transform="translate(697 194)">
+          <g id="Rectangle_3990-34" data-name="Rectangle 3990" fill="none" stroke="#cbcbd2" stroke-width="1">
+            <rect width="83" height="36" stroke="none"/>
+            <rect x="0.5" y="0.5" width="82" height="35" fill="none"/>
+          </g>
+          <text id="Action_2-12" data-name="Action 2" transform="translate(15 23)" fill="#2777d3" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Action 2</tspan></text>
+        </g>
+        <g id="Primary_Button-35" data-name="Primary Button" transform="translate(779 194)">
+          <g id="Rectangle_3990-35" data-name="Rectangle 3990" fill="none" stroke="#cbcbd2" stroke-width="1">
+            <path d="M0,0H65A18,18,0,0,1,83,18v0A18,18,0,0,1,65,36H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" stroke="none"/>
+            <path d="M.973.5H65A17.5,17.5,0,0,1,82.5,18v0A17.5,17.5,0,0,1,65,35.5H.973A.473.473,0,0,1,.5,35.027V.973A.473.473,0,0,1,.973.5Z" fill="none"/>
+          </g>
+          <text id="Action_3-11" data-name="Action 3" transform="translate(15 23)" fill="#2777d3" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Action 3</tspan></text>
+        </g>
+        <g id="Rectangle_10257" data-name="Rectangle 10257" transform="translate(620 197)" fill="none" stroke="#2777d3" stroke-width="1" stroke-dasharray="2 0">
+          <path d="M15,0H75a0,0,0,0,1,0,0V30a0,0,0,0,1,0,0H15A15,15,0,0,1,0,15v0A15,15,0,0,1,15,0Z" stroke="none"/>
+          <path d="M15-.5H75.14a.36.36,0,0,1,.36.36V30.14a.36.36,0,0,1-.36.36H15A15.5,15.5,0,0,1-.5,15v0A15.5,15.5,0,0,1,15-.5Z" fill="none"/>
+        </g>
+      </g>
+      <g id="Primary_Button-36" data-name="Primary Button" transform="translate(428 342)">
+        <g id="Rectangle_3990-36" data-name="Rectangle 3990" fill="none" stroke="#e6e6ea" stroke-width="1">
+          <path d="M18,0H81a0,0,0,0,1,0,0V36a0,0,0,0,1,0,0H18A18,18,0,0,1,0,18v0A18,18,0,0,1,18,0Z" stroke="none"/>
+          <path d="M18,.5H80.027A.473.473,0,0,1,80.5.973V35.027a.473.473,0,0,1-.473.473H18A17.5,17.5,0,0,1,.5,18v0A17.5,17.5,0,0,1,18,.5Z" fill="none"/>
+        </g>
+        <text id="Action_1-13" data-name="Action 1" transform="translate(15 23)" fill="#afafbb" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Action 1</tspan></text>
+      </g>
+      <g id="Primary_Button-37" data-name="Primary Button" transform="translate(590 342)">
+        <g id="Rectangle_3990-37" data-name="Rectangle 3990" fill="none" stroke="#e6e6ea" stroke-width="1">
+          <path d="M0,0H65A18,18,0,0,1,83,18v0A18,18,0,0,1,65,36H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" stroke="none"/>
+          <path d="M.973.5H65A17.5,17.5,0,0,1,82.5,18v0A17.5,17.5,0,0,1,65,35.5H.973A.473.473,0,0,1,.5,35.027V.973A.473.473,0,0,1,.973.5Z" fill="none"/>
+        </g>
+        <text id="Action_3-12" data-name="Action 3" transform="translate(15 23)" fill="#afafbb" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Action 3</tspan></text>
+      </g>
+      <g id="Primary_Button-38" data-name="Primary Button" transform="translate(428 342)">
+        <g id="Rectangle_3990-38" data-name="Rectangle 3990" fill="none" stroke="#cbcbd2" stroke-width="1">
+          <path d="M18,0H81a0,0,0,0,1,0,0V36a0,0,0,0,1,0,0H18A18,18,0,0,1,0,18v0A18,18,0,0,1,18,0Z" stroke="none"/>
+          <path d="M18,.5H80.027A.473.473,0,0,1,80.5.973V35.027a.473.473,0,0,1-.473.473H18A17.5,17.5,0,0,1,.5,18v0A17.5,17.5,0,0,1,18,.5Z" fill="none"/>
+        </g>
+        <text id="Action_1-14" data-name="Action 1" transform="translate(15 23)" fill="#2777d3" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Action 1</tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>

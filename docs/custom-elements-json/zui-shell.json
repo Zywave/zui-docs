@@ -424,6 +424,48 @@
       ]
     },
     {
+      "name": "zui-shell-context-switcher",
+      "path": "./..\\src\\zui-shell-context-switcher.ts",
+      "description": "A child element of `<zui-shell-nav>`, when used it is the first item to be seen in the nav, before `<zui-shell-nav-item>`s. It provides contextual details for what is seen in `<zui-shell-content>`, i.e. viewing as a specific company.",
+      "attributes": [
+        {
+          "name": "context-title",
+          "description": "The title text represeting who / what the context is.",
+          "type": "string | null"
+        },
+        {
+          "name": "context-label",
+          "description": "Label above the title text, i.e. 'Viewing as'.",
+          "type": "string | null"
+        },
+        {
+          "name": "action-text",
+          "description": "The text beneath the switch profile icon, i.e. 'Switch'.",
+          "type": "string | null"
+        }
+      ],
+      "properties": [
+        {
+          "name": "contextTitle",
+          "attribute": "context-title",
+          "description": "The title text represeting who / what the context is.",
+          "type": "string | null"
+        },
+        {
+          "name": "contextLabel",
+          "attribute": "context-label",
+          "description": "Label above the title text, i.e. 'Viewing as'.",
+          "type": "string | null"
+        },
+        {
+          "name": "actionText",
+          "attribute": "action-text",
+          "description": "The text beneath the switch profile icon, i.e. 'Switch'.",
+          "type": "string | null"
+        }
+      ]
+    },
+    {
       "name": "zui-shell-footer",
       "path": "./..\\src\\zui-shell-footer.ts",
       "description": "The footer is the small section at the bottom of each page that contains things like the privacy and cookie policies, and other legal and trademark information.",
@@ -495,26 +537,28 @@
         {
           "name": "logout-user-url",
           "description": "This is a URL to the logout page of the application.",
-          "type": "string",
-          "default": "\"\""
+          "type": "string | null"
         },
         {
           "name": "manage-profile-url",
           "description": "This is a URL to the proper edit page for the profile in context.",
-          "type": "string",
-          "default": "\"\""
+          "type": "string | null"
         },
         {
           "name": "switch-profile-url",
           "description": "This is a URL to the local switch profile path. **This should only be set if the user has multiple contextual profiles available.**",
-          "type": "string",
-          "default": "\"\""
+          "type": "string | null"
+        },
+        {
+          "name": "has-multiple-profiles",
+          "description": "This indicates that the user has multiple profiles, and should be presented UI to help navigate that feature (this will need to be set at a future date)",
+          "type": "boolean",
+          "default": "false"
         },
         {
           "name": "avatar",
           "description": "This is a URI of the avatar of the user. It should be set to the \"picture\" claim of the user principal.",
-          "type": "string",
-          "default": "\"\""
+          "type": "string | null"
         },
         {
           "name": "user-header",
@@ -690,29 +734,32 @@
           "name": "logoutUserUrl",
           "attribute": "logout-user-url",
           "description": "This is a URL to the logout page of the application.",
-          "type": "string",
-          "default": "\"\""
+          "type": "string | null"
         },
         {
           "name": "manageProfileUrl",
           "attribute": "manage-profile-url",
           "description": "This is a URL to the proper edit page for the profile in context.",
-          "type": "string",
-          "default": "\"\""
+          "type": "string | null"
         },
         {
           "name": "switchProfileUrl",
           "attribute": "switch-profile-url",
           "description": "This is a URL to the local switch profile path. **This should only be set if the user has multiple contextual profiles available.**",
-          "type": "string",
-          "default": "\"\""
+          "type": "string | null"
+        },
+        {
+          "name": "hasMultipleProfiles",
+          "attribute": "has-multiple-profiles",
+          "description": "This indicates that the user has multiple profiles, and should be presented UI to help navigate that feature (this will need to be set at a future date)",
+          "type": "boolean",
+          "default": "false"
         },
         {
           "name": "avatar",
           "attribute": "avatar",
           "description": "This is a URI of the avatar of the user. It should be set to the \"picture\" claim of the user principal.",
-          "type": "string",
-          "default": "\"\""
+          "type": "string | null"
         },
         {
           "name": "userHeader",
@@ -875,6 +922,12 @@
           "name": "impersonatingDisplayName",
           "description": "Display name of the user profile being impersonated",
           "type": "string"
+        }
+      ],
+      "events": [
+        {
+          "name": "switchprofile",
+          "description": "An event that indicates a user is requesting to switch profile"
         }
       ],
       "cssProperties": [

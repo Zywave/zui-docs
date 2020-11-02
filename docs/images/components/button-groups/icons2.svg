@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="303" height="76" viewBox="0 0 303 76">
+  <defs>
+    <clipPath id="clip-button_group_-_adding_icons_2">
+      <rect width="303" height="76"/>
+    </clipPath>
+  </defs>
+  <g id="button_group_-_adding_icons_2" data-name="button group - adding icons 2" clip-path="url(#clip-button_group_-_adding_icons_2)">
+    <rect width="303" height="76" fill="#fff"/>
+    <g id="Group_264418" data-name="Group 264418" transform="translate(23)">
+      <g id="Group_264417" data-name="Group 264417">
+        <g id="Primary_Button" data-name="Primary Button" transform="translate(22 20)">
+          <g id="Rectangle_3990" data-name="Rectangle 3990" transform="translate(-25)" fill="none" stroke="#cbcbd2" stroke-width="1" stroke-dasharray="2 0">
+            <path d="M18,0H81a0,0,0,0,1,0,0V36a0,0,0,0,1,0,0H18A18,18,0,0,1,0,18v0A18,18,0,0,1,18,0Z" stroke="none"/>
+            <path d="M18,.5H80a.5.5,0,0,1,.5.5V35a.5.5,0,0,1-.5.5H18A17.5,17.5,0,0,1,.5,18v0A17.5,17.5,0,0,1,18,.5Z" fill="none"/>
+          </g>
+          <text id="Add" transform="translate(15 23)" fill="#2777d3" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Add</tspan></text>
+        </g>
+        <g id="Primary_Button-2" data-name="Primary Button" transform="translate(156 20)">
+          <g id="Rectangle_3990-2" data-name="Rectangle 3990" fill="none" stroke="#cbcbd2" stroke-width="1" stroke-dasharray="2 0">
+            <path d="M0,0H82a18,18,0,0,1,18,18v0A18,18,0,0,1,82,36H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" stroke="none"/>
+            <path d="M1,.5H82A17.5,17.5,0,0,1,99.5,18v0A17.5,17.5,0,0,1,82,35.5H1A.5.5,0,0,1,.5,35V1A.5.5,0,0,1,1,.5Z" fill="none"/>
+          </g>
+          <text id="_" data-name=" " transform="translate(15 23)" fill="#fff" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0"> </tspan></text>
+          <text id="Import" transform="translate(41 23)" fill="#2777d3" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Import</tspan></text>
+          <g id="Add-2" data-name="Add" transform="translate(23 18)">
+            <g id="Edit" transform="translate(-3)">
+              <g id="Upload" transform="translate(7 4)">
+                <g id="Group_13494" data-name="Group 13494" transform="translate(-12 -12)">
+                  <g id="Group_13493" data-name="Group 13493" transform="translate(0.92)">
+                    <path id="Path_9311" data-name="Path 9311" d="M1.6,4.8h.854a.2.2,0,0,0,.2-.2V1.315H14.085V4.6a.2.2,0,0,0,.2.2h.854a.2.2,0,0,0,.2-.2V.657A.657.657,0,0,0,14.677,0H2.057A.657.657,0,0,0,1.4.657V4.6A.2.2,0,0,0,1.6,4.8Z" transform="translate(-1.4)" fill="#2777d3"/>
+                    <path id="Path_9312" data-name="Path 9312" d="M10.182,6.054a.2.2,0,0,0-.329,0L6.37,9.735a.263.263,0,0,0,0,.329l.92.986a.2.2,0,0,0,.329,0L9.2,9.406v8.15a.263.263,0,0,0,.263.263h1.315a.263.263,0,0,0,.263-.263V9.406l1.577,1.643a.2.2,0,0,0,.329,0l.92-.986a.263.263,0,0,0,0-.329Z" transform="translate(-3.084 -2.045)" fill="#2777d3"/>
+                  </g>
+                  <rect id="Rectangle_7405" data-name="Rectangle 7405" width="16" height="16" fill="none"/>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+        <g id="Edit-2" data-name="Edit" transform="translate(17 38)">
+          <g id="Add-3" data-name="Add" transform="translate(3)">
+            <g id="Add-4" data-name="Add" transform="translate(-8 -8)">
+              <path id="Path_101133" data-name="Path 101133" d="M14,7.5v1a.5.5,0,0,1-.5.5H9v4.5a.5.5,0,0,1-.5.5h-1a.5.5,0,0,1-.5-.5V9H2.5A.5.5,0,0,1,2,8.5v-1A.5.5,0,0,1,2.5,7H7V2.5A.5.5,0,0,1,7.5,2h1a.5.5,0,0,1,.5.5V7h4.5A.5.5,0,0,1,14,7.5Z" fill="#2777d3"/>
+              <rect id="Rectangle_10238" data-name="Rectangle 10238" width="16" height="16" fill="none"/>
+            </g>
+          </g>
+        </g>
+        <g id="Primary_Button-3" data-name="Primary Button" transform="translate(77 20)">
+          <g id="Rectangle_3990-3" data-name="Rectangle 3990" fill="none" stroke="#cbcbd2" stroke-width="1" stroke-dasharray="2 0">
+            <rect width="80" height="36" stroke="none"/>
+            <rect x="0.5" y="0.5" width="79" height="35" fill="none"/>
+          </g>
+          <text id="Edit-3" data-name="Edit" transform="translate(41 23)" fill="#2777d3" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Edit</tspan></text>
+          <g id="Add-5" data-name="Add" transform="translate(23 18)">
+            <g id="Edit-4" data-name="Edit" transform="translate(-3)">
+              <g id="Edit-5" data-name="Edit" transform="translate(-5 -8)">
+                <path id="Path_101131" data-name="Path 101131" d="M14.4,5.8c.7-.8,1.7-1.9.3-3.3s-2.6-2.7-4.5-.9L2.3,9.5a3.1,3.1,0,0,0-.8,1.7L.6,14.8a.5.5,0,0,0,.6.6l4.1-1a2.7,2.7,0,0,0,1.3-.7ZM12.8,2c1.1,1.2,2.4,1.7.9,3.1L10.9,2.3C11.4,1.9,11.9,1.1,12.8,2ZM1.9,13.5,2.3,12,4,13.7C3.4,13.8,1.8,14.6,1.9,13.5Zm3-.3L2.8,11.1a.5.5,0,0,1,0-.7L10.2,3h.1L13,5.7v.1L5.6,13.2A.5.5,0,0,1,4.9,13.2Zm-.4-1.8a.5.5,0,0,0,.7,0l5.6-5.6a.5.5,0,0,0-.7-.7L4.6,10.7a.5.5,0,0,0,0,.7Z" fill="#2777d3"/>
+                <rect id="Rectangle_10235" data-name="Rectangle 10235" width="16" height="16" fill="none"/>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

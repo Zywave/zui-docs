@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="537" height="272" viewBox="0 0 537 272">
+  <defs>
+    <filter id="Path_101586" x="272.5" y="52.5" width="249" height="204.496" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1.5" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-button_group_-_button_dropdown">
+      <rect width="537" height="272"/>
+    </clipPath>
+  </defs>
+  <g id="button_group_-_button_dropdown" data-name="button group - button dropdown" clip-path="url(#clip-button_group_-_button_dropdown)">
+    <rect width="537" height="272" fill="#fff"/>
+    <g id="Group_264416" data-name="Group 264416" transform="translate(7 -7)">
+      <g id="Primary_Button" data-name="Primary Button" transform="translate(38 27)">
+        <g id="Rectangle_3990" data-name="Rectangle 3990" transform="translate(-25)" fill="none" stroke="#cbcbd2" stroke-width="1">
+          <path d="M18,0H133a0,0,0,0,1,0,0V36a0,0,0,0,1,0,0H18A18,18,0,0,1,0,18v0A18,18,0,0,1,18,0Z" stroke="none"/>
+          <path d="M18,.5H132a.5.5,0,0,1,.5.5V35a.5.5,0,0,1-.5.5H18A17.5,17.5,0,0,1,.5,18v0A17.5,17.5,0,0,1,18,.5Z" fill="none"/>
+        </g>
+        <text id="Edit_account" data-name="Edit account" transform="translate(15 23)" fill="#2777d3" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Edit account</tspan></text>
+      </g>
+      <g id="Primary_Button-2" data-name="Primary Button" transform="translate(144 27)">
+        <g id="Rectangle_3990-2" data-name="Rectangle 3990" transform="translate(1)" fill="none" stroke="#cbcbd2" stroke-width="1">
+          <rect width="126" height="36" stroke="none"/>
+          <rect x="0.5" y="0.5" width="125" height="35" fill="none"/>
+        </g>
+        <text id="Add_contact" data-name="Add contact" transform="translate(35 23)" fill="#2777d3" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Add contact</tspan></text>
+      </g>
+      <g id="Primary_Button-3" data-name="Primary Button" transform="translate(270 27)">
+        <g id="Rectangle_3990-3" data-name="Rectangle 3990" fill="none" stroke="#cbcbd2" stroke-width="1">
+          <path d="M0,0H28A18,18,0,0,1,46,18v0A18,18,0,0,1,28,36H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" stroke="none"/>
+          <path d="M1,.5H28A17.5,17.5,0,0,1,45.5,18v0A17.5,17.5,0,0,1,28,35.5H1A.5.5,0,0,1,.5,35V1A.5.5,0,0,1,1,.5Z" fill="none"/>
+        </g>
+        <text id="_" data-name=" " transform="translate(15 23)" fill="#fff" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0"> </tspan></text>
+        <g id="More" transform="translate(23 18)">
+          <g id="Group_264404" data-name="Group 264404" transform="translate(-8 -8)">
+            <g id="Group_264403" data-name="Group 264403">
+              <circle id="Ellipse_2063" data-name="Ellipse 2063" cx="2" cy="2" r="2" transform="translate(0 6)" fill="#2777d3"/>
+              <circle id="Ellipse_2064" data-name="Ellipse 2064" cx="2" cy="2" r="2" transform="translate(6 6)" fill="#2777d3"/>
+              <circle id="Ellipse_2065" data-name="Ellipse 2065" cx="2" cy="2" r="2" transform="translate(12 6)" fill="#2777d3"/>
+            </g>
+            <rect id="Rectangle_10237" data-name="Rectangle 10237" width="16" height="16" fill="none"/>
+          </g>
+        </g>
+      </g>
+      <g id="Edit" transform="translate(33 45)">
+        <g id="Edit-2" data-name="Edit" transform="translate(-5 -8)">
+          <path id="Path_101131" data-name="Path 101131" d="M14.4,5.8c.7-.8,1.7-1.9.3-3.3s-2.6-2.7-4.5-.9L2.3,9.5a3.1,3.1,0,0,0-.8,1.7L.6,14.8a.5.5,0,0,0,.6.6l4.1-1a2.7,2.7,0,0,0,1.3-.7ZM12.8,2c1.1,1.2,2.4,1.7.9,3.1L10.9,2.3C11.4,1.9,11.9,1.1,12.8,2ZM1.9,13.5,2.3,12,4,13.7C3.4,13.8,1.8,14.6,1.9,13.5Zm3-.3L2.8,11.1a.5.5,0,0,1,0-.7L10.2,3h.1L13,5.7v.1L5.6,13.2A.5.5,0,0,1,4.9,13.2Zm-.4-1.8a.5.5,0,0,0,.7,0l5.6-5.6a.5.5,0,0,0-.7-.7L4.6,10.7a.5.5,0,0,0,0,.7Z" fill="#2777d3"/>
+          <rect id="Rectangle_10235" data-name="Rectangle 10235" width="16" height="16" fill="none"/>
+        </g>
+      </g>
+      <g id="Add" transform="translate(163 45)">
+        <g id="Add-2" data-name="Add" transform="translate(-8 -8)">
+          <path id="Path_101133" data-name="Path 101133" d="M14,7.5v1a.5.5,0,0,1-.5.5H9v4.5a.5.5,0,0,1-.5.5h-1a.5.5,0,0,1-.5-.5V9H2.5A.5.5,0,0,1,2,8.5v-1A.5.5,0,0,1,2.5,7H7V2.5A.5.5,0,0,1,7.5,2h1a.5.5,0,0,1,.5.5V7h4.5A.5.5,0,0,1,14,7.5Z" fill="#2777d3"/>
+          <rect id="Rectangle_10238" data-name="Rectangle 10238" width="16" height="16" fill="none"/>
+        </g>
+      </g>
+      <g transform="matrix(1, 0, 0, 1, -7, 7)" filter="url(#Path_101586)">
+        <path id="Path_101586-2" data-name="Path 101586" d="M0,0H240V195.5H0Z" transform="translate(277 56)" fill="#fff"/>
+      </g>
+      <path id="Path_101591" data-name="Path 101591" d="M0,0H240V36H0Z" transform="translate(270 105)" fill="#fff"/>
+      <path id="Path_101636" data-name="Path 101636" d="M0,0H240V36H0Z" transform="translate(270 213)" fill="#fff"/>
+      <path id="Path_101589" data-name="Path 101589" d="M0,0H240V36H0Z" transform="translate(270 141)" fill="#fff"/>
+      <path id="Path_101587" data-name="Path 101587" d="M0,0H240V36H0Z" transform="translate(270 69)" fill="#fff"/>
+      <path id="Path_101634" data-name="Path 101634" d="M0,0H240V36H0Z" transform="translate(270 177)" fill="#fff"/>
+      <text id="Deactivate_account" data-name="Deactivate account" transform="translate(286 93)" fill="#31313a" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Deactivate account</tspan></text>
+      <text id="Send_email_all_contacts_" data-name="Send email (all contacts)" transform="translate(286 129)" fill="#31313a" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Send email (all contacts)</tspan></text>
+      <text id="Convert_portal" data-name="Convert portal" transform="translate(286 165)" fill="#31313a" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Convert portal</tspan></text>
+      <text id="Deactivate_portal" data-name="Deactivate portal" transform="translate(286 201)" fill="#31313a" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Deactivate portal</tspan></text>
+      <text id="Delete_account" data-name="Delete account" transform="translate(286 237)" fill="#d93911" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Delete account</tspan></text>
+    </g>
+  </g>
+</svg>
