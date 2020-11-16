@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="900" height="757" viewBox="0 0 900 757">
+  <defs>
+    <filter id="Rectangle_53" x="270.5" y="59.5" width="359" height="255" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1.5" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_53-2" x="270.5" y="315.5" width="359" height="255" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1.5" result="blur-2"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-Card--responsive">
+      <rect width="900" height="757"/>
+    </clipPath>
+  </defs>
+  <g id="Card--responsive" clip-path="url(#clip-Card--responsive)">
+    <rect width="900" height="757" fill="#f4f4f6"/>
+    <path id="Path_10310" data-name="Path 10310" d="M0,0H360V800H0Z" transform="translate(270 53)" fill="#f9f9fa"/>
+    <g id="sysbar_dark" data-name="sysbar dark" transform="translate(270 29)">
+      <rect id="rectangle" width="360" height="24" fill="#78788c"/>
+      <rect id="sysbar" width="118" height="24" transform="translate(242)" fill="none"/>
+      <text id="sysbar_time" data-name="sysbar time" transform="translate(317 17)" fill="#fff" font-size="14" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="0" y="0">12:30</tspan></text>
+      <g id="sysbar_battery" data-name="sysbar battery" transform="translate(-42 -378)">
+        <rect id="rectangle-2" data-name="rectangle" width="8.615" height="3.231" transform="translate(342 393.769)" fill="rgba(255,255,255,0.9)"/>
+        <rect id="rectangle-3" data-name="rectangle" width="8.615" height="3.231" transform="translate(342 390.538)" fill="rgba(255,255,255,0.9)"/>
+        <rect id="rectangle-4" data-name="rectangle" width="8.615" height="3.231" transform="translate(342 387.308)" fill="rgba(255,255,255,0.3)"/>
+        <rect id="rectangle-5" data-name="rectangle" width="8.615" height="3.231" transform="translate(342 384.077)" fill="rgba(255,255,255,0.3)"/>
+        <rect id="rectangle-6" data-name="rectangle" width="4.308" height="1.077" transform="translate(344.154 383)" fill="rgba(255,255,255,0.3)"/>
+      </g>
+      <path id="sysbar_status_2" data-name="sysbar status 2" d="M19.8,14h14V0Z" transform="translate(257.7 5)" fill="#fff" opacity="0.9"/>
+      <path id="sysbar_wifi" data-name="sysbar wifi" d="M8.8,14,17.6,3.1A14.04,14.04,0,0,0,0,3.1L8.8,14Z" transform="translate(257.5 5)" fill="#fff" opacity="0.9"/>
+    </g>
+    <rect id="Rectangle_8125" data-name="Rectangle 8125" width="350" height="10" transform="translate(275 309)" fill="#e0f1f1"/>
+    <rect id="Rectangle_9958" data-name="Rectangle 9958" width="350" height="10" transform="translate(275 565)" fill="#e0f1f1"/>
+    <rect id="Rectangle_8127" data-name="Rectangle 8127" width="350" height="10" transform="translate(275 53)" fill="#e0f1f1"/>
+    <g id="Group_264190" data-name="Group 264190" transform="translate(135)">
+      <g transform="matrix(1, 0, 0, 1, -135, 0)" filter="url(#Rectangle_53)">
+        <rect id="Rectangle_53-3" data-name="Rectangle 53" width="350" height="246" rx="2" transform="translate(275 63)" fill="#fff"/>
+      </g>
+    </g>
+    <g id="Group_264191" data-name="Group 264191" transform="translate(135 256)">
+      <g transform="matrix(1, 0, 0, 1, -135, -256)" filter="url(#Rectangle_53-2)">
+        <rect id="Rectangle_53-4" data-name="Rectangle 53" width="350" height="246" rx="2" transform="translate(275 319)" fill="#fff"/>
+      </g>
+    </g>
+    <rect id="Rectangle_8122" data-name="Rectangle 8122" width="803" height="5" transform="translate(275 53) rotate(90)" fill="#e0f1f1"/>
+    <rect id="Rectangle_8123" data-name="Rectangle 8123" width="803" height="5" transform="translate(630 53) rotate(90)" fill="#e0f1f1"/>
+    <rect id="rectangle-7" data-name="rectangle" width="360" height="5" transform="translate(270 727)" fill="#78788c"/>
+    <rect id="Rectangle_9959" data-name="Rectangle 9959" width="461" height="25" transform="translate(220 732)" fill="#f4f4f6"/>
+  </g>
+</svg>

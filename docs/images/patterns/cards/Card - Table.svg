@@ -1,0 +1,115 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="900" height="506" viewBox="0 0 900 506">
+  <defs>
+    <filter id="Card" x="35.5" y="16.5" width="829" height="344" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1.5" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-path">
+      <rect width="119" height="160" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <rect width="85" height="160" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-4">
+      <rect width="73.934" height="36" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-Card_-_Table">
+      <rect width="900" height="506"/>
+    </clipPath>
+  </defs>
+  <g id="Card_-_Table" data-name="Card - Table" clip-path="url(#clip-Card_-_Table)">
+    <rect width="900" height="506" fill="#f9f9fa"/>
+    <g id="Group_13374" data-name="Group 13374" transform="translate(-1 -16)">
+      <g transform="matrix(1, 0, 0, 1, 1, 16)" filter="url(#Card)">
+        <rect id="Card-2" data-name="Card" width="820" height="335" rx="2" transform="translate(40 20)" fill="#fff"/>
+      </g>
+      <path id="Path_8855" data-name="Path 8855" d="M10.713-12.031H6.689V0H4.365V-12.031H.352V-14H10.713ZM18.252,0h-2.2V-1.562h-.039a3.308,3.308,0,0,1-3.037,1.8,3.2,3.2,0,0,1-2.31-.8,2.8,2.8,0,0,1-.835-2.119q0-2.832,3.262-3.3l2.969-.42q0-2.139-2.031-2.139a4.825,4.825,0,0,0-3.223,1.23V-9.3a7.028,7.028,0,0,1,3.652-.937q3.789,0,3.789,3.73ZM16.064-4.912l-2.1.293a3.328,3.328,0,0,0-1.47.474A1.384,1.384,0,0,0,12-2.93a1.331,1.331,0,0,0,.454,1.04,1.758,1.758,0,0,0,1.216.405,2.243,2.243,0,0,0,1.714-.728,2.58,2.58,0,0,0,.679-1.831ZM23.32-1.445h-.039V0H21.016V-14.8h2.266v6.563h.039a3.713,3.713,0,0,1,3.4-1.992,3.578,3.578,0,0,1,2.964,1.343,5.614,5.614,0,0,1,1.069,3.6,6.267,6.267,0,0,1-1.2,4.019A3.968,3.968,0,0,1,26.27.234,3.221,3.221,0,0,1,23.32-1.445ZM23.262-5.42v1.24a2.646,2.646,0,0,0,.7,1.855,2.3,2.3,0,0,0,1.772.762,2.315,2.315,0,0,0,1.978-.981,4.567,4.567,0,0,0,.718-2.739,3.6,3.6,0,0,0-.669-2.31,2.2,2.2,0,0,0-1.812-.835A2.441,2.441,0,0,0,24-7.568,3.183,3.183,0,0,0,23.262-5.42ZM35.342,0H33.066V-14.8h2.275ZM46.758-4.385H39.941A2.881,2.881,0,0,0,40.8-2.246a3.179,3.179,0,0,0,2.241.752,4.942,4.942,0,0,0,2.939-.957V-.625a6.716,6.716,0,0,1-3.613.859A4.473,4.473,0,0,1,38.9-1.128a5.449,5.449,0,0,1-1.255-3.833,5.328,5.328,0,0,1,1.382-3.8,4.52,4.52,0,0,1,3.433-1.47,3.941,3.941,0,0,1,3.174,1.318,5.474,5.474,0,0,1,1.123,3.662Zm-2.187-1.6a2.919,2.919,0,0,0-.576-1.9,1.925,1.925,0,0,0-1.562-.679,2.2,2.2,0,0,0-1.655.713,3.257,3.257,0,0,0-.835,1.865ZM65.918,0H63.584V-6.074H56.992V0H54.668V-14h2.324v5.889h6.592V-14h2.334Zm11.67-4.385H70.771a2.881,2.881,0,0,0,.854,2.139,3.179,3.179,0,0,0,2.241.752,4.942,4.942,0,0,0,2.939-.957V-.625a6.716,6.716,0,0,1-3.613.859,4.473,4.473,0,0,1-3.462-1.362,5.449,5.449,0,0,1-1.255-3.833,5.328,5.328,0,0,1,1.382-3.8,4.52,4.52,0,0,1,3.433-1.47,3.941,3.941,0,0,1,3.174,1.318,5.474,5.474,0,0,1,1.123,3.662ZM75.4-5.986a2.919,2.919,0,0,0-.576-1.9,1.925,1.925,0,0,0-1.562-.679,2.2,2.2,0,0,0-1.655.713,3.257,3.257,0,0,0-.835,1.865ZM87.422,0h-2.2V-1.562h-.039a3.308,3.308,0,0,1-3.037,1.8,3.2,3.2,0,0,1-2.31-.8A2.8,2.8,0,0,1,79-2.686q0-2.832,3.262-3.3l2.969-.42q0-2.139-2.031-2.139a4.825,4.825,0,0,0-3.223,1.23V-9.3a7.028,7.028,0,0,1,3.652-.937q3.789,0,3.789,3.73ZM85.234-4.912l-2.1.293a3.328,3.328,0,0,0-1.47.474,1.384,1.384,0,0,0-.493,1.216,1.331,1.331,0,0,0,.454,1.04,1.758,1.758,0,0,0,1.216.405,2.243,2.243,0,0,0,1.714-.728,2.58,2.58,0,0,0,.679-1.831ZM99.277,0H97.012V-1.7h-.039A3.614,3.614,0,0,1,93.6.234a3.637,3.637,0,0,1-2.954-1.343,5.574,5.574,0,0,1-1.108-3.657A6.073,6.073,0,0,1,90.767-8.74a4.011,4.011,0,0,1,3.267-1.494,3.128,3.128,0,0,1,2.939,1.621h.039V-14.8h2.266ZM97.041-4.57V-5.879a2.55,2.55,0,0,0-.693-1.807,2.313,2.313,0,0,0-1.768-.742,2.38,2.38,0,0,0-2,.947,4.221,4.221,0,0,0-.728,2.627,3.782,3.782,0,0,0,.7,2.407,2.271,2.271,0,0,0,1.88.884,2.351,2.351,0,0,0,1.885-.854A3.219,3.219,0,0,0,97.041-4.57ZM104.512,0h-2.275V-14.8h2.275ZM108.6-12.1a1.362,1.362,0,0,1-.952-.361,1.189,1.189,0,0,1-.4-.918,1.219,1.219,0,0,1,.4-.928,1.342,1.342,0,0,1,.952-.371,1.384,1.384,0,0,1,.977.371,1.212,1.212,0,0,1,.4.928,1.2,1.2,0,0,1-.4.9A1.374,1.374,0,0,1,108.6-12.1ZM109.727,0h-2.266V-10h2.266Zm11.865,0h-2.266V-5.635q0-2.8-1.982-2.8a2.164,2.164,0,0,0-1.709.776,2.88,2.88,0,0,0-.674,1.958V0h-2.275V-10h2.275v1.66H115a3.564,3.564,0,0,1,3.242-1.895,3.02,3.02,0,0,1,2.49,1.06,4.758,4.758,0,0,1,.859,3.062Zm11.23-4.385h-6.816a2.881,2.881,0,0,0,.854,2.139,3.179,3.179,0,0,0,2.241.752,4.942,4.942,0,0,0,2.939-.957V-.625a6.716,6.716,0,0,1-3.613.859,4.473,4.473,0,0,1-3.462-1.362,5.449,5.449,0,0,1-1.255-3.833,5.328,5.328,0,0,1,1.382-3.8,4.52,4.52,0,0,1,3.433-1.47A3.941,3.941,0,0,1,131.7-8.916a5.474,5.474,0,0,1,1.123,3.662Zm-2.187-1.6a2.919,2.919,0,0,0-.576-1.9,1.925,1.925,0,0,0-1.562-.679,2.2,2.2,0,0,0-1.655.713,3.257,3.257,0,0,0-.835,1.865Z" transform="translate(70.648 88.805)" fill="#31313a"/>
+      <text id="Content_area" data-name="Content area" transform="translate(412 214)" fill="#fff" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Content area</tspan></text>
+      <path id="Rectangle_3802" data-name="Rectangle 3802" d="M2,0H818a2,2,0,0,1,2,2V56a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V2A2,2,0,0,1,2,0Z" transform="translate(41 118)" fill="#f9f9fa"/>
+      <text id="Account_name" data-name="Account name" transform="translate(71 152)" fill="#3d3d3d" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Account name</tspan></text>
+      <text id="Scientific_Name" data-name="Scientific Name" transform="translate(337 152)" fill="#31313a" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Scientific Name</tspan></text>
+      <rect id="Rectangle_3807" data-name="Rectangle 3807" width="1" height="196" transform="translate(298 175)" fill="#cbcbd2"/>
+      <rect id="Rectangle_3808" data-name="Rectangle 3808" width="1" height="196" transform="translate(681 175)" fill="#cbcbd2"/>
+      <rect id="Rectangle_3803" data-name="Rectangle 3803" width="820" height="1" transform="translate(41 174)" fill="#cbcbd2"/>
+      <rect id="Rectangle_3803-2" data-name="Rectangle 3803" width="820" height="1" transform="translate(41 223)" fill="#cbcbd2"/>
+      <rect id="Rectangle_3803-3" data-name="Rectangle 3803" width="820" height="1" transform="translate(41 272)" fill="#cbcbd2"/>
+      <rect id="Rectangle_3803-4" data-name="Rectangle 3803" width="820" height="1" transform="translate(41 321)" fill="#cbcbd2"/>
+      <text id="Habitat" transform="translate(722 154)" fill="#31313a" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Habitat</tspan></text>
+      <g id="Repeat_Grid_1" data-name="Repeat Grid 1" transform="translate(71 189)" clip-path="url(#clip-path)">
+        <g transform="translate(-207 -134)">
+          <text id="Baboon" transform="translate(207 149)" fill="#31313a" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Baboon</tspan></text>
+        </g>
+        <g transform="translate(-207 -86)">
+          <text id="Crab" transform="translate(207 149)" fill="#31313a" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Crab</tspan></text>
+        </g>
+        <g transform="translate(-207 -38)">
+          <text id="Great_White_Shark" data-name="Great White Shark" transform="translate(207 149)" fill="#31313a" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Great White Shark</tspan></text>
+        </g>
+        <g transform="translate(-207 10)">
+          <text id="Skunk" transform="translate(207 149)" fill="#31313a" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Skunk</tspan></text>
+        </g>
+      </g>
+      <g id="Repeat_Grid_3" data-name="Repeat Grid 3" transform="translate(337 189)" clip-path="url(#clip-path-2)">
+        <g transform="translate(-207 -134)">
+          <text id="Papio" transform="translate(207 149)" fill="#31313a" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Papio</tspan></text>
+        </g>
+        <g transform="translate(-207 -86)">
+          <text id="Brachyura" transform="translate(207 149)" fill="#31313a" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Brachyura</tspan></text>
+        </g>
+        <g transform="translate(-207 -38)">
+          <text id="Carcharodon" transform="translate(207 149)" fill="#31313a" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Carcharodon</tspan></text>
+        </g>
+        <g transform="translate(-207 10)">
+          <text id="Mephitis" transform="translate(207 149)" fill="#31313a" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Mephitis</tspan></text>
+        </g>
+      </g>
+      <g id="Repeat_Grid_4" data-name="Repeat Grid 4" transform="translate(722 189)" clip-path="url(#clip-path-2)">
+        <g transform="translate(-207 -134)">
+          <text id="Grassland" transform="translate(207 149)" fill="#31313a" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Grassland</tspan></text>
+        </g>
+        <g transform="translate(-207 -86)">
+          <text id="Coastline" transform="translate(207 149)" fill="#31313a" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Coastline</tspan></text>
+        </g>
+        <g transform="translate(-207 -38)">
+          <text id="Coastal_Water" data-name="Coastal Water" transform="translate(207 149)" fill="#31313a" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Coastal Water</tspan></text>
+        </g>
+        <g transform="translate(-207 10)">
+          <text id="Woodland" transform="translate(207 149)" fill="#31313a" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Woodland</tspan></text>
+        </g>
+      </g>
+      <g id="Sort" transform="translate(309.215 137.965)">
+        <g id="Group_13118" data-name="Group 13118" transform="translate(0 0)">
+          <rect id="Rectangle_6828" data-name="Rectangle 6828" width="16.331" height="16.331" transform="translate(0 0.024)" fill="none"/>
+          <g id="Group_13117" data-name="Group 13117" transform="translate(3.038)">
+            <path id="Path_8841" data-name="Path 8841" d="M5.782,6.521a.272.272,0,0,0,.408,0l3.4-3.4,3.4,3.4a.272.272,0,0,0,.408,0L14.628,5.3a.272.272,0,0,0,0-.408L9.8.057a.272.272,0,0,0-.408,0l-4.831,4.9a.272.272,0,0,0,0,.408Z" transform="translate(-4.465 0.035)" fill="#24252c"/>
+            <path id="Path_8842" data-name="Path 8842" d="M13.4,14.357a.272.272,0,0,0-.408,0l-3.4,3.4-3.4-3.4a.272.272,0,0,0-.408,0L4.557,15.582a.272.272,0,0,0,0,.408l4.831,4.831a.272.272,0,0,0,.408,0l4.831-4.831a.272.272,0,0,0,0-.408Z" transform="translate(-4.465 -4.534)" fill="#24252c"/>
+          </g>
+        </g>
+      </g>
+      <g id="filter" transform="translate(692.086 141)">
+        <g id="filter-2" data-name="filter" transform="translate(0 0)">
+          <rect id="Rectangle_6829" data-name="Rectangle 6829" width="16" height="16" transform="translate(-0.086)" fill="none"/>
+          <path id="Path_8843" data-name="Path 8843" d="M13.234,4.365,10.171,8.3l-.287.37v4.262l-1.365.455V8.674L8.231,8.3,5.166,4.365h8.068M14.631,3H3.77a.682.682,0,0,0-.537,1.1L7.153,9.142v5.669a.341.341,0,0,0,.449.323l3.179-1.06a.682.682,0,0,0,.467-.648V9.142L15.168,4.1A.682.682,0,0,0,14.631,3Z" transform="translate(-0.981 -0.953)" fill="#31313a"/>
+        </g>
+      </g>
+      <g id="Search_Input" data-name="Search Input" transform="translate(224 60)">
+        <g id="Rectangle_298" data-name="Rectangle 298" fill="#fff" stroke="#cbcbd2" stroke-width="1">
+          <rect width="243" height="42" rx="4" stroke="none"/>
+          <rect x="0.5" y="0.5" width="242" height="41" rx="3.5" fill="none"/>
+        </g>
+        <text id="Filter_account_name" data-name="Filter account name" transform="translate(45 27)" fill="#cbcbd2" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Filter account name</tspan></text>
+        <path id="Path_458" data-name="Path 458" d="M303.8,258.3l-5-5a6.354,6.354,0,0,0,1.1-4.9,6.471,6.471,0,0,0-5.6-5.3,6.53,6.53,0,0,0-2,12.9,6.914,6.914,0,0,0,4.9-1.1l5,5a1.088,1.088,0,0,0,1.5,0A1.222,1.222,0,0,0,303.8,258.3Zm-14.7-9.5a4.458,4.458,0,0,1,3.7-3.7,4.57,4.57,0,0,1,5.2,5.2,4.458,4.458,0,0,1-3.7,3.7A4.609,4.609,0,0,1,289.1,248.8Z" transform="translate(-274 -231.052)" fill="#4e92df"/>
+      </g>
+      <g id="Secondary_Button_-_Normal" data-name="Secondary Button - Normal" transform="translate(757 64)" clip-path="url(#clip-path-4)">
+        <g id="Rectangle_3991" data-name="Rectangle 3991" fill="none" stroke="#cbcbd2" stroke-width="1">
+          <rect width="73.934" height="36" rx="18" stroke="none"/>
+          <rect x="0.5" y="0.5" width="72.934" height="35" rx="17.5" fill="none"/>
+        </g>
+        <text id="Action" transform="translate(37 23)" fill="#2777d3" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="-20.614" y="0">Action</tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>

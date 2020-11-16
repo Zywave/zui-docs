@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="360" height="506" viewBox="0 0 360 506">
+  <defs>
+    <filter id="Card" x="0.5" y="11.5" width="359" height="309" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1.5" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Card-2" x="0.5" y="326.5" width="359" height="309" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1.5" result="blur-2"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-Cards--responsive">
+      <rect width="360" height="506"/>
+    </clipPath>
+  </defs>
+  <g id="Cards--responsive" clip-path="url(#clip-Cards--responsive)">
+    <rect width="360" height="506" fill="#f4f4f6"/>
+    <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Card)">
+      <rect id="Card-3" data-name="Card" width="350" height="300" rx="2" transform="translate(5 15)" fill="#fff"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Card-2)">
+      <rect id="Card-4" data-name="Card" width="350" height="300" rx="2" transform="translate(5 330)" fill="#fff"/>
+    </g>
+    <rect id="Rectangle_9891" data-name="Rectangle 9891" width="486" height="5" transform="translate(5 20) rotate(90)" fill="none" opacity="0.24"/>
+    <rect id="Rectangle_9897" data-name="Rectangle 9897" width="486" height="5" transform="translate(360 20) rotate(90)" fill="none" opacity="0.24"/>
+    <rect id="Rectangle_9895" data-name="Rectangle 9895" width="360" height="15" fill="none" opacity="0.24"/>
+    <rect id="Rectangle_9896" data-name="Rectangle 9896" width="350" height="15" transform="translate(5 315)" fill="none" opacity="0.24"/>
+  </g>
+</svg>

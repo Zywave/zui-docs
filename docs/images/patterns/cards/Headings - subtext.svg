@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="900" height="500" viewBox="0 0 900 500">
+  <defs>
+    <filter id="Card" x="263.5" y="16.5" width="409" height="423" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1.5" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-Headings_-_subtext">
+      <rect width="900" height="500"/>
+    </clipPath>
+  </defs>
+  <g id="Headings_-_subtext" data-name="Headings - subtext" clip-path="url(#clip-Headings_-_subtext)">
+    <rect width="900" height="500" fill="#f4f4f6"/>
+    <g id="Group_13372" data-name="Group 13372" transform="translate(-3986 -3361)">
+      <rect id="Rectangle_9871" data-name="Rectangle 9871" width="414" height="30" transform="translate(4654 3381) rotate(90)" fill="#f9a0a0" opacity="0.24"/>
+      <g transform="matrix(1, 0, 0, 1, 3986, 3361)" filter="url(#Card)">
+        <rect id="Card-2" data-name="Card" width="400" height="414" rx="2" transform="translate(268 20)" fill="#fff"/>
+      </g>
+      <rect id="Rectangle_9866" data-name="Rectangle 9866" width="400" height="20" transform="translate(4254 3475)" fill="#f9a0a0" opacity="0.24"/>
+      <rect id="Rectangle_9867" data-name="Rectangle 9867" width="400" height="20" transform="translate(4254 3709)" fill="#f9a0a0" opacity="0.24"/>
+      <rect id="Rectangle_9868" data-name="Rectangle 9868" width="400" height="30" transform="translate(4254 3381)" fill="#f9a0a0" opacity="0.24"/>
+      <rect id="Rectangle_9869" data-name="Rectangle 9869" width="400" height="30" transform="translate(4254 3765)" fill="#f9a0a0" opacity="0.24"/>
+      <rect id="Rectangle_9870" data-name="Rectangle 9870" width="414" height="30" transform="translate(4284 3381) rotate(90)" fill="#f9a0a0" opacity="0.24"/>
+      <rect id="Rectangle_9875" data-name="Rectangle 9875" width="414" height="30" transform="translate(4654 3381) rotate(90)" fill="#f9a0a0" opacity="0.24"/>
+      <rect id="Rectangle_9872" data-name="Rectangle 9872" width="400" height="10" transform="translate(4254 3443)" fill="#f9a0a0" opacity="0.24"/>
+      <rect id="Rectangle_9873" data-name="Rectangle 9873" width="127" height="14" rx="7" transform="translate(4284 3420)" fill="#afafbb"/>
+      <rect id="Rectangle_9874" data-name="Rectangle 9874" width="284" height="14" rx="7" transform="translate(4284 3457)" fill="#afafbb"/>
+    </g>
+  </g>
+</svg>

@@ -17,11 +17,11 @@
       <feComposite operator="in" in2="blur-2"/>
       <feComposite in="SourceGraphic"/>
     </filter>
-    <clipPath id="clip-mediacards-max_min">
+    <clipPath id="clip-mediacard--maxmin">
       <rect width="900" height="473"/>
     </clipPath>
   </defs>
-  <g id="mediacards-max_min" data-name="mediacards-max&amp;min" clip-path="url(#clip-mediacards-max_min)">
+  <g id="mediacard--maxmin" clip-path="url(#clip-mediacard--maxmin)">
     <rect width="900" height="473" fill="#f4f4f6"/>
     <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Card)">
       <path id="Card-3" data-name="Card" d="M2,0H815a2,2,0,0,1,2,2V183a2,2,0,0,1-2,2H2a2,2,0,0,1-2-2V2A2,2,0,0,1,2,0Z" transform="translate(42 20)" fill="#fff"/>

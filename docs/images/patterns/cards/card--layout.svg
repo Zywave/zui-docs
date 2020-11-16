@@ -48,35 +48,30 @@
   </defs>
   <g id="card--layout" clip-path="url(#clip-card--layout)">
     <rect width="900" height="506" fill="#f4f4f6"/>
-    <g id="Group_264162" data-name="Group 264162" transform="translate(-22)">
-      <g id="Group_264160" data-name="Group 264160" transform="translate(-195 16)">
-        <g transform="matrix(1, 0, 0, 1, 217, -16)" filter="url(#Card)">
-          <rect id="Card-7" data-name="Card" width="400" height="414" rx="2" transform="translate(-172 62)" fill="#fff"/>
-        </g>
-        <g transform="matrix(1, 0, 0, 1, 217, -16)" filter="url(#Card-2)">
-          <rect id="Card-8" data-name="Card" width="400" height="414" rx="2" transform="translate(-172 -384)" fill="#fff"/>
-        </g>
-        <g transform="matrix(1, 0, 0, 1, 217, -16)" filter="url(#Card-3)">
-          <rect id="Card-9" data-name="Card" width="400" height="414" rx="2" transform="translate(258 62)" fill="#fff"/>
-        </g>
-        <g transform="matrix(1, 0, 0, 1, 217, -16)" filter="url(#Card-4)">
-          <rect id="Card-10" data-name="Card" width="400" height="414" rx="2" transform="translate(258 -384)" fill="#fff"/>
-        </g>
-        <g transform="matrix(1, 0, 0, 1, 217, -16)" filter="url(#Card-5)">
-          <rect id="Card-11" data-name="Card" width="400" height="414" rx="2" transform="translate(688 62)" fill="#fff"/>
-        </g>
-        <g transform="matrix(1, 0, 0, 1, 217, -16)" filter="url(#Card-6)">
-          <rect id="Card-12" data-name="Card" width="400" height="414" rx="2" transform="translate(688 -384)" fill="#fff"/>
-        </g>
-        <rect id="Rectangle_9891" data-name="Rectangle 9891" width="414" height="15" transform="translate(45 46) rotate(90)" fill="#9ee6e1" opacity="0.24"/>
-        <rect id="Rectangle_9892" data-name="Rectangle 9892" width="476" height="15" transform="translate(475 -16) rotate(90)" fill="#9ee6e1" opacity="0.24"/>
-        <rect id="Rectangle_9894" data-name="Rectangle 9894" width="476" height="15" transform="translate(890 -16) rotate(90)" fill="#9ee6e1" opacity="0.24"/>
-        <rect id="Rectangle_9898" data-name="Rectangle 9898" width="476" height="15" transform="translate(905 -16) rotate(90)" fill="#9ee6e1" opacity="0.24"/>
-        <rect id="Rectangle_9893" data-name="Rectangle 9893" width="476" height="15" transform="translate(460 -16) rotate(90)" fill="#9ee6e1" opacity="0.24"/>
-        <rect id="Rectangle_9895" data-name="Rectangle 9895" width="1275" height="30" transform="translate(30 15)" fill="#9ee6e1" opacity="0.24"/>
-        <rect id="Rectangle_9896" data-name="Rectangle 9896" width="1269" height="30" transform="translate(30 460)" fill="#9ee6e1" opacity="0.24"/>
-      </g>
+    <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Card)">
+      <rect id="Card-7" data-name="Card" width="400" height="414" rx="2" transform="translate(-172 62)" fill="#fff"/>
     </g>
+    <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Card-2)">
+      <rect id="Card-8" data-name="Card" width="400" height="414" rx="2" transform="translate(-172 -384)" fill="#fff"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Card-3)">
+      <rect id="Card-9" data-name="Card" width="400" height="414" rx="2" transform="translate(258 62)" fill="#fff"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Card-4)">
+      <rect id="Card-10" data-name="Card" width="400" height="414" rx="2" transform="translate(258 -384)" fill="#fff"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Card-5)">
+      <rect id="Card-11" data-name="Card" width="400" height="414" rx="2" transform="translate(688 62)" fill="#fff"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Card-6)">
+      <rect id="Card-12" data-name="Card" width="400" height="414" rx="2" transform="translate(688 -384)" fill="#fff"/>
+    </g>
+    <rect id="Rectangle_9892" data-name="Rectangle 9892" width="476" height="15" transform="translate(258) rotate(90)" fill="none" opacity="0.24"/>
+    <rect id="Rectangle_9894" data-name="Rectangle 9894" width="476" height="15" transform="translate(673) rotate(90)" fill="none" opacity="0.24"/>
+    <rect id="Rectangle_9898" data-name="Rectangle 9898" width="476" height="15" transform="translate(688) rotate(90)" fill="none" opacity="0.24"/>
+    <rect id="Rectangle_9893" data-name="Rectangle 9893" width="476" height="15" transform="translate(243) rotate(90)" fill="none" opacity="0.24"/>
+    <rect id="Rectangle_9895" data-name="Rectangle 9895" width="1275" height="30" transform="translate(-187 31)" fill="none" opacity="0.24"/>
+    <rect id="Rectangle_9896" data-name="Rectangle 9896" width="1269" height="30" transform="translate(-187 476)" fill="none" opacity="0.24"/>
     <line id="Line_119" data-name="Line 119" x2="880" transform="translate(0.5 61.5)" fill="none" stroke="#c6318c" stroke-width="1" stroke-dasharray="4 3"/>
     <line id="Line_122" data-name="Line 122" x2="880" transform="translate(0.5 30.5)" fill="none" stroke="#c6318c" stroke-width="1" stroke-dasharray="4 3"/>
     <line id="Line_120" data-name="Line 120" y1="475" transform="translate(228.5 13.5)" fill="none" stroke="#c6318c" stroke-width="1" stroke-dasharray="4 3"/>
