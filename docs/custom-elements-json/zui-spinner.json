@@ -101,6 +101,12 @@
         {
           "name": "PROPERTY_EFFECT_TYPES"
         }
+      ],
+      "slots": [
+        {
+          "name": "loading-text",
+          "description": "Slot for optional text to accompany the spinner"
+        }
       ]
     }
   ]

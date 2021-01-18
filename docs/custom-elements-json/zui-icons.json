@@ -35,6 +35,11 @@
           "default": "false"
         }
       ],
+      "events": [
+        {
+          "name": "load"
+        }
+      ],
       "cssProperties": [
         {
           "name": "--zui-icon-size",

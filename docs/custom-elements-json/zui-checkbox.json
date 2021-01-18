@@ -15,6 +15,11 @@
           "name": "value",
           "type": "string",
           "default": "\"on\""
+        },
+        {
+          "name": "indeterminate",
+          "type": "boolean",
+          "default": "false"
         }
       ],
       "properties": [
@@ -30,6 +35,12 @@
           "attribute": "value",
           "type": "string",
           "default": "\"on\""
+        },
+        {
+          "name": "indeterminate",
+          "attribute": "indeterminate",
+          "type": "boolean",
+          "default": "false"
         },
         {
           "name": "form",

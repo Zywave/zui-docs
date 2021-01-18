@@ -27,7 +27,7 @@
           "name": "collapse-label",
           "description": "By default in standard aka peekaboo expanders, the opened state text says 'See less', assign a new value if necessary",
           "type": "string",
-          "default": "\"See Less\""
+          "default": "\"See less\""
         },
         {
           "name": "multiselect",
@@ -62,7 +62,7 @@
           "attribute": "collapse-label",
           "description": "By default in standard aka peekaboo expanders, the opened state text says 'See less', assign a new value if necessary",
           "type": "string",
-          "default": "\"See Less\""
+          "default": "\"See less\""
         }
       ],
       "events": [

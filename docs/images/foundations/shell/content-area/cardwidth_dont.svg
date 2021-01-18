@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1000" height="534" viewBox="0 0 1000 534">
+  <defs>
+    <filter id="Card" x="215.5" y="96.5" width="569" height="343" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1.5" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-cardwidth_dont">
+      <rect width="1000" height="534"/>
+    </clipPath>
+  </defs>
+  <g id="cardwidth_dont" clip-path="url(#clip-cardwidth_dont)">
+    <rect width="1000" height="534" fill="#f4f4f6"/>
+    <g id="Group_15341" data-name="Group 15341" transform="translate(5330 -2027)">
+      <g id="Card-2" data-name="Card" transform="translate(-5110 2127)">
+        <g transform="matrix(1, 0, 0, 1, -220, -100)" filter="url(#Card)">
+          <rect id="Card-3" data-name="Card" width="560" height="334" rx="2" transform="translate(220 100)" fill="#fff"/>
+        </g>
+      </g>
+      <text id="Form_entry" data-name="Form entry" transform="translate(-5080 2179)" fill="#31313a" font-size="20" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Form entry</tspan></text>
+      <g id="Component_2" data-name="Component 2" transform="translate(-5080 2199)">
+        <g id="Secondary_Button_-_Normal" data-name="Secondary Button - Normal" transform="translate(166.698 196)">
+          <rect id="Rectangle_3991" data-name="Rectangle 3991" width="72" height="36" rx="18" fill="none"/>
+          <text id="Cancel" transform="translate(15 23)" fill="#2777d3" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Cancel</tspan></text>
+        </g>
+        <g id="Primary_Button" data-name="Primary Button" transform="translate(98 196)">
+          <rect id="Rectangle_3990" data-name="Rectangle 3990" width="59" height="36" rx="18" fill="#2777d3"/>
+          <text id="Save" transform="translate(15 23)" fill="#fff" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Save</tspan></text>
+        </g>
+        <g id="Input_-_top_label" data-name="Input - top label" transform="translate(5)">
+          <g id="Rectangle_288" data-name="Rectangle 288" transform="translate(92)" fill="#fff" stroke="#cbcbd2" stroke-width="1">
+            <rect width="403" height="42" rx="4" stroke="none"/>
+            <rect x="0.5" y="0.5" width="402" height="41" rx="3.5" fill="none"/>
+          </g>
+          <text id="Hint_text" data-name="Hint text" transform="translate(107 27)" fill="#cbcbd2" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Hint text</tspan></text>
+          <text id="Full_width" data-name="Full width" transform="translate(0 26)" fill="#31313a" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Full width</tspan></text>
+        </g>
+        <g id="Input_-_top_label-2" data-name="Input - top label" transform="translate(33 124)">
+          <g id="Rectangle_288-2" data-name="Rectangle 288" transform="translate(65)" fill="#fff" stroke="#cbcbd2" stroke-width="1">
+            <rect width="153" height="42" rx="4" stroke="none"/>
+            <rect x="0.5" y="0.5" width="152" height="41" rx="3.5" fill="none"/>
+          </g>
+          <text id="Hint_text-2" data-name="Hint text" transform="translate(80 27)" fill="#cbcbd2" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Hint text</tspan></text>
+          <text id="Small" transform="translate(0 24)" fill="#31313a" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Small</tspan></text>
+        </g>
+        <g id="Dropdown_input_-_top_label" data-name="Dropdown input - top label" transform="translate(0 62)">
+          <g id="Group_14579" data-name="Group 14579" transform="translate(97)">
+            <g id="Rectangle_288-3" data-name="Rectangle 288" fill="#fff" stroke="#cbcbd2" stroke-width="1">
+              <rect width="295" height="42" rx="4" stroke="none"/>
+              <rect x="0.5" y="0.5" width="294" height="41" rx="3.5" fill="none"/>
+            </g>
+            <text id="Hint_text-3" data-name="Hint text" transform="translate(15 27)" fill="#cbcbd2" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Hint text</tspan></text>
+            <g id="Group_7793" data-name="Group 7793" transform="translate(261 9)">
+              <rect id="Rectangle_3867" data-name="Rectangle 3867" width="24" height="24" fill="none"/>
+              <path id="Path_5558" data-name="Path 5558" d="M56,9.4l-3,3-3-3a.967.967,0,0,0-1.4,0h0a.967.967,0,0,0,0,1.4l3.7,3.7a.967.967,0,0,0,1.4,0l3.7-3.7a.967.967,0,0,0,0-1.4h0A.965.965,0,0,0,56,9.4Z" transform="translate(-40.8)" fill="#9494a4"/>
+            </g>
+          </g>
+          <text id="Dropdown" transform="translate(0 24)" fill="#31313a" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Dropdown</tspan></text>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

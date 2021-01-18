@@ -604,7 +604,7 @@
         },
         {
           "name": "notification-count",
-          "description": "This is the how many unread notifications the user/profile has. Get by calling Shared.Notifications Service.",
+          "description": "This is the how many unread notifications the user/profile has",
           "type": "number",
           "default": "0"
         },
@@ -813,7 +813,7 @@
         {
           "name": "notificationCount",
           "attribute": "notification-count",
-          "description": "This is the how many unread notifications the user/profile has. Get by calling Shared.Notifications Service.",
+          "description": "This is the how many unread notifications the user/profile has",
           "type": "number",
           "default": "0"
         },

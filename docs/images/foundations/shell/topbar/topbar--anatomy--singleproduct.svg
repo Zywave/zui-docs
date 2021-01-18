@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1024" height="200" viewBox="0 0 1024 200">
+  <defs>
+    <clipPath id="clip-topbar--anatomy--singleproduct">
+      <rect width="1024" height="200"/>
+    </clipPath>
+  </defs>
+  <g id="topbar--anatomy--singleproduct" clip-path="url(#clip-topbar--anatomy--singleproduct)">
+    <rect width="1024" height="200" fill="#f9f9fa"/>
+    <g id="Group_13269" data-name="Group 13269" transform="translate(0 1)">
+      <path id="Path_5690" data-name="Path 5690" d="M0,33H1024V0H0Z" transform="translate(0 60)" fill="#2777d3"/>
+    </g>
+    <g id="Group_7321" data-name="Group 7321" transform="translate(-4.976 54)">
+      <text id="ModMaster" transform="translate(24.975 30)" fill="#fff" font-size="14" font-family="OpenSans-Bold, Open Sans" font-weight="700"><tspan x="0" y="0">ModMaster</tspan></text>
+    </g>
+    <g id="Group_8103" data-name="Group 8103" transform="translate(-283 105)">
+      <circle id="Ellipse_1" data-name="Ellipse 1" cx="15" cy="15" r="15" transform="translate(474 13)" fill="#d454a3"/>
+      <text id="_2" data-name="2" transform="translate(484 33)" fill="#fff" font-size="16" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="0">2</tspan></text>
+    </g>
+    <g id="Group_8112" data-name="Group 8112" transform="translate(-429 121)">
+      <circle id="Ellipse_1-2" data-name="Ellipse 1" cx="15" cy="15" r="15" transform="translate(474 13)" fill="#d454a3"/>
+      <text id="_1" data-name="1" transform="translate(484 33)" fill="#fff" font-size="16" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="0">1</tspan></text>
+    </g>
+    <rect id="Rectangle_4064" data-name="Rectangle 4064" width="21" height="1" transform="translate(221 133)" fill="#d454a3"/>
+    <rect id="Rectangle_4065" data-name="Rectangle 4065" width="1" height="49" transform="translate(241 85)" fill="#d454a3"/>
+    <rect id="Rectangle_5276" data-name="Rectangle 5276" width="1" height="49" transform="translate(60 85)" fill="#d454a3"/>
+    <path id="Path_459" data-name="Path 459" d="M284.1,240h24.865v24H284.1Z" transform="translate(662.564 -221)" fill="none"/>
+    <g id="Group_13268" data-name="Group 13268">
+      <rect id="Rectangle_1" data-name="Rectangle 1" width="1024" height="60" fill="#fff"/>
+      <g id="Group_70" data-name="Group 70" transform="translate(-4.8)">
+        <g id="Rectangle_2" data-name="Rectangle 2" transform="translate(254.8 9)" fill="#fff" stroke="#dbdbdb" stroke-width="1">
+          <rect width="390" height="42" rx="2" stroke="none"/>
+          <rect x="0.5" y="0.5" width="389" height="41" rx="1.5" fill="none"/>
+        </g>
+        <text id="Search_Content" data-name="Search Content" transform="translate(268.8 36)" fill="#c6c6c6" font-size="14" font-family="OpenSans, Open Sans"><tspan x="0" y="0">Search Content</tspan></text>
+        <path id="Rectangle_3" data-name="Rectangle 3" d="M0,0H158a1,1,0,0,1,1,1V39a1,1,0,0,1-1,1H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" transform="translate(484.8 10)" fill="#fafafa"/>
+        <text id="in_content" data-name="in content" transform="translate(495.8 36)" fill="#5c5c5c" font-size="14" font-family="OpenSans, Open Sans"><tspan x="0" y="0">in content</tspan></text>
+        <rect id="Rectangle_4" data-name="Rectangle 4" width="1" height="40" transform="translate(483.8 10)" fill="#ebebeb"/>
+        <rect id="Rectangle_5" data-name="Rectangle 5" width="1" height="40" transform="translate(601.8 10)" fill="#ebebeb"/>
+        <path id="Path_3" data-name="Path 3" d="M303.8,258.3l-5-5a6.354,6.354,0,0,0,1.1-4.9,6.471,6.471,0,0,0-5.6-5.3,6.53,6.53,0,0,0-2,12.9,6.914,6.914,0,0,0,4.9-1.1l5,5a1.088,1.088,0,0,0,1.5,0A1.222,1.222,0,0,0,303.8,258.3Zm-14.7-9.5a4.458,4.458,0,0,1,3.7-3.7,4.57,4.57,0,0,1,5.2,5.2,4.458,4.458,0,0,1-3.7,3.7A4.609,4.609,0,0,1,289.1,248.8Z" transform="translate(327.8 -222.052)" fill="#4e92df"/>
+        <path id="Path_4" data-name="Path 4" d="M284.1,240h24v24h-24Z" transform="translate(327.8 -222)" fill="none"/>
+        <rect id="Rectangle_6" data-name="Rectangle 6" width="24" height="24" transform="translate(611.8 18)" fill="none"/>
+        <path id="Path_5" data-name="Path 5" d="M150.8,40.2l-4.1,4.1a.967.967,0,0,1-1.4,0l-4.1-4.1a.539.539,0,0,1,.4-.9h8.9A.537.537,0,0,1,150.8,40.2Z" transform="translate(437.8 -12.3)" fill="#5c5c5c"/>
+        <rect id="Rectangle_7" data-name="Rectangle 7" width="24" height="24" transform="translate(571.8 18)" fill="none"/>
+      </g>
+      <g id="Group_12278" data-name="Group 12278" transform="translate(-256)">
+        <rect id="Rectangle_5392" data-name="Rectangle 5392" width="208" height="60" transform="translate(1072)" fill="none"/>
+        <g id="Group_8927" data-name="Group 8927" transform="translate(255)">
+          <text id="Adam_Gilson" data-name="Adam Gilson" transform="translate(970 29)" fill="#494955" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="-81.033" y="0">Adam Gilson</tspan></text>
+        </g>
+        <circle id="Ellipse_402" data-name="Ellipse 402" cx="18" cy="18" r="18" transform="translate(1234 13)" fill="#78788c"/>
+        <text id="Willis_Insurance_-_Nashville" data-name="Willis Insurance - Nashville" transform="translate(1225 45)" fill="#494955" font-size="12" font-family="SegoeUI, Segoe UI"><tspan x="-141.047" y="0">Willis Insurance - Nashville</tspan></text>
+        <text id="AG" transform="translate(1243 36)" fill="#fff" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">AG</tspan></text>
+      </g>
+      <g id="Group_12989" data-name="Group 12989">
+        <rect id="Rectangle_6530" data-name="Rectangle 6530" width="198" height="60" fill="none"/>
+        <g id="Group_72" data-name="Group 72" transform="translate(57 20)">
+          <g id="Group_6" data-name="Group 6">
+            <path id="Path_467" data-name="Path 467" d="M440.678,0l-6.233,13.788L428.193,0H425.7l8.745,19.322L443.19,0Z" transform="translate(-345.294)" fill="#8b8d8e"/>
+            <path id="Path_468" data-name="Path 468" d="M343.6,19.322h2.512L337.39,0h-.963L327.7,19.322h2.512l1.908-4.269H341.7ZM333.14,12.787,336.9,4.5l3.759,8.292Z" transform="translate(-265.804)" fill="#8b8d8e"/>
+            <path id="Path_469" data-name="Path 469" d="M543.685,10.426h6.951V8.16h-6.951V2.267h7.555L552.45,0H541.4V19.322h9.859L552.468,17h-8.783Z" transform="translate(-439.14)" fill="#8b8d8e"/>
+            <path id="Path_470" data-name="Path 470" d="M186.078,0l-6.2,13.788L174.348,1.681l-5.5,12.107L162.864,0h-3.721L155.8,7.385l1.247,2.758,3.834-8.462,7.971,17.641,5.5-12.126,5.534,12.126L188.571,0Z" transform="translate(-126.372)" fill="#8b8d8e"/>
+            <path id="Path_471" data-name="Path 471" d="M4.193,17.018,15.262,0H1.851L.812,2.267H11.068L0,19.285H15.243l1.02-2.267Z" fill="#8b8d8e"/>
+          </g>
+          <path id="Path_472" data-name="Path 472" d="M103.468,0H98.5l5.591,12.409L98.5,24.8h4.968L109.1,12.409Z" transform="translate(-79.895)" fill="#5fb53b"/>
+        </g>
+        <g id="Group_12812" data-name="Group 12812" transform="translate(-1604)">
+          <g id="Icon_Link_-_Hover" data-name="Icon Link - Hover" transform="translate(1614 12)">
+            <rect id="Rectangle_5756" data-name="Rectangle 5756" width="36" height="36" rx="18" fill="none"/>
+          </g>
+          <path id="Path_8220" data-name="Path 8220" d="M172,94.5v3a.472.472,0,0,1-.5.5h-3a.472.472,0,0,1-.5-.5v-3a.472.472,0,0,1,.5-.5h3A.472.472,0,0,1,172,94.5Zm5.5-.5h-3a.472.472,0,0,0-.5.5v3a.472.472,0,0,0,.5.5h3a.472.472,0,0,0,.5-.5v-3A.472.472,0,0,0,177.5,94Zm-6,12h-3a.472.472,0,0,0-.5.5v3a.472.472,0,0,0,.5.5h3a.472.472,0,0,0,.5-.5v-3A.472.472,0,0,0,171.5,106Zm12-12h-3a.472.472,0,0,0-.5.5v3a.472.472,0,0,0,.5.5h3a.472.472,0,0,0,.5-.5v-3A.472.472,0,0,0,183.5,94Zm-12,6h-3a.472.472,0,0,0-.5.5v3a.472.472,0,0,0,.5.5h3a.472.472,0,0,0,.5-.5v-3A.472.472,0,0,0,171.5,100Zm6,0h-3a.472.472,0,0,0-.5.5v3a.472.472,0,0,0,.5.5h3a.472.472,0,0,0,.5-.5v-3A.472.472,0,0,0,177.5,100Zm0,6h-3a.472.472,0,0,0-.5.5v3a.472.472,0,0,0,.5.5h3a.472.472,0,0,0,.5-.5v-3A.472.472,0,0,0,177.5,106Zm6-6h-3a.472.472,0,0,0-.5.5v3a.472.472,0,0,0,.5.5h3a.472.472,0,0,0,.5-.5v-3A.472.472,0,0,0,183.5,100Zm0,6h-3a.472.472,0,0,0-.5.5v3a.472.472,0,0,0,.5.5h3a.472.472,0,0,0,.5-.5v-3A.472.472,0,0,0,183.5,106Z" transform="translate(1456 -72)" fill="#78788c"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

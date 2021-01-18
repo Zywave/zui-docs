@@ -31,18 +31,6 @@
           "default": "false"
         },
         {
-          "name": "no-animation",
-          "description": "DEPRECATED, will be removed in a future release; use \"animated\" instead",
-          "type": "boolean",
-          "default": "false"
-        },
-        {
-          "name": "static",
-          "description": "DEPRECATED, will be removed in a future release; use \"animated\" instead",
-          "type": "boolean",
-          "default": "false"
-        },
-        {
           "name": "animated",
           "description": "If set, the well will slide down",
           "type": "boolean",
@@ -80,20 +68,6 @@
           "name": "banner",
           "attribute": "banner",
           "description": "Whether or not you want your well to span the entire width of its parent container",
-          "type": "boolean",
-          "default": "false"
-        },
-        {
-          "name": "noAnimation",
-          "attribute": "no-animation",
-          "description": "DEPRECATED, will be removed in a future release; use \"animated\" instead",
-          "type": "boolean",
-          "default": "false"
-        },
-        {
-          "name": "static",
-          "attribute": "static",
-          "description": "DEPRECATED, will be removed in a future release; use \"animated\" instead",
           "type": "boolean",
           "default": "false"
         },

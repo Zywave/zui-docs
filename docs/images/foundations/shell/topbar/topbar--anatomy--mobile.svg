@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="480" height="200" viewBox="0 0 480 200">
+  <defs>
+    <clipPath id="clip-topbar--anatomy--mobile">
+      <rect width="480" height="200"/>
+    </clipPath>
+  </defs>
+  <g id="topbar--anatomy--mobile" clip-path="url(#clip-topbar--anatomy--mobile)">
+    <rect width="480" height="200" fill="#f9f9fa"/>
+    <g id="Group_8093" data-name="Group 8093">
+      <rect id="Rectangle_1" data-name="Rectangle 1" width="480" height="60" fill="#fff"/>
+      <g id="Group_72" data-name="Group 72" transform="translate(183 20)">
+        <g id="Group_6" data-name="Group 6">
+          <path id="Path_467" data-name="Path 467" d="M440.678,0l-6.233,13.788L428.193,0H425.7l8.745,19.322L443.19,0Z" transform="translate(-345.294)" fill="#8b8d8e"/>
+          <path id="Path_468" data-name="Path 468" d="M343.6,19.322h2.512L337.39,0h-.963L327.7,19.322h2.512l1.908-4.269H341.7ZM333.14,12.787,336.9,4.5l3.759,8.292Z" transform="translate(-265.804)" fill="#8b8d8e"/>
+          <path id="Path_469" data-name="Path 469" d="M543.685,10.426h6.951V8.16h-6.951V2.267h7.555L552.45,0H541.4V19.322h9.859L552.468,17h-8.783Z" transform="translate(-439.14)" fill="#8b8d8e"/>
+          <path id="Path_470" data-name="Path 470" d="M186.078,0l-6.2,13.788L174.348,1.681l-5.5,12.107L162.864,0h-3.721L155.8,7.385l1.247,2.758,3.834-8.462,7.971,17.641,5.5-12.126,5.534,12.126L188.571,0Z" transform="translate(-126.372)" fill="#8b8d8e"/>
+          <path id="Path_471" data-name="Path 471" d="M4.193,17.018,15.262,0H1.851L.812,2.267H11.068L0,19.285H15.243l1.02-2.267Z" fill="#8b8d8e"/>
+        </g>
+        <path id="Path_472" data-name="Path 472" d="M103.468,0H98.5l5.591,12.409L98.5,24.8h4.968L109.1,12.409Z" transform="translate(-79.895)" fill="#739600"/>
+      </g>
+      <g id="Group_8092" data-name="Group 8092">
+        <ellipse id="Ellipse_1" data-name="Ellipse 1" cx="18" cy="17.5" rx="18" ry="17.5" transform="translate(434 13)" fill="none"/>
+        <path id="Path_5694" data-name="Path 5694" d="M302.715,257.318l-4.678-4.678a5.945,5.945,0,0,0,1.029-4.584,6.054,6.054,0,0,0-5.239-4.959,6.109,6.109,0,0,0-1.871,12.069,6.469,6.469,0,0,0,4.585-1.029l4.678,4.678a1.018,1.018,0,0,0,1.4,0A1.143,1.143,0,0,0,302.715,257.318Zm-13.753-8.888a4.171,4.171,0,0,1,3.462-3.462,4.275,4.275,0,0,1,4.865,4.865,4.171,4.171,0,0,1-3.462,3.462A4.313,4.313,0,0,1,288.962,248.43Z" transform="translate(157.046 -221.052)" fill="#2777d3"/>
+      </g>
+      <g id="Group_8091" data-name="Group 8091" transform="translate(-12)">
+        <ellipse id="Ellipse_2" data-name="Ellipse 2" cx="18" cy="17.5" rx="18" ry="17.5" transform="translate(22 12)" fill="none"/>
+        <g id="Group_7747" data-name="Group 7747" transform="translate(16 6)">
+          <rect id="Rectangle_4038" data-name="Rectangle 4038" width="16" height="2" transform="translate(16 18)" fill="#5786bd"/>
+          <rect id="Rectangle_4039" data-name="Rectangle 4039" width="16" height="2" transform="translate(16 23)" fill="#5786bd"/>
+          <rect id="Rectangle_4040" data-name="Rectangle 4040" width="16" height="2" transform="translate(16 28)" fill="#5786bd"/>
+        </g>
+      </g>
+      <path id="Path_5695" data-name="Path 5695" d="M0,0H480V5H0Z" transform="translate(0 60)" fill="#2777d3"/>
+    </g>
+    <g id="Group_8113" data-name="Group 8113" transform="translate(0 -10)">
+      <g id="Group_8108" data-name="Group 8108" transform="translate(-426 88)">
+        <circle id="Ellipse_1-2" data-name="Ellipse 1" cx="15" cy="15" r="15" transform="translate(474 13)" fill="#d454a3"/>
+        <text id="_2" data-name="2" transform="translate(484 33)" fill="#fff" font-size="16" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="0">2</tspan></text>
+      </g>
+      <g id="Group_8109" data-name="Group 8109" transform="translate(-275 88)">
+        <circle id="Ellipse_1-3" data-name="Ellipse 1" cx="15" cy="15" r="15" transform="translate(474 13)" fill="#d454a3"/>
+        <text id="_1" data-name="1" transform="translate(484 33)" fill="#fff" font-size="16" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="0">1</tspan></text>
+      </g>
+      <g id="Group_8110" data-name="Group 8110" transform="translate(-71 88)">
+        <circle id="Ellipse_1-4" data-name="Ellipse 1" cx="15" cy="15" r="15" transform="translate(474 13)" fill="#d454a3"/>
+        <text id="_3" data-name="3" transform="translate(484 33)" fill="#fff" font-size="16" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="0">3</tspan></text>
+      </g>
+      <rect id="Rectangle_4071" data-name="Rectangle 4071" width="21" height="1" transform="translate(229 116)" fill="#d454a3"/>
+      <rect id="Rectangle_4075" data-name="Rectangle 4075" width="21" height="1" transform="translate(28 116)" fill="#d454a3"/>
+      <rect id="Rectangle_4073" data-name="Rectangle 4073" width="21" height="1" transform="translate(433 116)" fill="#d454a3"/>
+      <rect id="Rectangle_4072" data-name="Rectangle 4072" width="1" height="68" transform="translate(249 49)" fill="#d454a3"/>
+      <rect id="Rectangle_4076" data-name="Rectangle 4076" width="1" height="70" transform="translate(28 47)" fill="#d454a3"/>
+      <rect id="Rectangle_4074" data-name="Rectangle 4074" width="1" height="70" transform="translate(453 47)" fill="#d454a3"/>
+    </g>
+  </g>
+</svg>

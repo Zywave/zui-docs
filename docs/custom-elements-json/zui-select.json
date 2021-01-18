@@ -133,6 +133,10 @@
           "default": "false"
         },
         {
+          "name": "selectedIndex",
+          "type": "number"
+        },
+        {
           "name": "form",
           "type": "HTMLFormElement | null"
         },
