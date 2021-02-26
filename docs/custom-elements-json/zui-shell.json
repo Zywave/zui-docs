@@ -494,6 +494,25 @@
       ]
     },
     {
+      "name": "zui-shell-content-actionbar",
+      "path": "./..\\src\\zui-shell-content-actionbar.ts",
+      "attributes": [
+        {
+          "name": "header",
+          "type": "string",
+          "default": "\"\""
+        }
+      ],
+      "properties": [
+        {
+          "name": "header",
+          "attribute": "header",
+          "type": "string",
+          "default": "\"\""
+        }
+      ]
+    },
+    {
       "name": "zui-shell-user",
       "path": "./..\\src\\zui-shell-user.ts",
       "description": "Topbar feature that encompasses information about the User Principle, User Profile, impersonation, and notifications.",

@@ -26,8 +26,7 @@
     </clipPath>
   </defs>
   <g id="dialog_Minimum_Height" clip-path="url(#clip-dialog_Minimum_Height)">
-    <rect width="538" height="368" fill="rgba(0,0,0,0.6)"/>
-    <path id="Path_5553" data-name="Path 5553" d="M752.445,29.521a2,2,0,0,1-2.823,2.824l-4.572-4.571-4.571,4.571a2,2,0,0,1-2.824-2.824l4.572-4.571-4.572-4.571a2,2,0,0,1,2.824-2.824l4.571,4.571,4.572-4.571a2,2,0,0,1,2.823,2.824l-4.571,4.571Z" transform="translate(-235.05 0.05)" fill="#fff"/>
+    <rect width="514" height="368" fill="rgba(0,0,0,0.6)"/>
     <g id="Group_7690" data-name="Group 7690" transform="translate(-383 -96)">
       <g transform="matrix(1, 0, 0, 1, 383, 96)" filter="url(#Rectangle_3883)">
         <rect id="Rectangle_3883-2" data-name="Rectangle 3883" width="475" height="297" transform="translate(19 39)" fill="#fff"/>

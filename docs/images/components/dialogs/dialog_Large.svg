@@ -39,8 +39,6 @@
           <rect id="Rectangle_3880-2" data-name="Rectangle 3880" width="875" height="500" transform="translate(29 118)" fill="#f7b6e6"/>
         </g>
       </g>
-      <circle id="Ellipse_1" data-name="Ellipse 1" cx="21" cy="21" r="21" transform="translate(1073 100)" fill="#dfdfdf" opacity="0.34"/>
-      <path id="Path_5553" data-name="Path 5553" d="M752.445,29.521a2,2,0,0,1-2.823,2.824l-4.572-4.571-4.571,4.571a2,2,0,0,1-2.824-2.824l4.572-4.571-4.572-4.571a2,2,0,0,1,2.824-2.824l4.571,4.571,4.572-4.571a2,2,0,0,1,2.823,2.824l-4.571,4.571Z" transform="translate(348.95 96.05)" fill="#fff"/>
       <rect id="Rectangle_3856" data-name="Rectangle 3856" width="450" height="37.5" transform="translate(302 163)" fill="none"/>
       <rect id="Rectangle_3864" data-name="Rectangle 3864" width="815" height="440" transform="translate(233 165)" fill="#fff"/>
       <rect id="Rectangle_3874" data-name="Rectangle 3874" width="815" height="323" transform="translate(233 216)" fill="#fcf8e5"/>

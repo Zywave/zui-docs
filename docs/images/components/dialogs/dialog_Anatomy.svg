@@ -34,10 +34,6 @@
         <rect id="Rectangle_3880-2" data-name="Rectangle 3880" width="475" height="350" transform="translate(45 86)" fill="#f7b6e6"/>
       </g>
     </g>
-    <g id="Group_7683" data-name="Group 7683" transform="translate(78 108)">
-      <circle id="Ellipse_1" data-name="Ellipse 1" cx="21" cy="21" r="21" transform="translate(795 100)" fill="#dfdfdf" opacity="0.34"/>
-      <path id="Path_5553" data-name="Path 5553" d="M752.445,29.521a2,2,0,0,1-2.823,2.824l-4.572-4.571-4.571,4.571a2,2,0,0,1-2.824-2.824l4.572-4.571-4.572-4.571a2,2,0,0,1,2.824-2.824l4.571,4.571,4.572-4.571a2,2,0,0,1,2.823,2.824l-4.571,4.571Z" transform="translate(70.95 96.05)" fill="#fff"/>
-    </g>
     <rect id="Rectangle_3864" data-name="Rectangle 3864" width="415" height="290" transform="translate(432 272)" fill="#fff"/>
     <text id="Headline_Title" data-name="Headline Title" transform="translate(432.3 300)" fill="#3d3d3d" font-size="26" font-family="OpenSans-Semibold, Open Sans" font-weight="600"><tspan x="0" y="0">Headline Title</tspan></text>
     <rect id="Rectangle_3878" data-name="Rectangle 3878" width="415" height="173" transform="translate(432 323)" fill="#fcf8e5"/>

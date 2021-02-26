@@ -22,7 +22,7 @@
       <feComposite in="SourceGraphic"/>
     </filter>
     <clipPath id="clip-dialog_Padding_Viewport">
-      <rect width="731" height="116"/>
+      <rect width="710" height="116"/>
     </clipPath>
   </defs>
   <g id="dialog_Padding_Viewport" clip-path="url(#clip-dialog_Padding_Viewport)">
@@ -49,6 +49,5 @@
     </g>
     <rect id="Rectangle_3872-2" data-name="Rectangle 3872" width="1" height="1000" transform="translate(678 36)" fill="#ff00bc"/>
     <rect id="Rectangle_3873-2" data-name="Rectangle 3873" width="5" height="1" transform="translate(676 36)" fill="#ff00bc"/>
-    <path id="Path_5553" data-name="Path 5553" d="M752.445,29.521a2,2,0,0,1-2.823,2.824l-4.572-4.571-4.571,4.571a2,2,0,0,1-2.824-2.824l4.572-4.571-4.572-4.571a2,2,0,0,1,2.824-2.824l4.571,4.571,4.572-4.571a2,2,0,0,1,2.823,2.824l-4.571,4.571Z" transform="translate(-36.05 -3.95)" fill="#fff"/>
   </g>
 </svg>
