@@ -151,6 +151,10 @@
         {
           "name": "readOnly",
           "type": "boolean"
+        },
+        {
+          "name": "autofocus",
+          "type": "boolean"
         }
       ],
       "events": [
@@ -321,6 +325,10 @@
         },
         {
           "name": "readOnly",
+          "type": "boolean"
+        },
+        {
+          "name": "autofocus",
           "type": "boolean"
         }
       ],

@@ -14,26 +14,14 @@
         },
         {
           "name": "value",
-          "description": "Apply a filled in text value",
-          "type": "string | undefined",
-          "default": "\"undefined\""
+          "description": "Represents the value of the search input box. Can be set to a default value, and will reflect the value provided by the user when interactive with the control",
+          "type": "string"
         },
         {
           "name": "no-submit",
           "description": "Hide the submit button",
           "type": "boolean",
           "default": "false"
-        },
-        {
-          "name": "disabled",
-          "description": "Disable the search field and submit button",
-          "type": "boolean",
-          "default": "false"
-        },
-        {
-          "name": "title",
-          "type": "string",
-          "default": "\"Search\""
         }
       ],
       "properties": [
@@ -47,9 +35,8 @@
         {
           "name": "value",
           "attribute": "value",
-          "description": "Apply a filled in text value",
-          "type": "string | undefined",
-          "default": "\"undefined\""
+          "description": "Represents the value of the search input box. Can be set to a default value, and will reflect the value provided by the user when interactive with the control",
+          "type": "string"
         },
         {
           "name": "noSubmit",
@@ -59,17 +46,24 @@
           "default": "false"
         },
         {
-          "name": "disabled",
-          "attribute": "disabled",
-          "description": "Disable the search field and submit button",
-          "type": "boolean",
-          "default": "false"
+          "name": "form",
+          "type": "HTMLFormElement | null"
         },
         {
-          "name": "title",
-          "attribute": "title",
-          "type": "string",
-          "default": "\"Search\""
+          "name": "name",
+          "type": "string | null"
+        },
+        {
+          "name": "disabled",
+          "type": "boolean"
+        },
+        {
+          "name": "readOnly",
+          "type": "boolean"
+        },
+        {
+          "name": "autofocus",
+          "type": "boolean"
         }
       ],
       "events": [

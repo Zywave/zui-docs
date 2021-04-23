@@ -95,6 +95,10 @@
         {
           "name": "readOnly",
           "type": "boolean"
+        },
+        {
+          "name": "autofocus",
+          "type": "boolean"
         }
       ],
       "events": [
@@ -148,7 +152,7 @@
       "properties": [
         {
           "name": "files",
-          "type": "FileList | File[]"
+          "type": "FileList"
         },
         {
           "name": "buttonText",
@@ -194,6 +198,10 @@
         },
         {
           "name": "readOnly",
+          "type": "boolean"
+        },
+        {
+          "name": "autofocus",
           "type": "boolean"
         }
       ],

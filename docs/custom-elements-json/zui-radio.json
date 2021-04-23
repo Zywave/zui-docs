@@ -58,6 +58,10 @@
         {
           "name": "readOnly",
           "type": "boolean"
+        },
+        {
+          "name": "autofocus",
+          "type": "boolean"
         }
       ],
       "events": [

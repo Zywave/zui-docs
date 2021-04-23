@@ -69,6 +69,66 @@
       ]
     },
     {
+      "name": "zui-fab",
+      "path": "./..\\src\\zui-floating-action-button.ts",
+      "description": "`zui-fab`'s main use is for slotting in an icon or graphic into a `zui-button`; good example would be our floating chat assistance button, pinned to the bottom right of some of our apps.",
+      "attributes": [
+        {
+          "name": "disabled",
+          "description": "Use this attribute when you want to disable `<zui-fab>`",
+          "type": "boolean",
+          "default": "false"
+        }
+      ],
+      "properties": [
+        {
+          "name": "disabled",
+          "attribute": "disabled",
+          "description": "Use this attribute when you want to disable `<zui-fab>`",
+          "type": "boolean",
+          "default": "false"
+        }
+      ],
+      "slots": [
+        {
+          "name": "",
+          "description": "Unnamed slot, pass in: an icon, `<zui-icon>` or `<svg>`"
+        }
+      ],
+      "cssProperties": [
+        {
+          "name": "--zui-button-color",
+          "description": "Default button background color",
+          "default": "\"var(--zui-blue)\""
+        },
+        {
+          "name": "--zui-button-text-color",
+          "description": "Default button text color, will cause `svg`s to inherit this color unless specified otherwise",
+          "default": "\"#fff\""
+        },
+        {
+          "name": "--zui-button-hover-color",
+          "description": "Hover and focus button background color",
+          "default": "\"var(--zui-blue-400)\""
+        },
+        {
+          "name": "--zui-button-active-color",
+          "description": "Active button background color",
+          "default": "\"var(--zui-blue-400)\""
+        },
+        {
+          "name": "--zui-floating-action-button-icon-color",
+          "description": "Inherits `#fff` value from `--zui-button-text-color`, can override this value or CSS prop this inherits",
+          "default": "\"#fff\""
+        },
+        {
+          "name": "--zui-button-icon-size",
+          "description": "If using `<zui-icon>` it will take this size as width and height",
+          "default": "\"rem(24)\""
+        }
+      ]
+    },
+    {
       "name": "zui-button-group",
       "path": "./..\\src\\zui-button-group.ts"
     },
