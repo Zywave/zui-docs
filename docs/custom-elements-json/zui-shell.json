@@ -114,6 +114,10 @@
         {
           "name": "user",
           "description": "For slotting in `<zui-shell-user>`"
+        },
+        {
+          "name": "help",
+          "description": "For slotting in `<zui-shell-help>`"
         }
       ],
       "cssProperties": [
@@ -509,6 +513,46 @@
           "attribute": "header",
           "type": "string",
           "default": "\"\""
+        }
+      ]
+    },
+    {
+      "name": "zui-shell-help",
+      "path": "./..\\src\\zui-shell-help.ts",
+      "description": "DO NOT USE. This component will be massively reworked in a future release. Only to be used by <zywave-shell>\r\nA component to help render standardized help actions.",
+      "attributes": [
+        {
+          "name": "help-header",
+          "type": "string | null"
+        },
+        {
+          "name": "icon",
+          "type": "string",
+          "default": "\"zui-nav-help\""
+        },
+        {
+          "name": "open",
+          "type": "boolean",
+          "default": "false"
+        }
+      ],
+      "properties": [
+        {
+          "name": "helpHeader",
+          "attribute": "help-header",
+          "type": "string | null"
+        },
+        {
+          "name": "icon",
+          "attribute": "icon",
+          "type": "string",
+          "default": "\"zui-nav-help\""
+        },
+        {
+          "name": "open",
+          "attribute": "open",
+          "type": "boolean",
+          "default": "false"
         }
       ]
     },
