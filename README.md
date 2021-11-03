@@ -1,5 +1,5 @@
 # zui-docs
 
-https://zui.zywave.com
+## ARCHIVED
 
-A clone of the auto-generated ZUI documentation site. Do not make changes directly to this code.
+This repo is no longer maintained. Documentation for Zywave's design system has moved: https://github.com/Zywave/booster.
